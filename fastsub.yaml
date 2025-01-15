@@ -1,11 +1,34 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 1720
-      name: 韩国 - Seongnam-si - Korea Telecom - 6
+      delay: 2858
+      name: 韩国 - Seongnam-si - Korea Telecom - 4
       password: qwerREWQ@@
-      port: 10113
-      server: p240.panda004.net
+      port: 38370
+      server: p236.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1429
+      name: 韩国 - Goyang-si - Korea Telecom - 8
+      password: qwerREWQ@@
+      port: 6072
+      server: p226.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2121
+      name: 韩国 - Jowon-dong - Korea Telecom - 1
+      password: qwerREWQ@@
+      port: 61238
+      server: p231.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1753
+      name: 韩国 - Gwanak-gu - Korea Telecom - 2
+      password: qwerREWQ@@
+      port: 8704
+      server: p229.panda004.net
       type: ss
     - delay: 1480
       http-opts:
@@ -37,3 +60,10 @@ proxies:
       type: vless
       udp: true
       uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - cipher: aes-256-cfb
+      delay: 1720
+      name: 韩国 - Seongnam-si - Korea Telecom - 6
+      password: qwerREWQ@@
+      port: 10113
+      server: p240.panda004.net
+      type: ss
