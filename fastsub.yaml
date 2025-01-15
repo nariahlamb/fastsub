@@ -1,15 +1,5 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1468
-      name: 美国 - 西雅圖 - HostPapa - 1
-      password: fdd37849-e66c-464d-8b1c-56a1a16e05bf
-      port: 443
-      server: 96.8.121.166
-      skip-cert-verify: true
-      sni: rnus.goudan.world
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
       delay: 1753
       name: 韩国 - Gwanak-gu - Korea Telecom - 2
@@ -33,18 +23,19 @@ proxies:
       server: p230.panda004.net
       type: ss
     - cipher: aes-256-cfb
-      delay: 1532
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 54.169.246.29
+      delay: 1037
+      name: 韩国 - Seongnam-si - Korea Telecom - 9
+      password: qwerREWQ@@
+      port: 15041
+      server: p239.panda004.net
       type: ss
     - cipher: aes-256-cfb
-      delay: 1720
-      name: 韩国 - Seongnam-si - Korea Telecom - 6
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 1429
+      name: 韩国 - Goyang-si - Korea Telecom - 8
       password: qwerREWQ@@
-      port: 10113
-      server: p240.panda004.net
+      port: 6072
+      server: p226.panda004.net
       type: ss
     - delay: 1480
       http-opts:
