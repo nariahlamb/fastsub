@@ -1,27 +1,11 @@
 proxy-providers: {}
 proxies:
-    - delay: 1480
-      http-opts:
-        headers:
-            Host:
-                - speedtest.net
-        method: GET
-        path:
-            - /
-      name: 德国 - 莱比锡 - Cloudflare, Inc. - 2
-      network: http
-      port: 80
-      server: 2na9noed62ec.dopraxrocks.com
-      servername: speedtest.net
-      tls: false
-      type: vless
-      uuid: 01b12c3c-4d96-45c3-88ef-f1360804d7b0
     - cipher: aes-256-cfb
-      delay: 1753
-      name: 韩国 - Gwanak-gu - Korea Telecom - 2
+      delay: 1426
+      name: 韩国 - Jowon-dong - Korea Telecom - 5
       password: qwerREWQ@@
-      port: 8704
-      server: p229.panda004.net
+      port: 21238
+      server: p230.panda004.net
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F0\U0001F1F7KR"
@@ -31,17 +15,32 @@ proxies:
       port: 61238
       server: p231.panda004.net
       type: ss
-    - client-fingerprint: safari
-      delay: 1872
-      name: 美国 - 凤凰城 - Oracle Corporation - 4
-      network: tcp
-      port: 18443
-      reality-opts:
-        public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s
-        short-id: e6658462
-      server: phx-plus-1ddns.faforex.eu.org
-      servername: www.tesla.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 311faab5-5e89-4f41-b2a4-ca4452508cc6
+    - cipher: aes-256-cfb
+      delay: 1753
+      name: 韩国 - Gwanak-gu - Korea Telecom - 2
+      password: qwerREWQ@@
+      port: 8704
+      server: p229.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2858
+      name: 韩国 - Seongnam-si - Korea Telecom - 4
+      password: qwerREWQ@@
+      port: 38370
+      server: p236.panda004.net
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2144
+      name: 韩国 - Gwanak-gu - SK Broadband Co Ltd - 7
+      password: qwerREWQ@@
+      port: 22081
+      server: p110.panda001.net
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1037
+      name: 韩国 - Seongnam-si - Korea Telecom - 9
+      password: qwerREWQ@@
+      port: 15041
+      server: p239.panda004.net
+      type: ss
