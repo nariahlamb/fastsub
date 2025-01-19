@@ -1,211 +1,306 @@
 proxy-providers: {}
 proxies:
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 900
+      name: 美国 - 洛杉矶 - intercontinental internet data corp - 8
+      password: 82667668-4bfd-4906-ab31-c2745d0de78e
+      port: 6115
+      server: t25.emovpn.buzz
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1706
+      name: 美国 - 洛杉矶 - intercontinental internet data corp - 9
+      password: 82667668-4bfd-4906-ab31-c2745d0de78e
+      port: 3109
+      server: t24.emovpn.buzz
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1288
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 18
+      password: amazonskr05
+      port: 443
+      server: 54.187.174.202
+      type: ss
+      udp: true
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 2199
+      delay: 1299
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 成都 - PEG TECH INC - 1
+      name: 美国 - 洛杉矶 - Sharktech - 7
       network: ws
-      port: 37004
-      server: 108.186.26.168
-      servername: www.93976091.xyz
+      port: 30000
+      server: 64.32.9.188
       skip-cert-verify: true
       tls: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
+        path: /path/181721272114
+    - cipher: aes-256-cfb
+      delay: 673
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 35.165.138.69
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2970
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 費利蒙 - Akamai Technologies, Inc. - 1
+      network: ws
+      port: 443
+      server: 96.126.102.150
+      servername: s1.datasheetserver.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
+      ws-opts:
         headers:
-            HOST: www.93976091.xyz
-        path: /path/1737106641750
+            HOST: s1.datasheetserver.com
+        path: /datasheet
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1401
+      h2-opts: {}
+      http-opts: {}
+      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
+      network: ws
+      port: 443
+      server: 15.235.83.228
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        headers:
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /linkvws
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 2639
+      delay: 1342
       h2-opts: {}
       http-opts: {}
       name: 美国 - 聖荷西 - PEG TECH INC - 3
       network: ws
-      port: 38003
-      server: 192.74.242.243
-      servername: www.62813234.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.62813234.xyz
-        path: /path/1737106641750
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1497
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 2
-      network: ws
       port: 31005
-      server: 38.11.50.70
-      servername: www.65420682.xyz
+      server: 38.11.50.81
       skip-cert-verify: true
       tls: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
-        headers:
-            HOST: www.65420682.xyz
-        path: /path/1737106641750
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2894
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 8
-      network: ws
-      port: 31005
-      server: 38.11.50.69
-      servername: www.65420682.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.65420682.xyz
-        path: /path/1736415675034
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1138
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 成都 - PEG TECH INC - 2
-      network: ws
-      port: 31004
-      server: 199.188.105.58
-      servername: www.46554484.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.46554484.xyz
-        path: /path/1737106641750
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 829
-      name: 韩国 - Jowon-dong - Korea Telecom - 2
-      password: qwerREWQ@@
-      port: 61238
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 816
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1004
-      name: 韩国 - Jowon-dong - Korea Telecom - 9
-      password: qwerREWQ@@
-      port: 59686
-      server: p232.panda004.net
-      type: ss
-    - cipher: rc4-md5
-      delay: 2797
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.45
-      type: ss
-    - cipher: rc4-md5
-      delay: 2432
-      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.236
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1645
-      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2628
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 东营市 - PEG TECH INC - 3
-      network: tcp
-      port: 45017
-      server: 137.175.20.84
-      skip-cert-verify: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - delay: 1987
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
-      network: ws
-      port: 80
-      server: 141.101.122.107
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+        path: /path/1731490899984
     - alterId: 0
       cipher: auto
-      delay: 925
+      country: "\U0001F3C1ZZ"
+      delay: 2517
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 10
+      name: 美国 - 洛杉矶 - HostPapa - 17
       network: ws
       port: 8880
-      server: s2.db-link02.top
+      server: s1.db-link01.top
+      servername: 100-250-32-53.s1.db-link01.top
       skip-cert-verify: true
       type: vmess
       uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: 100-9-89-92.s2.db-link02.top
-        path: /dabai.in104.24.114.165
-    - delay: 1542
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 35
+            HOST: 100-250-32-53.s1.db-link01.top
+        path: /dabai.in172.67.95.35
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2379
+      name: 日本 - 大阪市 - Akamai Technologies, Inc. - 3
+      password: 82667668-4bfd-4906-ab31-c2745d0de78e
+      port: 4534
+      server: t2.emovpn.buzz
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1177
+      h2-opts: {}
+      http-opts: {}
+      name: 英国 - Slough - DigitalOcean, LLC - 3
       network: ws
-      port: 80
-      server: 141.101.121.87
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      port: 1360
+      server: 134.122.101.173
+      servername: v60.emovpn.buzz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
       ws-opts:
         headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-    - cipher: chacha20-ietf-poly1305
-      delay: 2049
-      name: 奥地利 - 維也納 - Stark Industries Solutions LTD - 2
-      password: ZmQwZjFk
-      port: 8388
-      server: at1.opensocks.site
+            HOST: v60.emovpn.buzz
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 1626
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 2
+      network: http
+      port: 2082
+      server: 64.225.109.206
+      skip-cert-verify: true
+      type: vmess
+      uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EC\U0001F1E7GB"
+      delay: 1175
+      h2-opts: {}
+      http-opts: {}
+      name: 英国 - Slough - DigitalOcean, LLC - 2
+      network: ws
+      port: 2218
+      server: 134.122.101.173
+      servername: v61.emovpn.buzz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+      ws-opts:
+        headers:
+            HOST: v61.emovpn.buzz
+        path: /
+    - cipher: aes-256-cfb
+      delay: 826
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
       type: ss
-    - delay: 1333
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 21
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1E6UA"
+      delay: 1686
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hytron Network Services Limited - 5
+      network: ws
+      port: 3110
+      server: v13.emovpn.buzz
+      servername: pull.free.video.10010.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+      ws-opts:
+        headers:
+            HOST: pull.free.video.10010.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1E6UA"
+      delay: 1410
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hytron Network Services Limited - 3
+      network: ws
+      port: 1336
+      server: 89.185.31.75
+      servername: v21.emovpn.buzz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+      ws-opts:
+        headers:
+            HOST: v21.emovpn.buzz
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1E6UA"
+      delay: 1481
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hytron Network Services Limited - 7
+      network: ws
+      port: 1452
+      server: v17.emovpn.buzz
+      servername: pull.free.video.10010.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+      ws-opts:
+        headers:
+            HOST: pull.free.video.10010.com
+        path: /
+    - country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1917
+      name: 新加坡 - 新加坡 - DigitalOcean, LLC - 5
+      password: 82667668-4bfd-4906-ab31-c2745d0de78e
+      port: 1343
+      server: t5.emovpn.buzz
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1297
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 6
       network: ws
       port: 80
-      server: 198.41.216.118
+      server: 23.94.243.79
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        path: /dabai.in104.20.27.115
+    - cipher: aes-256-cfb
+      delay: 2100
+      name: 韩国 - Seongnam-si - Korea Telecom - 1
+      password: qwerREWQ@@
+      port: 37041
+      server: 121.170.203.147
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1555
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - Kaopu Cloud HK Limited - 5
+      network: ws
+      port: 2053
+      server: 38.54.94.122
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+      ws-opts:
+        path: /L0229-16
+    - delay: 1654
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
+      network: ws
+      port: 80
+      server: 198.41.205.44
       servername: a.mifeng.us.kg
       tls: false
       type: vless
@@ -213,4 +308,95 @@ proxies:
       ws-opts:
         headers:
             Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
+        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
+    - delay: 1675
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 46
+      network: ws
+      port: 80
+      server: 198.41.209.27
+      servername: a.mifeng.us.kg
+      tls: false
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1867
+      h2-opts: {}
+      http-opts: {}
+      name: 俄罗斯 - 圣彼得堡 - LLC Baxet - 41
+      network: ws
+      port: 17926
+      server: 194.87.69.52
+      skip-cert-verify: true
+      type: vmess
+      uuid: 72bfcd54-f969-4d9a-9891-0a985666b3ee
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1706
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - Boydton - Microsoft Corporation - 16
+      network: ws
+      port: 443
+      server: 104.21.81.115
+      servername: northflank.107421.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: de04add9-5c68-8bab-950c-08cd5320df18
+      ws-opts:
+        headers:
+            HOST: northflank.107421.xyz
+        path: /vmess
+    - delay: 1826
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 42
+      network: ws
+      port: 443
+      server: 192.0.54.235
+      servername: mmdserver.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+      ws-opts:
+        headers:
+            Host: mmdserver.us.kg
+        path: /?ed=2048
+    - delay: 1188
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 48
+      network: ws
+      port: 443
+      server: 138.2.227.164
+      servername: mmdserver.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+      ws-opts:
+        headers:
+            Host: mmdserver.us.kg
+        path: /?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 796
+      name: 法国 - 维莱克雷纳 - Online S.A.S. - 1
+      password: jGvcz2WOerjzXuhKNqRIux
+      port: 443
+      server: 62.210.88.22
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 904
+      name: 英国 - 伦敦 - Aeza International LTD - 4
+      password: alvoItFsbmpCKl8pO6loEC
+      port: 11329
+      server: 109.120.186.231
+      type: ss
+      udp: true
