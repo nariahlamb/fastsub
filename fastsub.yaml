@@ -55,12 +55,11 @@ proxies:
             HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
         path: /linkvws
     - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 2795
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 18.183.126.48
+      delay: 826
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
       type: ss
     - alterId: 0
       cipher: auto
@@ -81,14 +80,22 @@ proxies:
         headers:
             HOST: northflank.107421.xyz
         path: /vmess
-    - cipher: chacha20-ietf-poly1305
-      delay: 703
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 45.158.171.110
-      type: ss
-      udp: true
+    - alterId: 0
+      cipher: auto
+      delay: 1693
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 15
+      network: ws
+      port: 2082
+      server: s2.db-link01.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-253-20-251.s2.db-link01.top
+        path: /dabai.in172.67.61.61
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -118,16 +125,29 @@ proxies:
         headers:
             Host: a.mifeng.us.kg
         path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-    - delay: 1675
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 46
+    - cipher: aes-256-cfb
+      delay: 2100
+      name: 韩国 - Seongnam-si - Korea Telecom - 1
+      password: qwerREWQ@@
+      port: 37041
+      server: 121.170.203.147
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2517
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 17
       network: ws
-      port: 80
-      server: 198.41.209.27
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      port: 8880
+      server: s1.db-link01.top
+      servername: 100-250-32-53.s1.db-link01.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
+            HOST: 100-250-32-53.s1.db-link01.top
+        path: /dabai.in172.67.95.35
