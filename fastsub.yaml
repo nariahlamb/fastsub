@@ -2,41 +2,6 @@ proxy-providers: {}
 proxies:
     - alterId: 0
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2970
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 費利蒙 - Akamai Technologies, Inc. - 1
-      network: ws
-      port: 443
-      server: 96.126.102.150
-      servername: s1.datasheetserver.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
-      ws-opts:
-        headers:
-            HOST: s1.datasheetserver.com
-        path: /datasheet
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1342
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 3
-      network: ws
-      port: 31005
-      server: 38.11.50.81
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        path: /path/1731490899984
-    - alterId: 0
-      cipher: auto
       country: "\U0001F1E8\U0001F1E6CA"
       delay: 1401
       h2-opts: {}
@@ -54,32 +19,6 @@ proxies:
         headers:
             HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
         path: /linkvws
-    - cipher: aes-256-cfb
-      delay: 826
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1706
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - Boydton - Microsoft Corporation - 16
-      network: ws
-      port: 443
-      server: 104.21.81.115
-      servername: northflank.107421.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: de04add9-5c68-8bab-950c-08cd5320df18
-      ws-opts:
-        headers:
-            HOST: northflank.107421.xyz
-        path: /vmess
     - alterId: 0
       cipher: auto
       delay: 1693
@@ -99,40 +38,45 @@ proxies:
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1555
+      delay: 994
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 洛杉矶 - Kaopu Cloud HK Limited - 5
+      name: 美国 - 洛杉矶 - HostPapa - 19
       network: ws
-      port: 2053
-      server: 38.54.94.122
+      port: 443
+      server: 23.94.243.79
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
-      ws-opts:
-        path: /L0229-16
-    - delay: 1932
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
-      network: ws
-      port: 80
-      server: 198.41.216.118
-      servername: a.mifeng.us.kg
-      tls: false
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: a.mifeng.us.kg
-        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
-    - cipher: aes-256-cfb
-      delay: 2100
-      name: 韩国 - Seongnam-si - Korea Telecom - 1
-      password: qwerREWQ@@
-      port: 37041
-      server: 121.170.203.147
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.20.27.115
+    - cipher: chacha20-ietf-poly1305
+      delay: 703
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.158.171.110
       type: ss
       udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1297
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 6
+      network: ws
+      port: 80
+      server: 23.94.243.79
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        path: /dabai.in104.20.27.115
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -151,3 +95,188 @@ proxies:
         headers:
             HOST: 100-250-32-53.s1.db-link01.top
         path: /dabai.in172.67.95.35
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 1626
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 2
+      network: http
+      port: 2082
+      server: 64.225.109.206
+      skip-cert-verify: true
+      type: vmess
+      uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1798
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - Frankfurt - GTHost - 5
+      network: ws
+      port: 443
+      server: 23.158.56.241
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        headers:
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /linkvws
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1342
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 3
+      network: ws
+      port: 31005
+      server: 38.11.50.81
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/1731490899984
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2970
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 費利蒙 - Akamai Technologies, Inc. - 1
+      network: ws
+      port: 443
+      server: 96.126.102.150
+      servername: s1.datasheetserver.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
+      ws-opts:
+        headers:
+            HOST: s1.datasheetserver.com
+        path: /datasheet
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1635
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 4
+      network: ws
+      port: 80
+      server: 107.174.34.6
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        path: /dabai.in172.64.19.172
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1706
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - Boydton - Microsoft Corporation - 16
+      network: ws
+      port: 443
+      server: 104.21.81.115
+      servername: northflank.107421.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: de04add9-5c68-8bab-950c-08cd5320df18
+      ws-opts:
+        headers:
+            HOST: northflank.107421.xyz
+        path: /vmess
+    - cipher: aes-256-cfb
+      delay: 826
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1616
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 14
+      network: ws
+      port: 2052
+      server: s2.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-252-79-9.s2.cn-db.top
+        path: /dabai.in104.17.31.68
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2795
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 18.183.126.48
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1555
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - Kaopu Cloud HK Limited - 5
+      network: ws
+      port: 2053
+      server: 38.54.94.122
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 2ca8b9c3-a2c7-4f3e-b3f4-acd85525ace1
+      ws-opts:
+        path: /L0229-16
+    - delay: 1675
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 46
+      network: ws
+      port: 80
+      server: 198.41.209.27
+      servername: a.mifeng.us.kg
+      tls: false
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed
+    - delay: 2127
+      name: 德国 - 德赖艾希 - Cloudflare, Inc. - 9
+      network: ws
+      port: 443
+      server: 138.3.240.63
+      servername: mmdserver.us.kg
+      tls: true
+      type: vless
+      udp: true
+      uuid: 41abecd9-8096-4142-a75c-4e1d36d990bd
+      ws-opts:
+        headers:
+            Host: mmdserver.us.kg
+        path: /?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      delay: 1360
+      name: 拉脱维亚 - 里加 - DataClub S.A. - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 46.183.217.232
+      type: ss
