@@ -14,19 +14,6 @@ proxies:
       port: 989
       server: 62.100.205.48
       type: ss
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      delay: 2581
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 东营市 - PEG TECH INC - 5
-      network: tcp
-      port: 45017
-      server: 142.0.134.242
-      skip-cert-verify: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - cipher: aes-256-cfb
       delay: 773
       name: 瑞士 - 苏黎世 - DataCamp Limited - 1
@@ -41,6 +28,19 @@ proxies:
       port: 989
       server: 156.146.40.194
       type: ss
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 2581
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 东营市 - PEG TECH INC - 5
+      network: tcp
+      port: 45017
+      server: 142.0.134.242
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - delay: 613
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
       network: ws
