@@ -8,13 +8,6 @@ proxies:
       server: 194.5.215.59
       type: ss
     - cipher: aes-256-cfb
-      delay: 2906
-      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 62.100.205.48
-      type: ss
-    - cipher: aes-256-cfb
       delay: 773
       name: 瑞士 - 苏黎世 - DataCamp Limited - 1
       password: f8f7aCzcPKbsF8p3
@@ -41,15 +34,10 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - delay: 613
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
-      network: ws
-      port: 2052
-      server: 104.17.147.22
-      servername: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-      type: vless
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: freev2rng---freev2rng---freev2rng---freev2rng---freev2rng.s88p4jh.workers.dev
-        path: /WG9SqpThFFMyTenz?ed=2560
+    - cipher: aes-256-cfb
+      delay: 2906
+      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 62.100.205.48
+      type: ss
