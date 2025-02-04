@@ -21,3 +21,15 @@ proxies:
       port: 989
       server: 156.146.40.194
       type: ss
+    - delay: 758
+      name: 英国 - 豪恩斯洛 - Cloudflare, Inc. - 3
+      network: ws
+      port: 80
+      server: 104.21.30.21
+      tls: false
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: a.mifeng.us.kg
+        path: /telegram-_-_-_-_-__-free_shekan-_-_-_-/?ed=2048
