@@ -1,5 +1,12 @@
 proxy-providers: {}
 proxies:
+    - delay: 2251
+      name: 美国 - Ashburn - Amazon.com - 2
+      password: 65086520307764900
+      port: 443
+      server: arriving-longhorn.shiner427.skin
+      skip-cert-verify: true
+      type: trojan
     - delay: 1237
       name: 美国 - Ashburn - Amazon.com - 4
       password: 65086520307764900
@@ -9,27 +16,49 @@ proxies:
       sni: arriving-longhorn.shiner427.skin
       type: trojan
       udp: true
-    - delay: 2251
-      name: 美国 - Ashburn - Amazon.com - 2
-      password: 65086520307764900
+    - client-fingerprint: chrome
+      delay: 1055
+      name: 美国 - 阿瓦達 - OVH US LLC - 25
       port: 443
-      server: arriving-longhorn.shiner427.skin
+      server: 135.148.14.5
+      servername: 147135001178.sec22org.com
       skip-cert-verify: true
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 704
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 35.91.132.50
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1555
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.201.102.200
-      type: ss
+      tls: true
+      type: vless
+      udp: true
+      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    - alterId: 0
+      cipher: auto
+      delay: 2715
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 9
+      network: ws
+      port: 80
+      server: s2.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-154-87-93.s2.cn-db.top
+        path: /dabai.in104.20.88.75
+    - alterId: 0
+      cipher: auto
+      delay: 2137
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 8
+      network: ws
+      port: 2052
+      server: s2.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-252-79-9.s2.cn-db.top
+        path: /dabai.in104.17.31.68
     - cipher: aes-128-gcm
       country: "\U0001F1FA\U0001F1F8US"
       delay: 733
@@ -38,41 +67,50 @@ proxies:
       port: 443
       server: 149.34.244.72
       type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1246
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 2
-      network: ws
-      port: 2083
-      server: 91.107.166.68
-      tls: false
-      type: vmess
-      uuid: 5016d935-aacb-4ac3-987c-a306afeed4c4
-      ws-opts:
-        path: /
-    - delay: 2109
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      password: 65086520307764900
-      port: 443
-      server: dynamic-shrew.shiner427.skin
-      type: trojan
-    - country: "\U0001F1F8\U0001F1ECSG"
-      delay: 1231
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 14
-      password: "65086520307764900"
-      port: 443
-      server: 18.139.61.105
-      skip-cert-verify: true
-      sni: dynamic-shrew.shiner427.skin
-      type: trojan
-      udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 420
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 11
+      delay: 1548
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
+      obfs: plain
+      obfs-param: ""
       password: amazonskr05
       port: 443
-      server: 47.129.207.193
+      protocol: origin
+      protocol-param: ""
+      server: 34.219.5.41
+      type: ssr
+    - cipher: aes-256-cfb
+      delay: 2994
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      obfs: plain
+      obfs-param: ""
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      protocol-param: ""
+      server: 54.190.43.178
+      type: ssr
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 2367
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 3.34.123.239
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 887
+      name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 103.106.229.219
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 461
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 13.229.128.74
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
@@ -92,6 +130,13 @@ proxies:
       tfo: false
       type: ss
     - cipher: aes-256-cfb
+      delay: 270
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 9
+      password: amazonskr05
+      port: 443
+      server: 13.250.112.201
+      type: ss
+    - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
       delay: 1127
       name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
@@ -100,20 +145,17 @@ proxies:
       server: 54.255.245.79
       type: ss
     - cipher: aes-256-cfb
-      delay: 887
-      name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 103.106.229.219
-      type: ss
-    - client-fingerprint: chrome
-      delay: 1055
-      name: 美国 - 阿瓦達 - OVH US LLC - 25
+      delay: 545
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 10
+      password: amazonskr05
       port: 443
-      server: 135.148.14.5
-      servername: 147135001178.sec22org.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+      server: 13.212.113.186
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 418
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 5
+      password: amazonskr05
+      port: 443
+      server: 18.141.24.255
+      type: ss
