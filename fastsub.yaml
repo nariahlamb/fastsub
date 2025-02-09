@@ -1,21 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      delay: 2538
-      name: 芬兰 - 赫尔辛基 - ONEPROVIDER - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 37.143.129.230
-      type: ss
-    - country: "\U0001F1E7\U0001F1F7BR"
-      delay: 1918
-      name: 巴西 - São Paulo - Oracle Corporation - 1
-      password: a0605527-28e4-449c-80ee-5642cc16a8af
-      port: 80
-      server: br.huafei888.site
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
     - cipher: chacha20-ietf-poly1305
       delay: 1352
       name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
@@ -24,16 +8,24 @@ proxies:
       server: 78.129.140.11
       type: ss
     - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 508
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 3.112.232.193
+      type: ss
+    - cipher: aes-256-cfb
       delay: 969
       name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 103.106.229.219
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 764
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
-      password: uu5qbvqIk3NE8QQfx2CzzY
-      port: 443
-      server: 78.129.140.11
+    - cipher: aes-256-cfb
+      delay: 2538
+      name: 芬兰 - 赫尔辛基 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 37.143.129.230
       type: ss
