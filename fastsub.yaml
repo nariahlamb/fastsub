@@ -1,5 +1,39 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      delay: 2597
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 2
+      network: ws
+      port: 8080
+      server: s2.db-link02.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-119-151-248.s2.db-link02.top
+        path: /dabai.in172.64.41.150
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2353
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 5
+      network: ws
+      port: 2095
+      server: s2.cn-db.top
+      servername: 100-51-243-128.s2.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: 100-51-243-128.s2.cn-db.top
+        path: /dabai.in172.64.13.172
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 508
@@ -9,11 +43,11 @@ proxies:
       server: 3.112.232.193
       type: ss
     - cipher: aes-256-cfb
-      delay: 969
-      name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 103.106.229.219
+      delay: 1653
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 1
+      password: amazonskr05
+      port: 443
+      server: 47.129.255.141
       type: ss
     - cipher: chacha20-ietf-poly1305
       delay: 1352
@@ -22,10 +56,60 @@ proxies:
       port: 443
       server: 78.129.140.11
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 764
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
-      password: uu5qbvqIk3NE8QQfx2CzzY
-      port: 443
-      server: 78.129.140.11
+    - cipher: aes-256-cfb
+      delay: 2538
+      name: 芬兰 - 赫尔辛基 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 37.143.129.230
       type: ss
+    - cipher: aes-256-cfb
+      delay: 969
+      name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 103.106.229.219
+      type: ss
+    - country: "\U0001F1E7\U0001F1F7BR"
+      delay: 1918
+      name: 巴西 - São Paulo - Oracle Corporation - 1
+      password: a0605527-28e4-449c-80ee-5642cc16a8af
+      port: 80
+      server: br.huafei888.site
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1341
+      name: 冰岛 - 凯夫拉维克国际机场 - STARK INDUSTRIES SOLUTIONS LTD - 1
+      password: NjBlZDlk
+      port: 8388
+      server: is3.opensocks.site
+      type: ss
+    - country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1430
+      name: 中国 - 香港 - WAP.AC LTD - 2
+      password: a0605527-28e4-449c-80ee-5642cc16a8af
+      port: 80
+      server: 62.72.163.215
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1687
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 兰河畔林堡 - OVH SAS - 1
+      network: ws
+      port: 80
+      server: 151.101.130.133
+      servername: telegram-isvvpn.ir
+      skip-cert-verify: true
+      type: vmess
+      uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+      ws-opts:
+        headers:
+            HOST: telegram-isvvpn.ir
+        path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
