@@ -1,26 +1,20 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-256-cfb
+      delay: 2107
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      obfs: plain
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      server: 54.187.27.197
+      type: ssr
     - cipher: chacha20-ietf-poly1305
       delay: 1352
       name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
       password: lEILy9IsaRUoTc3gEDdcsW
       port: 443
       server: 78.129.140.11
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 508
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 3.112.232.193
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 969
-      name: 新加坡 - 新加坡 - BrainStorm Network, Inc - 2
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 103.106.229.219
       type: ss
     - cipher: aes-256-cfb
       delay: 2538
