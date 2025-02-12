@@ -1,26 +1,11 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 907
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      delay: 1050
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
       password: amazonskr05
       port: 443
-      server: 54.190.43.178
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1142
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 18
-      password: amazonskr05
-      port: 443
-      server: 35.87.45.132
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2900
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 18.236.186.16
+      server: 54.200.229.22
       type: ss
       udp: true
     - cipher: aes-256-cfb
@@ -29,14 +14,6 @@ proxies:
       password: amazonskr05
       port: 443
       server: 35.94.43.251
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2778
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
-      password: amazonskr05
-      port: 443
-      server: 54.188.92.179
       type: ss
       udp: true
     - alterId: 0
@@ -53,66 +30,150 @@ proxies:
         headers:
             Host: 100-39-195-198.s1.db-link01.top
         path: /dabai.in104.16.26.37
+    - alpn:
+        - h2
+        - http/1.1
+      delay: 1501
+      name: 美国 - Reston - OVH SAS - 91
+      network: tcp
+      port: 443
+      server: 147135010072.sec21org.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+    - cipher: aes-256-cfb
+      delay: 2471
+      name: 日本 - 东京 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 57.180.246.231
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 855
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 3
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 193.29.139.189
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 869
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 193.29.139.189
+      type: ss
     - alterId: 0
       cipher: auto
-      delay: 2888
-      name: 美国 - 洛杉矶 - HostPapa - 2
-      network: ws
-      port: 2086
-      server: s2.db-link01.top
+      delay: 879
+      http-opts:
+        headers:
+            Host:
+                - zula.ir
+        method: GET
+        path:
+            - /
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 4
+      network: http
+      port: 2082
+      server: 0000:0000:0000:0000:0000:ffff:b23e:cd27
       tls: false
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
+      uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589
+    - delay: 882
+      http-opts:
         headers:
-            Host: 100-110-189-146.s2.db-link01.top
-        path: /dabai.in104.21.112.58
-    - cipher: aes-256-cfb
-      delay: 1050
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 17
-      password: amazonskr05
-      port: 443
-      server: 54.200.229.22
-      type: ss
+            Host:
+                - sso.farhang.gov.ir
+        method: GET
+        path:
+            - /download
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 3
+      network: http
+      port: 8080
+      server: 188.245.251.47
+      servername: sso.farhang.gov.ir
+      tls: false
+      type: vless
       udp: true
-    - cipher: aes-256-cfb
-      delay: 1042
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
-      password: amazonskr05
+      uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
+    - delay: 1500
+      name: 美国 - Reston - OVH SAS - 93
+      network: tcp
       port: 443
-      server: 54.188.99.174
-      type: ss
+      server: 15.204.184.159
+      servername: 147135011033.sec21org.com
+      tls: true
+      type: vless
       udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 2909
-      name: 美国 - 洛杉矶 - HostPapa - 1
-      network: ws
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+    - country: "\U0001F1EA\U0001F1F8ES"
+      delay: 1528
+      name: 西班牙 - 马德里 - UpCloud Ltd - 1
+      password: "3774827088566296576"
+      port: 443
+      server: next-hippo.treefrog761.one
+      skip-cert-verify: true
+      sni: next-hippo.treefrog761.one
+      type: trojan
+      udp: true
+    - alpn:
+        - h2
+        - http/1.1
+      delay: 1512
+      name: 美国 - Reston - OVH SAS - 92
+      network: tcp
+      port: 443
+      server: 147135011033.sec21org.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+    - cipher: chacha20-ietf-poly1305
+      delay: 1355
+      name: 冰岛 - 凯夫拉维克国际机场 - STARK INDUSTRIES SOLUTIONS LTD - 1
+      password: NjBlZDlk
+      port: 8388
+      server: is3.opensocks.site
+      type: ss
+    - auth: a0605527-28e4-449c-80ee-5642cc16a8af
+      delay: 2481
+      name: 巴西 - São Paulo - Oracle Corporation - 1
+      password: a0605527-28e4-449c-80ee-5642cc16a8af
       port: 80
-      server: s2.cn-db.top
-      tls: false
+      server: br.huafei888.site
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      delay: 1984
+      name: 德国 - 法兰克福 - Regxa Company for Information Technology Ltd - 6
+      network: tcp
+      port: 23055
+      server: vpn.pnm1.com
+      servername: vpn.pnm1.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 90cadcb1-5955-4ddc-c846-a40f06cbed39
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 1838
+      h2-opts: {}
+      http-opts: {}
+      name: 新加坡 - 新加坡 - Contabo Asia Private Limited - 2
+      network: tcp
+      port: 38324
+      server: 62.146.233.115
+      skip-cert-verify: true
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            Host: 100-110-239-147.s2.cn-db.top
-        path: /dabai.in172.67.81.78
-    - cipher: aes-256-cfb
-      delay: 1041
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 15
-      password: amazonskr05
-      port: 443
-      server: 54.203.12.95
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2798
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 12
-      password: amazonskr05
-      port: 443
-      server: 54.218.124.184
-      type: ss
-      udp: true
+      uuid: f863ef99-5ef0-4321-aaac-a476a5e8c3fb
     - alterId: 0
       cipher: auto
       delay: 925
@@ -132,223 +193,3 @@ proxies:
       type: vmess
       udp: true
       uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-    - cipher: aes-256-cfb
-      delay: 1031
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 16
-      password: amazonskr05
-      port: 443
-      server: 54.218.59.235
-      type: ss
-      udp: true
-    - alpn:
-        - h2
-        - http/1.1
-      delay: 1501
-      name: 美国 - Reston - OVH SAS - 91
-      network: tcp
-      port: 443
-      server: 147135010072.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-    - alpn:
-        - h2
-        - http/1.1
-      delay: 1512
-      name: 美国 - Reston - OVH SAS - 92
-      network: tcp
-      port: 443
-      server: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - delay: 1500
-      name: 美国 - Reston - OVH SAS - 93
-      network: tcp
-      port: 443
-      server: 15.204.184.159
-      servername: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - cipher: aes-256-cfb
-      delay: 2471
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 57.180.246.231
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 879
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 4
-      network: http
-      port: 2082
-      server: 0000:0000:0000:0000:0000:ffff:b23e:cd27
-      tls: false
-      type: vmess
-      uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589
-    - cipher: chacha20-ietf-poly1305
-      delay: 1517
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
-      password: oZIoA69Q8yhcQV8ka3Pa3A
-      port: 8080
-      server: 103.104.247.47
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 939
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 3.34.123.239
-      type: ss
-      udp: true
-    - delay: 882
-      http-opts:
-        headers:
-            Host:
-                - sso.farhang.gov.ir
-        method: GET
-        path:
-            - /download
-      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 3
-      network: http
-      port: 8080
-      server: 188.245.251.47
-      servername: sso.farhang.gov.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
-    - cipher: aes-256-cfb
-      delay: 1167
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 3.35.0.140
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 869
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 193.29.139.189
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 907
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 54.180.158.248
-      type: ss
-      udp: true
-    - country: "\U0001F1EA\U0001F1F8ES"
-      delay: 1528
-      name: 西班牙 - 马德里 - UpCloud Ltd - 1
-      password: "3774827088566296576"
-      port: 443
-      server: next-hippo.treefrog761.one
-      skip-cert-verify: true
-      sni: next-hippo.treefrog761.one
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 2274
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 4
-      password: amazonskr05
-      port: 443
-      server: 47.129.201.205
-      type: ss
-      udp: true
-    - delay: 624
-      name: 中国 - 香港 - Prime Security Corp - 2
-      password: 43e5eeacbad3032bfe4c25a2f011b6b7
-      port: 443
-      server: 104.251.227.182
-      skip-cert-verify: true
-      sni: hezijiasuqi.com
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1985
-      h2-opts: {}
-      http-opts: {}
-      name: 加拿大 - 多伦多 - GLOBALTELEHOST Corp. - 1
-      network: tcp
-      port: 20182
-      server: 23.162.200.91
-      skip-cert-verify: true
-      type: vmess
-      uuid: cc9b66b7-1de7-4aa9-9642-575a8ae3ff19
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1750
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 休斯敦 - Snaju Development - 67
-      network: ws
-      port: 443
-      server: us2.998998.best
-      servername: serverus1.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-      ws-opts:
-        headers:
-            HOST: serverus1.998877.best
-        path: /seiruotyk?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2078
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 68
-      network: ws
-      port: 443
-      server: us16.998998.best
-      servername: server9-2.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
-      ws-opts:
-        headers:
-            HOST: server9-2.998877.best
-        path: /s5eyoi8luhrgtz8
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 994
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 7
-      password: dongtaiwang.com
-      port: 13861
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: a0605527-28e4-449c-80ee-5642cc16a8af
-      delay: 2481
-      name: 巴西 - São Paulo - Oracle Corporation - 1
-      password: a0605527-28e4-449c-80ee-5642cc16a8af
-      port: 80
-      server: br.huafei888.site
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
