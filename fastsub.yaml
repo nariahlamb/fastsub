@@ -2,37 +2,21 @@ proxy-providers: {}
 proxies:
     - alterId: 0
       cipher: auto
-      delay: 925
+      delay: 879
       http-opts:
         headers:
             Host:
-                - moi.ir
+                - zula.ir
         method: GET
         path:
             - /
-      name: 美国 - 亚特兰大 - The Constant Company - 20
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 4
       network: http
-      port: 8881
-      server: 155.138.208.122
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-    - alterId: 0
-      cipher: auto
-      delay: 2502
-      name: 美国 - 洛杉矶 - HostPapa - 62
-      network: ws
       port: 2082
-      server: s1.db-link01.top
+      server: 0000:0000:0000:0000:0000:ffff:b23e:cd27
       tls: false
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            Host: 100-39-195-198.s1.db-link01.top
-        path: /dabai.in104.16.26.37
+      uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589
     - delay: 882
       http-opts:
         headers:
@@ -50,35 +34,6 @@ proxies:
       type: vless
       udp: true
       uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
-    - alterId: 0
-      cipher: auto
-      delay: 879
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 4
-      network: http
-      port: 2082
-      server: 0000:0000:0000:0000:0000:ffff:b23e:cd27
-      tls: false
-      type: vmess
-      uuid: 79220140-2c4f-4321-ac8c-040f2bb0a589
-    - alpn:
-        - h2
-        - http/1.1
-      delay: 1501
-      name: 美国 - Reston - OVH SAS - 91
-      network: tcp
-      port: 443
-      server: 147135010072.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
     - cipher: chacha20-ietf-poly1305
       delay: 1355
       name: 冰岛 - 凯夫拉维克国际机场 - STARK INDUSTRIES SOLUTIONS LTD - 1
@@ -96,34 +51,15 @@ proxies:
       sni: next-hippo.treefrog761.one
       type: trojan
       udp: true
-    - delay: 624
-      name: 中国 - 香港 - Prime Security Corp - 2
-      password: 43e5eeacbad3032bfe4c25a2f011b6b7
-      port: 443
-      server: 104.251.227.182
-      skip-cert-verify: true
-      sni: hezijiasuqi.com
-      type: trojan
-      udp: true
-    - delay: 1500
-      name: 美国 - Reston - OVH SAS - 93
-      network: tcp
-      port: 443
-      server: 15.204.184.159
-      servername: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
     - alpn:
         - h2
         - http/1.1
-      delay: 1512
-      name: 美国 - Reston - OVH SAS - 92
+      delay: 1501
+      name: 美国 - Reston - OVH SAS - 91
       network: tcp
       port: 443
-      server: 147135011033.sec21org.com
+      server: 147135010072.sec21org.com
       tls: true
       type: vless
       udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
