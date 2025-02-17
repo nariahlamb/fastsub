@@ -1,66 +1,5 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1636
-      name: 美国 - Ashburn - Amazon.com - 45
-      network: ws
-      port: 22222
-      server: 44.215.26.244
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
-    - delay: 1217
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
-      network: ws
-      port: 80
-      server: 66.235.200.30
-      tls: false
-      type: vless
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /
-    - delay: 996
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 40
-      network: ws
-      port: 80
-      server: 66.235.200.149
-      tls: false
-      type: vless
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2743
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 32
-      network: ws
-      port: 80
-      server: s2.cn-db.top
-      servername: 100-154-87-93.s2.cn-db.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            HOST: 100-154-87-93.s2.cn-db.top
-        path: /dabai.in104.20.88.75
-    - cipher: chacha20-ietf-poly1305
-      delay: 2958
-      name: 爱尔兰 - 都柏林 - Microsoft Corporation - 1
-      password: 9mhVRDUkWbliSXqUYJLudz
-      port: 6203
-      server: 52.169.53.194
-      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 971
@@ -68,26 +7,6 @@ proxies:
       password: amazonskr05
       port: 443
       server: 54.244.0.4
-      type: ss
-    - delay: 1127
-      name: 美国 - Reston - Cloudflare, Inc. - 42
-      network: ws
-      port: 80
-      server: 104.26.12.31
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2104
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 5
-      password: 1RWwXhwfAB5gAEozU4G2Pg
-      port: 8080
-      server: 45.158.171.141
       type: ss
     - alterId: 0
       cipher: auto
@@ -107,28 +26,60 @@ proxies:
         headers:
             HOST: 100-171-52-115.s1.cn-db.top
         path: /dabai.in104.19.138.212
-    - alterId: 0
-      cipher: auto
-      delay: 1135
-      name: 美国 - 洛杉矶 - HostPapa - 10
+    - delay: 1827
+      name: 美国 - Reston - Cloudflare, Inc. - 44
       network: ws
-      port: 443
-      server: 192.227.237.60
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      port: 80
+      server: 172.67.75.172
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-        path: /dabai.in104.21.151.202
-    - cipher: aes-256-cfb
-      delay: 728
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
+            Host: redw.pooriam.ir
+        path: /
+    - client-fingerprint: chrome
+      delay: 1636
+      name: 美国 - Ashburn - Amazon.com - 45
+      network: ws
+      port: 22222
+      server: 44.215.26.244
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 987
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 45.87.175.192
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 695
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 4
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 45.87.175.192
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2104
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 5
+      password: 1RWwXhwfAB5gAEozU4G2Pg
+      port: 8080
+      server: 45.158.171.141
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2958
+      name: 爱尔兰 - 都柏林 - Microsoft Corporation - 1
+      password: 9mhVRDUkWbliSXqUYJLudz
+      port: 6203
+      server: 52.169.53.194
       type: ss
     - client-fingerprint: chrome
       delay: 1009
@@ -146,74 +97,21 @@ proxies:
       tls: false
       type: vless
       uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
-    - delay: 2272
-      name: 美国 - Reston - Cloudflare, Inc. - 43
-      network: ws
-      port: 80
-      server: 104.27.88.150
-      tls: false
-      type: vless
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /
     - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FARU"
-      delay: 1462
-      name: 瑞士 - 伯尔尼 - Aeza International LTD - 2
-      password: UQggIxCSCABoBALH599HxE
-      port: 19057
-      server: 91.103.253.151
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 717
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 3
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.192
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1826
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - International Hosting Company Limited - 3
-      network: ws
-      port: 8443
-      server: 172.67.204.84
-      servername: de-2.stunnel.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 35362031-3032-4035-b520-393720393920
-      ws-opts:
-        headers:
-            HOST: de-2.stunnel.cc
-        path: /ws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1425
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - International Hosting Company Limited - 4
-      network: ws
-      port: 8443
-      server: 104.21.69.44
-      servername: de-2.stunnel.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 35362031-3032-4035-b520-393720393920
-      ws-opts:
-        headers:
-            HOST: de-2.stunnel.cc
-        path: /ws
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 2306
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 2
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 35.178.165.201
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+    - cipher: aes-256-cfb
+      delay: 728
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -233,46 +131,53 @@ proxies:
         headers:
             HOST: server9-3.998877.best
         path: /rksdnuhgteb?ed=2560
+    - alterId: 0
+      cipher: auto
+      delay: 1135
+      name: 美国 - 洛杉矶 - HostPapa - 10
+      network: ws
+      port: 443
+      server: 192.227.237.60
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.21.151.202
     - cipher: aes-256-cfb
-      delay: 1029
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 520
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
       password: amazonskr05
       port: 443
-      server: 13.209.11.204
+      server: 13.213.40.92
       type: ss
-    - cipher: aes-256-cfb
-      delay: 2698
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 3.36.73.26
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 846
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 3
-      password: amazonskr05
-      port: 443
-      server: 47.128.14.130
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 495
-      name: 日本 - 东京 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 35.77.91.116
-      type: ss
-    - delay: 1827
-      name: 美国 - Reston - Cloudflare, Inc. - 44
+    - delay: 1127
+      name: 美国 - Reston - Cloudflare, Inc. - 42
       network: ws
       port: 80
-      server: 172.67.75.172
+      server: 104.26.12.31
       tls: false
       type: vless
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: redw.pooriam.ir
+        path: /
+    - delay: 1217
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
+      network: ws
+      port: 80
+      server: 66.235.200.30
+      tls: false
+      type: vless
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
         path: /
     - alterId: 0
       cipher: auto
@@ -292,33 +197,27 @@ proxies:
         headers:
             HOST: 100-186-247-174.s5.cn-db.top
         path: /dabai.in104.18.247.169
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 520
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 13.213.40.92
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 302
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 13.250.55.231
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 457
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 13.212.175.124
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 1212
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.231.233.173
-      type: ss
+    - delay: 996
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 40
+      network: ws
+      port: 80
+      server: 66.235.200.149
+      tls: false
+      type: vless
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
+    - delay: 2272
+      name: 美国 - Reston - Cloudflare, Inc. - 43
+      network: ws
+      port: 80
+      server: 104.27.88.150
+      tls: false
+      type: vless
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
