@@ -1,24 +1,5 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2295
-      h2-opts: {}
-      http-opts: {}
-      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
-      network: ws
-      port: 443
-      server: cdncdncdn.aikunapp.com
-      servername: cdn-ca.sm-node.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
-      ws-opts:
-        headers:
-            HOST: cdn-ca.sm-node.com
-        path: /vmess_ws/smjc/index?ed=8192
     - client-fingerprint: chrome
       delay: 1745
       name: 美国 - 旧金山 - Microsoft Corporation - 14
@@ -49,6 +30,99 @@ proxies:
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         path: /path/1722071933688
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2295
+      h2-opts: {}
+      http-opts: {}
+      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
+      network: ws
+      port: 443
+      server: cdncdncdn.aikunapp.com
+      servername: cdn-ca.sm-node.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
+      ws-opts:
+        headers:
+            HOST: cdn-ca.sm-node.com
+        path: /vmess_ws/smjc/index?ed=8192
+    - delay: 2368
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 4
+      network: ws
+      port: 80
+      server: 66.235.200.149
+      servername: pormang.webhost99.workers.dev
+      tls: false
+      type: vless
+      udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
+    - delay: 2739
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
+      network: ws
+      port: 80
+      server: 185.174.138.194
+      servername: pormang.webhost99.workers.dev
+      tls: false
+      type: vless
+      udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
+    - delay: 1419
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: "3782591447421952000"
+      port: 443
+      server: sunny-macaque.treefrog761.one
+      skip-cert-verify: true
+      sni: sunny-macaque.treefrog761.one
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 787
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 1
+      password: 4a2rfixophdjffa8KVA4Aa
+      port: 8080
+      server: 45.87.175.164
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2169
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 4
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 45.158.171.66
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 1860
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 5
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.166
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F3\U0001F1F1 NL"
+      delay: 1614
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 3
+      password: oZIoA69Q8yhcQV8ka3Pa3A
+      port: 8080
+      server: 103.104.247.47
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 877
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.164
+      type: ss
     - client-fingerprint: chrome
       delay: 1566
       http-opts:
@@ -65,28 +139,18 @@ proxies:
       tls: false
       type: vless
       uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
-    - client-fingerprint: chrome
-      delay: 1455
-      name: 德国 - 法兰克福 - UpCloud Ltd - 3
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: jG1boY63MivlimbwqJZPX1RfcQTtoPSOjMJz2YEWOns
-        short-id: f7caf4
-      server: bermudavpn24.jahanmataleb.ir
-      servername: www.refersion.com
-      tls: true
+    - delay: 1120
+      name: 美国 - Reston - Cloudflare, Inc. - 11
+      network: ws
+      port: 80
+      server: 104.20.43.197
+      tls: false
       type: vless
-      udp: true
-      uuid: bc2d4bfe-cc5d-4382-8b9e-bf5242d9a295
-    - delay: 1549
-      name: 拉脱维亚 - Riga - SIA VEESP - 1
-      password: "3778399737045327872"
-      port: 443
-      server: key-pangolin.treefrog761.one
-      skip-cert-verify: true
-      sni: key-pangolin.treefrog761.one
-      type: trojan
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
     - delay: 1328
       name: 美国 - Reston - Cloudflare, Inc. - 5
       network: ws
@@ -99,29 +163,6 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /
-    - client-fingerprint: firefox
-      delay: 1432
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
-      network: grpc
-      port: 443
-      reality-opts:
-        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
-        short-id: c5508bd7
-      server: 209.227.230.243
-      servername: wordpress.org
-      tls: true
-      type: vless
-      uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - cipher: chacha20-ietf-poly1305
-      delay: 644
-      name: 美国 - 費利蒙 - ZhouyiSat Communications - 1
-      password: 020rkowB9zVviOcwnaugC2
-      port: 20684
-      server: 87.251.79.34
-      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -140,40 +181,6 @@ proxies:
         headers:
             HOST: kr.cfyyds.filegear-sg.me
         path: /rongseven?ed=2048
-    - delay: 2059
-      name: 美国 - Reston - Cloudflare, Inc. - 7
-      network: ws
-      port: 80
-      server: 172.67.75.172
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /
-    - client-fingerprint: chrome
-      delay: 1094
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 4
-      network: ws
-      port: 22222
-      server: 3.73.231.59
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2067
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
-      password: dongtaiwang.com
-      port: 13861
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - delay: 1067
       name: 美国 - Reston - Cloudflare, Inc. - 10
       network: ws
@@ -186,15 +193,86 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /
-    - delay: 2739
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
+    - delay: 995
+      name: 中国 - 香港 - Cloudflare, Inc. - 4
       network: ws
       port: 80
-      server: 185.174.138.194
+      server: 104.16.38.178
+      tls: false
+      type: vless
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
+    - cipher: aes-256-cfb
+      delay: 1604
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.209.11.204
+      type: ss
+    - client-fingerprint: chrome
+      delay: 1384
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 2
+      network: http
+      port: 8081
+      server: 128.140.43.250
+      tls: false
+      type: vless
+      uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
+    - client-fingerprint: chrome
+      delay: 1210
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
+      network: ws
+      port: 80
+      server: 45.149.12.128
       servername: pormang.webhost99.workers.dev
       tls: false
       type: vless
       udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2067
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
+      password: dongtaiwang.com
+      port: 13861
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: firefox
+      delay: 1432
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
+        short-id: c5508bd7
+      server: 209.227.230.243
+      servername: wordpress.org
+      tls: true
+      type: vless
+      uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - delay: 2027
+      name: 美国 - Reston - Cloudflare, Inc. - 6
+      network: ws
+      port: 80
+      server: 104.27.88.150
+      tls: false
+      type: vless
       uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
       ws-opts:
         headers:
@@ -209,4 +287,34 @@ proxies:
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 903
+      name: 法国 - 巴黎 - Amazon Technologies Inc. - 1
+      password: telegram-id-directvpn
+      port: 22222
+      server: 52.47.207.189
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 970
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 1
+      password: telegram-id-directvpn
+      port: 22222
+      server: 18.132.227.27
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - country: "\U0001F1EE\U0001F1EAIE"
+      delay: 1210
+      name: 爱尔兰 - 都柏林 - Amazon.com, Inc. - 1
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 54.75.230.73
+      sni: trojan.burgerip.co.uk
+      type: trojan
       udp: true
