@@ -1,8 +1,8 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      delay: 1745
-      name: 美国 - 旧金山 - Microsoft Corporation - 14
+      delay: 1623
+      name: 美国 - 旧金山 - Microsoft Corporation - 67
       network: tcp
       port: 2046
       reality-opts:
@@ -14,8 +14,146 @@ proxies:
       type: vless
       udp: true
       uuid: ba00fea2-9c5b-46aa-895d-2e189715c374
+    - cipher: aes-256-cfb
+      delay: 686
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 35.94.110.89
+      type: ss
+      udp: true
+    - alterId: 64
+      cipher: auto
+      delay: 1204
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 芝加哥 - Sharktech - 55
+      network: ws
+      port: 30001
+      server: 67.21.95.67
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.63876016.xyz
+        path: /path/1739973894418
+    - cipher: aes-256-cfb
+      delay: 988
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 54.184.126.174
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1746
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 33
+      network: ws
+      port: 80
+      server: s2.cn-db.top
+      servername: 100-154-87-93.s2.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: 100-154-87-93.s2.cn-db.top
+        path: /dabai.in104.20.88.75
+    - alterId: 64
+      cipher: auto
+      delay: 1241
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 鞍山市 - PEG TECH INC - 6
+      network: ws
+      port: 38003
+      server: 38.11.49.57
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.45700497.xyz
+        path: /path/1739973313415
+    - alterId: 64
+      cipher: auto
+      delay: 1166
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 成都 - PEG TECH INC - 14
+      network: ws
+      port: 30003
+      server: 192.74.241.135
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.38740067.xyz
+        path: /path/1739980378395
     - client-fingerprint: chrome
-      delay: 1566
+      delay: 1413
+      name: 荷兰 - 阿姆斯特丹 - The Constant Company, LLC - 1
+      network: tcp
+      port: 47221
+      reality-opts:
+        public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
+        short-id: 47ff9b6c
+      server: 95.179.153.250
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
+    - alterId: 64
+      cipher: auto
+      delay: 2199
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 圣克拉拉 - PEG TECH INC - 58
+      network: ws
+      port: 37006
+      server: 198.200.48.230
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.46281147.xyz
+        path: /path/1739973894418
+    - alterId: 64
+      cipher: auto
+      delay: 2055
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 59
+      network: ws
+      port: 37003
+      server: 38.33.1.173
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.24257549.xyz
+        path: /path/1739892314173
+    - client-fingerprint: chrome
+      delay: 866
       http-opts:
         headers:
             Host:
@@ -23,60 +161,15 @@ proxies:
         method: GET
         path:
             - /download
-      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 1
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 3
       network: http
       port: 8080
       server: 188.245.251.47
       tls: false
       type: vless
       uuid: 1c86a177-d7ff-4a5f-8255-cfeb4e051305
-    - cipher: chacha20-ietf-poly1305
-      delay: 1860
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 5
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.166
-      type: ss
-    - client-fingerprint: firefox
-      delay: 1432
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
-      network: grpc
-      port: 443
-      reality-opts:
-        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
-        short-id: c5508bd7
-      server: 209.227.230.243
-      servername: wordpress.org
-      tls: true
-      type: vless
-      uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2227
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - delay: 1067
-      name: 美国 - Reston - Cloudflare, Inc. - 10
-      network: ws
-      port: 80
-      server: 104.26.13.31
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /
-    - delay: 2059
-      name: 美国 - Reston - Cloudflare, Inc. - 7
+    - delay: 2368
+      name: 美国 - Reston - Cloudflare, Inc. - 66
       network: ws
       port: 80
       server: 172.67.75.172
@@ -87,11 +180,241 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9 LT"
-      delay: 877
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.164
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 931
+      name: 德国 - Frankfurt am Main - Amazon.com - 2
+      password: "65086441068973800"
+      port: 443
+      server: mature-flamingo.shiner427.skin
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1984
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 35
+      network: ws
+      port: 38001
+      server: 137.175.21.183
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/1739973313415
+    - cipher: aes-256-cfb
+      delay: 927
+      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
       type: ss
+    - alterId: 64
+      cipher: auto
+      delay: 2229
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 自贡 - PEG TECH INC - 13
+      network: ws
+      port: 38005
+      server: 198.2.195.1
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.69829341.xyz
+        path: /path/1739973894418
+    - alterId: 64
+      cipher: auto
+      delay: 1668
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 圣克拉拉 - PEG TECH INC - 60
+      network: ws
+      port: 38004
+      server: 199.180.101.28
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            Host: www.11733511.xyz
+        path: /path/1739875088754
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 1134
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 6
+      network: tcp
+      port: 48712
+      server: 107.148.207.249
+      servername: appsvs.shop
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - delay: 2612
+      name: 日本 - 东京 - Amazon.com, Inc. - 2
+      password: 3782591447421952000
+      port: 443
+      server: sunny-macaque.treefrog761.one
+      skip-cert-verify: true
+      sni: sunny-macaque.treefrog761.one
+      type: trojan
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 914
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 61
+      network: ws
+      port: 443
+      server: us16.998998.best
+      servername: server9-3.998877.best
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9
+      ws-opts:
+        headers:
+            HOST: server9-3.998877.best
+        path: /rksdnuhgteb?ed=2560
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1606
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 12
+      network: ws
+      port: 38003
+      server: 38.33.57.16
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        path: /path/1739783059156
+    - cipher: chacha20-ietf-poly1305
+      delay: 1087
+      name: 芬兰 - 赫尔辛基 - Aeza International LTD - 1
+      password: OH51icMJt6iPyNf68UWrHV
+      port: 34775
+      server: 77.239.99.180
+      type: ss
+    - delay: 1776
+      name: 美国 - Reston - Cloudflare, Inc. - 62
+      network: ws
+      port: 80
+      server: 104.26.13.31
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /
+    - client-fingerprint: firefox
+      delay: 2099
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+      name: 意大利 - 罗马市 - Aruba S.p.A. - 2
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
+        short-id: c5508bd7
+      server: 209.227.230.243
+      servername: wordpress.org
+      tls: true
+      type: vless
+      uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2097
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 34
+      network: ws
+      port: 2095
+      server: s1.cn-db.top
+      servername: 100-139-204-73.s1.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: 100-139-204-73.s1.cn-db.top
+        path: /dabai.in104.25.132.97
+    - auth: dongtaiwang.com
+      delay: 1057
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
+      password: dongtaiwang.com
+      port: 13861
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1419
+      name: 英国 - 伦敦 - Amazon Technologies Inc. - 3
+      network: ws
+      port: 22222
+      server: 35.179.220.41
+      servername: telegram-channel-vlessconfig.sohala.uk
+      tls: true
+      type: vless
+      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+      ws-opts:
+        path: /telegram-channel-vlessconfig-ws
+    - delay: 2346
+      name: 美国 - Reston - Cloudflare, Inc. - 64
+      network: ws
+      port: 80
+      server: 104.26.12.31
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /
+    - alterId: 0
+      cipher: auto
+      delay: 1676
+      name: 波兰 - 华沙 - 3hcloud - 9
+      network: ws
+      port: 8443
+      server: 45.144.48.128
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+      ws-opts:
+        path: /vmess/
+    - delay: 1983
+      name: 美国 - Reston - Cloudflare, Inc. - 63
+      network: ws
+      port: 80
+      server: 104.20.43.197
+      tls: false
+      type: vless
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
