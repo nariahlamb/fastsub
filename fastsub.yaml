@@ -1,24 +1,5 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2295
-      h2-opts: {}
-      http-opts: {}
-      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
-      network: ws
-      port: 443
-      server: cdncdncdn.aikunapp.com
-      servername: cdn-ca.sm-node.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e
-      ws-opts:
-        headers:
-            HOST: cdn-ca.sm-node.com
-        path: /vmess_ws/smjc/index?ed=8192
     - client-fingerprint: chrome
       delay: 1745
       name: 美国 - 旧金山 - Microsoft Corporation - 14
@@ -33,14 +14,6 @@ proxies:
       type: vless
       udp: true
       uuid: ba00fea2-9c5b-46aa-895d-2e189715c374
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9 LT"
-      delay: 877
-      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.164
-      type: ss
     - client-fingerprint: chrome
       delay: 1566
       http-opts:
@@ -80,6 +53,16 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2227
+      name: 波兰 - 华沙 - ECO-ATMAN - 1
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - delay: 1067
       name: 美国 - Reston - Cloudflare, Inc. - 10
       network: ws
@@ -92,26 +75,6 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2227
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2067
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
-      password: dongtaiwang.com
-      port: 13861
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - delay: 2059
       name: 美国 - Reston - Cloudflare, Inc. - 7
       network: ws
@@ -124,70 +87,11 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1675
-      h2-opts: {}
-      http-opts: {}
-      name: 韩国 - 首尔特别市 - Oracle Corporation - 3
-      network: ws
-      port: 80
-      server: cloudflare.182682.xyz
-      servername: kr.cfyyds.filegear-sg.me
-      skip-cert-verify: true
-      type: vmess
-      uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-      ws-opts:
-        headers:
-            HOST: kr.cfyyds.filegear-sg.me
-        path: /rongseven?ed=2048
-    - client-fingerprint: chrome
-      delay: 1384
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 2
-      network: http
-      port: 8081
-      server: 128.140.43.250
-      tls: false
-      type: vless
-      uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
-    - client-fingerprint: chrome
-      delay: 2921
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: 2096vless
-      name: 法国 - 巴黎 - REDHEBERG Association declaree - 3
-      network: grpc
-      port: 2083
-      server: p.alaba.cam
-      tls: false
-      type: vless
-      uuid: 354712c4-dab3-452c-89fd-0a2edd6999f9
-    - delay: 1328
-      name: 美国 - Reston - Cloudflare, Inc. - 5
-      network: ws
-      port: 80
-      server: 104.26.12.31
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /
-    - client-fingerprint: chrome
-      delay: 1094
-      name: 德国 - Frankfurt am Main - Amazon Technologies Inc. - 4
-      network: ws
-      port: 22222
-      server: 3.73.231.59
-      servername: telegram-channel-vlessconfig.sohala.uk
-      tls: true
-      type: vless
-      uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-      ws-opts:
-        path: /telegram-channel-vlessconfig-ws
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9 LT"
+      delay: 877
+      name: 荷兰 - 阿姆斯特丹 - Greenhost BV - 2
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.164
+      type: ss
