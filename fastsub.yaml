@@ -1,84 +1,5 @@
 proxy-providers: {}
 proxies:
-    - delay: 1134
-      name: 美国 - Ashburn - Amazon Technologies Inc. - 9
-      password: "3747000103274291200"
-      port: 443
-      server: fluent-bat.treefrog761.one
-      sni: fluent-bat.treefrog761.one
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      delay: 915
-      name: 美国 - 洛杉矶 - The Constant Company - 39
-      network: ws
-      port: 8080
-      server: 45.32.73.1
-      tls: false
-      type: vless
-      uuid: 081c139c-89d5-4143-aff8-de3ca0fd45e3
-      ws-opts:
-        path: /
-    - delay: 2232
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-      password: "3747000103274291200"
-      port: 443
-      server: polished-ox.treefrog761.one
-      sni: polished-ox.treefrog761.one
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 697
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 34.216.193.190
-      type: ss
-    - client-fingerprint: chrome
-      delay: 1603
-      name: 美国 - 圣克拉拉 - The Constant Company - 51
-      network: ws
-      port: 8080
-      server: 149.28.194.210
-      tls: false
-      type: vless
-      uuid: a54cdb5d-5934-4c0c-91bc-a71474e5f45c
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      delay: 969
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 34.219.121.181
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      delay: 897
-      name: 美国 - 圣克拉拉 - The Constant Company - 40
-      network: ws
-      port: 8080
-      server: 149.28.192.216
-      tls: false
-      type: vless
-      uuid: 1fc2fd97-0e24-4eaf-fdb8-c18e55abe718
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      delay: 666
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 35.92.121.207
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 694
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 44.243.45.146
-      type: ss
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -98,16 +19,75 @@ proxies:
         headers:
             HOST: cdn-ca.sm-node.com
         path: /vmess_ws/smjc/index?ed=8192
+    - delay: 2232
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      password: "3747000103274291200"
+      port: 443
+      server: polished-ox.treefrog761.one
+      sni: polished-ox.treefrog761.one
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 694
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 44.243.45.146
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1066
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      obfs: plain
+      obfs-param: ""
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      protocol-param: ""
+      server: 54.189.149.15
+      type: ssr
+    - cipher: aes-256-cfb
+      delay: 697
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 34.216.193.190
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1592
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.12.191.72
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 666
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 35.92.121.207
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 682
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
+      password: amazonskr05
+      port: 443
+      server: 52.34.200.48
+      type: ss
     - client-fingerprint: chrome
-      delay: 1259
-      name: 美国 - 檀香山 - The Constant Company - 44
+      delay: 1787
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 61
       network: ws
-      port: 8080
-      server: 208.72.153.34
+      port: 80
+      server: 45.149.12.128
+      servername: pormang.webhost99.workers.dev
       tls: false
       type: vless
-      uuid: 2ed74ed2-46f3-4199-f362-1c288bccacfe
+      udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
       ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
         path: /
     - cipher: aes-256-gcm
       delay: 864
@@ -116,20 +96,12 @@ proxies:
       port: 8443
       server: 141.94.115.231
       type: ss
-    - cipher: aes-256-cfb
-      delay: 820
-      name: 日本 - 东京 - Amazon Technologies Inc - 1
-      password: amazonskr05
-      port: 443
-      server: 13.114.96.104
-      type: ss
-      udp: true
-    - delay: 2579
-      name: 土耳其 - 伊斯坦布尔 - G-Core Labs S.A. - 1
+    - delay: 1134
+      name: 美国 - Ashburn - Amazon Technologies Inc. - 9
       password: "3747000103274291200"
       port: 443
-      server: artistic-flounder.treefrog761.one
-      sni: artistic-flounder.treefrog761.one
+      server: fluent-bat.treefrog761.one
+      sni: fluent-bat.treefrog761.one
       type: trojan
       udp: true
     - delay: 2007
@@ -140,26 +112,28 @@ proxies:
       sni: alive-polecat.treefrog761.one
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      delay: 1131
-      name: 荷兰 - 阿姆斯特丹 - The Constant Company, LLC - 1
-      network: tcp
-      port: 47221
-      reality-opts:
-        public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
-        short-id: 47ff9b6c
-      server: 95.179.153.250
-      servername: yahoo.com
-      tls: true
-      type: vless
+    - delay: 2579
+      name: 土耳其 - 伊斯坦布尔 - G-Core Labs S.A. - 1
+      password: "3747000103274291200"
+      port: 443
+      server: artistic-flounder.treefrog761.one
+      sni: artistic-flounder.treefrog761.one
+      type: trojan
       udp: true
-      uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
     - cipher: aes-256-cfb
       delay: 1014
       name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
       password: amazonskr05
       port: 443
       server: 43.203.240.54
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 940
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 3.38.214.76
       type: ss
       udp: true
     - cipher: aes-256-cfb
@@ -185,6 +159,14 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - cipher: chacha20-ietf-poly1305
+      delay: 827
+      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
+      password: BZeJ20F15UnvGH0oSYd3C2
+      port: 443
+      server: 78.129.140.11
+      type: ss
+      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -204,32 +186,51 @@ proxies:
         headers:
             HOST: server54-4.998877.best
         path: /jsedr6deersed6h?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      delay: 827
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 2
-      password: BZeJ20F15UnvGH0oSYd3C2
-      port: 443
-      server: 78.129.140.11
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 484
-      name: 日本 - 东京 - Amazon Technologies Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 3.112.245.114
-      type: ss
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1523
-      flow: xtls-rprx-vision
-      name: 以色列 - 贝尔谢巴 - SmartApe OU - 1
+    - client-fingerprint: chrome
+      delay: 1131
+      name: 荷兰 - 阿姆斯特丹 - The Constant Company, LLC - 1
       network: tcp
-      port: 443
-      server: tel5.vpntype.dev
+      port: 47221
+      reality-opts:
+        public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
+        short-id: 47ff9b6c
+      server: 95.179.153.250
+      servername: yahoo.com
       tls: true
       type: vless
       udp: true
-      uuid: e938d60c-6421-4b3c-ac5d-793b9f3b3e66
+      uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
+    - country: "\U0001F1F8\U0001F1EASE"
+      delay: 945
+      name: 瑞典 - 斯德哥尔摩 - Amazon.com, Inc. - 1
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 51.21.42.16
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1234
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 3
+      network: http
+      port: 8081
+      server: 128.140.43.250
+      tls: false
+      type: vless
+      uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
+    - cipher: aes-256-cfb
+      delay: 1072
+      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
+      obfs: plain
+      obfs-param: ""
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      protocol: origin
+      protocol-param: ""
+      server: 62.100.205.48
+      type: ssr
