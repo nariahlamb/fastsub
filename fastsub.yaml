@@ -10,21 +10,14 @@ proxies:
       sni: fancy-mudfish.treefrog761.one
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      delay: 1220
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
-      network: ws
-      port: 80
-      server: 45.149.12.128
-      servername: pormang.webhost99.workers.dev
-      tls: false
-      type: vless
+    - cipher: aes-256-cfb
+      delay: 682
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 54.213.120.25
+      type: ss
       udp: true
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /
     - delay: 1283
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 16
       password: "3747000103274291200"
@@ -34,72 +27,6 @@ proxies:
       type: trojan
       udp: true
     - cipher: aes-256-cfb
-      delay: 673
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 34.220.174.155
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 768
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 52.34.200.48
-      type: ss
-    - delay: 2313
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 35
-      network: ws
-      port: 80
-      server: 66.235.200.30
-      servername: pormang.webhost99.workers.dev
-      tls: false
-      type: vless
-      udp: true
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-    - delay: 1483
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 34
-      network: ws
-      port: 80
-      server: 185.174.138.194
-      servername: pormang.webhost99.workers.dev
-      tls: false
-      type: vless
-      udp: true
-      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
-      ws-opts:
-        headers:
-            Host: pormang.webhost99.workers.dev
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1542
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 26
-      password: amazonskr05
-      port: 443
-      server: 35.91.166.43
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 682
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 54.213.120.25
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F3C1ZZ"
-      delay: 1134
-      name: 德国 - 纽伦堡 - Advin Services LLC - 1
-      password: 1b998e5e-9f5f-47dd-872d-044ca389ace3
-      port: 8388
-      server: shadow-de01.gproxy.gratis
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 699
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 19
@@ -108,44 +35,12 @@ proxies:
       server: 54.190.1.125
       type: ss
     - cipher: aes-256-cfb
-      delay: 693
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
-      obfs: plain
-      obfs-param: ""
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1542
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 26
       password: amazonskr05
       port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 34.220.211.62
-      type: ssr
-    - client-fingerprint: chrome
-      delay: 2599
-      name: 荷兰 - 阿姆斯特丹 - The Constant Company, LLC - 1
-      network: tcp
-      port: 47221
-      reality-opts:
-        public-key: iwsj4xiBztuBQ3I1YsrBBUhnlu7mhhPFozP7bkgaal0
-        short-id: 47ff9b6c
-      server: 95.179.153.250
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3373fe14-47b8-42e5-8a18-7ab3e0dd02b3
-    - cipher: aes-256-cfb
-      delay: 2084
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.231.233.173
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 930
-      name: 瑞士 - 伯尔尼 - Stark Industries Solutions LTD - 1
-      password: oPVoeAO4MB54L7MLs2skdX
-      port: 45230
-      server: 94.131.3.203
+      server: 35.91.166.43
       type: ss
     - country: "\U0001F1F8\U0001F1EASE"
       delay: 2798
@@ -178,11 +73,24 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 00dedc77-59b9-42f1-a9ce-3f33af694f5e
-    - delay: 1386
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
+    - client-fingerprint: chrome
+      delay: 1218
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 2
+      network: http
+      port: 8081
+      server: 128.140.43.250
+      tls: false
+      type: vless
+      uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
+    - delay: 2279
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 43
       network: ws
       port: 8880
-      server: 154.83.2.230
+      server: 154.83.2.156
       servername: redw.pooriam.ir
       tls: false
       type: vless
@@ -192,16 +100,6 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - country: "\U0001F1F7\U0001F1F4RO"
-      delay: 1218
-      name: 土耳其 - 伊斯坦布尔 - G-Core Labs S.A. - 1
-      password: "3747000103274291200"
-      port: 443
-      server: 93.114.98.252
-      skip-cert-verify: true
-      sni: alive-polecat.treefrog761.one
-      type: trojan
-      udp: true
     - delay: 1273
       name: 美国 - Boydton - Microsoft Corporation - 48
       network: ws
@@ -216,16 +114,6 @@ proxies:
         headers:
             Host: usb.sevco.me
         path: /bing
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1055
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 1
-      password: dongtaiwang.com
-      port: 13861
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - cipher: aes-256-cfb
       delay: 1741
       name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 2
@@ -234,21 +122,6 @@ proxies:
       server: 185.231.233.112
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 788
-      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
-      password: vcUpZCJzOuaVoN8OL2cYvK
-      port: 443
-      server: 78.129.140.11
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FA RU"
-      delay: 1899
-      name: 波兰 - Mazovia - Global Connectivity Solutions LLP - 4
-      password: khRaVpqrxCiJlvySn9J3eE
-      port: 443
-      server: 77.83.246.74
-      type: ss
     - client-fingerprint: firefox
       delay: 1542
       grpc-opts:
@@ -265,101 +138,14 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - delay: 2279
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 43
-      network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: aes-256-cfb
-      delay: 1508
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 43.203.212.161
-      type: ss
-    - client-fingerprint: chrome
-      delay: 1218
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: 德国 - 纽伦堡 - Hetzner Online GmbH - 2
-      network: http
-      port: 8081
-      server: 128.140.43.250
-      tls: false
-      type: vless
-      uuid: 5d245df1-c570-4b84-9642-faa4d0e3d3b7
-    - delay: 2907
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 46
-      network: ws
-      port: 2052
-      server: 45.149.12.183
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 388
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 13.229.55.109
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 370
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 13.212.32.201
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 257
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 13.229.111.3
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 411
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 13.229.82.37
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 256
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 54.254.236.133
-      type: ss
-      udp: true
     - cipher: chacha20-ietf-poly1305
-      delay: 2929
-      name: 瑞典 - 斯德哥尔摩 - Aeza International LTD - 1
-      password: PPXb8J2ciDybokWl7kxKab
-      port: 51587
-      server: free2.okkserver.tech
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 930
+      name: 瑞士 - 伯尔尼 - Stark Industries Solutions LTD - 1
+      password: oPVoeAO4MB54L7MLs2skdX
+      port: 45230
+      server: 94.131.3.203
       type: ss
-      udp: true
     - client-fingerprint: chrome
       delay: 2343
       name: 日本 - 成田市 - Cloudflare, Inc. - 4
@@ -374,3 +160,86 @@ proxies:
         headers:
             Host: Join--E-L-i-V-2-R-A-Y.net
         path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+    - delay: 577
+      name: 日本 - 成田市 - Cloudflare, Inc. - 3
+      network: ws
+      port: 80
+      server: join.e-l-i-v-2-r-a-y.fastly80-3.hosting-ip.com
+      servername: Join--E-L-i-V-2-R-A-Y.net
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: Join--E-L-i-V-2-R-A-Y.net
+        path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed=2560
+    - delay: 1386
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      delay: 788
+      name: 英国 - 梅登黑德 - Iomart Hosting Ltd - 1
+      password: vcUpZCJzOuaVoN8OL2cYvK
+      port: 443
+      server: 78.129.140.11
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2084
+      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.231.233.173
+      type: ss
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1055
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 1
+      password: dongtaiwang.com
+      port: 13861
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1220
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
+      network: ws
+      port: 80
+      server: 45.149.12.128
+      servername: pormang.webhost99.workers.dev
+      tls: false
+      type: vless
+      udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 534
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 54.169.215.32
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 2929
+      name: 瑞典 - 斯德哥尔摩 - Aeza International LTD - 1
+      password: PPXb8J2ciDybokWl7kxKab
+      port: 51587
+      server: free2.okkserver.tech
+      type: ss
+      udp: true
