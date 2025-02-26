@@ -1,45 +1,16 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EE\U0001F1F7IR"
-      delay: 1001
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 1
-      network: raw
-      port: 100
-      server: 91.107.183.68
-      skip-cert-verify: true
-      type: vmess
-      uuid: 3f650cc4-39d3-4eb5-82f1-149cca0c342b
-    - delay: 1716
-      name: 美国 - Boydton - Microsoft Corporation - 56
-      network: ws
+    - cipher: aes-256-cfb
+      delay: 694
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 27
+      obfs: plain
+      obfs-param: ""
+      password: amazonskr05
       port: 443
-      server: 45.62.114.221
-      servername: usb.sevco.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: dd0d29f2-c6fd-4518-bed6-618ef8b12e86
-      ws-opts:
-        headers:
-            Host: usb.sevco.me
-        path: /bing
-    - client-fingerprint: chrome
-      delay: 1992
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: 8443vless
-      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
-      network: grpc
-      port: 8443
-      server: 172.67.204.84
-      servername: wwwspeedtestnetwhiteberinsistomd6625996s10.gamers-room-forlifelol2.ir
-      tls: true
-      type: vless
-      uuid: 06dd7fa5-5b58-4385-a080-b916e4e79eef
+      protocol: origin
+      protocol-param: ""
+      server: 34.218.246.115
+      type: ssr
     - client-fingerprint: firefox
       delay: 1238
       grpc-opts:
@@ -56,26 +27,40 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - delay: 2293
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
+    - client-fingerprint: chrome
+      delay: 1992
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: 8443vless
+      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
+      network: grpc
+      port: 8443
+      server: 172.67.204.84
+      servername: wwwspeedtestnetwhiteberinsistomd6625996s10.gamers-room-forlifelol2.ir
+      tls: true
+      type: vless
+      uuid: 06dd7fa5-5b58-4385-a080-b916e4e79eef
+    - delay: 1716
+      name: 美国 - Boydton - Microsoft Corporation - 56
       network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
-      tls: false
+      port: 443
+      server: 45.62.114.221
+      servername: usb.sevco.me
+      tls: true
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: dd0d29f2-c6fd-4518-bed6-618ef8b12e86
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: aes-256-cfb
-      delay: 992
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
-      password: amazonskr05
+            Host: usb.sevco.me
+        path: /bing
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F5\U0001F1F1PL"
+      delay: 1146
+      name: 波兰 - Mazovia - Global Connectivity Solutions LLP - 18
+      password: K3DaonhcEl5C9XQoe6DSmT
       port: 443
-      server: 13.125.186.115
+      server: 77.83.246.74
       type: ss
     - delay: 1757
       name: 德国 - 纽伦堡 - Hetzner Online GmbH - 4
@@ -91,6 +76,39 @@ proxies:
         headers:
             Host: dd8.transitkala.com
         path: /
+    - delay: 2293
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
+      network: ws
+      port: 8880
+      server: 154.83.2.156
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2889
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - Cloudflare, Inc. - 34
+      network: ws
+      port: 443
+      server: 104.18.149.76
+      servername: us.kkp.me.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+      ws-opts:
+        headers:
+            HOST: us.kkp.me.eu.org
+        path: /aa
     - client-fingerprint: chrome
       delay: 1517
       grpc-opts:
@@ -104,14 +122,3 @@ proxies:
       tls: true
       type: vless
       uuid: 06dd7fa5-5b58-4385-a080-b916e4e79eef
-    - cipher: aes-256-cfb
-      delay: 1681
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 28
-      obfs: plain
-      obfs-param: ""
-      password: amazonskr05
-      port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 52.33.5.226
-      type: ssr
