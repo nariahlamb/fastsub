@@ -1,15 +1,22 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 1681
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 28
+      delay: 1849
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 52.34.200.48
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 694
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 27
       obfs: plain
       obfs-param: ""
       password: amazonskr05
       port: 443
       protocol: origin
       protocol-param: ""
-      server: 52.33.5.226
+      server: 34.218.246.115
       type: ssr
     - cipher: aes-256-cfb
       delay: 721
@@ -22,6 +29,53 @@ proxies:
       protocol-param: ""
       server: 34.212.0.149
       type: ssr
+    - cipher: aes-256-cfb
+      delay: 1673
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 52.32.166.45
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1681
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 28
+      obfs: plain
+      obfs-param: ""
+      password: amazonskr05
+      port: 443
+      protocol: origin
+      protocol-param: ""
+      server: 52.33.5.226
+      type: ssr
+    - delay: 2293
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
+      network: ws
+      port: 8880
+      server: 154.83.2.156
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - delay: 1719
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
+      network: ws
+      port: 80
+      server: 66.235.200.30
+      servername: pormang.webhost99.workers.dev
+      tls: false
+      type: vless
+      udp: true
+      uuid: e497da22-d020-40fb-a1fa-bc294066a2d2
+      ws-opts:
+        headers:
+            Host: pormang.webhost99.workers.dev
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1
     - alterId: 0
       cipher: auto
       country: "\U0001F1EE\U0001F1F7IR"
@@ -35,6 +89,37 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 3f650cc4-39d3-4eb5-82f1-149cca0c342b
+    - delay: 700
+      name: 中国 - 香港 - Prime Security Corp - 1
+      password: 1e63e585ab2fef3adcc9ea75a62abc23
+      port: 443
+      server: 104.251.227.182
+      skip-cert-verify: true
+      sni: hezijiasuqi.com
+      type: trojan
+    - auth: dongtaiwang.com
+      delay: 1169
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
+      password: dongtaiwang.com
+      port: 13861
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1992
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: 8443vless
+      name: 加拿大 - 蒙特利尔 - OVH SAS - 1
+      network: grpc
+      port: 8443
+      server: 172.67.204.84
+      servername: wwwspeedtestnetwhiteberinsistomd6625996s10.gamers-room-forlifelol2.ir
+      tls: true
+      type: vless
+      uuid: 06dd7fa5-5b58-4385-a080-b916e4e79eef
     - client-fingerprint: firefox
       delay: 1238
       grpc-opts:
@@ -51,30 +136,6 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - delay: 2293
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
-      network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - auth: dongtaiwang.com
-      delay: 1169
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
-      password: dongtaiwang.com
-      port: 13861
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
