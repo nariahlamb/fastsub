@@ -1,83 +1,96 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      delay: 721
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 29
-      obfs: plain
-      obfs-param: ""
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2269
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
       password: amazonskr05
       port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 34.212.0.149
-      type: ssr
+      server: 35.88.126.62
+      type: ss
     - cipher: aes-256-cfb
-      delay: 694
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 27
-      obfs: plain
-      obfs-param: ""
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 635
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
       password: amazonskr05
       port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 34.218.246.115
-      type: ssr
+      server: 3.112.1.95
+      type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 1063
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 3.38.214.76
+      delay: 841
+      name: 爱尔兰 - 都柏林 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.108.129.51
       type: ss
     - alterId: 0
       cipher: auto
-      country: "\U0001F1EE\U0001F1F7IR"
-      delay: 1001
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 810
       h2-opts: {}
       http-opts: {}
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 1
-      network: raw
+      name: 德国 - Falkenstein - Hetzner Online GmbH - 2
+      network: tcp
       port: 100
-      server: 91.107.183.68
+      server: 138.199.158.245
+      servername: speedtest.net
       skip-cert-verify: true
       type: vmess
-      uuid: 3f650cc4-39d3-4eb5-82f1-149cca0c342b
+      uuid: b52f0a62-068c-41bf-a4f6-ac3faddded46
     - cipher: aes-256-cfb
-      delay: 698
-      name: 日本 - 东京 - Amazon Technologies Inc. - 3
+      delay: 927
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
-      server: 3.112.245.114
+      server: 52.78.98.113
       type: ss
-    - delay: 700
-      name: 中国 - 香港 - Prime Security Corp - 1
-      password: 1e63e585ab2fef3adcc9ea75a62abc23
+    - cipher: aes-256-cfb
+      delay: 359
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 5
+      password: amazonskr05
       port: 443
-      server: 104.251.227.182
-      skip-cert-verify: true
-      sni: hezijiasuqi.com
-      type: trojan
-    - delay: 2293
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
+      server: 13.250.96.5
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 2356
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.221.195.154
+      type: ss
+    - client-fingerprint: chrome
+      delay: 808
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
       network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
+      port: 2095
+      server: 156.238.18.163
       tls: false
       type: vless
-      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - client-fingerprint: chrome
+      delay: 1618
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
+      network: ws
+      port: 2052
+      server: 156.238.18.165
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
     - client-fingerprint: firefox
-      delay: 1238
+      delay: 1883
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-      name: 意大利 - 罗马市 - Aruba S.p.A. - 3
+      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
       network: grpc
       port: 443
       reality-opts:
@@ -89,28 +102,10 @@ proxies:
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
     - cipher: aes-256-cfb
-      delay: 992
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 13.125.186.115
+      country: "\U0001F1F3\U0001F1F1NL"
+      delay: 1918
+      name: 瑞典 - 斯德哥尔摩 - No ACK Group Holding AB - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.15.23.63
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2889
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - Cloudflare, Inc. - 34
-      network: ws
-      port: 443
-      server: 104.18.149.76
-      servername: us.kkp.me.eu.org
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-      ws-opts:
-        headers:
-            HOST: us.kkp.me.eu.org
-        path: /aa
