@@ -1,5 +1,13 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2269
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
+      password: amazonskr05
+      port: 443
+      server: 35.88.126.62
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F1E9\U0001F1EADE"
@@ -37,25 +45,60 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - delay: 2146
+      name: 美国 - Boydton - Microsoft Corporation - 40
+      network: ws
+      port: 443
+      server: 31.22.116.38
+      servername: usd.kobtty.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
+      ws-opts:
+        headers:
+            Host: usd.kobtty.me
+        path: /bing
+    - cipher: rc4-md5
+      delay: 956
+      name: 印度 - 班加羅爾 - DigitalOcean, LLC - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 159.65.149.67
+      type: ss
+    - client-fingerprint: chrome
+      delay: 2559
+      name: 日本 - 成田市 - Cloudflare, Inc. - 5
+      network: ws
+      port: 80
+      server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+      servername: Join--E-L-i-V-2-R-A-Y.net
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: Join--E-L-i-V-2-R-A-Y.net
+        path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+    - alterId: 0
+      cipher: auto
+      delay: 1604
+      name: 波兰 - 华沙 - 3hcloud - 1
+      network: ws
+      port: 8443
+      server: 45.144.48.128
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
+      ws-opts:
+        path: /vmess/
     - client-fingerprint: chrome
       delay: 1618
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
       network: ws
       port: 2052
       server: 156.238.18.165
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - client-fingerprint: chrome
-      delay: 808
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
-      network: ws
-      port: 2095
-      server: 156.238.18.163
       tls: false
       type: vless
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
@@ -71,17 +114,16 @@ proxies:
       server: 185.231.233.173
       type: ss
       udp: true
-    - delay: 2146
-      name: 美国 - Boydton - Microsoft Corporation - 40
+    - client-fingerprint: chrome
+      delay: 808
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
       network: ws
-      port: 443
-      server: 31.22.116.38
-      servername: usd.kobtty.me
-      tls: true
+      port: 2095
+      server: 156.238.18.163
+      tls: false
       type: vless
-      udp: true
-      uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: usd.kobtty.me
-        path: /bing
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
