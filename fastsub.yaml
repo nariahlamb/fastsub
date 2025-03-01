@@ -7,6 +7,14 @@ proxies:
       port: 989
       server: 185.108.129.51
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2011
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 35.72.9.98
+      type: ss
     - client-fingerprint: firefox
       delay: 1883
       grpc-opts:
@@ -37,19 +45,19 @@ proxies:
         headers:
             Host: usd.kobtty.me
         path: /bing
-    - client-fingerprint: chrome
-      delay: 808
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
+    - alterId: 0
+      cipher: auto
+      delay: 1604
+      name: 波兰 - 华沙 - 3hcloud - 1
       network: ws
-      port: 2095
-      server: 156.238.18.163
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      port: 8443
+      server: 45.144.48.128
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
       ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+        path: /vmess/
     - cipher: aes-256-cfb
       delay: 842
       name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
@@ -58,33 +66,3 @@ proxies:
       server: 185.231.233.173
       type: ss
       udp: true
-    - client-fingerprint: chrome
-      delay: 1618
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
-      network: ws
-      port: 2052
-      server: 156.238.18.165
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - cipher: aes-256-cfb
-      country: "\U0001F1F3\U0001F1F1NL"
-      delay: 1918
-      name: 瑞典 - 斯德哥尔摩 - No ACK Group Holding AB - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.23.63
-      type: ss
-    - cipher: chacha20-ietf
-      delay: 849
-      name: 中国 - 大寺 - PEG TECH INC - 1
-      obfs: plain
-      password: asd123456
-      port: 8388
-      protocol: origin
-      server: 137.175.97.159
-      type: ssr
