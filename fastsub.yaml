@@ -1,27 +1,26 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2269
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2011
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
       password: amazonskr05
       port: 443
-      server: 35.88.126.62
+      server: 35.72.9.98
       type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E9\U0001F1EADE"
-      delay: 810
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - Falkenstein - Hetzner Online GmbH - 2
-      network: tcp
-      port: 100
-      server: 138.199.158.245
-      servername: speedtest.net
-      skip-cert-verify: true
-      type: vmess
-      uuid: b52f0a62-068c-41bf-a4f6-ac3faddded46
+    - client-fingerprint: chrome
+      delay: 1618
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
+      network: ws
+      port: 2052
+      server: 156.238.18.165
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
     - cipher: aes-256-cfb
       delay: 841
       name: 爱尔兰 - 都柏林 - ONEPROVIDER - 1
@@ -29,6 +28,49 @@ proxies:
       port: 989
       server: 185.108.129.51
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 635
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 3.112.1.95
+      type: ss
+    - delay: 2146
+      name: 美国 - Boydton - Microsoft Corporation - 40
+      network: ws
+      port: 443
+      server: 31.22.116.38
+      servername: usd.kobtty.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
+      ws-opts:
+        headers:
+            Host: usd.kobtty.me
+        path: /bing
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 2356
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.221.195.154
+      type: ss
+    - client-fingerprint: chrome
+      delay: 808
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
+      network: ws
+      port: 2095
+      server: 156.238.18.163
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
     - client-fingerprint: firefox
       delay: 1883
       grpc-opts:
@@ -45,85 +87,12 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - delay: 2146
-      name: 美国 - Boydton - Microsoft Corporation - 40
-      network: ws
-      port: 443
-      server: 31.22.116.38
-      servername: usd.kobtty.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7671069f-ce73-4977-be03-414e79f1d7cd
-      ws-opts:
-        headers:
-            Host: usd.kobtty.me
-        path: /bing
-    - cipher: rc4-md5
-      delay: 956
-      name: 印度 - 班加羅爾 - DigitalOcean, LLC - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 159.65.149.67
-      type: ss
-    - client-fingerprint: chrome
-      delay: 2559
-      name: 日本 - 成田市 - Cloudflare, Inc. - 5
-      network: ws
-      port: 80
-      server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
-      servername: Join--E-L-i-V-2-R-A-Y.net
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: Join--E-L-i-V-2-R-A-Y.net
-        path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-    - alterId: 0
-      cipher: auto
-      delay: 1604
-      name: 波兰 - 华沙 - 3hcloud - 1
-      network: ws
-      port: 8443
-      server: 45.144.48.128
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: a4850481-9b95-430f-9b2d-192d2410b4f4
-      ws-opts:
-        path: /vmess/
-    - client-fingerprint: chrome
-      delay: 1618
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
-      network: ws
-      port: 2052
-      server: 156.238.18.165
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - cipher: aes-256-cfb
-      delay: 842
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.231.233.173
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      delay: 808
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
-      network: ws
-      port: 2095
-      server: 156.238.18.163
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - cipher: chacha20-ietf
+      delay: 849
+      name: 中国 - 大寺 - PEG TECH INC - 1
+      obfs: plain
+      password: asd123456
+      port: 8388
+      protocol: origin
+      server: 137.175.97.159
+      type: ssr
