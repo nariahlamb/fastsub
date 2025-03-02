@@ -1,14 +1,6 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2269
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
-      password: amazonskr05
-      port: 443
-      server: 35.88.126.62
-      type: ss
-    - cipher: aes-256-cfb
       delay: 841
       name: 爱尔兰 - 都柏林 - ONEPROVIDER - 1
       password: f8f7aCzcPKbsF8p3
@@ -16,12 +8,12 @@ proxies:
       server: 185.108.129.51
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 2011
-      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2269
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 14
       password: amazonskr05
       port: 443
-      server: 35.72.9.98
+      server: 35.88.126.62
       type: ss
     - delay: 2146
       name: 美国 - Boydton - Microsoft Corporation - 40
@@ -53,19 +45,14 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
-    - client-fingerprint: chrome
-      delay: 1618
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
-      network: ws
-      port: 2052
-      server: 156.238.18.165
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 2011
+      name: 日本 - 东京 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 35.72.9.98
+      type: ss
     - cipher: rc4-md5
       delay: 956
       name: 印度 - 班加羅爾 - DigitalOcean, LLC - 1
@@ -74,11 +61,54 @@ proxies:
       server: 159.65.149.67
       type: ss
     - client-fingerprint: chrome
+      delay: 2559
+      name: 日本 - 成田市 - Cloudflare, Inc. - 5
+      network: ws
+      port: 80
+      server: join.E-L-i-V-2-R-A-Y.fastly80-3.hosting-ip.com
+      servername: Join--E-L-i-V-2-R-A-Y.net
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: Join--E-L-i-V-2-R-A-Y.net
+        path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
+    - client-fingerprint: chrome
       delay: 808
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 38
       network: ws
       port: 2095
       server: 156.238.18.163
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 2356
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.221.195.154
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 1471
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.229.55.109
+      type: ss
+    - client-fingerprint: chrome
+      delay: 1618
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 39
+      network: ws
+      port: 2052
+      server: 156.238.18.165
       tls: false
       type: vless
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
@@ -94,11 +124,3 @@ proxies:
       server: 185.231.233.173
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1F3\U0001F1F1NL"
-      delay: 1918
-      name: 瑞典 - 斯德哥尔摩 - No ACK Group Holding AB - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.23.63
-      type: ss
