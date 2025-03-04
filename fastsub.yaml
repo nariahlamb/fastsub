@@ -1,6 +1,54 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-256-cfb
+      delay: 2343
+      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 13.230.20.120
+      type: ss
+    - delay: 750
+      name: 中国 - 香港 - Prime Security Corp - 2
+      password: 1e63e585ab2fef3adcc9ea75a62abc23
+      port: 443
+      server: 104.251.227.182
+      skip-cert-verify: true
+      sni: hezijiasuqi.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1E6CA"
+      delay: 1561
+      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 1
+      password: M2EzY
+      port: 8388
+      server: ca1.ssocks.wiki
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1166
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 1
+      network: ws
+      port: 2052
+      server: s1.db-link01.top
+      servername: 100-151-164-47.s1.db-link01.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: 100-151-164-47.s1.db-link01.top
+        path: /dabai.in172.67.2.142
+    - cipher: aes-256-cfb
+      delay: 2229
+      name: 芬兰 - 赫尔辛基 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 37.143.129.230
+      type: ss
+    - cipher: aes-256-cfb
       delay: 740
       name: 瑞士 - 苏黎世 - DataCamp Limited - 1
       password: f8f7aCzcPKbsF8p3
@@ -8,27 +56,3 @@ proxies:
       server: 84.17.53.160
       type: ss
       udp: true
-    - country: "\U0001F1EC\U0001F1E7GB"
-      delay: 1577
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 1
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.130.190.255
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - delay: 764
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 22
-      network: ws
-      port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
