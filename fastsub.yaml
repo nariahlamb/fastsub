@@ -1,24 +1,5 @@
 proxy-providers: {}
 proxies:
-    - delay: 1781
-      name: 美国 - 阿瓦達 - OVH US LLC - 44
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EB\U0001F1EE FI"
-      delay: 2066
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 1
-      password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
-      port: 26992
-      server: matrix4.mobindvil.shop
-      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -37,23 +18,17 @@ proxies:
         headers:
             HOST: 100-44-70-80.s1.db-link02.top
         path: /dabai.in172.67.75.187
-    - cipher: aes-256-cfb
-      delay: 974
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.231.233.112
-      type: ss
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2646
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
+    - delay: 1781
+      name: 美国 - 阿瓦達 - OVH US LLC - 44
+      network: tcp
+      port: 443
+      server: 15.204.158.90
+      servername: 147135011033.sec21org.com
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      tls: true
+      type: vless
       udp: true
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
     - cipher: aes-256-cfb
       delay: 955
       name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
@@ -61,6 +36,28 @@ proxies:
       port: 443
       server: 54.180.128.213
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EB\U0001F1EE FI"
+      delay: 2066
+      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 1
+      password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
+      port: 26992
+      server: matrix4.mobindvil.shop
+      type: ss
+    - delay: 941
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
     - delay: 1300
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
       network: ws
@@ -75,51 +72,16 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: aes-256-cfb
-      delay: 455
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 54.95.114.157
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1351
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 5
-      network: ws
-      port: 443
-      server: 104.18.23.19
-      servername: server2-2.998877.best
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2646
+      name: 波兰 - 华沙 - ECO-ATMAN - 1
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: server2-2.998877.best
-        path: /er5khymbnriysb?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1319
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 7
-      network: ws
-      port: 443
-      server: us19.998998.best
-      servername: server2-2.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: server2-2.998877.best
-        path: /er5khymbnriysb?ed=2560
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -139,83 +101,3 @@ proxies:
         headers:
             HOST: server54-4.998877.best
         path: /jsedr6deersed6h?ed=2560
-    - delay: 941
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
-      network: ws
-      port: 8880
-      server: 154.83.2.230
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 854
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 6
-      network: ws
-      port: 443
-      server: 104.18.24.41
-      servername: server9-3.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: server9-3.998877.best
-        path: /rksdnuhgteb?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1625
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 47
-      network: ws
-      port: 443
-      server: us16.998998.best
-      servername: server9-3.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: server9-3.998877.best
-        path: /rksdnuhgteb?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2048
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 休斯敦 - Snaju Development - 4
-      network: ws
-      port: 443
-      server: 104.18.29.104
-      servername: serverus1-1.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: serverus1-1.998877.best
-        path: /e56yglr4i8j7nk?ed=2560
-    - auth: dongtaiwang.com
-      delay: 1940
-      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
-      password: dongtaiwang.com
-      port: 51224
-      server: 46.17.41.189
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
