@@ -1,5 +1,24 @@
 proxy-providers: {}
 proxies:
+    - delay: 2903
+      name: 英国 - Slough - DigitalOcean, LLC - 1
+      password: 4a8973a9-6d7e-4996-b05a-7df3374c083a
+      port: 443
+      server: 165.227.229.34
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - delay: 1781
+      name: 美国 - 阿瓦達 - OVH US LLC - 44
+      network: tcp
+      port: 443
+      server: 15.204.158.90
+      servername: 147135011033.sec21org.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -18,31 +37,12 @@ proxies:
         headers:
             HOST: 100-44-70-80.s1.db-link02.top
         path: /dabai.in172.67.75.187
-    - delay: 1781
-      name: 美国 - 阿瓦達 - OVH US LLC - 44
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
     - cipher: aes-256-cfb
       delay: 955
       name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
       server: 54.180.128.213
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1EB\U0001F1EE FI"
-      delay: 2066
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 1
-      password: kcHOaeQgEca5hRAF/ESLV0Dq7n7BvENRvSGYvKMjdRI=
-      port: 26992
-      server: matrix4.mobindvil.shop
       type: ss
     - delay: 941
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
@@ -58,30 +58,6 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - delay: 1300
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
-      network: ws
-      port: 8880
-      server: 154.83.2.228
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2646
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -101,3 +77,28 @@ proxies:
         headers:
             HOST: server54-4.998877.best
         path: /jsedr6deersed6h?ed=2560
+    - delay: 1383
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 22
+      network: ws
+      port: 443
+      server: 104.17.146.152
+      servername: c01.ylkszy.eu.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      ws-opts:
+        headers:
+            Host: c01.ylkszy.eu.org
+        path: /?ed=2560
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2646
+      name: 波兰 - 华沙 - ECO-ATMAN - 1
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
