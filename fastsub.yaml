@@ -1,5 +1,13 @@
 proxy-providers: {}
 proxies:
+    - delay: 2903
+      name: 英国 - Slough - DigitalOcean, LLC - 1
+      password: 4a8973a9-6d7e-4996-b05a-7df3374c083a
+      port: 443
+      server: 165.227.229.34
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -18,6 +26,16 @@ proxies:
         headers:
             HOST: 100-44-70-80.s1.db-link02.top
         path: /dabai.in172.67.75.187
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2646
+      name: 波兰 - 华沙 - ECO-ATMAN - 1
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - delay: 1300
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
       network: ws
@@ -32,14 +50,17 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - delay: 1781
-      name: 美国 - 阿瓦達 - OVH US LLC - 44
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      skip-cert-verify: true
-      tls: true
+    - delay: 941
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
+      tls: false
       type: vless
       udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
