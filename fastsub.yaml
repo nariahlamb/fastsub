@@ -18,84 +18,6 @@ proxies:
         headers:
             HOST: 100-44-70-80.s1.db-link02.top
         path: /dabai.in172.67.75.187
-    - delay: 1781
-      name: 美国 - 阿瓦達 - OVH US LLC - 44
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - delay: 2903
-      name: 英国 - Slough - DigitalOcean, LLC - 1
-      password: 4a8973a9-6d7e-4996-b05a-7df3374c083a
-      port: 443
-      server: 165.227.229.34
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - delay: 941
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
-      network: ws
-      port: 8880
-      server: 154.83.2.230
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: aes-256-cfb
-      delay: 955
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 54.180.128.213
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2187
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 杜塞尔多夫 - Felix Gassan - 2
-      network: ws
-      port: 443
-      server: eu9.998998.best
-      servername: server54-4.998877.best
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-      ws-opts:
-        headers:
-            HOST: server54-4.998877.best
-        path: /jsedr6deersed6h?ed=2560
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 2646
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: dongtaiwang.com
-      delay: 1940
-      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
-      password: dongtaiwang.com
-      port: 51224
-      server: 46.17.41.189
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - delay: 1300
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 45
       network: ws
@@ -110,33 +32,14 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - delay: 2295
-      name: 美国 - Reston - Cloudflare, Inc. - 38
-      network: ws
+    - delay: 1781
+      name: 美国 - 阿瓦達 - OVH US LLC - 44
+      network: tcp
       port: 443
-      server: www.hugedomains.com
-      servername: c01.ylkszy.eu.org
+      server: 15.204.158.90
+      servername: 147135011033.sec21org.com
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: c01.ylkszy.eu.org
-        path: /?ed=2560
-    - delay: 1731
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 18
-      network: ws
-      port: 443
-      server: 172.64.152.251
-      servername: c01.ylkszy.eu.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: c01.ylkszy.eu.org
-        path: /?ed=2560
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
