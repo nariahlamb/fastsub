@@ -2,41 +2,19 @@ proxy-providers: {}
 proxies:
     - alterId: 0
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1892
+      delay: 1467
       h2-opts: {}
       http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies - 7
+      name: 德国 - 法兰克福 - Akamai Technologies - 3
       network: ws
       port: 443
-      server: 172.67.219.194
-      servername: adenc36v.xtooltech.cfd
-      skip-cert-verify: true
+      server: 104.21.95.16
       tls: true
       type: vmess
-      uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
       ws-opts:
         headers:
-            HOST: adenc36v.xtooltech.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1223
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 5
-      network: ws
-      port: 443
-      server: 172.67.164.164
-      servername: afrhms07.xfixedfloat.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-      ws-opts:
-        headers:
-            HOST: afrhms07.xfixedfloat.cfd
+            Host: hms03.dongfeng.cfd
         path: /linkws
     - alterId: 0
       cipher: auto
@@ -54,39 +32,86 @@ proxies:
         headers:
             Host: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
         path: /ausgt02.bestforxray.buzz/linkws
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 785
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
+      password: amazonskr05
+      port: 443
+      server: 34.222.44.5
+      type: ss
     - alterId: 0
       cipher: auto
-      delay: 2043
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1892
       h2-opts: {}
       http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 3
+      name: 德国 - 法兰克福 - Akamai Technologies - 7
       network: ws
       port: 443
-      server: 190.93.247.58
+      server: 172.67.219.194
+      servername: adenc36v.xtooltech.cfd
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
       ws-opts:
         headers:
-            host: hms02.fxiaomi.sbs
-        path: /link
+            HOST: adenc36v.xtooltech.cfd
+        path: /linkws
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 702
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 54.200.183.45
+      type: ss
     - alterId: 0
       cipher: auto
-      delay: 1260
+      delay: 1360
       h2-opts: {}
       http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 6
+      name: 德国 - 法兰克福 - Akamai Technologies - 2
       network: ws
       port: 443
-      server: 172.67.193.108
+      server: 172.67.169.40
+      skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
       ws-opts:
         headers:
-            Host: gwdef.sbs
+            host: hms03.dongfeng.cfd
         path: /linkws
+    - client-fingerprint: chrome
+      delay: 1990
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
+      name: 美国 - Elk Grove Village - HostPapa - 54
+      network: grpc
+      port: 443
+      server: us10-01zl.huangshang.filegear-sg.me
+      servername: us10-01zl.huangshang.filegear-sg.me
+      tls: true
+      type: vless
+      uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    - alterId: 0
+      cipher: auto
+      delay: 1669
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 14
+      network: ws
+      port: 2086
+      server: s3.db-link01.top
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-44-69-4.s3.db-link01.top
+        path: /dabai.in104.16.42.241
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -106,27 +131,6 @@ proxies:
         headers:
             HOST: gwdef.sbs
         path: /linkws
-    - client-fingerprint: chrome
-      delay: 1990
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
-      name: 美国 - Elk Grove Village - HostPapa - 54
-      network: grpc
-      port: 443
-      server: us10-01zl.huangshang.filegear-sg.me
-      servername: us10-01zl.huangshang.filegear-sg.me
-      tls: true
-      type: vless
-      uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F8\U0001F1EASE"
-      delay: 779
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
-      password: 70Xwg0SbHSL8CuCkiLuGhO
-      port: 15128
-      server: sto2.g.edgeservers.org
-      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -148,6 +152,56 @@ proxies:
         path: /link
     - alterId: 0
       cipher: auto
+      delay: 1395
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 10
+      network: ws
+      port: 443
+      server: 172.67.223.119
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      ws-opts:
+        headers:
+            Host: hms02.fxiaomi.sbs
+        path: /link
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1241
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies - 1
+      network: ws
+      port: 443
+      server: 104.21.53.183
+      servername: glweidf.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+      ws-opts:
+        headers:
+            HOST: glweidf.cfd
+        path: /linkws
+    - alterId: 0
+      cipher: auto
+      delay: 1260
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 6
+      network: ws
+      port: 443
+      server: 172.67.193.108
+      tls: true
+      type: vmess
+      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+      ws-opts:
+        headers:
+            Host: gwdef.sbs
+        path: /linkws
+    - alterId: 0
+      cipher: auto
       country: "\U0001F1E8\U0001F1F4CO"
       delay: 1745
       h2-opts: {}
@@ -165,60 +219,23 @@ proxies:
         headers:
             HOST: ivideos.sbs
         path: /linkws
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F8\U0001F1EASE"
-      delay: 1514
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 3
-      password: WVU27LquAMOeXmYeStI897
-      port: 32448
-      server: sto3.g.edgeservers.org
-      type: ss
     - alterId: 0
       cipher: auto
-      delay: 1395
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 10
+      delay: 2043
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 3
       network: ws
       port: 443
-      server: 172.67.223.119
+      server: 190.93.247.58
       skip-cert-verify: true
       tls: true
       type: vmess
       uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
       ws-opts:
         headers:
-            Host: hms02.fxiaomi.sbs
+            host: hms02.fxiaomi.sbs
         path: /link
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 702
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 54.200.183.45
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 2518
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 4
-      network: ws
-      port: 443
-      server: hms07.xfixedfloat.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-      ws-opts:
-        headers:
-            Host: afrhms07.xfixedfloat.cfd
-        path: /linkws
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 670
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
-      password: amazonskr05
-      port: 443
-      server: 35.87.121.216
-      type: ss
     - cipher: aes-256-cfb
       delay: 989
       name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
@@ -226,134 +243,14 @@ proxies:
       port: 989
       server: 156.146.40.194
       type: ss
-    - delay: 1458
-      name: 美国 - 阿瓦達 - OVH US LLC - 72
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - cipher: chacha20-ietf-poly1305
-      delay: 1424
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 2
-      password: PI3ncxF2GPuPiB1l5gitcO
-      port: 63418
-      server: sto4.g.edgeservers.org
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2655
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 4
-      network: ws
-      port: 443
-      server: 23.94.243.79
-      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-        path: /dabai.in104.20.27.115
-    - delay: 608
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 77
-      network: ws
-      port: 8880
-      server: 154.83.2.230
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - client-fingerprint: firefox
-      delay: 1729
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
-      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
-      network: grpc
-      port: 443
-      reality-opts:
-        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
-        short-id: c5508bd7
-      server: 209.227.230.243
-      servername: wordpress.org
-      tls: true
-      type: vless
-      uuid: 253f59da-b708-4404-cebe-3854aad88880
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
-      delay: 468
-      name: 日本 - 东京 - Amazon.com, Inc. - 7
+      delay: 460
+      name: 日本 - 东京 - Amazon Technologies Inc. - 3
       password: amazonskr05
       port: 443
-      server: 54.248.37.117
+      server: 52.195.170.255
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 463
-      name: 日本 - 东京 - Amazon Technologies Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 3.112.250.206
-      type: ss
-    - delay: 1778
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 87
-      network: ws
-      port: 8880
-      server: 185.146.173.112
-      tls: false
-      type: vless
-      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-      ws-opts:
-        headers:
-            Host: photographipictureai.ir
-        path: /Telegram
-    - client-fingerprint: chrome
-      delay: 1213
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 75
-      network: ws
-      port: 2095
-      server: 156.238.18.163
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - client-fingerprint: chrome
-      delay: 1093
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
-      network: ws
-      port: 2052
-      server: 156.238.18.165
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - cipher: aes-256-cfb
-      delay: 902
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 3.38.190.30
-      type: ss
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -374,20 +271,73 @@ proxies:
         path: /dabai.in104.19.101.110
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
-      delay: 597
-      name: 日本 - 东京 - Amazon Technologies Inc. - 2
+      delay: 466
+      name: 日本 - 东京 - Amazon Technologies Inc. - 6
       password: amazonskr05
       port: 443
-      server: 3.112.2.39
+      server: 54.168.167.163
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 452
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F8\U0001F1EASE"
+      delay: 779
+      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
+      password: 70Xwg0SbHSL8CuCkiLuGhO
+      port: 15128
+      server: sto2.g.edgeservers.org
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2655
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 4
+      network: ws
       port: 443
-      server: 54.238.207.221
+      server: 23.94.243.79
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.20.27.115
+    - client-fingerprint: firefox
+      delay: 1729
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl
+      name: 意大利 - 罗马市 - Aruba S.p.A. - 1
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: gH_h3-mo0stXouQX61J22W14N9-RlRjwo6BQgAcUay4
+        short-id: c5508bd7
+      server: 209.227.230.243
+      servername: wordpress.org
+      tls: true
+      type: vless
+      uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F8\U0001F1EASE"
+      delay: 1514
+      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 3
+      password: WVU27LquAMOeXmYeStI897
+      port: 32448
+      server: sto3.g.edgeservers.org
       type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1096
+      name: 法国 - 巴黎 - Amazon.com, Inc. - 2
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 51.44.152.197
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -407,38 +357,31 @@ proxies:
         headers:
             HOST: server1.99887766.best
         path: /whgoiyu4ngehyt?ed=2560
-    - country: "\U0001F1EC\U0001F1E7 GB"
-      delay: 2741
-      name: 英国 - 伦敦 - Amazon Technologies Inc. - 3
-      password: telegram-id-directvpn
-      port: 22222
-      server: 18.135.76.227
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 785
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 10
-      password: amazonskr05
-      port: 443
-      server: 34.222.44.5
-      type: ss
-    - delay: 2080
-      name: 美国 - 东洛杉矶 - Cloudflare, Inc. - 63
+    - delay: 1778
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 87
       network: ws
-      port: 443
-      server: trevor.ns.cloudflare.com
-      servername: v5.dbbn2024.us.kg
-      skip-cert-verify: true
-      tls: true
+      port: 8880
+      server: 185.146.173.112
+      tls: false
       type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
       ws-opts:
         headers:
-            Host: v5.dbbn2024.us.kg
-        path: /?ed=2560
+            Host: photographipictureai.ir
+        path: /Telegram
+    - client-fingerprint: chrome
+      delay: 1093
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
+      network: ws
+      port: 2052
+      server: 156.238.18.165
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
     - country: "\U0001F1F8\U0001F1EASE"
       delay: 1078
       name: 瑞典 - 斯德哥尔摩 - Amazon Technologies Inc. - 4
@@ -449,57 +392,35 @@ proxies:
       sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - auth: dongtaiwang.com
-      delay: 1125
-      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
-      password: dongtaiwang.com
-      port: 51224
-      server: 46.17.41.189
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - delay: 2616
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 76
-      network: ws
+    - delay: 1458
+      name: 美国 - 阿瓦達 - OVH US LLC - 72
+      network: tcp
       port: 443
-      server: 212.183.88.176
-      servername: cc1.ylks.us.kg
-      skip-cert-verify: true
+      server: 15.204.158.90
+      servername: 147135011033.sec21org.com
       tls: true
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: cc1.ylks.us.kg
-        path: /?ed=2560
-    - delay: 1963
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 64
-      network: ws
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 677
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
+      password: amazonskr05
       port: 443
-      server: www.pcmag.com
-      servername: cc1.ylks.us.kg
-      skip-cert-verify: true
-      tls: true
+      server: 54.186.195.135
+      type: ss
+    - delay: 608
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 77
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
+      tls: false
       type: vless
       udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: cc1.ylks.us.kg
-        path: /?ed=2560
-    - delay: 865
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 66
-      network: ws
-      port: 443
-      server: 104.17.161.203
-      servername: v5.dbbn2024.us.kg
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-      ws-opts:
-        headers:
-            Host: v5.dbbn2024.us.kg
-        path: /?ed=2560
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
