@@ -1,5 +1,73 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 670
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
+      password: amazonskr05
+      port: 443
+      server: 35.87.121.216
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1467
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies - 3
+      network: ws
+      port: 443
+      server: 104.21.95.16
+      tls: true
+      type: vmess
+      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+      ws-opts:
+        headers:
+            Host: hms03.dongfeng.cfd
+        path: /linkws
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1892
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies - 7
+      network: ws
+      port: 443
+      server: 172.67.219.194
+      servername: adenc36v.xtooltech.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+      ws-opts:
+        headers:
+            HOST: adenc36v.xtooltech.cfd
+        path: /linkws
+    - alterId: 0
+      cipher: auto
+      delay: 1360
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Akamai Technologies - 2
+      network: ws
+      port: 443
+      server: 172.67.169.40
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+      ws-opts:
+        headers:
+            host: hms03.dongfeng.cfd
+        path: /linkws
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 702
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 54.200.183.45
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -21,89 +89,45 @@ proxies:
         path: /linkws
     - alterId: 0
       cipher: auto
-      delay: 1467
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies - 3
-      network: ws
-      port: 443
-      server: 104.21.95.16
-      tls: true
-      type: vmess
-      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-      ws-opts:
-        headers:
-            Host: hms03.dongfeng.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      delay: 1360
-      h2-opts: {}
-      http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies - 2
-      network: ws
-      port: 443
-      server: 172.67.169.40
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-      ws-opts:
-        headers:
-            host: hms03.dongfeng.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
-      delay: 1892
+      delay: 2655
       h2-opts: {}
       http-opts: {}
-      name: 德国 - 法兰克福 - Akamai Technologies - 7
+      name: 美国 - 洛杉矶 - HostPapa - 4
       network: ws
       port: 443
-      server: 172.67.219.194
-      servername: adenc36v.xtooltech.cfd
+      server: 23.94.243.79
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            HOST: adenc36v.xtooltech.cfd
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.20.27.115
+    - alterId: 0
+      cipher: auto
+      delay: 2518
+      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 4
+      network: ws
+      port: 443
+      server: hms07.xfixedfloat.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+      ws-opts:
+        headers:
+            Host: afrhms07.xfixedfloat.cfd
         path: /linkws
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 670
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 9
-      password: amazonskr05
-      port: 443
-      server: 35.87.121.216
+      delay: 989
+      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 677
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 54.186.195.135
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 2043
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 3
-      network: ws
-      port: 443
-      server: 190.93.247.58
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-      ws-opts:
-        headers:
-            host: hms02.fxiaomi.sbs
-        path: /link
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -123,87 +147,37 @@ proxies:
         headers:
             HOST: glweidf.cfd
         path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2111
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 5
-      network: ws
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 468
+      name: 日本 - 东京 - Amazon.com, Inc. - 7
+      password: amazonskr05
       port: 443
-      server: hms02opi.fxiaomi.sbs
-      servername: hms02.fxiaomi.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-      ws-opts:
-        headers:
-            HOST: hms02.fxiaomi.sbs
-        path: /link
-    - alterId: 0
-      cipher: auto
-      delay: 1395
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 10
-      network: ws
-      port: 443
-      server: 172.67.223.119
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-      ws-opts:
-        headers:
-            Host: hms02.fxiaomi.sbs
-        path: /link
-    - alterId: 0
-      cipher: auto
-      delay: 2518
-      name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 4
-      network: ws
-      port: 443
-      server: hms07.xfixedfloat.cfd
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-      ws-opts:
-        headers:
-            Host: afrhms07.xfixedfloat.cfd
-        path: /linkws
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1815
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 16
-      network: ws
-      port: 2082
-      server: s4.cn-db.top
-      servername: 100-59-178-247.s4.cn-db.top
-      skip-cert-verify: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            HOST: 100-59-178-247.s4.cn-db.top
-        path: /dabai.in104.19.101.110
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F8\U0001F1EASE"
-      delay: 1514
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 3
-      password: WVU27LquAMOeXmYeStI897
-      port: 32448
-      server: sto3.g.edgeservers.org
+      server: 54.248.37.117
       type: ss
     - cipher: aes-256-cfb
-      delay: 989
-      name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 531
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.231.49.47
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 466
+      name: 日本 - 东京 - Amazon Technologies Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 54.168.167.163
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E7\U0001F1EA BE"
+      delay: 447
+      name: 日本 - 东京 - Amazon.com, Inc. - 10
+      password: amazonskr05
+      port: 443
+      server: 57.180.54.251
       type: ss
     - client-fingerprint: chrome
       delay: 1990
@@ -218,41 +192,6 @@ proxies:
       tls: true
       type: vless
       uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 531
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 13.231.49.47
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2655
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 4
-      network: ws
-      port: 443
-      server: 23.94.243.79
-      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-        path: /dabai.in104.20.27.115
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 468
-      name: 日本 - 东京 - Amazon.com, Inc. - 7
-      password: amazonskr05
-      port: 443
-      server: 54.248.37.117
-      type: ss
     - client-fingerprint: firefox
       delay: 1729
       grpc-opts:
@@ -270,19 +209,19 @@ proxies:
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
     - cipher: aes-256-cfb
-      country: "\U0001F1E7\U0001F1EA BE"
-      delay: 447
-      name: 日本 - 东京 - Amazon.com, Inc. - 10
+      delay: 2129
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
       password: amazonskr05
       port: 443
-      server: 57.180.54.251
+      server: 54.169.244.122
       type: ss
+      udp: true
     - client-fingerprint: chrome
-      delay: 1093
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
+      delay: 1213
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 75
       network: ws
-      port: 2052
-      server: 156.238.18.165
+      port: 2095
+      server: 156.238.18.163
       tls: false
       type: vless
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
@@ -305,14 +244,40 @@ proxies:
         headers:
             Host: 100-44-69-4.s3.db-link01.top
         path: /dabai.in104.16.42.241
-    - cipher: aes-256-cfb
-      delay: 2129
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
-      password: amazonskr05
+    - alterId: 0
+      cipher: auto
+      delay: 2329
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 15
+      network: ws
+      port: 2086
+      server: s5.cn-db.top
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      ws-opts:
+        headers:
+            Host: 100-164-83-9.s5.cn-db.top
+        path: /dabai.in172.64.19.89
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2111
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 5
+      network: ws
       port: 443
-      server: 54.169.244.122
-      type: ss
-      udp: true
+      server: hms02opi.fxiaomi.sbs
+      servername: hms02.fxiaomi.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      ws-opts:
+        headers:
+            HOST: hms02.fxiaomi.sbs
+        path: /link
     - delay: 1068
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 57
       network: ws
@@ -341,27 +306,30 @@ proxies:
         headers:
             Host: Join--E-L-i-V-2-R-A-Y.net
         path: /channel,ELiV2RAY-channel,ELiV2RAY-channel,ELiV2RAY?ed
-    - delay: 608
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 77
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 1815
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 16
       network: ws
-      port: 8880
-      server: 154.83.2.230
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      port: 2082
+      server: s4.cn-db.top
+      servername: 100-59-178-247.s4.cn-db.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - delay: 1458
-      name: 美国 - 阿瓦達 - OVH US LLC - 72
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
+            HOST: 100-59-178-247.s4.cn-db.top
+        path: /dabai.in104.19.101.110
+    - auth: dongtaiwang.com
+      delay: 1125
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
+      password: dongtaiwang.com
+      port: 51224
+      server: 46.17.41.189
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
