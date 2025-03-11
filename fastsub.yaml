@@ -1,5 +1,15 @@
 proxy-providers: {}
 proxies:
+    - delay: 1458
+      name: 美国 - 阿瓦達 - OVH US LLC - 72
+      network: tcp
+      port: 443
+      server: 15.204.158.90
+      servername: 147135011033.sec21org.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -40,35 +50,6 @@ proxies:
         path: /linkws
     - alterId: 0
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2655
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 4
-      network: ws
-      port: 443
-      server: 23.94.243.79
-      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-      ws-opts:
-        headers:
-            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-        path: /dabai.in104.20.27.115
-    - delay: 1458
-      name: 美国 - 阿瓦達 - OVH US LLC - 72
-      network: tcp
-      port: 443
-      server: 15.204.158.90
-      servername: 147135011033.sec21org.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-    - alterId: 0
-      cipher: auto
       country: "\U0001F1E8\U0001F1F4CO"
       delay: 1745
       h2-opts: {}
@@ -88,22 +69,54 @@ proxies:
         path: /linkws
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 1815
+      delay: 1260
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 洛杉矶 - HostPapa - 16
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 6
       network: ws
-      port: 2082
-      server: s4.cn-db.top
-      servername: 100-59-178-247.s4.cn-db.top
-      skip-cert-verify: true
+      port: 443
+      server: 172.67.193.108
+      tls: true
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
       ws-opts:
         headers:
-            HOST: 100-59-178-247.s4.cn-db.top
-        path: /dabai.in104.19.101.110
+            Host: gwdef.sbs
+        path: /linkws
+    - alterId: 0
+      cipher: auto
+      delay: 1395
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 10
+      network: ws
+      port: 443
+      server: 172.67.223.119
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      ws-opts:
+        headers:
+            Host: hms02.fxiaomi.sbs
+        path: /link
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2111
+      h2-opts: {}
+      http-opts: {}
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 5
+      network: ws
+      port: 443
+      server: hms02opi.fxiaomi.sbs
+      servername: hms02.fxiaomi.sbs
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      ws-opts:
+        headers:
+            HOST: hms02.fxiaomi.sbs
+        path: /link
     - alterId: 0
       cipher: auto
       delay: 2043
@@ -123,25 +136,6 @@ proxies:
         path: /link
     - alterId: 0
       cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1721
-      h2-opts: {}
-      http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 9
-      network: ws
-      port: 443
-      server: hms082.gwdef.sbs
-      servername: gwdef.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-      ws-opts:
-        headers:
-            HOST: gwdef.sbs
-        path: /linkws
-    - alterId: 0
-      cipher: auto
       delay: 2518
       name: 德国 - 法兰克福 - Akamai Technologies, Inc. - 4
       network: ws
@@ -155,47 +149,25 @@ proxies:
         headers:
             Host: afrhms07.xfixedfloat.cfd
         path: /linkws
-    - client-fingerprint: chrome
-      delay: 1990
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
-      name: 美国 - Elk Grove Village - HostPapa - 54
-      network: grpc
-      port: 443
-      server: us10-01zl.huangshang.filegear-sg.me
-      servername: us10-01zl.huangshang.filegear-sg.me
-      tls: true
-      type: vless
-      uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    - delay: 1778
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 87
-      network: ws
-      port: 8880
-      server: 185.146.173.112
-      tls: false
-      type: vless
-      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-      ws-opts:
-        headers:
-            Host: photographipictureai.ir
-        path: /Telegram
     - alterId: 0
       cipher: auto
-      delay: 1260
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2655
       h2-opts: {}
       http-opts: {}
-      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 6
+      name: 美国 - 洛杉矶 - HostPapa - 4
       network: ws
       port: 443
-      server: 172.67.193.108
+      server: 23.94.243.79
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: gwdef.sbs
-        path: /linkws
+            HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+        path: /dabai.in104.20.27.115
     - cipher: aes-256-cfb
       delay: 989
       name: 斯洛伐克 - 布拉迪斯拉发 - DataCamp Limited - 1
@@ -219,6 +191,67 @@ proxies:
       tls: true
       type: vless
       uuid: 253f59da-b708-4404-cebe-3854aad88880
+    - cipher: aes-256-cfb
+      delay: 1836
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 11
+      password: amazonskr05
+      port: 443
+      server: 43.201.0.67
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1990
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: HlAPZV9g9xmyAVVV002zYFTmiIeg
+      name: 美国 - Elk Grove Village - HostPapa - 54
+      network: grpc
+      port: 443
+      server: us10-01zl.huangshang.filegear-sg.me
+      servername: us10-01zl.huangshang.filegear-sg.me
+      tls: true
+      type: vless
+      uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    - client-fingerprint: chrome
+      delay: 1093
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
+      network: ws
+      port: 2052
+      server: 156.238.18.165
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - delay: 608
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 77
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - client-fingerprint: chrome
+      delay: 1213
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 75
+      network: ws
+      port: 2095
+      server: 156.238.18.163
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
     - delay: 1068
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 57
       network: ws
@@ -233,68 +266,34 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - client-fingerprint: chrome
-      delay: 1093
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 83
+    - delay: 1778
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 87
       network: ws
-      port: 2052
-      server: 156.238.18.165
+      port: 8880
+      server: 185.146.173.112
       tls: false
       type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - cipher: aes-256-cfb
-      delay: 1836
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 11
-      password: amazonskr05
-      port: 443
-      server: 43.201.0.67
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      delay: 902
-      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 3.38.190.30
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F8\U0001F1EASE"
-      delay: 779
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
-      password: 70Xwg0SbHSL8CuCkiLuGhO
-      port: 15128
-      server: sto2.g.edgeservers.org
-      type: ss
+            Host: photographipictureai.ir
+        path: /Telegram
     - alterId: 0
       cipher: auto
-      delay: 1669
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1721
       h2-opts: {}
       http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 14
+      name: 法国 - 巴黎 - Akamai Technologies, Inc. - 9
       network: ws
-      port: 2086
-      server: s3.db-link01.top
+      port: 443
+      server: hms082.gwdef.sbs
+      servername: gwdef.sbs
+      skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
       ws-opts:
         headers:
-            Host: 100-44-69-4.s3.db-link01.top
-        path: /dabai.in104.16.42.241
-    - client-fingerprint: chrome
-      delay: 1213
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 75
-      network: ws
-      port: 2095
-      server: 156.238.18.163
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+            HOST: gwdef.sbs
+        path: /linkws
