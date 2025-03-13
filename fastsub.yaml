@@ -7,6 +7,22 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1485
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 34.217.100.159
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1933
+      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
+      password: w2HdZnGb5ibh
+      port: 443
+      server: 89.221.225.88
+      type: ss
     - delay: 1694
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
       network: ws
@@ -19,17 +35,3 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-    - delay: 1490
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
-      network: ws
-      port: 2052
-      server: 45.149.12.183
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
