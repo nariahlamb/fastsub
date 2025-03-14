@@ -1,12 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: rc4-md5
-      delay: 1185
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1485
@@ -15,13 +8,19 @@ proxies:
       port: 443
       server: 34.217.100.159
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1239
-      name: 巴拉圭 - 亞松森 - IPXON Networks - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 38.165.233.18
+    - cipher: rc4-md5
+      delay: 1185
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 1197
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 43.203.229.162
       type: ss
     - delay: 1694
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
@@ -35,6 +34,22 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1933
+      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
+      password: w2HdZnGb5ibh
+      port: 443
+      server: 89.221.225.88
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1239
+      name: 巴拉圭 - 亞松森 - IPXON Networks - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 38.165.233.18
+      type: ss
     - delay: 1490
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
       network: ws
