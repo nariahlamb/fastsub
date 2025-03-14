@@ -7,6 +7,21 @@ proxies:
       port: 8080
       server: 194.5.215.59
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 1043
+      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
+      password: 70Xwg0SbHSL8CuCkiLuGhO
+      port: 15128
+      server: sto2.g.edgeservers.org
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1933
+      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
+      password: w2HdZnGb5ibh
+      port: 443
+      server: 89.221.225.88
+      type: ss
     - delay: 1694
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
       network: ws
@@ -19,6 +34,14 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1239
+      name: 巴拉圭 - 亞松森 - IPXON Networks - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 38.165.233.18
+      type: ss
     - delay: 1490
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
       network: ws
