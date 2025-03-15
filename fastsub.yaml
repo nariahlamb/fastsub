@@ -1,12 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: rc4-md5
-      delay: 1185
-      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 194.5.215.59
-      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 1485
@@ -15,13 +8,27 @@ proxies:
       port: 443
       server: 34.217.100.159
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 1043
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
-      password: 70Xwg0SbHSL8CuCkiLuGhO
-      port: 15128
-      server: sto2.g.edgeservers.org
+    - cipher: rc4-md5
+      delay: 1185
+      name: 美国 - 海厄利亞 - M247 Europe SRL - 1
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 194.5.215.59
       type: ss
+    - delay: 1490
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 44
+      network: ws
+      port: 2052
+      server: 45.149.12.183
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1F7\U0001F1FARU"
       delay: 1933
@@ -38,3 +45,15 @@ proxies:
       port: 990
       server: 38.165.233.18
       type: ss
+    - delay: 1694
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 41
+      network: ws
+      port: 2086
+      server: 212.183.88.84
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
