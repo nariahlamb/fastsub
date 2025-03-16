@@ -1,15 +1,6 @@
 proxy-providers: {}
 proxies:
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 2000
-      name: 加拿大 - 多伦多 - DigitalOcean, LLC - 3
-      password: 88925c12-4222-4ed3-84bd-6bfac300360f
-      port: 8443
-      server: jnd1.gywanglug.xyz
-      skip-cert-verify: false
-      sni: jnd1.gywanglug.xyz
-      type: hysteria2
-    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
       delay: 2453
       name: 美国 - 圣克拉拉 - DigitalOcean, LLC - 8
       password: 88925c12-4222-4ed3-84bd-6bfac300360f
@@ -17,24 +8,6 @@ proxies:
       server: mg5.gywanglug.xyz
       skip-cert-verify: false
       sni: mg5.gywanglug.xyz
-      type: hysteria2
-    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 1942
-      name: 美国 - 圣克拉拉 - DigitalOcean, LLC - 7
-      password: 88925c12-4222-4ed3-84bd-6bfac300360f
-      port: 8443
-      server: mg4.gywanglug.xyz
-      skip-cert-verify: false
-      sni: mg4.gywanglug.xyz
-      type: hysteria2
-    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 2798
-      name: 美国 - 克利夫頓 - DigitalOcean, LLC - 9
-      password: 88925c12-4222-4ed3-84bd-6bfac300360f
-      port: 8443
-      server: mg7.gywanglug.xyz
-      skip-cert-verify: false
-      sni: mg7.gywanglug.xyz
       type: hysteria2
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
       delay: 2458
@@ -46,13 +19,61 @@ proxies:
       sni: mg2.gywanglug.xyz
       type: hysteria2
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 2357
-      name: 英国 - Slough - DigitalOcean, LLC - 18
+      delay: 1942
+      name: 美国 - 圣克拉拉 - DigitalOcean, LLC - 7
       password: 88925c12-4222-4ed3-84bd-6bfac300360f
       port: 8443
-      server: yg1.gywanglug.xyz
+      server: mg4.gywanglug.xyz
       skip-cert-verify: false
-      sni: yg1.gywanglug.xyz
+      sni: mg4.gywanglug.xyz
+      type: hysteria2
+    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+      delay: 2000
+      name: 加拿大 - 多伦多 - DigitalOcean, LLC - 3
+      password: 88925c12-4222-4ed3-84bd-6bfac300360f
+      port: 8443
+      server: jnd1.gywanglug.xyz
+      skip-cert-verify: false
+      sni: jnd1.gywanglug.xyz
+      type: hysteria2
+    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+      delay: 2798
+      name: 美国 - 克利夫頓 - DigitalOcean, LLC - 9
+      password: 88925c12-4222-4ed3-84bd-6bfac300360f
+      port: 8443
+      server: mg7.gywanglug.xyz
+      skip-cert-verify: false
+      sni: mg7.gywanglug.xyz
+      type: hysteria2
+    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+      delay: 2064
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 4
+      password: 88925c12-4222-4ed3-84bd-6bfac300360f
+      port: 8443
+      server: dg1.gywanglug.xyz
+      skip-cert-verify: false
+      sni: dg1.gywanglug.xyz
+      type: hysteria2
+    - delay: 1461
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 2
+      network: ws
+      port: 2086
+      server: 212.183.88.84
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
+    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
+      delay: 1652
+      name: 日本 - 东京 - Amazon Technologies Inc. - 3
+      password: 88925c12-4222-4ed3-84bd-6bfac300360f
+      port: 8443
+      server: rb2.gy6688.xyz
+      skip-cert-verify: false
+      sni: rb2.gy6688.xyz
       type: hysteria2
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
       delay: 2063
@@ -64,13 +85,13 @@ proxies:
       sni: hl1.gywanglug.xyz
       type: hysteria2
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 2064
-      name: 德国 - 法兰克福 - DigitalOcean, LLC - 4
+      delay: 2357
+      name: 英国 - Slough - DigitalOcean, LLC - 18
       password: 88925c12-4222-4ed3-84bd-6bfac300360f
       port: 8443
-      server: dg1.gywanglug.xyz
+      server: yg1.gywanglug.xyz
       skip-cert-verify: false
-      sni: dg1.gywanglug.xyz
+      sni: yg1.gywanglug.xyz
       type: hysteria2
     - delay: 2847
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
@@ -84,6 +105,13 @@ proxies:
         headers:
             Host: photographipictureai.ir
         path: /Telegram
+    - cipher: chacha20-ietf-poly1305
+      delay: 1791
+      name: 加拿大 - Montreal - GLOBALTELEHOST Corp. - 1
+      password: 620c5b5108120a72
+      port: 11201
+      server: 23.162.56.206
+      type: ss
     - cipher: aes-256-cfb
       delay: 699
       name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
@@ -91,28 +119,12 @@ proxies:
       port: 443
       server: 43.202.49.76
       type: ss
-    - cipher: aes-256-cfb
-      delay: 429
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 54.255.183.245
-      type: ss
-    - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
-      delay: 1652
-      name: 日本 - 东京 - Amazon Technologies Inc. - 3
-      password: 88925c12-4222-4ed3-84bd-6bfac300360f
-      port: 8443
-      server: rb2.gy6688.xyz
-      skip-cert-verify: false
-      sni: rb2.gy6688.xyz
-      type: hysteria2
     - cipher: chacha20-ietf-poly1305
-      delay: 1791
-      name: 加拿大 - Montreal - GLOBALTELEHOST Corp. - 1
-      password: 620c5b5108120a72
-      port: 11201
-      server: 23.162.56.206
+      delay: 2081
+      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
+      password: w2HdZnGb5ibh
+      port: 443
+      server: 89.221.225.88
       type: ss
     - auth: 88925c12-4222-4ed3-84bd-6bfac300360f
       delay: 2498
@@ -123,24 +135,3 @@ proxies:
       skip-cert-verify: false
       sni: yd1.gywanglug.xyz
       type: hysteria2
-    - cipher: rc4-md5
-      delay: 1394
-      name: 德国 - Frankfurt - GTHost - 1
-      obfs: plain
-      obfs-param: ""
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      protocol: origin
-      protocol-param: ""
-      server: 193.108.119.230
-      type: ssr
-    - cipher: aes-128-cfb
-      country: "\U0001F1E6\U0001F1FFAZ"
-      delay: 2152
-      name: 加拿大 - 蒙特利尔 - BrainStorm Network, Inc - 2
-      obfs: http_post
-      password: $$Turb0VPN$$
-      port: 443
-      protocol: auth_aes128_md5
-      server: ssca.irundns.net
-      type: ssr
