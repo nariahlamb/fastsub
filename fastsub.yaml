@@ -1,12 +1,17 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      delay: 653
-      name: 日本 - 东京 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 57.180.240.249
-      type: ss
+    - delay: 2847
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
+      network: ws
+      port: 8880
+      server: 195.85.59.155
+      tls: false
+      type: vless
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+      ws-opts:
+        headers:
+            Host: photographipictureai.ir
+        path: /Telegram
     - cipher: aes-256-cfb
       delay: 834
       name: 日本 - 东京 - Amazon Technologies Inc. - 1
@@ -21,30 +26,20 @@ proxies:
       port: 443
       server: 43.202.49.76
       type: ss
-    - delay: 1461
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 2
-      network: ws
-      port: 2086
-      server: 212.183.88.84
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-    - delay: 2847
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
-      network: ws
-      port: 8880
-      server: 195.85.59.155
-      tls: false
-      type: vless
-      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-      ws-opts:
-        headers:
-            Host: photographipictureai.ir
-        path: /Telegram
+    - cipher: aes-256-cfb
+      delay: 653
+      name: 日本 - 东京 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 57.180.240.249
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 429
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 54.255.183.245
+      type: ss
     - cipher: rc4-md5
       delay: 1394
       name: 德国 - Frankfurt - GTHost - 1
@@ -55,21 +50,4 @@ proxies:
       protocol: origin
       protocol-param: ""
       server: 193.108.119.230
-      type: ssr
-    - cipher: chacha20-ietf-poly1305
-      delay: 892
-      name: 英国 - Erith - OVH SAS - 2
-      password: 99eedf8e9170c8a4
-      port: 48977
-      server: 57.128.190.214
-      type: ss
-    - cipher: aes-128-cfb
-      country: "\U0001F1E6\U0001F1FFAZ"
-      delay: 2152
-      name: 加拿大 - 蒙特利尔 - BrainStorm Network, Inc - 2
-      obfs: http_post
-      password: $$Turb0VPN$$
-      port: 443
-      protocol: auth_aes128_md5
-      server: ssca.irundns.net
       type: ssr
