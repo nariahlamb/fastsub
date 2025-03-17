@@ -1,11 +1,11 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      delay: 2081
-      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
-      password: w2HdZnGb5ibh
+    - cipher: aes-256-cfb
+      delay: 653
+      name: 日本 - 东京 - Amazon.com, Inc. - 2
+      password: amazonskr05
       port: 443
-      server: 89.221.225.88
+      server: 57.180.240.249
       type: ss
     - cipher: aes-256-cfb
       delay: 834
@@ -15,41 +15,24 @@ proxies:
       server: 18.183.116.21
       type: ss
     - cipher: aes-256-cfb
-      delay: 653
-      name: 日本 - 东京 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 57.180.240.249
-      type: ss
-    - cipher: aes-256-cfb
       delay: 699
       name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 5
       password: amazonskr05
       port: 443
       server: 43.202.49.76
       type: ss
-    - cipher: aes-256-cfb
-      delay: 496
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 52.78.98.141
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 429
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 6
-      password: amazonskr05
-      port: 443
-      server: 54.255.183.245
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 379
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc - 1
-      password: amazonskr05
-      port: 443
-      server: 47.128.73.227
-      type: ss
+    - delay: 1461
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 2
+      network: ws
+      port: 2086
+      server: 212.183.88.84
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
     - delay: 2847
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 3
       network: ws
@@ -73,6 +56,13 @@ proxies:
       protocol-param: ""
       server: 193.108.119.230
       type: ssr
+    - cipher: chacha20-ietf-poly1305
+      delay: 892
+      name: 英国 - Erith - OVH SAS - 2
+      password: 99eedf8e9170c8a4
+      port: 48977
+      server: 57.128.190.214
+      type: ss
     - cipher: aes-128-cfb
       country: "\U0001F1E6\U0001F1FFAZ"
       delay: 2152
@@ -83,11 +73,3 @@ proxies:
       protocol: auth_aes128_md5
       server: ssca.irundns.net
       type: ssr
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1316
-      name: 德国 - 卡尔斯鲁厄 - Contabo GmbH - 2
-      password: 7cbfe78195fbf19c
-      port: 11738
-      server: 100.42.182.73
-      type: ss
