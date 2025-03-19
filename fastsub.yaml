@@ -1,12 +1,12 @@
 proxy-providers: {}
 proxies:
-    - delay: 951
-      name: 美国 - 洛杉矶 - DMIT Cloud Services - 27
-      password: lp20A3ueODTNy3eS3w8SnAXFB4DzxaOSxcRCpAZ8357aZDF9y6FCzSax3YNOXCCaappxY
+    - cipher: aes-128-gcm
+      delay: 914
+      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
+      password: shadowsocks
       port: 443
-      server: lander.wireshop.net
-      sni: lander.wireshop.net
-      type: trojan
+      server: 149.34.244.71
+      type: ss
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 2009
       name: 美国 - 洛杉矶 - Sharktech - 8
@@ -17,72 +17,12 @@ proxies:
       sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
       type: hysteria2
       udp: true
-    - cipher: aes-128-gcm
-      delay: 914
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.34.244.71
-      type: ss
     - cipher: aes-256-cfb
-      delay: 311
-      name: 日本 - 东京 - Amazon.com, Inc. - 2
+      delay: 1072
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
       password: amazonskr05
       port: 443
-      server: 43.207.150.238
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 633
-      name: 日本 - 东京 - Amazon Technologies Inc - 9
-      password: amazonskr05
-      port: 443
-      server: 13.114.55.245
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 318
-      name: 日本 - 东京 - Amazon Technologies Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 18.181.194.77
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 945
-      name: 日本 - 东京 - Amazon Technologies Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 52.197.235.237
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 784
-      name: 日本 - 东京 - Amazon Technologies Inc. - 1
-      password: amazonskr05
-      port: 443
-      server: 13.230.168.61
-      type: ss
-      udp: true
-    - delay: 1459
-      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
-      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
-      port: 443
-      server: toward.taiwanesefood.link
-      sni: toward.taiwanesefood.link
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 2283
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 13.215.252.57
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FARU"
-      delay: 1253
-      name: 俄罗斯 - 莫斯科 - Meteverse Limited. - 2
-      password: d4213735ae33596a
-      port: 29003
-      server: 163.171.142.57
+      server: 52.78.98.141
       type: ss
     - delay: 2505
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
@@ -96,14 +36,55 @@ proxies:
         headers:
             Host: photographipictureai.ir
         path: /Telegram
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F3\U0001F1F1NL"
+      delay: 1187
+      name: 土耳其 - 伊斯坦布尔 - G-Core Labs S.A. - 1
+      password: fbb818cd84a0d0e5
+      port: 11201
+      server: 103.215.218.54
+      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 647
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 14
+      delay: 273
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 16
       password: amazonskr05
       port: 443
-      server: 13.213.69.248
+      server: 13.229.99.127
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      delay: 1253
+      name: 俄罗斯 - 莫斯科 - Meteverse Limited. - 2
+      password: d4213735ae33596a
+      port: 29003
+      server: 163.171.142.57
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2283
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 13.215.252.57
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 573
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 54.251.193.0
+      type: ss
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2155
+      name: 波兰 - 华沙 - ECO-ATMAN - 3
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - delay: 1100
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
       network: ws
@@ -116,38 +97,27 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-    - delay: 1604
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
-      network: ws
-      port: 2095
-      server: 156.238.18.48
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - alterId: 0
-      cipher: auto
-      delay: 2181
-      name: 美国 - 洛杉矶 - Cloudflare, Inc. - 6
-      network: ws
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FA RU"
+      delay: 2774
+      name: 波兰 - Mazovia - Global Connectivity Solutions LLP - 2
+      password: LImHx1dnA2LDu5oleP99kb
       port: 443
-      server: La02.890604.filEGEAr-sG.me
-      skip-cert-verify: true
-      tls: true
-      type: vmess
+      server: 77.83.246.74
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 1121
+      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
+      password: w2HdZnGb5ibh
+      port: 443
+      server: 89.221.225.88
+      type: ss
       udp: true
-      uuid: 60cdd89e-a9cf-4850-8577-e3c6abf5515d
-      ws-opts:
-        headers:
-            Host: La02.890604.filEGEAr-sG.me
-        path: /gyCVORfjoXYyHHcJBuLd
-    - delay: 800
-      name: 美国 - 洛杉矶 - DMIT Cloud Services - 22
-      password: 2OnySp6YC3SZcF32XACEjlD5aDOqx9SeR6yRFDwEXAu3Fc8w3Z3Y4AqZ0OSzlN8NCeYIA
-      port: 28333
-      server: bathtub.homeofbrave.net
-      sni: bathtub.homeofbrave.net
-      type: trojan
+    - cipher: aes-256-cfb
+      delay: 784
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.230.168.61
+      type: ss
+      udp: true
