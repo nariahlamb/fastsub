@@ -1,5 +1,12 @@
 proxy-providers: {}
 proxies:
+    - delay: 1459
+      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
+      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
+      port: 443
+      server: toward.taiwanesefood.link
+      sni: toward.taiwanesefood.link
+      type: trojan
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 633
@@ -15,6 +22,36 @@ proxies:
       port: 443
       server: 149.34.244.71
       type: ss
+    - cipher: aes-256-cfb
+      delay: 1072
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 52.78.98.141
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 598
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      password: amazonskr05
+      port: 443
+      server: 54.151.230.240
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 647
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 14
+      password: amazonskr05
+      port: 443
+      server: 13.213.69.248
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2283
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
+      password: amazonskr05
+      port: 443
+      server: 13.215.252.57
+      type: ss
     - cipher: chacha20-ietf-poly1305
       delay: 1121
       name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
@@ -23,33 +60,35 @@ proxies:
       server: 89.221.225.88
       type: ss
       udp: true
+    - delay: 1100
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
+      network: ws
+      port: 2086
+      server: 212.183.88.84
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
     - cipher: aes-256-cfb
-      delay: 1072
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 573
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
       password: amazonskr05
       port: 443
-      server: 52.78.98.141
+      server: 54.251.193.0
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FARU"
-      delay: 1253
-      name: 俄罗斯 - 莫斯科 - Meteverse Limited. - 2
-      password: d4213735ae33596a
-      port: 29003
-      server: 163.171.142.57
-      type: ss
-    - delay: 1459
-      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
-      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
-      port: 443
-      server: toward.taiwanesefood.link
-      sni: toward.taiwanesefood.link
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F8\U0001F1EASE"
-      delay: 945
-      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
-      password: 70Xwg0SbHSL8CuCkiLuGhO
-      port: 15128
-      server: sto2.g.edgeservers.org
-      type: ss
+    - delay: 2505
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
+      network: ws
+      port: 8880
+      server: 195.85.59.155
+      tls: false
+      type: vless
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+      ws-opts:
+        headers:
+            Host: photographipictureai.ir
+        path: /Telegram
