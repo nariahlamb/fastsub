@@ -1,5 +1,13 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 633
+      name: 日本 - 东京 - Amazon Technologies Inc - 9
+      password: amazonskr05
+      port: 443
+      server: 13.114.55.245
+      type: ss
     - cipher: aes-128-gcm
       delay: 914
       name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
@@ -7,15 +15,6 @@ proxies:
       port: 443
       server: 149.34.244.71
       type: ss
-    - cipher: aes-256-cfb
-      delay: 2426
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      obfs: plain
-      password: amazonskr05
-      port: 443
-      protocol: origin
-      server: 35.86.111.233
-      type: ssr
     - cipher: chacha20-ietf-poly1305
       delay: 1121
       name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
@@ -24,37 +23,12 @@ proxies:
       server: 89.221.225.88
       type: ss
       udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EE\U0001F1F7IR"
-      delay: 750
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: 德国 - Frankfurt Am Main - Hetzner Online AG - 3
-      network: http
-      port: 10683
-      server: 91.107.241.36
-      skip-cert-verify: true
-      type: vmess
-      uuid: 42a6b3ff-9f36-4b1c-a0ea-82f2fd1472f9
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F3\U0001F1F1NL"
-      delay: 1187
-      name: 土耳其 - 伊斯坦布尔 - G-Core Labs S.A. - 1
-      password: fbb818cd84a0d0e5
-      port: 11201
-      server: 103.215.218.54
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F7\U0001F1FA RU"
-      delay: 2774
-      name: 波兰 - Mazovia - Global Connectivity Solutions LLP - 2
-      password: LImHx1dnA2LDu5oleP99kb
+    - cipher: aes-256-cfb
+      delay: 1072
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
       port: 443
-      server: 77.83.246.74
+      server: 52.78.98.141
       type: ss
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1F7\U0001F1FARU"
@@ -64,37 +38,6 @@ proxies:
       port: 29003
       server: 163.171.142.57
       type: ss
-    - cipher: aes-256-cfb
-      delay: 2283
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
-      password: amazonskr05
-      port: 443
-      server: 13.215.252.57
-      type: ss
-    - delay: 1604
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
-      network: ws
-      port: 2095
-      server: 156.238.18.48
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
-    - delay: 1100
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
-      network: ws
-      port: 2086
-      server: 212.183.88.84
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
     - delay: 1459
       name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
       password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
@@ -102,15 +45,11 @@ proxies:
       server: toward.taiwanesefood.link
       sni: toward.taiwanesefood.link
       type: trojan
-    - delay: 2505
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
-      network: ws
-      port: 8880
-      server: 195.85.59.155
-      tls: false
-      type: vless
-      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-      ws-opts:
-        headers:
-            Host: photographipictureai.ir
-        path: /Telegram
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F8\U0001F1EASE"
+      delay: 945
+      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
+      password: 70Xwg0SbHSL8CuCkiLuGhO
+      port: 15128
+      server: sto2.g.edgeservers.org
+      type: ss
