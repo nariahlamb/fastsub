@@ -1,34 +1,234 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-gcm
-      delay: 914
-      name: 荷兰 - 阿姆斯特丹 - Datacamp Limited - 1
-      password: shadowsocks
-      port: 443
-      server: 149.34.244.71
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 1121
-      name: 以色列 - 佩塔提克瓦 - Stark Industries Solutions LTD - 1
-      password: w2HdZnGb5ibh
-      port: 443
-      server: 89.221.225.88
-      type: ss
-      udp: true
-    - delay: 1100
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 972
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - Elk Grove Village - HostPapa - 10
       network: ws
       port: 2086
-      server: 212.183.88.84
+      server: 23.94.253.108
+      servername: www.bing.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: e0d35c5e-2ebe-497a-b56f-569f93a6da10
+      ws-opts:
+        headers:
+            HOST: www.bing.com
+        path: e0d35c5e-2ebe-497a-b56f-569f93a6da10-vm
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 692
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
+      password: amazonskr05
+      port: 443
+      server: 34.216.142.212
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2658
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 紐約 - Massivegrid LTD - 9
+      network: ws
+      port: 2082
+      server: 185.122.164.48
+      servername: www.bing.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 737ff2b6-0e5d-48b5-9d4e-b9998e3ce1c1
+      ws-opts:
+        headers:
+            HOST: www.bing.com
+        path: 737ff2b6-0e5d-48b5-9d4e-b9998e3ce1c1-vm
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2165
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 35.87.29.54
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2094
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 12
+      network: ws
+      port: 443
+      server: ny04.890603.xyz
+      servername: ny04.890603.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a1925233-669e-4068-b740-d77f41986c43
+      ws-opts:
+        headers:
+            HOST: ny04.890603.xyz
+        path: /K5rR8fBY26DxDtOnU
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1576
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 怀化市 - PEG TECH INC - 2
+      network: ws
+      port: 38003
+      server: 38.14.107.228
+      servername: www.23179753.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.23179753.xyz
+        path: /path/181721272114
+    - delay: 1287
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 17
+      network: ws
+      port: 8880
+      server: 154.83.2.230
+      servername: redw.pooriam.ir
       tls: false
       type: vless
+      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: redw.pooriam.ir
-        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
-    - delay: 2505
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - cipher: rc4-md5
+      delay: 818
+      name: 日本 - 东京 - Akamai Technologies - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 172.105.199.111
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 324
+      name: 日本 - 东京 - Amazon Technologies Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 3.112.13.110
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 912
+      name: 瑞士 - 伯尔尼 - Aeza International LTD - 1
+      password: UQggIxCSCABoBALH599HxE
+      port: 19057
+      server: 91.103.253.151
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1179
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 紐約 - Massivegrid LTD - 11
+      network: ws
+      port: 2082
+      server: 185.184.70.90
+      servername: www.bing.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376
+      ws-opts:
+        headers:
+            HOST: www.bing.com
+        path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 880
+      name: 美国 - 洛杉矶 - GTHost - 8
+      password: ee92547d114da4fe
+      port: 24512
+      server: 38.96.255.28
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2069
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 13
+      network: ws
+      port: 443
+      server: ny-dy.818185.xyz
+      servername: ny-dy.818185.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: a1925233-669e-4068-b740-d77f41986c43
+      ws-opts:
+        headers:
+            HOST: ny-dy.818185.xyz
+        path: /K5rR8fBY26DxDtOnU
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E9\U0001F1EADE"
+      delay: 1119
+      h2-opts: {}
+      http-opts: {}
+      name: 德国 - 法兰克福 - Massivegrid LTD - 1
+      network: ws
+      port: 8080
+      server: 185.85.241.196
+      servername: www.bing.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: a9b84c67-6143-4db3-abc0-d9fa332205cc
+      ws-opts:
+        headers:
+            HOST: www.bing.com
+        path: a9b84c67-6143-4db3-abc0-d9fa332205cc-vm
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 553
+      name: 韩国 - 首尔特别市 - Amazon.com, Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 3.36.51.187
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 706
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 7
+      password: amazonskr05
+      port: 443
+      server: 35.94.124.230
+      type: ss
+    - delay: 1287
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 18
+      network: ws
+      port: 8880
+      server: 154.83.2.156
+      servername: redw.pooriam.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
+    - cipher: chacha20-ietf
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 978
+      name: 新加坡 - 新加坡 - Greywolf Networks Pte. Ltd. - 4
+      password: asd123456
+      port: 8388
+      server: 103.36.91.32
+      type: ss
+    - delay: 1729
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 14
       network: ws
       port: 8880
       server: 195.85.59.155
@@ -40,37 +240,11 @@ proxies:
             Host: photographipictureai.ir
         path: /Telegram
     - cipher: aes-256-cfb
-      country: "\U0001F1EF\U0001F1F5JP"
-      delay: 633
-      name: 日本 - 东京 - Amazon Technologies Inc - 9
-      password: amazonskr05
-      port: 443
-      server: 13.114.55.245
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 311
-      name: 日本 - 东京 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 43.207.150.238
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 598
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
-      password: amazonskr05
-      port: 443
-      server: 54.151.230.240
-      type: ss
-    - delay: 1604
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
-      network: ws
-      port: 2095
-      server: 156.238.18.48
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+      delay: 891
+      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
+      obfs: plain
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      protocol: origin
+      server: 62.100.205.48
+      type: ssr
