@@ -1,12 +1,15 @@
 proxy-providers: {}
 proxies:
-    - delay: 1459
-      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
-      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2009
+      name: 美国 - 洛杉矶 - Sharktech - 8
+      password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
       port: 443
-      server: toward.taiwanesefood.link
-      sni: toward.taiwanesefood.link
-      type: trojan
+      server: 107.167.18.123
+      skip-cert-verify: true
+      sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
+      type: hysteria2
+      udp: true
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 633
@@ -22,29 +25,13 @@ proxies:
       port: 443
       server: 149.34.244.71
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1072
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
-      password: amazonskr05
+    - delay: 1459
+      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
+      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
       port: 443
-      server: 52.78.98.141
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 598
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
-      password: amazonskr05
-      port: 443
-      server: 54.151.230.240
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 647
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 14
-      password: amazonskr05
-      port: 443
-      server: 13.213.69.248
-      type: ss
+      server: toward.taiwanesefood.link
+      sni: toward.taiwanesefood.link
+      type: trojan
     - cipher: aes-256-cfb
       delay: 2283
       name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
@@ -60,26 +47,24 @@ proxies:
       server: 89.221.225.88
       type: ss
       udp: true
-    - delay: 1100
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 30
-      network: ws
-      port: 2086
-      server: 212.183.88.84
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET, TABRIZ.NET/?ed=2048
     - cipher: aes-256-cfb
       country: "\U0001F1F8\U0001F1ECSG"
-      delay: 573
-      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 6
+      delay: 598
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
       password: amazonskr05
       port: 443
-      server: 54.251.193.0
+      server: 54.151.230.240
       type: ss
+    - country: "\U0001F1F5\U0001F1F1PL"
+      delay: 2155
+      name: 波兰 - 华沙 - ECO-ATMAN - 3
+      password: be758973-186d-46fe-8aa4-e017134fa291
+      port: 4029
+      server: 31.186.87.211
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - delay: 2505
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
       network: ws
@@ -92,3 +77,15 @@ proxies:
         headers:
             Host: photographipictureai.ir
         path: /Telegram
+    - delay: 1604
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
+      network: ws
+      port: 2095
+      server: 156.238.18.48
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redw.pooriam.ir
+        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
