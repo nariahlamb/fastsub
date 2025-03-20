@@ -1,15 +1,13 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2009
-      name: 美国 - 洛杉矶 - Sharktech - 8
-      password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+    - cipher: aes-256-cfb
+      country: "\U0001F1EF\U0001F1F5JP"
+      delay: 318
+      name: 日本 - 东京 - Amazon Technologies Inc. - 4
+      password: amazonskr05
       port: 443
-      server: 107.167.18.123
-      skip-cert-verify: true
-      sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-      type: hysteria2
-      udp: true
+      server: 18.181.194.77
+      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1EF\U0001F1F5JP"
       delay: 633
@@ -25,19 +23,21 @@ proxies:
       port: 443
       server: 149.34.244.71
       type: ss
-    - delay: 1459
-      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
-      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
-      port: 443
-      server: toward.taiwanesefood.link
-      sni: toward.taiwanesefood.link
-      type: trojan
     - cipher: aes-256-cfb
-      delay: 2283
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 598
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
       password: amazonskr05
       port: 443
-      server: 13.215.252.57
+      server: 54.151.230.240
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 657
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 11
+      password: amazonskr05
+      port: 443
+      server: 54.179.179.201
       type: ss
     - cipher: chacha20-ietf-poly1305
       delay: 1121
@@ -48,13 +48,27 @@ proxies:
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 598
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 15
+      delay: 2283
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 8
       password: amazonskr05
       port: 443
-      server: 54.151.230.240
+      server: 13.215.252.57
       type: ss
+    - cipher: aes-256-cfb
+      delay: 784
+      name: 日本 - 东京 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.230.168.61
+      type: ss
+      udp: true
+    - delay: 1459
+      name: 美国 - 西雅圖 - Atlas Networks Corporation - 19
+      password: 5Z3RglCCyER3pjlSe0gSyqOOeExx4qTpwKxBR63XjIa8eNzaaO84pDDBA2DlZYI2n37CX
+      port: 443
+      server: toward.taiwanesefood.link
+      sni: toward.taiwanesefood.link
+      type: trojan
     - country: "\U0001F1F5\U0001F1F1PL"
       delay: 2155
       name: 波兰 - 华沙 - ECO-ATMAN - 3
@@ -65,18 +79,6 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - delay: 2505
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
-      network: ws
-      port: 8880
-      server: 195.85.59.155
-      tls: false
-      type: vless
-      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
-      ws-opts:
-        headers:
-            Host: photographipictureai.ir
-        path: /Telegram
     - delay: 1604
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 32
       network: ws
@@ -89,3 +91,23 @@ proxies:
         headers:
             Host: redw.pooriam.ir
         path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F8\U0001F1EASE"
+      delay: 945
+      name: 瑞典 - 斯德哥尔摩 - GleSYS AB - 1
+      password: 70Xwg0SbHSL8CuCkiLuGhO
+      port: 15128
+      server: sto2.g.edgeservers.org
+      type: ss
+    - delay: 2505
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 31
+      network: ws
+      port: 8880
+      server: 195.85.59.155
+      tls: false
+      type: vless
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
+      ws-opts:
+        headers:
+            Host: photographipictureai.ir
+        path: /Telegram
