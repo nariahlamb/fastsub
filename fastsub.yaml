@@ -36,45 +36,6 @@ proxies:
       port: 443
       server: 3.112.13.110
       type: ss
-    - delay: 1287
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 17
-      network: ws
-      port: 8880
-      server: 154.83.2.230
-      servername: redw.pooriam.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - cipher: rc4-md5
-      delay: 818
-      name: 日本 - 东京 - Akamai Technologies - 2
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 172.105.199.111
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1179
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 紐約 - Massivegrid LTD - 11
-      network: ws
-      port: 2082
-      server: 185.184.70.90
-      servername: www.bing.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376
-      ws-opts:
-        headers:
-            HOST: www.bing.com
-        path: 7e84b5b9-e9fe-4dbe-906d-4abd67c09376-vm
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -94,48 +55,22 @@ proxies:
         headers:
             HOST: ny04.890603.xyz
         path: /K5rR8fBY26DxDtOnU
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2069
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 13
-      network: ws
-      port: 443
-      server: ny-dy.818185.xyz
-      servername: ny-dy.818185.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: a1925233-669e-4068-b740-d77f41986c43
-      ws-opts:
-        headers:
-            HOST: ny-dy.818185.xyz
-        path: /K5rR8fBY26DxDtOnU
-    - delay: 1287
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 18
+    - cipher: rc4-md5
+      delay: 818
+      name: 日本 - 东京 - Akamai Technologies - 2
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 172.105.199.111
+      type: ss
+    - delay: 1729
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 14
       network: ws
       port: 8880
-      server: 154.83.2.156
-      servername: redw.pooriam.ir
+      server: 195.85.59.155
       tls: false
       type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: f6bd2c47-99da-4bca-bf70-7186aa9e7e06
       ws-opts:
         headers:
-            Host: redw.pooriam.ir
-        path: /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-    - delay: 2680
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 15
-      network: ws
-      port: 2095
-      server: 156.238.18.48
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redw.pooriam.ir
-        path: /TM-AZARBAYJAB1TM-AZARBAYJAB1TM-AZARBAYJAB1
+            Host: photographipictureai.ir
+        path: /Telegram
