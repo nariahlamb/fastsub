@@ -2,6 +2,25 @@ proxy-providers: {}
 proxies:
     - alterId: 64
       cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2487
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 怀化市 - PEG TECH INC - 1
+      network: ws
+      port: 38003
+      server: 38.14.107.225
+      servername: www.23179753.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            HOST: www.23179753.xyz
+        path: /path/181721272114
+    - alterId: 64
+      cipher: auto
       country: "\U0001F1E8\U0001F1F3CN"
       delay: 1154
       h2-opts: {}
@@ -27,22 +46,3 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2487
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 怀化市 - PEG TECH INC - 1
-      network: ws
-      port: 38003
-      server: 38.14.107.225
-      servername: www.23179753.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            HOST: www.23179753.xyz
-        path: /path/181721272114
