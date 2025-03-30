@@ -14,19 +14,6 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1F5\U0001F1E6PA"
-      delay: 1746
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞士 - 苏黎世 - GTHost - 1
-      network: tcp
-      port: 22324
-      server: 186.190.215.93
-      skip-cert-verify: true
-      type: vmess
-      uuid: 04621bae-ab36-11ec-b909-0242ac120002
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -46,3 +33,16 @@ proxies:
         headers:
             HOST: www.23179753.xyz
         path: /path/181721272114
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F5\U0001F1E6PA"
+      delay: 1746
+      h2-opts: {}
+      http-opts: {}
+      name: 瑞士 - 苏黎世 - GTHost - 1
+      network: tcp
+      port: 22324
+      server: 186.190.215.93
+      skip-cert-verify: true
+      type: vmess
+      uuid: 04621bae-ab36-11ec-b909-0242ac120002
