@@ -1,5 +1,15 @@
 proxy-providers: {}
 proxies:
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2485
+      name: 美国 - 洛杉矶 - Sharktech - 2
+      password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
+      port: 443
+      server: 107.167.18.123
+      skip-cert-verify: true
+      sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
+      type: hysteria2
+      udp: true
     - alterId: 64
       cipher: auto
       country: "\U0001F1E8\U0001F1F3CN"
@@ -46,3 +56,11 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      delay: 793
+      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      password: amazonskr05
+      port: 443
+      server: 13.124.229.107
+      type: ss
