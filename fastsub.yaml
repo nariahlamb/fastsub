@@ -1,29 +1,5 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 2485
-      name: 美国 - 洛杉矶 - Sharktech - 2
-      password: 0aed82ca-fd08-11ef-8cf9-f23c93136cb3
-      port: 443
-      server: 107.167.18.123
-      skip-cert-verify: true
-      sni: 06a68208-st69s0-su9bm5-1phl.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - alterId: 64
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      delay: 1154
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 聖荷西 - PEG TECH INC - 1
-      network: tcp
-      port: 48712
-      server: 107.148.207.249
-      servername: appsvs.shop
-      skip-cert-verify: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - alterId: 64
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -43,6 +19,20 @@ proxies:
         headers:
             HOST: www.23179753.xyz
         path: /path/181721272114
+    - alterId: 64
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      delay: 1154
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 聖荷西 - PEG TECH INC - 1
+      network: tcp
+      port: 48712
+      server: 107.148.207.249
+      servername: appsvs.shop
+      skip-cert-verify: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     - alterId: 0
       cipher: auto
       country: "\U0001F1F5\U0001F1E6PA"
@@ -57,10 +47,10 @@ proxies:
       type: vmess
       uuid: 04621bae-ab36-11ec-b909-0242ac120002
     - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7KR"
-      delay: 793
-      name: 韩国 - 首尔特别市 - Amazon Technologies Inc. - 1
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 863
+      name: 新加坡 - 新加坡 - Amazon.com, Inc. - 3
       password: amazonskr05
       port: 443
-      server: 13.124.229.107
+      server: 54.169.103.201
       type: ss
