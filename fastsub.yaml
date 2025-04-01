@@ -1,44 +1,5 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1205
-      name: 美国 - 芝加哥 - Datacamp Limited - 9
-      password: ypDt8RkT7J
-      port: 43118
-      server: 89.187.181.172
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - delay: 2425
-      name: 美国 - Richardson - Akamai Technologies, Inc. - 15
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 443
-      server: ustx004-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - client-fingerprint: chrome
-      delay: 1216
-      flow: xtls-rprx-vision
-      name: 美国 - San Jose - Oracle Corporation - 14
-      network: tcp
-      port: 2087
-      reality-opts:
-        public-key: LukOig0eMe6VNy9rdyFt7ozZpS3r_1lsyIMun4qgJEo
-        short-id: d27cd3b5
-      server: 192.9.130.194
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bf86d7a4-30fe-44fd-bb12-15ce3924ad40
-    - cipher: aes-256-cfb
-      delay: 1055
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 54.200.186.111
-      type: ss
     - cipher: aes-256-cfb
       delay: 975
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
@@ -51,21 +12,6 @@ proxies:
       server: 34.220.99.226
       type: ssr
     - cipher: aes-256-cfb
-      delay: 773
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
-      password: amazonskr05
-      port: 443
-      server: 52.88.180.184
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1EDCH"
-      delay: 1678
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
-    - cipher: aes-256-cfb
       delay: 2127
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
       password: amazonskr05
@@ -73,31 +19,30 @@ proxies:
       server: 44.247.247.209
       type: ss
       udp: true
-    - cipher: chacha20-ietf-poly1305
-      delay: 972
-      name: 德国 - 法兰克福 - Aeza International LTD - 1
-      password: pL1ZVFkk4uYDis2TD2PJLQ
-      port: 33742
-      server: 109.237.99.103
-      type: ss
-    - country: "\U0001F1F5\U0001F1F1PL"
-      delay: 1316
-      name: 波兰 - 华沙 - ECO-ATMAN - 1
-      password: be758973-186d-46fe-8aa4-e017134fa291
-      port: 4029
-      server: 31.186.87.211
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8 US"
-      delay: 944
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
+      delay: 1055
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
       password: amazonskr05
       port: 443
-      server: 13.213.69.248
+      server: 54.200.186.111
       type: ss
+    - delay: 2425
+      name: 美国 - Richardson - Akamai Technologies, Inc. - 15
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: ustx004-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1205
+      name: 美国 - 芝加哥 - Datacamp Limited - 9
+      password: ypDt8RkT7J
+      port: 43118
+      server: 89.187.181.172
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - alterId: 0
       cipher: auto
       delay: 1586
@@ -115,20 +60,6 @@ proxies:
         headers:
             Host: ora2.aihi.uk
         path: /ray
-    - delay: 1631
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
-      network: ws
-      port: 80
-      server: 45.131.5.206
-      servername: gozargah.validbv7996.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-      ws-opts:
-        headers:
-            Host: gozargah.validbv7996.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     - alterId: 0
       cipher: auto
       delay: 1754
@@ -143,22 +74,32 @@ proxies:
         headers:
             Host: ora.aihi.uk
         path: /ray
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2132
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 5
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1EDCH"
+      delay: 1678
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
+      type: ss
+    - delay: 1631
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
       network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: ef7390c0-1cea-4322-abb8-23d62b7e3cff
+      port: 80
+      server: 45.131.5.206
+      servername: gozargah.validbv7996.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
       ws-opts:
         headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
+            Host: gozargah.validbv7996.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    - cipher: aes-256-cfb
+      delay: 773
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.88.180.184
+      type: ss
