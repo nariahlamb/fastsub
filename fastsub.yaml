@@ -17,36 +17,6 @@ proxies:
       tls: true
       type: http
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - cipher: aes-256-cfb
-      delay: 2127
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
-      password: amazonskr05
-      port: 443
-      server: 44.247.247.209
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1EDCH"
-      delay: 1678
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
-      type: ss
-    - delay: 1023
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 13
-      network: ws
-      port: 80
-      server: 45.131.4.131
-      servername: gozargah.validbv7996.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-      ws-opts:
-        headers:
-            Host: gozargah.validbv7996.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
     - client-fingerprint: chrome
       delay: 1216
       flow: xtls-rprx-vision
@@ -62,14 +32,13 @@ proxies:
       type: vless
       udp: true
       uuid: bf86d7a4-30fe-44fd-bb12-15ce3924ad40
-    - delay: 1474
-      name: 美国 - 圣克拉拉 - Shenzhen Tencent Computer Systems Company Limited - 1
-      password: oIwjHDXpKePvYIg8
+    - cipher: aes-256-cfb
+      delay: 1055
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
+      password: amazonskr05
       port: 443
-      server: 43.162.127.44
-      skip-cert-verify: true
-      sni: myvps.cfd
-      type: trojan
+      server: 54.200.186.111
+      type: ss
     - cipher: aes-256-cfb
       delay: 975
       name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
@@ -81,6 +50,36 @@ proxies:
       protocol-param: ""
       server: 34.220.99.226
       type: ssr
+    - cipher: aes-256-cfb
+      delay: 773
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 4
+      password: amazonskr05
+      port: 443
+      server: 52.88.180.184
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1EDCH"
+      delay: 1678
+      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 84.17.53.160
+      type: ss
+    - cipher: aes-256-cfb
+      delay: 2127
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 2
+      password: amazonskr05
+      port: 443
+      server: 44.247.247.209
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 972
+      name: 德国 - 法兰克福 - Aeza International LTD - 1
+      password: pL1ZVFkk4uYDis2TD2PJLQ
+      port: 33742
+      server: 109.237.99.103
+      type: ss
     - country: "\U0001F1F5\U0001F1F1PL"
       delay: 1316
       name: 波兰 - 华沙 - ECO-ATMAN - 1
@@ -91,82 +90,59 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8 US"
+      delay: 944
+      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
+      password: amazonskr05
+      port: 443
+      server: 13.213.69.248
+      type: ss
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2148
+      delay: 1586
       h2-opts: {}
       http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 4
+      name: 美国 - San Jose - Oracle Corporation - 8
       network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
+      port: 8088
+      server: ora2.aihi.uk
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: cdfd0896-b562-4283-b13c-912e2517899f
+      uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
       ws-opts:
         headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
+            Host: ora2.aihi.uk
+        path: /ray
+    - delay: 1631
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
+      network: ws
+      port: 80
+      server: 45.131.5.206
+      servername: gozargah.validbv7996.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+      ws-opts:
+        headers:
+            Host: gozargah.validbv7996.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2497
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 3
+      delay: 1754
+      name: 美国 - San Jose - Oracle Corporation - 7
       network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
-      skip-cert-verify: true
+      port: 8088
+      server: ora.aihi.uk
       tls: true
       type: vmess
-      uuid: d063bb70-5656-4596-b068-74be0be83d36
+      uuid: 979e39d7-fdf8-4e51-afb6-4d181c56170f
       ws-opts:
         headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2563
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 6
-      network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 220f0075-7e1c-4273-b179-5b8dced71ebb
-      ws-opts:
-        headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2546
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 7
-      network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 94f49716-d66c-4d64-9e05-d6ee37df2b43
-      ws-opts:
-        headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
+            Host: ora.aihi.uk
+        path: /ray
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -182,32 +158,6 @@ proxies:
       tls: true
       type: vmess
       uuid: ef7390c0-1cea-4322-abb8-23d62b7e3cff
-      ws-opts:
-        headers:
-            HOST: leader.twn24.ir
-        path: "/\U0001F194@M3HDIO1"
-    - cipher: aes-256-cfb
-      delay: 1055
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 5
-      password: amazonskr05
-      port: 443
-      server: 54.200.186.111
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2554
-      h2-opts: {}
-      http-opts: {}
-      name: 瑞典 - 斯德哥尔摩 - xorek.cloud International LTD - 8
-      network: ws
-      port: 2053
-      server: leader.twn24.ir
-      servername: leader.twn24.ir
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 5c83cb26-e393-4d4d-b737-d894736a3afd
       ws-opts:
         headers:
             HOST: leader.twn24.ir
