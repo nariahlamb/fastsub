@@ -1,98 +1,151 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1216
-      flow: xtls-rprx-vision
-      name: 美国 - San Jose - Oracle Corporation - 14
-      network: tcp
-      port: 2087
-      reality-opts:
-        public-key: LukOig0eMe6VNy9rdyFt7ozZpS3r_1lsyIMun4qgJEo
-        short-id: d27cd3b5
-      server: 192.9.130.194
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bf86d7a4-30fe-44fd-bb12-15ce3924ad40
     - cipher: aes-256-cfb
-      delay: 975
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 6
-      obfs: plain
-      obfs-param: ""
+      delay: 390
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 11
       password: amazonskr05
       port: 443
-      protocol: origin
-      protocol-param: ""
-      server: 34.220.99.226
-      type: ssr
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1205
-      name: 美国 - 芝加哥 - Datacamp Limited - 9
-      password: ypDt8RkT7J
-      port: 43118
-      server: 89.187.181.172
+      server: 43.207.150.238
+      type: ss
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2792
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 24
+      password: b4c712a0-0a7d-11f0-808d-1239d0255272
+      port: 443
+      server: uk1.test3.net
       skip-cert-verify: true
       type: trojan
       udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2097
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 23
+      password: 5a1b98a0-0a7d-11f0-9eda-1239d0255272
+      port: 443
+      server: uk1.test3.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2409
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 25
+      password: 7634a410-0a7d-11f0-acfd-1239d0255272
+      port: 443
+      server: uk1.test3.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2878
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 21
+      password: 638b4180-0a7d-11f0-aa24-1239d0255272
+      port: 443
+      server: uk1.test3.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2383
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 19
+      password: a4769190-0a7d-11f0-aa61-1239d0255272
+      port: 443
+      server: uk1.test3.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1EC\U0001F1E7GB"
+      delay: 2036
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 22
+      password: 6cf097b0-0a7d-11f0-88f5-1239d0255272
+      port: 443
+      server: uk1.test3.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      delay: 1269
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 14
+      network: ws
+      port: 443
+      server: u2.huvicloud.com
+      servername: u2.huvicloud.com
+      tls: true
+      type: vmess
+      uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+      ws-opts:
+        headers:
+            Host: u2.huvicloud.com
+        path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
     - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 288
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
+      password: amazonskr05
+      port: 443
+      server: 13.212.222.104
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1414
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 40
+      password: amazonskr05
+      port: 443
+      server: 47.129.202.70
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1773
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 17
+      password: b3a20bc01aa4ce13
+      port: 26567
+      server: 57.130.21.59
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2869
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 39
+      password: amazonskr05
+      port: 443
+      server: 47.129.230.32
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EB\U0001F1F7FR"
+      delay: 1749
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 18
+      password: 76cf56c1e0092b97
+      port: 26567
+      server: 57.130.21.12
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 443
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 41
+      password: amazonskr05
+      port: 443
+      server: 47.128.80.62
+      type: ss
+    - cipher: chacha20-ietf-poly1305
       country: "\U0001F1E8\U0001F1EDCH"
-      delay: 1678
-      name: 瑞士 - 苏黎世 - DataCamp Limited - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 84.17.53.160
+      delay: 2988
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 15
+      password: cSbBOOrFZSnHXKrc0zaIcl
+      port: 19057
+      server: 91.103.253.151
       type: ss
     - alterId: 0
       cipher: auto
-      delay: 1586
+      delay: 2511
       h2-opts: {}
       http-opts: {}
-      name: 美国 - San Jose - Oracle Corporation - 8
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 13
       network: ws
-      port: 8088
-      server: ora2.aihi.uk
-      skip-cert-verify: true
-      tls: true
+      port: 8080
+      server: s4.cn-db.top
       type: vmess
-      uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
+      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
       ws-opts:
         headers:
-            Host: ora2.aihi.uk
-        path: /ray
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8 US"
-      delay: 944
-      name: 新加坡 - 新加坡 - Amazon Technologies Inc. - 3
-      password: amazonskr05
-      port: 443
-      server: 13.213.69.248
-      type: ss
-    - delay: 1631
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 12
-      network: ws
-      port: 80
-      server: 45.131.5.206
-      servername: gozargah.validbv7996.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-      ws-opts:
-        headers:
-            Host: gozargah.validbv7996.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - delay: 1023
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 13
-      network: ws
-      port: 80
-      server: 45.131.4.131
-      servername: gozargah.validbv7996.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-      ws-opts:
-        headers:
-            Host: gozargah.validbv7996.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+            Host: 100-150-171-114.s4.cn-db.top
+        path: /dabai.in104.20.244.251
