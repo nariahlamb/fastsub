@@ -22,21 +22,22 @@ proxies:
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
-      delay: 2386
+      delay: 2384
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 12
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
       network: ws
-      port: 2052
-      server: s2.db-link01.top
-      servername: 100-189-132-241.s2.db-link01.top
+      port: 8443
+      server: 104.21.64.1
+      servername: lon1-sub.890699.xyz
       skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
       ws-opts:
         headers:
-            HOST: 100-189-132-241.s2.db-link01.top
-        path: /dabai.in104.24.227.22
+            HOST: lon1-sub.890699.xyz
+        path: /lon1-sub.890699.xyz
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -56,30 +57,23 @@ proxies:
         headers:
             HOST: lon1-sub.890699.xyz
         path: /lon1-sub.890699.xyz
-    - alterId: 0
-      cipher: auto
-      delay: 2315
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 4
-      network: ws
-      port: 80
-      server: 104.21.21.226
-      tls: false
-      type: vmess
-      uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
-      ws-opts:
-        headers:
-            Host: 1c.890689.xyz
-        path: /lsUVr8VBxF4ylXngZ
+    - cipher: aes-256-cfb
+      delay: 615
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 28
+      password: amazonskr05
+      port: 443
+      server: 13.229.73.58
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
-      delay: 2384
+      delay: 2297
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
       network: ws
-      port: 8443
-      server: 104.21.64.1
+      port: 2096
+      server: 104.21.96.1
       servername: lon1-sub.890699.xyz
       skip-cert-verify: true
       tls: true
@@ -107,33 +101,6 @@ proxies:
         headers:
             HOST: 100-157-232-164.s4.db-link01.top
         path: /dabai.in172.64.44.14
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2297
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
-      network: ws
-      port: 2096
-      server: 104.21.96.1
-      servername: lon1-sub.890699.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
-      ws-opts:
-        headers:
-            HOST: lon1-sub.890699.xyz
-        path: /lon1-sub.890699.xyz
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 555
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 38
-      password: amazonskr05
-      port: 443
-      server: 13.250.5.171
-      type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1FA\U0001F1F8US"
       delay: 443
@@ -141,4 +108,12 @@ proxies:
       password: amazonskr05
       port: 443
       server: 47.128.80.62
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 288
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 37
+      password: amazonskr05
+      port: 443
+      server: 13.212.222.104
       type: ss
