@@ -19,3 +19,58 @@ proxies:
         headers:
             HOST: uswuxian.pai50288.uk
         path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2384
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      network: ws
+      port: 8443
+      server: 104.21.64.1
+      servername: lon1-sub.890699.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+      ws-opts:
+        headers:
+            HOST: lon1-sub.890699.xyz
+        path: /lon1-sub.890699.xyz
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2318
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 31
+      network: ws
+      port: 8443
+      server: 104.21.80.1
+      servername: lon1-sub.890699.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+      ws-opts:
+        headers:
+            HOST: lon1-sub.890699.xyz
+        path: /lon1-sub.890699.xyz
+    - cipher: aes-256-cfb
+      country: "\U0001F1F8\U0001F1ECSG"
+      delay: 557
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 36
+      password: amazonskr05
+      port: 443
+      server: 13.229.48.116
+      type: ss
+    - country: "\U0001F1EF\U0001F1F5JP"
+      delay: 1030
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
+      password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+      port: 20230
+      server: jp007.421421.xyz
+      skip-cert-verify: true
+      type: trojan
+      udp: true
