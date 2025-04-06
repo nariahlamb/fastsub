@@ -3,74 +3,68 @@ proxies:
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
-      delay: 2423
+      delay: 2691
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 5
+      name: 美国 - 達拉斯 - HostPapa - 1
       network: ws
-      port: 8443
-      server: 104.21.3.219
-      servername: uswuxian.pai50288.uk
+      port: 2096
+      server: 1743919941.tencentapp.cn
+      servername: 1743919978.speed.adl.cccp.freefly.pp.ua
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+      uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
       ws-opts:
         headers:
-            HOST: uswuxian.pai50288.uk
+            HOST: 1743919978.speed.adl.cccp.freefly.pp.ua
         path: /
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2384
+      delay: 2741
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 32
+      name: 中国 - 怀化市 - PEG TECH INC - 3
       network: ws
-      port: 8443
-      server: 104.21.64.1
-      servername: lon1-sub.890699.xyz
+      port: 38003
+      server: 137.175.10.241
+      servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
+      udp: true
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
         headers:
-            HOST: lon1-sub.890699.xyz
-        path: /lon1-sub.890699.xyz
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2318
-      h2-opts: {}
-      http-opts: {}
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 31
-      network: ws
-      port: 8443
-      server: 104.21.80.1
-      servername: lon1-sub.890699.xyz
+            Host: 38.14.107.225
+        path: /path/181721272114
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2273
+      name: 法国 - 巴黎 - Online S.A.S. - 1
+      password: dongtaiwang.com
+      port: 61770
+      server: 51.159.226.1
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 41963e6b-295d-45a0-b6cc-38fbdd3e3f75
-      ws-opts:
-        headers:
-            HOST: lon1-sub.890699.xyz
-        path: /lon1-sub.890699.xyz
-    - cipher: aes-256-cfb
-      country: "\U0001F1F8\U0001F1ECSG"
-      delay: 557
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 36
-      password: amazonskr05
-      port: 443
-      server: 13.229.48.116
-      type: ss
-    - country: "\U0001F1EF\U0001F1F5JP"
-      delay: 1030
-      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 9
-      password: 4deefa4b-349d-4db8-be3c-d4d61c862718
-      port: 20230
-      server: jp007.421421.xyz
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1013
+      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      password: dongtaiwang.com
+      port: 35751
+      server: 46.29.163.171
       skip-cert-verify: true
-      type: trojan
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2308
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
+      password: dongtaiwang.com
+      port: 59967
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
       udp: true
