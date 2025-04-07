@@ -29,13 +29,23 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - country: "\U0001F1F7\U0001F1FARU"
-      delay: 1798
-      name: 俄罗斯 - 莫斯科 - LLC BAXET - 3
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2308
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
       password: dongtaiwang.com
-      port: 4395
-      server: 46.17.41.217
+      port: 59967
+      server: 195.154.33.70
       skip-cert-verify: true
       sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1F7\U0001F1F4RO"
+      delay: 2305
+      name: 荷兰 - 阿姆斯特丹 - ColocationX Ltd. - 1
+      password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
+      port: 443
+      server: alipay-api-nl-a-2.testred.xyz
+      skip-cert-verify: true
+      sni: alipay-api-nl-a-2.testred.xyz
       type: hysteria2
       udp: true
