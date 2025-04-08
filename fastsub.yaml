@@ -1,24 +1,5 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2691
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 達拉斯 - HostPapa - 1
-      network: ws
-      port: 2096
-      server: 1743919941.tencentapp.cn
-      servername: 1743919978.speed.adl.cccp.freefly.pp.ua
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-      ws-opts:
-        headers:
-            HOST: 1743919978.speed.adl.cccp.freefly.pp.ua
-        path: /
     - country: "\U0001F1EB\U0001F1F7FR"
       delay: 2273
       name: 法国 - 巴黎 - Online S.A.S. - 1
@@ -27,6 +8,16 @@ proxies:
       server: 51.159.226.1
       skip-cert-verify: true
       sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 2737
+      name: 美国 - 水牛城 - HostPapa - 3
+      password: 5CBqBh6MeDq6GajcilBiDg==
+      port: 61001
+      server: 192-227-152-86.nip.io
+      skip-cert-verify: true
+      sni: 192-227-152-86.nip.io
       type: hysteria2
       udp: true
     - country: "\U0001F1EB\U0001F1F7FR"
@@ -39,13 +30,23 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - country: "\U0001F1F7\U0001F1F4RO"
-      delay: 2305
-      name: 荷兰 - 阿姆斯特丹 - ColocationX Ltd. - 1
-      password: d4d3a6ca-4da0-410a-9b8f-e37c023ae30c
-      port: 443
-      server: alipay-api-nl-a-2.testred.xyz
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1013
+      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      password: dongtaiwang.com
+      port: 35751
+      server: 46.29.163.171
       skip-cert-verify: true
-      sni: alipay-api-nl-a-2.testred.xyz
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 2197
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 2
+      password: dongtaiwang.com
+      port: 12904
+      server: 46.17.41.5
+      skip-cert-verify: true
+      sni: apple.com
       type: hysteria2
       udp: true
