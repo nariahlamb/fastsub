@@ -29,16 +29,6 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      delay: 2308
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
-      password: dongtaiwang.com
-      port: 59967
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 2737
       name: 美国 - 水牛城 - HostPapa - 3
@@ -47,5 +37,15 @@ proxies:
       server: 192-227-152-86.nip.io
       skip-cert-verify: true
       sni: 192-227-152-86.nip.io
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 2308
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 2
+      password: dongtaiwang.com
+      port: 59967
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
       type: hysteria2
       udp: true
