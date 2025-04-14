@@ -30,16 +30,40 @@ proxies:
         headers:
             Host: Fra-Vp-123.BLaZECLOUD.Site
         path: /linvkws
-    - country: "\U0001F1E9\U0001F1EADE"
-      delay: 1377
-      name: 德国 - 法兰克福 - DigitalOcean, LLC - 1
+    - alterId: 0
+      cipher: auto
+      delay: 1234
+      name: 美国 - 迈阿密 - Stark Industries Solutions LTD - 2
+      port: 18598
+      server: 5.180.30.85
+      tls: false
+      type: vmess
+      uuid: bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9
+    - delay: 1759
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 2
       password: 4732adfa16c6450bbef87264e41332db
       port: 443
-      server: 165.22.74.230
+      server: nextstepcareer.online
       skip-cert-verify: true
-      sni: nextstepcareer.online
       type: trojan
-      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1F7\U0001F1F8RS"
+      delay: 1087
+      name: 塞尔维亚 - 贝尔格莱德 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.186.77.220
+      type: ss
+    - alterId: 0
+      cipher: auto
+      delay: 1249
+      name: 波兰 - 華沙 - STARK - 3
+      port: 38088
+      server: 2.56.125.101
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
     - alterId: 0
       cipher: auto
       delay: 2357
@@ -55,6 +79,48 @@ proxies:
         headers:
             Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
         path: /azumase.ren
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 1161
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - Stark Industries Solutions LTD - 2
+      network: tcp
+      port: 50326
+      server: 45.82.252.99
+      skip-cert-verify: true
+      type: vmess
+      uuid: 71323bdd-8dec-4f52-8449-5af11b90322e
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 2302
+      name: 俄罗斯 - 莫斯科 - LLC Baxet - 2
+      password: dongtaiwang.com
+      port: 32555
+      server: 46.29.163.171
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 1377
+      name: 德国 - 法兰克福 - DigitalOcean, LLC - 1
+      password: 4732adfa16c6450bbef87264e41332db
+      port: 443
+      server: 165.22.74.230
+      skip-cert-verify: true
+      sni: nextstepcareer.online
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      delay: 1071
+      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 1
+      port: 58891
+      server: 91.194.11.162
+      tls: false
+      type: vmess
+      uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
     - auth: 5CBqBh6MeDq6GajcilBiDg==
       delay: 2540
       name: 美国 - 水牛城 - HostPapa - 8
@@ -75,22 +141,12 @@ proxies:
       sni: shy23.zqjc.cloud
       type: hysteria2
       udp: true
-    - alterId: 0
-      cipher: auto
-      delay: 1249
-      name: 波兰 - 華沙 - STARK - 3
-      port: 38088
-      server: 2.56.125.101
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
     - country: "\U0001F1F7\U0001F1FARU"
-      delay: 2302
-      name: 俄罗斯 - 莫斯科 - LLC Baxet - 2
+      delay: 1442
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
       password: dongtaiwang.com
-      port: 32555
-      server: 46.29.163.171
+      port: 64816
+      server: 46.17.41.217
       skip-cert-verify: true
       sni: apple.com
       type: hysteria2
