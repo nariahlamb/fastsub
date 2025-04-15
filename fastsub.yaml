@@ -1,86 +1,41 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-cfb
-      delay: 803
-      name: 美国 - 凤凰城 - Performive LLC - 1
-      password: shadowsocks
-      port: 443
-      server: 184.170.241.194
-      type: ss
     - alterId: 0
       cipher: auto
-      delay: 2035
-      name: 瑞士 - 苏黎世 - GTHost - 1
-      port: 22324
-      server: 186.190.215.93
-      tls: false
-      type: vmess
-      uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    - cipher: aes-256-cfb
-      country: "\U0001F1F7\U0001F1F8RS"
-      delay: 1087
-      name: 塞尔维亚 - 贝尔格莱德 - ONEPROVIDER - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.186.77.220
-      type: ss
-    - alterId: 0
-      cipher: auto
-      delay: 1234
-      name: 美国 - 迈阿密 - Stark Industries Solutions LTD - 2
-      port: 18598
-      server: 5.180.30.85
-      tls: false
-      type: vmess
-      uuid: bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9
-    - alterId: 0
-      cipher: auto
-      delay: 2357
-      name: 法国 - 巴黎 - Cloudflare, Inc. - 1
-      network: ws
-      port: 443
-      server: 172.67.204.19
-      servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-      tls: true
-      type: vmess
-      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-      ws-opts:
-        headers:
-            Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-        path: /azumase.ren
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 1161
+      country: "\U0001F3C1ZZ"
+      delay: 1466
       h2-opts: {}
       http-opts: {}
-      name: 中国 - 香港 - Stark Industries Solutions LTD - 2
-      network: tcp
-      port: 50326
-      server: 45.82.252.99
-      skip-cert-verify: true
-      type: vmess
-      uuid: 71323bdd-8dec-4f52-8449-5af11b90322e
-    - alterId: 0
-      cipher: auto
-      delay: 2233
-      name: 法国 - 格拉沃利讷 - OVH SAS - 2
+      name: 美国 - 洛杉矶 - HostPapa - 2
       network: ws
-      port: 443
-      server: cloudgetservice.mcloudservice.site
+      port: 8443
+      server: 141.101.120.158
+      servername: 1743919978.speed.laxha.cccp.freefly.pp.ua
+      skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+      uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
       ws-opts:
         headers:
-            Host: Fra-Vp-123.BLaZECLOUD.Site
-        path: /linvkws
-    - alterId: 0
-      cipher: auto
-      delay: 1071
-      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 1
-      port: 58891
-      server: 91.194.11.162
-      tls: false
-      type: vmess
-      uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
+            HOST: 1743919978.speed.laxha.cccp.freefly.pp.ua
+        path: /
+    - country: "\U0001F1F3\U0001F1F1NL"
+      delay: 1558
+      name: 荷兰 - 阿姆斯特丹 - Oracle Corporation - 2
+      password: 867f512f-93d2-4344-853c-50965de9b103
+      port: 55215
+      server: shy42.zqjc.cloud
+      skip-cert-verify: false
+      sni: shy42.zqjc.cloud
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1E9\U0001F1EADE"
+      delay: 1517
+      name: 德国 - 法兰克福 - Oracle Corporation - 1
+      password: 867f512f-93d2-4344-853c-50965de9b103
+      port: 55215
+      server: shy38.zqjc.cloud
+      skip-cert-verify: false
+      sni: shy38.zqjc.cloud
+      type: hysteria2
+      udp: true
