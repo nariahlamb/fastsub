@@ -16,6 +16,14 @@ proxies:
       tls: false
       type: vmess
       uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    - cipher: aes-256-cfb
+      country: "\U0001F1F7\U0001F1F8RS"
+      delay: 1087
+      name: 塞尔维亚 - 贝尔格莱德 - ONEPROVIDER - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.186.77.220
+      type: ss
     - alterId: 0
       cipher: auto
       delay: 1234
@@ -25,55 +33,21 @@ proxies:
       tls: false
       type: vmess
       uuid: bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9
-    - cipher: aes-256-cfb
-      country: "\U0001F1F7\U0001F1F8RS"
-      delay: 1087
-      name: 塞尔维亚 - 贝尔格莱德 - ONEPROVIDER - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.186.77.220
-      type: ss
-    - country: "\U0001F1E8\U0001F1F3CN"
-      delay: 1176
-      name: 中国 - 香港 - Shenzhen Tencent Computer Systems Company Limited - 1
-      password: oIwjHDXpKePvYIg8
-      port: 443
-      server: 43.161.255.183
-      skip-cert-verify: true
-      sni: myvps.lol
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
-      delay: 1249
-      name: 波兰 - 華沙 - STARK - 3
-      port: 38088
-      server: 2.56.125.101
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 1275ea18-bc9c-4bcb-b3fd-fee70272e143
-    - alpn:
-        - h2
-        - http/1.1
-      delay: 1801
-      name: 中国 - 香港 - Shenzhen Tencent Computer Systems Company Limited - 3
-      password: oIwjHDXpKePvYIg8
+      delay: 2357
+      name: 法国 - 巴黎 - Cloudflare, Inc. - 1
+      network: ws
       port: 443
-      server: myvps.lol
-      sni: myvps.lol
-      type: trojan
-      udp: true
-    - auth: 5CBqBh6MeDq6GajcilBiDg==
-      delay: 2540
-      name: 美国 - 水牛城 - HostPapa - 8
-      password: 5CBqBh6MeDq6GajcilBiDg==
-      port: 61001
-      server: 192-227-152-86.nip.io
-      skip-cert-verify: true
-      sni: 192-227-152-86.nip.io
-      type: hysteria2
-      udp: true
+      server: 172.67.204.19
+      servername: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+      tls: true
+      type: vmess
+      uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+      ws-opts:
+        headers:
+            Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+        path: /azumase.ren
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
@@ -87,3 +61,26 @@ proxies:
       skip-cert-verify: true
       type: vmess
       uuid: 71323bdd-8dec-4f52-8449-5af11b90322e
+    - alterId: 0
+      cipher: auto
+      delay: 2233
+      name: 法国 - 格拉沃利讷 - OVH SAS - 2
+      network: ws
+      port: 443
+      server: cloudgetservice.mcloudservice.site
+      tls: true
+      type: vmess
+      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+      ws-opts:
+        headers:
+            Host: Fra-Vp-123.BLaZECLOUD.Site
+        path: /linvkws
+    - alterId: 0
+      cipher: auto
+      delay: 1071
+      name: 加拿大 - 多伦多 - Tangram Canada Inc. - 1
+      port: 58891
+      server: 91.194.11.162
+      tls: false
+      type: vmess
+      uuid: 4439cf3e-d072-4a5b-88b2-2a2ec6d71340
