@@ -27,25 +27,6 @@ proxies:
         headers:
             HOST: 1743919978.speed.laxha.cccp.freefly.pp.ua
         path: /
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2765
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 4
-      network: ws
-      port: 443
-      server: tYu9G5.890617.Xyz
-      servername: tyu9g5.890617.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-      ws-opts:
-        headers:
-            HOST: tyu9g5.890617.xyz
-        path: /q2hGWwflPDbymaoOj85lz42MdhsCLV
     - cipher: chacha20-ietf-poly1305
       delay: 1045
       name: 荷兰 - 阿姆斯特丹 - Interkvm Host SRL - 1
@@ -73,13 +54,30 @@ proxies:
       sni: shy38.zqjc.cloud
       type: hysteria2
       udp: true
-    - auth: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-      delay: 1934
-      name: 美国 - 洛杉矶 - Sharktech - 11
-      password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
-      port: 8443
-      server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
-      type: hysteria2
-      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2765
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 水牛城 - HostPapa - 4
+      network: ws
+      port: 443
+      server: tYu9G5.890617.Xyz
+      servername: tyu9g5.890617.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+      ws-opts:
+        headers:
+            HOST: tyu9g5.890617.xyz
+        path: /q2hGWwflPDbymaoOj85lz42MdhsCLV
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1EA\U0001F1F8ES"
+      delay: 1651
+      name: 西班牙 - 马德里 - G-Core Labs S.A. - 1
+      password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
+      port: 31348
+      server: 92.38.171.215
+      type: ss
