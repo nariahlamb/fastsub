@@ -1,13 +1,5 @@
 proxy-providers: {}
 proxies:
-    - delay: 1847
-      name: 美国 - 克利夫頓 - DigitalOcean, LLC - 1
-      password: xxoo
-      port: 443
-      server: 138.197.5.103
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F3C1ZZ"
@@ -27,39 +19,11 @@ proxies:
         headers:
             HOST: 1743919978.speed.laxha.cccp.freefly.pp.ua
         path: /
-    - cipher: chacha20-ietf-poly1305
-      delay: 1045
-      name: 荷兰 - 阿姆斯特丹 - Interkvm Host SRL - 1
-      password: 9IAge06PmPuo5OJGD17sdg
-      port: 44591
-      server: 203.25.108.78
-      type: ss
-    - auth: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-      delay: 2266
-      name: 美国 - 洛杉矶 - Sharktech - 12
-      password: 7af3db60-b2d9-11ef-88ab-f23c913c8d2b
-      port: 8443
-      server: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: b9a88fb8-suk9s0-t7qex7-1supq.hy2.gotochinatown.net
-      type: hysteria2
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F3C1ZZ"
-      delay: 2765
-      h2-opts: {}
-      http-opts: {}
-      name: 美国 - 水牛城 - HostPapa - 4
-      network: ws
+    - delay: 1847
+      name: 美国 - 克利夫頓 - DigitalOcean, LLC - 1
+      password: xxoo
       port: 443
-      server: tYu9G5.890617.Xyz
-      servername: tyu9g5.890617.xyz
+      server: 138.197.5.103
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-      ws-opts:
-        headers:
-            HOST: tyu9g5.890617.xyz
-        path: /q2hGWwflPDbymaoOj85lz42MdhsCLV
+      type: trojan
+      udp: true
