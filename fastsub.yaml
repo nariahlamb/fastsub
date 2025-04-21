@@ -15,19 +15,19 @@ proxies:
         headers:
             Host: us6.globals-download.com
         path: /pq/us6
-    - delay: 992
-      name: 法国 - 巴黎 - Online S.A.S. - 3
+    - delay: 621
+      name: 德国 - 兰河畔林堡 - OVH SAS - 3
       network: ws
       port: 8080
       server: tgju.org
-      servername: 4j.QBAo1g5z6k.ZulaIR.org.
+      servername: 06.GDyA7g7K11.ZuLair.ORG.
       tls: false
       type: vless
       udp: true
-      uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+      uuid: 9322430d-84fd-4fdf-808d-5c146fcde700
       ws-opts:
         headers:
-            Host: 4j.QBAo1g5z6k.ZulaIR.org.
+            Host: 06.GDyA7g7K11.ZuLair.ORG.
         path: /?ed=2048
     - alterId: 0
       cipher: auto
@@ -48,25 +48,11 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - delay: 805
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
-      network: ws
-      port: 8880
-      server: 185.146.173.167
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: /TM-@AZARBAYJAB1/?ed=2560
-    - delay: 471
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
+    - delay: 984
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 7
       network: ws
       port: 80
-      server: 45.131.4.158
+      server: 45.131.4.25
       servername: digitalscientificresearchgroup.ir
       tls: false
       type: vless
@@ -75,7 +61,21 @@ proxies:
       ws-opts:
         headers:
             Host: digitalscientificresearchgroup.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+        path: /
+    - delay: 992
+      name: 法国 - 巴黎 - Online S.A.S. - 3
+      network: ws
+      port: 8080
+      server: tgju.org
+      servername: 4j.QBAo1g5z6k.ZulaIR.org.
+      tls: false
+      type: vless
+      udp: true
+      uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+      ws-opts:
+        headers:
+            Host: 4j.QBAo1g5z6k.ZulaIR.org.
+        path: /?ed=2048
     - delay: 1695
       name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
       network: ws
@@ -90,6 +90,65 @@ proxies:
         headers:
             Host: REEdfREe8MahSaNg2.rEDOrG.IR
         path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+    - delay: 1527
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
+      network: ws
+      port: 80
+      server: 45.131.4.194
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Lizard VPN\U0001F98E"
+    - delay: 471
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
+      network: ws
+      port: 80
+      server: 45.131.4.158
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1055
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 2
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - delay: 805
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
+      network: ws
+      port: 8880
+      server: 185.146.173.167
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: /TM-@AZARBAYJAB1/?ed=2560
+    - cipher: chacha20-ietf
+      delay: 1693
+      name: 美国 - 聖荷西 - PEG TECH INC - 1
+      password: asd123456
+      port: 8388
+      server: 137.175.113.193
+      type: ss
     - delay: 863
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
       network: ws
@@ -104,13 +163,3 @@ proxies:
         headers:
             Host: digitalscientificresearchgroup.ir
         path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
-    - country: "\U0001F1F7\U0001F1FARU"
-      delay: 1055
-      name: 俄罗斯 - 莫斯科 - LLC BAXET - 2
-      password: dongtaiwang.com
-      port: 10011
-      server: hy2.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
