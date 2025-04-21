@@ -15,20 +15,55 @@ proxies:
         headers:
             Host: us6.globals-download.com
         path: /pq/us6
-    - delay: 992
-      name: 法国 - 巴黎 - Online S.A.S. - 3
+    - cipher: aes-256-gcm
+      delay: 2290
+      name: 日本 - Shinagawa - The Constant Company, LLC - 1
+      password: 0a999a3a-01f8-453c-b5f6-793d99ba9457
+      port: 56789
+      server: japantv4.zhixiang.us
+      type: ss
+    - delay: 1695
+      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
       network: ws
-      port: 8080
-      server: tgju.org
-      servername: 4j.QBAo1g5z6k.ZulaIR.org.
+      port: 80
+      server: 104.21.56.44
+      servername: REEdfREe8MahSaNg2.rEDOrG.IR
       tls: false
       type: vless
       udp: true
-      uuid: 56652249-2e67-4429-b86c-3df8b838ad85
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: 4j.QBAo1g5z6k.ZulaIR.org.
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+        path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+    - delay: 621
+      name: 德国 - 兰河畔林堡 - OVH SAS - 3
+      network: ws
+      port: 8080
+      server: tgju.org
+      servername: 06.GDyA7g7K11.ZuLair.ORG.
+      tls: false
+      type: vless
+      udp: true
+      uuid: 9322430d-84fd-4fdf-808d-5c146fcde700
+      ws-opts:
+        headers:
+            Host: 06.GDyA7g7K11.ZuLair.ORG.
         path: /?ed=2048
+    - delay: 805
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
+      network: ws
+      port: 8880
+      server: 185.146.173.167
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: /TM-@AZARBAYJAB1/?ed=2560
     - alterId: 0
       cipher: auto
       delay: 688
@@ -48,69 +83,24 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - delay: 1527
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 963
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - PCCW IMS Limited - 3
       network: ws
       port: 80
-      server: 45.131.4.194
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      server: 606d5e21-sv2sg0-t04f46-1hvn1.hgc1.tcpbbr.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 8d05476e-ae88-11ed-8543-f23c913c8d2b
       ws-opts:
         headers:
-            Host: digitalscientificresearchgroup.ir
-        path: "/Lizard VPN\U0001F98E"
-    - cipher: aes-256-gcm
-      delay: 2290
-      name: 日本 - Shinagawa - The Constant Company, LLC - 1
-      password: 0a999a3a-01f8-453c-b5f6-793d99ba9457
-      port: 56789
-      server: japantv4.zhixiang.us
-      type: ss
-    - delay: 805
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
-      network: ws
-      port: 8880
-      server: 185.146.173.167
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: /TM-@AZARBAYJAB1/?ed=2560
-    - delay: 471
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
-      network: ws
-      port: 80
-      server: 45.131.4.158
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - delay: 863
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
-      network: ws
-      port: 80
-      server: 45.131.5.233
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
     - delay: 984
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 7
       network: ws
@@ -125,17 +115,166 @@ proxies:
         headers:
             Host: digitalscientificresearchgroup.ir
         path: /
-    - delay: 1695
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 2470
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - PCCW IMS Limited - 1
       network: ws
       port: 80
-      server: 104.21.56.44
-      servername: REEdfREe8MahSaNg2.rEDOrG.IR
+      server: 2247c703-sv2sg0-swe9sq-9jj.hgc1.tcpbbr.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 7ef80274-d51f-5247-480a-f269a7c36b39
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      delay: 2133
+      name: 中国 - 香港 - PCCW IMS Limited - 2
+      network: ws
+      port: 80
+      server: a8ef44d5-sv2sg0-tegcd3-1ne75.hgc1.tcpbbr.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - delay: 992
+      name: 法国 - 巴黎 - Online S.A.S. - 3
+      network: ws
+      port: 8080
+      server: tgju.org
+      servername: 4j.QBAo1g5z6k.ZulaIR.org.
       tls: false
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: 56652249-2e67-4429-b86c-3df8b838ad85
       ws-opts:
         headers:
-            Host: REEdfREe8MahSaNg2.rEDOrG.IR
-        path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+            Host: 4j.QBAo1g5z6k.ZulaIR.org.
+        path: /?ed=2048
+    - delay: 471
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
+      network: ws
+      port: 80
+      server: 45.131.4.158
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - country: "\U0001F1EB\U0001F1F7FR"
+      delay: 730
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 1
+      password: dongtaiwang.com
+      port: 23587
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1070
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - PCCW IMS Limited - 26
+      network: ws
+      port: 80
+      server: 4ff67fa5-sv0xs0-t5963m-1ex5a.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 98d2b660-7218-11ec-bd7c-f23c913c8d2b
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 1897
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - PCCW IMS Limited - 19
+      network: ws
+      port: 80
+      server: 31228746-sv2sg0-tas70o-yjcr.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: f1ddbc82-ae6a-11ef-b69c-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - delay: 863
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
+      network: ws
+      port: 80
+      server: 45.131.5.233
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      delay: 2408
+      h2-opts: {}
+      http-opts: {}
+      name: 中国 - 香港 - PCCW IMS Limited - 8
+      network: ws
+      port: 80
+      server: 3be014a6-sv0xs0-svpmdc-nx3b.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - client-fingerprint: chrome
+      delay: 2996
+      flow: xtls-rprx-vision
+      name: 中国 - 香港 - Hong Kong Telecommunications (HKT) Limited Mass Internet - 30
+      network: tcp
+      port: 20550
+      reality-opts:
+        public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
+      server: hkt-ty-line-1.sudatech.store
+      servername: www.paypal.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+    - country: "\U0001F1F7\U0001F1FARU"
+      delay: 1055
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 2
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
