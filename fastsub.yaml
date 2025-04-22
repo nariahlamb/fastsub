@@ -48,20 +48,6 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - delay: 863
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
-      network: ws
-      port: 80
-      server: 45.131.5.233
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
     - delay: 984
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 7
       network: ws
@@ -76,34 +62,6 @@ proxies:
         headers:
             Host: digitalscientificresearchgroup.ir
         path: /
-    - delay: 1527
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
-      network: ws
-      port: 80
-      server: 45.131.4.194
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: "/Lizard VPN\U0001F98E"
-    - delay: 805
-      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
-      network: ws
-      port: 8880
-      server: 185.146.173.167
-      servername: digitalscientificresearchgroup.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
-      ws-opts:
-        headers:
-            Host: digitalscientificresearchgroup.ir
-        path: /TM-@AZARBAYJAB1/?ed=2560
     - delay: 471
       name: 美国 - 聖荷西 - Cloudflare, Inc. - 10
       network: ws
@@ -118,3 +76,59 @@ proxies:
         headers:
             Host: digitalscientificresearchgroup.ir
         path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - delay: 863
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 8
+      network: ws
+      port: 80
+      server: 45.131.5.233
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    - delay: 1527
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 9
+      network: ws
+      port: 80
+      server: 45.131.4.194
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: "/Lizard VPN\U0001F98E"
+    - delay: 1695
+      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
+      network: ws
+      port: 80
+      server: 104.21.56.44
+      servername: REEdfREe8MahSaNg2.rEDOrG.IR
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+        path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+    - delay: 805
+      name: 美国 - 聖荷西 - Cloudflare, Inc. - 11
+      network: ws
+      port: 8880
+      server: 185.146.173.167
+      servername: digitalscientificresearchgroup.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: 4088e698-69fd-4d15-98bc-f1fe4c071642
+      ws-opts:
+        headers:
+            Host: digitalscientificresearchgroup.ir
+        path: /TM-@AZARBAYJAB1/?ed=2560
