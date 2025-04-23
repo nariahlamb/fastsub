@@ -48,6 +48,13 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
+    - cipher: chacha20-ietf
+      delay: 1693
+      name: 美国 - 聖荷西 - PEG TECH INC - 1
+      password: asd123456
+      port: 8388
+      server: 137.175.113.193
+      type: ss
     - delay: 1695
       name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
       network: ws
