@@ -1,8 +1,8 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      delay: 1187
-      name: 美国 - Ashburn - Oracle Corporation - 13
+      delay: 1015
+      name: 美国 - Ashburn - Oracle Corporation - 2
       network: ws
       port: 443
       server: 104.18.20.20
@@ -15,23 +15,22 @@ proxies:
         headers:
             Host: us6.globals-download.com
         path: /pq/us6
-    - delay: 992
-      name: 法国 - 巴黎 - Online S.A.S. - 3
-      network: ws
-      port: 8080
-      server: tgju.org
-      servername: 4j.QBAo1g5z6k.ZulaIR.org.
-      tls: false
-      type: vless
-      udp: true
-      uuid: 56652249-2e67-4429-b86c-3df8b838ad85
-      ws-opts:
-        headers:
-            Host: 4j.QBAo1g5z6k.ZulaIR.org.
-        path: /?ed=2048
     - alterId: 0
       cipher: auto
-      delay: 688
+      country: "\U0001F1ED\U0001F1F7HR"
+      delay: 666
+      h2-opts: {}
+      http-opts: {}
+      name: 捷克 - 布拉格 - Datacamp Limited - 1
+      network: tcp
+      port: 180
+      server: 89.18.58.71
+      skip-cert-verify: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - alterId: 0
+      cipher: auto
+      delay: 1455
       http-opts:
         headers:
             Host:
@@ -39,7 +38,7 @@ proxies:
         method: GET
         path:
             - /
-      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 2
+      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 9
       network: http
       port: 2095
       server: 0:0:0:0:0:ffff:9df5:4c61
@@ -48,24 +47,55 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - cipher: chacha20-ietf
-      delay: 1693
-      name: 美国 - 聖荷西 - PEG TECH INC - 1
-      password: asd123456
-      port: 8388
-      server: 137.175.113.193
-      type: ss
-    - delay: 1695
-      name: 荷兰 - 阿姆斯特丹 - Cloudflare, Inc. - 1
+    - delay: 1640
+      name: 美国 - 水牛城 - HostPapa - 10
       network: ws
-      port: 80
-      server: 104.21.56.44
-      servername: REEdfREe8MahSaNg2.rEDOrG.IR
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+      port: 443
+      server: 104.21.34.159
+      sni: 2qwert.2031.pp.ua
+      type: trojan
       ws-opts:
         headers:
-            Host: REEdfREe8MahSaNg2.rEDOrG.IR
-        path: /Join_Bade_Channel@JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPNflow
+            Host: 2qwert.2031.pp.ua
+        path: /4p35eUnmGxQ8YJFJxz
+    - auth: dongtaiwang.com
+      delay: 1663
+      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 1
+      password: dongtaiwang.com
+      port: 23587
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EE\U0001F1F3IN"
+      delay: 1307
+      name: 德国 - 法兰克福 - G-Core Labs S.A - 2
+      password: "3828095943467868160"
+      port: 443
+      server: immense-goose.dolphin109.quest
+      skip-cert-verify: true
+      sni: immense-goose.dolphin109.quest
+      type: trojan
+      udp: true
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1375
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3828095943467868160"
+      port: 443
+      server: 195.133.93.118
+      skip-cert-verify: true
+      sni: humble-shad.dolphin109.quest
+      type: trojan
+      udp: true
+    - auth: dongtaiwang.com
+      delay: 1637
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
