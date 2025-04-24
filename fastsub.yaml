@@ -46,16 +46,6 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - country: "\U0001F1E8\U0001F1FFCZ"
-      delay: 1375
-      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
-      password: "3828095943467868160"
-      port: 443
-      server: 195.133.93.118
-      skip-cert-verify: true
-      sni: humble-shad.dolphin109.quest
-      type: trojan
-      udp: true
     - country: "\U0001F1EC\U0001F1E7GB"
       delay: 2820
       name: 荷兰 - 阿姆斯特丹 - G-Core Labs S.A. - 3
@@ -66,15 +56,15 @@ proxies:
       sni: mutual-gannet.dolphin109.quest
       type: trojan
       udp: true
-    - auth: dongtaiwang.com
-      delay: 1663
-      name: 法国 - 塞纳河畔伊夫里 - Online S.A.S. - 1
-      password: dongtaiwang.com
-      port: 23587
-      server: 195.154.33.70
+    - country: "\U0001F1E8\U0001F1FFCZ"
+      delay: 1375
+      name: 塞浦路斯 - 尼科西亚 - Hostman LTD - 1
+      password: "3828095943467868160"
+      port: 443
+      server: 195.133.93.118
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      sni: humble-shad.dolphin109.quest
+      type: trojan
       udp: true
     - country: "\U0001F1EA\U0001F1F8ES"
       delay: 2341
@@ -95,4 +85,21 @@ proxies:
       skip-cert-verify: true
       sni: immense-goose.dolphin109.quest
       type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      delay: 1707
+      name: 荷兰 - 阿姆斯特丹 - Fast GEO Hosting S.R.L. - 8
+      password: MDc1Y
+      port: 8388
+      server: 194.55.137.16
+      type: ss
+    - auth: dongtaiwang.com
+      delay: 1637
+      name: 俄罗斯 - 莫斯科 - LLC BAXET - 1
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
       udp: true
