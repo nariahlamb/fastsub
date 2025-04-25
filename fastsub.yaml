@@ -1,54 +1,91 @@
 proxy-providers: {}
 proxies:
-    - delay: 1640
-      name: 美国 - 水牛城 - HostPapa - 10
-      network: ws
-      password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+    - delay: 2486
+      name: 美国 - 洛杉矶 - Sharktech - 19
+      password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
       port: 443
-      server: 104.21.34.159
-      sni: 2qwert.2031.pp.ua
-      type: trojan
-      ws-opts:
-        headers:
-            Host: 2qwert.2031.pp.ua
-        path: /4p35eUnmGxQ8YJFJxz
-    - delay: 2309
-      name: 日本 - 大阪市 - Akamai Technologies, Inc. - 4
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 443
-      server: jp104-cdn-route.couldflare-cdn.com
+      server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
       tls: true
       type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
+      username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1297
+      name: 美国 - 洛杉矶 - Sharktech - 11
+      password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
+      port: 8443
+      server: 4dbb0b72-sv8cg0-t5fh9u-1uni.hy2.gotochinatown.net
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1290
+      name: 美国 - 芝加哥 - Cloudflare, Inc. - 7
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.204.186
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-gcm
+      delay: 425
+      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
+      password: amazongreatvpn
+      port: 443
+      server: 34.219.82.5
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F9PT"
+      delay: 614
+      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.231.233.112
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1104
+      name: 美国 - 洛杉矶 - Sharktech - 6
+      password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+      port: 8443
+      server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+      skip-cert-verify: false
+      sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+      type: hysteria2
+      udp: true
+    - auth: dongtaiwang.com
+      delay: 993
+      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1190
+      name: 韩国 - 首尔特别市 - SK Broadband Co Ltd - 4
+      password: qwerREWQ@@
+      port: 4652
+      server: p141.panda001.net
+      type: ss
+      udp: true
     - alterId: 0
       cipher: auto
-      country: "\U0001F1ED\U0001F1F7HR"
-      delay: 666
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2590
       h2-opts: {}
       http-opts: {}
-      name: 捷克 - 布拉格 - Datacamp Limited - 1
-      network: tcp
-      port: 180
-      server: 89.18.58.71
+      name: 美国 - 拉斯维加斯 - FranTech Solutions - 13
+      network: ws
+      port: 443
+      server: u7.huvicloud.com
+      servername: u7.huvicloud.com
       skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - alterId: 0
-      cipher: auto
-      delay: 1455
-      http-opts:
+      uuid: 7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+      ws-opts:
         headers:
-            Host:
-                - nl1.bugfreenet.biz.ddns-ip.net
-        method: GET
-        path:
-            - /
-      name: 荷兰 - 阿姆斯特丹 - DigitalOcean, LLC - 9
-      network: http
-      port: 2095
-      server: 0:0:0:0:0:ffff:9df5:4c61
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
+            HOST: u7.huvicloud.com
+        path: /7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
