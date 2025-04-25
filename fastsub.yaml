@@ -12,6 +12,27 @@ proxies:
         headers:
             Host: 2qwert.2031.pp.ua
         path: /4p35eUnmGxQ8YJFJxz
+    - delay: 2309
+      name: 日本 - 大阪市 - Akamai Technologies, Inc. - 4
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: jp104-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F7HR"
+      delay: 666
+      h2-opts: {}
+      http-opts: {}
+      name: 捷克 - 布拉格 - Datacamp Limited - 1
+      network: tcp
+      port: 180
+      server: 89.18.58.71
+      skip-cert-verify: true
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - alterId: 0
       cipher: auto
       delay: 1455
@@ -31,17 +52,3 @@ proxies:
       type: vmess
       udp: true
       uuid: 6ba15edd-efc5-426b-baf7-70b9c6607e26
-    - client-fingerprint: chrome
-      delay: 1417
-      flow: xtls-rprx-vision
-      name: 日本 - 东京 - Datacamp Limited - 2
-      network: tcp
-      port: 31735
-      reality-opts:
-        public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-      server: shenyang001.dynu.net
-      servername: www.nvidia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
