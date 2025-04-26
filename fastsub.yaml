@@ -1,12 +1,23 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-gcm
-      delay: 517
-      name: 美国 - Ashburn - Amazon.com - 2
-      password: amazongreatvpn
+    - delay: 2486
+      name: 美国 - 洛杉矶 - Sharktech - 19
+      password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
       port: 443
-      server: 44.204.173.8
-      type: ss
+      server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
+      tls: true
+      type: http
+      username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1104
+      name: 美国 - 洛杉矶 - Sharktech - 6
+      password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+      port: 8443
+      server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+      skip-cert-verify: false
+      sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
+      type: hysteria2
+      udp: true
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1290
       name: 美国 - 芝加哥 - Cloudflare, Inc. - 7
@@ -17,14 +28,6 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - delay: 2486
-      name: 美国 - 洛杉矶 - Sharktech - 19
-      password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-      port: 443
-      server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
-      tls: true
-      type: http
-      username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
     - cipher: aes-256-cfb
       delay: 772
       name: 韩国 - Gwanak-gu - Korea Telecom - 5
@@ -33,20 +36,61 @@ proxies:
       server: 125.141.26.12
       type: ss
     - cipher: aes-256-cfb
-      country: "\U0001F1F5\U0001F1F9PT"
-      delay: 614
-      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.231.233.112
+      delay: 1665
+      name: 韩国 - Gwanak-gu - Korea Telecom - 1
+      password: qwerREWQ@@
+      port: 4857
+      server: p227.panda004.net
       type: ss
-    - auth: dongtaiwang.com
-      delay: 993
-      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      password: dongtaiwang.com
-      port: 10011
-      server: hy2.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1298
+      name: 美国 - 洛杉矶 - Sharktech - 9
+      password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+      port: 8443
+      server: 80f221ad-sv8cg0-sy9xc0-1s3lb.hy2.gotochinatown.net
+      skip-cert-verify: false
       type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      delay: 2373
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 洛杉矶 - HostPapa - 14
+      network: ws
+      port: 443
+      server: codepen.io
+      servername: fastclubcloud.alpha-panel.ir
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+      ws-opts:
+        headers:
+            HOST: fastclubcloud.alpha-panel.ir
+        path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
+    - cipher: aes-256-cfb
+      delay: 906
+      name: 越南 - Hải Dương - FASTLY - 2
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.31
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1108
+      name: 美国 - 洛杉矶 - Sharktech - 10
+      password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b
+      port: 8443
+      server: dad5fcbe-sv4n40-t0hae4-1curq.hy2.gotochinatown.net
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      delay: 1190
+      name: 韩国 - 首尔特别市 - SK Broadband Co Ltd - 4
+      password: qwerREWQ@@
+      port: 4652
+      server: p141.panda001.net
+      type: ss
       udp: true
