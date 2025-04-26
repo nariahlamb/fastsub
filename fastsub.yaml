@@ -26,6 +26,13 @@ proxies:
       type: http
       username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
     - cipher: aes-256-cfb
+      delay: 772
+      name: 韩国 - Gwanak-gu - Korea Telecom - 5
+      password: qwerREWQ@@
+      port: 4857
+      server: 125.141.26.12
+      type: ss
+    - cipher: aes-256-cfb
       country: "\U0001F1F5\U0001F1F9PT"
       delay: 614
       name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
@@ -33,10 +40,13 @@ proxies:
       port: 989
       server: 185.231.233.112
       type: ss
-    - cipher: aes-256-gcm
-      delay: 425
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
-      password: amazongreatvpn
-      port: 443
-      server: 34.219.82.5
-      type: ss
+    - auth: dongtaiwang.com
+      delay: 993
+      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
