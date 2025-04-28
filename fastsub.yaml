@@ -10,28 +10,6 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - cipher: aes-256-cfb
-      delay: 1665
-      name: 韩国 - Gwanak-gu - Korea Telecom - 1
-      password: qwerREWQ@@
-      port: 4857
-      server: p227.panda004.net
-      type: ss
-    - cipher: aes-256-cfb
-      delay: 772
-      name: 韩国 - Gwanak-gu - Korea Telecom - 5
-      password: qwerREWQ@@
-      port: 4857
-      server: 125.141.26.12
-      type: ss
-    - delay: 2486
-      name: 美国 - 洛杉矶 - Sharktech - 19
-      password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-      port: 443
-      server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
-      tls: true
-      type: http
-      username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
     - auth: dongtaiwang.com
       delay: 993
       name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
