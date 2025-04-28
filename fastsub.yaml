@@ -1,12 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-gcm
-      delay: 425
-      name: 美国 - 波特蘭 - Amazon.com, Inc. - 1
-      password: amazongreatvpn
-      port: 443
-      server: 34.219.82.5
-      type: ss
     - delay: 2486
       name: 美国 - 洛杉矶 - Sharktech - 19
       password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
@@ -15,6 +8,15 @@ proxies:
       tls: true
       type: http
       username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1298
+      name: 美国 - 洛杉矶 - Sharktech - 9
+      password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+      port: 8443
+      server: 80f221ad-sv8cg0-sy9xc0-1s3lb.hy2.gotochinatown.net
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1290
       name: 美国 - 芝加哥 - Cloudflare, Inc. - 7
@@ -25,48 +27,37 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
+    - delay: 1023
+      name: 荷兰 - 阿姆斯特丹 - Fast GEO Hosting S.R.L. - 3
+      network: ws
+      port: 2052
+      server: 14.102.228.75
+      servername: sPeedtest2.sbs.us.vless.sitespeedtest.net
+      tls: false
+      type: vless
+      udp: true
+      uuid: 6b5080c3-c19d-5401-aa83-c557ccfec5ff
+      ws-opts:
+        headers:
+            Host: sPeedtest2.sbs.us.vless.sitespeedtest.net
+        path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+    - country: "\U0001F1FA\U0001F1F8US"
+      delay: 1296
+      name: 美国 - 洛杉矶 - Sharktech - 12
+      password: 203d1d64-3313-11ed-bb74-f23c9164ca5d
+      port: 8443
+      server: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+      skip-cert-verify: false
+      sni: d7b8355e-suk9s0-t8ro7t-1ey07.hy2.gotochinatown.net
+      type: hysteria2
+      udp: true
     - cipher: aes-256-cfb
-      delay: 772
-      name: 韩国 - Gwanak-gu - Korea Telecom - 5
-      password: qwerREWQ@@
-      port: 4857
-      server: 125.141.26.12
+      delay: 586
+      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 62.100.205.48
       type: ss
-    - cipher: aes-256-cfb
-      delay: 1665
-      name: 韩国 - Gwanak-gu - Korea Telecom - 1
-      password: qwerREWQ@@
-      port: 4857
-      server: p227.panda004.net
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1108
-      name: 美国 - 洛杉矶 - Sharktech - 10
-      password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b
-      port: 8443
-      server: dad5fcbe-sv4n40-t0hae4-1curq.hy2.gotochinatown.net
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1297
-      name: 美国 - 洛杉矶 - Sharktech - 11
-      password: adbd0a82-3336-11ed-bd7c-f23c913c8d2b
-      port: 8443
-      server: 4dbb0b72-sv8cg0-t5fh9u-1uni.hy2.gotochinatown.net
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1104
-      name: 美国 - 洛杉矶 - Sharktech - 6
-      password: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-      port: 8443
-      server: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: 5f1f749e-suk9s0-tcmdts-1mmu6.hy2.gotochinatown.net
-      type: hysteria2
-      udp: true
     - delay: 2053
       name: 日本 - 大阪市 - Akamai Technologies, Inc. - 1
       password: exaxgqkKkd0TAMrCxeonWg==
@@ -84,13 +75,6 @@ proxies:
       skip-cert-verify: false
       type: hysteria2
       udp: true
-    - cipher: aes-256-cfb
-      delay: 906
-      name: 越南 - Hải Dương - FASTLY - 2
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.31
-      type: ss
     - auth: dongtaiwang.com
       delay: 993
       name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
@@ -101,3 +85,10 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
+    - cipher: aes-256-cfb
+      delay: 1735
+      name: 越南 - Hải Dương - FASTLY - 1
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.29
+      type: ss
