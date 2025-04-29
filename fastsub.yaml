@@ -1,12 +1,5 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      delay: 586
-      name: 英国 - 倫敦金融城 - Krystal Hosting Ltd - 1
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 62.100.205.48
-      type: ss
     - country: "\U0001F1FA\U0001F1F8US"
       delay: 1290
       name: 美国 - 芝加哥 - Cloudflare, Inc. - 7
@@ -17,20 +10,22 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - cipher: aes-256-cfb
-      delay: 772
-      name: 韩国 - Gwanak-gu - Korea Telecom - 5
-      password: qwerREWQ@@
-      port: 4857
-      server: 125.141.26.12
-      type: ss
-    - auth: dongtaiwang.com
-      delay: 993
-      name: 俄罗斯 - 莫斯科 - LLC Baxet - 1
-      password: dongtaiwang.com
-      port: 10011
-      server: hy2.694463.xyz
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1FA\U0001F1F8US"
+      delay: 2590
+      h2-opts: {}
+      http-opts: {}
+      name: 美国 - 拉斯维加斯 - FranTech Solutions - 13
+      network: ws
+      port: 443
+      server: u7.huvicloud.com
+      servername: u7.huvicloud.com
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
+      tls: true
+      type: vmess
+      uuid: 7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
+      ws-opts:
+        headers:
+            HOST: u7.huvicloud.com
+        path: /7216ba26-d2bc-48f7-8b44-3b91c30cb6ab
