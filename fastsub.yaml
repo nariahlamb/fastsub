@@ -1,15 +1,13 @@
 proxy-providers: {}
 proxies:
-    - country: "\U0001F1FA\U0001F1F8US"
-      delay: 1290
-      name: 美国 - 芝加哥 - Cloudflare, Inc. - 7
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.204.186
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1F5\U0001F1F9PT"
+      delay: 614
+      name: 葡萄牙 - 里斯本 - BrainStorm Network, Inc - 1
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.231.233.112
+      type: ss
     - alterId: 0
       cipher: auto
       country: "\U0001F1FA\U0001F1F8US"
