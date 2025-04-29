@@ -35,7 +35,7 @@ jobs:
 
       - name: Run clash-speedtest
         run: |
-          ~/go/bin/clash-speedtest -c https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml -output fastsub.yaml
+          ~/go/bin/clash-speedtest -c upstream.yaml -output fastsub.yaml
 
       - name: Commit and push changes
         run: |

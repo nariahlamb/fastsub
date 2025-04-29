@@ -1,0 +1,21 @@
+proxy-providers:
+  jiangjiang:
+    type: http
+    url: https://zh.jikun.fun/share/file/%E6%B1%9F%E6%B1%9F%E5%85%AC%E7%9B%8A?token=cSCo8mkcWadJ9mlxqcEb8
+    interval: 3600
+    path: ./proxies/jiangjiang.yaml
+    health-check:
+      enable: true
+      timeout: 800
+      interval: 300
+      url: https://www.google.com/generate_204
+  go4sharing:
+    type: http
+    url: https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+    interval: 3600
+    path: ./proxies/go4sharing.yaml
+    health-check:
+      enable: true
+      timeout: 800
+      interval: 300
+      url: https://www.google.com/generate_204
