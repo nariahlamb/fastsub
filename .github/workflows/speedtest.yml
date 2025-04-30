@@ -18,24 +18,15 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: '1.23'
-
-      - name: Go Cache Modules
-        uses: actions/cache@v3
-        with:
-          path: ~/go/pkg/mod
-          key: go-mod-${{ hashFiles('**/go.sum') }}
-          restore-keys: go-mod-${{ hashFiles('**/go.sum') }}
-
-      - name: Install clash-speedtest
-        run: go install github.com/faceair/clash-speedtest@latest
+      - name: Download clash-speedtest binary
+        run: |
+          curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz -o clash-speedtest.tar.gz
+          tar -xzvf clash-speedtest.tar.gz
+          chmod +x clash-speedtest
 
       - name: Run clash-speedtest
         run: |
-          ~/go/bin/clash-speedtest -c upstream.yaml -output fastsub.yaml
+          ./clash-speedtest -c upstream.yaml -output fastsub.yaml
 
       - name: Commit and push changes
         run: |
