@@ -1,36 +1,11 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 160 | ⬇️ 2.52 MB/s"
-      port: 1000
-      server: 68.168.20.105
-      tls: false
-      type: vmess
-      uuid: 3bb59edd-b9bd-4f39-e88f-7869743a54a1
-    - auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      delay: 1983
-      name: "\U0001F1FA\U0001F1F8 US 190 | ⬇️ 4.60 MB/s"
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.204.186
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US 161 | ⬇️ 3.53 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 156 | ⬇️ 3.92 MB/s"
       password: awsps0501
       port: 443
-      server: 54.245.21.23
+      server: 34.222.50.126
       type: ss
-    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-      name: "\U0001F1FA\U0001F1F8 US 177 | ⬇️ 5.77 MB/s"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1443
-      server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      skip-cert-verify: false
-      sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      type: hysteria2
     - auth: 569dda85-bc76-4f8b-ae03-609d97f9e76c
       name: "\U0001F1FA\U0001F1F8 US 124 | ⬇️ 4.27 MB/s"
       password: 569dda85-bc76-4f8b-ae03-609d97f9e76c
@@ -39,6 +14,14 @@ proxies:
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 160 | ⬇️ 2.52 MB/s"
+      port: 1000
+      server: 68.168.20.105
+      tls: false
+      type: vmess
+      uuid: 3bb59edd-b9bd-4f39-e88f-7869743a54a1
     - cipher: aes-256-gcm
       name: "\U0001F1EF\U0001F1F5 JP 019 | ⬇️ 4.60 MB/s"
       password: HEqa1WxJSB
@@ -58,31 +41,6 @@ proxies:
       server: relaxed-airedale.shiner427.skin
       sni: relaxed-airedale.shiner427.skin
       type: trojan
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP 040 | ⬇️ 7.60 MB/s"
-      network: tcp
-      port: 38472
-      reality-opts:
-        public-key: FvCU8D-cnUHkBS0mGjCeP2Te6GVYyP33aYHw3NmMTHo
-      server: 45.192.243.109
-      servername: www.lovelive-anime.jp
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 4acae8ef-fb1d-4483-c79f-97f351e69260
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP 157 | ⬇️ 6.94 MB/s"
-      network: tcp
-      port: 38472
-      reality-opts:
-        public-key: FvCU8D-cnUHkBS0mGjCeP2Te6GVYyP33aYHw3NmMTHo
-      server: 45.192.243.109
-      servername: www.lovelive-anime.jp
-      tls: true
-      type: vless
-      uuid: 4acae8ef-fb1d-4483-c79f-97f351e69260
     - alterId: 0
       cipher: auto
       name: "\U0001F1F8\U0001F1EC SG 026 | ⬇️ 5.82 MB/s"
@@ -100,37 +58,22 @@ proxies:
       tls: true
       type: http
       username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - auth: 5CBqBe6MeDg6GajcllBiDg==
-      delay: 2213
-      name: "\U0001F1FA\U0001F1F8 US 180 | ⬇️ 2.75 MB/s"
-      password: 5CBqBe6MeDg6GajcllBiDg==
-      port: 61001
-      server: 23-95-68-190.nip.io
-      skip-cert-verify: true
-      sni: 23-95-68-190.nip.io
-      type: hysteria2
-      udp: true
-    - alterId: 34463
+    - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 087 | ⬇️ 4.38 MB/s"
-      port: 446
-      server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
-      tls: false
-      type: vmess
-      uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0 HK 189 | ⬇️ 2.93 MB/s"
-      network: tcp
-      port: 49970
-      reality-opts:
-        public-key: y22Kj8gVHf5eaYzzCREBff4NlVz4m5PBJOXLrUcdFXg
-        short-id: 1fb600be
-      server: 8.210.101.238
-      servername: microsoft.com
+      name: "\U0001F1E8\U0001F1F3 CN 123 | ⬇️ 2.69 MB/s"
+      network: ws
+      port: 35212
+      server: jp2.g2.moonbase.life
+      servername: jp2.g2.moonbase.life
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: 38cd39ff-624b-48e0-9d4f-6604aa649e0f
+      type: vmess
+      udp: true
+      uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+      ws-opts:
+        headers:
+            Host: web.xcjs.info
+        path: /home
     - cipher: chacha20-ietf
       name: "\U0001F1E8\U0001F1F3 CN 067 | ⬇️ 4.95 MB/s"
       obfs: tls1.2_ticket_auth
@@ -142,6 +85,16 @@ proxies:
       server: petrichor.yogurt8.us
       type: ssr
       udp: true
+    - auth: 5CBqBe6MeDg6GajcllBiDg==
+      delay: 2213
+      name: "\U0001F1FA\U0001F1F8 US 180 | ⬇️ 2.75 MB/s"
+      password: 5CBqBe6MeDg6GajcllBiDg==
+      port: 61001
+      server: 23-95-68-190.nip.io
+      skip-cert-verify: true
+      sni: 23-95-68-190.nip.io
+      type: hysteria2
+      udp: true
     - fast-open: true
       name: "\U0001F1F7\U0001F1FA RU 184 | ⬇️ 4.43 MB/s"
       password: dongtaiwang.com
@@ -150,3 +103,28 @@ proxies:
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU 191 | ⬇️ 3.94 MB/s"
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 161 | ⬇️ 3.53 MB/s"
+      password: awsps0501
+      port: 443
+      server: 54.245.21.23
+      type: ss
+    - cipher: chacha20-ietf
+      name: "\U0001F1E8\U0001F1F3 CN 030 | ⬇️ 4.92 MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: ""
+      password: sGWdzYDx5J
+      port: 43125
+      protocol: auth_aes128_md5
+      protocol-param: ""
+      server: csilicovolcanoconiosis.godeove.xyz
+      type: ssr
+      udp: true
