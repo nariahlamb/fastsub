@@ -3,7 +3,7 @@ proxies:
     - alterId: 0
       cipher: auto
       delay: 1885
-      name: "\U0001F1FA\U0001F1F8 US 163 | ⬇️ 10.01 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 112 | ⬇️ 4.01 MB/s"
       network: ws
       port: 443
       server: www.visa.com.tw
@@ -15,151 +15,122 @@ proxies:
         headers:
             Host: cry-sf-analyses-latina.trycloudflare.com
         path: /vmess-argo?ed=2048
-    - client-fingerprint: chrome
-      delay: 1306
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 7.40 MB/s"
-      network: tcp
-      port: 5747
-      reality-opts:
-        public-key: Hz9Q2IggjMF2Dv4NsEUfYI19dWDVIg-AwB1FIs7VNVE
-      server: 143.198.48.33
-      servername: www.iij.ad.jp
-      tls: true
-      type: vless
-      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US 282 | ⬇️ 2.23 MB/s"
-      port: 30158
-      reality-opts:
-        public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc
-        short-id: ee9e2505
-      server: 64.181.204.186
-      servername: www.yahoo.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-    - auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-      name: "\U0001F1FA\U0001F1F8 US 103 | ⬇️ 5.58 MB/s"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1443
-      server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      skip-cert-verify: false
-      sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 287 | ⬇️ 8.95 MB/s"
-      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-      port: 443
-      server: fddc5997-svqv40-t1bnjq-1krtb.sv.plebai.net
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
     - auth: 569dda85-bc76-4f8b-ae03-609d97f9e76c
       delay: 1185
-      name: "\U0001F1FA\U0001F1F8 US 029 | ⬇️ 6.33 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 066 | ⬇️ 8.34 MB/s"
       password: 569dda85-bc76-4f8b-ae03-609d97f9e76c
       port: 5750
       server: 143.198.48.33
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 296 | ⬇️ 10.59 MB/s"
-      password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    - name: "\U0001F1FA\U0001F1F8 US 269 | ⬇️ 5.33 MB/s"
+      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
       port: 443
-      server: 924fd601-svqv40-t28b6o-ef48.sv.plebai.net
+      server: fddc5997-svqv40-t1bnjq-1krtb.sv.plebai.net
       tls: true
       type: http
-      username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-    - name: "\U0001F1EB\U0001F1F7 FR 285 | ⬇️ 8.96 MB/s"
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - name: "\U0001F1FA\U0001F1F8 US 234 | ⬇️ 5.05 MB/s"
+      network: ws
+      port: 443
+      server: 4.255.56.137
+      servername: usb.carvic.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: c562022e-c51f-4742-cda8-9bff6b917558
+      ws-opts:
+        headers:
+            Host: usb.carvic.me
+        path: /bing
+    - name: "\U0001F1F9\U0001F1FC TW 274 | ⬇️ 2.75 MB/s"
+      network: ws
+      port: 443
+      server: nnctwclyx.codesofun.pp.ua
+      servername: nnctw.codesofun.pp.ua
+      tls: true
+      type: vless
+      uuid: 8b9c63ff-6789-449d-e5fd-5b83fef2b440
+      ws-opts:
+        headers:
+            Host: nnctw.codesofun.pp.ua
+        path: /2261acb5
+    - alpn:
+        - h3
+      auth: ad77e45c-0485-4357-9d64-1593aabc2c19
+      name: "\U0001F1FA\U0001F1F8 US 063 | ⬇️ 2.04 MB/s"
+      password: ad77e45c-0485-4357-9d64-1593aabc2c19
+      port: 32321
+      server: 108.214.246.79
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 138 | ⬇️ 2.38 MB/s"
+      network: ws
+      port: 80
+      server: 104.21.56.44
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed
+    - delay: 1390
+      name: "\U0001F1FA\U0001F1F8 US 254 | ⬇️ 2.22 MB/s"
+      password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+      port: 443
+      server: 55126fe5-svqv40-swy6li-tni2.los.gotochinatown.net
+      sni: 55126fe5-svqv40-swy6li-tni2.los.gotochinatown.net
+      tls: true
+      type: http
+      username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
+    - name: "\U0001F1EB\U0001F1F7 FR 240 | ⬇️ 5.90 MB/s"
       network: ws
       port: 8080
       server: tgju.org
-      servername: M4.nF9JZ2st7N.zULAiR.ORG.
       type: vless
-      uuid: 6abbaf96-4b16-48d3-b996-a6067fc6eb2c
+      uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
       ws-opts:
         headers:
-            Host: M4.nF9JZ2st7N.zULAiR.ORG.
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US 196 | ⬇️ 8.92 MB/s"
-      port: 8888
-      server: sf3.epicbrowser.net
-      skip-cert-verify: false
+            Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
+        path: /?ed
+    - delay: 2171
+      name: "\U0001F1FA\U0001F1F8 US 261 | ⬇️ 2.29 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.204.120
+      servername: mas3d1.890614.xyz
       tls: true
-      type: http
-    - name: "\U0001F1EB\U0001F1F7 FR 046 | ⬇️ 5.25 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      type: vless
+      uuid: ae8ee2e7-4e62-44ea-8cc3-c584515bacb1
+      ws-opts:
+        headers:
+            Host: mas3d1.890614.xyz
+        path: /
     - auth: dongtaiwang.com
       delay: 2442
-      name: "\U0001F1EB\U0001F1F7 FR 112 | ⬇️ 6.32 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR 083 | ⬇️ 2.77 MB/s"
       password: dongtaiwang.com
       port: 43496
       server: 51.159.226.1
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 186 | ⬇️ 7.75 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.177.196
-      servername: 147135001178.sec22org.com
+    - auth: PassWord2
+      name: "\U0001F1FA\U0001F1F8 US 141 | ⬇️ 3.96 MB/s"
+      obfs: salamander
+      obfs-password: PassWord1
+      password: PassWord2
+      port: 8443
+      server: 198.46.217.253
       skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    - auth: dongtaiwang.com
-      delay: 1124
-      name: "\U0001F1EB\U0001F1F7 FR 040 | ⬇️ 6.12 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 259 | ⬇️ 3.96 MB/s"
-      password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-      port: 443
-      server: f1fdb272-svqv40-t28b6o-ef48.sj.gotochinatown.net
-      tls: true
-      type: http
-      udp: true
-      username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-    - auth: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      delay: 1962
-      name: "\U0001F1FA\U0001F1F8 US 096 | ⬇️ 5.77 MB/s"
-      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      port: 45551
-      server: sub-us-1.yangxiansheng.online
-      skip-cert-verify: true
-      sni: www.bing.com
       type: hysteria2
       udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1542
-      down: 1000 Mbps
-      name: "\U0001F1F7\U0001F1FA RU 209 | ⬇️ 2.85 MB/s"
-      port: 62003
-      server: 176.32.35.226
-      servername: apple.com
-      skip-cert-verify: true
-      type: hysteria
-      up: 1000 Mbps
-    - name: "\U0001F1FA\U0001F1F8 US 128 | ⬇️ 6.46 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 116 | ⬇️ 3.54 MB/s"
       network: ws
       port: 443
-      server: 160.79.105.106
+      server: 63.141.128.92
       servername: sz.ylks0033.dpdns.org
       skip-cert-verify: true
       tls: true
@@ -170,54 +141,74 @@ proxies:
         headers:
             host: sz.ylks0033.dpdns.org
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1F3 CN 250 | ⬇️ 7.45 MB/s"
-      password: b6200af42ccadea353f5b5856dd20d70
-      port: 39001
-      server: 113.99.140.184
-      skip-cert-verify: true
-      sni: 113.99.140.184
-      type: trojan
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1063
-      down: 1000 Mbps
-      name: "\U0001F1F7\U0001F1FA RU 247 | ⬇️ 7.03 MB/s"
-      port: 10469
-      server: 46.17.41.174
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 1000 Mbps
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU 064 | ⬇️ 2.94 MB/s"
-      password: dongtaiwang.com
-      port: 10011
-      server: hy2.694463.xyz
+    - auth: a8271dcd-ca05-40c9-8c2f-823228d55554
+      name: "\U0001F1E7\U0001F1F7 BR 177 | ⬇️ 2.67 MB/s"
+      password: a8271dcd-ca05-40c9-8c2f-823228d55554
+      port: 41000
+      server: br.huafei888.site
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
     - alpn:
         - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1010
-      down: 1000 Mbps
-      name: "\U0001F1F7\U0001F1FA RU 231 | ⬇️ 2.07 MB/s"
-      port: 10803
-      server: 185.22.155.71
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria
-      up: 1000 Mbps
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU 111 | ⬇️ 4.21 MB/s"
-      password: dongtaiwang.com
-      port: 10011
-      server: hy2.694463.xyz
+        - h2
+        - http/1.1
+      client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8 US 227 | ⬇️ 2.34 MB/s"
+      network: ws
+      port: 443
+      server: russia.com
+      servername: us.4056860.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: bc2a2e87-e34b-4126-91ce-e7bccdafc4d4
+      ws-opts:
+        headers:
+            Host: us.4056860.xyz
+        path: /ws
+    - auth: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
+      delay: 1962
+      name: "\U0001F1FA\U0001F1F8 US 239 | ⬇️ 2.84 MB/s"
+      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
+      port: 45551
+      server: sub-us-1.yangxiansheng.online
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+      udp: true
+    - auth: dongtaiwang.com
+      delay: 1124
+      name: "\U0001F1EB\U0001F1F7 FR 096 | ⬇️ 4.12 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-1.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - name: "\U0001F1E7\U0001F1EA BE 237 | ⬇️ 5.20 MB/s"
+      network: ws
+      port: 80
+      server: 141.101.121.110
+      type: vless
+      uuid: f2a72ad0-d23f-4eed-96cb-7d970b1e784d
+      ws-opts:
+        headers:
+            Host: ov-germany1.09vpn.com
+        path: /vless/?Vless_txtflow
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3 CN 043 | ⬇️ 3.96 MB/s"
+      network: ws
+      port: 35212
+      server: jp2.g2.moonbase.life
+      servername: jp2.g2.moonbase.life
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
+      ws-opts:
+        headers:
+            Host: web.xcjs.info
+        path: /home
