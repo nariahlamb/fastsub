@@ -1,21 +1,11 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 178 | ⬇️ 7.59 MB/s"
-      network: ws
-      port: 443
-      server: a.1314lovelydog.top
-      servername: a.1314lovelydog.top
-      skip-cert-verify: true
+    - name: "\U0001F1FA\U0001F1F8 US 144 | ⬇️ 11.40 MB/s"
+      port: 8888
+      server: sf3.epicbrowser.net
+      skip-cert-verify: false
       tls: true
-      type: vmess
-      udp: true
-      uuid: 29d9535b-f25b-4936-e524-7368f67f2d7d
-      ws-opts:
-        headers:
-            Host: a.1314lovelydog.top
-        path: /abc
+      type: http
     - client-fingerprint: chrome
       delay: 1306
       flow: xtls-rprx-vision
@@ -29,6 +19,40 @@ proxies:
       tls: true
       type: vless
       uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+    - name: "\U0001F1FA\U0001F1F8 US 150 | ⬇️ 9.32 MB/s"
+      port: 8888
+      server: sf3.epicbrowser.net
+      skip-cert-verify: false
+      tls: true
+      type: http
+    - name: "\U0001F1FA\U0001F1F8 US 175 | ⬇️ 10.93 MB/s"
+      password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+      port: 443
+      server: 924fd601-svqv40-t28b6o-ef48.sv.plebai.net
+      tls: true
+      type: http
+      username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+    - name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 12.90 MB/s"
+      port: 443
+      server: d34be828-svc1s0-t1bnjq-1krtb.sj.gotochinatown.net
+      tls: true
+      type: socks5
+    - name: "\U0001F1FA\U0001F1F8 US 207 | ⬇️ 9.25 MB/s"
+      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+      port: 443
+      server: d529d80b-svqv40-t1bnjq-1krtb.los.gotochinatown.net
+      tls: true
+      type: http
+      udp: true
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - name: "\U0001F1EF\U0001F1F5 JP 166 | ⬇️ 9.48 MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 443
+      server: jp104-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      udp: true
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - name: "\U0001F1EC\U0001F1E7 GB 260 | ⬇️ 8.99 MB/s"
       network: ws
       port: 443
@@ -43,6 +67,16 @@ proxies:
         headers:
             host: CxNiMjJz.cAfUnEaR.InFo
         path: /
+    - name: "\U0001F1FA\U0001F1F8 US 181 | ⬇️ 4.07 MB/s"
+      network: tcp
+      port: 443
+      server: 135.148.142.30
+      servername: 147135010072.sec21org.com
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
     - name: "\U0001F1F7\U0001F1FA RU 266 | ⬇️ 9.08 MB/s"
       network: ws
       port: 443
@@ -57,125 +91,6 @@ proxies:
         headers:
             Host: CxNiMjJz.cAfUnEaR.InFo
         path: /
-    - name: "\U0001F1FA\U0001F1F8 US 181 | ⬇️ 4.07 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.142.30
-      servername: 147135010072.sec21org.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-    - name: "\U0001F1E9\U0001F1EA DE 159 | ⬇️ 9.07 MB/s"
-      network: ws
-      port: 443
-      server: 95.164.47.60
-      servername: de02.abvpn.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 588f094b-431b-422c-b80b-007945037072
-      ws-opts:
-        headers:
-            Host: de02.abvpn.ru
-        path: /websocket
-    - name: "\U0001F1F7\U0001F1FA RU 262 | ⬇️ 10.70 MB/s"
-      network: ws
-      port: 443
-      server: 45.8.211.230
-      servername: CxNiMjJz.cAfUnEaR.InFo
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
-      ws-opts:
-        headers:
-            Host: CxNiMjJz.cAfUnEaR.InFo
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US 175 | ⬇️ 10.93 MB/s"
-      password: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-      port: 443
-      server: 924fd601-svqv40-t28b6o-ef48.sv.plebai.net
-      tls: true
-      type: http
-      username: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7 FR 183 | ⬇️ 4.80 MB/s"
-      network: tcp
-      port: 25481
-      reality-opts:
-        public-key: uF7Fv79MbpkF2x_bDeXezdkMrI-vGS3UDNAwLzIKZTo
-        short-id: d72dc8a0
-      server: 51.15.228.68
-      servername: www.7-zip.org
-      tls: true
-      type: vless
-      uuid: 67d1e140-d8c8-4e4c-be1f-9800a1bcad38
-    - name: "\U0001F1FA\U0001F1F8 US 207 | ⬇️ 9.25 MB/s"
-      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-      port: 443
-      server: d529d80b-svqv40-t1bnjq-1krtb.los.gotochinatown.net
-      tls: true
-      type: http
-      udp: true
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1FA\U0001F1F8 US 150 | ⬇️ 9.32 MB/s"
-      port: 8888
-      server: sf3.epicbrowser.net
-      skip-cert-verify: false
-      tls: true
-      type: http
-    - name: "\U0001F1F2\U0001F1E9 MD 238 | ⬇️ 6.18 MB/s"
-      network: ws
-      port: 443
-      server: md01.abvpn.ru
-      servername: md01.abvpn.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 588f094b-431b-422c-b80b-007945037072
-      ws-opts:
-        headers:
-            Host: md01.abvpn.ru
-        path: /websocket
-    - name: "\U0001F1F9\U0001F1F7 TR 240 | ⬇️ 6.20 MB/s"
-      network: ws
-      port: 443
-      server: lv01.abvpn.ru
-      servername: lv01.abvpn.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 588f094b-431b-422c-b80b-007945037072
-      ws-opts:
-        headers:
-            Host: lv01.abvpn.ru
-        path: /websocket
-    - name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 12.90 MB/s"
-      port: 443
-      server: d34be828-svc1s0-t1bnjq-1krtb.sj.gotochinatown.net
-      tls: true
-      type: socks5
-    - client-fingerprint: chrome
-      delay: 1700
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US 170 | ⬇️ 5.38 MB/s"
-      network: tcp
-      port: 53603
-      reality-opts:
-        public-key: WjMw6hL2q80pWIiWo_b3i-Ql7rLHZfwbwvxuvln8fRY
-        short-id: "692819"
-      server: 172.82.67.155
-      servername: yahoo.com
-      tls: true
-      type: vless
-      uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
     - alterId: 0
       cipher: auto
       h2-opts: {}
@@ -193,38 +108,43 @@ proxies:
         headers:
             HOST: xcf016-2.facai2024.com
         path: /23f35115
-    - client-fingerprint: ""
-      flow: ""
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 10.53 MB/s"
+    - name: "\U0001F1F7\U0001F1FA RU 262 | ⬇️ 10.70 MB/s"
       network: ws
-      port: 80
-      server: 170.114.46.6
-      servername: ""
-      tls: false
+      port: 443
+      server: 45.8.211.230
+      servername: CxNiMjJz.cAfUnEaR.InFo
+      skip-cert-verify: false
+      tls: true
       type: vless
-      udp: false
-      uuid: b5540249-9ac4-4037-aacd-79c71052864f
+      udp: true
+      uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
       ws-opts:
         headers:
-            Host: free.pranithsandaruwan.cfd
+            Host: CxNiMjJz.cAfUnEaR.InFo
         path: /
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK 096 | ⬇️ 5.42 MB/s"
-      network: ws
-      port: 8080
-      server: 11ced8f2-svdwg0-swf7l8-yjq0.hk3.p5pv.com
-      servername: 11ced8f2-svdwg0-swf7l8-yjq0.hk3.p5pv.com
+    - country: HK
+      name: "\U0001F1ED\U0001F1F0 HK 107 | ⬇️ 9.50 MB/s"
+      password: ef23ddd0-14c5-39c2-9880-af55ce892363
+      port: 51725
+      server: t1.qifei.app
       skip-cert-verify: true
-      type: vmess
-      uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-      ws-headers:
-        HOST: 11ced8f2-svdwg0-swf7l8-yjq0.hk3.p5pv.com
-      ws-path: /
+      sni: t1.qifei.app
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1700
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 170 | ⬇️ 5.38 MB/s"
+      network: tcp
+      port: 53603
+      reality-opts:
+        public-key: WjMw6hL2q80pWIiWo_b3i-Ql7rLHZfwbwvxuvln8fRY
+        short-id: "692819"
+      server: 172.82.67.155
+      servername: yahoo.com
+      tls: true
+      type: vless
+      uuid: 2c5e47af-3e6f-40b6-a0d0-ac3c34898afa
     - alterId: 2
       cipher: auto
       country: ' HK'
@@ -247,7 +167,7 @@ proxies:
       country: ' HK'
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK 117 | ⬇️ 3.95 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK 151 | ⬇️ 5.44 MB/s"
       network: ws
       port: 8080
       server: bed6fc76-svsps0-t3xmkd-1sbp6.hk3.p5pv.com
@@ -258,6 +178,20 @@ proxies:
       ws-headers:
         HOST: broadcastlv.chat.bilibili.com
       ws-path: /
+    - name: "\U0001F1FA\U0001F1F8 US 234 | ⬇️ 10.71 MB/s"
+      network: ws
+      port: 80
+      server: 170.114.46.6
+      servername: free.pranithsandaruwan.cfd
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: b5540249-9ac4-4037-aacd-79c71052864f
+      ws-opts:
+        headers:
+            Host: free.pranithsandaruwan.cfd
+        path: /
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
       name: "\U0001F1EF\U0001F1F5 JP 010 | ⬇️ 5.54 MB/s"
@@ -271,6 +205,35 @@ proxies:
       tls: true
       type: vless
       uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 5.11 MB/s"
+      network: tcp
+      port: 1443
+      reality-opts:
+        public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+        short-id: 1a
+      server: t13.qifei.app
+      servername: www.amazon.com
+      tls: true
+      type: vless
+      uuid: ef23ddd0-14c5-39c2-9880-af55ce892363
+    - alterId: 2
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK 117 | ⬇️ 3.95 MB/s"
+      network: ws
+      port: 8080
+      server: bed6fc76-svsps0-t3xmkd-1sbp6.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: fe4d987c-69b7-11ef-aa6f-f23c9164ca5d
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
     - flow: xtls-rprx-vision-udp443
       name: "\U0001F1FA\U0001F1F8 US 253 | ⬇️ 2.38 MB/s"
       network: tcp
@@ -282,70 +245,32 @@ proxies:
       type: vless
       udp: true
       uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
+    - client-fingerprint: ""
+      flow: ""
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 10.53 MB/s"
+      network: ws
+      port: 80
+      server: 170.114.46.6
+      servername: ""
+      tls: false
+      type: vless
+      udp: false
+      uuid: b5540249-9ac4-4037-aacd-79c71052864f
+      ws-opts:
+        headers:
+            Host: free.pranithsandaruwan.cfd
+        path: /
     - client-fingerprint: chrome
-      delay: 1032
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6 CA 222 | ⬇️ 2.72 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR 183 | ⬇️ 4.80 MB/s"
       network: tcp
-      port: 59303
+      port: 25481
       reality-opts:
-        public-key: FHm9vc9hi1aK9jz8CqCjhJvT0bxzsD470FvOyubB6EA
-        short-id: bbe06294
-      server: 192.18.153.71
-      servername: www.yahoo.com
+        public-key: uF7Fv79MbpkF2x_bDeXezdkMrI-vGS3UDNAwLzIKZTo
+        short-id: d72dc8a0
+      server: 51.15.228.68
+      servername: www.7-zip.org
       tls: true
       type: vless
-      uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    - country: US
-      delay: 1089
-      name: "\U0001F1FA\U0001F1F8 US 193 | ⬇️ 8.68 MB/s"
-      password: 72N7EE1m6s
-      port: 23702
-      server: 198.46.158.215
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 144 | ⬇️ 11.40 MB/s"
-      port: 8888
-      server: sf3.epicbrowser.net
-      skip-cert-verify: false
-      tls: true
-      type: http
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 258 | ⬇️ 6.76 MB/s"
-      network: ws
-      port: 17062
-      server: 199.19.110.126
-      servername: th.lzj520hxw.dpdns.org
-      tls: true
-      type: vmess
-      uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-      ws-opts:
-        headers:
-            Host: th.lzj520hxw.dpdns.org
-        path: /lzjjj
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F3 UN 254 | ⬇️ 6.15 MB/s"
-      network: ws
-      port: 17062
-      server: 199.19.110.126
-      servername: th.lzj520hxw.dpdns.org
-      tls: true
-      type: vmess
-      uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
-      ws-opts:
-        headers:
-            Host: th.lzj520hxw.dpdns.org
-        path: /lzjjj
-    - name: "\U0001F1ED\U0001F1F0 HK 073 | ⬇️ 13.96 MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 443
-      server: hkre1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
+      uuid: 67d1e140-d8c8-4e4c-be1f-9800a1bcad38
