@@ -1,22 +1,26 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-cfb
-      country: ' CA'
-      name: "\U0001F1E8\U0001F1E6 CA 094 | ⬇️ 3.79 MB/s"
-      obfs: http_post
-      password: $$Turb0VPN$$
-      port: 443
-      protocol: auth_aes128_md5
-      server: ssca.irundns.net
-      type: ssr
-    - name: "\U0001F1FA\U0001F1F8 US 244 | ⬇️ 10.48 MB/s"
+    - client-fingerprint: chrome
+      delay: 1306
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 146 | ⬇️ 4.83 MB/s"
+      network: tcp
+      port: 5747
+      reality-opts:
+        public-key: Hz9Q2IggjMF2Dv4NsEUfYI19dWDVIg-AwB1FIs7VNVE
+      server: 143.198.48.33
+      servername: www.iij.ad.jp
+      tls: true
+      type: vless
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+    - name: "\U0001F1FA\U0001F1F8 US 229 | ⬇️ 2.18 MB/s"
       password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
       port: 443
       server: aed9335a-svsps0-t1bnjq-1krtb.sv.plebai.net
       tls: true
       type: http
       username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1E9\U0001F1EA DE 247 | ⬇️ 2.97 MB/s"
+    - name: "\U0001F1E9\U0001F1EA DE 211 | ⬇️ 2.14 MB/s"
       network: ws
       port: 35097
       server: de.uzilol.cn
@@ -30,42 +34,77 @@ proxies:
         headers:
             Host: de.uzilol.cn
         path: /rangws
+    - delay: 1690
+      name: "\U0001F1E8\U0001F1F3 CN 257 | ⬇️ 2.51 MB/s"
+      port: 443
+      server: 61ff9eec-svp0g0-swy6li-tni2.sj.gotochinatown.net
+      sni: 61ff9eec-svp0g0-swy6li-tni2.sj.gotochinatown.net
+      tls: true
+      type: socks5
+    - name: "\U0001F1FA\U0001F1F8 US 210 | ⬇️ 3.37 MB/s"
+      network: tcp
+      port: 443
+      server: 135.148.177.196
+      servername: 147135001178.sec22org.com
+      tls: true
+      type: vless
+      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
+    - name: "\U0001F1F3\U0001F1F1 NL 176 | ⬇️ 3.49 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: loving-calf.shiner427.skin
+      sni: loving-calf.shiner427.skin
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7 GB 182 | ⬇️ 2.88 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: living-mollusk.shiner427.skin
+      sni: living-mollusk.shiner427.skin
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7 GB 189 | ⬇️ 3.10 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: patient-emu.shiner427.skin
+      sni: patient-emu.shiner427.skin
+      type: trojan
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE 188 | ⬇️ 2.23 MB/s"
+      network: tcp
+      port: 443
+      server: 204.10.194.78
+      servername: yfnl1.xn--4gq62f52gppi29k.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 232 | ⬇️ 2.58 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 6.26 MB/s"
       network: ws
-      port: 443
-      server: ljm005-2.facai202408.com
-      servername: ljm005-2.facai202408.com
+      port: 35242
+      server: jp2.vip2.g2.moonbase.life
+      servername: jp2.vip2.g2.moonbase.life
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: b95bf0d8-c748-40b8-e243-6479d879c3d5
+      uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
       ws-opts:
         headers:
-            Host: ljm005-2.facai202408.com
-        path: /b95bf0d8-
-    - name: "\U0001F1FA\U0001F1F8 US 202 | ⬇️ 2.91 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.182.1
-      servername: 147135001195.sec22org.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: ea286109-d20f-415e-849e-4af20ab04b65
-    - name: "\U0001F1FA\U0001F1F8 US 267 | ⬇️ 4.80 MB/s"
+            Host: web.xcjs.info
+        path: /home
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 2.01 MB/s"
       network: ws
-      port: 80
-      server: 170.114.46.6
-      servername: free.pranithsandaruwan.cfd
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: b5540249-9ac4-4037-aacd-79c71052864f
+      port: 443
+      server: wcw004-3.facai2024.com
+      servername: wcw004-3.facai2024.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 09390803-92ae-4146-eaa8-0a01db85f766
       ws-opts:
         headers:
-            Host: free.pranithsandaruwan.cfd
-        path: /
+            Host: wcw004-3.facai2024.com
+        path: /09390803
