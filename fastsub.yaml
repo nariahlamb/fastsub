@@ -9,21 +9,6 @@ proxies:
       protocol: auth_aes128_md5
       server: ssca.irundns.net
       type: ssr
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US 236 | ⬇️ 3.05 MB/s"
-      network: ws
-      port: 27149
-      server: 198.46.218.63
-      servername: v2-150.pages.dev
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 7b32d76e-9157-47ef-9cb5-9e71bd9d3be1
-      ws-opts:
-        headers:
-            Host: v2-150.pages.dev
-        path: /?ed=2560
     - name: "\U0001F1FA\U0001F1F8 US 244 | ⬇️ 10.48 MB/s"
       password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
       port: 443
@@ -45,23 +30,6 @@ proxies:
         headers:
             Host: de.uzilol.cn
         path: /rangws
-    - delay: 1556
-      name: "\U0001F1FA\U0001F1F8 US 279 | ⬇️ 7.73 MB/s"
-      port: 443
-      server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
-      sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
-      tls: true
-      type: socks5
-    - name: "\U0001F1FA\U0001F1F8 US 202 | ⬇️ 2.91 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.182.1
-      servername: 147135001195.sec22org.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: ea286109-d20f-415e-849e-4af20ab04b65
     - alterId: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8 US 232 | ⬇️ 2.58 MB/s"
@@ -77,49 +45,16 @@ proxies:
         headers:
             Host: ljm005-2.facai202408.com
         path: /b95bf0d8-
-    - client-fingerprint: random
-      name: "\U0001F1F3\U0001F1F1 NL 140 | ⬇️ 7.46 MB/s"
-      network: ws
-      port: 5003
-      server: 45.154.98.99
-      servername: v2-150.pages.dev
+    - name: "\U0001F1FA\U0001F1F8 US 202 | ⬇️ 2.91 MB/s"
+      network: tcp
+      port: 443
+      server: 135.148.182.1
+      servername: 147135001195.sec22org.com
       skip-cert-verify: true
       tfo: false
       tls: true
       type: vless
-      uuid: 7b32d76e-9157-47ef-9cb5-9e71bd9d3be1
-      ws-opts:
-        headers:
-            Host: v2-150.pages.dev
-        path: /?ed=2560
-    - delay: 590
-      name: "\U0001F1FA\U0001F1F8 US 079 | ⬇️ 6.92 MB/s"
-      network: ws
-      port: 443
-      server: 198.62.62.4
-      servername: sub.divib.dynv6.net
-      tls: true
-      type: vless
-      uuid: b1a8ceea-6601-45b5-a674-7e5b64ab6f6f
-      ws-opts:
-        headers:
-            Host: sub.divib.dynv6.net
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 006 | ⬇️ 6.09 MB/s"
-      network: ws
-      port: 35242
-      server: jp2.vip2.g2.moonbase.life
-      servername: jp2.vip2.g2.moonbase.life
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-      ws-opts:
-        headers:
-            Host: web.xcjs.info
-        path: /home
+      uuid: ea286109-d20f-415e-849e-4af20ab04b65
     - name: "\U0001F1FA\U0001F1F8 US 267 | ⬇️ 4.80 MB/s"
       network: ws
       port: 80
