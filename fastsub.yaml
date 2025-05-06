@@ -1,110 +1,224 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      delay: 1306
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US 146 | ⬇️ 4.83 MB/s"
-      network: tcp
-      port: 5747
-      reality-opts:
-        public-key: Hz9Q2IggjMF2Dv4NsEUfYI19dWDVIg-AwB1FIs7VNVE
+    - auth: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      name: "\U0001F1FA\U0001F1F8 US 084 | ⬇️ 2.30 MB/s"
+      password: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      port: 5750
       server: 143.198.48.33
-      servername: www.iij.ad.jp
-      tls: true
-      type: vless
-      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
-    - name: "\U0001F1FA\U0001F1F8 US 229 | ⬇️ 2.18 MB/s"
-      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-      port: 443
-      server: aed9335a-svsps0-t1bnjq-1krtb.sv.plebai.net
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1E9\U0001F1EA DE 211 | ⬇️ 2.14 MB/s"
-      network: ws
-      port: 35097
-      server: de.uzilol.cn
-      servername: de.uzilol.cn
       skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d9e674f2-b1ab-470d-937c-5e2eb0d74751
-      ws-opts:
-        headers:
-            Host: de.uzilol.cn
-        path: /rangws
-    - delay: 1690
-      name: "\U0001F1E8\U0001F1F3 CN 257 | ⬇️ 2.51 MB/s"
-      port: 443
-      server: 61ff9eec-svp0g0-swy6li-tni2.sj.gotochinatown.net
-      sni: 61ff9eec-svp0g0-swy6li-tni2.sj.gotochinatown.net
-      tls: true
-      type: socks5
-    - name: "\U0001F1FA\U0001F1F8 US 210 | ⬇️ 3.37 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.177.196
-      servername: 147135001178.sec22org.com
-      tls: true
-      type: vless
-      uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-    - name: "\U0001F1F3\U0001F1F1 NL 176 | ⬇️ 3.49 MB/s"
-      password: "74260667533381300"
-      port: 443
-      server: loving-calf.shiner427.skin
-      sni: loving-calf.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EC\U0001F1E7 GB 182 | ⬇️ 2.88 MB/s"
-      password: "74260667533381300"
-      port: 443
-      server: living-mollusk.shiner427.skin
-      sni: living-mollusk.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EC\U0001F1E7 GB 189 | ⬇️ 3.10 MB/s"
-      password: "74260667533381300"
-      port: 443
-      server: patient-emu.shiner427.skin
-      sni: patient-emu.shiner427.skin
-      type: trojan
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE 188 | ⬇️ 2.23 MB/s"
-      network: tcp
-      port: 443
-      server: 204.10.194.78
-      servername: yfnl1.xn--4gq62f52gppi29k.com
-      tls: true
-      type: vless
+      sni: www.bing.com
+      type: hysteria2
+    - auth: 87f055ba
+      name: "\U0001F1FA\U0001F1F8 US 147 | ⬇️ 4.75 MB/s"
+      password: 87f055ba
+      port: 60000
+      server: 141.11.89.172
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
       udp: true
-      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 011 | ⬇️ 6.26 MB/s"
-      network: ws
-      port: 35242
-      server: jp2.vip2.g2.moonbase.life
-      servername: jp2.vip2.g2.moonbase.life
+    - auth: nfsn666
+      delay: 1825
+      name: "\U0001F1FA\U0001F1F8 US 105 | ⬇️ 4.60 MB/s"
+      password: nfsn666
+      port: 8888
+      server: sj-arm.nfsn666.gq
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-      ws-opts:
-        headers:
-            Host: web.xcjs.info
-        path: /home
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 2.01 MB/s"
-      network: ws
+      sni: sj-arm.nfsn666.gq
+      type: hysteria2
+      udp: true
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E9\U0001F1EA DE 100 | ⬇️ 2.30 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 141.147.19.58
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - auth: PassWord2
+      name: "\U0001F1E9\U0001F1EA DE 180 | ⬇️ 5.99 MB/s"
+      obfs: salamander
+      obfs-password: PassWord1
+      password: PassWord2
+      port: 8443
+      server: 45.138.99.106
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E8\U0001F1ED CH 137 | ⬇️ 5.19 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 152.67.95.183
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E9\U0001F1EA DE 219 | ⬇️ 7.61 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 132.145.239.250
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - auth: PassWord2
+      name: "\U0001F1FA\U0001F1F8 US 199 | ⬇️ 5.42 MB/s"
+      obfs: salamander
+      obfs-password: PassWord1
+      password: PassWord2
+      port: 8443
+      server: 192.3.39.32
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - delay: 682
+      name: "\U0001F1EF\U0001F1F5 JP 026 | ⬇️ 3.35 MB/s"
+      password: "74260667533381300"
       port: 443
-      server: wcw004-3.facai2024.com
-      servername: wcw004-3.facai2024.com
-      skip-cert-verify: true
+      server: actual-pangolin.shiner427.skin
+      sni: actual-pangolin.shiner427.skin
+      type: trojan
+    - delay: 683
+      name: "\U0001F1EF\U0001F1F5 JP 046 | ⬇️ 2.52 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: popular-wasp.shiner427.skin
+      sni: popular-wasp.shiner427.skin
+      type: trojan
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP 049 | ⬇️ 3.84 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 0UFjUVBI4nT-rTdQewzCmsYLrs_a4-qTq2ksWpDanXw
+        short-id: c6306490
+      server: pq.aws53.yydjc.top
+      servername: buylite.tv.apple.com
       tls: true
-      type: vmess
-      uuid: 09390803-92ae-4146-eaa8-0a01db85f766
-      ws-opts:
-        headers:
-            Host: wcw004-3.facai2024.com
-        path: /09390803
+      type: vless
+      uuid: 9466263a-4b8e-4647-99b2-d2a363f001cd
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR 203 | ⬇️ 5.55 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-1.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: 75e98355-345b-4413-8001-729835854030
+      name: "\U0001F1EC\U0001F1E7 GB 115 | ⬇️ 3.01 MB/s"
+      password: 75e98355-345b-4413-8001-729835854030
+      port: 44001
+      server: 185.168.194.111
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 186 | ⬇️ 2.27 MB/s"
+      password: d0f35ada-c39c-11ef-8a98-f23c91cfbbc9
+      port: 8443
+      server: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+      skip-cert-verify: false
+      sni: 6ce8fc7b-surog0-t2cl3c-14ubl.hy2.gotochinatown.net
+      type: hysteria2
+    - auth: 4938d933-38c1-47fe-bfce-6f341d9d76c2
+      delay: 1615
+      down: 110 Mbps
+      name: "\U0001F1FA\U0001F1F8 US 101 | ⬇️ 6.43 MB/s"
+      password: 4938d933-38c1-47fe-bfce-6f341d9d76c2
+      port: 33456
+      server: cc.lxf87.com.cn
+      skip-cert-verify: false
+      sni: cc.lxf87.com.cn
+      type: hysteria2
+      udp: true
+      up: 44 Mbps
+    - delay: 2562
+      name: "\U0001F1EE\U0001F1F3 IN 112 | ⬇️ 3.03 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: willing-possum.shiner427.skin
+      sni: willing-possum.shiner427.skin
+      type: trojan
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E6\U0001F1FA AU 114 | ⬇️ 4.56 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 159.13.35.245
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - name: "\U0001F1EB\U0001F1F7 FR 202 | ⬇️ 4.58 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-1.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - delay: 2487
+      name: "\U0001F1EE\U0001F1F3 IN 142 | ⬇️ 3.11 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: ethical-lionfish.shiner427.skin
+      sni: ethical-lionfish.shiner427.skin
+      type: trojan
+    - auth: 02229d25
+      name: "\U0001F1F3\U0001F1F1 NL 111 | ⬇️ 4.26 MB/s"
+      password: 02229d25
+      port: 66
+      server: ulf.w1997.eu.org
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E6\U0001F1FA AU 127 | ⬇️ 5.30 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 158.179.18.251
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - auth: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      name: "\U0001F1E6\U0001F1FA AU 125 | ⬇️ 4.43 MB/s"
+      password: 9466263a-4b8e-4647-99b2-d2a363f001cd
+      port: 35000
+      server: 152.69.180.226
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - auth: dongtaiwang.com
+      delay: 789
+      name: "\U0001F1F7\U0001F1FA RU 165 | ⬇️ 3.79 MB/s"
+      password: dongtaiwang.com
+      port: 10011
+      server: hy2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: nfsn666
+      name: "\U0001F1FA\U0001F1F8 US 109 | ⬇️ 3.09 MB/s"
+      password: nfsn666
+      port: 8888
+      server: sj.nfsn666.gq
+      skip-cert-verify: true
+      sni: sj.nfsn666.gq
+      type: hysteria2
+      udp: true
+    - delay: 684
+      name: "\U0001F1EF\U0001F1F5 JP 037 | ⬇️ 3.17 MB/s"
+      password: "74260667533381300"
+      port: 443
+      server: fleet-lizard.shiner427.skin
+      sni: fleet-lizard.shiner427.skin
+      type: trojan
+    - auth: 9e7a0efe-e7fd-42f2-9f66-092fa9285da7
+      name: "\U0001F1EF\U0001F1F5 JP 059 | ⬇️ 2.43 MB/s"
+      password: 9e7a0efe-e7fd-42f2-9f66-092fa9285da7
+      port: 10100
+      server: jpvl.681687.xyz
+      skip-cert-verify: true
+      sni: jpvl.681687.xyz
+      type: hysteria2
+      udp: true
