@@ -1,19 +1,59 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 168 | ⬇️ 3.31 MB/s"
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 140 | ⬇️ 10.71 MB/s"
       network: tcp
-      port: 65526
-      reality-opts:
-        public-key: 3GAr9Fs6P5bywULijTKlogAPlzyNxVCPTDS40-h7b2Q
-        short-id: aa30e15d
-      server: 1.19990409.xyz
-      servername: tesla.com
+      port: 443
+      server: 146.235.228.34
+      servername: dcpqjs.yydjc.top
+      skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
       udp: true
-      uuid: 6286ecbd-29c3-4e94-9494-dcccae30b498
-    - name: "\U0001F1FA\U0001F1F8 US 262 | ⬇️ 2.97 MB/s"
+      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 139 | ⬇️ 9.05 MB/s"
+      network: tcp
+      port: 443
+      server: 192.9.129.206
+      servername: dcpqjs.yydjc.top
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US 171 | ⬇️ 10.44 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.244.41
+      servername: cry-sf-analyses-latina.trycloudflare.com
+      tls: true
+      type: vmess
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      ws-opts:
+        headers:
+            Host: cry-sf-analyses-latina.trycloudflare.com
+        path: /vmess-argo?ed=2048
+    - name: "\U0001F1FA\U0001F1F8 US 117 | ⬇️ 10.91 MB/s"
+      network: ws
+      port: 19281
+      server: 23.105.199.91
+      servername: madcity2.777999.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0fc8452a-17f9-47de-95dd-65de502d39da
+      ws-opts:
+        headers:
+            Host: madcity2.777999.lol
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 245 | ⬇️ 9.97 MB/s"
       network: ws
       port: 443
       server: 4.255.56.137
@@ -27,7 +67,7 @@ proxies:
         headers:
             Host: usb.carvic.me
         path: /bing
-    - name: "\U0001F1FA\U0001F1F8 US 261 | ⬇️ 3.35 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 262 | ⬇️ 9.50 MB/s"
       network: ws
       port: 443
       server: 4.255.56.137
@@ -41,15 +81,9 @@ proxies:
         headers:
             Host: usb.carvic.me
         path: /bing
-    - name: "\U0001F1FA\U0001F1F8 US 272 | ⬇️ 2.39 MB/s"
-      password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-      port: 443
-      server: 7fd46c76-svy9s0-t1bnjq-1krtb.sv.plebai.net
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 205 | ⬇️ 3.61 MB/s"
+      flow: ""
+      name: "\U0001F1FA\U0001F1F8 US 216 | ⬇️ 5.71 MB/s"
       network: tcp
       port: 65526
       reality-opts:
@@ -57,26 +91,114 @@ proxies:
         short-id: aa30e15d
       server: 1.19990409.xyz
       servername: tesla.com
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: true
       uuid: 6286ecbd-29c3-4e94-9494-dcccae30b498
+    - client-fingerprint: chrome
+      delay: 993
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 180 | ⬇️ 8.51 MB/s"
+      network: tcp
+      port: 5747
+      reality-opts:
+        public-key: Hz9Q2IggjMF2Dv4NsEUfYI19dWDVIg-AwB1FIs7VNVE
+      server: 143.198.48.33
+      servername: www.iij.ad.jp
+      tls: true
+      type: vless
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1ED CH 165 | ⬇️ 2.15 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 173 | ⬇️ 8.24 MB/s"
       network: tcp
-      port: 59536
+      port: 8443
       reality-opts:
-        public-key: KmXtdOimd1xGGg7V2rvo74_HxMd6_bzFyosF6Z5c22A
-        short-id: d6d54c08fbbf895f
-      server: mlifehazarat.darkping.net
-      servername: stackoverflow.com
+        public-key: 4Qekb9y1dqO8hvRzVSGeSRNyhko_gqpeWD94zrLCvjs
+        short-id: 5488b0e7
+      server: sj-arm.nfsn666.gq
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 06121b89-607b-44c9-9c01-cc2fc6a7321d
+    - client-fingerprint: chrome
+      flow: ""
+      name: "\U0001F1FA\U0001F1F8 US 235 | ⬇️ 6.42 MB/s"
+      network: tcp
+      port: 65528
+      reality-opts:
+        public-key: ZqEic2SlBuXpEW7HW7D4WAe2H3rWPTIqqqIx3vxKijo
+        short-id: 018f65bf
+      server: 1.19990409.xyz
+      servername: tesla.com
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 24304c4b-68c7-7975-2e64-2231b8d4b8bb
+      uuid: 3c96949f-d73f-4a38-9f6e-ba47a8e0f6bb
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 129 | ⬇️ 8.87 MB/s"
+      flow: ""
+      name: "\U0001F1FA\U0001F1F8 US 189 | ⬇️ 7.80 MB/s"
+      network: tcp
+      port: 65528
+      reality-opts:
+        public-key: ZqEic2SlBuXpEW7HW7D4WAe2H3rWPTIqqqIx3vxKijo
+        short-id: 018f65bf
+      server: 1.19990409.xyz
+      servername: tesla.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 3c96949f-d73f-4a38-9f6e-ba47a8e0f6bb
+    - client-fingerprint: chrome
+      flow: ""
+      name: "\U0001F1FA\U0001F1F8 US 221 | ⬇️ 4.14 MB/s"
+      network: tcp
+      port: 65526
+      reality-opts:
+        public-key: 3GAr9Fs6P5bywULijTKlogAPlzyNxVCPTDS40-h7b2Q
+        short-id: aa30e15d
+      server: 1.19990409.xyz
+      servername: tesla.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 6286ecbd-29c3-4e94-9494-dcccae30b498
+    - client-fingerprint: chrome
+      flow: ""
+      name: "\U0001F1FA\U0001F1F8 US 220 | ⬇️ 2.26 MB/s"
+      network: tcp
+      port: 65527
+      reality-opts:
+        public-key: SvDnUeu715X-8wErimPJmE2i9UR6nNuPD_3YWHpaB2c
+        short-id: a08f6e
+      server: 1.19990409.xyz
+      servername: tesla.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 1df2c193-31f0-4643-9ac7-6283e248399d
+    - name: "\U0001F1FA\U0001F1F8 US 183 | ⬇️ 5.51 MB/s"
+      port: 8888
+      server: sf3.epicbrowser.net
+      skip-cert-verify: false
+      tls: true
+      type: http
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 184 | ⬇️ 8.53 MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: 4Qekb9y1dqO8hvRzVSGeSRNyhko_gqpeWD94zrLCvjs
+        short-id: 5488b0e7
+      server: sj-arm.nfsn666.gq
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 06121b89-607b-44c9-9c01-cc2fc6a7321d
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP 076 | ⬇️ 17.10 MB/s"
       network: tcp
       port: 15493
       reality-opts:
@@ -88,59 +210,158 @@ proxies:
       tls: true
       type: vless
       uuid: 16003d11-87d6-4912-91ec-34f82fc28e4d
-    - name: "\U0001F1E8\U0001F1F3 CN 006 | ⬇️ 13.14 MB/s"
-      password: RlzoEILU
-      port: 11796
-      server: 36.151.251.59
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      delay: 900
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE 127 | ⬇️ 2.55 MB/s"
-      network: tcp
+    - delay: 1730
+      name: "\U0001F1E8\U0001F1F3 CN 263 | ⬇️ 9.41 MB/s"
       port: 443
-      server: 204.10.194.78
-      servername: yfnl1.xn--4gq62f52gppi29k.com
+      server: d24ab7c0-svp0g0-t1bnjq-1krtb.sj.gotochinatown.net
+      sni: d24ab7c0-svp0g0-t1bnjq-1krtb.sj.gotochinatown.net
       tls: true
-      type: vless
-      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
+      type: socks5
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7 KR 085 | ⬇️ 10.38 MB/s"
+      network: ws
+      port: 2087
+      server: lv4.789900.xyz
+      servername: lv4.789900.xyz
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+      ws-opts:
+        headers:
+            Host: lv4.789900.xyz
+        path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
     - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1E9 BD 254 | ⬇️ 2.33 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 240 | ⬇️ 8.66 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
-      server: dhaka.sqx001.com
+      server: newjersey.sqx001.com
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
       username: dmpyoary@mayorlogistic.com
-    - country: US
-      delay: 662
-      name: "\U0001F1FA\U0001F1F8 US 098 | ⬇️ 2.57 MB/s"
-      password: 696cfe79
-      port: 443
-      server: 192.9.132.79
+    - name: "\U0001F1E8\U0001F1F3 CN 092 | ⬇️ 38.08 MB/s"
+      password: RlzoEILU
+      port: 28548
+      server: 36.151.251.62
       skip-cert-verify: true
       type: trojan
       udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6 CA 133 | ⬇️ 2.44 MB/s"
-      network: tcp
-      port: 26113
-      reality-opts:
-        public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-        short-id: 1fbd20fd
-      server: 40.233.80.61
-      servername: www.yahoo.com
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7 GB 160 | ⬇️ 10.64 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.244.72
+      servername: digitaloceanus.lzj520hxw.dpdns.org
       tls: true
-      type: vless
+      type: vmess
+      uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
+      ws-opts:
+        headers:
+            Host: digitaloceanus.lzj520hxw.dpdns.org
+        path: /vmess-argo?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3 CN 060 | ⬇️ 6.92 MB/s"
+      password: 937f6b6168b6
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: wt8v1.kvote.cn
+        mode: websocket
+        mux: true
+        path: /oqhygtklyhwi
+        skip-cert-verify: false
+        tls: true
+      port: 443
+      server: 103.137.62.194
+      tfo: false
+      type: ss
+    - name: "\U0001F1E8\U0001F1F3 CN 146 | ⬇️ 13.62 MB/s"
+      password: RlzoEILU
+      port: 55860
+      server: 36.151.251.59
+      skip-cert-verify: true
+      type: trojan
       udp: true
-      uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+    - name: "\U0001F1E8\U0001F1F3 CN 142 | ⬇️ 13.40 MB/s"
+      password: RlzoEILU
+      port: 7815
+      server: 36.151.251.59
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3 CN 188 | ⬇️ 10.27 MB/s"
+      password: RlzoEILU
+      port: 29769
+      server: 36.151.251.62
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf
+      name: "\U0001F1E8\U0001F1F3 CN 041 | ⬇️ 6.34 MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: here.suannai.us
+      password: sGWdzYDx5J
+      port: 43125
+      protocol: auth_aes128_md5
+      protocol-param: ""
+      server: here.suannai.us
+      type: ssr
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3 CN 122 | ⬇️ 15.36 MB/s"
+      password: RlzoEILU
+      port: 40252
+      server: 36.156.102.121
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3 CN 127 | ⬇️ 14.83 MB/s"
+      password: RlzoEILU
+      port: 11641
+      server: 36.151.251.59
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 185 | ⬇️ 8.26 MB/s"
+      port: 8888
+      server: sf3.epicbrowser.net
+      skip-cert-verify: false
+      tls: true
+      type: http
     - client-fingerprint: chrome
-      name: "\U0001F1EE\U0001F1F1 IL 235 | ⬇️ 2.07 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 163 | ⬇️ 2.27 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: la2.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL 244 | ⬇️ 3.03 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: am01.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR 042 | ⬇️ 2.55 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: kr01.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1EE\U0001F1F1 IL 237 | ⬇️ 2.81 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
       server: telaviv.sqx001.com
@@ -150,20 +371,70 @@ proxies:
       udp: true
       username: dmpyoary@mayorlogistic.com
     - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1ED PH 109 | ⬇️ 2.28 MB/s"
+      name: "\U0001F1F2\U0001F1FD MX 239 | ⬇️ 2.10 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
-      server: manila01.sqx001.com
+      server: mx01.sqx001.com
       skip-cert-verify: true
       tls: true
       type: http
       udp: true
       username: dmpyoary@mayorlogistic.com
     - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1ED TH 099 | ⬇️ 2.51 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 226 | ⬇️ 3.04 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: chicago.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA 234 | ⬇️ 2.21 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: toronto1.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 243 | ⬇️ 2.73 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: hochiminh.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1F9\U0001F1ED TH 086 | ⬇️ 2.58 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
       server: th01.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FA RU 261 | ⬇️ 2.75 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: stpetersburg.sqx001.com
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EA SE 252 | ⬇️ 2.73 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
+      port: 443
+      server: stockholm1.sqx001.com
       skip-cert-verify: true
       tls: true
       type: http
