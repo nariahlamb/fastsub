@@ -1,20 +1,24 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US 179 | ⬇️ 3.02 MB/s"
-      network: ws
+    - client-fingerprint: chrome
+      delay: 934
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US 328 | ⬇️ 4.00 MB/s"
+      network: tcp
       port: 443
-      server: 104.16.74.176
-      servername: pzdxlzk97.dpdns.org
+      server: 135.148.206.76
+      servername: 147135010072.sec21org.com
       tls: true
       type: vless
-      uuid: 4b7251f3-d895-4c5b-8108-b83e80c73c3f
-      ws-opts:
-        headers:
-            Host: pzdxlzk97.dpdns.org
-        path: /?ed=2560
+      udp: true
+      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
+      xudp: true
     - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
       down: 500
-      name: "\U0001F1FA\U0001F1F8 US 097 | ⬇️ 12.35 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 126 | ⬇️ 17.32 MB/s"
       password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
       port: 8080
       server: us4.youxuan.wiki
@@ -23,8 +27,264 @@ proxies:
       type: hysteria2
       udp: true
       up: 500
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7 GB 320 | ⬇️ 6.51 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.244.41
+      servername: cry-sf-analyses-latina.trycloudflare.com
+      tls: true
+      type: vmess
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      ws-opts:
+        headers:
+            Host: cry-sf-analyses-latina.trycloudflare.com
+        path: /vmess-argo?ed=2048
+    - client-fingerprint: ios
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 238 | ⬇️ 3.66 MB/s"
+      network: tcp
+      port: 443
+      server: 146.235.228.34
+      servername: dcpqjs.yydjc.top
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+    - delay: 1019
+      name: "\U0001F1FA\U0001F1F8 US 257 | ⬇️ 2.74 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.124.207
+      servername: pzdxlzk97.dpdns.org
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 4b7251f3-d895-4c5b-8108-b83e80c73c3f
+      ws-opts:
+        headers:
+            Host: pzdxlzk97.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 266 | ⬇️ 4.62 MB/s"
+      network: ws
+      port: 80
+      server: 185.193.30.218
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - name: "\U0001F1FA\U0001F1F8 US 220 | ⬇️ 2.98 MB/s"
+      network: ws
+      port: 80
+      server: 31.43.179.196
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - name: "\U0001F1FA\U0001F1F8 US 243 | ⬇️ 3.93 MB/s"
+      network: ws
+      port: 80
+      server: 159.246.55.20
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - name: "\U0001F1FA\U0001F1F8 US 255 | ⬇️ 3.29 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.211.234
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - name: "\U0001F1FA\U0001F1F8 US 278 | ⬇️ 5.79 MB/s"
+      network: ws
+      port: 80
+      server: 194.152.44.63
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - delay: 605
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US 066 | ⬇️ 5.92 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: nfsn666
+      port: 8888
+      server: 192.9.129.48
+      skip-cert-verify: true
+      sni: sj-arm.nfsn666.gq
+      type: hysteria2
+      up: ""
+    - delay: 518
+      name: "\U0001F1F3\U0001F1F1 NL 072 | ⬇️ 4.02 MB/s"
+      network: ws
+      port: 80
+      server: 104.21.56.44
+      servername: REEdfREe8MahSaNg2.rEDOrG.IR
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8 US 281 | ⬇️ 6.25 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.209.26
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - delay: 813
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US 300 | ⬇️ 8.20 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.207.162
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1FA\U0001F1F8 US 251 | ⬇️ 3.03 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.7.143
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - alpn:
+        - h3
+      auth: ad77e45c-0485-4357-9d64-1593aabc2c19
+      delay: 1025
+      name: "\U0001F1FA\U0001F1F8 US 343 | ⬇️ 6.47 MB/s"
+      password: ad77e45c-0485-4357-9d64-1593aabc2c19
+      port: 32321
+      server: 108.214.246.79
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 258 | ⬇️ 2.14 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.210.142
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - auth: nfsn666
+      delay: 1385
+      name: "\U0001F1EC\U0001F1E7 GB 073 | ⬇️ 5.81 MB/s"
+      password: nfsn666
+      port: 8888
+      server: ld-arm.nfsn666.gq
+      skip-cert-verify: true
+      sni: ld-arm.nfsn666.gq
+      type: hysteria2
+      udp: true
+    - mport: 35000-39000
+      name: "\U0001F1E8\U0001F1ED CH 231 | ⬇️ 8.57 MB/s"
+      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+      port: 35000
+      ports: 35000-39000
+      server: 152.67.95.183
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+      udp: true
+    - mport: 35000-39000
+      name: "\U0001F1E9\U0001F1EA DE 221 | ⬇️ 7.97 MB/s"
+      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+      port: 35000
+      ports: 35000-39000
+      server: 141.147.19.58
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - mport: 35000-39000
+      name: "\U0001F1E9\U0001F1EA DE 078 | ⬇️ 6.61 MB/s"
+      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+      port: 35000
+      ports: 35000-39000
+      server: 132.145.239.250
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - delay: 703
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR 083 | ⬇️ 5.99 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 4489
+      server: 51.158.205.126
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP 121 | ⬇️ 26.58 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: N86yyW-L91vOtC9qgJcYAhnva9M4WT3vclSnsQo4A2k
+        short-id: 79fd451e
+      server: pq.aws51.yydjc.top
+      servername: buylite.tv.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
     - delay: 638
-      name: "\U0001F1FA\U0001F1F8 US 186 | ⬇️ 2.08 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 259 | ⬇️ 4.02 MB/s"
       network: ws
       port: 443
       server: 104.16.74.176
@@ -37,66 +297,94 @@ proxies:
         headers:
             Host: pzdxlzk97.dpdns.org
         path: /?ed=2560
-    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      down: 500
-      name: "\U0001F1FA\U0001F1F8 US 112 | ⬇️ 12.90 MB/s"
-      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      port: 8080
-      server: hk2bbz.youxuan.wiki
-      skip-cert-verify: false
-      sni: hk2bbz.youxuan.wiki
+    - auth: 77d16a10-7d7f-443e-acad-5b279260a523
+      name: "\U0001F1F3\U0001F1F1 NL 241 | ⬇️ 5.00 MB/s"
+      obfs: salamander
+      obfs-password: LNAnPYDfFyesRAVn
+      password: 77d16a10-7d7f-443e-acad-5b279260a523
+      port: 23827
+      ports: 21000-26000
+      server: hl1.gy6688.xyz
+      skip-cert-verify: true
+      sni: hl1.gy6688.xyz
       type: hysteria2
       udp: true
-      up: 500
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1747
-      name: "\U0001F1FA\U0001F1F8 US 314 | ⬇️ 5.58 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.158.146
-      servername: m7rtTYu.777169.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 03c93f49-d573-4889-a4bb-187047c5a314
-      ws-opts:
-        headers:
-            Host: m7rttyu.777169.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        path: /bstMMelSTch7YcAPgiEbt
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 163 | ⬇️ 2.54 MB/s"
+    - delay: 518
+      name: "\U0001F1F3\U0001F1F1 NL 107 | ⬇️ 10.39 MB/s"
       network: ws
       port: 80
-      server: 31.43.179.196
+      server: 104.21.56.44
+      servername: REEdfREe8MahSaNg2.rEDOrG.IR
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560
+      xudp: true
+    - auth: 77d16a10-7d7f-443e-acad-5b279260a523
+      name: "\U0001F1F3\U0001F1F1 NL 232 | ⬇️ 5.54 MB/s"
+      obfs: salamander
+      obfs-password: LNAnPYDfFyesRAVn
+      password: 77d16a10-7d7f-443e-acad-5b279260a523
+      port: 23966
+      ports: 21000-26000
+      server: hl1.gy6688.xyz
+      skip-cert-verify: true
+      sni: hl1.gy6688.xyz
+      type: hysteria2
+      udp: true
+    - delay: 1593
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR 224 | ⬇️ 6.39 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 4489
+      server: 195.154.33.70
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - auth: dongtaiwang.com
+      delay: 1026
+      name: "\U0001F1EB\U0001F1F7 FR 268 | ⬇️ 5.94 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-1.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      down: 200
+      name: "\U0001F1ED\U0001F1F0 HK 175 | ⬇️ 23.58 MB/s"
+      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      port: 8080
+      server: hkh4.youxuan.wiki
       skip-cert-verify: false
+      sni: hkh4.youxuan.wiki
+      type: hysteria2
+      udp: true
+      up: 200
+    - name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 4.35 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.208.31
       tls: false
       type: vless
+      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: ipsycho.suex12.ir
         path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - delay: 813
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US 276 | ⬇️ 4.70 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.207.162
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8 US 177 | ⬇️ 2.34 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 218 | ⬇️ 5.32 MB/s"
       network: ws
       port: 80
-      server: 104.17.147.22
-      servername: ipsychO.SUEx12.Ir
+      server: 45.131.5.211
       tls: false
       type: vless
       udp: true
@@ -104,8 +392,129 @@ proxies:
       ws-opts:
         headers:
             Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?TELEGRAM@MARAMBASHI_MARAMBASHI
-    - name: "\U0001F1FA\U0001F1F8 US 220 | ⬇️ 2.04 MB/s"
+        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC SG 307 | ⬇️ 5.75 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
+        short-id: a86103965ac913f2
+      server: 140.245.58.56
+      servername: tv.apple.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+    - auth: share:a7690af7-03ed-48fa-bc93-561b7df50695
+      name: "\U0001F1FA\U0001F1F8 US 317 | ⬇️ 6.07 MB/s"
+      obfs: salamander
+      obfs-password: 25b2b0cc-8663-4746-9773-1b053ca00ef6
+      password: share:a7690af7-03ed-48fa-bc93-561b7df50695
+      port: 11451
+      server: share.078900.xyz
+      skip-cert-verify: true
+      sni: share.078900.xyz
+      type: hysteria2
+    - delay: 613
+      name: "\U0001F1FA\U0001F1F8 US 249 | ⬇️ 4.79 MB/s"
+      network: ws
+      port: 80
+      server: 104.17.148.22
+      servername: ipsychO.SUEx12.Ir
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /re5IzbZ9IZZMddtw?ed=2560/?JOKERRVPNJoin_Bade_Channel@JOKERRVPN
+      xudp: true
+    - mport: 35000-39000
+      name: "\U0001F1E6\U0001F1FA AU 076 | ⬇️ 6.79 MB/s"
+      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+      port: 35000
+      ports: 35000-39000
+      server: 159.13.35.245
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - delay: 713
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1FA RU 163 | ⬇️ 5.37 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 10011
+      server: 46.29.163.171
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - mport: 35000-39000
+      name: "\U0001F1E6\U0001F1FA AU 085 | ⬇️ 6.59 MB/s"
+      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
+      port: 35000
+      ports: 35000-39000
+      server: 158.179.18.251
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - auth: 4ab4694d-72df-4438-b087-66a0892b7904
+      name: "\U0001F1ED\U0001F1F0 HK 321 | ⬇️ 5.90 MB/s"
+      obfs: salamander
+      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+      password: 4ab4694d-72df-4438-b087-66a0892b7904
+      port: 11229
+      server: baipiaoyun-hongkongv1.baipiaoyun.site
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+      udp: true
+    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      down: 500
+      name: "\U0001F1ED\U0001F1F0 HK 064 | ⬇️ 5.88 MB/s"
+      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      port: 8080
+      server: hk5.youxuan.wiki
+      skip-cert-verify: false
+      sni: hk5.youxuan.wiki
+      type: hysteria2
+      udp: true
+      up: 500
+    - client-fingerprint: random
+      delay: 796
+      name: "\U0001F1FA\U0001F1F8 US 344 | ⬇️ 7.87 MB/s"
+      network: ws
+      port: 50964
+      server: 198.46.215.183
+      servername: 0229.patterdeng.pp.ua
+      tls: true
+      type: vless
+      udp: true
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
+      ws-opts:
+        headers:
+            Host: 0229.patterdeng.pp.ua
+        path: /?ed=2560
+    - alpn:
+        - h3
+      auth: b72e0a66-c660-4a26-9acc-8f106cee0ab9
+      delay: 1136
+      name: "\U0001F1E6\U0001F1FA AU 075 | ⬇️ 6.07 MB/s"
+      password: b72e0a66-c660-4a26-9acc-8f106cee0ab9
+      port: 52111
+      server: 170.64.222.252
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US 222 | ⬇️ 5.07 MB/s"
       network: ws
       port: 80
       server: 45.12.30.190
@@ -117,66 +526,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - mport: 35000-39000
-      name: "\U0001F1E9\U0001F1EA DE 157 | ⬇️ 4.87 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 141.147.19.58
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth: ad77e45c-0485-4357-9d64-1593aabc2c19
-      delay: 1025
-      name: "\U0001F1FA\U0001F1F8 US 108 | ⬇️ 4.31 MB/s"
-      password: ad77e45c-0485-4357-9d64-1593aabc2c19
-      port: 32321
-      server: 108.214.246.79
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - mport: 35000-39000
-      name: "\U0001F1E9\U0001F1EA DE 266 | ⬇️ 8.55 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 132.145.239.250
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - mport: 35000-39000
-      name: "\U0001F1E8\U0001F1ED CH 197 | ⬇️ 7.83 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 152.67.95.183
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - delay: 588
-      name: "\U0001F1FA\U0001F1F8 US 143 | ⬇️ 3.71 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 260 | ⬇️ 5.35 MB/s"
       network: ws
       port: 80
-      server: 104.17.147.22
-      servername: ipsychO.SUEx12.Ir
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /re5IzbZ9IZZMddtw?ed=2560/?JOKERRVPNJoin_Bade_Channel@JOKERRVPN
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 209 | ⬇️ 2.26 MB/s"
-      network: ws
-      port: 80
-      server: 185.193.30.218
+      server: 45.131.209.228
       tls: false
       type: vless
       udp: true
@@ -185,145 +538,17 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - name: "\U0001F1EB\U0001F1F7 FR 257 | ⬇️ 5.01 MB/s"
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU 209 | ⬇️ 6.44 MB/s"
       password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 185 | ⬇️ 3.87 MB/s"
-      network: ws
-      port: 80
-      server: 45.12.30.107
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      down: 200
-      name: "\U0001F1ED\U0001F1F0 HK 116 | ⬇️ 12.37 MB/s"
-      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      port: 8080
-      server: hkh4.youxuan.wiki
-      skip-cert-verify: false
-      sni: hkh4.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 200
-    - name: "\U0001F1FA\U0001F1F8 US 259 | ⬇️ 4.60 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.69.44
-      servername: cr77.hedieh.dpdns.org
-      tls: true
-      type: vless
-      uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
-      ws-opts:
-        headers:
-            Host: cr77.hedieh.dpdns.org
-        path: /fp
-    - delay: 703
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR 173 | ⬇️ 3.80 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
+      port: 10011
+      server: hy2.694463.xyz
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-      up: ""
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7 GB 245 | ⬇️ 2.25 MB/s"
-      network: ws
-      port: 443
-      server: 5.10.244.41
-      servername: cry-sf-analyses-latina.trycloudflare.com
-      tls: true
-      type: vmess
-      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
-      ws-opts:
-        headers:
-            Host: cry-sf-analyses-latina.trycloudflare.com
-        path: /vmess-argo?ed=2048
-    - delay: 1593
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR 165 | ⬇️ 4.42 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 4489
-      server: 195.154.33.70
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8 US 214 | ⬇️ 6.29 MB/s"
-      network: ws
-      port: 80
-      server: 159.246.55.20
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - auth: nfsn666
-      delay: 1385
-      name: "\U0001F1EC\U0001F1E7 GB 206 | ⬇️ 7.81 MB/s"
-      password: nfsn666
-      port: 8888
-      server: ld-arm.nfsn666.gq
-      skip-cert-verify: true
-      sni: ld-arm.nfsn666.gq
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      delay: 745
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE 246 | ⬇️ 4.62 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-        short-id: 7def4dde
-      server: 5.75.192.18
-      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: 33707040-edcf-4185-94e4-2a071315c602
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 174 | ⬇️ 2.04 MB/s"
-      network: ws
-      port: 80
-      server: 45.131.209.26
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
     - auth: 77d16a10-7d7f-443e-acad-5b279260a523
       delay: 1244
-      name: "\U0001F1F3\U0001F1F1 NL 138 | ⬇️ 5.12 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL 214 | ⬇️ 7.55 MB/s"
       obfs: salamander
       obfs-password: LNAnPYDfFyesRAVn
       password: 77d16a10-7d7f-443e-acad-5b279260a523
@@ -334,41 +559,21 @@ proxies:
       sni: hl1.gy6688.xyz
       type: hysteria2
       udp: true
-    - mport: 35000-39000
-      name: "\U0001F1E6\U0001F1FA AU 172 | ⬇️ 8.23 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 159.13.35.245
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1262
+      down: 1000 Mbps
+      name: "\U0001F1F7\U0001F1FA RU 323 | ⬇️ 8.70 MB/s"
+      port: 10803
+      server: 185.22.155.71
       skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - delay: 605
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US 315 | ⬇️ 8.55 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: nfsn666
-      port: 8888
-      server: 192.9.129.48
-      skip-cert-verify: true
-      sni: sj-arm.nfsn666.gq
-      type: hysteria2
-      up: ""
+      sni: www.bing.com
+      type: hysteria
+      up: 1000 Mbps
     - mport: 35000-39000
-      name: "\U0001F1E6\U0001F1FA AU 065 | ⬇️ 9.00 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 158.179.18.251
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - mport: 35000-39000
-      name: "\U0001F1E6\U0001F1FA AU 062 | ⬇️ 8.31 MB/s"
+      name: "\U0001F1E6\U0001F1FA AU 090 | ⬇️ 6.79 MB/s"
       password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
       port: 35000
       ports: 35000-39000
@@ -377,129 +582,39 @@ proxies:
       sni: api.push.apple.com
       type: hysteria2
       udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP 030 | ⬇️ 3.30 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: zZJg13rJNHw6Zq2TGATm8UAnTmqD97i8qzrXcJFyEls
-        short-id: d4f2d377
-      server: pq.aws55.yydjc.top
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - cipher: chacha20-ietf
+      name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 2.46 MB/s"
+      obfs: tls1.2_ticket_auth
+      obfs-param: mei10-dskaluiekkjh.yogurt8.us
+      password: sGWdzYDx5J
+      port: 43125
+      protocol: auth_aes128_md5
+      protocol-param: ""
+      server: nfx9.godeove.xyz
+      type: ssr
       udp: true
-      uuid: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE 282 | ⬇️ 2.06 MB/s"
-      network: tcp
-      port: 443
-      server: 204.10.194.78
-      servername: yfnl1.xn--4gq62f52gppi29k.com
-      tls: true
-      type: vless
-      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-    - alpn:
-        - h3
-      delay: 304
-      name: "\U0001F1E8\U0001F1F3 CN 306 | ⬇️ 4.10 MB/s"
-      network: ws
-      password: bpb-trojan
-      port: 443
-      server: 35.201.203.106
+    - auth: AptTIBh44PcQ0ZHQJ5xqUf90qU
+      name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 4.58 MB/s"
+      password: AptTIBh44PcQ0ZHQJ5xqUf90qU
+      port: 25355
+      server: ddns.xyxy.dpdns.org
       skip-cert-verify: true
-      sni: skwygx.top
-      type: trojan
-      ws-opts:
-        headers:
-            Host: skwygx.top
-        path: /tr?ed=2560
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1173
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR 280 | ⬇️ 3.78 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US 098 | ⬇️ 2.78 MB/s"
+      password: Dea6yR4qDISnzRwj3eSClagCRCyXSZRzaNOYDAyS0NFY8ICzcF3C48RaIDyj4ZOgATuCAR2eFeFOSZD
+      port: 28331
+      server: 154.17.31.167
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
-    - name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 2.15 MB/s"
-      network: ws
-      port: 80
-      server: 185.148.106.32
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1110
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR 264 | ⬇️ 6.62 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - name: "\U0001F1FA\U0001F1F8 US 211 | ⬇️ 4.76 MB/s"
-      network: ws
-      port: 80
-      server: 45.131.7.143
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - name: "\U0001F1FA\U0001F1F8 US 248 | ⬇️ 5.59 MB/s"
-      network: ws
-      port: 80
-      server: 45.131.211.234
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - name: "\U0001F1F8\U0001F1EC SG 058 | ⬇️ 6.27 MB/s"
-      network: ws
-      password: bpb-trojan
-      port: 443
-      server: sg.madison.eu.org
-      skip-cert-verify: true
-      sni: skwygx.top
+      sni: basket.homeofbrave.net
       type: trojan
       udp: true
-      ws-opts:
-        headers:
-            Host: skwygx.top
-        path: /tr?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 275 | ⬇️ 2.15 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 250 | ⬇️ 5.61 MB/s"
       network: ws
       port: 80
-      server: 45.12.31.216
+      server: 45.131.6.56
       tls: false
       type: vless
       udp: true
@@ -508,56 +623,34 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: /re5IzbZ9IZZMddtw?ed=2560/?Join_Bade_Channel@ShadowProxy66
-    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      down: 500
-      name: "\U0001F1ED\U0001F1F0 HK 063 | ⬇️ 6.34 MB/s"
-      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      port: 8080
-      server: hkh1.youxuan.wiki
-      skip-cert-verify: false
-      sni: hkh1.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 500
-    - auth: share:a7690af7-03ed-48fa-bc93-561b7df50695
-      name: "\U0001F1FA\U0001F1F8 US 135 | ⬇️ 5.88 MB/s"
-      obfs: salamander
-      obfs-password: 25b2b0cc-8663-4746-9773-1b053ca00ef6
-      password: share:a7690af7-03ed-48fa-bc93-561b7df50695
-      port: 11451
-      server: share.078900.xyz
-      skip-cert-verify: true
-      sni: share.078900.xyz
-      type: hysteria2
-    - mport: 35000-39000
-      name: "\U0001F1E6\U0001F1EA AE 094 | ⬇️ 6.66 MB/s"
-      password: 17606d29-e77d-4d2c-81ac-81b8bb1311d1
-      port: 35000
-      ports: 35000-39000
-      server: 193.123.76.84
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US 298 | ⬇️ 3.46 MB/s"
-      network: ws
+    - cipher: aes-256-cfb
+      country: KR
+      delay: 559
+      name: "\U0001F1F0\U0001F1F7 KR 060 | ⬇️ 3.09 MB/s"
+      password: qwerREWQ@@
+      port: 4652
+      server: p141.panda001.net
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1F5\U0001F1ED PH 058 | ⬇️ 3.07 MB/s"
+      password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
-      server: icook.hk
+      server: manila01.sqx001.com
       skip-cert-verify: true
       tls: true
-      type: vmess
-      uuid: 2faaf996-d2b0-440d-8258-81f2b05dd0e4
-      ws-opts:
-        headers:
-            host: glitch.nnuu.nyc.mn
-        path: /vmess-argo?ed=2560
+      type: http
+      udp: true
+      username: dmpyoary@mayorlogistic.com
+    - cipher: chacha20-ietf-poly1305
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US 304 | ⬇️ 3.29 MB/s"
+      password: PBrts5Au4GM9ar7bTNyZEu
+      port: 63861
+      server: 85.208.139.69
+      type: ss
     - client-fingerprint: chrome
       delay: 1212
-      name: "\U0001F1FA\U0001F1F8 US 227 | ⬇️ 2.60 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 298 | ⬇️ 2.76 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
       server: la2.sqx001.com
@@ -568,49 +661,27 @@ proxies:
       udp: true
       username: dmpyoary@mayorlogistic.com
     - client-fingerprint: chrome
-      name: "\U0001F1F5\U0001F1ED PH 090 | ⬇️ 2.82 MB/s"
+      delay: 743
+      name: "\U0001F1EF\U0001F1F5 JP 014 | ⬇️ 2.11 MB/s"
       password: cacb4d4fa26f4eed25e4d17a6370083c
       port: 443
-      server: manila01.sqx001.com
+      server: tky02.sqx001.com
       skip-cert-verify: true
+      sni: tky02.sqx001.com
       tls: true
       type: http
       udp: true
       username: dmpyoary@mayorlogistic.com
-    - alpn:
-        - h3
-      auth: b72e0a66-c660-4a26-9acc-8f106cee0ab9
-      delay: 1136
-      name: "\U0001F1E6\U0001F1FA AU 139 | ⬇️ 7.77 MB/s"
-      password: b72e0a66-c660-4a26-9acc-8f106cee0ab9
-      port: 52111
-      server: 170.64.222.252
+    - delay: 699
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1FA RU 312 | ⬇️ 3.17 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 10011
+      server: 46.17.41.217
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - name: "\U0001F1E8\U0001F1F3 CN 016 | ⬇️ 4.57 MB/s"
-      password: RlzoEILU
-      port: 46861
-      server: 36.151.251.61
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      delay: 768
-      name: "\U0001F1F0\U0001F1F7 KR 052 | ⬇️ 2.19 MB/s"
-      password: cacb4d4fa26f4eed25e4d17a6370083c
-      port: 443
-      server: kr01.sqx001.com
-      skip-cert-verify: true
-      sni: kr01.sqx001.com
-      tls: true
-      type: http
-      udp: true
-      username: dmpyoary@mayorlogistic.com
-    - name: "\U0001F1E8\U0001F1F3 CN 289 | ⬇️ 9.80 MB/s"
-      password: RlzoEILU
-      port: 23873
-      server: 36.151.251.61
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+      up: ""
