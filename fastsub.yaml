@@ -1,28 +1,9 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US 255 | ⬇️ 4.73 MB/s"
-      password: awsps0501
-      port: 443
-      server: 52.40.174.5
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 256 | ⬇️ 6.76 MB/s"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1443
-      server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      skip-cert-verify: false
-      sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
-      type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US 261 | ⬇️ 3.35 MB/s"
-      password: awsps0501
-      port: 443
-      server: 52.37.38.194
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 237 | ⬇️ 5.25 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 167 | ⬇️ 4.05 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.89
+      server: 94.247.142.63
       tls: false
       type: vless
       udp: true
@@ -31,22 +12,16 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 224 | ⬇️ 5.49 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.98
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1E6 CA 161 | ⬇️ 4.72 MB/s"
+      password: awsps0501
+      port: 443
+      server: 18.236.127.81
+      type: ss
     - delay: 1560
       down: ""
       fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US 265 | ⬇️ 5.37 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 201 | ⬇️ 5.99 MB/s"
       obfs: ""
       obfs-password: ""
       password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
@@ -56,63 +31,40 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG 092 | ⬇️ 6.53 MB/s"
-      network: tcp
-      port: 56702
-      reality-opts:
-        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-        short-id: 792147b8
-      server: sg1.interld123456789.com
-      servername: addons.mozilla.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: bebe731b-fb6a-47d9-b1fa-e2a89d55d8d9
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG 137 | ⬇️ 14.87 MB/s"
-      network: tcp
-      port: 56702
-      reality-opts:
-        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-        short-id: 792147b8
-      server: sg3.interld123456789.com
-      servername: addons.mozilla.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: a21bd0f9-e11a-4c69-aa66-31fb9d31c1cb
-    - delay: 1145
-      name: "\U0001F1FA\U0001F1F8 US 205 | ⬇️ 2.27 MB/s"
-      network: ws
-      port: 80
-      server: 104.17.147.22
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /re5IzbZ9IZZMddtw?ed=2560
-      xudp: true
-    - alpn:
-        - h3
-      auth: ad77e45c-0485-4357-9d64-1593aabc2c19
-      delay: 1270
-      name: "\U0001F1FA\U0001F1F8 US 197 | ⬇️ 5.93 MB/s"
-      password: ad77e45c-0485-4357-9d64-1593aabc2c19
-      port: 32321
-      server: 108.214.246.79
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 9.45 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 129.153.202.4
       skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
       type: hysteria2
       udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 028 | ⬇️ 2.71 MB/s"
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1F2\U0001F1FD MX 177 | ⬇️ 6.04 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 140.84.171.236
+      skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1FA\U0001F1F8 US 137 | ⬇️ 6.80 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 167.234.222.167
+      skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 2.40 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.152
+      server: 156.238.18.105
       tls: false
       type: vless
       udp: true
@@ -121,10 +73,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 231 | ⬇️ 4.43 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 204 | ⬇️ 2.03 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.101
+      server: 94.247.142.46
       tls: false
       type: vless
       udp: true
@@ -133,7 +85,88 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 154 | ⬇️ 7.41 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 2.19 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.164
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 109 | ⬇️ 10.14 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.34
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 173 | ⬇️ 2.69 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.13
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 062 | ⬇️ 19.55 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.74
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - auth: nfsn666
+      name: "\U0001F1EC\U0001F1E7 GB 163 | ⬇️ 4.67 MB/s"
+      password: nfsn666
+      port: 8888
+      server: ld-arm.nfsn666.gq
+      skip-cert-verify: true
+      sni: ld-arm.nfsn666.gq
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 196 | ⬇️ 4.98 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.9
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 122 | ⬇️ 5.05 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.19
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 249 | ⬇️ 9.70 MB/s"
       network: ws
       port: 8880
       server: 156.238.18.203
@@ -145,7 +178,41 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 225 | ⬇️ 5.27 MB/s"
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1E9\U0001F1EA DE 144 | ⬇️ 7.34 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 138.2.182.211
+      skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 3.10 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.75
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 194 | ⬇️ 4.52 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.138
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 168 | ⬇️ 3.04 MB/s"
       network: ws
       port: 80
       server: 94.247.142.16
@@ -157,106 +224,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 203 | ⬇️ 3.61 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.88
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 250 | ⬇️ 4.35 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.39
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 229 | ⬇️ 3.28 MB/s"
-      network: ws
-      port: 80
-      server: 89.116.250.78
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 243 | ⬇️ 4.45 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.68
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 223 | ⬇️ 5.15 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.76
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - auth: b1676447-0825-4b60-be37-735c9586735e
-      name: "\U0001F1EF\U0001F1F5 JP 058 | ⬇️ 12.85 MB/s"
-      password: b1676447-0825-4b60-be37-735c9586735e
-      port: 32000
-      ports: 32000-33000
-      server: jp4.interld123456789.com
-      skip-cert-verify: true
-      sni: 234224.1234567890spcloud.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 218 | ⬇️ 5.63 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.78
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - delay: 568
-      name: "\U0001F1FA\U0001F1F8 US 196 | ⬇️ 3.50 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 095 | ⬇️ 4.66 MB/s"
       network: ws
       port: 8880
-      server: 104.17.148.22
-      type: vless
-      udp: true
-      uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-      ws-opts:
-        headers:
-            Host: www.speedtest.net.zula.ir.cfw1.afhudvbhgfnet.ddns-ip.nEt.
-            User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /?ed=2560
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 212 | ⬇️ 6.00 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.54
+      server: 156.238.18.117
       tls: false
       type: vless
       udp: true
@@ -265,46 +236,20 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 199 | ⬇️ 6.04 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 260 | ⬇️ 5.46 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.112
-      tls: false
+      server: 104.21.56.44
       type: vless
-      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 238 | ⬇️ 3.05 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.108
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 232 | ⬇️ 4.58 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.17
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 027 | ⬇️ 2.45 MB/s"
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed
+    - name: "\U0001F1FA\U0001F1F8 US 191 | ⬇️ 7.95 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.255
+      server: 156.238.18.152
       tls: false
       type: vless
       udp: true
@@ -313,34 +258,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 227 | ⬇️ 3.84 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.115
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 195 | ⬇️ 4.36 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.2
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 022 | ⬇️ 3.03 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 025 | ⬇️ 2.31 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.166
+      server: 156.238.18.250
       tls: false
       type: vless
       udp: true
@@ -349,10 +270,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 215 | ⬇️ 5.73 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 170 | ⬇️ 2.80 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.109
+      server: 94.247.142.118
       tls: false
       type: vless
       udp: true
@@ -361,7 +282,19 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 030 | ⬇️ 2.21 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 150 | ⬇️ 2.26 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.21
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 2.99 MB/s"
       network: ws
       port: 8880
       server: 156.238.18.227
@@ -373,34 +306,24 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 208 | ⬇️ 3.13 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.10
-      tls: false
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC SG 050 | ⬇️ 2.94 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: NF4UwgytX1IX4CGHbAvvt1Y-DyRAh9YBT0caMaegPiY
+        short-id: fef46607
+      server: c8217-b2a.h2.49d2.jse11.4.b297.djjsvip.cfd
+      servername: www.lamer.com.hk
+      tls: true
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 200 | ⬇️ 2.04 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.7
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 152 | ⬇️ 8.95 MB/s"
+      uuid: 496d4a22-c5f8-4170-bba2-23aa252350d2
+    - name: "\U0001F1FA\U0001F1F8 US 193 | ⬇️ 7.65 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.45
+      server: 156.238.18.154
       tls: false
       type: vless
       udp: true
@@ -409,111 +332,7 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 016 | ⬇️ 2.57 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.25
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 031 | ⬇️ 2.11 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.246
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 198 | ⬇️ 5.35 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.62
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - auth: b72e0a66-c660-4a26-9acc-8f106cee0ab9
-      name: "\U0001F1E6\U0001F1FA AU 181 | ⬇️ 7.78 MB/s"
-      password: b72e0a66-c660-4a26-9acc-8f106cee0ab9
-      port: 52111
-      server: 170.64.222.252
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 188 | ⬇️ 6.06 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.128
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 248 | ⬇️ 4.17 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.64
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 241 | ⬇️ 3.97 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.86
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 029 | ⬇️ 2.29 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.14
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 037 | ⬇️ 3.11 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.245
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 253 | ⬇️ 2.96 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 151 | ⬇️ 2.97 MB/s"
       network: ws
       port: 80
       server: 94.247.142.30
@@ -525,40 +344,309 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - alpn:
-        - h3
-      delay: 382
-      disable-sni: false
-      name: "\U0001F1F7\U0001F1FA RU 263 | ⬇️ 4.11 MB/s"
-      password: f3ba3679-f2f4-465f-92a5-de320b775a88
-      port: 43516
-      reduce-rtt: false
-      request-timeout: 0
-      server: 185.22.155.105
+    - name: "\U0001F1FA\U0001F1F8 US 096 | ⬇️ 2.08 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.253
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 017 | ⬇️ 2.43 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.91
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 102 | ⬇️ 4.82 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.81
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 153 | ⬇️ 3.24 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.55
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 214 | ⬇️ 9.50 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.1
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir.
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+      xudp: true
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1E6\U0001F1FA AU 121 | ⬇️ 7.86 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 168.138.109.21
       skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
-      version: 5
-    - auth: 653834a7-0d6b-44b9-be70-06ba9f3d7060
-      name: "\U0001F1EF\U0001F1F5 JP 047 | ⬇️ 5.92 MB/s"
-      password: 653834a7-0d6b-44b9-be70-06ba9f3d7060
-      port: 32000
-      ports: 32000-33000
-      server: jp1.interld123456789.com
-      skip-cert-verify: true
-      sni: 234224.1234567890spcloud.com
+      sni: fastcdn.hoyoverse.com
       type: hysteria2
       udp: true
-    - alpn:
-        - h3
-      name: "\U0001F1F1\U0001F1EE LI 191 | ⬇️ 2.23 MB/s"
-      obfs: salamander
-      obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Bia__SiNAVM
-      password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
-      port: 8080
-      server: sinavm.ru
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1F8\U0001F1EC SG 247 | ⬇️ 7.83 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 140.245.49.101
       skip-cert-verify: true
-      tls: false
+      sni: www.microsoft.com
       type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 092 | ⬇️ 9.68 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.238
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 180 | ⬇️ 3.35 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.124
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1F8\U0001F1EC SG 129 | ⬇️ 6.69 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 140.245.48.123
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 158 | ⬇️ 2.72 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.47
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 171 | ⬇️ 5.65 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.107
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 156 | ⬇️ 2.39 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.38
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 2.94 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.114
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 2.94 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.222
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 207 | ⬇️ 4.47 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.245
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 145 | ⬇️ 2.32 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.98
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 128 | ⬇️ 3.37 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.6
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 157 | ⬇️ 3.50 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.114
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 060 | ⬇️ 11.88 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.233
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - auth: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      name: "\U0001F1F0\U0001F1F7 KR 055 | ⬇️ 13.06 MB/s"
+      password: 496d4a22-c5f8-4170-bba2-23aa252350d2
+      port: 50000
+      ports: 50000-53000
+      server: 144.24.75.201
+      skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US 230 | ⬇️ 4.18 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.133
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 224 | ⬇️ 4.83 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.108
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 182 | ⬇️ 2.12 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.131
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US 147 | ⬇️ 2.85 MB/s"
+      network: ws
+      port: 80
+      server: 94.247.142.9
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1F3 CN 220 | ⬇️ 4.87 MB/s"
+      network: tcp
+      port: 49970
+      reality-opts:
+        public-key: y22Kj8gVHf5eaYzzCREBff4NlVz4m5PBJOXLrUcdFXg
+        short-id: 1fb600be
+      server: 8.210.101.238
+      servername: microsoft.com
+      tls: true
+      type: vless
+      uuid: 38cd39ff-624b-48e0-9d4f-6604aa649e0f
