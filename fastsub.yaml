@@ -1,11 +1,5 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EE\U0001F1EA IE 229 | ⬇️ 2.49 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: blessed-escargot.shiner427.skin
-      sni: blessed-escargot.shiner427.skin
-      type: trojan
     - alpn:
         - h3
         - h2
@@ -25,23 +19,42 @@ proxies:
         headers:
             Host: mc2.mianfeicf.lol
         path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EC\U0001F1E7 GB 246 | ⬇️ 5.89 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.244.41
+      servername: cry-sf-analyses-latina.trycloudflare.com
+      tls: true
+      type: vmess
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      ws-opts:
+        headers:
+            Host: cry-sf-analyses-latina.trycloudflare.com
+        path: /vmess-argo?ed=2048
+    - alterId: 0
+      cipher: auto
+      delay: 2284
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US 247 | ⬇️ 6.23 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.244.41
+      servername: cry-sf-analyses-latina.trycloudflare.com
+      tls: true
+      type: vmess
+      uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+      ws-opts:
+        headers:
+            Host: cry-sf-analyses-latina.trycloudflare.com
+        path: /vmess-argo?ed=2048
     - name: "\U0001F1FA\U0001F1F8 US 168 | ⬇️ 3.61 MB/s"
       password: "74260665780162200"
       port: 443
       server: settled-mite.shiner427.skin
       sni: settled-mite.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EB\U0001F1F7 FR 251 | ⬇️ 7.30 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: grown-doberman.shiner427.skin
-      sni: grown-doberman.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EB\U0001F1F7 FR 248 | ⬇️ 6.22 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: grown-mackerel.shiner427.skin
-      sni: grown-mackerel.shiner427.skin
       type: trojan
     - name: "\U0001F1FA\U0001F1F8 US 193 | ⬇️ 3.79 MB/s"
       password: "74260665780162200"
@@ -49,12 +62,52 @@ proxies:
       server: possible-tiger.shiner427.skin
       sni: possible-tiger.shiner427.skin
       type: trojan
+    - delay: 1582
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US 080 | ⬇️ 7.09 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: nfsn666
+      port: 8888
+      server: 192.9.129.48
+      skip-cert-verify: true
+      sni: sj-arm.nfsn666.gq
+      type: hysteria2
+      up: ""
+    - name: "\U0001F1EE\U0001F1EA IE 229 | ⬇️ 2.49 MB/s"
+      password: "74260665780162200"
+      port: 443
+      server: blessed-escargot.shiner427.skin
+      sni: blessed-escargot.shiner427.skin
+      type: trojan
+    - name: "\U0001F1EB\U0001F1F7 FR 248 | ⬇️ 6.22 MB/s"
+      password: "74260665780162200"
+      port: 443
+      server: grown-mackerel.shiner427.skin
+      sni: grown-mackerel.shiner427.skin
+      type: trojan
+    - name: "\U0001F1EB\U0001F1F7 FR 251 | ⬇️ 7.30 MB/s"
+      password: "74260665780162200"
+      port: 443
+      server: grown-doberman.shiner427.skin
+      sni: grown-doberman.shiner427.skin
+      type: trojan
     - name: "\U0001F1E9\U0001F1EA DE 133 | ⬇️ 4.83 MB/s"
       password: "74260665780162200"
       port: 443
       server: cuddly-finch.shiner427.skin
       sni: cuddly-finch.shiner427.skin
       type: trojan
+    - name: "\U0001F1F9\U0001F1FC TW 036 | ⬇️ 4.48 MB/s"
+      password: exaxgqkKkd0TAMrCxeonWg==
+      port: 1443
+      server: twmoon1-cdn-route.couldflare-cdn.com
+      skip-cert-verify: false
+      sni: twmoon1-cdn-route.couldflare-cdn.com
+      tls: true
+      type: http
+      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - auth: d711d15c-adf6-4d98-991e-93172cc5eff0
       name: "\U0001F1EC\U0001F1E7 GB 087 | ⬇️ 5.79 MB/s"
       password: d711d15c-adf6-4d98-991e-93172cc5eff0
@@ -64,10 +117,10 @@ proxies:
       sni: qyyg.qy1357.top
       type: hysteria2
       udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 135 | ⬇️ 2.59 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 092 | ⬇️ 4.10 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.3
+      server: 94.247.142.70
       tls: false
       type: vless
       udp: true
@@ -76,6 +129,56 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
+    - auth: nfsn666
+      name: "\U0001F1EC\U0001F1E7 GB 083 | ⬇️ 6.33 MB/s"
+      password: nfsn666
+      port: 8888
+      server: ld-arm.nfsn666.gq
+      skip-cert-verify: true
+      sni: ld-arm.nfsn666.gq
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7 FR 196 | ⬇️ 5.82 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-1.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1F3\U0001F1F1 NL 171 | ⬇️ 3.73 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: 51.158.205.126
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US 175 | ⬇️ 2.08 MB/s"
+      network: ws
+      port: 80
+      server: 45.159.217.86
+      servername: ipsycho.suex12.ir
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: /re5IzbZ9IZZMddtw
+    - name: "\U0001F1FA\U0001F1F8 US 208 | ⬇️ 3.34 MB/s"
+      network: ws
+      port: 80
+      server: 89.116.250.78
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: ipsycho.suex12.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
     - name: "\U0001F1FA\U0001F1F8 US 107 | ⬇️ 7.15 MB/s"
       network: ws
       port: 80
@@ -88,29 +191,6 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1EB\U0001F1F7 FR 196 | ⬇️ 5.82 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP 031 | ⬇️ 4.60 MB/s"
-      password: 8e3DxOzEI3YXc3aZRAzRg3lRlcZYS7Kp93juOwOnR8qaxSByD0OyaFep8F0p3864SCyAC
-      port: 443
-      server: 43.207.112.226
-      skip-cert-verify: false
-      sni: terture.meijireform.com
-      type: trojan
-    - auth: dongtaiwang.com
-      name: "\U0001F1F3\U0001F1F1 NL 171 | ⬇️ 3.73 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - delay: 1560
       down: ""
       fingerprint: ""
@@ -134,57 +214,6 @@ proxies:
       tls: true
       type: vless
       uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-    - name: "\U0001F1FA\U0001F1F8 US 115 | ⬇️ 3.36 MB/s"
-      network: ws
-      port: 80
-      server: 94.247.142.84
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - delay: 1582
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US 080 | ⬇️ 7.09 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: nfsn666
-      port: 8888
-      server: 192.9.129.48
-      skip-cert-verify: true
-      sni: sj-arm.nfsn666.gq
-      type: hysteria2
-      up: ""
-    - name: "\U0001F1FA\U0001F1F8 US 208 | ⬇️ 3.34 MB/s"
-      network: ws
-      port: 80
-      server: 89.116.250.78
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 175 | ⬇️ 2.08 MB/s"
-      network: ws
-      port: 80
-      server: 45.159.217.86
-      servername: ipsycho.suex12.ir
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: ipsycho.suex12.ir
-        path: /re5IzbZ9IZZMddtw
     - name: "\U0001F1FA\U0001F1F8 US 093 | ⬇️ 3.76 MB/s"
       network: ws
       port: 80
@@ -197,10 +226,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 250 | ⬇️ 5.01 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 135 | ⬇️ 2.59 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.41
+      server: 94.247.142.3
       tls: false
       type: vless
       udp: true
@@ -209,10 +238,10 @@ proxies:
         headers:
             Host: ipsycho.suex12.ir
         path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 092 | ⬇️ 4.10 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 115 | ⬇️ 3.36 MB/s"
       network: ws
       port: 80
-      server: 94.247.142.70
+      server: 94.247.142.84
       tls: false
       type: vless
       udp: true
