@@ -1,55 +1,19 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA 308 | ⬇️ 2.93 MB/s"
-      password: "74260665780162200"
+    - cipher: aes-128-cfb
+      country: ' US'
+      name: "\U0001F1FA\U0001F1F8 US 138 | ⬇️ 2.74 MB/s"
+      password: shadowsocks
       port: 443
-      server: allowing-owl.shiner427.skin
-      sni: allowing-owl.shiner427.skin
-      type: trojan
-    - cipher: aes-256-cfb
-      delay: 462
-      name: "\U0001F1FA\U0001F1F8 US 193 | ⬇️ 3.14 MB/s"
-      password: awsps0501
-      port: 443
-      server: 52.37.38.194
+      server: 184.170.241.194
       type: ss
-    - name: "\U0001F1FA\U0001F1F8 US 080 | ⬇️ 3.38 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 194 | ⬇️ 2.65 MB/s"
       password: "74260665780162200"
       port: 443
       server: settled-mite.shiner427.skin
       sni: settled-mite.shiner427.skin
       type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US 052 | ⬇️ 3.66 MB/s"
-      password: awsps0501
-      port: 443
-      server: 52.40.174.5
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US 049 | ⬇️ 4.76 MB/s"
-      password: awsps0501
-      port: 443
-      server: 34.210.54.251
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6 CA 053 | ⬇️ 3.52 MB/s"
-      password: awsps0501
-      port: 443
-      server: 18.236.127.81
-      type: ss
-    - name: "\U0001F1EE\U0001F1EA IE 309 | ⬇️ 4.79 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: blessed-escargot.shiner427.skin
-      sni: blessed-escargot.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EE\U0001F1EA IE 187 | ⬇️ 3.23 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: positive-gelding.shiner427.skin
-      sni: positive-gelding.shiner427.skin
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8 US 269 | ⬇️ 4.18 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 181 | ⬇️ 4.52 MB/s"
       network: ws
       port: 443
       server: 190.93.247.172
@@ -61,246 +25,112 @@ proxies:
         headers:
             Host: what.zhonghuoxing.top
         path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7 FR 293 | ⬇️ 4.07 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: noble-minnow.shiner427.skin
-      sni: noble-minnow.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EE\U0001F1EA IE 134 | ⬇️ 4.10 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: infinite-goose.shiner427.skin
-      sni: infinite-goose.shiner427.skin
-      type: trojan
-    - name: "\U0001F1EB\U0001F1F7 FR 162 | ⬇️ 2.53 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: grown-mackerel.shiner427.skin
-      sni: grown-mackerel.shiner427.skin
-      type: trojan
-    - delay: 653
-      name: "\U0001F1EB\U0001F1F7 FR 245 | ⬇️ 6.68 MB/s"
-      network: ws
-      port: 8080
-      server: 104.26.14.85
-      type: vless
-      udp: true
-      uuid: 0eb83f3e-7b95-427a-8952-abedfca1869f
-      ws-opts:
-        headers:
-            Host: QW.VU6d72nt9y.zULaiR.orG.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /?ed=2048
-      xudp: true
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision-udp443-udp443-udp443-udp443
-      name: "\U0001F1FA\U0001F1F8 US 276 | ⬇️ 3.00 MB/s"
-      network: tcp
-      port: 443
-      server: 204.10.194.78
-      servername: yfnl1.xn--4gq62f52gppi29k.com
-      tls: true
-      type: vless
-      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision-udp443-udp443-udp443-udp443
-      name: "\U0001F1FA\U0001F1F8 US 239 | ⬇️ 2.69 MB/s"
-      network: tcp
-      port: 443
-      server: 204.10.194.78
-      servername: yfnl1.xn--4gq62f52gppi29k.com
-      tls: true
-      type: vless
-      uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US 238 | ⬇️ 5.45 MB/s"
-      network: ws
-      port: 80
-      server: 172.67.144.126
-      servername: xxcdfrt5.288288.shop
+    - name: "\U0001F1FA\U0001F1F8 US 139 | ⬇️ 5.06 MB/s"
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.207.162
       skip-cert-verify: true
-      type: vmess
-      uuid: 4e41764d-ac31-43f5-8e9b-231ddf252d1f
-      ws-opts:
-        headers:
-            HOST: xxcdfrt5.288288.shop
-        path: /mANkxA1ME4qfSnsVcNgLsMVz
+      sni: www.bing.com
+      type: hysteria2
     - alpn:
         - h3
       auth: ad77e45c-0485-4357-9d64-1593aabc2c19
-      delay: 1270
-      name: "\U0001F1FA\U0001F1F8 US 146 | ⬇️ 4.71 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US 142 | ⬇️ 2.77 MB/s"
       password: ad77e45c-0485-4357-9d64-1593aabc2c19
       port: 32321
       server: 108.214.246.79
       skip-cert-verify: true
       type: hysteria2
       udp: true
-    - auth: nfsn666
-      name: "\U0001F1EC\U0001F1E7 GB 101 | ⬇️ 6.91 MB/s"
-      password: nfsn666
-      port: 8888
-      server: ld-arm.nfsn666.gq
-      skip-cert-verify: true
-      sni: ld-arm.nfsn666.gq
-      type: hysteria2
-      udp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1656
-      name: "\U0001F1FA\U0001F1F8 US 291 | ⬇️ 4.40 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.173.64
-      servername: 46bac781.2032.pp.ua
-      tls: true
-      type: vless
-      udp: true
-      uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
-      ws-opts:
-        headers:
-            Host: 46bac781.2032.pp.ua
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /ok1UBnf7txQ8YJFJxz
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 108 | ⬇️ 3.55 MB/s"
-      password: "74260665780162200"
-      port: 443
-      server: possible-tiger.shiner427.skin
-      sni: possible-tiger.shiner427.skin
-      type: trojan
-    - client-fingerprint: chrome
-      delay: 751
-      name: "\U0001F1F3\U0001F1F1 NL 138 | ⬇️ 2.70 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.204.84
-      servername: cr77.hedieh.dpdns.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
-      ws-opts:
-        headers:
-            Host: cr77.hedieh.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      delay: 1027
-      name: "\U0001F1F3\U0001F1F1 NL 103 | ⬇️ 3.00 MB/s"
-      network: ws
-      port: 443
-      server: zula.ir
-      servername: cr77.hedieh.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
-      ws-opts:
-        headers:
-            Host: cr77.hedieh.dpdns.org
-        path: /?ed=2560
-    - auth: dongtaiwang.com
-      name: "\U0001F1F3\U0001F1F1 NL 037 | ⬇️ 3.70 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR 125 | ⬇️ 4.14 MB/s"
       password: dongtaiwang.com
       port: 4489
       server: 51.158.205.126
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - name: "\U0001F1EB\U0001F1F7 FR 033 | ⬇️ 4.12 MB/s"
+    - cipher: aes-256-cfb
+      delay: 462
+      name: "\U0001F1FA\U0001F1F8 US 144 | ⬇️ 4.30 MB/s"
+      password: awsps0501
+      port: 443
+      server: 52.37.38.194
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US 200 | ⬇️ 3.62 MB/s"
+      password: awsps0501
+      port: 443
+      server: 34.210.54.251
+      type: ss
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US 192 | ⬇️ 3.18 MB/s"
+      network: tcp
+      port: 10002
+      reality-opts:
+        public-key: xnzUvDQZ4B45lUi40lFKOLWiJdPQW8LzhGsGandvvlc
+        short-id: ad081079
+      server: us1do.interld123456789.com
+      servername: addons.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: f04cea95-893d-4e7e-9e34-4bc032315781
+    - auth: ethj7UIa34
+      delay: 2748
+      name: "\U0001F1F8\U0001F1EC SG 175 | ⬇️ 4.97 MB/s"
+      password: ethj7UIa34
+      port: 35993
+      server: uba.aelen.ggff.net
+      skip-cert-verify: true
+      sni: uba.aelen.ggff.net
+      type: hysteria2
+    - cipher: aes-256-cfb
+      delay: 456
+      name: "\U0001F1FA\U0001F1F8 US 145 | ⬇️ 3.83 MB/s"
+      password: awsps0501
+      port: 443
+      server: 18.236.127.81
+      type: ss
+    - flow: ""
+      mode: ""
+      name: "\U0001F1FA\U0001F1F8 US 173 | ⬇️ 4.38 MB/s"
+      network: ws
+      port: 2083
+      server: 104.18.2.26
+      servername: ex.sue.x10.mx
+      tls: true
+      type: vless
+      udp: false
+      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+      ws-opts:
+        headers:
+            Host: ex.sue.x10.mx
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 237 | ⬇️ 4.44 MB/s"
+      network: ws
+      port: 80
+      server: 104.21.56.44
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: REEdfREe8MahSaNg2.rEDOrG.IR
+        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed
+    - name: "\U0001F1FA\U0001F1F8 US 180 | ⬇️ 2.68 MB/s"
+      network: ws
+      port: 8080
+      server: 104.18.14.19
+      type: vless
+      uuid: 41956a47-8432-4a3f-b70d-a54fc7efd6b8
+      ws-opts:
+        headers:
+            Host: 0223.jq2ter91.workers.dev
+        path: /Telegram@V2ray_Alpha
+    - name: "\U0001F1F7\U0001F1FA RU 164 | ⬇️ 2.27 MB/s"
       password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
+      port: 10011
+      server: 46.29.163.171
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 164 | ⬇️ 2.61 MB/s"
-      network: tcp
-      port: 443
-      server: 135.148.142.30
-      servername: 147135010072.sec21org.com
-      tls: true
-      type: vless
-      uuid: c4fa89d4-fcb9-48ba-adbc-665181cc817f
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1608
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR 223 | ⬇️ 7.88 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
-    - name: "\U0001F1ED\U0001F1F0 HK 168 | ⬇️ 2.69 MB/s"
-      network: ws
-      password: bpb-trojan
-      port: 443
-      server: us.madison.eu.org
-      skip-cert-verify: true
-      sni: skwygx.top
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: skwygx.top
-        path: /tr?ed=2560
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1086
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR 104 | ⬇️ 6.99 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1695
-      down: 1000 Mbps
-      name: "\U0001F1F7\U0001F1FA RU 267 | ⬇️ 5.04 MB/s"
-      port: 62003
-      server: 176.32.35.226
-      servername: apple.com
-      skip-cert-verify: true
-      type: hysteria
-      up: 1000 Mbps
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 2772
-      name: "\U0001F1FA\U0001F1F8 US 306 | ⬇️ 5.70 MB/s"
-      network: ws
-      port: 443
-      server: 9e.iran.pp.ua
-      servername: 9e.iran.pp.ua
-      tls: true
-      type: vless
-      udp: true
-      uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-      ws-opts:
-        headers:
-            Host: 9e.iran.pp.ua
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-        path: /K8X1ocJD1r0dTd5pVam9w
-      xudp: true
