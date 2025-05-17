@@ -1,112 +1,9 @@
 proxy-providers: {}
 proxies:
-    - country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US 242 | ⬇️ 7.95 MB/s"
-      password: ypDt8RkT7J
-      port: 43118
-      server: 89.187.181.172
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6 CA 219 | ⬇️ 5.60 MB/s"
-      port: 56565
-      reality-opts:
-        public-key: 59iI-5g0yQ3r6ZaoBOQSWOCnMw6_t_q0oS4gXngXhW0
-        short-id: 2e3b0488
-      server: www.vanboss.work
-      servername: www.samsung.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-    - name: "\U0001F1F3\U0001F1F1 NL 228 | ⬇️ 5.85 MB/s"
-      network: ws
-      port: 443
-      server: 5.10.247.255
-      servername: seen-israel-dining-sure.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9af46703-64fa-4d42-b87b-656372e517ae
-      ws-opts:
-        headers:
-            Host: seen-israel-dining-sure.trycloudflare.com
-        path: /9af46703-64fa-4d42-b87b-656372e517ae-vless?ed=2048
-    - name: "\U0001F1FA\U0001F1F8 US 142 | ⬇️ 6.87 MB/s"
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.207.162
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 187 | ⬇️ 3.81 MB/s"
-      network: ws
-      port: 80
-      server: 104.21.56.44
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: REEdfREe8MahSaNg2.rEDOrG.IR
-        path: /vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed
-    - client-fingerprint: chrome
-      delay: 1422
-      name: "\U0001F1FA\U0001F1F8 US 290 | ⬇️ 4.25 MB/s"
-      network: ws
-      port: 443
-      server: 104.18.20.69
-      servername: bp.singbox.ggff.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: 222a1c34-96f5-45fd-bedd-b9ac4b477b98
-      ws-opts:
-        headers:
-            Host: bp.singbox.ggff.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: /r6PSatuYdS9gZH6L/c2pjLm8wMG8ub29v
-      xudp: true
-    - name: "\U0001F1EB\U0001F1F7 FR 118 | ⬇️ 3.04 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-1.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
-    - auth: nfsn666
-      name: "\U0001F1EC\U0001F1E7 GB 169 | ⬇️ 9.15 MB/s"
-      password: nfsn666
-      port: 8888
-      server: ld-arm.nfsn666.gq
-      skip-cert-verify: true
-      sni: ld-arm.nfsn666.gq
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      delay: 751
-      name: "\U0001F1F3\U0001F1F1 NL 224 | ⬇️ 5.52 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.204.84
-      servername: cr77.hedieh.dpdns.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
-      ws-opts:
-        headers:
-            Host: cr77.hedieh.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 037 | ⬇️ 2.75 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB 055 | ⬇️ 3.34 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.201
+      server: 91.193.58.56
       tls: false
       type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -114,92 +11,26 @@ proxies:
         headers:
             Host: us.laoyoutiao.link
         path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - auth: dongtaiwang.com
-      name: "\U0001F1F3\U0001F1F1 NL 145 | ⬇️ 4.84 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - auth: Y7oJIxnimL81QESMBndrVnOxE8
-      name: "\U0001F1FA\U0001F1E6 UA 119 | ⬇️ 6.14 MB/s"
-      password: Y7oJIxnimL81QESMBndrVnOxE8
-      port: 30939
-      server: 91.238.105.190
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1086
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR 294 | ⬇️ 4.91 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - auth: ethj7UIa34
-      delay: 2748
-      name: "\U0001F1F8\U0001F1EC SG 072 | ⬇️ 7.31 MB/s"
-      password: ethj7UIa34
-      port: 35993
-      server: uba.aelen.ggff.net
-      skip-cert-verify: true
-      sni: uba.aelen.ggff.net
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 161 | ⬇️ 4.09 MB/s"
+    - client-fingerprint: random
+      delay: 652
+      name: "\U0001F1FA\U0001F1F8 US 214 | ⬇️ 2.08 MB/s"
       network: ws
-      port: 2083
-      server: 104.18.2.26
-      servername: ex.sue.x10.mx
+      port: 443
+      server: 160.79.104.113
+      servername: 0229.patterdeng.pp.ua
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
       ws-opts:
         headers:
-            Host: ex.sue.x10.mx
+            Host: 0229.patterdeng.pp.ua
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 233 | ⬇️ 2.79 MB/s"
-      network: ws
-      port: 8443
-      server: myanmar.visa.com
-      servername: ex.sue.x10.mx
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-      ws-opts:
-        headers:
-            Host: ex.sue.x10.mx
-        path: /?ed
-    - name: "\U0001F1FA\U0001F1F3 UN 150 | ⬇️ 7.23 MB/s"
-      network: ws
-      port: 2083
-      server: www.visaeurope.ch
-      servername: ex.sue.x10.mx
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-      ws-opts:
-        headers:
-            host: ex.sue.x10.mx
-        path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5 JP 023 | ⬇️ 11.10 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB 074 | ⬇️ 4.50 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.3
+      server: 91.193.58.149
       tls: false
       type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -207,48 +38,24 @@ proxies:
         headers:
             Host: us.laoyoutiao.link
         path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 075 | ⬇️ 3.72 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR 149 | ⬇️ 2.31 MB/s"
       network: ws
-      port: 80
-      server: 141.193.213.177
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 298 | ⬇️ 4.48 MB/s"
-      network: http
-      port: 55839
-      server: 38.54.25.204
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
-      ws-headers:
-        Host: 38.54.25.204
-      ws-path: /
-    - name: "\U0001F1FA\U0001F1F3 UN 138 | ⬇️ 4.74 MB/s"
-      network: ws
-      port: 8443
-      server: myanmar.visa.com
-      servername: ex.sue.x10.mx
-      skip-cert-verify: true
+      port: 10894
+      server: 59.29.143.247
+      servername: 0229.patterdeng.pp.ua
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
       ws-opts:
         headers:
-            Host: ex.sue.x10.mx
+            Host: 0229.patterdeng.pp.ua
         path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 029 | ⬇️ 10.71 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB 019 | ⬇️ 3.84 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.80
+      server: 91.193.58.254
       tls: false
       type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -256,24 +63,10 @@ proxies:
         headers:
             Host: us.laoyoutiao.link
         path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 139 | ⬇️ 7.80 MB/s"
-      network: ws
-      port: 8443
-      server: myanmar.visa.com
-      servername: ex.sue.x10.mx
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-      ws-opts:
-        headers:
-            Host: ex.sue.x10.mx
-        path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 13.25 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 2.33 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.14
+      server: 156.238.18.209
       tls: false
       type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -281,62 +74,3 @@ proxies:
         headers:
             Host: us.laoyoutiao.link
         path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1EF\U0001F1F5 JP 007 | ⬇️ 2.58 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.177
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1EC\U0001F1E7 GB 045 | ⬇️ 2.54 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.214
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 079 | ⬇️ 2.80 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.10
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - flow: ""
-      mode: ""
-      name: "\U0001F1FA\U0001F1F8 US 159 | ⬇️ 2.53 MB/s"
-      network: ws
-      port: 2083
-      server: 104.18.2.26
-      servername: ex.sue.x10.mx
-      tls: true
-      type: vless
-      udp: false
-      uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-      ws-opts:
-        headers:
-            Host: ex.sue.x10.mx
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 076 | ⬇️ 4.52 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.128
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
