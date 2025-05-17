@@ -1,76 +1,20 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB 055 | ⬇️ 3.34 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.56
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - client-fingerprint: random
-      delay: 652
-      name: "\U0001F1FA\U0001F1F8 US 214 | ⬇️ 2.08 MB/s"
-      network: ws
-      port: 443
-      server: 160.79.104.113
-      servername: 0229.patterdeng.pp.ua
+    - name: "\U0001F1FA\U0001F1F8 US 342 | ⬇️ 8.26 MB/s"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
+      port: 1443
+      server: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
       skip-cert-verify: false
-      tls: true
-      type: vless
+      sni: 2ef15a2a-svi800-sw77c8-dnss.la.shifen.uk
+      type: hysteria2
+    - auth: b751e995-b24c-4f30-8425-05db0b9eac45
+      down: 1000
+      name: "\U0001F1E8\U0001F1F3 CN 077 | ⬇️ 24.67 MB/s"
+      password: b751e995-b24c-4f30-8425-05db0b9eac45
+      port: 9001
+      server: tw2-vds1.anyhk.co
+      skip-cert-verify: true
+      sni: tw2-vds1.anyhk.co
+      type: hysteria2
       udp: true
-      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-      ws-opts:
-        headers:
-            Host: 0229.patterdeng.pp.ua
-        path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 074 | ⬇️ 4.50 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.149
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1F0\U0001F1F7 KR 149 | ⬇️ 2.31 MB/s"
-      network: ws
-      port: 10894
-      server: 59.29.143.247
-      servername: 0229.patterdeng.pp.ua
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 794f9f41-92c9-4a78-8ffc-1f82cb48a4e2
-      ws-opts:
-        headers:
-            Host: 0229.patterdeng.pp.ua
-        path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 019 | ⬇️ 3.84 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.254
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 2.33 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.209
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: us.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+      up: 600
