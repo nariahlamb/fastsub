@@ -1,5 +1,11 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 US 138 | ⬇️ 9.45 MB/s"
+      password: OX32x3nNZ0eFYcwzyDl2pISqeRETDZnDYyDwyFTlCaAa9SAlCOOSF36CXYSRzS4A3xaR8
+      port: 443
+      server: panels.wireshop.net
+      type: trojan
+      udp: true
     - cipher: aes-256-cfb
       country: US
       name: "\U0001F1FA\U0001F1F8 US 106 | ⬇️ 7.14 MB/s"
@@ -14,125 +20,13 @@ proxies:
       port: 443
       server: 35.160.174.55
       type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP 034 | ⬇️ 11.99 MB/s"
-      password: SC82p83RpnSRyuyDqzA7FYSajN73c9XxZIaYD8l6Op3DleRuaCSOnC5BA05zwEwFlRBDa
-      port: 443
-      server: forward.meijireform.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US 056 | ⬇️ 3.53 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB 179 | ⬇️ 4.04 MB/s"
       network: ws
       port: 8880
-      server: 14.102.229.20
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      country: ' DE'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EA DE 104 | ⬇️ 5.78 MB/s"
-      network: tcp
-      port: 8443
-      server: 5.75.207.190
-      type: vmess
-      uuid: 726ae698-6b9e-4aa1-9f95-8f3533589cc0
-    - cipher: aes-256-cfb
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG 009 | ⬇️ 10.32 MB/s"
-      password: qawszxc123
-      port: 443
-      server: 18.143.174.157
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1 NL 137 | ⬇️ 4.16 MB/s"
-      network: ws
-      port: 8880
-      server: 213.109.205.20
-      servername: reedfree8mahsang2.redorg.ir
-      skip-cert-verify: true
+      server: 185.162.229.20
       tls: false
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 226 | ⬇️ 6.00 MB/s"
-      network: ws
-      port: 8880
-      server: 45.12.31.20
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - auth: nfsn666
-      name: "\U0001F1EC\U0001F1E7 GB 066 | ⬇️ 7.07 MB/s"
-      password: nfsn666
-      port: 8888
-      server: 130.162.182.250
-      skip-cert-verify: true
-      sni: ld-arm.nfsn666.gq
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 230 | ⬇️ 6.46 MB/s"
-      network: ws
-      port: 8880
-      server: 195.85.59.20
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - name: "\U0001F1F3\U0001F1F1 NL 238 | ⬇️ 3.14 MB/s"
-      network: ws
-      port: 8880
-      server: 45.131.208.20
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB 033 | ⬇️ 11.31 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.202
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 271 | ⬇️ 2.66 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.159
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - name: "\U0001F1E6\U0001F1F9 AT 147 | ⬇️ 4.33 MB/s"
-      network: ws
-      port: 8880
-      server: 212.183.88.20
-      tls: false
-      type: vless
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
@@ -152,17 +46,75 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
         path: /?ed=2560
       xudp: true
-    - name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 6.05 MB/s"
+    - delay: 404
+      name: "\U0001F1FA\U0001F1F8 US 134 | ⬇️ 2.01 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.230
-      tls: false
+      server: 103.169.142.20
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+            Host: reedfree8mahsang2.redorg.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1 NL 238 | ⬇️ 3.14 MB/s"
+      network: ws
+      port: 8880
+      server: 45.131.208.20
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /?ed=2560
+    - auth: nfsn666
+      name: "\U0001F1EC\U0001F1E7 GB 066 | ⬇️ 7.07 MB/s"
+      password: nfsn666
+      port: 8888
+      server: 130.162.182.250
+      skip-cert-verify: true
+      sni: ld-arm.nfsn666.gq
+      type: hysteria2
+    - name: "\U0001F1E6\U0001F1F9 AT 147 | ⬇️ 4.33 MB/s"
+      network: ws
+      port: 8880
+      server: 212.183.88.20
+      tls: false
+      type: vless
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /?ed=2560
+    - name: "\U0001F1F3\U0001F1F1 NL 163 | ⬇️ 3.60 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.4.6
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+        path: 'Telegram: @vpnAndroid2/?ed=2560'
+      xudp: true
+    - name: "\U0001F1EC\U0001F1E7 GB 226 | ⬇️ 6.00 MB/s"
+      network: ws
+      port: 8880
+      server: 45.12.31.20
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /?ed=2560
     - delay: 998
       name: "\U0001F1FA\U0001F1F8 US 212 | ⬇️ 8.55 MB/s"
       network: ws
@@ -177,28 +129,24 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
         path: /?ed=2560
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US 068 | ⬇️ 2.75 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US 230 | ⬇️ 6.46 MB/s"
       network: ws
-      port: 80
-      server: 141.193.213.139
+      port: 8880
+      server: 195.85.59.20
       tls: false
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 053 | ⬇️ 2.47 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.200
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
+            Host: reedfree8mahsang2.redorg.ir
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG 009 | ⬇️ 10.32 MB/s"
+      password: qawszxc123
+      port: 443
+      server: 18.143.174.157
+      type: ss
     - name: "\U0001F1ED\U0001F1F0 HK 065 | ⬇️ 11.20 MB/s"
       network: ws
       port: 8880
@@ -210,32 +158,19 @@ proxies:
         headers:
             Host: reedfree8mahsang2.redorg.ir
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1E6 UA 133 | ⬇️ 5.09 MB/s"
+    - cipher: aes-256-cfb
+      country: KR
+      name: "\U0001F1F0\U0001F1F7 KR 011 | ⬇️ 15.34 MB/s"
+      password: yijian0503
+      port: 443
+      server: 54.180.160.88
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1 NL 137 | ⬇️ 4.16 MB/s"
       network: ws
       port: 8880
-      server: 89.116.180.20
-      tls: false
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US 101 | ⬇️ 2.76 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.63
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - name: "\U0001F1EC\U0001F1E7 GB 179 | ⬇️ 4.04 MB/s"
-      network: ws
-      port: 8880
-      server: 185.162.229.20
+      server: 213.109.205.20
+      servername: reedfree8mahsang2.redorg.ir
+      skip-cert-verify: true
       tls: false
       type: vless
       udp: true
@@ -244,6 +179,17 @@ proxies:
         headers:
             Host: reedfree8mahsang2.redorg.ir
         path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 100 | ⬇️ 2.48 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.144
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
     - name: "\U0001F1F3\U0001F1F1 NL 182 | ⬇️ 2.36 MB/s"
       network: ws
       port: 80
@@ -257,90 +203,39 @@ proxies:
             User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML, like Gecko) Chrome/5.0.342.1 Safari/533.2
         path: 'Telegram: @vpnAndroid2/?ed=2560'
       xudp: true
-    - name: "\U0001F1F3\U0001F1F1 NL 163 | ⬇️ 3.60 MB/s"
+    - name: "\U0001F1FA\U0001F1E6 UA 133 | ⬇️ 5.09 MB/s"
       network: ws
-      port: 80
-      server: 45.131.4.6
+      port: 8880
+      server: 89.116.180.20
+      tls: false
       type: vless
-      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: reedfree8mahsang2.redorg.ir
-            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
-        path: 'Telegram: @vpnAndroid2/?ed=2560'
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1F3 CN 029 | ⬇️ 5.02 MB/s"
-      network: tcp
-      port: 33001
-      reality-opts:
-        public-key: i3Usm5FRpEaxcuLR5HyQjvYFbsBZjZzKDsbxSgf5pmI
-      server: 149.104.29.76
-      servername: yc.zran.top
-      tls: true
-      type: vless
-      uuid: bfab9a68-5545-5270-bfdd-c9a5476ca066
-    - auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-      delay: 979
-      name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 14.26 MB/s"
-      password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-      port: 30001
-      server: tw.akebi.cc
-      skip-cert-verify: true
-      sni: tw.akebi.cc
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US 175 | ⬇️ 2.59 MB/s"
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US 056 | ⬇️ 3.53 MB/s"
       network: ws
       port: 8880
-      server: 185.238.228.39
-      skip-cert-verify: false
+      server: 14.102.229.20
       tls: false
       type: vless
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: ip.langmanshanxi.top
-        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1F8\U0001F1EC SG 025 | ⬇️ 2.02 MB/s"
+            Host: reedfree8mahsang2.redorg.ir
+        path: /?ed=2560
+    - name: "\U0001F1EC\U0001F1E7 GB 043 | ⬇️ 4.97 MB/s"
       network: ws
-      port: 443
-      server: 160.22.79.155
-      servername: steep.skyfigure.top
+      port: 8880
+      server: 91.193.58.65
+      servername: us.laoyoutiao.link
       skip-cert-verify: true
-      tls: true
+      tls: false
       type: vless
       udp: true
-      uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec
-      ws-opts:
-        headers:
-            Host: steep.skyfigure.top
-        path: "/Telegram\U0001F1E8\U0001F1F3 @pgkj666 /?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 261 | ⬇️ 2.26 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.89
-      tls: false
-      type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US 138 | ⬇️ 9.45 MB/s"
-      password: OX32x3nNZ0eFYcwzyDl2pISqeRETDZnDYyDwyFTlCaAa9SAlCOOSF36CXYSRzS4A3xaR8
-      port: 443
-      server: panels.wireshop.net
-      type: trojan
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB 000 | ⬇️ 18.56 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.131
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+            Host: us.laoyoutiao.link
+        path: /
