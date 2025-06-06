@@ -1,52 +1,33 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - d1.awsstatic.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 161.12 MB/s"
-      network: http
-      port: 2095
-      server: 142.93.253.49
-      skip-cert-verify: false
-      tls: false
-      type: vmess
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1F9 GT | ⬇️ 36.84 MB/s"
+      password: 22PUWAVDVEOSAZPL
+      port: 20007
+      server: 185.47.254.177
+      type: ss
       udp: true
-      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
-    - alterId: 0
-      cipher: auto
-      country: ' US'
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 122.95 MB/s"
-      network: http
-      port: 2095
-      server: 142.93.253.49
-      servername: d1.awsstatic.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 62.85 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.2
-      tls: false
-      type: vless
+    - cipher: aes-256-cfb
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.83 MB/s"
+      password: awsps0501
+      port: 443
+      server: 57.180.28.64
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1EA PE | ⬇️ 22.82 MB/s"
+      password: S6JUA5C7P0AXRICB
+      port: 20009
+      server: 185.47.252.16
+      type: ss
       udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 54.56 MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 22.68 MB/s"
+      password: IRA2YI28FF6CMZ53
+      port: 20035
+      server: 185.186.78.220
+      type: ss
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.50 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.133
@@ -58,78 +39,115 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 37.32 MB/s"
-      password: IRA2YI28FF6CMZ53
-      port: 20035
-      server: 185.186.78.220
-      type: ss
-      udp: true
-    - delay: 1535
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.03 MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.29 MB/s"
       network: ws
-      port: 8080
-      server: Join.EXPRESSVPN_420.cloud1.hosting-ip.com
-      type: vless
+      port: 443
+      server: www.vpslook.com
+      servername: wapkp01.5201314.cfd
+      skip-cert-verify: true
+      tls: true
+      type: vmess
       udp: true
-      uuid: 590807f7-75af-48fd-b815-d6364760b352
+      uuid: 4993f14e-5f9b-4249-dc43-99f4fdea84be
       ws-opts:
         headers:
-            Host: dE-sNaPp.MaStErSrV.iR.aCaDeMiGrOuP.Ir.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420-EXPRESSVPN_420?ed=2048
-      xudp: true
+            Host: wapkp01.5201314.cfd
+        path: /4993f14e
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.10 MB/s"
+      network: ws
+      port: 80
+      server: 172.67.215.253
+      servername: domain2025.dpdns.org
+      tls: false
+      type: vless
+      udp: true
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+        path: /vtrqvj306aafpecv?ed=2560
     - cipher: aes-256-gcm
-      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 30.19 MB/s"
+      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 19.91 MB/s"
       password: DTTFVV7XSR369ZK2
       port: 20036
       server: 185.237.185.77
       type: ss
       udp: true
+    - delay: 1660
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.33 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.190
+      servername: cs.laoyoutiao.link
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: /
+      xudp: true
+    - auth: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.31 MB/s"
+      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
+      port: 45551
+      server: 75.127.13.83
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - cipher: aes-256-gcm
-      name: "\U0001F1F5\U0001F1EA PE | ⬇️ 30.17 MB/s"
-      password: S6JUA5C7P0AXRICB
-      port: 20009
-      server: 185.47.252.16
+      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 16.49 MB/s"
+      password: JHUH0D6DGFJIUELD
+      port: 20020
+      server: 147.78.2.35
       type: ss
       udp: true
-    - alpn:
-        - h1
-      client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 29.03 MB/s"
-      network: tcp
-      port: 6003
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.59 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+    - delay: 872
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 13.21 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 4489
+      server: 51.158.205.126
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.26 MB/s"
+      network: grpc
+      port: 2030
       reality-opts:
-        public-key: EnZCoW0ZE047unVnwVg6jOTWxCvAbj3OrweS_ANYCVg
-        short-id: 34d8ddb4971913eb
-      server: cs_office.hideshots.eu
-      servername: t.me
+        public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
+        short-id: 7fe29733
+      server: ns7.esfahansiman.com
+      servername: wordpress.org
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: true
-      uuid: e34e5748-c75c-4847-bbc9-a389da28a1a2
-    - client-fingerprint: firefox
-      delay: 1833
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.02 MB/s"
-      network: tcp
-      port: 34045
-      reality-opts:
-        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-        short-id: e8ab71d0
-      server: 158.41.97.218
-      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+      uuid: c2a8a1c3-6d93-4aec-90ce-e53bfb4c1f67
     - client-fingerprint: firefox
       delay: 2798
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.97 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.15 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -142,61 +160,18 @@ proxies:
       udp: true
       uuid: 9835fbea-cfb1-402a-bdc6-16ca140c6788
       xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 15.32 MB/s"
-      password: 25d55ad283aa400af464c76d713c07ad
-      port: 8330
-      server: 103.240.146.143
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: tqqlqvxj@mayorlogistic.com
-    - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.11 MB/s"
-      network: tcp
-      port: 3000
-      reality-opts:
-        public-key: zzbexZUufjA8hDluJTujyHRAxTEpljvFytrMO_6AKWw
-        short-id: c0fae980
-      server: 158.220.94.91
-      servername: yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bd39598b-b9a9-40b2-a8dd-ab1df5627dc5
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.72 MB/s"
-      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      port: 45551
-      server: 75.127.13.83
-      skip-cert-verify: true
-      sni: www.bing.com
-      tfo: false
-      type: hysteria2
-    - delay: 798
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.94 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
     - alpn:
         - h3%2Ch2%2Chttp%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.65 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.92 MB/s"
       network: ws
       port: 2096
       server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
       servername: us.ccccccccccccccccccccccccccccccccccccccccccc.cc
+      skip-cert-verify: false
+      tfo: false
       tls: true
       type: vless
-      udp: true
       uuid: 1d4d10ca-93ef-439d-91cc-3f5c6399e558
       ws-opts:
         headers:
@@ -205,30 +180,14 @@ proxies:
     - alpn:
         - h3
       auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1454
+      delay: "2794"
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.64 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 2794
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.60 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.43 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
-      udp: true
-      up: 100
+      udp: "true"
+      up: "100"
