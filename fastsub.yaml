@@ -1,61 +1,38 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1F9 GT | ⬇️ 36.84 MB/s"
-      password: 22PUWAVDVEOSAZPL
-      port: 20007
-      server: 185.47.254.177
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.83 MB/s"
-      password: awsps0501
-      port: 443
-      server: 57.180.28.64
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F5\U0001F1EA PE | ⬇️ 22.82 MB/s"
-      password: S6JUA5C7P0AXRICB
-      port: 20009
-      server: 185.47.252.16
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 22.68 MB/s"
-      password: IRA2YI28FF6CMZ53
-      port: 20035
-      server: 185.186.78.220
-      type: ss
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.50 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.133
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.29 MB/s"
-      network: ws
-      port: 443
-      server: www.vpslook.com
-      servername: wapkp01.5201314.cfd
-      skip-cert-verify: true
-      tls: true
+      http-opts:
+        headers:
+            Host:
+                - d1.awsstatic.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.74 MB/s"
+      network: http
+      port: 2095
+      server: 142.93.253.49
+      skip-cert-verify: false
+      tls: false
       type: vmess
       udp: true
-      uuid: 4993f14e-5f9b-4249-dc43-99f4fdea84be
+      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.94 MB/s"
+      network: ws
+      port: 443
+      server: www.visa.com.sg
+      servername: xui.chenchuanjin.sbs
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 30bbfab3-90fc-45ae-f7e9-64f551480a78
       ws-opts:
         headers:
-            Host: wapkp01.5201314.cfd
-        path: /4993f14e
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.10 MB/s"
+            Host: xui.chenchuanjin.sbs
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.84 MB/s"
       network: ws
       port: 80
       server: 172.67.215.253
@@ -69,85 +46,92 @@ proxies:
             Host: domain2025.dpdns.org
         path: /vtrqvj306aafpecv?ed=2560
     - cipher: aes-256-gcm
-      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 19.91 MB/s"
-      password: DTTFVV7XSR369ZK2
-      port: 20036
-      server: 185.237.185.77
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 32.00 MB/s"
+      password: IRA2YI28FF6CMZ53
+      port: 20035
+      server: 185.186.78.220
       type: ss
       udp: true
-    - delay: 1660
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.33 MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 30.97 MB/s"
+      password: XVXWB9ORBMOEC80Q
+      port: 20010
+      server: 185.47.253.144
+      type: ss
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.42 MB/s"
       network: ws
-      port: 80
-      server: 141.193.213.190
-      servername: cs.laoyoutiao.link
+      port: 8080
+      server: domain2025.dpdns.org
+      servername: domain2025.dpdns.org
+      tls: false
       type: vless
       udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - auth: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.31 MB/s"
-      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      port: 45551
-      server: 75.127.13.83
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+            Host: domain2025.dpdns.org
+        path: /kh6gqt9sbovbvejs?ed=2560
     - cipher: aes-256-gcm
-      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 16.49 MB/s"
-      password: JHUH0D6DGFJIUELD
-      port: 20020
-      server: 147.78.2.35
+      name: "\U0001F1F5\U0001F1EA PE | ⬇️ 21.97 MB/s"
+      password: S6JUA5C7P0AXRICB
+      port: 20009
+      server: 185.47.252.16
       type: ss
       udp: true
     - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.59 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-    - delay: 872
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 13.21 MB/s"
-      obfs: ""
-      obfs-password: ""
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.67 MB/s"
       password: dongtaiwang.com
       port: 4489
       server: 51.158.205.126
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-      up: ""
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.62 MB/s"
+      network: ws
+      port: 2053
+      server: 66.235.200.17
+      servername: waphk.ovo2024.dpdns.org
+      tls: true
+      type: vless
+      uuid: 920d2c36-fb41-4fd3-abd3-9bb11224b704
+      ws-opts:
+        headers:
+            Host: waphk.ovo2024.dpdns.org
+        path: 248cbff8
     - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.26 MB/s"
-      network: grpc
-      port: 2030
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.51 MB/s"
+      network: tcp
+      port: 3000
       reality-opts:
-        public-key: YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E
-        short-id: 7fe29733
-      server: ns7.esfahansiman.com
-      servername: wordpress.org
+        public-key: zzbexZUufjA8hDluJTujyHRAxTEpljvFytrMO_6AKWw
+        short-id: c0fae980
+      server: 158.220.94.91
+      servername: yahoo.com
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: c2a8a1c3-6d93-4aec-90ce-e53bfb4c1f67
+      uuid: bd39598b-b9a9-40b2-a8dd-ab1df5627dc5
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.29 MB/s"
+      network: tcp
+      port: 3000
+      reality-opts:
+        public-key: zzbexZUufjA8hDluJTujyHRAxTEpljvFytrMO_6AKWw
+        short-id: c0fae980
+      server: 158.220.94.91
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: bd39598b-b9a9-40b2-a8dd-ab1df5627dc5
     - client-fingerprint: firefox
       delay: 2798
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.15 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.68 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -160,10 +144,38 @@ proxies:
       udp: true
       uuid: 9835fbea-cfb1-402a-bdc6-16ca140c6788
       xudp: true
+    - client-fingerprint: firefox
+      delay: 1833
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 13.18 MB/s"
+      network: tcp
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 158.41.97.218
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.07 MB/s"
+      network: ws
+      port: 443
+      server: zula.ir
+      servername: rayan-11.parastoo.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+      ws-opts:
+        headers:
+            Host: rayan-11.parastoo.dpdns.org
+        path: /@Rayan_Config
     - alpn:
         - h3%2Ch2%2Chttp%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.92 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.52 MB/s"
       network: ws
       port: 2096
       server: c.c.ccccccccccccccccccccccccccccccccccccccccccc.cc
@@ -177,12 +189,27 @@ proxies:
         headers:
             Host: us.ccccccccccccccccccccccccccccccccccccccccccc.cc
         path: /
+    - client-fingerprint: chrome
+      delay: 2063
+      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 12.37 MB/s"
+      network: tcp
+      port: 55555
+      reality-opts:
+        public-key: smklD4EyRKJ7tf3rlqBDxQNSA1jT_9WlKCfZzPzFZw4
+        short-id: 839f6e
+      server: grtsgsj.subscripshn.sbs
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: SAVTEAM3
+      xudp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       delay: "2794"
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.43 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.72 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
