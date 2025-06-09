@@ -1,7 +1,35 @@
 proxy-providers: {}
 proxies:
     - delay: 614
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.13 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 45.08 MB/s"
+      network: ws
+      port: 8880
+      server: zula.ir
+      type: vless
+      udp: true
+      uuid: 04c3cd5d-cd1c-45c9-8bfc-7bfaabdeea69
+      ws-opts:
+        headers:
+            Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /?ed=2048
+      xudp: true
+    - delay: 796
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.19 MB/s"
+      network: ws
+      port: 80
+      server: 151.101.2.133
+      type: vless
+      udp: true
+      uuid: 75ecef77-2050-4250-99f7-936d0188edf2
+      ws-opts:
+        headers:
+            Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+        path: /ws/?ed=2048
+      xudp: true
+    - delay: 614
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.77 MB/s"
       network: ws
       port: 8880
       server: zula.ir
@@ -15,7 +43,7 @@ proxies:
         path: /?ed=2048
       xudp: true
     - delay: 761
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.90 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.57 MB/s"
       network: ws
       port: 8880
       server: 104.21.69.44
@@ -28,31 +56,36 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
         path: /?ed=2048
       xudp: true
-    - delay: 614
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.08 MB/s"
-      network: ws
-      port: 8880
-      server: zula.ir
-      type: vless
-      udp: true
-      uuid: 04c3cd5d-cd1c-45c9-8bfc-7bfaabdeea69
-      ws-opts:
-        headers:
-            Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
-        path: /?ed=2048
-      xudp: true
     - cipher: aes-256-cfb
       delay: 676
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 31.46 MB/s"
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 33.21 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.213.23.226
       type: ss
       udp: true
+    - client-fingerprint: firefox
+      delay: 1664
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.77 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: J0_Stw7IIr6naIGCtZ1ZB75HfD-KIITZMy84jQVufyU
+        short-id: 3303c7a5
+      server: gbr02.abvpn.net
+      servername: mirror.yandex.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9835fbea-cfb1-402a-bdc6-16ca140c6788
+      xudp: true
     - cipher: aes-256-cfb
       country: RU
-      name: "\U0001F3F3️ MD | ⬇️ 27.61 MB/s"
+      name: "\U0001F3F3️ MD | ⬇️ 24.22 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.153.197.5
@@ -60,7 +93,7 @@ proxies:
     - delay: 872
       down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.56 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 22.85 MB/s"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -70,30 +103,43 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - delay: 796
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.48 MB/s"
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 14.05 MB/s"
       network: ws
-      port: 80
-      server: 151.101.2.133
+      port: 2086
+      server: 185.148.106.213
+      skip-cert-verify: false
+      tls: false
       type: vless
-      udp: true
-      uuid: 75ecef77-2050-4250-99f7-936d0188edf2
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
       ws-opts:
         headers:
-            Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-        path: /ws/?ed=2048
-      xudp: true
-    - delay: 1103
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.35 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.207.162
+            Host: domain2025.dpdns.org
+        path: /@vpnAndroid2.@vpnAndroid2.@vpnAndroid2.@vpnAndroid2?ed=2560
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      delay: "2794"
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.78 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
+      sni: apple.com
+      type: hysteria
+      udp: "true"
+      up: "100"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      delay: "1454"
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.75 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
