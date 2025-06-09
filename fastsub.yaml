@@ -1,215 +1,66 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - d1.awsstatic.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 179.43 MB/s"
-      network: http
-      port: 2095
-      server: 142.93.253.49
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
-    - delay: 2651
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 86.80 MB/s"
+    - delay: 614
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.13 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.2
+      server: zula.ir
       type: vless
       udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 04c3cd5d-cd1c-45c9-8bfc-7bfaabdeea69
       ws-opts:
         headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
-        path: /
+            Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /?ed=2048
       xudp: true
-    - alterId: 0
-      cipher: auto
-      country: ' US'
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 76.78 MB/s"
-      network: http
-      port: 2095
-      server: 142.93.253.49
-      servername: d1.awsstatic.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.85 MB/s"
-      network: tcp
-      port: 443
-      server: 146.235.228.34
-      servername: dcpqjs.yydjc.top
-      skip-cert-verify: true
-      tfo: false
-      tls: true
+    - delay: 761
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.90 MB/s"
+      network: ws
+      port: 8880
+      server: 104.21.69.44
       type: vless
       udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.31 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 129.146.95.165
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+      uuid: 04c3cd5d-cd1c-45c9-8bfc-7bfaabdeea69
+      ws-opts:
+        headers:
+            Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+        path: /?ed=2048
+      xudp: true
+    - delay: 614
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.08 MB/s"
+      network: ws
+      port: 8880
+      server: zula.ir
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.57 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 138.2.229.162
-      skip-cert-verify: true
-      sni: tv.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.08 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 64.181.243.177
-      skip-cert-verify: true
-      sni: tv.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.40 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 192.18.133.190
-      skip-cert-verify: true
-      sni: tv.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.02 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 167.234.208.240
-      skip-cert-verify: true
-      sni: tv.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.79 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 167.234.210.122
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
+      uuid: 04c3cd5d-cd1c-45c9-8bfc-7bfaabdeea69
+      ws-opts:
+        headers:
+            Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /?ed=2048
+      xudp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 32.39 MB/s"
+      delay: 676
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 31.46 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.213.23.226
       type: ss
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.71 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 146.235.201.189
-      skip-cert-verify: true
-      sni: tv.apple.com
-      type: hysteria2
       udp: true
-    - delay: 609
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.37 MB/s"
-      network: ws
-      port: 80
-      server: www.speedtest.net
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-        path: /JaxavRV98PXaUKdZ?ed=2560
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.75 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: gkeUZppVQzutjGsRcsGMW8OrPHboJ3qRFpIvj8lcUj4
-        short-id: c174618d
-      server: pq.aws52.yydjc.top
-      servername: tv.apple.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - delay: 1883
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.63 MB/s"
-      network: ws
-      port: 80
-      server: 104.19.224.112
-      type: vless
-      udp: true
-      uuid: 8b90d0f5-8120-4aca-981d-d122ea272dfc
-      ws-opts:
-        headers:
-            Host: nl.xyxy.dpdns.org
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.77 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: zZJg13rJNHw6Zq2TGATm8UAnTmqD97i8qzrXcJFyEls
-        short-id: d4f2d377
-      server: pq.aws55.yydjc.top
-      servername: download-porter.hoyoverse.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.37 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: 0UFjUVBI4nT-rTdQewzCmsYLrs_a4-qTq2ksWpDanXw
-        short-id: c6306490
-      server: pq.aws53.yydjc.top
-      servername: buylite.tv.apple.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
+    - cipher: aes-256-cfb
+      country: RU
+      name: "\U0001F3F3️ MD | ⬇️ 27.61 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
     - delay: 872
       down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.56 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.56 MB/s"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -219,166 +70,30 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - delay: 565
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.68 MB/s"
+    - delay: 796
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.48 MB/s"
       network: ws
-      port: 8080
-      server: domain2025.dpdns.org
-      servername: domain2025.dpdns.org
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-        path: /kh6gqt9sbovbvejs?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.72 MB/s"
-      network: ws
-      port: 8880
-      server: 104.17.177.198
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.95 MB/s"
-      network: ws
-      port: 443
-      server: 213.163.200.215
-      servername: pasindu.vpnhub.news
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 12d6eb6c-7fe7-4d13-9587-3bb9fda1bd28
-      ws-opts:
-        headers:
-            Host: pasindu.vpnhub.news
-        path: /
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.86 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 152.69.225.196
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.71 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 146.56.164.36
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.58 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 193.123.250.219
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.31 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 193.123.240.119
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.13 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 193.122.98.107
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      delay: 1747
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.78 MB/s"
-      network: ws
-      port: 8880
-      server: 104.17.177.108
-      tls: false
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-        path: /Telegram @WangCai2 /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.15 MB/s"
-      network: ws
-      port: 2086
-      server: www.speedtest.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-        path: /3wVlyke7DbEIF74o?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.80 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: IHJ7w7m13QsYPFq8eppdqyTyeLmXzTtOG9EGu_-ep2c
-        short-id: 49824283a241
-      server: 152.70.99.180
-      servername: buylite.music.apple.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - auth: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
-      delay: 2564
-      name: "\U0001F3F3️ LI | ⬇️ 10.37 MB/s"
-      obfs: salamander
-      obfs-password: Bia-Telegram__SiNAVM-SiNAVM__Telegram__SiNAVM-SiNAVM
-      password: Bia-SiNAVM-Telegram-SiNAVM-Bia-SiNAVM
       port: 80
-      server: sinavm.sinavm.ir
-      skip-cert-verify: false
-      sni: sinavm.sinavm.ir
-      type: hysteria2
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.09 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 140.245.36.207
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+      server: 151.101.2.133
+      type: vless
       udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      delay: "1454"
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.08 MB/s"
+      uuid: 75ecef77-2050-4250-99f7-936d0188edf2
+      ws-opts:
+        headers:
+            Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+        path: /ws/?ed=2048
+      xudp: true
+    - delay: 1103
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.35 MB/s"
       obfs: ""
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
+      obfs-password: ""
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.207.162
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
