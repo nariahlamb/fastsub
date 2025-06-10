@@ -1,41 +1,7 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 56.03 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 65535
-      server: 40.233.77.86
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 53.37 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.133
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /
-    - delay: 2651
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 52.22 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.2
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
-        path: /
-      xudp: true
     - client-fingerprint: ios
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 41.51 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 74.05 MB/s"
       network: ws
       port: 443
       server: 23.227.38.18
@@ -49,103 +15,185 @@ proxies:
         headers:
             Host: dkus4.djwstlsweb.top
         path: /djjc/us4
-    - cipher: aes-256-gcm
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 39.80 MB/s"
-      password: FAAV716F9IMU18KM
-      port: 20010
-      server: 185.47.253.144
+    - delay: 1038
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.91 MB/s"
+      network: ws
+      port: 2095
+      server: domain2025.dpdns.org
+      type: vless
+      udp: true
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /SAthVSSIicEg9Sor?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: US
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.91 MB/s"
+      password: siDDjjPU42YLHgB1ylImNR
+      port: 20402
+      server: 38.180.210.53
       type: ss
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 29.77 MB/s"
+      network: ws
+      port: 2086
+      server: 185.148.106.213
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+        path: /@vpnAndroid2.@vpnAndroid2.@vpnAndroid2.@vpnAndroid2?ed=2560
+    - delay: 1038
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.44 MB/s"
+      network: ws
+      port: 2095
+      server: domain2025.dpdns.org
+      type: vless
       udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.68 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 129.153.71.226
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        path: /SAthVSSIicEg9Sor?ed=2560
+      xudp: true
+    - delay: 462
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.41 MB/s"
+      network: ws
+      port: 80
+      server: domain2025.dpdns.org
+      type: vless
+      udp: true
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /yeTxGofK7eV9fR3N?ed=2560
+      xudp: true
+    - delay: 823
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.23 MB/s"
+      network: ws
+      port: 80
+      server: 151.101.194.165
+      type: vless
+      udp: true
+      uuid: TELEGRAM-NUFiLTER
+      ws-opts:
+        headers:
+            Host: moradqoli.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
+      xudp: true
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.84 MB/s"
+      network: tcp
+      port: 3070
+      server: 138.199.168.193
       skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
+      tls: false
+      type: vless
       udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.54 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 141.148.158.54
+      uuid: d5adc2b1-0320-4fd7-a67d-620f1a881df1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.33 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.190
+      servername: cs.laoyoutiao.link
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.76 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.190
+      skip-cert-verify: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: /
+    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.17 MB/s"
+      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      port: 35000
+      server: 140.245.35.78
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: www.apple.com
       type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.47 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 144.24.54.157
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.03 MB/s"
+      password: 25d55ad283aa400af464c76d713c07ad
+      port: 8330
+      server: 66.55.65.54
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      tls: true
+      type: http
       udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.69 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 132.226.30.123
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      username: tqqlqvxj@mayorlogistic.com
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.91 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.190
+      servername: cs.laoyoutiao.link
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.49 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.117
+      skip-cert-verify: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: cs.laoyoutiao.link
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.63 MB/s"
+      network: ws
+      port: 2086
+      server: 159.246.55.233
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+        path: /@vpnAndroid2.@vpnAndroid2.@vpnAndroid2.@vpnAndroid2?ed=2560
+    - delay: 492
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.32 MB/s"
+      network: ws
+      port: 2052
+      server: 104.21.75.66
+      servername: domain2025.dpdns.org
+      type: vless
       udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 29.07 MB/s"
-      password: TM6O124OM55261AI
-      port: 20036
-      server: 185.237.185.77
-      type: ss
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 29.06 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 1
-      server: 152.70.176.68
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.65 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 65535
-      server: 132.145.28.17
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.53 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 65535
-      server: 132.145.52.10
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 28.49 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 1
-      server: 138.2.179.192
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F3F3️ RS | ⬇️ 27.94 MB/s"
-      password: 4SGX5VMSUESZVWP0
-      port: 20025
-      server: 185.186.77.137
-      type: ss
-      udp: true
-    - delay: 872
+      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      ws-opts:
+        headers:
+            Host: domain2025.dpdns.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
+        path: /qjzafwvfues0fyic?ed=2560
+      xudp: true
+    - delay: 1200
       down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 25.79 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.32 MB/s"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -155,119 +203,43 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - mport: 50000-53000
-      name: "\U0001F1F2\U0001F1FD MX | ⬇️ 25.73 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 140.84.178.54
+    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 11.05 MB/s"
+      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      port: 8080
+      server: hk2bbz.youxuan.wiki
       skip-cert-verify: true
-      sni: www.microsoft.com
+      sni: hk2bbz.youxuan.wiki
       type: hysteria2
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1E6\U0001F1F7 AR | ⬇️ 25.11 MB/s"
-      password: J4NOLOA487T3HXDV
-      port: 20006
-      server: 31.40.212.221
-      type: ss
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.77 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 62.210.71.30
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 22.85 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 129.151.193.163
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 19.13 MB/s"
-      password: LX7BVZDI2BRKZ55Y
-      port: 20021
-      server: 103.75.119.144
-      type: ss
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 18.78 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 144.22.129.240
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - delay: 542
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.43 MB/s"
+    - delay: 798
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.96 MB/s"
       network: ws
-      port: 2082
-      server: 104.21.75.66
+      port: 8880
+      server: 156.238.18.197
       type: vless
       udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /KQqqEF0TKMgJcC15?ed=2560
+            Host: yd.laoyoutiao.link
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /
       xudp: true
-    - mport: 50000-53000
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 13.05 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 159.13.38.138
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
+    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.37 MB/s"
+      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
+      port: 8080
+      server: hkh10.youxuan.wiki
+      skip-cert-verify: false
+      sni: hkh10.youxuan.wiki
       type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.66 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 131.186.42.162
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.33 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 50000
-      ports: 50000-53000
-      server: 146.56.180.104
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FF\U0001F1E6 ZA | ⬇️ 11.26 MB/s"
-      password: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      port: 65535
-      server: 129.151.169.64
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2795
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.89 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.36 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
@@ -276,27 +248,3 @@ proxies:
       type: hysteria
       udp: true
       up: 100
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1482
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.85 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
-    - delay: 1711
-      fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.68 MB/s"
-      password: dongtaiwang.com
-      port: 30033
-      server: 46.29.163.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
