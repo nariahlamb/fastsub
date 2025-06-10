@@ -1,218 +1,68 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: ios
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 74.05 MB/s"
-      network: ws
-      port: 443
-      server: 23.227.38.18
-      servername: dkus4.djwstlsweb.top
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8e57de7c-6b5b-4116-929b-421ea57c4e2d
-      ws-opts:
-        headers:
-            Host: dkus4.djwstlsweb.top
-        path: /djjc/us4
-    - delay: 1038
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.91 MB/s"
-      network: ws
-      port: 2095
-      server: domain2025.dpdns.org
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /SAthVSSIicEg9Sor?ed=2560
-      xudp: true
     - cipher: chacha20-ietf-poly1305
       country: US
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.91 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 35.81 MB/s"
       password: siDDjjPU42YLHgB1ylImNR
       port: 20402
       server: 38.180.210.53
       type: ss
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 29.77 MB/s"
+    - delay: 1105
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 33.41 MB/s"
       network: ws
-      port: 2086
-      server: 185.148.106.213
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-        path: /@vpnAndroid2.@vpnAndroid2.@vpnAndroid2.@vpnAndroid2?ed=2560
-    - delay: 1038
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.44 MB/s"
-      network: ws
-      port: 2095
-      server: domain2025.dpdns.org
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /SAthVSSIicEg9Sor?ed=2560
-      xudp: true
-    - delay: 462
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.41 MB/s"
-      network: ws
-      port: 80
-      server: domain2025.dpdns.org
-      type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-      ws-opts:
-        headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /yeTxGofK7eV9fR3N?ed=2560
-      xudp: true
-    - delay: 823
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.23 MB/s"
-      network: ws
-      port: 80
-      server: 151.101.194.165
-      type: vless
-      udp: true
-      uuid: TELEGRAM-NUFiLTER
-      ws-opts:
-        headers:
-            Host: moradqoli.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.84 MB/s"
-      network: tcp
-      port: 3070
-      server: 138.199.168.193
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: d5adc2b1-0320-4fd7-a67d-620f1a881df1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.33 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.190
-      servername: cs.laoyoutiao.link
-      skip-cert-verify: false
-      tls: false
+      port: 8880
+      server: 156.238.18.239
       type: vless
       udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
+            Host: yd.laoyoutiao.link
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36
         path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.76 MB/s"
+      xudp: true
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.79 MB/s"
       network: ws
-      port: 80
-      server: 141.193.213.190
+      port: 8443
+      server: nl.ccccccccccccccccccccccccccccccccccccccccccc.cc
+      servername: nl.ccccccccccccccccccccccccccccccccccccccccccc.cc
       skip-cert-verify: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: /
-    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.17 MB/s"
-      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      port: 35000
-      server: 140.245.35.78
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.03 MB/s"
-      password: 25d55ad283aa400af464c76d713c07ad
-      port: 8330
-      server: 66.55.65.54
-      skip-cert-verify: true
+      tfo: false
       tls: true
-      type: http
-      udp: true
-      username: tqqlqvxj@mayorlogistic.com
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.91 MB/s"
-      network: ws
-      port: 80
-      server: 141.193.213.190
-      servername: cs.laoyoutiao.link
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: eec6b143-ad40-42e8-8979-fcd75b5d4996
       ws-opts:
         headers:
-            Host: cs.laoyoutiao.link
+            Host: nl.ccccccccccccccccccccccccccccccccccccccccccc.cc
         path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.49 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 30.20 MB/s"
       network: ws
-      port: 80
-      server: 141.193.213.117
-      skip-cert-verify: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: cs.laoyoutiao.link
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.63 MB/s"
-      network: ws
-      port: 2086
-      server: 159.246.55.233
+      port: 8880
+      server: 156.238.18.1
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: domain2025.dpdns.org
-        path: /@vpnAndroid2.@vpnAndroid2.@vpnAndroid2.@vpnAndroid2?ed=2560
-    - delay: 492
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.32 MB/s"
+            Host: yd.laoyoutiao.link
+        path: /
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.29 MB/s"
       network: ws
-      port: 2052
-      server: 104.21.75.66
-      servername: domain2025.dpdns.org
+      port: 8880
+      server: 91.193.58.64
+      skip-cert-verify: false
       type: vless
-      udp: true
-      uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: domain2025.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36
-        path: /qjzafwvfues0fyic?ed=2560
-      xudp: true
-    - delay: 1200
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.32 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      up: ""
-    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 11.05 MB/s"
-      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      port: 8080
-      server: hk2bbz.youxuan.wiki
-      skip-cert-verify: true
-      sni: hk2bbz.youxuan.wiki
-      type: hysteria2
+            Host: us.laoyoutiao.link
+        path: /
     - delay: 798
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.96 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.27 MB/s"
       network: ws
       port: 8880
       server: 156.238.18.197
@@ -225,13 +75,49 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
         path: /
       xudp: true
+    - cipher: aes-256-cfb
+      country: RU
+      name: "\U0001F3F3️ MD | ⬇️ 22.35 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.81 MB/s"
+      network: tcp
+      port: 33718
+      reality-opts:
+        public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
+      server: 31.59.111.49
+      servername: icloud.cdn-apple.com
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: e657e5fb-c417-4d3f-d84e-a3a8f010f9fa
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.17 MB/s"
+      password: 14bdcd31-8a9f-4cf1-8fcc-60045900357d
+      port: 3002
+      server: us.10101251.xyz
+      skip-cert-verify: false
+      sni: us.10101251.xyz
+      type: hysteria2
     - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.37 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.20 MB/s"
       password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
       port: 8080
       server: hkh10.youxuan.wiki
       skip-cert-verify: false
       sni: hkh10.youxuan.wiki
+      type: hysteria2
+    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.11 MB/s"
+      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      port: 35000
+      server: 140.245.35.78
+      skip-cert-verify: true
+      sni: www.apple.com
       type: hysteria2
     - alpn:
         - h3
@@ -239,7 +125,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 2795
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.36 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.33 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
