@@ -1,28 +1,140 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.02 MB/s"
-      network: ws
-      port: 443
-      server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-      servername: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
-      skip-cert-verify: true
-      tls: true
-      type: vless
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - d1.awsstatic.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 92.14 MB/s"
+      network: http
+      port: 2095
+      server: 142.93.253.49
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      uuid: 21284025-a32f-4f90-aaba-55b5d22b0070
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.18 MB/s"
+      network: ws
+      port: 80
+      server: 151.101.130.133
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 75ecef77-2050-4250-99f7-936d0188edf2
       ws-opts:
         headers:
-            Host: 1749023174552.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+            Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
+        path: /ws/?ed=2048
+    - alterId: 0
+      cipher: auto
+      country: ZZ
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.77 MB/s"
+      network: ws
+      port: 80
+      server: Xcvfgt5.222560.xyz
+      servername: xcvfgt5.222560.xyz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
+      ws-opts:
+        headers:
+            HOST: xcvfgt5.222560.xyz
+        path: /7LBPethgWxDoVuzO0WLijID
+    - country: UA
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 32.06 MB/s"
+      password: 0fc9c5ff-9531-4178-966f-7d958e1df64b
+      port: 443
+      server: 95.164.85.39
+      sni: wispy-crib-net.stark-industries.solutions
+      type: trojan
+      udp: true
+    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.22 MB/s"
+      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      port: 35000
+      server: 132.145.239.250
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.33 MB/s"
+      network: ws
+      port: 8443
+      server: gb.nsa.cc
+      servername: gb.nsa.cc
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d9a019a1-f784-4d8e-b660-23679009d88d
+      ws-opts:
+        headers:
+            Host: gb.nsa.cc
         path: /
-    - cipher: aes-256-cfb
-      country: RU
-      name: "\U0001F3F3️ MD | ⬇️ 22.36 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.153.197.5
-      type: ss
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.01 MB/s"
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.88 MB/s"
+      network: ws
+      port: 8443
+      server: gb.nsa.cc
+      servername: gb.nsa.cc
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: d9a019a1-f784-4d8e-b660-23679009d88d
+      ws-opts:
+        headers:
+            Host: gb.nsa.cc
+        path: /
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.72 MB/s"
+      network: ws
+      port: 443
+      server: new3.huvicloud.com
+      servername: new3.huvicloud.com
+      tls: true
+      type: vmess
+      udp: true
+      uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
+      ws-opts:
+        headers:
+            Host: new3.huvicloud.com
+        path: /a10476b9-1c07-4de3-9d84-c51d24be599f
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.27 MB/s"
+      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
+      port: 18593
+      server: coco.edu.deal
+      sni: coco.edu.deal
+      type: tuic
+      uuid: a650ba6c-b538-4411-92a6-eaf81f3cc055
+      version: 5
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.08 MB/s"
+      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
+      port: 42400
+      server: coco.edu.deal
+      skip-cert-verify: false
+      sni: coco.edu.deal
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.39 MB/s"
       network: ws
       port: 8880
       server: 104.21.69.44
@@ -36,63 +148,71 @@ proxies:
         headers:
             Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
         path: /?ed=2048
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.79 MB/s"
-      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
-      port: 42400
-      server: coco.edu.deal
-      skip-cert-verify: false
-      sni: coco.edu.deal
-      tfo: false
-      type: hysteria2
-    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.80 MB/s"
-      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      port: 35000
-      server: 132.145.239.250
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.82 MB/s"
-      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
-      port: 18593
-      server: coco.edu.deal
-      sni: coco.edu.deal
-      type: tuic
-      uuid: a650ba6c-b538-4411-92a6-eaf81f3cc055
-      version: 5
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.30 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.38 MB/s"
       password: 25c19ed4-d62e-4c0b-906f-dd5022d81d7a
       port: 18888
       server: 74.113.96.196
       skip-cert-verify: true
       tfo: false
       type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.01 MB/s"
+      network: tcp
+      port: 44073
+      reality-opts:
+        _spider-x: /
+        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+        short-id: bb3e0a552dfe5995
+      server: 92.112.23.189
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.91 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.71.205
+      servername: 7d33510a-5dA0-4F85-b1d5-5321a9eaA72a.890603.pP.uA
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+      ws-opts:
+        headers:
+            Host: 7d33510a-5da0-4f85-b1d5-5321a9eaa72a.890603.pp.ua
+        path: /XcQF058rNJ3gc4aj
     - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.25 MB/s"
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 10.76 MB/s"
       password: c0b2490e-2625-4b9c-b766-50fff8b92a21
       port: 35000
-      server: 140.245.35.78
+      server: 159.13.35.245
       skip-cert-verify: true
-      sni: www.apple.com
+      sni: api.push.apple.com
       type: hysteria2
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.67 MB/s"
-      password: dongtaiwang.com
-      port: 50850
-      server: 45.129.2.108
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.58 MB/s"
+      port: 46430
+      reality-opts:
+        public-key: kQoMZ1G4jwT9yTlF-NtZwhG22j3NQhzlvGsiiLxrLzI
+        short-id: e27f3a
+      server: 143.14.220.136
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2795
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.66 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.13 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
@@ -101,20 +221,3 @@ proxies:
       type: hysteria
       udp: true
       up: 100
-    - alterId: 0
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.23 MB/s"
-      network: ws
-      port: 443
-      server: n1735527929.ryjml.cn
-      servername: n1735527929.ryjml.cn
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 1005ef37-b5ce-4c0d-af7a-5906fc0d72a7
-      ws-headers:
-        HOST: n1735527929.ryjml.cn
-      ws-path: /
