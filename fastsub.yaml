@@ -1,24 +1,6 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.77 MB/s"
-      network: ws
-      port: 443
-      server: time.is
-      servername: greece-hung-nonprofit-facing.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 66e5c8dd-3176-458e-8fb0-1ed91d2f9602
-      ws-opts:
-        headers:
-            HOST: greece-hung-nonprofit-facing.trycloudflare.com
-        path: /vmess-argo?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.95 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.99 MB/s"
       network: ws
       port: 8880
       server: 104.21.69.44
@@ -32,32 +14,21 @@ proxies:
         headers:
             Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
         path: /?ed=2048
-    - auth: eaf5306e-e745-44b6-8911-f6afc6e9b2fe
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 17.77 MB/s"
-      password: eaf5306e-e745-44b6-8911-f6afc6e9b2fe
-      port: 22159
-      server: hsadly.huasuan666.top
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.49 MB/s"
+      network: ws
+      port: 443
+      server: time.is
+      servername: kg.ilikeu.dpdns.org
       skip-cert-verify: true
-      sni: hsadly.huasuan666.top
-      type: hysteria2
+      tls: true
+      type: vless
       udp: true
-    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.67 MB/s"
-      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
-      port: 35000
-      server: 132.145.239.250
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-    - auth: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 12.69 MB/s"
-      password: 5407367c-cfa5-4e24-89ee-990e86d4cde8
-      port: 8080
-      server: hk2bbz.youxuan.wiki
-      skip-cert-verify: true
-      sni: hk2bbz.youxuan.wiki
-      type: hysteria2
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.65 MB/s"
+      uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+      ws-opts:
+        headers:
+            host: kg.ilikeu.dpdns.org
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.53 MB/s"
       network: ws
       port: 8880
       server: 104.21.69.44
@@ -72,7 +43,7 @@ proxies:
             Host: join.V2RAYFAST7.iran.ir.arvancloud.ir.nett.focusontrade.ir
         path: /?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.20 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.62 MB/s"
       port: 46430
       reality-opts:
         public-key: kQoMZ1G4jwT9yTlF-NtZwhG22j3NQhzlvGsiiLxrLzI
@@ -84,13 +55,41 @@ proxies:
       type: vless
       udp: true
       uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
+    - auth: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.38 MB/s"
+      password: c0b2490e-2625-4b9c-b766-50fff8b92a21
+      port: 35000
+      server: 132.145.239.250
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+    - cipher: aes-256-gcm
+      name: "\U0001F1F9\U0001F1ED TH | ⬇️ 16.75 MB/s"
+      password: RRDWZ9G1PSP6NGVL
+      port: 20022
+      server: 46.16.129.217
+      type: ss
+      udp: true
+    - delay: 1200
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.10 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 4489
+      server: 51.158.205.126
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 2795
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.36 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.29 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
