@@ -1,132 +1,84 @@
 proxy-providers: {}
 proxies:
-    - delay: 796
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.68 MB/s"
-      network: ws
-      port: 80
-      server: 151.101.2.133
-      type: vless
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 32.25 MB/s"
+      password: TL7Z4WZQN4HH8YS5
+      port: 20035
+      server: 185.186.78.220
+      type: ss
       udp: true
-      uuid: 75ecef77-2050-4250-99f7-936d0188edf2
-      ws-opts:
-        headers:
-            Host: xasshsga---RUBIKA.ir.speedtest.net.ARCHYU.IR
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
-        path: /ws/?ed=2048
-      xudp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 22.40 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
+    - delay: 1103
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.64 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.207.162
       skip-cert-verify: true
-      sni: apple.com
+      sni: www.bing.com
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.93 MB/s"
-      network: ws
-      port: 443
-      server: new3.huvicloud.com
-      servername: new3.huvicloud.com
-      tls: true
-      type: vmess
+      up: ""
+    - cipher: aes-256-gcm
+      name: "\U0001F1E6\U0001F1F7 AR | ⬇️ 23.71 MB/s"
+      password: XZXKA8JY08UUV2EO
+      port: 20006
+      server: 31.40.212.221
+      type: ss
       udp: true
-      uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
-      ws-opts:
-        headers:
-            Host: new3.huvicloud.com
-        path: /a10476b9-1c07-4de3-9d84-c51d24be599f
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.88 MB/s"
-      network: ws
-      port: 8443
-      server: gb.nsa.cc
-      servername: gb.nsa.cc
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d9a019a1-f784-4d8e-b660-23679009d88d
-      ws-opts:
-        headers:
-            Host: gb.nsa.cc
-        path: /
+    - auth: aaf7a87d-ef38-433e-b86e-07ddea14fac4
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.07 MB/s"
+      password: aaf7a87d-ef38-433e-b86e-07ddea14fac4
+      port: 55462
+      server: 154.21.206.251
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.93 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.39 MB/s"
       password: dongtaiwang.com
       port: 4489
       server: 51.158.205.126
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.92 MB/s"
-      network: ws
-      port: 8443
-      server: gb.nsa.cc
-      servername: gb.nsa.cc
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d9a019a1-f784-4d8e-b660-23679009d88d
-      ws-opts:
-        headers:
-            Host: gb.nsa.cc
-        path: /
-    - country: UA
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 19.29 MB/s"
-      password: 0fc9c5ff-9531-4178-966f-7d958e1df64b
-      port: 443
-      server: 95.164.85.39
-      sni: wispy-crib-net.stark-industries.solutions
-      type: trojan
-      udp: true
     - alterId: 0
       cipher: auto
       country: ZZ
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.78 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.94 MB/s"
       network: ws
       port: 80
-      server: cdvbnmk9.freevpnatm.dpdns.org
-      servername: cdvbnmk9.freevpnatm.dpdns.org
+      server: Xcvfgt5.222560.xyz
+      servername: xcvfgt5.222560.xyz
       skip-cert-verify: true
       type: vmess
-      uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
+      uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
       ws-opts:
         headers:
-            HOST: cdvbnmk9.freevpnatm.dpdns.org
-        path: /10W6SJaK0F0oVXeNU6S2RVRP
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.13 MB/s"
-      network: ws
-      port: 2053
-      server: 162.159.135.76
-      servername: de.huaweiwuu5.xyz
+            HOST: xcvfgt5.222560.xyz
+        path: /7LBPethgWxDoVuzO0WLijID
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.62 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 882292a3-54e8-4c9c-f0b7-e7434cf5da5b
-      ws-opts:
-        headers:
-            Host: de.huaweiwuu5.xyz
-        path: /
+      sni: apple.com
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.85 MB/s"
+      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
+      port: 42400
+      server: coco.edu.deal
+      skip-cert-verify: false
+      sni: coco.edu.deal
+      tfo: false
+      type: hysteria2
     - alpn:
         - h3
       congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.38 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.69 MB/s"
       password: a650ba6c-b538-4411-92a6-eaf81f3cc055
       port: 18593
       server: coco.edu.deal
@@ -134,16 +86,8 @@ proxies:
       type: tuic
       uuid: a650ba6c-b538-4411-92a6-eaf81f3cc055
       version: 5
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 13.03 MB/s"
-      password: dongtaiwang.com
-      port: 50850
-      server: 45.129.2.108
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.39 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.10 MB/s"
       network: tcp
       port: 44073
       reality-opts:
@@ -157,7 +101,7 @@ proxies:
       type: vless
       uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.36 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.83 MB/s"
       network: tcp
       port: 46430
       reality-opts:
@@ -170,20 +114,12 @@ proxies:
       tls: true
       type: vless
       uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 11.03 MB/s"
-      password: dongtaiwang.com
-      port: 30033
-      server: 46.29.163.171
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - alterId: 0
       cipher: auto
       country: ZZ
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.53 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.48 MB/s"
       network: ws
       port: 80
       server: Xcvfgt5.222560.xyz
@@ -195,16 +131,33 @@ proxies:
         headers:
             HOST: xcvfgt5.222560.xyz
         path: /7LBPethgWxDoVuzO0WLijID
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.21 MB/s"
-      port: 46430
-      reality-opts:
-        public-key: kQoMZ1G4jwT9yTlF-NtZwhG22j3NQhzlvGsiiLxrLzI
-        short-id: e27f3a
-      server: 143.14.220.136
-      servername: yahoo.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1482
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.57 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 2795
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.11 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
+      up: 100
