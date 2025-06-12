@@ -1,20 +1,7 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 70.04 MB/s"
-      network: ws
-      port: 2096
-      server: www.gov.ua
-      servername: nptian.xiaotianvpn.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0343e230-5132-4e98-844e-b42ad1a6a273
-      ws-opts:
-        headers:
-            Host: nptian.xiaotianvpn.sbs
-        path: /?ed=2560
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.87 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 120.17 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -22,7 +9,7 @@ proxies:
       sni: aus.pagate.top
       type: hysteria2
     - auth: aaf7a87d-ef38-433e-b86e-07ddea14fac4
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.99 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.96 MB/s"
       password: aaf7a87d-ef38-433e-b86e-07ddea14fac4
       port: 55462
       server: 154.21.206.251
@@ -31,75 +18,20 @@ proxies:
       type: hysteria2
     - cipher: aes-256-cfb
       country: RU
-      name: "\U0001F3F3️ MD | ⬇️ 21.51 MB/s"
+      name: "\U0001F3F3️ MD | ⬇️ 18.86 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 185.153.197.5
       type: ss
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.55 MB/s"
-      network: ws
-      port: 8443
-      server: nl.nsa.cc
-      servername: nl.nsa.cc
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: d5c20371-33f6-40de-ab16-d04687564814
-      ws-opts:
-        headers:
-            Host: nl.nsa.cc
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.69 MB/s"
-      network: ws
-      port: 443
-      server: 168.138.181.208
-      servername: sgp.rtot.me
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.09 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
       skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
-      ws-opts:
-        headers:
-            Host: sgp.rtot.me
-        path: /bing
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.22 MB/s"
-      password: <password>
-      port: 8443
-      server: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      udp: true
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.67 MB/s"
-      password: a650ba6c-b538-4411-92a6-eaf81f3cc055
-      port: 42400
-      server: coco.edu.deal
-      skip-cert-verify: false
-      sni: coco.edu.deal
-      tfo: false
+      sni: apple.com
       type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.91 MB/s"
-      network: tcp
-      port: 44073
-      reality-opts:
-        _spider-x: /
-        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
-        short-id: bb3e0a552dfe5995
-      server: 92.112.23.189
-      servername: yahoo.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.54 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.03 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
@@ -107,7 +39,7 @@ proxies:
       sni: asg.pagate.top
       type: hysteria2
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.92 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.80 MB/s"
       network: tcp
       port: 44073
       reality-opts:
@@ -120,3 +52,58 @@ proxies:
       tls: true
       type: vless
       uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - delay: 1200
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 12.26 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 4489
+      server: 51.158.205.126
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      up: ""
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1670
+      down: 1000 Mbps
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.18 MB/s"
+      port: 62003
+      server: 176.32.35.226
+      servername: apple.com
+      skip-cert-verify: true
+      type: hysteria
+      up: 1000 Mbps
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.71 MB/s"
+      network: tcp
+      port: 44073
+      reality-opts:
+        _spider-x: /
+        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+        short-id: bb3e0a552dfe5995
+      server: 92.112.23.189
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1482
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.45 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
