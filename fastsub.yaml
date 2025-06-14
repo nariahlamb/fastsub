@@ -1,8 +1,53 @@
 proxy-providers: {}
 proxies:
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      delay: 1533
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 228.90 MB/s"
+      network: ws
+      port: 2087
+      server: zula.ir
+      servername: rita.adaspoloandco.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 904cdf83-1b0c-4cd5-a0c1-6690c1ee6219
+      ws-opts:
+        headers:
+            Host: rita.adaspoloandco.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /downloader
+      xudp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1F9 GT | ⬇️ 56.62 MB/s"
+      password: F3OJNULJ3HQKONXK
+      port: 20007
+      server: 185.47.254.177
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.59 MB/s"
+      network: ws
+      port: 443
+      server: 135.84.64.208
+      servername: mc1.777999.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: 149e1f3d-b2e0-4879-8d9c-7a13d01c32ed
+      ws-opts:
+        headers:
+            Host: mc1.777999.lol
+        path: /?ed=2560
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1030
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.60 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.70 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -10,117 +55,120 @@ proxies:
       sni: aus.pagate.top
       type: hysteria2
     - alpn:
+        - h3
         - h2
         - http/1.1
       client-fingerprint: chrome
-      delay: 1533
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.25 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.06 MB/s"
       network: ws
-      port: 2087
-      server: zula.ir
-      servername: rita.adaspoloandco.com
+      port: 443
+      server: 135.84.64.208
+      servername: madcity3.mianfeicf.lol
       tls: true
       type: vless
       udp: true
-      uuid: 904cdf83-1b0c-4cd5-a0c1-6690c1ee6219
+      uuid: d7eae7a4-052e-4ab4-98c5-0100f2e26be7
       ws-opts:
         headers:
-            Host: rita.adaspoloandco.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /downloader
-      xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1533
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.25 MB/s"
-      network: ws
-      port: 2087
-      server: zula.ir
-      servername: rita.adaspoloandco.com
+            Host: madcity3.mianfeicf.lol
+        path: /?ed=2560
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1F1 CL | ⬇️ 29.45 MB/s"
+      password: CGS4YEA767IJW6OO
+      port: 20012
+      server: 37.143.128.125
+      type: ss
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 29.41 MB/s"
+      password: SCKMTA1ZRQ9Q1XQI
+      port: 20036
+      server: 185.237.185.77
+      type: ss
+      udp: true
+    - auth: dongtaiwang.com
+      delay: 1251
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.11 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1930
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.72 MB/s"
+      network: raw
+      port: 443
+      reality-opts:
+        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
+        short-id: 7def4dde
+      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
       tls: true
       type: vless
       udp: true
-      uuid: 904cdf83-1b0c-4cd5-a0c1-6690c1ee6219
+      uuid: 33707040-edcf-4185-94e4-2a071315c602
+      xudp: true
+    - delay: 1724
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.49 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.80 MB/s"
+      network: ws
+      password: b1676447-0825-4b60-be37-735c9586735e
+      port: 443
+      server: 123.interld123456789.com
+      sni: BLh5kJFHH9tQ.sg123123123.xyz
+      type: trojan
+      udp: true
       ws-opts:
         headers:
-            Host: rita.adaspoloandco.com
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-        path: /downloader
-      xudp: true
+            Host: BLh5kJFHH9tQ.sg123123123.xyz
+        path: /answer
+    - auth: aaf7a87d-ef38-433e-b86e-07ddea14fac4
+      delay: 1030
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.74 MB/s"
+      password: aaf7a87d-ef38-433e-b86e-07ddea14fac4
+      port: 55462
+      server: 154.21.206.251
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - cipher: chacha20-ietf-poly1305
       country: RU
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.07 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.68 MB/s"
       password: ahL8QDXl9qt6SZt1oV9lhM
       port: 1235
       server: sakura.outlinekeys.net
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.25 MB/s"
-      network: ws
+    - auth: dongtaiwang.com
+      delay: 1251
+      name: "\U0001F1EB\U0001F1F7 FR 123 | ⬇️ 4.56 MB/s"
+      password: dongtaiwang.com
+      port: 4489
+      server: hy2-2.694463.xyz
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.76 MB/s"
+      password: yijian0503
       port: 443
-      server: 168.138.181.208
-      servername: sgp.rtot.me
-      skip-cert-verify: true
-      tls: true
-      type: vless
+      server: 3.38.180.137
+      type: ss
       udp: true
-      uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
-      ws-opts:
-        headers:
-            Host: sgp.rtot.me
-        path: /bing
-    - auth: f97899a2-7aa0-4883-b887-a7f1e16a5802
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 16.44 MB/s"
-      password: f97899a2-7aa0-4883-b887-a7f1e16a5802
-      port: 22157
-      server: hshl.huasuan666.top
-      skip-cert-verify: true
-      sni: hshl.huasuan666.top
-      type: hysteria2
-      udp: true
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.66 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
-      skip-cert-verify: false
-      sni: asg.pagate.top
-      type: hysteria2
-    - auth: dongtaiwang.com
-      delay: 1251
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.21 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-2.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: dongtaiwang.com
-      delay: 1251
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.54 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-2.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - delay: 719
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.24 MB/s"
-      password: <password>
-      port: 8443
-      server: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      sni: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
     - delay: 1456
       down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 12.83 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.21 MB/s"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -130,8 +178,154 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.00 MB/s"
+      password: 968685ca-7ba9-4197-9ac6-e6dfd67dc9ee
+      port: 49098
+      server: 0a524b8de68f0aab72f146f2f6235c4e.v1.cac.node-is.green
+      skip-cert-verify: true
+      sni: jp1.bilibili.com
+      type: trojan
+    - cipher: chacha20-ietf-poly1305
+      country: RU
+      name: "\U0001F3F3️ KZ | ⬇️ 13.80 MB/s"
+      password: 7rGhdwWIrf4N9KSYNtarbL
+      port: 1090
+      server: 91.217.10.60
+      type: ss
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.79 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.163.14
+      servername: DfcVrf.2031.pp.Ua
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: 585acd30-52bf-4b70-a537-e13649fafefc
+      ws-opts:
+        headers:
+            Host: DfcVrf.2031.pp.Ua
+        path: /rU9rSjDSOd4yY2fOe
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1276
+      down: 1000 Mbps
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.56 MB/s"
+      port: 62003
+      server: 176.32.35.226
+      servername: apple.com
+      skip-cert-verify: true
+      type: hysteria
+      up: 1000 Mbps
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 1176
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.38 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: asg.pagate.top
+      skip-cert-verify: false
+      sni: asg.pagate.top
+      type: hysteria2
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.35 MB/s"
+      delay: 1285
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.13 MB/s"
+      network: tcp
+      port: 44073
+      reality-opts:
+        _spider-x: /
+        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+        short-id: bb3e0a552dfe5995
+      server: 92.112.23.189
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - alterId: 0
+      cipher: auto
+      country: ' US'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.97 MB/s"
+      network: ws
+      port: 52512
+      server: aflzzul.meiquankongjian.com
+      servername: aflzzul.meiquankongjian.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+      ws-opts:
+        headers:
+            HOST: aflzzul.meiquankongjian.com
+        path: /564dfa20/
+    - name: "\U0001F1ED\U0001F1F0 HK 199 | ⬇️ 8.45 MB/s"
+      password: 6087d8e3-ea9e-48eb-8217-6050ff752f56
+      port: 443
+      server: il.mjt000.com
+      skip-cert-verify: true
+      sni: il.mjt000.com
+      type: trojan
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.51 MB/s"
+      port: 44073
+      reality-opts:
+        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+        short-id: bb3e0a552dfe5995
+      server: 92.112.23.189
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.85 MB/s"
+      port: 15010
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 932
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.67 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.50 MB/s"
+      port: 46430
+      reality-opts:
+        public-key: kQoMZ1G4jwT9yTlF-NtZwhG22j3NQhzlvGsiiLxrLzI
+        short-id: e27f3a
+      server: 143.14.220.136
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 021423af-85fc-4bb6-b32e-deeed97581e1
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.42 MB/s"
       port: 44073
       reality-opts:
         public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
