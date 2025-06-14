@@ -1,56 +1,11 @@
 proxy-providers: {}
 proxies:
     - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 123.14 MB/s"
-      network: ws
-      port: 443
-      server: 135.84.64.208
-      servername: mc1.777999.lol
-      tls: true
-      type: vless
-      udp: true
-      uuid: 149e1f3d-b2e0-4879-8d9c-7a13d01c32ed
-      ws-opts:
-        headers:
-            Host: mc1.777999.lol
-        path: /?ed=2560
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1030
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.95 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.00 MB/s"
-      network: ws
-      port: 443
-      server: 135.84.64.208
-      servername: madcity3.mianfeicf.lol
-      tls: true
-      type: vless
-      udp: true
-      uuid: d7eae7a4-052e-4ab4-98c5-0100f2e26be7
-      ws-opts:
-        headers:
-            Host: madcity3.mianfeicf.lol
-        path: /?ed=2560
-    - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
       delay: 1533
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.23 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 262.60 MB/s"
       network: ws
       port: 2087
       server: zula.ir
@@ -65,63 +20,143 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
         path: /downloader
       xudp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.02 MB/s"
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      delay: 1533
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 236.75 MB/s"
       network: ws
-      password: b1676447-0825-4b60-be37-735c9586735e
-      port: 443
-      server: 123.interld123456789.com
-      sni: BLh5kJFHH9tQ.sg123123123.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: BLh5kJFHH9tQ.sg123123123.xyz
-        path: /answer
-    - cipher: chacha20-ietf-poly1305
-      country: RU
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.32 MB/s"
-      password: ahL8QDXl9qt6SZt1oV9lhM
-      port: 1235
-      server: sakura.outlinekeys.net
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.91 MB/s"
-      password: yijian0503
-      port: 443
-      server: 3.38.180.137
-      type: ss
-      udp: true
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.95 MB/s"
-      network: tcp
-      port: 56702
-      reality-opts:
-        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-        short-id: 792147b8
-      server: sg2.interld123456789.com
-      servername: addons.mozilla.org
+      port: 2087
+      server: zula.ir
+      servername: rita.adaspoloandco.com
       tls: true
       type: vless
       udp: true
-      uuid: b1676447-0825-4b60-be37-735c9586735e
-    - auth: dongtaiwang.com
-      delay: 1251
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.66 MB/s"
+      uuid: 904cdf83-1b0c-4cd5-a0c1-6690c1ee6219
+      ws-opts:
+        headers:
+            Host: rita.adaspoloandco.com
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
+        path: /downloader
+      xudp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.56 MB/s"
+      network: ws
+      port: 443
+      server: 135.84.64.208
+      servername: mc1.777999.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: 149e1f3d-b2e0-4879-8d9c-7a13d01c32ed
+      ws-opts:
+        headers:
+            Host: mc1.777999.lol
+        path: /?ed=2560
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.54 MB/s"
+      network: ws
+      port: 443
+      server: 135.84.64.208
+      servername: madcity3.mianfeicf.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: d7eae7a4-052e-4ab4-98c5-0100f2e26be7
+      ws-opts:
+        headers:
+            Host: madcity3.mianfeicf.lol
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      delay: 1930
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.77 MB/s"
+      network: raw
+      port: 443
+      reality-opts:
+        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
+        short-id: 7def4dde
+      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: 33707040-edcf-4185-94e4-2a071315c602
+      xudp: true
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 1030
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.10 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.09 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: ajp.pagate.top
+      skip-cert-verify: false
+      sni: ajp.pagate.top
+      type: hysteria2
+    - auth: a1571eb5-09b3-47d5-a909-c7acc8dd39d7
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 15.17 MB/s"
+      password: a1571eb5-09b3-47d5-a909-c7acc8dd39d7
+      port: 22160
+      server: hsbl.huasuan666.top
+      skip-cert-verify: true
+      sni: hsbl.huasuan666.top
+      type: hysteria2
+      udp: true
+    - delay: 1456
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.41 MB/s"
+      obfs: ""
+      obfs-password: ""
       password: dongtaiwang.com
       port: 4489
-      server: hy2-2.694463.xyz
+      server: 51.158.205.126
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-      udp: true
-    - auth: dongtaiwang.com
-      delay: 1251
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.25 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-2.694463.xyz
+      up: ""
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.01 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.212.82
+      servername: 7tgn.131.pp.ua
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      tls: true
+      type: vless
+      uuid: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
+      ws-opts:
+        headers:
+            Host: 7tgn.131.pp.ua
+        path: /rdcXpTqcZpByZyxgvJgLl
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 11.10 MB/s"
+      network: ws
+      port: 30909
+      server: tw3.ifastcdncache.com
+      tls: false
+      type: vmess
       udp: true
+      uuid: a99217df-7ffe-4496-947b-86e0a920b351
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
