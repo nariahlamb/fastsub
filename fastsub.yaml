@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 109.59 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 106.70 MB/s"
       network: ws
       port: 443
       server: whatismyipaddress.com
@@ -19,7 +19,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       delay: 1533
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 93.63 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 103.06 MB/s"
       network: ws
       port: 2087
       server: zula.ir
@@ -37,7 +37,7 @@ proxies:
     - alpn:
         - h3
       auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.76 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.88 MB/s"
       password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
       port: 47262
       server: 207.211.174.19
@@ -47,7 +47,7 @@ proxies:
       udp: true
     - cipher: aes-256-cfb
       country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.10 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.21 MB/s"
       password: awsps0501
       port: 443
       server: 44.248.149.58
@@ -57,7 +57,7 @@ proxies:
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.07 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.43 MB/s"
       network: ws
       port: 443
       server: 135.84.64.208
@@ -70,17 +70,24 @@ proxies:
         headers:
             Host: mc1.777999.lol
         path: /?ed=2560
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1030
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.55 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F3F3️ CW | ⬇️ 43.89 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.245.89
+      servername: us1.lzjnb.shop
       skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 8913bd2c-fd6b-4253-9076-753edbbbc90c
+      ws-opts:
+        headers:
+            Host: us1.lzjnb.shop
+        path: /fd6b
     - auth: PassWord2
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.03 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.29 MB/s"
       obfs: salamander
       obfs-password: PassWord1
       password: PassWord2
@@ -91,7 +98,7 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.94 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.85 MB/s"
       network: tcp
       port: 41439
       reality-opts:
@@ -103,71 +110,9 @@ proxies:
       type: vless
       udp: true
       uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 30.01 MB/s"
-      network: tcp
-      port: 18013
-      server: 188.34.185.192
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: e362a7d3-0018-4910-a885-ea27a79d00c3
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 29.10 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: e1o1RxkM8nA3PpUoHK1mciI1L0J8emMaWq3bwILmIA0
-      server: 157.90.124.116
-      servername: multiequipossa.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fcbae65d-739f-40fb-847c-67a862ecb746
-    - alpn:
-        - h3h2
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.22 MB/s"
-      network: ws
-      port: 2053
-      server: 104.21.69.44
-      servername: ah12.ai351.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7d05d766-4f45-455e-b789-70253ec34b8f
-      ws-opts:
-        headers:
-            Host: ah12.ai351.com
-        path: /containers/de
-    - client-fingerprint: chrome
-      delay: 1930
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.12 MB/s"
-      network: raw
-      port: 443
-      reality-opts:
-        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-        short-id: 7def4dde
-      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: 33707040-edcf-4185-94e4-2a071315c602
-      xudp: true
-    - auth: 2e1856c1-cf1c-41cc-b900-c446bcbe9cee
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 20.13 MB/s"
-      password: 2e1856c1-cf1c-41cc-b900-c446bcbe9cee
-      port: 22157
-      server: hshl.huasuan666.top
-      skip-cert-verify: true
-      sni: hshl.huasuan666.top
-      type: hysteria2
-      udp: true
     - alpn:
         - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.09 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.42 MB/s"
       network: ws
       password: 512d9674-db12-44ca-a1b5-654244549b65
       port: 443
@@ -180,32 +125,45 @@ proxies:
         headers:
             Host: gghui.4444936.xyz
         path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.43 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: 51.158.205.126
-      skip-cert-verify: true
-      sni: www.bing.com
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 1030
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.65 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
       type: hysteria2
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.51 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-2.694463.xyz
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.73 MB/s"
+      password: HU3ZebY2-OMZ9ErvsG_0zg
+      port: 5555
+      server: 38.180.158.38
+      type: ss
+    - client-fingerprint: chrome
+      delay: 1930
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.21 MB/s"
+      network: raw
+      port: 443
+      reality-opts:
+        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
+        short-id: 7def4dde
+      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
+      tls: true
+      type: vless
       udp: true
+      uuid: 33707040-edcf-4185-94e4-2a071315c602
+      xudp: true
     - alpn:
         - h3
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.38 MB/s"
+      name: "\U0001F3F3️ CW | ⬇️ 20.35 MB/s"
       network: ws
       port: 443
-      server: 135.84.64.208
+      server: 5.10.245.109
       servername: madcity3.mianfeicf.lol
       tls: true
       type: vless
@@ -215,51 +173,49 @@ proxies:
         headers:
             Host: madcity3.mianfeicf.lol
         path: /?ed=2560
-    - auth: 39582256-8bac-4fb1-8646-3f76482da673
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.99 MB/s"
-      password: 39582256-8bac-4fb1-8646-3f76482da673
-      port: 8080
-      server: hyfnsg01.476579.xyz
-      skip-cert-verify: false
-      sni: hyfnsg01.476579.xyz
-      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.19 MB/s"
+      password: yijian0503
+      port: 443
+      server: 3.38.180.137
+      type: ss
       udp: true
-    - auth: 39582256-8bac-4fb1-8646-3f76482da673
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.80 MB/s"
-      password: 39582256-8bac-4fb1-8646-3f76482da673
-      port: 8080
-      server: 1sg002.757866.xyz
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.32 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: ajp.pagate.top
       skip-cert-verify: false
-      sni: 1sg002.757866.xyz
+      sni: ajp.pagate.top
       type: hysteria2
-      udp: true
-    - auth: dongtaiwang.com
-      delay: 1251
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.61 MB/s"
-      password: dongtaiwang.com
-      port: 4489
-      server: hy2-2.694463.xyz
+    - auth: 141ccf90-5f99-4a19-96b1-71b792664e7b
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.14 MB/s"
+      password: 141ccf90-5f99-4a19-96b1-71b792664e7b
+      port: 43999
+      server: jiangzhiylk.54264944.xyz
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: jiangzhiylk.54264944.xyz
       type: hysteria2
       udp: true
     - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 932
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.55 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.64 MB/s"
+      network: ws
+      port: 8443
+      server: t.nsa.cc
+      servername: t.nsa.cc
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 0dcc717f-42a1-407c-acd6-b298f4d98a48
+      ws-opts:
+        headers:
+            Host: t.nsa.cc
+        path: /
     - auth: 39582256-8bac-4fb1-8646-3f76482da673
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.47 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.19 MB/s"
       password: 39582256-8bac-4fb1-8646-3f76482da673
       port: 8081
       server: 1jp003.156786.xyz
@@ -267,19 +223,3 @@ proxies:
       sni: 1jp003.156786.xyz
       type: hysteria2
       udp: true
-    - auth: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.24 MB/s"
-      password: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-      port: 8443
-      server: 77e4ecc4-swkhs0-sxicvr-1swry.hy2.gotochinatown.net
-      sni: 77e4ecc4-swkhs0-sxicvr-1swry.hy2.gotochinatown.net
-      type: hysteria2
-      udp: true
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.18 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
-      skip-cert-verify: false
-      sni: asg.pagate.top
-      type: hysteria2
