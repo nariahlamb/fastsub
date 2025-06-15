@@ -1,25 +1,11 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 106.70 MB/s"
-      network: ws
-      port: 443
-      server: whatismyipaddress.com
-      servername: wureq.stephen-lifeistooshort.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: cd2e9541-3fce-4d95-9bec-919d884f911e
-      ws-opts:
-        headers:
-            Host: wureq.stephen-lifeistooshort.info
-        path: /tiger
     - alpn:
         - h2
         - http/1.1
       client-fingerprint: chrome
       delay: 1533
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 103.06 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 262.84 MB/s"
       network: ws
       port: 2087
       server: zula.ir
@@ -37,7 +23,7 @@ proxies:
     - alpn:
         - h3
       auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.88 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.50 MB/s"
       password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
       port: 47262
       server: 207.211.174.19
@@ -45,19 +31,12 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.21 MB/s"
-      password: awsps0501
-      port: 443
-      server: 44.248.149.58
-      type: ss
     - alpn:
         - h3
         - h2
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.43 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.98 MB/s"
       network: ws
       port: 443
       server: 135.84.64.208
@@ -70,24 +49,8 @@ proxies:
         headers:
             Host: mc1.777999.lol
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F3F3️ CW | ⬇️ 43.89 MB/s"
-      network: ws
-      port: 443
-      server: 5.10.245.89
-      servername: us1.lzjnb.shop
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 8913bd2c-fd6b-4253-9076-753edbbbc90c
-      ws-opts:
-        headers:
-            Host: us1.lzjnb.shop
-        path: /fd6b
     - auth: PassWord2
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.29 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.42 MB/s"
       obfs: salamander
       obfs-password: PassWord1
       password: PassWord2
@@ -97,22 +60,40 @@ proxies:
       type: hysteria2
       udp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.85 MB/s"
-      network: tcp
-      port: 41439
-      reality-opts:
-        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
-        short-id: 9dfe1d83
-      server: cc.188122.xyz
-      servername: www.yahoo.com
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.90 MB/s"
+      network: ws
+      port: 443
+      server: whatismyipaddress.com
+      servername: wureq.stephen-lifeistooshort.info
       tls: true
       type: vless
       udp: true
-      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
+      uuid: cd2e9541-3fce-4d95-9bec-919d884f911e
+      ws-opts:
+        headers:
+            Host: wureq.stephen-lifeistooshort.info
+        path: /tiger
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F3F3️ CW | ⬇️ 40.00 MB/s"
+      network: ws
+      port: 443
+      server: 5.10.245.109
+      servername: madcity3.mianfeicf.lol
+      tls: true
+      type: vless
+      udp: true
+      uuid: d7eae7a4-052e-4ab4-98c5-0100f2e26be7
+      ws-opts:
+        headers:
+            Host: madcity3.mianfeicf.lol
+        path: /?ed=2560
     - alpn:
         - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.42 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.71 MB/s"
       network: ws
       password: 512d9674-db12-44ca-a1b5-654244549b65
       port: 443
@@ -127,22 +108,30 @@ proxies:
         path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1030
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.65 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.21 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
       skip-cert-verify: false
       sni: aus.pagate.top
       type: hysteria2
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.73 MB/s"
-      password: HU3ZebY2-OMZ9ErvsG_0zg
-      port: 5555
-      server: 38.180.158.38
-      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.79 MB/s"
+      network: tcp
+      port: 41439
+      reality-opts:
+        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
+        short-id: 9dfe1d83
+      server: cc.188122.xyz
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
     - client-fingerprint: chrome
       delay: 1930
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.21 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.95 MB/s"
       network: raw
       port: 443
       reality-opts:
@@ -155,71 +144,34 @@ proxies:
       udp: true
       uuid: 33707040-edcf-4185-94e4-2a071315c602
       xudp: true
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F3F3️ CW | ⬇️ 20.35 MB/s"
-      network: ws
-      port: 443
-      server: 5.10.245.109
-      servername: madcity3.mianfeicf.lol
-      tls: true
-      type: vless
-      udp: true
-      uuid: d7eae7a4-052e-4ab4-98c5-0100f2e26be7
-      ws-opts:
-        headers:
-            Host: madcity3.mianfeicf.lol
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.19 MB/s"
-      password: yijian0503
-      port: 443
-      server: 3.38.180.137
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 24.76 MB/s"
+      password: HU3ZebY2-OMZ9ErvsG_0zg
+      port: 5555
+      server: 38.180.158.38
       type: ss
-      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.32 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.24 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: ajp.pagate.top
       skip-cert-verify: false
       sni: ajp.pagate.top
       type: hysteria2
-    - auth: 141ccf90-5f99-4a19-96b1-71b792664e7b
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.14 MB/s"
-      password: 141ccf90-5f99-4a19-96b1-71b792664e7b
-      port: 43999
-      server: jiangzhiylk.54264944.xyz
-      skip-cert-verify: true
-      sni: jiangzhiylk.54264944.xyz
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.64 MB/s"
+    - client-fingerprint: chrome
+      delay: 1267
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.93 MB/s"
       network: ws
-      port: 8443
-      server: t.nsa.cc
-      servername: t.nsa.cc
-      skip-cert-verify: false
-      tfo: false
+      port: 443
+      server: 168.138.181.208
+      servername: sgp.rtot.me
       tls: true
       type: vless
-      uuid: 0dcc717f-42a1-407c-acd6-b298f4d98a48
+      udp: true
+      uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
       ws-opts:
         headers:
-            Host: t.nsa.cc
-        path: /
-    - auth: 39582256-8bac-4fb1-8646-3f76482da673
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.19 MB/s"
-      password: 39582256-8bac-4fb1-8646-3f76482da673
-      port: 8081
-      server: 1jp003.156786.xyz
-      skip-cert-verify: false
-      sni: 1jp003.156786.xyz
-      type: hysteria2
-      udp: true
+            Host: sgp.rtot.me
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /bing
+      xudp: true
