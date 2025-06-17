@@ -5,7 +5,7 @@ proxies:
         - http/1.1
       client-fingerprint: chrome
       delay: 1533
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 91.73 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 249.75 MB/s"
       network: ws
       port: 2087
       server: zula.ir
@@ -26,7 +26,7 @@ proxies:
       cipher: ""
       client-fingerprint: chrome
       delay: 1535
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.20 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.06 MB/s"
       network: ws
       port: 443
       server: 135.84.64.208
@@ -40,9 +40,19 @@ proxies:
         headers:
             Host: mc1.777999.lol
         path: /?ed=2560
+    - country: NL
+      delay: 1457
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.84 MB/s"
+      password: 867f512f-93d2-4344-853c-50965de9b103
+      port: 55215
+      server: shy42.zqjc.cloud
+      skip-cert-verify: false
+      sni: shy42.zqjc.cloud
+      type: hysteria2
+      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.56 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.92 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -50,105 +60,8 @@ proxies:
       sni: aus.pagate.top
       type: hysteria2
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.37 MB/s"
-      network: tcp
-      port: 41439
-      reality-opts:
-        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
-        short-id: 9dfe1d83
-      server: cc.188122.xyz
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
-    - cipher: aes-256-gcm
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 34.77 MB/s"
-      password: JMPQ824OGHHHHPKB
-      port: 20000
-      server: 109.104.154.131
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.25 MB/s"
-      network: tcp
-      port: 41439
-      reality-opts:
-        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
-        short-id: 9dfe1d83
-      server: cc.188122.xyz
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.14 MB/s"
-      network: ws
-      port: 8080
-      server: 104.17.176.171
-      servername: ke7hz36ewz-4515017473.mashallahbet.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
-      ws-opts:
-        headers:
-            HOST: ke7hz36ewz-4515017473.mashallahbet.com
-        path: /nasnet/cdn
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.91 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.84.242
-      servername: 3eRt.4444916.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
-      ws-opts:
-        headers:
-            Host: 3eRt.4444916.xyz
-        path: /f7vKDX2UecxmlPhIJoo2wcE6Q
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 29.39 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.65 MB/s"
-      network: ws
-      port: 8080
-      server: 104.17.176.171
-      servername: ke7hz36ewz-4515017473.mashallahbet.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03
-      ws-opts:
-        headers:
-            HOST: ke7hz36ewz-4515017473.mashallahbet.com
-        path: /nasnet/cdn
-    - cipher: aes-256-gcm
-      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 27.33 MB/s"
-      password: YNKA93RF24FZZHRH
-      port: 20036
-      server: 185.237.185.77
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
       delay: 1930
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.70 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.68 MB/s"
       network: raw
       port: 443
       reality-opts:
@@ -161,28 +74,11 @@ proxies:
       udp: true
       uuid: 33707040-edcf-4185-94e4-2a071315c602
       xudp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F3F3️ RS | ⬇️ 24.24 MB/s"
-      password: C2AAOKL6G49CZV9J
-      port: 20025
-      server: 185.186.77.137
-      type: ss
-      udp: true
-    - country: NL
-      delay: 1457
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.07 MB/s"
-      password: 867f512f-93d2-4344-853c-50965de9b103
-      port: 55215
-      server: shy42.zqjc.cloud
-      skip-cert-verify: false
-      sni: shy42.zqjc.cloud
-      type: hysteria2
-      udp: true
     - alpn:
         - http/1.1
       client-fingerprint: randomized
       delay: 1746
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.00 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.89 MB/s"
       network: ws
       password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
       port: 2083
@@ -195,10 +91,27 @@ proxies:
         headers:
             User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
         path: /trxSsuyYmFFPA4woIq/NzguNDYuNTYuNDI=?ed=2560
+    - client-fingerprint: chrome
+      delay: 1902
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.15 MB/s"
+      network: ws
+      port: 8443
+      server: zula.ir
+      servername: avid.adaspoloandco.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1eb16f02-dd2c-4a7b-8c46-34e1a62875f5
+      ws-opts:
+        headers:
+            Host: avid.adaspoloandco.com
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+        path: /downloader
+      xudp: true
     - delay: 1029
       down: ""
       fingerprint: ""
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.73 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.01 MB/s"
       obfs: ""
       obfs-password: ""
       password: dongtaiwang.com
@@ -208,44 +121,13 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       up: ""
-    - auth: 1ad5590a-dd74-4385-8b8a-a1b782ff1fb7
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.04 MB/s"
-      password: 1ad5590a-dd74-4385-8b8a-a1b782ff1fb7
-      port: 22156
-      server: hsyg.huasuan666.top
-      skip-cert-verify: true
-      sni: hsyg.huasuan666.top
-      type: hysteria2
-      udp: true
-    - auth: d95750f9-bc4e-4406-8438-a35baced97cd
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.97 MB/s"
-      password: d95750f9-bc4e-4406-8438-a35baced97cd
-      port: 43989
-      server: jiangzhidg.54264944.xyz
-      skip-cert-verify: true
-      sni: jiangzhidg.54264944.xyz
-      type: hysteria2
-      udp: true
-    - delay: 1474
-      down: ""
-      fingerprint: ""
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.70 MB/s"
-      obfs: ""
-      obfs-password: ""
-      password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-      port: 8443
-      server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-      type: hysteria2
-      up: ""
     - client-fingerprint: firefox
       delay: 1211
       http-opts:
         headers: {}
         path:
             - /
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.69 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.76 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -262,7 +144,7 @@ proxies:
         - http/1.1
       client-fingerprint: randomized
       delay: 2229
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.26 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.71 MB/s"
       network: ws
       password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
       port: 443
@@ -275,51 +157,68 @@ proxies:
         headers:
             User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.05 MB/s"
-      network: ws
-      port: 8080
-      server: tci2.tiamocloud.top
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 212515a4-06cd-4070-b0af-b77040dd595e
-      ws-opts:
-        headers:
-            Host: tci2.tiamocloud.top
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.21 MB/s"
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.25 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: ajp.pagate.top
+      skip-cert-verify: false
+      sni: ajp.pagate.top
+      type: hysteria2
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.98 MB/s"
       network: ws
       port: 443
-      server: 168.138.181.208
-      servername: sgp.rtot.me
-      skip-cert-verify: true
+      server: 104.21.84.242
+      servername: 3eRt.4444916.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
+      uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
       ws-opts:
         headers:
-            Host: sgp.rtot.me
-        path: /bing
+            Host: 3eRt.4444916.xyz
+        path: /f7vKDX2UecxmlPhIJoo2wcE6Q
+    - auth: d95750f9-bc4e-4406-8438-a35baced97cd
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.16 MB/s"
+      password: d95750f9-bc4e-4406-8438-a35baced97cd
+      port: 43989
+      server: jiangzhidg.54264944.xyz
+      skip-cert-verify: true
+      sni: jiangzhidg.54264944.xyz
+      type: hysteria2
+      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 2091
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.83 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.07 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
       skip-cert-verify: false
       sni: asg.pagate.top
       type: hysteria2
+    - delay: 1474
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.06 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+      port: 8443
+      server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+      skip-cert-verify: false
+      sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
+      type: hysteria2
+      up: ""
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1431
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.09 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.68 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
