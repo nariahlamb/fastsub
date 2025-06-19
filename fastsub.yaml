@@ -1,7 +1,16 @@
 proxy-providers: {}
 proxies:
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 1356
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.87 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
     - auth: d427f68a-c17c-4ab1-afd6-c42e0dc43fad
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.52 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 48.49 MB/s"
       password: d427f68a-c17c-4ab1-afd6-c42e0dc43fad
       port: 443
       server: by.xiaoqi666.xyz
@@ -9,29 +18,7 @@ proxies:
       sni: by.xiaoqi666.xyz
       type: hysteria2
       udp: true
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.03 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.62 MB/s"
-      network: ws
-      password: 19a78eeb-d83a-4364-b095-b7dd93436320
-      port: 443
-      server: 172.67.149.202
-      skip-cert-verify: false
-      sni: CVFgTrE4.222560.XyZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: CVFgTrE4.222560.XyZ
-        path: /Hq0I4JMuzO0WLijID
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.85 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.01 MB/s"
       network: ws
       port: 443
       server: time.is
@@ -46,37 +33,59 @@ proxies:
             host: kg.ilikeu.dpdns.org
         path: /
     - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.24 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.52 MB/s"
       password: dongtaiwang.com
       port: 31180
       server: 51.159.111.32
       skip-cert-verify: true
       sni: apple.com
       type: hysteria2
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.88 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: ajp.pagate.top
-      skip-cert-verify: false
-      sni: ajp.pagate.top
+    - auth: 517b5a2c-845a-4e8b-8308-151590d60d80
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.34 MB/s"
+      password: 517b5a2c-845a-4e8b-8308-151590d60d80
+      port: 22161
+      server: hsrb.huasuan666.top
+      skip-cert-verify: true
+      sni: hsrb.huasuan666.top
       type: hysteria2
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 2091
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.75 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.67 MB/s"
+      password: <password>
+      port: 8443
+      server: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.81 MB/s"
+      network: tcp
+      port: 44073
+      reality-opts:
+        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
+        short-id: bb3e0a552dfe5995
+      server: 92.112.23.189
+      servername: yahoo.com
+      tls: true
+      type: vless
+      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+    - auth: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+      down: 500
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.07 MB/s"
+      password: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+      port: 8080
+      server: hk5.youxuan.wiki
       skip-cert-verify: false
-      sni: asg.pagate.top
+      sni: hk5.youxuan.wiki
       type: hysteria2
+      udp: true
+      up: 500
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1431
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.74 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.39 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
@@ -85,12 +94,3 @@ proxies:
       type: hysteria
       udp: true
       up: 100
-    - auth: 517b5a2c-845a-4e8b-8308-151590d60d80
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.62 MB/s"
-      password: 517b5a2c-845a-4e8b-8308-151590d60d80
-      port: 22161
-      server: hsrb.huasuan666.top
-      skip-cert-verify: true
-      sni: hsrb.huasuan666.top
-      type: hysteria2
-      udp: true
