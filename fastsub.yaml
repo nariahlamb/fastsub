@@ -1,374 +1,69 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.70 MB/s"
-      network: ws
-      port: 8080
-      server: 104.26.15.85
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-      ws-opts:
-        headers:
-            Host: J9.oDOtZrHUoO.ZuLAIR.ORg.
-        path: /?ed=2048
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.84 MB/s"
-      network: ws
-      port: 443
-      server: 104.25.159.246
-      servername: mAir-mEnu-mAsr00r.clIents-github.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 65c71f37-baac-43be-b9dd-6057cd5eb901
-      ws-opts:
-        headers:
-            Host: mAir-mEnu-mAsr00r.clIents-github.com
-        path: /25750/template-manager
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.10 MB/s"
-      network: ws
-      port: 80
-      server: speedtest.net
-      servername: fastusa.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 2820219d-0979-4914-9ea1-09a4bd017535
-      ws-opts:
-        headers:
-            Host: fastusa.com
-        path: /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.90 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
     - alterId: 0
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.46 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.41 MB/s"
+      network: ws
+      port: 443
+      server: ip.sb
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
+      ws-opts:
+        headers:
+            Host: usshs.atlen.dpdns.org
+        path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
+    - alterId: 0
+      cipher: auto
+      country: ZZ
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.05 MB/s"
       network: ws
       port: 80
-      server: 188.114.98.18
-      servername: h4.grAsSoRy.shop
+      server: Xcvfgt5.222560.xyz
+      servername: xcvfgt5.222560.xyz
       skip-cert-verify: true
       type: vmess
-      uuid: d2866d01-d76d-4a08-8bae-04fb3c502588
+      uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
       ws-opts:
         headers:
-            HOST: h4.grAsSoRy.shop
-        path: /
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.25 MB/s"
-      network: tcp
-      port: 41439
-      reality-opts:
-        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
-        short-id: 9dfe1d83
-      server: cc.188122.xyz
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
-    - http-opts:
-        headers:
-            Host:
-                - divarcdn.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 29.86 MB/s"
-      network: http
-      port: 37823
-      server: tel.vpncustomize.reziazaran.ir
-      servername: divarcdn.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 5a186a86-1d2c-43b1-85d9-1ad3f60f6be7
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.57 MB/s"
+            HOST: xcvfgt5.222560.xyz
+        path: /7LBPethgWxDoVuzO0WLijID
+    - alterId: 0
+      cipher: auto
+      country: ZZ
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.65 MB/s"
       network: ws
-      password: ttfang
-      port: 443
-      server: 198.41.221.2
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      udp: true
+      port: 80
+      server: Xcvfgt5.222560.xyz
+      servername: xcvfgt5.222560.xyz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
       ws-opts:
         headers:
-            Host: ttfang.fange.me
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2+/?ed=2560"
+            HOST: xcvfgt5.222560.xyz
+        path: /7LBPethgWxDoVuzO0WLijID
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.35 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.75 MB/s"
       network: ws
       port: 443
-      server: sssxxxcft6.444752.xyz
-      servername: sssxxxcft6.444752.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 512d9674-db12-44ca-a1b5-654244549b65
-      ws-opts:
-        headers:
-            Host: sssxxxcft6.444752.xyz
-        path: /zzMtGpHptl8a7dX3JIrYk7zm
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.90 MB/s"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 198.41.221.16
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2+/?ed=2560"
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.92 MB/s"
-      port: 8888
-      server: sf3.epicbrowser.net
-      skip-cert-verify: false
-      tls: true
-      type: http
-    - auth: 45f51da5-848c-428c-bea4-da961f18d1dc
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.36 MB/s"
-      password: 45f51da5-848c-428c-bea4-da961f18d1dc
-      port: 443
-      server: by.xiaoqi666.xyz
-      skip-cert-verify: true
-      sni: by.xiaoqi666.xyz
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.22 MB/s"
-      network: ws
-      password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-      port: 443
-      server: 104.21.94.69
-      skip-cert-verify: false
-      sni: iIIIiIIIii.000890604.xyZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: iIIIiIIIii.000890604.xyZ
-        path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.43 MB/s"
-      network: ws
-      password: 19a78eeb-d83a-4364-b095-b7dd93436320
-      port: 443
-      server: 172.67.149.202
-      skip-cert-verify: false
-      sni: CVFgTrE4.222560.XyZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: CVFgTrE4.222560.XyZ
-        path: /Hq0I4JMuzO0WLijID
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.19 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.86 MB/s"
-      network: ws
-      password: a7c9c017-db10-4d15-b01b-0634db498b57
-      port: 443
-      server: 104.21.13.36
-      skip-cert-verify: true
-      sni: ERt5.0890604.XyZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ERt5.0890604.XyZ
-        path: /OBmXcXufeTh7sLJtI1
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.97 MB/s"
-      network: ws
-      port: 8080
-      server: 104.16.53.11
-      servername: nl02.shxshoping.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 338a9b04-21f6-43a5-8422-bc4ffaee4b37
-      ws-opts:
-        headers:
-            Host: nl02.shxshoping.com
-        path: /live
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.28 MB/s"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 198.41.221.15
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2+/?ed=2560"
-    - country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.25 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 13.36.101.183
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.10 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.135.23
-      servername: KKkkKkKKkn.890601.XYZ
+      server: 104.21.26.17
+      servername: tTTtTTT67.459.PP.uA
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+      uuid: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
       ws-opts:
         headers:
-            Host: KKkkKkKKkn.890601.XYZ
-        path: /IpfrZdyuhfl2p8BiMhP42l
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.79 MB/s"
-      network: ws
-      password: 11fbdd36-f418-4894-b2ed-50426a01ebcb
-      port: 443
-      server: 172.67.216.240
-      skip-cert-verify: false
-      sni: eeeeeeeeeeeee.857856.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: eeeeeeeeeeeee.857856.xyz
-        path: /7fxgLRYv0nICignez9wTcHYw4Ll
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.98 MB/s"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 198.41.221.7
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2+/?ed=2560"
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.25 MB/s"
-      network: ws
-      password: 4b33b482-25bc-49e4-b866-878c914d945a
-      port: 443
-      server: 104.21.7.147
-      skip-cert-verify: false
-      sni: 44444444.HuanGShANG.DPDNs.oRG
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: 44444444.HuanGShANG.DPDNs.oRG
-        path: /kzefUfBUzMsQY6zyyQCjn8kmnN0ehd
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.13 MB/s"
-      network: ws
-      password: ttfang
-      port: 443
-      server: 198.41.221.3
-      skip-cert-verify: false
-      sni: ttfang.fange.me
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ttfang.fange.me
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2+/?ed=2560"
-    - auth: 1c1bb02a-bd5d-4e6c-9cb7-0d5b4cbdf568
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.19 MB/s"
-      password: 1c1bb02a-bd5d-4e6c-9cb7-0d5b4cbdf568
-      port: 22158
-      server: hsfg.huasuan666.top
-      skip-cert-verify: true
-      sni: hsfg.huasuan666.top
-      type: hysteria2
-      udp: true
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 2091
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.56 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
-      skip-cert-verify: false
-      sni: asg.pagate.top
-      type: hysteria2
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.54 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.130.204
-      servername: ddDDdDDdDDF.777198.XyZ
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
-      ws-opts:
-        headers:
-            Host: ddDDdDDdDDF.777198.XyZ
-        path: /OjdW89Bpg4ykd4O
-    - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.48 MB/s"
-      password: b44864e5b56d
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: jplistv1.dashengjs.net
-        mode: websocket
-        mux: true
-        path: /ooojkqzttghm
-        skip-cert-verify: false
-        tls: true
-      port: 443
-      server: 163.61.206.64
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.16 MB/s"
-      network: tcp
-      port: 44073
-      reality-opts:
-        public-key: nRam85lBjCFi0rb3z2TdscE3iYf5XxkRQHMThf4dThk
-        short-id: bb3e0a552dfe5995
-      server: 92.112.23.189
-      servername: yahoo.com
-      tls: true
-      type: vless
-      uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
+            Host: tTTtTTT67.459.PP.uA
+        path: /5UW2C42lpZ7Dj4VDwVOkZfoq
