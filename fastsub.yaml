@@ -1,63 +1,102 @@
 proxy-providers: {}
 proxies:
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.87 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - auth: d427f68a-c17c-4ab1-afd6-c42e0dc43fad
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 48.49 MB/s"
-      password: d427f68a-c17c-4ab1-afd6-c42e0dc43fad
-      port: 443
-      server: by.xiaoqi666.xyz
-      skip-cert-verify: true
-      sni: by.xiaoqi666.xyz
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.01 MB/s"
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 52.39 MB/s"
       network: ws
       port: 443
-      server: time.is
-      servername: kg.ilikeu.dpdns.org
+      server: xXCDfGt.iRaN.pp.ua
+      servername: xXCDfGt.iRaN.pp.ua
       skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
+      ws-opts:
+        headers:
+            Host: xxcdfgt.iran.pp.ua
+        path: /vWF1dMBv3ibrzzKXJGy3S1
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.76 MB/s"
+      network: tcp
+      port: 443
+      server: 15.204.165.210
+      servername: 147135001195.sec22org.com
       tls: true
       type: vless
       udp: true
-      uuid: 838f5273-5d2d-4630-a0f5-9cc8e4aef4d6
+      uuid: ea286109-d20f-415e-849e-4af20ab04b65
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.79 MB/s"
+      network: tcp
+      port: 41439
+      reality-opts:
+        public-key: vX_y4uErSlsl3ftJ-VMEVviUbGJYTeMpKzfam9SDlHI
+        short-id: 9dfe1d83
+      server: cc.188122.xyz
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bea9338b-82eb-4aaa-a32b-1a8cf26be703
+    - client-fingerprint: chrome
+      delay: 1902
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.29 MB/s"
+      network: ws
+      port: 8443
+      server: zula.ir
+      servername: avid.adaspoloandco.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1eb16f02-dd2c-4a7b-8c46-34e1a62875f5
       ws-opts:
         headers:
-            host: kg.ilikeu.dpdns.org
-        path: /
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.52 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-    - auth: 517b5a2c-845a-4e8b-8308-151590d60d80
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.34 MB/s"
-      password: 517b5a2c-845a-4e8b-8308-151590d60d80
-      port: 22161
-      server: hsrb.huasuan666.top
-      skip-cert-verify: true
-      sni: hsrb.huasuan666.top
-      type: hysteria2
+            Host: avid.adaspoloandco.com
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+        path: /downloader
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.37 MB/s"
+      network: ws
+      port: 2053
+      server: 66.235.200.17
+      servername: waphk.ovo2024.dpdns.org
+      tls: true
+      type: vless
+      uuid: 920d2c36-fb41-4fd3-abd3-9bb11224b704
+      ws-opts:
+        headers:
+            Host: waphk.ovo2024.dpdns.org
+        path: 248cbff8
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.03 MB/s"
+      network: ws
+      port: 80
+      server: 1648e611-sy41s0-szghf4-1j0a4.hk.p5pv.com
+      tls: false
+      type: vmess
       udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.67 MB/s"
+      uuid: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.16 MB/s"
       password: <password>
       port: 8443
-      server: 85e272b6-sxe4g0-t1bnjq-1krtb.hkt.cdnhuawei.com
+      server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
       tls: true
       type: http
       username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.81 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.14 MB/s"
       network: tcp
       port: 44073
       reality-opts:
@@ -68,29 +107,3 @@ proxies:
       tls: true
       type: vless
       uuid: d6b65f08-f2ea-4871-aa7f-1ffeb81447d1
-    - auth: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
-      down: 500
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.07 MB/s"
-      password: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
-      port: 8080
-      server: hk5.youxuan.wiki
-      skip-cert-verify: false
-      sni: hk5.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 500
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1431
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.39 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
