@@ -1,79 +1,38 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 59.21 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.94.69
-      servername: FfFfffFFFf.000890604.Xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-      ws-opts:
-        headers:
-            Host: FfFfffFFFf.000890604.Xyz
-        path: /Ryxyg63Pk7cFSnZBROjL3Q5vTymr
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.35 MB/s"
-      network: ws
-      port: 443
-      server: 1111111q.0890604.xyz
-      servername: 1111111Q.0890604.XYZ
-      tls: true
-      type: vless
-      udp: true
-      uuid: a7c9c017-db10-4d15-b01b-0634db498b57
-      ws-opts:
-        headers:
-            Host: 1111111Q.0890604.XYZ
-        path: /xZjr7v1DqrYyamxeTh7sLJtI1
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.97 MB/s"
-      network: ws
-      password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-      port: 443
-      server: 172.67.201.36
-      skip-cert-verify: true
-      sni: ggGGGGgggGGgGggy.FReevPN2026.DpDNS.Org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ggGGGGgggGGgGggy.FReevPN2026.DpDNS.Org
-        path: /l96MZ8se5Kl2p8BiMhP42l
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.97 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 79.40 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
       skip-cert-verify: false
       sni: aus.pagate.top
       type: hysteria2
-    - auth: fb83356a-2123-4d83-adcd-da5b5bb59287
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 13.50 MB/s"
-      password: fb83356a-2123-4d83-adcd-da5b5bb59287
-      port: 44001
-      server: 185.22.153.68
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.44 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.218.254
+      servername: F1.paRsa.fiLegEar-Sg.Me
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      tls: true
+      type: vless
       udp: true
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.22 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-      up: 100 Mbps
+      uuid: 8df60790-c903-4661-b85d-64c0009378e5
+      ws-opts:
+        headers:
+            host: F1.paRsa.fiLegEar-Sg.Me
+        path: /?ed=2560
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.47 MB/s"
+      network: ws
+      port: 443
+      server: furry-adultbabydiaperlover.jiasudecdn.filegear-sg.me
+      servername: waphk.xiaosiyue.dpdns.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 77808e7a-c587-4b60-ba71-84a2fad8ee53
+      ws-opts:
+        headers:
+            Host: waphk.xiaosiyue.dpdns.org
+        path: /
