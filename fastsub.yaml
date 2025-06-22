@@ -1,80 +1,89 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.31 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.218.254
-      servername: F1.paRsa.fiLegEar-Sg.Me
-      skip-cert-verify: true
-      tls: true
-      type: vless
+    - cipher: aes-256-gcm
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 37.24 MB/s"
+      password: CSF7RS5O1OVPYNUP
+      port: 20035
+      server: 185.186.78.220
+      type: ss
       udp: true
-      uuid: 8df60790-c903-4661-b85d-64c0009378e5
-      ws-opts:
-        headers:
-            host: F1.paRsa.fiLegEar-Sg.Me
-        path: /?ed=2560
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1356
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.99 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.43 MB/s"
+    - cipher: aes-256-gcm
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 36.09 MB/s"
+      password: EH5389FTH6HLZFQ8
+      port: 20034
+      server: 185.90.61.157
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.83 MB/s"
       network: ws
       port: 443
-      server: 104.21.65.31
-      servername: SssXzAw.444652.XYZ
+      server: 104.24.197.20
+      servername: rayan-fg-1.parmis.filegear-sg.me
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
       ws-opts:
         headers:
-            Host: SssXzAw.444652.XYZ
-        path: /nSABZLQbEUSLppj7jCmY
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.01 MB/s"
-      network: ws
-      port: 443
-      server: time.is
-      servername: lookup-durham-fun-seller.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 66e5c8dd-3176-458e-8fb0-1ed91d2f9602
-      ws-opts:
-        headers:
-            HOST: lookup-durham-fun-seller.trycloudflare.com
-        path: /vmess-argo?ed=2560
+            Host: rayan-fg-1.parmis.filegear-sg.me
+        path: /?ed=2560
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.54 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.91 MB/s"
       network: ws
       port: 443
-      server: 172.67.145.200
-      servername: 444fg.8906004.XYz
+      server: 172.67.135.37
+      servername: IiIIIiiIIIiiO.459.pp.uA
       tls: true
       type: vless
       udp: true
-      uuid: cb1d2f45-1af3-4bab-a308-7c0c27bac24a
+      uuid: cf8c791e-9d0b-4e90-aaf6-41ac62468416
       ws-opts:
         headers:
-            Host: 444fg.8906004.XYz
-        path: /YkFQqkZ9vqpDooparWRe5wKJ0R
+            Host: IiIIIiiIIIiiO.459.pp.uA
+        path: /dtBdvnoJO8180gomOew3d
     - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.87 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.86 MB/s"
+      network: ws
+      port: 443
+      server: 104.24.197.20
+      servername: rayan-fg-1.parmis.filegear-sg.me
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
+      ws-opts:
+        headers:
+            Host: rayan-fg-1.parmis.filegear-sg.me
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.60 MB/s"
+      network: ws
+      port: 80
+      server: time.is
+      tls: false
+      type: vless
+      udp: true
+      uuid: 1b1dd276-2591-4f54-854f-5ab0465c06b6
+      ws-opts:
+        headers:
+            Host: dg.xiaoqi555.xyz
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.91 MB/s"
+      network: ws
+      port: 80
+      server: 23.227.38.18
+      tls: false
+      type: vless
+      udp: true
+      uuid: 5dea9a7f-d518-4e84-9b29-6a8d6fbce07a
+      ws-opts:
+        headers:
+            Host: dg.xiaoqi555.xyz
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.67 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -89,10 +98,58 @@ proxies:
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.79 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.22 MB/s"
       network: ws
       port: 443
-      server: 104.21.63.135
+      server: 104.21.22.211
+      servername: 90.taIPEi108.dpDnS.ORG
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5a5d1112-4ae7-431f-bdde-0d008fb473dd
+      ws-opts:
+        headers:
+            Host: 90.taIPEi108.dpDnS.ORG
+        path: /vV8eTfmBhyqcCgAsHzTP8d
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.95 MB/s"
+      password: f64c8dcf-78af-4c8d-b686-b39c5901131f
+      port: 18749
+      server: cme-challenge.vipaqy.xn--fiqs8s40dz2j.com
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: US
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.00 MB/s"
+      network: ws
+      port: 443
+      server: time.is
+      servername: lookup-durham-fun-seller.trycloudflare.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 66e5c8dd-3176-458e-8fb0-1ed91d2f9602
+      ws-opts:
+        headers:
+            HOST: lookup-durham-fun-seller.trycloudflare.com
+        path: /vmess-argo?ed=2560
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.84 MB/s"
+      password: f64c8dcf-78af-4c8d-b686-b39c5901131f
+      port: 10086
+      server: cme-challenge.vipaqy.xn--fiqs8s40dz2j.com
+      type: ss
+      udp: true
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.70 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.145.200
       servername: 444fg.8906004.XYz
       tls: true
       type: vless
@@ -102,11 +159,26 @@ proxies:
         headers:
             Host: 444fg.8906004.XYz
         path: /YkFQqkZ9vqpDooparWRe5wKJ0R
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.77 MB/s"
+      password: f64c8dcf-78af-4c8d-b686-b39c5901131f
+      port: 44793
+      server: cme-challenge.vipaqy.xn--fiqs8s40dz2j.com
+      type: ss
+      udp: true
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.44 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: ajp.pagate.top
+      skip-cert-verify: false
+      sni: ajp.pagate.top
+      type: hysteria2
     - alterId: 0
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.89 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.92 MB/s"
       network: ws
       port: 443
       server: ssSSSD.00890604.Xyz
@@ -120,189 +192,116 @@ proxies:
         headers:
             Host: sssssd.00890604.xyz
         path: /9Vn0NRIFjaNIuRODgEtuBg2FAYIX
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.17 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.22 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.65.31
+      servername: SssXzAw.444652.XYZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      ws-opts:
+        headers:
+            Host: SssXzAw.444652.XYZ
+        path: /nSABZLQbEUSLppj7jCmY
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: randomized
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.13 MB/s"
+      network: ws
+      port: 8443
+      server: 104.21.75.120
+      servername: frEEDom.MOREsH.STORe
+      tls: true
+      type: vless
+      udp: true
+      uuid: 48a6a580-b0b2-4cf8-bd22-27e52f7f0de0
+      ws-opts:
+        headers:
+            Host: frEEDom.MOREsH.STORe
+        path: /lDPB5MDgLqhDohwp/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.77 MB/s"
+      network: ws
+      password: 03e92910-34b1-4245-ac63-04a865f43cd5
+      port: 443
+      server: 104.21.84.242
+      sni: 3ERt.4444916.XyZ
+      type: trojan
+      ws-opts:
+        headers:
+            Host: 3ERt.4444916.XyZ
+        path: /bi35bFWoRrnPhIJoo2wcE6Q
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.94 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.71 MB/s"
       network: ws
       port: 443
-      server: 104.21.22.211
-      servername: 90.taIPEi108.dpDnS.ORG
+      server: 1111111q.0890604.xyz
+      servername: 1111111Q.0890604.XYZ
       tls: true
       type: vless
       udp: true
-      uuid: 5a5d1112-4ae7-431f-bdde-0d008fb473dd
+      uuid: a7c9c017-db10-4d15-b01b-0634db498b57
       ws-opts:
         headers:
-            Host: 90.taIPEi108.dpDnS.ORG
-        path: /vV8eTfmBhyqcCgAsHzTP8d
-    - auth: fb83356a-2123-4d83-adcd-da5b5bb59287
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.09 MB/s"
-      password: fb83356a-2123-4d83-adcd-da5b5bb59287
-      port: 44001
-      server: 172.245.251.12
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - http-opts:
-        headers:
-            Host:
-                - speedtest.net
-        method: GET
-        path:
-            - /
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.22 MB/s"
-      network: http
-      port: 36571
-      server: amirpanel1.ckoutddhlursfjojxjw.com
-      servername: speedtest.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 4dad6029-a008-4d3d-a98d-80fa9d997f37
-    - auth: c8330a7d-140a-4e11-a958-29b9304c6c93
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.56 MB/s"
-      password: c8330a7d-140a-4e11-a958-29b9304c6c93
-      port: 18550
-      server: ztcloudde.ztcloud.xyz
-      skip-cert-verify: true
-      sni: ztcloudde.ztcloud.xyz
-      type: hysteria2
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.15 MB/s"
-      network: ws
-      port: 443
-      server: time.is
-      servername: lookup-durham-fun-seller.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 66e5c8dd-3176-458e-8fb0-1ed91d2f9602
-      ws-opts:
-        headers:
-            HOST: lookup-durham-fun-seller.trycloudflare.com
-        path: /vmess-argo?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.92 MB/s"
-      network: ws
-      port: 443
-      server: 104.24.197.20
-      servername: rayan-fg-1.parmis.filegear-sg.me
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
-      ws-opts:
-        headers:
-            Host: rayan-fg-1.parmis.filegear-sg.me
-        path: /?ed=2560
-    - auth: fb83356a-2123-4d83-adcd-da5b5bb59287
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.69 MB/s"
-      password: fb83356a-2123-4d83-adcd-da5b5bb59287
-      port: 44001
-      server: 82.152.166.91
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.15 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.42.250
-      servername: XxcvfGT678.191268.Xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
-      ws-opts:
-        headers:
-            Host: XxcvfGT678.191268.Xyz
-        path: /W02wBrOOqlSUywV3ibrzzKXJGy3S1
-    - auth: 59674f57-aa96-498f-940e-d2ba8c13ab4e
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.50 MB/s"
-      obfs: salamander
-      obfs-password: yw3WPVnZYdiqCT1n
-      password: 59674f57-aa96-498f-940e-d2ba8c13ab4e
-      port: 443
-      server: us1.vip.edu.kg
-      skip-cert-verify: false
-      sni: us1.vip.edu.kg
-      type: hysteria2
-      udp: true
-    - auth: fb83356a-2123-4d83-adcd-da5b5bb59287
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.38 MB/s"
-      password: fb83356a-2123-4d83-adcd-da5b5bb59287
-      port: 44001
-      server: 185.22.153.68
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: fb83356a-2123-4d83-adcd-da5b5bb59287
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.34 MB/s"
-      password: fb83356a-2123-4d83-adcd-da5b5bb59287
-      port: 44001
-      server: 82.152.162.250
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
+            Host: 1111111Q.0890604.XYZ
+        path: /xZjr7v1DqrYyamxeTh7sLJtI1
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 2091
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.26 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.25 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
       skip-cert-verify: false
       sni: asg.pagate.top
       type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.93 MB/s"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.28 MB/s"
       network: ws
       port: 443
-      server: 104.24.197.20
-      servername: rayan-fg-1.parmis.filegear-sg.me
+      server: 104.21.84.242
+      servername: 3eRt.4444916.xyz
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 21cf57f2-391f-4e7b-91ac-8b650e0a2f4c
+      udp: true
+      uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
       ws-opts:
         headers:
-            Host: rayan-fg-1.parmis.filegear-sg.me
-        path: /?ed=2560
-    - auth: 02d694fa-0b16-49f3-bbd6-5f4d6c0c6538
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 10.40 MB/s"
-      password: 02d694fa-0b16-49f3-bbd6-5f4d6c0c6538
-      port: 18580
-      server: ztcloudgb.ztcloud.xyz
+            Host: 3eRt.4444916.xyz
+        path: /f7vKDX2UecxmlPhIJoo2wcE6Q
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1431
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.38 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
       skip-cert-verify: true
-      sni: ztcloudgb.ztcloud.xyz
-      type: hysteria2
+      sni: apple.com
+      type: hysteria
       udp: true
-    - auth: 6d379500-bf16-452f-b00e-70090809f383
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.28 MB/s"
-      password: 6d379500-bf16-452f-b00e-70090809f383
-      port: 26900
-      server: diwu94.di5ji.lat
+      up: 100
+    - delay: 1363
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.26 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: dongtaiwang.com
+      port: 50850
+      server: 45.129.2.108
       skip-cert-verify: true
-      sni: diwu94.di5ji.lat
+      sni: www.bing.com
       type: hysteria2
-      udp: true
+      up: ""
