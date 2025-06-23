@@ -1,54 +1,7 @@
 proxy-providers: {}
 proxies:
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 2527
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.25 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 32.88 MB/s"
-      password: CSF7RS5O1OVPYNUP
-      port: 20035
-      server: 185.186.78.220
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      delay: 2127
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 29.52 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: e1o1RxkM8nA3PpUoHK1mciI1L0J8emMaWq3bwILmIA0
-        short-id: ""
-      server: de1.vpn.haus
-      servername: multiequipossa.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fcbae65d-739f-40fb-847c-67a862ecb746
-      xudp: true
-    - client-fingerprint: chrome
-      delay: 1033
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.43 MB/s"
-      network: raw
-      port: 443
-      reality-opts:
-        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-        short-id: 7def4dde
-      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      tls: true
-      type: vless
-      udp: true
-      uuid: 33707040-edcf-4185-94e4-2a071315c602
-      xudp: true
-    - delay: 1091
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.85 MB/s"
+    - delay: 1291
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.58 MB/s"
       password: dongtaiwang.com
       port: 31180
       server: 51.159.111.32
@@ -56,27 +9,50 @@ proxies:
       sni: apple.com
       tfo: false
       type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.24 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1488
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.12 MB/s"
+      delay: 2974
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.94 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: ajp.pagate.top
       skip-cert-verify: false
       sni: ajp.pagate.top
       type: hysteria2
-    - auth: 600eb537-649b-4b5b-8beb-62f815a194dc
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.82 MB/s"
-      password: 600eb537-649b-4b5b-8beb-62f815a194dc
-      port: 33999
-      server: jiangzhixjp.54264944.xyz
-      skip-cert-verify: true
-      sni: jiangzhixjp.54264944.xyz
-      type: hysteria2
+    - cipher: aes-256-gcm
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.07 MB/s"
+      password: 9acff807c3cc
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: jplistv1.dashengjs.net
+        mode: websocket
+        mux: true
+        path: /bzdeylzmbo
+        skip-cert-verify: false
+        tls: true
+      port: 443
+      server: 163.61.206.64
+      tfo: false
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.06 MB/s"
+      network: tcp
+      port: 13145
+      server: sg2-b2.oraclenat.cc
+      tls: false
+      type: vless
       udp: true
+      uuid: 92976645-6532-4a0c-aead-15af4e51878c
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1259
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.32 MB/s"
+      delay: 815
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.38 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
