@@ -5,7 +5,7 @@ proxies:
       country: ZZ
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 53.18 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.83 MB/s"
       network: ws
       port: 80
       server: Xcvfgt5.222560.xyz
@@ -17,7 +17,7 @@ proxies:
         headers:
             HOST: xcvfgt5.222560.xyz
         path: /7LBPethgWxDoVuzO0WLijID
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.29 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.55 MB/s"
       network: ws
       packet-encoding: xudp
       port: 443
@@ -32,7 +32,7 @@ proxies:
         headers:
             Host: usa2.xn--ghqu5fm27b67w.com
         path: /pq/us2
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.40 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.05 MB/s"
       network: ws
       packet-encoding: xudp
       port: 443
@@ -47,9 +47,16 @@ proxies:
         headers:
             Host: usa2.xn--ghqu5fm27b67w.com
         path: /pq/us2
+    - cipher: aes-256-gcm
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.21 MB/s"
+      password: 5WQDGCD9YN9UNX72
+      port: 20000
+      server: 109.104.154.131
+      type: ss
+      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1196
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.00 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.52 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -58,7 +65,7 @@ proxies:
       type: hysteria2
     - alpn:
         - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.56 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.62 MB/s"
       network: ws
       password: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
       port: 443
@@ -71,47 +78,92 @@ proxies:
         headers:
             Host: eeeeeEE4.iRan.PP.uA
         path: /51ilfH8vHwxilZqfwAwY2SNm
-    - cipher: aes-256-gcm
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 35.65 MB/s"
-      password: 5WQDGCD9YN9UNX72
-      port: 20000
-      server: 109.104.154.131
-      type: ss
+    - auth: 961994e0-a204-497d-9d64-4fb2202e6f3f
+      delay: 1203
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.78 MB/s"
+      password: 961994e0-a204-497d-9d64-4fb2202e6f3f
+      port: 18580
+      server: ztcloudgb.ztcloud.xyz
+      skip-cert-verify: true
+      sni: ztcloudgb.ztcloud.xyz
+      type: hysteria2
       udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 2974
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.39 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.94 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: ajp.pagate.top
       skip-cert-verify: false
       sni: ajp.pagate.top
       type: hysteria2
+    - delay: 1291
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.71 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      tfo: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      country: CO
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.79 MB/s"
+      network: ws
+      port: 80
+      server: SSSxXcvFtY.444752.Xyz
+      servername: sssxxcvfty.444752.xyz
+      skip-cert-verify: true
+      type: vmess
+      uuid: 512d9674-db12-44ca-a1b5-654244549b65
+      ws-opts:
+        headers:
+            HOST: sssxxcvfty.444752.xyz
+        path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
+    - auth: 5310dcea-b248-40ec-931d-138d9e6aab75
+      delay: 1097
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.04 MB/s"
+      password: 5310dcea-b248-40ec-931d-138d9e6aab75
+      port: 18530
+      server: ztcloudjp.ztcloud.xyz
+      skip-cert-verify: true
+      sni: ztcloudjp.ztcloud.xyz
+      type: hysteria2
+      udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 815
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.85 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.82 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
       skip-cert-verify: false
       sni: asg.pagate.top
       type: hysteria2
-    - auth: c0ed527d-829b-4694-bb7d-eb9bfcfa940a
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.47 MB/s"
-      password: c0ed527d-829b-4694-bb7d-eb9bfcfa940a
-      port: 18570
-      server: ztcloudnl.ztcloud.xyz
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1056
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.71 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
       skip-cert-verify: true
-      sni: ztcloudnl.ztcloud.xyz
-      type: hysteria2
-      udp: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1605
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.09 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.50 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
