@@ -1,34 +1,50 @@
 proxy-providers: {}
 proxies:
-    - delay: 1291
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.58 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      tfo: false
-      type: hysteria2
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.24 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+    - alpn:
+        - h2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      delay: 900
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.85 MB/s"
+      network: ws
+      port: 8443
+      server: www.speedtest.net
+      servername: jjaNGESN.SBS
+      tls: true
+      type: vless
       udp: true
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: jjaNGESN.SBS
+        path: /
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 2974
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.94 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.42 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: ajp.pagate.top
       skip-cert-verify: false
       sni: ajp.pagate.top
       type: hysteria2
+    - alpn:
+        - h2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      delay: 900
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.51 MB/s"
+      network: ws
+      port: 8443
+      server: www.speedtest.net
+      servername: jjaNGESN.SBS
+      tls: true
+      type: vless
+      udp: true
+      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+      ws-opts:
+        headers:
+            Host: jjaNGESN.SBS
+        path: /
     - cipher: aes-256-gcm
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.07 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.33 MB/s"
       password: 9acff807c3cc
       plugin: v2ray-plugin
       plugin-opts:
@@ -42,20 +58,30 @@ proxies:
       server: 163.61.206.64
       tfo: false
       type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.06 MB/s"
-      network: tcp
-      port: 13145
-      server: sg2-b2.oraclenat.cc
-      tls: false
-      type: vless
-      udp: true
-      uuid: 92976645-6532-4a0c-aead-15af4e51878c
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 815
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.38 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
-      skip-cert-verify: false
-      sni: asg.pagate.top
+    - delay: 1291
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.62 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      tfo: false
       type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.54 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.39 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 63.178.252.63
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
