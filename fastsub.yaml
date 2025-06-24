@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.11 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.39 MB/s"
       network: tcp
       port: 30158
       reality-opts:
@@ -14,282 +14,37 @@ proxies:
       type: vless
       udp: true
       uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 1196
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.50 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
     - alterId: 0
       cipher: auto
+      country: CO
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 49.86 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 44.19 MB/s"
       network: ws
       port: 80
-      server: iIiiI8.222560.xYZ
-      type: vmess
-      uuid: 393b1061-d615-459a-8616-3f9447bdff5a
-      ws-opts:
-        headers:
-            Host: iiiii8.222560.xyz
-        path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      delay: 2098
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.21 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.42.250
-      servername: XxcvfGT678.191268.Xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
-      ws-opts:
-        headers:
-            Host: XxcvfGT678.191268.Xyz
-        path: /W02wBrOOqlSUywV3ibrzzKXJGy3S1
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 43.08 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.132.114
-      servername: mAhSA.965871a.STORe
-      tls: true
-      type: vless
-      udp: true
-      uuid: e73c97ad-af2e-49e9-8321-5e217ca57124
-      ws-opts:
-        headers:
-            Host: mAhSA.965871a.STORe
-        path: /w4bXDN3lgsJPGeyt
-    - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 37.67 MB/s"
-      password: I0N0GFMPQ9PBB5XA
-      port: 20035
-      server: 185.186.78.220
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.48 MB/s"
-      network: ws
-      port: 2096
-      server: 104.21.3.189
-      servername: rak2d1.89060004.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 350e2b01-d410-44a6-90ba-6483f1062972
-      ws-opts:
-        headers:
-            HOST: rak2d1.89060004.xyz
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.52 MB/s"
-      network: ws
-      port: 2096
-      server: 104.21.3.189
-      servername: rak2d1.89060004.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 350e2b01-d410-44a6-90ba-6483f1062972
-      ws-opts:
-        headers:
-            HOST: rak2d1.89060004.xyz
-        path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 33.87 MB/s"
-      password: 44INYLH920OP2D7U
-      port: 20010
-      server: 185.47.253.144
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1F1 CL | ⬇️ 33.20 MB/s"
-      password: 1NDN95L7Q6UNYJR4
-      port: 20012
-      server: 37.143.128.125
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.11 MB/s"
-      network: ws
-      port: 80
-      server: 104.26.13.9
-      servername: q4.19kAla.co
+      server: Xcvfgt5.222560.xyz
+      servername: xcvfgt5.222560.xyz
       skip-cert-verify: true
       type: vmess
-      uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50
+      uuid: 19a78eeb-d83a-4364-b095-b7dd93436320
       ws-opts:
         headers:
-            HOST: q4.19kAla.co
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.87 MB/s"
-      network: ws
-      port: 80
-      server: 172.67.22.14
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50
-      ws-opts:
-        headers:
-            Host: q4.19kAla.co
-        path: /
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.24 MB/s"
-      network: ws
-      port: 80
-      server: 104.26.13.9
-      servername: q4.19kAla.co
-      skip-cert-verify: true
-      type: vmess
-      uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50
-      ws-opts:
-        headers:
-            HOST: q4.19kAla.co
-        path: /
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.08 MB/s"
-      network: ws
-      port: 2053
-      server: 172.67.131.27
-      servername: cc2d4.89060004.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
-      ws-opts:
-        headers:
-            HOST: cc2d4.89060004.xyz
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.24 MB/s"
-      network: ws
-      port: 80
-      server: 104.26.13.9
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: e5b0b085-6235-42c4-a608-b1c41c3eee50
-      ws-opts:
-        headers:
-            Host: q4.19kAla.co
-        path: /
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      delay: 2098
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.12 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.42.250
-      servername: XxcvfGT678.191268.Xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
-      ws-opts:
-        headers:
-            Host: XxcvfGT678.191268.Xyz
-        path: /W02wBrOOqlSUywV3ibrzzKXJGy3S1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.49 MB/s"
-      port: 2083
-      server: ca-v2ray.freevmess.com
-      servername: ca-v2ray.freevmess.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: fe4fbe6a-b1ab-4783-a4e2-4e019734c306
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.74 MB/s"
-      network: ws
-      password: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
-      port: 443
-      server: 104.21.57.88
-      skip-cert-verify: true
-      sni: eeeeeEE4.iRan.PP.uA
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: eeeeeEE4.iRan.PP.uA
-        path: /51ilfH8vHwxilZqfwAwY2SNm
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.81 MB/s"
-      network: ws
-      port: 2053
-      server: 104.21.3.189
-      servername: rak2d4.89060004.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 350e2b01-d410-44a6-90ba-6483f1062972
-      ws-opts:
-        headers:
-            HOST: rak2d4.89060004.xyz
-        path: /
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      delay: 1358
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.05 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.24.172
-      servername: DDCvVbhyu78.852224.DpDns.ORG
-      tls: true
-      type: vless
-      udp: true
-      uuid: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b
-      ws-opts:
-        headers:
-            Host: ddcvvbhyu78.852224.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
-        path: /DB8W1KX5xnNGIhMum8sDKRwvFCJq
-      xudp: true
-    - cipher: aes-256-cfb
-      country: ' KR'
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.00 MB/s"
-      password: yijian0503
-      port: 443
-      server: 13.125.235.34
-      type: ss
+            HOST: xcvfgt5.222560.xyz
+        path: /7LBPethgWxDoVuzO0WLijID
     - alpn:
         - http/1.1
       client-fingerprint: chrome
       delay: 2874
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.88 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.14 MB/s"
       network: ws
       port: 443
       server: rrrfgt6.890604.filegear-sg.me
@@ -304,51 +59,149 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
         path: /5UW2C42lpZ7Dj4VDwVOkZfoq
       xudp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.93 MB/s"
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.11 MB/s"
       network: ws
-      port: 443
-      server: nnchkclyx.codesofun.pp.ua
-      servername: nnchk.codesofun.pp.ua
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5f077162-99ad-424d-9f77-e5f7e37d9ef8
+      port: 80
+      server: iIiiI8.222560.xYZ
+      type: vmess
+      uuid: 393b1061-d615-459a-8616-3f9447bdff5a
       ws-opts:
         headers:
-            Host: nnchk.codesofun.pp.ua
-        path: /ea3ac731
+            Host: iiiii8.222560.xyz
+        path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.36 MB/s"
+      network: ws
+      port: 80
+      server: iIiiI8.222560.xYZ
+      type: vmess
+      uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+      ws-opts:
+        headers:
+            Host: iiiii8.222560.xyz
+        path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
     - alpn:
         - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.86 MB/s"
+      client-fingerprint: chrome
+      delay: 2046
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.58 MB/s"
       network: ws
-      password: a7c9c017-db10-4d15-b01b-0634db498b57
+      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
       port: 443
-      server: 104.21.13.36
+      server: iiiiop0.444752.xyz
       skip-cert-verify: false
-      sni: ERt5.0890604.XyZ
+      sni: iiiiop0.444752.xyz
       type: trojan
       udp: true
       ws-opts:
         headers:
-            Host: ERt5.0890604.XyZ
-        path: /OBmXcXufeTh7sLJtI1
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /ctHoQlqeZn8pbEUSLppj7jCmY
     - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 14.53 MB/s"
-      password: FAHF4WQF4F6W6W1P
-      port: 20031
-      server: 37.143.129.127
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 29.15 MB/s"
+      password: I0N0GFMPQ9PBB5XA
+      port: 20035
+      server: 185.186.78.220
       type: ss
       udp: true
-    - client-fingerprint: firefox
-      name: "\U0001F1FB\U0001F1F3 VN | ⬇️ 11.12 MB/s"
-      port: 34045
-      reality-opts:
-        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-        short-id: e8ab71d0
-      server: 59.153.217.57
-      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+    - alpn:
+        - http/1.1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.19 MB/s"
+      network: ws
+      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      port: 443
+      server: iiiiop0.444752.xyz
       skip-cert-verify: false
+      sni: iiiiop0.444752.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: iiiiop0.444752.xyz
+        path: /ctHoQlqeZn8pbEUSLppj7jCmY
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.25 MB/s"
+      network: ws
+      port: 443
+      server: 104.25.39.179
+      servername: rayan-10.leila.dpdns.org
       tls: true
       type: vless
       udp: true
-      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+      ws-opts:
+        headers:
+            Host: rayan-10.leila.dpdns.org
+        path: /@Rayan_Config
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.33 MB/s"
+      network: ws
+      port: 2052
+      server: 104.26.13.8
+      tls: false
+      type: vless
+      udp: true
+      uuid: da08534a-bfca-4ac0-bd2a-2e3846bfcbc0
+      ws-opts:
+        headers:
+            Host: q7.19kalA.co
+        path: /
+    - delay: 1291
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.71 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      tfo: false
+      type: hysteria2
+    - alpn:
+        - http%2F1.1
+      delay: 1866
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.78 MB/s"
+      network: ws
+      password: f898ffcb-6417-4373-9640-0b66091e8206
+      port: 443
+      server: 34r5.11890604.xyz
+      skip-cert-verify: true
+      sni: 34r5.11890604.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: 34r5.11890604.xyz
+        path: /CLtmyjAuOFZsWSituzXyJ5XNeH1R1
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      delay: 2974
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.87 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: ajp.pagate.top
+      skip-cert-verify: false
+      sni: ajp.pagate.top
+      type: hysteria2
+    - auth: 95414bbc-7097-4718-9d5a-eae66f0a1830
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.90 MB/s"
+      password: 95414bbc-7097-4718-9d5a-eae66f0a1830
+      port: 33480
+      server: hk.kaipi.link
+      sni: hk.kaipi.link
+      type: hysteria2
+      udp: true
+    - auth: dongtaiwang.com
+      down: 100 Mbps
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.00 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
