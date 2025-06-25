@@ -6,7 +6,7 @@ proxies:
       delay: 1432
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 50.13 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 49.20 MB/s"
       network: ws
       port: 2087
       server: 172.67.131.27
@@ -19,30 +19,9 @@ proxies:
         headers:
             HOST: cc2d2.89060004.xyz
         path: /
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.79 MB/s"
-      network: ws
-      password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-      port: 443
-      server: 172.67.201.36
-      skip-cert-verify: true
-      sni: ggGGGGgggGGgGggy.FReevPN2026.DpDNS.Org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: ggGGGGgggGGgGggy.FReevPN2026.DpDNS.Org
-        path: /l96MZ8se5Kl2p8BiMhP42l
-    - cipher: aes-256-cfb
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.62 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.17.169
-      type: ss
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1457
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.50 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.05 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -50,30 +29,34 @@ proxies:
       sni: aus.pagate.top
       type: hysteria2
     - cipher: aes-256-cfb
-      name: "\U0001F3F3️ MD | ⬇️ 25.06 MB/s"
+      country: ' GB'
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.81 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
-      server: 185.153.197.5
+      server: 51.15.17.169
       type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F5\U0001F1EA PE | ⬇️ 25.03 MB/s"
-      password: KQWBQQU6D4OA9C7P
-      port: 20009
-      server: 185.47.252.16
-      type: ss
-      udp: true
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1F7 GR | ⬇️ 21.19 MB/s"
-      password: UL8ZQIGFEWVSU32T
-      port: 20004
-      server: 185.126.238.37
-      type: ss
-      udp: true
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
       delay: 2324
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.57 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.75 MB/s"
+      network: ws
+      port: 443
+      server: sxxcer4.000890604.xyz
+      servername: sxXCer4.000890604.xYz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+      ws-opts:
+        headers:
+            Host: sxXCer4.000890604.xYz
+        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      delay: 2324
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.28 MB/s"
       network: ws
       port: 443
       server: sxxcer4.000890604.xyz
@@ -87,40 +70,18 @@ proxies:
             Host: sxXCer4.000890604.xYz
         path: /WfxcqrR5ycVpIit2OdWk0KwirdY
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.58 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.75 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: ajp.pagate.top
       skip-cert-verify: false
       sni: ajp.pagate.top
       type: hysteria2
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.07 MB/s"
-      network: ws
-      password: 662e38ba-8427-4955-94aa-76f5347a0ce8
-      port: 443
-      server: 172.67.149.202
-      skip-cert-verify: true
-      sni: RrrRrRrt.222560.XYZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: RrrRrRrt.222560.XYZ
-        path: /hCbtKwyNTRDjtF5UvWyyVQu
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1426
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.69 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.79 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: asg.pagate.top
+      skip-cert-verify: false
+      sni: asg.pagate.top
+      type: hysteria2
