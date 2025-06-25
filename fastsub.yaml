@@ -1,87 +1,18 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      delay: 1432
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 49.20 MB/s"
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.05 MB/s"
       network: ws
-      port: 2087
-      server: 172.67.131.27
-      servername: cc2d2.89060004.xyz
-      skip-cert-verify: true
+      port: 2096
+      server: 104.17.70.206
+      servername: xrr.rtxconfigz.xyz
       tls: true
-      type: vmess
-      uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+      type: vless
+      udp: true
+      uuid: 291c27a5-34d2-4081-83cc-2196cd208148
       ws-opts:
         headers:
-            HOST: cc2d2.89060004.xyz
+            Host: xrr.rtxconfigz.xyz
         path: /
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      delay: 1457
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.05 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - cipher: aes-256-cfb
-      country: ' GB'
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.81 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.17.169
-      type: ss
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      delay: 2324
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.75 MB/s"
-      network: ws
-      port: 443
-      server: sxxcer4.000890604.xyz
-      servername: sxXCer4.000890604.xYz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
-      ws-opts:
-        headers:
-            Host: sxXCer4.000890604.xYz
-        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      delay: 2324
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.28 MB/s"
-      network: ws
-      port: 443
-      server: sxxcer4.000890604.xyz
-      servername: sxXCer4.000890604.xYz
-      tls: true
-      type: vless
-      udp: true
-      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
-      ws-opts:
-        headers:
-            Host: sxXCer4.000890604.xYz
-        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.75 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: ajp.pagate.top
-      skip-cert-verify: false
-      sni: ajp.pagate.top
-      type: hysteria2
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.79 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: asg.pagate.top
-      skip-cert-verify: false
-      sni: asg.pagate.top
-      type: hysteria2
