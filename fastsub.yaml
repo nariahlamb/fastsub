@@ -1,11 +1,22 @@
 proxy-providers: {}
 proxies:
+    - alpn:
+        - h3
+      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.51 MB/s"
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 64.181.193.89
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - alterId: 0
       cipher: auto
       country: US
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 50.55 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 55.60 MB/s"
       network: ws
       port: 80
       server: 172.67.149.202
@@ -17,19 +28,8 @@ proxies:
         headers:
             HOST: sssssssw.222560.xyz
         path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
-    - alpn:
-        - h3
-      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.74 MB/s"
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.193.89
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - cipher: aes-256-gcm
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 36.73 MB/s"
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 36.49 MB/s"
       password: I0N0GFMPQ9PBB5XA
       port: 20035
       server: 185.186.78.220
@@ -37,7 +37,7 @@ proxies:
       udp: true
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       delay: 1457
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.01 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.79 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
@@ -46,7 +46,7 @@ proxies:
       type: hysteria2
     - alpn:
         - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.79 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.12 MB/s"
       network: ws
       password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
       port: 443
@@ -60,7 +60,7 @@ proxies:
             Host: iiiiop0.444752.xyz
         path: /ctHoQlqeZn8pbEUSLppj7jCmY
     - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.08 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.73 MB/s"
       password: dongtaiwang.com
       port: 31180
       server: 51.159.111.32
@@ -71,7 +71,7 @@ proxies:
         - http%2F1.1
       client-fingerprint: chrome
       delay: 2324
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.27 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.33 MB/s"
       network: ws
       port: 443
       server: sxxcer4.000890604.xyz
@@ -88,7 +88,7 @@ proxies:
         - http%2F1.1
       client-fingerprint: chrome
       delay: 2324
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.73 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.55 MB/s"
       network: ws
       port: 443
       server: sxxcer4.000890604.xyz
@@ -102,7 +102,7 @@ proxies:
             Host: sxXCer4.000890604.xYz
         path: /WfxcqrR5ycVpIit2OdWk0KwirdY
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.31 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.41 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: asg.pagate.top
@@ -110,7 +110,7 @@ proxies:
       sni: asg.pagate.top
       type: hysteria2
     - auth: 95414bbc-7097-4718-9d5a-eae66f0a1830
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.02 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.73 MB/s"
       password: 95414bbc-7097-4718-9d5a-eae66f0a1830
       port: 33480
       server: hk.kaipi.link
@@ -123,7 +123,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 1426
       down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.87 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.88 MB/s"
       port: 14241
       protocol: udp
       server: 51.159.226.1
@@ -138,7 +138,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 1123
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.41 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.67 MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -147,3 +147,11 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.54 MB/s"
+      password: dongtaiwang.com
+      port: 50850
+      server: 45.129.2.108
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
