@@ -1,9 +1,37 @@
 proxy-providers: {}
 proxies:
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 85.52 MB/s"
+      network: tcp
+      port: 7885
+      reality-opts:
+        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
+        short-id: 40cb281a
+      server: 45.150.165.121
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 59.45 MB/s"
+      password: ca5c8e49-3b25-45f8-9fbb-6dd1806a1444
+      port: 30000
+      server: 132.226.117.48
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.69 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
     - alpn:
         - h3
       auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 64.15 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.60 MB/s"
       password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
       port: 47262
       server: 64.181.193.89
@@ -11,13 +39,35 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
+    - auth: bc083408-220d-477c-8f43-21289df60def
+      down: 500
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 36.45 MB/s"
+      password: bc083408-220d-477c-8f43-21289df60def
+      port: 8080
+      server: jph1.youxuan.wiki
+      skip-cert-verify: false
+      sni: jph1.youxuan.wiki
+      type: hysteria2
+      udp: true
+      up: 500
+    - auth: bc083408-220d-477c-8f43-21289df60def
+      down: 300
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.14 MB/s"
+      password: bc083408-220d-477c-8f43-21289df60def
+      port: 8080
+      server: us55555x.youxuan.wiki
+      skip-cert-verify: false
+      sni: us55555x.youxuan.wiki
+      type: hysteria2
+      udp: true
+      up: 300
     - alterId: 0
       cipher: auto
       country: ZZ
       delay: 1432
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 57.29 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.76 MB/s"
       network: ws
       port: 2087
       server: 172.67.131.27
@@ -31,86 +81,8 @@ proxies:
             HOST: cc2d2.89060004.xyz
         path: /
     - auth: bc083408-220d-477c-8f43-21289df60def
-      down: 500
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.09 MB/s"
-      password: bc083408-220d-477c-8f43-21289df60def
-      port: 8080
-      server: us4.youxuan.wiki
-      skip-cert-verify: false
-      sni: us4.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 500
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.53 MB/s"
-      network: tcp
-      port: 7885
-      reality-opts:
-        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-        short-id: 40cb281a
-      server: 45.150.165.121
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.48 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - auth: bc083408-220d-477c-8f43-21289df60def
-      down: 500
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 33.00 MB/s"
-      password: bc083408-220d-477c-8f43-21289df60def
-      port: 8080
-      server: jph1.youxuan.wiki
-      skip-cert-verify: false
-      sni: jph1.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 500
-    - country: US
-      delay: 2921
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.88 MB/s"
-      password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-      port: 8443
-      server: cd4281bd-sw3ts0-syhw90-1rsuw.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: cd4281bd-sw3ts0-syhw90-1rsuw.hy2.gotochinatown.net
-      type: hysteria2
-      udp: true
-    - auth: bc083408-220d-477c-8f43-21289df60def
-      down: 300
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.65 MB/s"
-      password: bc083408-220d-477c-8f43-21289df60def
-      port: 8080
-      server: us55555x.youxuan.wiki
-      skip-cert-verify: false
-      sni: us55555x.youxuan.wiki
-      type: hysteria2
-      udp: true
-      up: 300
-    - client-fingerprint: chrome
-      delay: 1510
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.14 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ
-        short-id: 7def4dde
-      server: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      servername: vpn_proxy_channel_vpn_proxy_channel.hohod.ir
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 33707040-edcf-4185-94e4-2a071315c602
-    - auth: bc083408-220d-477c-8f43-21289df60def
       down: 200
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.19 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.35 MB/s"
       password: bc083408-220d-477c-8f43-21289df60def
       port: 8080
       server: hkh4.youxuan.wiki
@@ -119,23 +91,24 @@ proxies:
       type: hysteria2
       udp: true
       up: 200
-    - delay: 1085
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.17 MB/s"
+    - alterId: 64
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 15.92 MB/s"
       network: ws
-      port: 80
-      server: tgju.org
-      servername: eLOQuENt-caSE.ZUlaIR.orG.
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 76ad8213-4617-47eb-92cc-5392b39b45ce
+      port: 30000
+      server: 193.29.107.234
+      tls: true
+      type: vmess
+      uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
       ws-opts:
         headers:
-            Host: eLOQuENt-caSE.ZUlaIR.orG.
-        path: /?ed=2048
+            Host: www.67170227.xyz
+        path: /path/170733132233
     - auth: dongtaiwang.com
       down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.05 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.63 MB/s"
       password: dongtaiwang.com
       port: 50066
       server: 51.159.226.1
@@ -145,7 +118,7 @@ proxies:
       udp: true
       up: 100 Mbps
     - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.06 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.24 MB/s"
       password: dongtaiwang.com
       port: 23579
       server: 45.129.2.248
