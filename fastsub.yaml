@@ -1,9 +1,59 @@
 proxy-providers: {}
 proxies:
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.69 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.43 MB/s"
+      port: 443
+      reality-opts:
+        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+        short-id: fc7a526a7e61ba3b
+      server: 94.141.123.233
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ba26f084-9124-4524-add4-53fcfb928161
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.01 MB/s"
+      port: 443
+      reality-opts:
+        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+        short-id: fc7a526a7e61ba3b
+      server: 94.141.123.233
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ba26f084-9124-4524-add4-53fcfb928161
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 32.94 MB/s"
+      port: 443
+      reality-opts:
+        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
+        short-id: fc7a526a7e61ba3b
+      server: 94.141.123.233
+      servername: cdnjs.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ba26f084-9124-4524-add4-53fcfb928161
     - alpn:
         - h3
       auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.19 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.03 MB/s"
       password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
       port: 47262
       server: 64.181.193.89
@@ -11,64 +61,38 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.79 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.70 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.60 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.08 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.20 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.55 MB/s"
       password: dongtaiwang.com
-      port: 50066
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.89 MB/s"
+      network: ws
+      password: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+      port: 443
+      server: 104.21.76.21
+      skip-cert-verify: false
+      sni: WwwDe.00890604.XyZ
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: WwwDe.00890604.XyZ
+        path: /TDUxZUop9k44oPiit2OdWk0KwirdY
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1427
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.37 MB/s"
+      port: 14241
+      protocol: udp
       server: 51.159.226.1
       skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      sni: apple.com
+      type: hysteria
       udp: true
-      up: 100 Mbps
+      up: 100
