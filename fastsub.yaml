@@ -1,53 +1,17 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 155.28 MB/s"
-      port: 8888
-      server: sf3.epicbrowser.net
-      skip-cert-verify: false
-      tls: true
-      type: http
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.51 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - delay: 832
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.46 MB/s"
-      network: ws
-      port: 8080
-      server: 172.67.73.163
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 0eb83f3e-7b95-427a-8952-abedfca1869f
-      ws-opts:
-        headers:
-            Host: QW.VU6d72nt9y.zULaiR.orG.
-        path: /?ed=2048
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.26 MB/s"
-      password: <password>
-      port: 8443
-      server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - delay: 2455
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 15.20 MB/s"
-      network: http
-      port: 8443
-      server: 109.207.173.6
-      servername: zula.ir
-      tls: false
-      type: vless
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 2666
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.39 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      uuid: 863a79a8-b56b-41cc-b7fb-c7d7314c2fa2
+      up: 100
