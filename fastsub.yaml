@@ -1,78 +1,179 @@
 proxy-providers: {}
 proxies:
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.69 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
+    - http-opts:
+        headers:
+            Host:
+                - speedtest.net
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 165.08 MB/s"
+      network: http
+      port: 36509
+      server: 77.110.126.142
+      servername: speedtest.net
       skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.43 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
-      tls: true
+      tls: false
       type: vless
       udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.01 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
+      uuid: ae0cc111-7d64-4ceb-bdfe-050f4c4823ce
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.72 MB/s"
+      network: ws
+      port: 2086
+      server: 141.193.213.91
+      type: vmess
+      uuid: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      ws-opts:
+        headers:
+            Host: vmustr4kunsubgom.jjjiedian6j4tblb.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: ""
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.53 MB/s"
+      network: ws
+      port: 56273
+      server: 154.21.85.170
+      servername: usantls0618.crvesoft.top
       tls: true
-      type: vless
+      type: vmess
+      uuid: 5878cbd5-6fd1-4fce-bb7f-1f29608ec73c
+      ws-opts:
+        headers:
+            Host: usantls0618.crvesoft.top
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      country: RU
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 25.81 MB/s"
+      password: 0Y4mfqhab7obZ4VmXBHftg
+      port: 19057
+      server: ams.telegavpn.org
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.37 MB/s"
+      network: ws
+      port: 2086
+      server: 141.193.213.33
+      tls: false
+      type: vmess
       udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 32.94 MB/s"
-      port: 443
-      reality-opts:
-        public-key: vfmqSXTEjdIOgz43eZTNzBRztAvd1U1dDkSz_mnaSk4
-        short-id: fc7a526a7e61ba3b
-      server: 94.141.123.233
-      servername: cdnjs.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: ba26f084-9124-4524-add4-53fcfb928161
-    - alpn:
-        - h3
-      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.03 MB/s"
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 64.181.193.89
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.55 MB/s"
+      uuid: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      ws-opts:
+        headers:
+            Host: vmustr4kunsubgom.jjjiedian6j4tblb.com
+        path: /
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.95 MB/s"
       password: dongtaiwang.com
       port: 31180
       server: 51.159.111.32
       skip-cert-verify: true
       sni: apple.com
       type: hysteria2
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.89 MB/s"
+    - auth: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      down: 1000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.27 MB/s"
+      password: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      port: 51297
+      ports: 50000-53000
+      server: 209.141.42.49
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 200
+    - auth: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.93 MB/s"
+      password: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      port: 52310
+      ports: 50000-53000
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      udp: true
+      up: 200
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.50 MB/s"
+      password: dec336f6-e5da-40f4-a4de-986c7b34d587
+      port: 2056
+      server: fr4.eyucdn.xyz
+      skip-cert-verify: true
+      sni: fr4.eyucdn.xyz
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.05 MB/s"
+      password: 62ee2b41-4b53-48a0-922c-cd6526f0c5b5
+      port: 55888
+      server: 202.61.247.141
+      skip-cert-verify: true
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.05 MB/s"
+      obfs: salamander
+      obfs-password: I8Hn1ztwuB7buhVN
+      password: 5878cbd5-6fd1-4fce-bb7f-1f29608ec73c
+      port: 17853
+      server: 167.234.212.3
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.81 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.76.21
+      servername: wWwde.00890604.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+      ws-opts:
+        headers:
+            Host: wWwde.00890604.xyz
+        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.43 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.44.248
+      servername: EDfrT.frEEvPNatm2025.DPdNS.oRG
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+      ws-opts:
+        headers:
+            Host: EDfrT.frEEvPNatm2025.DPdNS.oRG
+        path: /O9jlBCbIm3xr1D40NK
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.92 MB/s"
+      network: ws
+      port: 80
+      server: eedp257bubu2wefy2.lovebaipiao.net
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cf9e92a9-cdee-405d-88c8-beef6d36bf34
+      ws-opts:
+        headers:
+            Host: www.apple.com
+        path: /iphone
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.26 MB/s"
       network: ws
       password: 13e26f64-2e0c-4461-92cd-d83294cc18f0
       port: 443
-      server: 104.21.76.21
+      server: 172.67.185.107
       skip-cert-verify: false
       sni: WwwDe.00890604.XyZ
       type: trojan
@@ -82,17 +183,43 @@ proxies:
             Host: WwwDe.00890604.XyZ
         path: /TDUxZUop9k44oPiit2OdWk0KwirdY
     - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1427
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.37 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.05 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.220.32
+      servername: xXCvVBNhJ.999836.XYz
+      tls: true
+      type: vless
       udp: true
-      up: 100
+      uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+      ws-opts:
+        headers:
+            Host: xXCvVBNhJ.999836.XYz
+        path: /O9jlBCbIm3xr1D40NK
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.85 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.76.21
+      servername: wWwde.00890604.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+      ws-opts:
+        headers:
+            Host: wWwde.00890604.xyz
+        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.17 MB/s"
+      password: 5878cbd5-6fd1-4fce-bb7f-1f29608ec73c
+      port: 10087
+      server: 140.245.52.150
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
