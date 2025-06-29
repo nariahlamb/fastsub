@@ -1,43 +1,56 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 20.30 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.213.23.226
-      type: ss
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.14 MB/s"
-      network: ws
-      port: 8880
-      server: 172.67.133.49
-      tls: false
-      type: vless
-      udp: true
-      uuid: 6d0b71e4-b843-4acc-a239-884e422c9f33
-      ws-opts:
-        headers:
-            Host: ponq0qxlwnh55dbid7ebc1j6ltxdcyer.mamadibaram.workers.dev
-        path: /rAnzZ41YzhPlT0iC?ed=2560
     - alpn:
-        - http%2F1.1
-      client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.18 MB/s"
+        - h3
+      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.56 MB/s"
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 164.152.25.183
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - auth: hfWoFliBzz7DzJ4AhSrCpNsiw
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.13 MB/s"
+      password: hfWoFliBzz7DzJ4AhSrCpNsiw
+      port: 21779
+      server: 34.221.171.77
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.99 MB/s"
       network: ws
-      port: 2096
-      server: 104.21.78.206
-      servername: FReedOM.pANoToSu.StorE
+      port: 443
+      server: 104.21.69.41
+      servername: DdDFRt5.890602.xyZ
       tls: true
       type: vless
       udp: true
-      uuid: ec7a6b6d-94b6-45df-9d62-491f53a508be
+      uuid: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
       ws-opts:
         headers:
-            Host: FReedOM.pANoToSu.StorE
-        path: /vRpve4WyyyBMiVSu/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.08 MB/s"
-      password: <password>
-      port: 8443
-      server: 999598f4-sx8kg0-t1bnjq-1krtb.hkt.cdnhuawei.com
-      tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+            Host: DdDFRt5.890602.xyZ
+        path: /5UW2C42lpZ7Dj4VDwVOkZfoq
+    - auth: 924abf1e-375d-4918-8b20-1047ef3dbb57
+      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 13.14 MB/s"
+      obfs: salamander
+      obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+      password: 924abf1e-375d-4918-8b20-1047ef3dbb57
+      port: 23614
+      server: is.pddwdf.store
+      skip-cert-verify: false
+      sni: is.pddwdf.store
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: ""
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 10.82 MB/s"
+      port: 13144
+      server: sydney-mini-ddns.faforex.eu.org
+      tls: false
+      type: vmess
+      uuid: 07588c9c-d35d-4095-9c1e-fd5dc45a3abd
