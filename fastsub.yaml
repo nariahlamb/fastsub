@@ -1,18 +1,7 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - h3
-      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.56 MB/s"
-      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-      port: 47262
-      server: 164.152.25.183
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - auth: hfWoFliBzz7DzJ4AhSrCpNsiw
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.13 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 72.55 MB/s"
       password: hfWoFliBzz7DzJ4AhSrCpNsiw
       port: 21779
       server: 34.221.171.77
@@ -20,8 +9,19 @@ proxies:
       sni: bing.com
       type: hysteria2
       udp: true
+    - alpn:
+        - h3
+      auth: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.63 MB/s"
+      password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+      port: 47262
+      server: 164.152.25.183
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.99 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.92 MB/s"
       network: ws
       port: 443
       server: 104.21.69.41
@@ -34,8 +34,17 @@ proxies:
         headers:
             Host: DdDFRt5.890602.xyZ
         path: /5UW2C42lpZ7Dj4VDwVOkZfoq
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: ""
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 13.88 MB/s"
+      port: 13144
+      server: sydney-mini-ddns.faforex.eu.org
+      tls: false
+      type: vmess
+      uuid: 07588c9c-d35d-4095-9c1e-fd5dc45a3abd
     - auth: 924abf1e-375d-4918-8b20-1047ef3dbb57
-      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 13.14 MB/s"
+      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 12.84 MB/s"
       obfs: salamander
       obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
       password: 924abf1e-375d-4918-8b20-1047ef3dbb57
@@ -45,12 +54,3 @@ proxies:
       sni: is.pddwdf.store
       type: hysteria2
       udp: true
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: ""
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 10.82 MB/s"
-      port: 13144
-      server: sydney-mini-ddns.faforex.eu.org
-      tls: false
-      type: vmess
-      uuid: 07588c9c-d35d-4095-9c1e-fd5dc45a3abd
