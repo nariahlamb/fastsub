@@ -1,54 +1,21 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.57 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.11 MB/s"
       network: ws
-      password: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c
+      password: 512d9674-db12-44ca-a1b5-654244549b65
       port: 443
-      server: mmmkiiuytr.iran.pp.ua
-      sni: MMmkIiuYTR.IRaN.pP.Ua
+      server: gghui.4444936.xyz
+      skip-cert-verify: false
+      sni: gghui.4444936.xyz
       type: trojan
       ws-opts:
         headers:
-            Host: MMmkIiuYTR.IRaN.pP.Ua
-        path: /s1XRkMWuneQkqtp5KKSues
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.29 MB/s"
-      network: ws
-      port: 2086
-      server: 141.193.213.199
-      servername: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: dc33ccac-f27b-494d-98c0-553742e23268
-      ws-opts:
-        headers:
-            HOST: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com
-        path: /images
+            Host: gghui.4444936.xyz
+        path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
     - alpn:
         - http/1.1
       client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.35 MB/s"
-      network: ws
-      port: 2087
-      server: 104.21.95.229
-      servername: invINCIBLE.FAfa20.SHOp
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
-      ws-opts:
-        headers:
-            Host: invINCIBLE.FAfa20.SHOp
-        path: /FnxOCItzWpgMrgmD/NzguNDYuNTYuNDI=?ed=2560
-    - alpn:
-        - http/1.1
-      client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.90 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.97 MB/s"
       network: ws
       port: 8443
       server: 172.67.148.229
@@ -62,7 +29,81 @@ proxies:
         headers:
             Host: InVinCIble.faFA20.sHop
         path: /hjj7ZLPwtn7oT2JS/NzguNDYuNTYuNDI=?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.98 MB/s"
+    - alpn:
+        - http/1.1
+      client-fingerprint: randomized
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.68 MB/s"
+      network: ws
+      port: 2087
+      server: 104.21.95.229
+      servername: invINCIBLE.FAfa20.SHOp
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
+      ws-opts:
+        headers:
+            Host: invINCIBLE.FAfa20.SHOp
+        path: /FnxOCItzWpgMrgmD/NzguNDYuNTYuNDI=?ed=2560
+    - alterId: 0
+      cipher: auto
+      country: US
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.45 MB/s"
+      network: ws
+      port: 2086
+      server: 141.193.213.199
+      servername: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: dc33ccac-f27b-494d-98c0-553742e23268
+      ws-opts:
+        headers:
+            HOST: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com
+        path: /images
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.73 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      country: KR
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.18 MB/s"
+      password: qwerREWQ@@
+      port: 56780
+      server: 222.112.15.140
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.74 MB/s"
+      network: ws
+      port: 80
+      server: bd483412-sv8cg0-sveyey-44k4.hk.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.66 MB/s"
+      password: dongtaiwang.com
+      port: 31180
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria2
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.63 MB/s"
       network: ws
       password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
       port: 443
@@ -74,52 +115,44 @@ proxies:
         headers:
             Host: ZZzzzZZ.890601.XYZ
         path: /l96MZ8se5Kl2p8BiMhP42l
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.21 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.67 MB/s"
       network: ws
-      password: 13253e6e-a1f7-4090-801f-a8dc2b083bef
+      password: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c
       port: 443
-      server: 172.67.175.148
-      skip-cert-verify: false
-      sni: inviNcIble.fafa20.ShOp
+      server: mmmkiiuytr.iran.pp.ua
+      sni: MMmkIiuYTR.IRaN.pP.Ua
       type: trojan
-      udp: true
       ws-opts:
         headers:
-            Host: inviNcIble.fafa20.ShOp
-        path: /tr7PXHQRn4VPwGA2zY/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
+            Host: MMmkIiuYTR.IRaN.pP.Ua
+        path: /s1XRkMWuneQkqtp5KKSues
     - alpn:
-        - http/1.1
-      client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.52 MB/s"
-      network: ws
-      port: 2053
-      server: 172.67.171.131
-      servername: inVINCIble.fAFA20.Shop
-      skip-cert-verify: false
-      tls: true
-      type: vless
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1483
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.46 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1427
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.29 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
-      ws-opts:
-        headers:
-            Host: inVINCIble.fAFA20.Shop
-        path: /yRVRnY2jDtjg67UV/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
-    - cipher: aes-256-cfb
-      country: KR
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.73 MB/s"
-      password: qwerREWQ@@
-      port: 56780
-      server: 222.112.15.140
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.67 MB/s"
-      network: ws
-      password: 512d9674-db12-44ca-a1b5-654244549b65
-      port: 443
-      server: gghui.4444936.xyz
-      skip-cert-verify: false
-      sni: gghui.4444936.xyz
-      type: trojan
-      ws-opts:
-        headers:
-            Host: gghui.4444936.xyz
-        path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
+      up: 100
