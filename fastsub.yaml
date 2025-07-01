@@ -1,86 +1,242 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 67.22 MB/s"
-      network: ws
-      port: 2096
-      server: 104.21.3.189
-      servername: rak2d1.89060004.xyz
+    - mport: 50000-53000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 89.90 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 144.24.54.157
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 350e2b01-d410-44a6-90ba-6483f1062972
-      ws-opts:
-        headers:
-            HOST: rak2d1.89060004.xyz
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      country: SE
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 21.89 MB/s"
-      password: 0rBU5lwwlugGXlmeKA6O5Q
-      port: 62005
-      server: homa.cybsecguru.com
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.19 MB/s"
-      network: ws
-      port: 443
-      server: cdnjs.com
-      servername: rayan-navy.foton.dpdns.org
-      tls: true
-      type: vless
+      sni: www.bing.com
+      type: hysteria2
       udp: true
-      uuid: 1d173704-d5cc-4ce2-8b06-3a9a71037530
-      ws-opts:
-        headers:
-            Host: rayan-navy.foton.dpdns.org
-        path: /?ed=2560
-    - cipher: aes-256-gcm
-      country: GB
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.31 MB/s"
-      password: amtb+Cm3DefJ/zdLtavyB97HXFDli/6i8rQUktRZdEs=
-      port: 1443
-      server: outoutline1.drinfoo.com
+    - mport: 50000-53000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 89.71 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 141.148.158.54
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 85.86 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 132.226.30.123
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 82.02 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 129.153.71.226
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.70 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 141.148.131.27
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1F2\U0001F1FD MX | ⬇️ 37.26 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 140.84.178.54
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.92 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 65535
+      server: 40.233.77.86
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.50 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 131.186.42.162
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 24.84 MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)4fa101a:48723
+        mode: tls
+      port: 2377
+      server: 60.249.35.38
       type: ss
-    - auth: wVoVOR9RQFqB05p2Tmf5zK61plU
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.80 MB/s"
-      password: wVoVOR9RQFqB05p2Tmf5zK61plU
-      port: 3520
-      server: 38.179.64.162
+    - auth: kIKFMf0EbDYYTnUYTSWsrZO2CgI
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.77 MB/s"
+      password: kIKFMf0EbDYYTnUYTSWsrZO2CgI
+      port: 24801
+      server: 13.230.97.153
       skip-cert-verify: true
       sni: bing.com
       type: hysteria2
       udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.39 MB/s"
-      network: ws
-      password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-      port: 443
-      server: 104.21.6.179
-      skip-cert-verify: false
-      sni: ZZzzzZZ.890601.XYZ
-      type: trojan
-      ws-opts:
-        headers:
-            Host: ZZzzzZZ.890601.XYZ
-        path: /l96MZ8se5Kl2p8BiMhP42l
-    - auth: c8363b26-c951-4c96-8b74-fd529c7a9fd6
-      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 12.26 MB/s"
-      password: c8363b26-c951-4c96-8b74-fd529c7a9fd6
-      port: 26623
-      server: yjjdbd.yunjijd.xyz
+    - mport: 50000-53000
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.24 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 146.56.180.104
       skip-cert-verify: true
-      sni: yjjdbd.yunjijd.xyz
+      sni: www.hoyoverse.com
       type: hysteria2
       udp: true
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.11 MB/s"
-      password: dongtaiwang.com
-      port: 23579
-      server: 45.129.2.248
+    - mport: 50000-53000
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 19.22 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 159.13.38.138
+      skip-cert-verify: true
+      sni: www.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.79 MB/s"
+      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
+      port: 45551
+      server: 75.127.13.83
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.70 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 65535
+      server: 132.145.52.10
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.70 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 1
+      server: 138.2.179.192
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.38 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 65535
+      server: 132.145.28.17
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 17.33 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 129.151.193.163
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.97 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 1
+      server: 152.70.176.68
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.88 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 62.210.71.30
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - auth: VQzTHumV767vaCqDGSFsXb0XTMU
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.32 MB/s"
+      password: VQzTHumV767vaCqDGSFsXb0XTMU
+      port: 4881
+      server: 13.229.107.18
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - auth: eee0bc24-189b-4f12-8686-2a0a45ae67c5
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.86 MB/s"
+      password: eee0bc24-189b-4f12-8686-2a0a45ae67c5
+      port: 36002
+      server: 192.227.237.62
+      skip-cert-verify: true
+      sni: hk1.zongyunti.site
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 10.93 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 139.185.34.29
+      skip-cert-verify: true
+      sni: www.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - mport: 50000-53000
+      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 10.89 MB/s"
+      password: 57777c4c-e27f-42f4-8a3b-4d91fe354d7c
+      port: 50000
+      ports: 50000-53000
+      server: 139.185.32.100
+      skip-cert-verify: true
+      sni: www.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - auth: dongtaiwang.com
+      down: 100 Mbps
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.45 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1232
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.34 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
