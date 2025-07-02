@@ -6,7 +6,7 @@ proxies:
       delay: 1639
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.41 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 92.98 MB/s"
       network: ws
       port: 443
       server: cloudgetservice.mcloudservice.site
@@ -19,84 +19,64 @@ proxies:
         headers:
             HOST: MAxnETVipAP-ca2.MaxNetseRVIcES.OnLINE
         path: /linkws
-    - cipher: aes-256-gcm
-      country: GB
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 32.00 MB/s"
-      password: amtb+Cm3DefJ/zdLtavyB97HXFDli/6i8rQUktRZdEs=
-      port: 1443
-      server: outoutline1.drinfoo.com
-      type: ss
+    - alpn:
+        - http%2F1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 50.23 MB/s"
+      network: ws
+      password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+      port: 443
+      server: 104.21.91.180
+      sni: XXXXxxXxXc.666461.xyZ
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: XXXXxxXxXc.666461.xyZ
+        path: /x9F83IcyjcEyBXZBROjL3Q5vTymr
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.70 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.58 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
       skip-cert-verify: false
       sni: aus.pagate.top
       type: hysteria2
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.30 MB/s"
-      network: ws
-      password: 7248e825-887c-48b9-83bc-c26bc6392bf8
-      port: 443
-      server: 172.67.214.21
-      sni: xXcdvFgt.191268.XYz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: xXcdvFgt.191268.XYz
-        path: /ctdmgeIg3NII3ibrzzKXJGy3S1
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.57 MB/s"
-      network: tcp
-      port: 2321
-      server: 172.104.173.136
-      tls: false
-      type: vless
-      udp: true
-      uuid: ddd32705-ab32-4a8b-84db-092b75647453
-    - auth: wVoVOR9RQFqB05p2Tmf5zK61plU
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.34 MB/s"
-      password: wVoVOR9RQFqB05p2Tmf5zK61plU
-      port: 3520
-      server: 38.179.64.162
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.03 MB/s"
-      password: d9fe1f5e-8f0f-41b6-95f6-d90aa0404924
-      port: 45551
-      server: 75.127.13.83
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.12 MB/s"
-      network: ws
-      port: 443
-      server: 66.112.216.70
-      servername: usa.rtot.me
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: f19ed531-81cb-433e-8746-1a69e009f9df
-      ws-opts:
-        headers:
-            Host: usa.rtot.me
-        path: /bing
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.77 MB/s"
+    - cipher: aes-256-gcm
+      country: GB
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.86 MB/s"
+      password: amtb+Cm3DefJ/zdLtavyB97HXFDli/6i8rQUktRZdEs=
+      port: 1443
+      server: outoutline1.drinfoo.com
+      type: ss
+    - country: FR
+      delay: 1390
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.97 MB/s"
       password: dongtaiwang.com
-      port: 23579
-      server: 45.129.2.248
+      port: 31180
+      server: 51.159.111.32
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: apple.com
       type: hysteria2
+      udp: true
+    - auth: c8363b26-c951-4c96-8b74-fd529c7a9fd6
+      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 11.97 MB/s"
+      password: c8363b26-c951-4c96-8b74-fd529c7a9fd6
+      port: 26623
+      server: yjjdbd.yunjijd.xyz
+      skip-cert-verify: true
+      sni: yjjdbd.yunjijd.xyz
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.88 MB/s"
+      password: qawszxc123
+      port: 443
+      server: 18.143.181.137
+      tfo: false
+      type: ss
     - auth: dongtaiwang.com
       down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.52 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.96 MB/s"
       password: dongtaiwang.com
       port: 50066
       server: 51.159.226.1
@@ -105,3 +85,11 @@ proxies:
       type: hysteria2
       udp: true
       up: 100 Mbps
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.45 MB/s"
+      password: dongtaiwang.com
+      port: 23579
+      server: 45.129.2.248
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
