@@ -1,23 +1,95 @@
 proxy-providers: {}
 proxies:
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.20 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
+    - country: US
+      delay: 806
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.29 MB/s"
+      password: 2213c15d-8d6d-4e4f-986b-ddd59eedc45a
+      port: 52171
+      server: 107.172.190.228
+      skip-cert-verify: true
+      sni: www.bing.com
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.40 MB/s"
-      password: <password>
+      udp: true
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.88 MB/s"
+      network: ws
       port: 443
-      server: 38f6538e-sx8kg0-t1bnjq-1krtb.hkt2.cdnhuawei.com
+      server: FffvvVbnhJui8.222560.XYz
+      skip-cert-verify: true
       tls: true
-      type: socks5
+      type: vmess
+      uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48
+      ws-opts:
+        headers:
+            Host: fffvvvbnhjui8.222560.xyz
+        path: /mlyR5tmcKx3hweBopuhWEbIX
+    - auth: c8363b26-c951-4c96-8b74-fd529c7a9fd6
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.86 MB/s"
+      password: c8363b26-c951-4c96-8b74-fd529c7a9fd6
+      port: 26523
+      server: yjjdjnd.yunjijd.xyz
+      skip-cert-verify: true
+      sni: yjjdjnd.yunjijd.xyz
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.59 MB/s"
+      network: ws
+      port: 443
+      server: FffvvVbnhJui8.222560.XYz
+      tls: true
+      type: vmess
+      uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48
+      ws-opts:
+        headers:
+            Host: fffvvvbnhjui8.222560.xyz
+        path: /mlyR5tmcKx3hweBopuhWEbIX
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.61 MB/s"
+      password: <password>
+      port: 8443
+      server: 0a5eba5f-sx15s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+      tls: true
+      type: http
       username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - auth: meDixlXwWLtMK7KYGlxBjyxxCws
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.45 MB/s"
+      password: meDixlXwWLtMK7KYGlxBjyxxCws
+      port: 31506
+      server: 54.151.205.10
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.88 MB/s"
+      password: qwerREWQ@@
+      port: 15098
+      server: 125.141.31.72
+      type: ss
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.79 MB/s"
+      password: dongtaiwang.com
+      port: 23579
+      server: 45.129.2.248
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.50 MB/s"
+      password: 37d19f09-5fa4-4ad0-8484-55050b582a29
+      port: 2056
+      server: fr3.eyucdn.xyz
+      skip-cert-verify: true
+      sni: fr3.eyucdn.xyz
+      type: hysteria2
     - auth: dongtaiwang.com
       down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.99 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.46 MB/s"
       password: dongtaiwang.com
       port: 50066
       server: 51.159.226.1
@@ -26,27 +98,3 @@ proxies:
       type: hysteria2
       udp: true
       up: 100 Mbps
-    - auth: meDixlXwWLtMK7KYGlxBjyxxCws
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.68 MB/s"
-      password: meDixlXwWLtMK7KYGlxBjyxxCws
-      port: 31506
-      server: 54.151.205.10
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1232
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.51 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
