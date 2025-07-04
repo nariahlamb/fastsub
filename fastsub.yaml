@@ -1,103 +1,47 @@
 proxy-providers: {}
 proxies:
     - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 106.18 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.62 MB/s"
       password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
       port: 10086
       server: aus.pagate.top
       skip-cert-verify: false
       sni: aus.pagate.top
       type: hysteria2
-    - alterId: 64
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 60.81 MB/s"
-      network: ws
-      port: 30000
-      server: 107.167.31.38
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 603a9dc0-78de-419c-a22a-441c27d178a4
-      ws-opts:
-        headers:
-            Host: www.57723972.xyz
-        path: /path/1751546044274
-    - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.59 MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: 172.67.150.132
-      skip-cert-verify: false
-      sni: eeddcvfgt6.444682.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: eeddcvfgt6.444682.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.07 MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: iiiiop0.444752.xyz
-      skip-cert-verify: false
-      sni: iiiiop0.444752.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: iiiiop0.444752.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.80 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.38.90
-      servername: DDDCccdVfg.222856.xYZ
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
-      ws-opts:
-        headers:
-            Host: DDDCccdVfg.222856.xYZ
-        path: /laTDC7FYNlEa06b88JSo
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 16.23 MB/s"
-      port: 443
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 30.24 MB/s"
+      port: 36678
       reality-opts:
-        public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-        short-id: 55e6af1a35e64a98
-      server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-      servername: i2pd.website
-      skip-cert-verify: false
+        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
+        short-id: 5d20
+      server: 192.210.183.136
+      servername: swdist.apple.com
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
-    - auth: 4dec295b-d053-4ae4-88c1-465f66eec35c
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.94 MB/s"
-      password: 4dec295b-d053-4ae4-88c1-465f66eec35c
-      port: 26523
-      server: yjjdjnd.yunjijd.xyz
-      skip-cert-verify: true
-      sni: yjjdjnd.yunjijd.xyz
-      type: hysteria2
-      udp: true
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.06 MB/s"
+      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.00 MB/s"
       password: dongtaiwang.com
-      port: 23579
-      server: 45.129.2.248
+      port: 31180
+      server: 51.159.111.32
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: apple.com
       type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1753
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.66 MB/s"
+      obfs: ""
+      port: 15010
+      protocol: ""
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
