@@ -1,16 +1,8 @@
 proxy-providers: {}
 proxies:
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.62 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 30.24 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 30.48 MB/s"
       port: 36678
       reality-opts:
         public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
@@ -22,13 +14,29 @@ proxies:
       type: vless
       udp: true
       uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.34 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
+      type: hysteria2
     - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.00 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.36 MB/s"
       password: dongtaiwang.com
       port: 31180
       server: 51.159.111.32
       skip-cert-verify: true
       sni: apple.com
+      type: hysteria2
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.39 MB/s"
+      password: dongtaiwang.com
+      port: 23579
+      server: 45.129.2.248
+      skip-cert-verify: true
+      sni: www.bing.com
       type: hysteria2
     - alpn:
         - h3
@@ -36,7 +44,7 @@ proxies:
       auth_str: dongtaiwang.com
       delay: 1753
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.66 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.83 MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -45,3 +53,18 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1409
+      down: 100
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.75 MB/s"
+      port: 14241
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
