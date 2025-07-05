@@ -1,8 +1,26 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      country: ZZ
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 97.75 MB/s"
+      network: ws
+      port: 443
+      server: www.speedtest.net
+      servername: blaze-cana-126.blazeservers1.site
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: e2fb28b8-a457-4bd2-801e-56fdcccbd88e
+      ws-opts:
+        headers:
+            HOST: blaze-cana-126.blazeservers1.site
+        path: /linkvkwsss
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.82 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.73 MB/s"
       network: tcp
       port: 7885
       reality-opts:
@@ -13,125 +31,30 @@ proxies:
       tls: true
       type: vless
       uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.18 MB/s"
-      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
-      port: 10086
-      server: aus.pagate.top
-      skip-cert-verify: false
-      sni: aus.pagate.top
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      country: US
-      delay: 2731
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.55 MB/s"
-      network: ws
-      port: 443
-      server: cloudgetservice.mcloudservice.site
-      servername: Fra-Vp-123.BLaZECLOUD.Site
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
-      ws-opts:
-        headers:
-            HOST: Fra-Vp-123.BLaZECLOUD.Site
-        path: /linvkws
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 33.19 MB/s"
-      port: 36678
-      reality-opts:
-        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
-        short-id: 5d20
-      server: 192.210.183.136
-      servername: swdist.apple.com
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
-    - auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.73 MB/s"
-      password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-      port: 41951
-      server: sub-us-2.yangxiansheng.online
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.94 MB/s"
-      network: ws
-      port: 443
-      server: cdnjs.com
-      servername: rayan-navy.foton.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1d173704-d5cc-4ce2-8b06-3a9a71037530
-      ws-opts:
-        headers:
-            Host: rayan-navy.foton.dpdns.org
-        path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F3F3️ IR | ⬇️ 15.72 MB/s"
-      network: ws
-      port: 443
-      server: sn433.nikatel.store
-      tls: true
-      type: vmess
-      uuid: 85e4f280-c168-40aa-8f1c-c537ad3e995a
-      ws-opts:
-        headers:
-            Host: sn433.nikatel.store
-        path: /
-    - alpn:
-        - http/1.1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.14 MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: eeddcvfgt6.444682.xyz
-      skip-cert-verify: false
-      sni: eeddcvfgt6.444682.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: eeddcvfgt6.444682.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - auth: 7d090a3d-8297-46fe-a6f9-de9987bd07cb
-      delay: 2216
-      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 12.87 MB/s"
-      password: 7d090a3d-8297-46fe-a6f9-de9987bd07cb
-      port: 26623
-      server: yjjdbd.yunjijd.xyz
-      skip-cert-verify: true
-      sni: yjjdbd.yunjijd.xyz
-      type: hysteria2
-      udp: true
-    - fast-open: true
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 11.39 MB/s"
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.83 MB/s"
       password: dongtaiwang.com
-      port: 23579
-      server: 45.129.2.248
+      port: 31180
+      server: 51.159.111.32
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: apple.com
       type: hysteria2
+    - auth: 0671c0d8-8dde-4ed2-acf2-3808385ee79f
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.65 MB/s"
+      password: 0671c0d8-8dde-4ed2-acf2-3808385ee79f
+      port: 26523
+      server: yjjdjnd.yunjijd.xyz
+      skip-cert-verify: true
+      sni: yjjdjnd.yunjijd.xyz
+      type: hysteria2
+      udp: true
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1323
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.79 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.87 MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -140,18 +63,13 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1409
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.03 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
+    - auth: 7d090a3d-8297-46fe-a6f9-de9987bd07cb
+      delay: 2216
+      name: "\U0001F1EE\U0001F1F8 IS | ⬇️ 10.85 MB/s"
+      password: 7d090a3d-8297-46fe-a6f9-de9987bd07cb
+      port: 26623
+      server: yjjdbd.yunjijd.xyz
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+      sni: yjjdbd.yunjijd.xyz
+      type: hysteria2
       udp: true
-      up: 100
