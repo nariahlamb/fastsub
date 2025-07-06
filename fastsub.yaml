@@ -1,44 +1,8 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 104.47 MB/s"
-      network: ws
-      port: 443
-      server: www.speedtest.net
-      servername: blaze-cana-126.blazeservers1.site
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e2fb28b8-a457-4bd2-801e-56fdcccbd88e
-      ws-opts:
-        headers:
-            HOST: blaze-cana-126.blazeservers1.site
-        path: /linkvkwsss
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 102.37 MB/s"
-      network: ws
-      port: 443
-      server: www.speedtest.net
-      servername: blAze-can-118.BLAzEcanADA.sITE
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: cb443ca0-9221-4357-8d57-a83b5981f80f
-      ws-opts:
-        headers:
-            HOST: blAze-can-118.BLAzEcanADA.sITE
-        path: /linkvkwsss
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.03 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.43 MB/s"
       network: tcp
       port: 7885
       reality-opts:
@@ -49,95 +13,71 @@ proxies:
       tls: true
       type: vless
       uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      delay: 1367
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.93 MB/s"
-      network: ws
-      port: 443
-      server: 104.26.12.31
-      servername: usshs.atlen.dpdns.org
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.92 MB/s"
+      network: tcp
+      port: 7885
+      reality-opts:
+        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
+        short-id: 40cb281a
+      server: 45.150.165.121
+      servername: www.yahoo.com
       tls: true
-      type: vmess
-      uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
-      ws-opts:
-        headers:
-            HOST: usshs.atlen.dpdns.org
-        path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
-    - alterId: 64
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.17 MB/s"
-      port: 30002
-      server: 38.12.83.217
-      skip-cert-verify: true
-      tfo: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 38.91 MB/s"
-      network: ws
-      password: f898ffcb-6417-4373-9640-0b66091e8206
-      port: 443
-      server: 34r5.11890604.xyz
-      skip-cert-verify: true
-      sni: 34r5.11890604.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: 34r5.11890604.xyz
-        path: /CLtmyjAuOFZsWSituzXyJ5XNeH1R1
-    - alpn:
-        - http%2F1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.98 MB/s"
-      network: ws
-      password: f898ffcb-6417-4373-9640-0b66091e8206
-      port: 443
-      server: 34r5.11890604.xyz
-      skip-cert-verify: true
-      sni: 34r5.11890604.xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: 34r5.11890604.xyz
-        path: /CLtmyjAuOFZsWSituzXyJ5XNeH1R1
-    - alterId: 0
-      cipher: auto
-      country: US
-      delay: 2731
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.34 MB/s"
-      network: ws
-      port: 443
-      server: cloudgetservice.mcloudservice.site
-      servername: Fra-Vp-123.BLaZECLOUD.Site
-      skip-cert-verify: true
+      type: vless
+      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
+    - client-fingerprint: chrome
+      delay: 1178
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 30.09 MB/s"
+      network: tcp
+      port: 36678
+      reality-opts:
+        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
+        short-id: 5d20
+      server: 192.210.183.136
+      servername: swdist.apple.com
       tls: true
-      type: vmess
-      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
-      ws-opts:
-        headers:
-            HOST: Fra-Vp-123.BLaZECLOUD.Site
-        path: /linvkws
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.37 MB/s"
+      type: vless
+      udp: true
+      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.66 MB/s"
+      network: tcp
+      port: 56702
+      reality-opts:
+        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+        short-id: 792147b8
+      server: jp1.interld123456789.com
+      servername: addons.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3b4e2588-a84c-41e5-a02e-3063d9ef4d80
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.94 MB/s"
       network: ws
-      password: a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2
-      port: 443
-      server: 172.67.172.71
+      port: 80
+      server: 66.81.247.82
+      servername: reedfree8mahsang2.redorg.ir
       skip-cert-verify: false
-      sni: 666666Y.999165.XYZ
-      type: trojan
+      tls: false
+      type: vless
       udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: 666666Y.999165.XYZ
-        path: /mFvK3LJyIAe8ydvnmRKWDa8
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Channel id: @ShadowProxy66/?ed=2560'
+    - client-fingerprint: firefox
+      name: "\U0001F1FB\U0001F1F3 VN | ⬇️ 10.36 MB/s"
+      network: tcp
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 103.81.86.172
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      tls: true
+      type: vless
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
