@@ -1,55 +1,62 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 92.36 MB/s"
-      network: tcp
-      port: 7885
-      reality-opts:
-        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-        short-id: 40cb281a
-      server: 45.150.165.121
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
     - alterId: 0
       cipher: auto
       country: ZZ
+      delay: 1367
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 44.95 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 103.38 MB/s"
       network: ws
       port: 443
-      server: www.speedtest.net
-      servername: blaze-cana-126.blazeservers1.site
+      server: 104.26.12.31
+      servername: usshs.atlen.dpdns.org
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: e2fb28b8-a457-4bd2-801e-56fdcccbd88e
+      uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
       ws-opts:
         headers:
-            HOST: blaze-cana-126.blazeservers1.site
-        path: /linkvkwsss
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.08 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
+            HOST: usshs.atlen.dpdns.org
+        path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
+    - auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.28 MB/s"
+      password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+      port: 10086
+      server: aus.pagate.top
+      skip-cert-verify: false
+      sni: aus.pagate.top
       type: hysteria2
-    - auth: bb9043d6-5d3d-4f8f-b383-845e6663f8b5
-      down: 120
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.69 MB/s"
-      password: bb9043d6-5d3d-4f8f-b383-845e6663f8b5
-      port: 50000
-      server: ali.xiao666666.site
+    - alpn:
+        - http%2F1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.89 MB/s"
+      network: ws
+      password: f898ffcb-6417-4373-9640-0b66091e8206
+      port: 443
+      server: 34r5.11890604.xyz
       skip-cert-verify: true
-      sni: ali.xiao666666.site
-      type: hysteria2
+      sni: 34r5.11890604.xyz
+      type: trojan
       udp: true
-      up: 120
+      ws-opts:
+        headers:
+            Host: 34r5.11890604.xyz
+        path: /CLtmyjAuOFZsWSituzXyJ5XNeH1R1
+    - alpn:
+        - http/1.1
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.90 MB/s"
+      network: ws
+      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      port: 443
+      server: eeddcvfgt6.444682.xyz
+      skip-cert-verify: false
+      sni: eeddcvfgt6.444682.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: eeddcvfgt6.444682.xyz
+        path: /ctHoQlqeZn8pbEUSLppj7jCmY
     - alpn:
         - h3
       auth-str: dongtaiwang.com
@@ -65,3 +72,11 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.29 MB/s"
+      password: dongtaiwang.com
+      port: 23579
+      server: 45.129.2.248
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
