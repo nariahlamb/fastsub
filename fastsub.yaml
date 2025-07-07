@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 106.29 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 105.18 MB/s"
       password: ypDt8RkT7J
       port: 43118
       server: 89.187.181.172
@@ -11,7 +11,7 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.17 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.02 MB/s"
       network: tcp
       port: 30158
       reality-opts:
@@ -23,52 +23,3 @@ proxies:
       type: vless
       udp: true
       uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.18 MB/s"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 3.74.20.115
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      delay: 1178
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 32.66 MB/s"
-      network: tcp
-      port: 36678
-      reality-opts:
-        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
-        short-id: 5d20
-      server: 192.210.183.136
-      servername: swdist.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
-    - client-fingerprint: chrome
-      delay: 1178
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 31.73 MB/s"
-      network: tcp
-      port: 36678
-      reality-opts:
-        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
-        short-id: 5d20
-      server: 192.210.183.136
-      servername: swdist.apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.44 MB/s"
-      network: ws
-      port: 8880
-      server: 45.8.211.219
-      servername: reedfree8mahsang2.redorg.ir
-      type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: '/Channel id: @ShadowProxy66?ed'
