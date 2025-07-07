@@ -1,63 +1,74 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 106.29 MB/s"
+      password: ypDt8RkT7J
+      port: 43118
+      server: 89.187.181.172
+      skip-cert-verify: true
+      sni: egcmi.phooeyunfold.com
+      tfo: false
+      type: trojan
+      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 90.84 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.17 MB/s"
       network: tcp
-      port: 7885
+      port: 30158
       reality-opts:
-        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-        short-id: 40cb281a
-      server: 45.150.165.121
+        public-key: n7Ptb-3f4pw0D-hG-UP8Dp5Gf8J8Uxn029JMwdTyEFc
+        short-id: ee9e2505
+      server: 207.211.161.67
       servername: www.yahoo.com
-      tls: true
-      type: vless
-      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 89.55 MB/s"
-      network: tcp
-      port: 7885
-      reality-opts:
-        public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8
-        short-id: 40cb281a
-      server: 45.150.165.121
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 33.12 MB/s"
-      network: tcp
-      port: 56702
-      reality-opts:
-        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-        short-id: 792147b8
-      server: jp1.interld123456789.com
-      servername: addons.mozilla.org
       tls: true
       type: vless
       udp: true
-      uuid: 3b4e2588-a84c-41e5-a02e-3063d9ef4d80
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.48 MB/s"
-      password: <password>
-      port: 443
-      server: 48b68b06-sxe4g0-t1bnjq-1krtb.hkt2.cdnhuawei.com
+      uuid: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
+    - country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.18 MB/s"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 3.74.20.115
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      delay: 1178
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 32.66 MB/s"
+      network: tcp
+      port: 36678
+      reality-opts:
+        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
+        short-id: 5d20
+      server: 192.210.183.136
+      servername: swdist.apple.com
       tls: true
-      type: socks5
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.98 MB/s"
+      type: vless
+      udp: true
+      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - client-fingerprint: chrome
+      delay: 1178
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 31.73 MB/s"
+      network: tcp
+      port: 36678
+      reality-opts:
+        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
+        short-id: 5d20
+      server: 192.210.183.136
+      servername: swdist.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.44 MB/s"
       network: ws
-      port: 80
-      server: 66.81.247.82
+      port: 8880
+      server: 45.8.211.219
       servername: reedfree8mahsang2.redorg.ir
-      skip-cert-verify: false
-      tls: false
       type: vless
-      udp: true
       uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
             Host: reedfree8mahsang2.redorg.ir
-        path: '/Channel id: @ShadowProxy66/?ed=2560'
+        path: '/Channel id: @ShadowProxy66?ed'
