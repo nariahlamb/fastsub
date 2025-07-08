@@ -1,35 +1,46 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.37 MB/s"
-      network: ws
-      port: 2095
-      server: 45.80.111.119
-      servername: reedfree8mahsang2.redorg.ir
+    - client-fingerprint: chrome
+      delay: 1178
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 21.19 MB/s"
+      network: tcp
+      port: 36678
+      reality-opts:
+        public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
+        short-id: 5d20
+      server: 192.210.183.136
+      servername: swdist.apple.com
+      tls: true
       type: vless
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram:TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.42 MB/s"
+      udp: true
+      uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
+    - cipher: aes-256-cfb
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.09 MB/s"
+      password: qawszxc123
+      port: 443
+      server: 54.255.45.36
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.95 MB/s"
       network: ws
       port: 8880
-      server: 45.159.218.20
+      server: 135.84.74.177
       tls: false
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
       ws-opts:
         headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /
+            Host: ip.langmanshanxi.top
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1323
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.65 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.25 MB/s"
       obfs: ""
       port: 15010
       protocol: ""
@@ -38,3 +49,17 @@ proxies:
       sni: apple.com
       type: hysteria
       up: "100"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.09 MB/s"
+      network: ws
+      port: 80
+      server: 66.81.247.82
+      servername: reedfree8mahsang2.redorg.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Channel id: @ShadowProxy66/?ed=2560'
