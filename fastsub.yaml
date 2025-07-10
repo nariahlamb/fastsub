@@ -1,90 +1,146 @@
 proxy-providers: {}
 proxies:
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 125.42 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 167.234.210.122
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+    - cipher: chacha20-ietf-poly1305
+      country: IR
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.51 MB/s"
+      password: JcSUYpgrVMftcQXm8cjwoflqO2mLEd0qYGWQJR5nqC4=
+      port: 8080
+      server: david.lemoex.blog
+      type: ss
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 35.10 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.6.143
+      tls: false
+      type: vless
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 44.43 MB/s"
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram:@ShadowProxy66/?ed=2560
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.62 MB/s"
+      network: ws
+      port: 80
+      server: 45.159.218.154
+      servername: reedfree8mahsang2.redorg.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Telegram:'
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.26 MB/s"
       network: ws
       port: 443
-      server: 104.18.20.20
-      servername: us3.globals-download.com
-      skip-cert-verify: true
-      tfo: false
+      server: 104.21.94.69
+      servername: FfFfffFFFf.000890604.Xyz
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
+      uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
       ws-opts:
         headers:
-            Host: us3.globals-download.com
-        path: /pq/us3
+            Host: FfFfffFFFf.000890604.Xyz
+        path: /Ryxyg63Pk7cFSnZBROjL3Q5vTymr
     - alterId: 0
       cipher: auto
       country: ZZ
+      delay: 1732
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.48 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.94 MB/s"
       network: ws
-      port: 443
-      server: www.speedtest.net
-      servername: blaze-cana-126.blazeservers1.site
+      port: 2087
+      server: 104.21.3.189
+      servername: cc2d2.89060004.xyz
       skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: e2fb28b8-a457-4bd2-801e-56fdcccbd88e
+      uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
       ws-opts:
         headers:
-            HOST: blaze-cana-126.blazeservers1.site
-        path: /linkvkwsss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.79 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
-        short-id: a86103965ac913f2
-      server: 140.245.58.56
-      servername: tv.apple.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
+            HOST: cc2d2.89060004.xyz
+        path: /
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 27.86 MB/s"
+      network: ws
+      port: 80
+      server: 185.148.106.174
+      tls: false
       type: vless
       udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.72 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 193.123.240.119
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram:@ShadowProxy66/?ed=2560
+    - alterId: 0
+      cipher: auto
+      country: CA
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.84 MB/s"
+      network: ws
+      port: 8443
+      server: 51.222.158.243
       skip-cert-verify: true
-      sni: www.apple.com
+      tls: true
+      type: vmess
+      uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9
+      ws-opts:
+        path: /vmess/
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.71 MB/s"
+      network: ws
+      port: 8880
+      server: 66.81.247.79
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram@ShadowProxy66/?ed=2560
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.31 MB/s"
+      network: ws
+      port: 8880
+      server: 45.159.218.20
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.17 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
+      tfo: false
       type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.55 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: Wmz2q2twfWYu6FrO5xU1M87LO5KjkyGif0AuPLNMPW0
-        short-id: a86103965ac913f2
-      server: 140.245.58.56
-      servername: tv.apple.com
-      skip-cert-verify: true
-      tfo: false
-      tls: true
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 18.14 MB/s"
+      network: ws
+      port: 8880
+      server: 45.131.6.171
+      tls: false
       type: vless
       udp: true
-      uuid: 5467fe26-87fd-459c-95b8-2e8da008b71d
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.37 MB/s"
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram@ShadowProxy66/?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.03 MB/s"
       network: ws
       port: 8880
       server: 66.81.247.4
@@ -96,117 +152,117 @@ proxies:
         headers:
             Host: reedfree8mahsang2.redorg.ir
         path: /Telegram@ShadowProxy66/?ed=2560
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.20 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 146.56.164.36
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.94 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.9.71
+      servername: ddDDdDDdDDF.777198.XyZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.05 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 146.56.100.103
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.03 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 193.123.250.219
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.64 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 152.69.225.196
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.16 MB/s"
+      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      ws-opts:
+        headers:
+            Host: ddDDdDDdDDF.777198.XyZ
+        path: /OjdW89Bpg4ykd4O
+    - name: "\U0001F3F3️ AM | ⬇️ 15.71 MB/s"
       network: ws
       port: 8880
-      server: 135.84.74.177
+      server: 5.10.214.39
       tls: false
       type: vless
       udp: true
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
       ws-opts:
         headers:
-            Host: ip.langmanshanxi.top
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.11 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 140.245.35.78
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+            Host: reedfree8mahsang2.redorg.ir
+        path: /TelegramU0001F1E8U0001F1F3
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 14.48 MB/s"
+      network: ws
+      port: 8880
+      server: 45.131.211.224
+      tls: false
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.08 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 140.245.37.170
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /@ShadowProxy66?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.15 MB/s"
+      network: ws
+      port: 80
+      server: baota.me
       skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+      tfo: true
+      tls: false
+      type: vmess
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.02 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 140.245.46.17
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+      uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+      ws-opts:
+        headers:
+            Host: us.freeyyds.dpdns.org
+        path: /rongseven?ed=2048
+    - name: "\U0001F1E7\U0001F1EC BG | ⬇️ 13.95 MB/s"
+      network: ws
+      port: 8880
+      server: 45.142.120.234
+      tls: false
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.63 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 158.178.236.104
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Channel id: @ShadowProxy66?ed=2560'
+    - alpn:
+        - h3
+      client-fingerprint: randomized
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.69 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.178.14
+      servername: MaIncrafT.dPdnS.OrG
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.57 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 152.69.220.212
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
+      uuid: 252df5e8-0428-4345-b236-a6dae7b3457d
+      ws-opts:
+        headers:
+            Host: MaIncrafT.dPdnS.OrG
+        path: /HcFmPxmQkiv44jMu?ed=2560
+    - name: "\U0001F1E6\U0001F1FA AU | ⬇️ 12.86 MB/s"
+      network: ws
+      port: 8880
+      server: 103.169.142.80
+      tls: false
+      type: vless
       udp: true
-    - auth: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.45 MB/s"
-      password: 5467fe26-87fd-459c-95b8-2e8da008b71d
-      port: 35000
-      server: 140.245.36.207
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Channel id: @ShadowProxy66?ed=2560'
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 11.70 MB/s"
+      network: ws
+      port: 8880
+      server: 45.131.5.112
+      tls: false
+      type: vless
       udp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.26 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: www.bing.com
-      tfo: false
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.05 MB/s"
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram@ShadowProxy66/?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.57 MB/s"
       network: ws
       port: 80
       server: 66.81.247.82
@@ -220,42 +276,11 @@ proxies:
         headers:
             Host: reedfree8mahsang2.redorg.ir
         path: '/Channel id: @ShadowProxy66/?ed=2560'
-    - cipher: aes-256-gcm
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.00 MB/s"
-      password: 9bfdde71b4c0
-      plugin: v2ray-plugin
-      plugin-opts:
-        host: newroot2v1.dsjsapp.com
-        mode: websocket
-        mux: true
-        path: /cauejypbltqt
-        skip-cert-verify: false
-        tls: true
-      port: 636
-      server: 103.103.245.158
-      tfo: false
-      type: ss
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1231
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.44 MB/s"
-      obfs: ""
-      port: 15010
-      protocol: ""
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: "100"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       down: "100"
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.34 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.81 MB/s"
       obfs: ""
       port: 14241
       protocol: udp
