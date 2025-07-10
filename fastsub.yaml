@@ -1,84 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 43.87 MB/s"
-      network: ws
-      port: 8880
-      server: 45.12.30.145
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram@vpnAndroid2/?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      country: IR
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.41 MB/s"
-      password: JcSUYpgrVMftcQXm8cjwoflqO2mLEd0qYGWQJR5nqC4=
-      port: 8080
-      server: david.lemoex.blog
-      type: ss
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.79 MB/s"
-      network: ws
-      port: 80
-      server: 45.159.218.154
-      servername: reedfree8mahsang2.redorg.ir
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: '/Telegram:'
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.47 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.90.226
-      servername: eEedFR5.7777155.Xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-      ws-opts:
-        headers:
-            Host: eEedFR5.7777155.Xyz
-        path: /6OWLjRc26b0nHYr5hYXD
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.43 MB/s"
-      network: ws
-      port: 80
-      server: baota.me
-      skip-cert-verify: true
-      tfo: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: 2f38f848-a899-4c87-9807-207a41615e3c
-      ws-opts:
-        headers:
-            Host: us.freeyyds.dpdns.org
-        path: /rongseven?ed=2048
-    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 19.35 MB/s"
-      network: ws
-      port: 80
-      server: 45.131.6.143
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram:@ShadowProxy66/?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.82 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.21 MB/s"
       network: ws
       port: 80
       server: 66.81.247.82
@@ -91,11 +13,13 @@ proxies:
       ws-opts:
         headers:
             Host: reedfree8mahsang2.redorg.ir
-        path: '/Channel id: @ShadowProxy66/?ed=2560'
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.80 MB/s"
+        path: /Channel
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.75 MB/s"
       network: ws
-      port: 8880
-      server: 45.159.218.20
+      port: 2095
+      server: 45.80.111.119
+      servername: reedfree8mahsang2.redorg.ir
+      skip-cert-verify: false
       tls: false
       type: vless
       udp: true
@@ -103,96 +27,4 @@ proxies:
       ws-opts:
         headers:
             Host: reedfree8mahsang2.redorg.ir
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.66 MB/s"
-      network: ws
-      port: 8880
-      server: 66.81.247.4
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram@ShadowProxy66/?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.36 MB/s"
-      network: ws
-      password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
-      port: 443
-      server: 104.21.3.189
-      skip-cert-verify: true
-      sni: CcCVfGTyU.89060004.Xyz
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: CcCVfGTyU.89060004.Xyz
-        path: /5MkU0nARgHwk3aXBStn7
-    - cipher: aes-256-cfb
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.84 MB/s"
-      password: qawszxc123
-      port: 443
-      server: 54.169.5.180
-      type: ss
-    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 13.23 MB/s"
-      network: ws
-      port: 8880
-      server: 45.131.6.171
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram@ShadowProxy66/?ed=2560
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.84 MB/s"
-      network: ws
-      port: 80
-      server: 185.148.106.174
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram:@ShadowProxy66/?ed=2560
-    - name: "\U0001F1E7\U0001F1EC BG | ⬇️ 12.43 MB/s"
-      network: ws
-      port: 8880
-      server: 45.142.120.234
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: '/Channel id: @ShadowProxy66?ed=2560'
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.32 MB/s"
-      network: ws
-      port: 8880
-      server: 66.81.247.79
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: /Telegram@ShadowProxy66/?ed=2560
-    - name: "\U0001F1E6\U0001F1FA AU | ⬇️ 10.11 MB/s"
-      network: ws
-      port: 8880
-      server: 103.169.142.80
-      tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: reedfree8mahsang2.redorg.ir
-        path: '/Channel id: @ShadowProxy66?ed=2560'
+        path: /Telegram:TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1+TM-@AZARBAYJAB1
