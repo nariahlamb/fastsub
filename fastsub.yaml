@@ -1,9 +1,73 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.21 MB/s"
+    - name: "\U0001F1E7\U0001F1EC BG | ⬇️ 26.83 MB/s"
+      network: ws
+      port: 8880
+      server: 45.142.120.246
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: '/Channel id: @ShadowProxy66?ed=2560'
+    - delay: 1027
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 25.93 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.181
+      servername: us.laoyoutiao.link
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /
+      xudp: true
+    - name: "\U0001F1E7\U0001F1EC BG | ⬇️ 13.43 MB/s"
       network: ws
       port: 80
-      server: 66.81.247.82
+      server: 45.142.120.150
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram:@ShadowProxy66/?ed=2560
+    - name: "\U0001F3F3️ AM | ⬇️ 12.72 MB/s"
+      network: ws
+      port: 8880
+      server: 5.10.214.125
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: "/Telegram\U0001F1E8\U0001F1F3"
+    - delay: 547
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.62 MB/s"
+      network: ws
+      port: 80
+      server: 45.80.111.92
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /Telegram:@ShadowProxy66/?ed=2560
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.20 MB/s"
+      network: ws
+      port: 80
+      server: 185.174.138.6
       servername: reedfree8mahsang2.redorg.ir
       skip-cert-verify: false
       tls: false
@@ -13,8 +77,20 @@ proxies:
       ws-opts:
         headers:
             Host: reedfree8mahsang2.redorg.ir
-        path: /Channel
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.75 MB/s"
+        path: '/Channel id: @ShadowProxy66/?ed=2560'
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 11.74 MB/s"
+      network: ws
+      port: 8880
+      server: 45.159.218.20
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: reedfree8mahsang2.redorg.ir
+        path: /
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 11.35 MB/s"
       network: ws
       port: 2095
       server: 45.80.111.119
