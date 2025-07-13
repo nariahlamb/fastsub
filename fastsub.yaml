@@ -1,106 +1,12 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.72 MB/s"
-      password: 2a9b85bd-27cc-4e3b-b77d-54dbe5bc23af
-      port: 30000
-      server: 79.72.81.183
-      skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.04 MB/s"
-      password: 27e473f8-d610-4b04-bdf7-d0c39b47c897
-      port: 45000
-      server: 23.80.81.213
-      skip-cert-verify: true
-      sni: www.apple.com
-      tls: false
-      type: hysteria2
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.26 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.90.226
-      servername: eEedFR5.7777155.Xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-      ws-opts:
-        headers:
-            Host: eEedFR5.7777155.Xyz
-        path: /6OWLjRc26b0nHYr5hYXD
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.03 MB/s"
-      network: ws
-      port: 8880
-      server: 160.79.104.251
-      servername: cf.d3z.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /Telegram
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.91 MB/s"
-      password: dongtaiwang.com
-      port: 31180
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria2
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.92 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.14.1
-      servername: 5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 711627d2-1662-4e98-a3d6-086fd4fd4d31
-      ws-opts:
-        headers:
-            Host: 5nrvx1irwfiyq8nqbaiztizua8t8xg0d.pages.dev
-        path: /iqySBCJZh3v7AmTx?ed=2560
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.25 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.25 MB/s"
-      network: ws
-      port: 443
-      server: digitalocean.com
-      servername: rayan-olala.parvaneh.dpdns.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 60882caa-4e74-42a2-be70-220755fc1551
-      ws-opts:
-        headers:
-            Host: rayan-olala.parvaneh.dpdns.org
-        path: /?ed=2560
     - alterId: 0
       cipher: auto
       country: ZZ
       delay: 1833
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.11 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 56.54 MB/s"
       network: ws
       port: 2096
       server: 104.21.3.189
@@ -116,7 +22,7 @@ proxies:
     - alpn:
         - h3
       client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.89 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.57 MB/s"
       network: ws
       port: 443
       server: 104.21.35.171
@@ -130,15 +36,47 @@ proxies:
         headers:
             Host: MaIncrafT.dPdnS.OrG
         path: /HcFmPxmQkiv44jMu?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.06 MB/s"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.85 MB/s"
       network: ws
-      password: 512d9674-db12-44ca-a1b5-654244549b65
       port: 443
-      server: sssxxcvfty.444752.xyz
+      server: 104.21.90.226
+      servername: eEedFR5.7777155.Xyz
       skip-cert-verify: false
-      sni: sssxxcvfty.444752.xyz
-      type: trojan
+      tls: true
+      type: vless
+      udp: true
+      uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
       ws-opts:
         headers:
-            Host: sssxxcvfty.444752.xyz
-        path: /HOi2k5ElZdeML7Ua7dX3JIrYk7zm
+            Host: eEedFR5.7777155.Xyz
+        path: /6OWLjRc26b0nHYr5hYXD
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 14.93 MB/s"
+      network: ws
+      port: 80
+      server: 45.131.6.231
+      servername: redfree8.pooriashop.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redfree8.pooriashop.ir
+        path: /Telegram@WangCai2
+    - delay: 679
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.77 MB/s"
+      network: ws
+      port: 8880
+      server: 188.42.145.177
+      tls: false
+      type: vless
+      udp: true
+      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+      ws-opts:
+        headers:
+            Host: ip.langmanshanxi.top
+        path: /Telegram@WangCai2/?ed=2560
