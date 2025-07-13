@@ -1,82 +1,56 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: ZZ
-      delay: 1833
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 56.54 MB/s"
+    - cipher: aes-256-cfb
+      country: FR
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 27.28 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.159.106.175
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 26.12 MB/s"
       network: ws
-      port: 2096
-      server: 104.21.3.189
-      servername: rak2d1.89060004.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 350e2b01-d410-44a6-90ba-6483f1062972
-      ws-opts:
-        headers:
-            HOST: rak2d1.89060004.xyz
-        path: /
-    - alpn:
-        - h3
-      client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.57 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.35.171
-      servername: MaIncrafT.dPdnS.OrG
+      port: 2083
+      server: 212.183.88.29
+      servername: PoStwarE-2jM.PaGeS.DEv
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 252df5e8-0428-4345-b236-a6dae7b3457d
+      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
       ws-opts:
         headers:
-            Host: MaIncrafT.dPdnS.OrG
-        path: /HcFmPxmQkiv44jMu?ed=2560
+            Host: PoStwarE-2jM.PaGeS.DEv
+        path: /PB8ZxcORP4BTVbIC?ed=2560
     - alpn:
-        - http/1.1
+        - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.85 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.86 MB/s"
       network: ws
       port: 443
-      server: 104.21.90.226
-      servername: eEedFR5.7777155.Xyz
-      skip-cert-verify: false
+      server: sxxcer4.000890604.xyz
+      servername: sxXCer4.000890604.xYz
       tls: true
       type: vless
       udp: true
-      uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
       ws-opts:
         headers:
-            Host: eEedFR5.7777155.Xyz
-        path: /6OWLjRc26b0nHYr5hYXD
-    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 14.93 MB/s"
-      network: ws
-      port: 80
-      server: 45.131.6.231
-      servername: redfree8.pooriashop.ir
-      skip-cert-verify: false
+            Host: sxXCer4.000890604.xYz
+        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 13.82 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: www.bing.com
       tls: false
-      type: vless
-      udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redfree8.pooriashop.ir
-        path: /Telegram@WangCai2
-    - delay: 679
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.77 MB/s"
-      network: ws
-      port: 8880
-      server: 188.42.145.177
-      tls: false
-      type: vless
-      udp: true
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      ws-opts:
-        headers:
-            Host: ip.langmanshanxi.top
-        path: /Telegram@WangCai2/?ed=2560
+      type: hysteria2
+    - fast-open: true
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 11.45 MB/s"
+      password: dongtaiwang.com
+      port: 50850
+      server: 45.129.2.108
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
