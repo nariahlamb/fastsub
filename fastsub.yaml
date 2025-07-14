@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F3F3️ AL | ⬇️ 36.67 MB/s"
+      name: "\U0001F3F3️ AL | ⬇️ 34.59 MB/s"
       port: 443
       reality-opts:
         public-key: 6vqqlSsqIQLQ-pmkPfTQ0tJ2kh3U74YqTUcn06nYagY
@@ -16,21 +16,35 @@ proxies:
       uuid: 10f3650d-32f6-470a-b100-e29471cf3380
     - cipher: aes-256-gcm
       country: US
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 35.23 MB/s"
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 34.12 MB/s"
       password: TG:@Enkelte_notif&&TG:@Notif_Chat
       port: 34045
       server: 152.53.2.128
       type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 26.02 MB/s"
-      password: 4194ce5b1f36f660
-      port: 30101
-      server: 176.32.35.68
-      type: ss
     - cipher: aes-256-cfb
       country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.49 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 28.27 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 51.159.106.175
       type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 24.65 MB/s"
+      password: 4194ce5b1f36f660
+      port: 30101
+      server: 176.32.35.68
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.06 MB/s"
+      password: 40bdc52dcffa6942
+      port: 10601
+      server: 176.32.35.51
+      type: ss
+    - country: ' PT'
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.55 MB/s"
+      password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa
+      port: 443
+      server: pt.mjt000.com
+      skip-cert-verify: true
+      type: trojan
+      udp: true
