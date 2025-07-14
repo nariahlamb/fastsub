@@ -1,53 +1,59 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.91 MB/s"
-      password: awsps0501
-      port: 443
-      server: 44.249.132.56
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.81 MB/s"
-      password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
-      port: 45000
-      server: 23.80.81.213
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 32.07 MB/s"
+      network: tcp
+      port: 2321
+      server: 172.105.240.36
       skip-cert-verify: true
-      sni: www.apple.com
-      type: hysteria2
-    - cipher: aes-256-cfb
-      country: ' MD'
-      name: "\U0001F3F3️ MD | ⬇️ 18.82 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.153.197.5
-      type: ss
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.87 MB/s"
-      network: ws
-      port: 80
-      server: 104.17.147.22
-      servername: redfree8.pooriashop.ir
-      skip-cert-verify: false
       tls: false
       type: vless
       udp: true
-      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-      ws-opts:
-        headers:
-            Host: redfree8.pooriashop.ir
-        path: /Telegram@V2ray_Alpha/?ed=2560
+      uuid: 4c350369-47f8-4e21-83ad-3d7b8aff3e87
     - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 10.04 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.73 MB/s"
       network: ws
-      port: 2083
-      server: 212.183.88.29
-      servername: PoStwarE-2jM.PaGeS.DEv
+      port: 443
+      server: 104.18.155.119
+      servername: rayan-karma.parvaneh.dpdns.org
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+      uuid: 60882caa-4e74-42a2-be70-220755fc1551
       ws-opts:
         headers:
-            Host: PoStwarE-2jM.PaGeS.DEv
-        path: /PB8ZxcORP4BTVbIC?ed=2560
+            Host: rayan-karma.parvaneh.dpdns.org
+        path: /?ed=2560
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.83 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.66.157
+      servername: eeEEEeR.666470.xYZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+      ws-opts:
+        headers:
+            Host: eeEEEeR.666470.xYZ
+        path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.87 MB/s"
+      network: ws
+      port: 443
+      server: sxxcer4.000890604.xyz
+      servername: sxXCer4.000890604.xYz
+      tls: true
+      type: vless
+      udp: true
+      uuid: 13e26f64-2e0c-4461-92cd-d83294cc18f0
+      ws-opts:
+        headers:
+            Host: sxXCer4.000890604.xYz
+        path: /WfxcqrR5ycVpIit2OdWk0KwirdY
