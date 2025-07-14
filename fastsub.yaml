@@ -1,50 +1,53 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F3F3️ AL | ⬇️ 34.59 MB/s"
+    - cipher: aes-256-cfb
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.91 MB/s"
+      password: awsps0501
       port: 443
-      reality-opts:
-        public-key: 6vqqlSsqIQLQ-pmkPfTQ0tJ2kh3U74YqTUcn06nYagY
-        short-id: b6
-      server: 78.159.131.107
-      servername: pingless.com
+      server: 44.249.132.56
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.81 MB/s"
+      password: 8a104bc2-a8d1-4f38-8c29-17176a68b7d5
+      port: 45000
+      server: 23.80.81.213
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+    - cipher: aes-256-cfb
+      country: ' MD'
+      name: "\U0001F3F3️ MD | ⬇️ 18.82 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.87 MB/s"
+      network: ws
+      port: 80
+      server: 104.17.147.22
+      servername: redfree8.pooriashop.ir
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+      ws-opts:
+        headers:
+            Host: redfree8.pooriashop.ir
+        path: /Telegram@V2ray_Alpha/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 10.04 MB/s"
+      network: ws
+      port: 2083
+      server: 212.183.88.29
+      servername: PoStwarE-2jM.PaGeS.DEv
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 10f3650d-32f6-470a-b100-e29471cf3380
-    - cipher: aes-256-gcm
-      country: US
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 34.12 MB/s"
-      password: TG:@Enkelte_notif&&TG:@Notif_Chat
-      port: 34045
-      server: 152.53.2.128
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 28.27 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.159.106.175
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 24.65 MB/s"
-      password: 4194ce5b1f36f660
-      port: 30101
-      server: 176.32.35.68
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.06 MB/s"
-      password: 40bdc52dcffa6942
-      port: 10601
-      server: 176.32.35.51
-      type: ss
-    - country: ' PT'
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.55 MB/s"
-      password: 84587c21-9938-42fc-a4b0-4f72dd72b7aa
-      port: 443
-      server: pt.mjt000.com
-      skip-cert-verify: true
-      type: trojan
-      udp: true
+      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+      ws-opts:
+        headers:
+            Host: PoStwarE-2jM.PaGeS.DEv
+        path: /PB8ZxcORP4BTVbIC?ed=2560
