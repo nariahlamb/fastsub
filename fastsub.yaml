@@ -1,21 +1,23 @@
 proxy-providers: {}
 proxies:
-    - country: ' IL'
-      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 17.18 MB/s"
-      password: 3894e5d3567333cfa482cb9601311829
-      port: 25131
-      server: jerusalem-d.oraclenat.cc
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.79 MB/s"
+      network: ws
+      port: 443
+      server: sssxxxcft6.444752.xyz
+      servername: sssxxxcft6.444752.xyz
       skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.70 MB/s"
-      password: <password>
-      port: 8443
-      server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
       tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 10.91 MB/s"
+      type: vless
+      udp: true
+      uuid: 512d9674-db12-44ca-a1b5-654244549b65
+      ws-opts:
+        headers:
+            Host: sssxxxcft6.444752.xyz
+        path: /zzMtGpHptl8a7dX3JIrYk7zm
+    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 12.41 MB/s"
       password: SdCqFLcA
       port: 40252
       server: 36.151.251.57
@@ -23,3 +25,10 @@ proxies:
       sni: www.baidu.com
       type: trojan
       udp: true
+    - cipher: aes-256-cfb
+      country: ' KR'
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.86 MB/s"
+      password: qwerREWQ@@
+      port: 15098
+      server: p222.panda001.net
+      type: ss
