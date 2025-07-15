@@ -1,23 +1,101 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.79 MB/s"
+    - cipher: chacha20-ietf-poly1305
+      country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 38.82 MB/s"
+      password: tLxqCRbUMIJ2+8nWSUGJL4qwZdIrg6i/5f5f3W+a9X0=
+      port: 8880
+      server: 199.247.23.140
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 38.27 MB/s"
       network: ws
       port: 443
-      server: sssxxxcft6.444752.xyz
-      servername: sssxxxcft6.444752.xyz
-      skip-cert-verify: true
+      server: cloudflare.182682.xyz
+      servername: test.saas.cname.123153.xyz
       tls: true
       type: vless
       udp: true
-      uuid: 512d9674-db12-44ca-a1b5-654244549b65
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
       ws-opts:
         headers:
-            Host: sssxxxcft6.444752.xyz
-        path: /zzMtGpHptl8a7dX3JIrYk7zm
-    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 12.41 MB/s"
+            Host: test.saas.cname.123153.xyz
+        path: /snippets
+    - alpn:
+        - http/1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.27 MB/s"
+      network: ws
+      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+      port: 443
+      server: 104.21.26.17
+      skip-cert-verify: false
+      sni: rrrRrRRrT.459.pp.ua
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: rrrRrRRrT.459.pp.ua
+        path: /znQImc22ijDwVOkZfoq
+    - alpn:
+        - http%2F1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.87 MB/s"
+      network: ws
+      password: 357b1bba-6400-4944-baff-1b933311ff28
+      port: 443
+      server: 172.67.177.109
+      skip-cert-verify: true
+      sni: EeEEeEEeeeeeeE.666461.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: EeEEeEEeeeeeeE.666461.xyz
+        path: /HbjLgzKC7MBYIsgt
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.72 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.3.189
+      servername: oo098.89060004.xyZ
+      tls: true
+      type: vless
+      udp: true
+      uuid: 509ed9b7-8d64-4204-8ec8-6b749020ac3f
+      ws-opts:
+        headers:
+            Host: oo098.89060004.xyZ
+        path: /VlJKGXt3aXBStn7
+    - cipher: aes-256-gcm
+      name: "\U0001F1FF\U0001F1E6 ZA | ⬇️ 16.38 MB/s"
+      password: hKlCaqvF
+      port: 19927
+      server: 94.156.93.86
+      type: ss
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.31 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.200
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.25 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.76
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: yd.laoyoutiao.link
+        path: /Telegram @MxlShare @WangCai2 /?ed
+    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 10.52 MB/s"
       password: SdCqFLcA
       port: 40252
       server: 36.151.251.57
@@ -25,10 +103,19 @@ proxies:
       sni: www.baidu.com
       type: trojan
       udp: true
-    - cipher: aes-256-cfb
-      country: ' KR'
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.86 MB/s"
-      password: qwerREWQ@@
-      port: 15098
-      server: p222.panda001.net
-      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.04 MB/s"
+      network: ws
+      port: 443
+      server: SSsXXXCvBnmjKi.931.Pp.uA
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05
+      ws-opts:
+        headers:
+            Host: sssxxxcvbnmjki.931.pp.ua
+        path: /0FhUkqQUdxOhMB9JsgTazwz9
