@@ -1,2 +1,31 @@
 proxy-providers: {}
-proxies: []
+proxies:
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 19.98 MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: 88a027c.dl.microsoft.lu:14333
+        mode: tls
+      port: 2377
+      server: 118.163.198.43
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.77 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.150
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: yd.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 10.67 MB/s"
+      password: SdCqFLcA
+      port: 40252
+      server: 36.151.251.57
+      skip-cert-verify: true
+      sni: www.baidu.com
+      type: trojan
+      udp: true
