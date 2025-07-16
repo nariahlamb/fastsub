@@ -1,19 +1,54 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 19.98 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: 88a027c.dl.microsoft.lu:14333
-        mode: tls
-      port: 2377
-      server: 118.163.198.43
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.77 MB/s"
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.68 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.9.71
+      servername: ddDDdDDdDDF.777198.XyZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      ws-opts:
+        headers:
+            Host: ddDDdDDdDDF.777198.XyZ
+        path: /OjdW89Bpg4ykd4O
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 14.69 MB/s"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+      password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+      port: 35000
+      server: 206.71.158.40
+      skip-cert-verify: false
+      sni: pichondan.com
+      tls: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EE\U0001F1F7IR"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.19 MB/s"
+      network: ws
+      port: 443
+      server: 62.60.156.61
+      servername: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+      ws-opts:
+        headers:
+            HOST: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
+        path: /920f9840-4d0f-11f0-a948-6a75f667b472?ed=2048
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.46 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.150
+      server: 156.238.18.207
       tls: false
       type: vless
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
@@ -21,7 +56,33 @@ proxies:
         headers:
             Host: yd.laoyoutiao.link
         path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
-    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 10.67 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.49 MB/s"
+      port: 2096
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: 6ba85179e30d4fc2
+      server: zzyd6dhd5.pet0er23mh21qq.com
+      servername: sourceforge.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 598a6cea-dfd2-4e97-9415-4571f742bf18
+    - client-fingerprint: chrome
+      name: "\U0001F1FB\U0001F1F3 VN | ⬇️ 11.59 MB/s"
+      network: tcp
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 160.250.65.124
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 10.26 MB/s"
       password: SdCqFLcA
       port: 40252
       server: 36.151.251.57
@@ -29,3 +90,17 @@ proxies:
       sni: www.baidu.com
       type: trojan
       udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      down: 100
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.03 MB/s"
+      port: 62003
+      protocol: udp
+      server: 176.32.35.226
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
