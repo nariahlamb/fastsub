@@ -1,25 +1,55 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.68 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 48.17 MB/s"
       network: ws
+      password: fa050497-fc2a-45ee-89c0-96670c4ecb65
       port: 443
-      server: 172.67.188.188
-      servername: SssXzAw.444652.XYZ
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      server: 104.21.63.135
+      skip-cert-verify: false
+      sni: Rrr4.8906004.xYZ
+      type: trojan
       ws-opts:
         headers:
-            Host: SssXzAw.444652.XYZ
-        path: /nSABZLQbEUSLppj7jCmY
+            Host: Rrr4.8906004.xYZ
+        path: /DZxb5QZyWgQPuXTwt
+    - country: GB
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 40.98 MB/s"
+      password: "74260628090146500"
+      port: 443
+      server: stirring-parakeet.shiner427.skin
+      type: trojan
+      udp: true
+    - country: ZZ
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 40.05 MB/s"
+      password: "74260628090146500"
+      port: 443
+      server: huge-turkey.shiner427.skin
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.68 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.15.17.169
+      type: ss
+    - country: IN
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.91 MB/s"
+      password: "74260628090146500"
+      port: 443
+      server: ample-koi.shiner427.skin
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.20 MB/s"
+      password: awsps0501
+      port: 443
+      server: 44.249.132.56
+      type: ss
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.26 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.77 MB/s"
       network: ws
       port: 443
       server: 104.21.9.71
@@ -33,3 +63,64 @@ proxies:
         headers:
             Host: ddDDdDDdDDF.777198.XyZ
         path: /OjdW89Bpg4ykd4O
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.70 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.43
+      servername: us.laoyoutiao.link
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.43 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.212
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.03 MB/s"
+      network: ws
+      port: 80
+      server: 141.193.213.114
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare+@WangCai2+/?ed=2560"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.15 MB/s"
+      network: ws
+      port: 443
+      server: ssssssssssssfffffffgh.2032.pp.ua
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      ws-opts:
+        headers:
+            Host: ssssssssssssfffffffgh.2032.pp.ua
+        path: /6We3U9Df1WGxgFnoFPw1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.41 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.222
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
