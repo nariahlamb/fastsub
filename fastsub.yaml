@@ -1,18 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.36 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.41
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.35 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 65.75 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.127
@@ -24,25 +12,9 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.92 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.188.188
-      servername: SssXzAw.444652.XYZ
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      ws-opts:
-        headers:
-            Host: SssXzAw.444652.XYZ
-        path: /nSABZLQbEUSLppj7jCmY
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.07 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.99 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -54,43 +26,27 @@ proxies:
       tls: true
       type: vless
       uuid: f56b5d9d-5866-4afd-b5f2-2cfa78864866
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.09 MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: xokq1PlzXfunVbdUvWKkR7DpCMsZPr8mNMl74JZMxVg
-        short-id: 07204dd0
-      server: 47.79.37.171
-      servername: www.yahoo.com
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.25 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.13.36
+      servername: XcdvfGBnHU7.0890604.XyZ
+      skip-cert-verify: false
       tls: true
       type: vless
-      uuid: e5c89c14-3de9-4716-cbc3-6eae3ebed0a2
-    - cipher: chacha20-ietf-poly1305
-      country: CH
-      name: "\U0001F1E8\U0001F1ED CH | ⬇️ 21.04 MB/s"
-      password: hw404xRkrd1yR5ECdg7FAX
-      port: 8443
-      server: 178.209.40.92
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: ES
-      name: "\U0001F1EA\U0001F1EA EE | ⬇️ 20.12 MB/s"
-      password: AMF4JasKqxu3NPfxG1mODb
-      port: 8443
-      server: 45.151.72.141
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: AT
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 20.01 MB/s"
-      password: JMSLpqZauV58GGxO6T4By4
-      port: 8443
-      server: 192.71.247.197
-      type: ss
+      udp: true
+      uuid: a7c9c017-db10-4d15-b01b-0634db498b57
+      ws-opts:
+        headers:
+            Host: XcdvfGBnHU7.0890604.XyZ
+        path: /xZjr7v1DqrYyamxeTh7sLJtI1
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.08 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.63 MB/s"
       network: ws
       port: 443
       server: 172.67.188.188
@@ -103,41 +59,46 @@ proxies:
         headers:
             Host: SssXzAw.444652.XYZ
         path: /nSABZLQbEUSLppj7jCmY
-    - alterId: 0
-      cipher: auto
-      delay: 2782
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.07 MB/s"
-      network: ws
-      port: 443
-      server: 62.60.156.228
-      servername: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
-      tls: true
-      type: vmess
-      uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
-      ws-opts:
-        headers:
-            host: 920f9840-4d0f-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat
-        path: /920f9840-4d0f-11f0-a948-6a75f667b472?ed=2048
     - alpn:
-        - http/1.1
+        - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.89 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.05 MB/s"
       network: ws
       port: 443
-      server: 104.21.66.157
-      servername: eeEEEeR.666470.xYZ
-      skip-cert-verify: false
+      server: 172.67.188.188
+      servername: SssXzAw.444652.XYZ
       tls: true
       type: vless
       udp: true
-      uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
       ws-opts:
         headers:
-            Host: eeEEEeR.666470.xYZ
-        path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.80 MB/s"
+            Host: SssXzAw.444652.XYZ
+        path: /nSABZLQbEUSLppj7jCmY
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.17 MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: xokq1PlzXfunVbdUvWKkR7DpCMsZPr8mNMl74JZMxVg
+        short-id: 07204dd0
+      server: 47.79.37.171
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      uuid: e5c89c14-3de9-4716-cbc3-6eae3ebed0a2
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.78 MB/s"
+      network: ws
+      port: 8880
+      server: 185.16.110.251
+      servername: cf.d3z.net
+      type: vless
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /Telegram @WangCai2 /?ed
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.44 MB/s"
       network: ws
       port: 8880
       server: 185.16.110.251
@@ -149,14 +110,3 @@ proxies:
         headers:
             Host: cf.d3z.net
         path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.08 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.150
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
