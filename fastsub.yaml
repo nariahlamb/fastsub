@@ -1,76 +1,224 @@
 proxy-providers: {}
 proxies:
-    - country: GB
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 41.20 MB/s"
-      password: "74260628090146500"
-      port: 443
-      server: stirring-parakeet.shiner427.skin
-      type: trojan
-      udp: true
-    - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.86 MB/s"
+    - delay: 1424
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 53.62 MB/s"
       network: ws
-      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-      port: 443
-      server: 172.67.135.37
+      port: 8880
+      server: 91.193.58.121
       skip-cert-verify: false
-      sni: rrrRrRRrT.459.pp.ua
-      type: trojan
-      udp: true
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: rrrRrRRrT.459.pp.ua
-        path: /znQImc22ijDwVOkZfoq
+            Host: sk.laoyoutiao.link
+        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    - alterId: 0
+      cipher: auto
+      country: CA
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.75 MB/s"
+      network: ws
+      port: 443
+      server: nyl.988978.xyz
+      servername: nyl.988978.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 40af0e14-03c8-45eb-85f3-d2e688ddab4a
+      ws-opts:
+        headers:
+            HOST: nyl.988978.xyz
+        path: /40af0e14-03c8-45eb-85f3-d2e688ddab4a
+    - delay: 1505
+      http-opts:
+        headers:
+            Host:
+                - zula.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.12 MB/s"
+      network: http
+      port: 8443
+      server: 31.44.4.107
+      servername: zula.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: d13b3634-094c-41fd-8154-76a512662dbe
     - cipher: aes-256-cfb
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.95 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.70 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 51.15.17.169
       type: ss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.63 MB/s"
-      password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-      port: 8443
-      server: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-      skip-cert-verify: false
-      sni: ce8ae4b9-svn5s0-swbt02-g3b3.hy2.gotochinatown.net
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.12 MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: xokq1PlzXfunVbdUvWKkR7DpCMsZPr8mNMl74JZMxVg
-        short-id: 07204dd0
-      server: 47.79.37.171
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      uuid: e5c89c14-3de9-4716-cbc3-6eae3ebed0a2
-    - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 15.65 MB/s"
+    - name: "\U0001F1E7\U0001F1FF BZ | ⬇️ 29.70 MB/s"
       network: ws
-      port: 2083
-      server: 212.183.88.29
-      servername: POstwARE-2jm.PagES.DEv
-      skip-cert-verify: false
+      port: 443
+      server: 45.131.208.79
+      servername: rayan-12.leila.dpdns.org
+      skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 65ee27b8-88b6-45f5-a2f8-8392c4afd82d
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
       ws-opts:
         headers:
-            Host: POstwARE-2jm.PagES.DEv
-        path: /3BiOQ1rCgST9FvMj?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.38 MB/s"
+            host: rayan-12.leila.dpdns.org
+        path: /@rayan_config
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.53 MB/s"
       network: ws
-      password: fa050497-fc2a-45ee-89c0-96670c4ecb65
       port: 443
-      server: 104.21.63.135
-      skip-cert-verify: false
-      sni: Rrr4.8906004.xYZ
-      type: trojan
+      server: sssxxxcft6.444752.xyz
+      servername: sssxxxcft6.444752.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 512d9674-db12-44ca-a1b5-654244549b65
       ws-opts:
         headers:
-            Host: Rrr4.8906004.xYZ
-        path: /DZxb5QZyWgQPuXTwt
+            Host: sssxxxcft6.444752.xyz
+        path: /zzMtGpHptl8a7dX3JIrYk7zm
+    - alterId: 0
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 29.31 MB/s"
+      password: "74260628090146500"
+      port: 443
+      server: ample-koi.shiner427.skin
+      skip-cert-verify: true
+      tls: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.52 MB/s"
+      network: ws
+      port: 443
+      server: 172.66.47.156
+      servername: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+      ws-opts:
+        headers:
+            host: wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET
+        path: //
+    - cipher: aes-256-cfb
+      country: RU
+      delay: 929
+      name: "\U0001F3F3️ MD | ⬇️ 24.46 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: CA
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.93 MB/s"
+      network: ws
+      port: 8443
+      server: 51.222.158.243
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9
+      ws-opts:
+        path: /vmess/
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.39 MB/s"
+      network: ws
+      port: 443
+      server: 104.25.55.212
+      servername: rayan-08.leila.dpdns.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+      ws-opts:
+        headers:
+            host: rayan-08.leila.dpdns.org
+        path: /@filter_breaker
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.65 MB/s"
+      password: "74260628090146500"
+      port: 443
+      server: huge-turkey.shiner427.skin
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: SG
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.86 MB/s"
+      password: g3eZw8LdCPRrNFtqrGU1Zw
+      port: 52252
+      server: sg.outlinekeys.net
+      type: ss
+    - client-fingerprint: chrome
+      delay: 2404
+      grpc-opts:
+        grpc-service-name: Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 17.41 MB/s"
+      network: grpc
+      port: 11744
+      reality-opts:
+        public-key: ujynIXoajPwSKKq9SSN2Gc23KEyIl51rAvsrgj1jXDE
+        short-id: cb3d822354e725
+      server: 194.182.79.142
+      servername: sourceforge.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 852006d4-ea05-4e34-bffc-305f8a462ce3
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.97 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.66.177
+      servername: rayan-roof.atena.dpdns.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: db400287-fb42-441d-8a76-5624a8a96f49
+      ws-opts:
+        headers:
+            host: rayan-roof.atena.dpdns.org
+        path: /
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.65 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.150
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: yd.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.80 MB/s"
+      password: 5CBqBh6MeDq6GajcilBiDg==
+      port: 61001
+      server: 192.227.152.86
+      skip-cert-verify: true
+      sni: 192-227-152-86.nip.io
+      type: hysteria2
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1665
+      down: 100
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.02 MB/s"
+      port: 62003
+      protocol: udp
+      server: 176.32.35.226
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
