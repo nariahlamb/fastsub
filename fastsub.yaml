@@ -1,18 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 114.59 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.127
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 93.86 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 107.66 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.41
@@ -25,7 +13,7 @@ proxies:
             Host: sk.laoyoutiao.link
         path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
     - delay: 1424
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 89.01 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 85.99 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.121
@@ -37,56 +25,30 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - delay: 1505
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.90 MB/s"
-      network: http
-      port: 8443
-      server: 31.44.4.107
-      servername: zula.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: d13b3634-094c-41fd-8154-76a512662dbe
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 34.82 MB/s"
-      network: ws
-      port: 443
-      server: 188.42.89.145
-      servername: rAyAn-12.LeIlA.DpDnS.OrG
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-      ws-opts:
-        headers:
-            Host: rayan-12.leila.dpdns.org
-        path: /@Rayan_Config
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.79 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 69.21 MB/s"
       network: ws
       port: 8880
-      server: 192.200.160.251
-      servername: cf.d3z.net
+      server: 91.193.58.127
       skip-cert-verify: false
       tls: false
       type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cf.d3z.net
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.71 MB/s"
-      password: <password>
+            Host: sk.laoyoutiao.link
+        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    - alterId: 0
+      cipher: auto
+      country: CA
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.86 MB/s"
+      network: ws
       port: 8443
-      server: 999598f4-sx8kg0-t1bnjq-1krtb.hkt.cdnhuawei.com
+      server: 51.222.158.243
+      skip-cert-verify: true
       tls: true
-      type: http
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+      type: vmess
+      uuid: 4b0df213-0e59-4c16-b391-e0d97686bfa9
+      ws-opts:
+        path: /vmess/
