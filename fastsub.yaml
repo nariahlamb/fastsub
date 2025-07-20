@@ -1,19 +1,6 @@
 proxy-providers: {}
 proxies:
-    - delay: 1424
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 95.22 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.121
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 51.12 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 96.54 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.41
@@ -25,23 +12,45 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.09 MB/s"
-      password: AJiaFGPGOJ
-      port: 1935
-      server: x6-germany-amazon-v2-8xhhs.devefun.org
-      sni: x6-germany-amazon-v2-8xhhs.devefun.org
-      type: trojan
-      udp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.56 MB/s"
+    - delay: 1424
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 70.97 MB/s"
       network: ws
       port: 8880
-      server: 185.16.110.251
+      server: 91.193.58.121
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cf.d3z.net
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+            Host: sk.laoyoutiao.link
+        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 68.96 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.127
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    - alterId: 0
+      cipher: auto
+      country: IR
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 27.81 MB/s"
+      network: ws
+      port: 2086
+      server: ytrrtp3e665b.peymanribvar.xyz
+      servername: www.bing.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 02f605b6-19b8-4b2e-a7ca-d3dc98878055
+      ws-opts:
+        headers:
+            HOST: www.bing.com
+        path: /02f605b6-19b8-4b2e-a7ca-d3dc98878055-vm
