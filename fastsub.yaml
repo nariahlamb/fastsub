@@ -1,185 +1,112 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 100.96 MB/s"
+    - cipher: rc4-md5
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 78.32 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
+      type: ss
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.37 MB/s"
       network: ws
       port: 80
       server: 104.18.26.90
       servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
-      tls: false
       type: vless
-      udp: true
       uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
       ws-opts:
         headers:
-            Host: blaze-can-118.blazecanada.site
+            host: blaze-can-118.blazecanada.site
         path: /?ed=2560
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 91.47 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.41
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - delay: 1424
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 83.16 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.121
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.87 MB/s"
-      password: dEvt5wSHGhobuYBR8kdo4aBvvqQ
-      port: 6526
-      server: 192.241.182.193
-      skip-cert-verify: true
-      sni: bing.com
-      tfo: false
-      type: hysteria2
-    - delay: 1505
-      http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.67 MB/s"
-      network: http
-      port: 8443
-      server: 31.44.4.107
-      servername: zula.ir
-      tls: false
-      type: vless
-      udp: true
-      uuid: d13b3634-094c-41fd-8154-76a512662dbe
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.30 MB/s"
-      network: ws
-      port: 443
-      server: www.visa.com.tw
-      servername: farm-connected-documentation-queens.trycloudflare.com
-      tls: true
-      type: vmess
-      uuid: 0a1feb87-bf84-49ae-b128-6edbd9c975d0
-      ws-opts:
-        headers:
-            host: farm-connected-documentation-queens.trycloudflare.com
-        path: /vmess-argo?ed=2048
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.14 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 3.123.224.178
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - alpn:
         - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 35.14 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.49 MB/s"
+      network: ws
+      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+      port: 443
+      server: 172.67.135.37
+      skip-cert-verify: false
+      sni: rrrRrRRrT.459.pp.ua
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: rrrRrRRrT.459.pp.ua
+        path: /znQImc22ijDwVOkZfoq
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 26.77 MB/s"
       network: ws
       port: 443
-      server: 104.21.9.71
-      servername: ddDDdDDdDDF.777198.XyZ
+      server: 188.42.89.145
+      servername: rAyAn-12.LeIlA.DpDnS.OrG
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
       ws-opts:
         headers:
-            Host: ddDDdDDdDDF.777198.XyZ
-        path: /OjdW89Bpg4ykd4O
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.14 MB/s"
-      password: J8Had1nwTgkNvWNN0WrucWq38
-      port: 33763
-      server: 146.190.51.60
+            Host: rayan-12.leila.dpdns.org
+        path: /@Rayan_Config
+    - country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.88 MB/s"
+      password: AJiaFGPGOJ
+      port: 1935
+      server: x6-germany-amazon-v2-8xhhs.devefun.org
+      sni: x6-germany-amazon-v2-8xhhs.devefun.org
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.00 MB/s"
+      port: 43585
+      server: 185.142.53.63
       skip-cert-verify: true
-      sni: bing.com
+      tls: false
+      type: vmess
+      uuid: 2babf34a-16f5-4e38-a885-738fdfc8eabf
+    - name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 19.46 MB/s"
+      network: tcp
+      port: 28279
+      server: 193.238.153.69
+      skip-cert-verify: true
       tfo: false
-      type: hysteria2
-    - http-opts:
-        headers:
-            Host:
-                - zula.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.58 MB/s"
-      network: http
-      port: 8443
-      server: 31.44.4.107
-      servername: zula.ir
-      skip-cert-verify: false
       tls: false
       type: vless
-      udp: true
-      uuid: d13b3634-094c-41fd-8154-76a512662dbe
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.37 MB/s"
-      password: V9o2mn4BwochLNk4XkJobx0bY
-      port: 25231
-      server: 137.184.36.36
+      uuid: e6709700-7332-4fe6-a125-fbb781ce7a35
+    - name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 18.93 MB/s"
+      network: tcp
+      port: 19728
+      server: 193.238.153.120
       skip-cert-verify: true
-      sni: bing.com
       tfo: false
-      type: hysteria2
-    - client-fingerprint: randomized
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.30 MB/s"
-      network: ws
-      port: 2053
-      server: 156.238.18.112
-      servername: vle.amclubsdns.dpdns.org
+      tls: false
+      type: vless
+      uuid: 2fafdcd6-08c9-4891-d1ce-b7c4a44261ca
+    - name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 15.88 MB/s"
+      network: tcp
+      port: 13305
+      server: 193.238.153.85
       skip-cert-verify: true
-      tls: true
+      tfo: false
+      tls: false
       type: vless
-      udp: true
-      uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
-      ws-opts:
-        headers:
-            Host: vle.amclubsdns.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: randomized
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.88 MB/s"
+      uuid: afdb6e6e-3145-4284-c15a-0a38030a8129
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.95 MB/s"
       network: ws
-      port: 2087
-      server: 156.238.18.112
-      servername: vle.amclubsdns.dpdns.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
+      password: d6b8011a-c725-435a-9fec-bf6d3530392c
+      port: 8443
+      server: 103.160.204.40
+      skip-cert-verify: true
+      sni: vle.amclubdns.dpdns.org
+      type: trojan
       udp: true
-      uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
       ws-opts:
         headers:
-            Host: vle.amclubsdns.dpdns.org
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      client-fingerprint: chrome
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.98 MB/s"
-      password: qwerREWQ@@
-      port: 15098
-      server: p222.panda001.net
-      tfo: true
-      type: ss
-      udp: true
+            Host: vle.amclubdns.dpdns.org
+        path: /?ed=2560&PROT_TYPE=trojan
     - client-fingerprint: firefox
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.48 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.06 MB/s"
       network: tcp
       port: 14099
       reality-opts:
@@ -193,17 +120,51 @@ proxies:
       type: vless
       uuid: f9ae07e0-f6b6-421e-b76a-1435d40b3329
     - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1665
-      down: 100
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.07 MB/s"
-      port: 62003
-      protocol: udp
-      server: 176.32.35.226
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.60 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.66.157
+      servername: eeEEEeR.666470.xYZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
-      up: 100
+      uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+      ws-opts:
+        headers:
+            Host: eeEEEeR.666470.xYZ
+        path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.28 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.188.188
+      servername: SssXzAw.444652.XYZ
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      ws-opts:
+        headers:
+            Host: SssXzAw.444652.XYZ
+        path: /nSABZLQbEUSLppj7jCmY
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.90 MB/s"
+      network: ws
+      port: 443
+      server: 222222r.11890604.xyz
+      servername: 222222r.11890604.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: f898ffcb-6417-4373-9640-0b66091e8206
+      ws-opts:
+        headers:
+            Host: 222222r.11890604.xyz
+        path: /33CYL4twIwItuzXyJ5XNeH1R1
