@@ -1,6 +1,20 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 96.54 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 100.96 MB/s"
+      network: ws
+      port: 80
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      ws-opts:
+        headers:
+            Host: blaze-can-118.blazecanada.site
+        path: /?ed=2560
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 91.47 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.41
@@ -13,7 +27,7 @@ proxies:
             Host: sk.laoyoutiao.link
         path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
     - delay: 1424
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 70.97 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 83.16 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.121
@@ -25,32 +39,171 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 68.96 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.87 MB/s"
+      password: dEvt5wSHGhobuYBR8kdo4aBvvqQ
+      port: 6526
+      server: 192.241.182.193
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - delay: 1505
+      http-opts:
+        headers:
+            Host:
+                - zula.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.67 MB/s"
+      network: http
+      port: 8443
+      server: 31.44.4.107
+      servername: zula.ir
+      tls: false
+      type: vless
+      udp: true
+      uuid: d13b3634-094c-41fd-8154-76a512662dbe
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.30 MB/s"
       network: ws
-      port: 8880
-      server: 91.193.58.127
+      port: 443
+      server: www.visa.com.tw
+      servername: farm-connected-documentation-queens.trycloudflare.com
+      tls: true
+      type: vmess
+      uuid: 0a1feb87-bf84-49ae-b128-6edbd9c975d0
+      ws-opts:
+        headers:
+            host: farm-connected-documentation-queens.trycloudflare.com
+        path: /vmess-argo?ed=2048
+    - country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.14 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 3.123.224.178
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 35.14 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.9.71
+      servername: ddDDdDDdDDF.777198.XyZ
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      ws-opts:
+        headers:
+            Host: ddDDdDDdDDF.777198.XyZ
+        path: /OjdW89Bpg4ykd4O
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.14 MB/s"
+      password: J8Had1nwTgkNvWNN0WrucWq38
+      port: 33763
+      server: 146.190.51.60
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - http-opts:
+        headers:
+            Host:
+                - zula.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.58 MB/s"
+      network: http
+      port: 8443
+      server: 31.44.4.107
+      servername: zula.ir
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - alterId: 0
-      cipher: auto
-      country: IR
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 27.81 MB/s"
-      network: ws
-      port: 2086
-      server: ytrrtp3e665b.peymanribvar.xyz
-      servername: www.bing.com
+      udp: true
+      uuid: d13b3634-094c-41fd-8154-76a512662dbe
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.37 MB/s"
+      password: V9o2mn4BwochLNk4XkJobx0bY
+      port: 25231
+      server: 137.184.36.36
       skip-cert-verify: true
-      type: vmess
-      uuid: 02f605b6-19b8-4b2e-a7ca-d3dc98878055
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - client-fingerprint: randomized
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.30 MB/s"
+      network: ws
+      port: 2053
+      server: 156.238.18.112
+      servername: vle.amclubsdns.dpdns.org
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
       ws-opts:
         headers:
-            HOST: www.bing.com
-        path: /02f605b6-19b8-4b2e-a7ca-d3dc98878055-vm
+            Host: vle.amclubsdns.dpdns.org
+        path: /?ed=2560
+    - client-fingerprint: randomized
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.88 MB/s"
+      network: ws
+      port: 2087
+      server: 156.238.18.112
+      servername: vle.amclubsdns.dpdns.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d6b8011a-c725-435a-9fec-bf6d3530392c
+      ws-opts:
+        headers:
+            Host: vle.amclubsdns.dpdns.org
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      client-fingerprint: chrome
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.98 MB/s"
+      password: qwerREWQ@@
+      port: 15098
+      server: p222.panda001.net
+      tfo: true
+      type: ss
+      udp: true
+    - client-fingerprint: firefox
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.48 MB/s"
+      network: tcp
+      port: 14099
+      reality-opts:
+        _spider-x: /
+        public-key: u0YrgW9A5V4F2i6072CPNnZ6T6mQbLN17wMXjL74llY
+        short-id: 2abb5ba3
+      server: 223.135.156.185
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: f9ae07e0-f6b6-421e-b76a-1435d40b3329
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      delay: 1665
+      down: 100
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.07 MB/s"
+      port: 62003
+      protocol: udp
+      server: 176.32.35.226
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: 100
