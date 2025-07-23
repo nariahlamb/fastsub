@@ -1,19 +1,18 @@
 proxy-providers: {}
 proxies:
-    - delay: 1424
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 48.86 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 66.38 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.121
+      server: 185.16.110.251
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 39.88 MB/s"
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 58.49 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.127
@@ -25,9 +24,22 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
+    - delay: 1424
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 40.37 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.121
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
     - client-fingerprint: safari
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.74 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.77 MB/s"
       port: 433
       reality-opts:
         public-key: njS5Tdx6sQV0zCwFACf1uikWDSud9HqjS03WvH3_YAg
