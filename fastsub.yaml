@@ -1,94 +1,27 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 39.10 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.64 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.127
+      server: 185.16.110.251
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-    - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.43 MB/s"
-      network: ws
-      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-      port: 443
-      server: 172.67.135.37
-      skip-cert-verify: false
-      sni: rrrRrRRrT.459.pp.ua
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: rrrRrRRrT.459.pp.ua
-        path: /znQImc22ijDwVOkZfoq
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
     - alterId: 0
       cipher: auto
       client-fingerprint: ""
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.74 MB/s"
-      network: ws
-      port: 8080
-      server: 47.79.94.25
-      tls: false
-      type: vmess
-      uuid: b36d992c-786b-4136-96d6-c37641207d47
-      ws-opts:
-        headers: {}
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.99 MB/s"
-      network: ws
-      port: 8880
-      server: 192.200.160.177
-      tls: false
-      type: vless
-      udp: true
-      uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
-      ws-opts:
-        headers:
-            Host: ip.langmanshanxi.top
-        path: /Telegram
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.64 MB/s"
-      port: 433
-      reality-opts:
-        public-key: njS5Tdx6sQV0zCwFACf1uikWDSud9HqjS03WvH3_YAg
-        short-id: 82df26bf775f55
-      server: 152.42.136.175
-      servername: eur-lex.europa.eu
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: b8ea183a-0aa8-48e5-9e68-04c7cf9e5e3b
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: ""
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.21 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.59 MB/s"
       network: ws
       port: 20521
       server: 95.134.250.54
       tls: false
       type: vmess
       uuid: 1c17b535-74e7-4ec0-a0ed-ac105082410c
-      ws-opts:
-        headers: {}
-        path: /
-    - alterId: 0
-      cipher: auto
-      client-fingerprint: ""
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.13 MB/s"
-      network: ws
-      port: 20521
-      server: 45.95.2.101
-      tls: false
-      type: vmess
-      uuid: 06e5a900-f1e6-40ab-92e2-96f6648bf681
       ws-opts:
         headers: {}
         path: /
