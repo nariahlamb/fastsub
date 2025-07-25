@@ -1,18 +1,6 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.18 MB/s"
-      network: tcp
-      port: 33038
-      server: 45.150.52.173
-      servername: dny313.yy004vip.uk
-      skip-cert-verify: true
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 32fc1911-cb70-4559-e3ad-04e0354f3204
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.75 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 41.30 MB/s"
       network: ws
       port: 80
       server: 104.18.26.90
@@ -26,158 +14,91 @@ proxies:
         headers:
             Host: blaze-can-118.blazecanada.site
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 52.43 MB/s"
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.52 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 43.203.117.60
+      type: ss
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 18.32 MB/s"
       network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
+      port: 8880
+      server: 45.149.12.251
       tls: false
       type: vless
       udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.18 MB/s"
+            Host: cf.d3z.net
+        max-early-data: 2560
+        path: /Telegram @WangCai2 /
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.50 MB/s"
       network: ws
-      port: 443
-      server: 104.21.77.149
-      servername: sCCcxZZZXfVG.999834.xyZ
-      tls: true
+      port: 8880
+      server: 45.80.111.20
+      tls: false
       type: vless
-      udp: true
-      uuid: 2d068083-2cb0-4ae3-a44a-6fc82f3039cc
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: sCCcxZZZXfVG.999834.xyZ
-        path: /laTDC7FYNlEa06b88JSo
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.28 MB/s"
+            Host: us.laoyoutiao.link
+        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+    - alterId: 0
+      cipher: auto
+      client-fingerprint: ""
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.61 MB/s"
       network: ws
-      port: 443
-      server: 172.67.130.204
-      servername: ddDDdDDdDDF.777198.XyZ
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      port: 20521
+      server: 95.134.250.54
+      tls: false
+      type: vmess
+      uuid: 1c17b535-74e7-4ec0-a0ed-ac105082410c
       ws-opts:
-        headers:
-            Host: ddDDdDDdDDF.777198.XyZ
-        path: /OjdW89Bpg4ykd4O
-    - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.70 MB/s"
-      network: ws
-      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
-      port: 443
-      server: 172.67.135.37
-      skip-cert-verify: false
-      sni: rrrRrRRrT.459.pp.ua
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: rrrRrRRrT.459.pp.ua
-        path: /znQImc22ijDwVOkZfoq
+        headers: {}
+        path: /
     - alterId: 0
       cipher: auto
       country: US
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.71 MB/s"
-      network: ws
-      port: 2083
-      server: www.meter.net
-      servername: blaze-uk-48.pinkle7.site
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: d218dfe5-fae6-408e-b615-8666df7f0924
-      ws-opts:
-        headers:
-            HOST: blaze-uk-48.pinkle7.site
-        path: /wssss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.93 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.66 MB/s"
       network: ws
       port: 443
-      server: 3DdDf.444652.xYZ
-      servername: 3dddf.444652.xyz
-      skip-cert-verify: false
+      server: cloudgetservice.mcloudservice.site
+      servername: Fra-Vp-123.BLaZECLOUD.Site
+      skip-cert-verify: true
       tls: true
       type: vmess
-      uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
+      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
       ws-opts:
         headers:
-            Host: 3DdDf.444652.xYZ
-        path: /9dZlJLjHHrL0VwSolbqFpg
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.14 MB/s"
+            HOST: Fra-Vp-123.BLaZECLOUD.Site
+        path: /linvkws
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.01 MB/s"
       network: ws
-      port: 8080
-      server: 47.79.94.25
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b36d992c-786b-4136-96d6-c37641207d47
-      ws-opts:
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F3F3️ IR | ⬇️ 15.07 MB/s"
-      network: ws
-      port: 8080
-      server: 109.122.247.198
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: deb29bf1-9158-48de-9058-0ab219f73d24
-      ws-opts:
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.35 MB/s"
-      network: ws
-      port: 80
-      server: 172.67.214.21
-      servername: xxcdvfgt.191268.xyz
+      port: 8880
+      server: 92.53.189.251
       tls: false
       type: vless
       udp: true
-      uuid: 7248e825-887c-48b9-83bc-c26bc6392bf8
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: xxcdvfgt.191268.xyz
-        path: /W02wBrOOqlSUywV3ibrzzKXJGy3S1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 13.66 MB/s"
+            Host: cf.d3z.net
+        max-early-data: 2560
+        path: /Telegram @WangCai2 /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.19 MB/s"
       network: ws
-      port: 443
-      server: 188.42.89.145
-      servername: rAyAn-12.LeIlA.DpDnS.OrG
-      skip-cert-verify: false
-      tls: true
+      port: 8880
+      server: 209.94.90.251
+      tls: false
       type: vless
       udp: true
-      uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: rayan-12.leila.dpdns.org
-        path: /@Rayan_Config
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.30 MB/s"
-      network: ws
-      port: 80
-      server: light-presence.oneeat.co
-      type: vless
-      uuid: 7e74ff43-3a90-48b3-8372-7d92a045c2d4
-      ws-opts:
-        headers:
-            host: light-presence.oneeat.co
+            Host: cf.d3z.net
         path: /
