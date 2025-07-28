@@ -1,34 +1,18 @@
 proxy-providers: {}
 proxies:
-    - delay: 598
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 85.04 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      tls: false
-      type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        max-early-data: 2560
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.65 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 104.81 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
+      server: 91.193.58.133
       tls: false
       type: vless
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cf.d3z.net
+            Host: sk.laoyoutiao.link
         path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 64.91 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 69.39 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.196
@@ -40,10 +24,22 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /TelegramU0001F1E8U0001F1F3
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 64.66 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 65.30 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.127
+      server: 91.193.58.41
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 39.87 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.5
       tls: false
       type: vless
       udp: true
@@ -52,23 +48,19 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
-    - delay: 598
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 59.33 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 35.34 MB/s"
       network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
+      port: 8880
+      server: 185.16.110.251
+      skip-cert-verify: false
       tls: false
       type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: blaze-can-118.blazecanada.site
-        max-early-data: 2560
-        path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 48.77 MB/s"
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 31.02 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.248
@@ -80,46 +72,8 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: /TelegramU0001F1E8U0001F1F3?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-    - delay: 1474
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 40.16 MB/s"
-      network: ws
-      port: 8880
-      server: 103.245.228.251
-      tls: false
-      type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /Telegram @WangCai2 /?ed=2560fp=chrome
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.61 MB/s"
-      network: ws
-      password: 13e26f64-2e0c-4461-92cd-d83294cc18f0
-      port: 443
-      server: 172.67.185.107
-      skip-cert-verify: false
-      sni: WwwDe.00890604.XyZ
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: WwwDe.00890604.XyZ
-        path: /TDUxZUop9k44oPiit2OdWk0KwirdY
-    - delay: 1414
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.81 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.162
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram
     - delay: 2111
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.29 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.14 MB/s"
       network: ws
       port: 443
       server: s.askkf.com
@@ -133,10 +87,25 @@ proxies:
         headers:
             Host: s2.askkf.com
         path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.55 MB/s"
+    - alpn:
+        - http/1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.93 MB/s"
+      network: ws
+      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      port: 443
+      server: iiiiop0.444752.xyz
+      skip-cert-verify: false
+      sni: iiiiop0.444752.xyz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: iiiiop0.444752.xyz
+        path: /ctHoQlqeZn8pbEUSLppj7jCmY
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 25.41 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.121
+      server: 91.193.58.127
       tls: false
       type: vless
       udp: true
@@ -144,26 +113,24 @@ proxies:
       ws-opts:
         headers:
             Host: sk.laoyoutiao.link
-        path: /Telegram @MxlShare @WangCai2 /
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.08 MB/s"
+        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
+    - delay: 598
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.62 MB/s"
       network: ws
-      port: 443
-      server: cloudgetservice.mcloudservice.site
-      servername: Fra-Vp-123.BLaZECLOUD.Site
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+      port: 80
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
       ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            HOST: Fra-Vp-123.BLaZECLOUD.Site
-        path: /linvkws
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.98 MB/s"
+            Host: blaze-can-118.blazecanada.site
+        max-early-data: 2560
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.48 MB/s"
       network: ws
       password: f108e0e2-5f12-42b6-9e67-1b2f073ffb2b
       port: 443
@@ -178,106 +145,30 @@ proxies:
         path: /CA5bMmr2JMum8sDKRwvFCJq
     - alpn:
         - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.23 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.93 MB/s"
       network: ws
+      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
       port: 443
-      server: 104.21.13.36
-      servername: XcdvfGBnHU7.0890604.XyZ
+      server: 172.67.135.37
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: a7c9c017-db10-4d15-b01b-0634db498b57
-      ws-opts:
-        headers:
-            Host: XcdvfGBnHU7.0890604.XyZ
-        path: /xZjr7v1DqrYyamxeTh7sLJtI1
-    - client-fingerprint: chrome
-      delay: 1254
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.90 MB/s"
-      network: ws
-      port: 443
-      server: cdnjs.com
-      servername: rayan-roof.atena.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: db400287-fb42-441d-8a76-5624a8a96f49
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: rayan-roof.atena.dpdns.org
-        max-early-data: 2560
-        path: /
-    - alpn:
-        - http/1.1
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.48 MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: iiiiop0.444752.xyz
-      skip-cert-verify: false
-      sni: iiiiop0.444752.xyz
+      sni: rrrRrRRrT.459.pp.ua
       type: trojan
       udp: true
       ws-opts:
         headers:
-            Host: iiiiop0.444752.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - delay: 1057
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.34 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.87
-      skip-cert-verify: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.59 MB/s"
+            Host: rrrRrRRrT.459.pp.ua
+        path: /znQImc22ijDwVOkZfoq
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.44 MB/s"
       network: ws
       port: 80
-      server: 00967073-sv4n40-td5fm5-4dl0.hk3.p5pv.com
-      servername: broadcastlv.chat.bilibili.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 56b05600-e140-11ec-a3de-f23c91cfbbc9
-      ws-headers:
-        HOST: broadcastlv.chat.bilibili.com
-      ws-path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.43 MB/s"
-      network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
-      port: 443
-      server: iiiiop0.444752.xyz
-      sni: iiiiop0.444752.xyz
-      type: trojan
-      ws-opts:
-        headers:
-            Host: iiiiop0.444752.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.42 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.9.71
-      servername: ddDDdDDdDDF.777198.XyZ
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
       skip-cert-verify: false
-      tls: true
+      tls: false
       type: vless
       udp: true
-      uuid: c226ac5d-65e9-4379-95c3-fb542bc242d8
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
       ws-opts:
         headers:
-            Host: ddDDdDDdDDF.777198.XyZ
-        path: /OjdW89Bpg4ykd4O
+            Host: blaze-can-118.blazecanada.site
+        path: /?ed=2560
