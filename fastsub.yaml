@@ -1,70 +1,49 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 96.27 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 68.51 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.133
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 93.84 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.41
+      server: 185.16.110.251
       skip-cert-verify: false
       tls: false
       type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: sk.laoyoutiao.link
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 85.74 MB/s"
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 67.56 MB/s"
       network: ws
       port: 8880
-      server: 91.193.58.196
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3
-    - delay: 598
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 76.96 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      tls: false
-      type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        max-early-data: 2560
-        path: /
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 76.06 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.248
+      server: 199.34.230.251
+      servername: cf.d3z.net
       skip-cert-verify: false
       tls: false
       type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 64.08 MB/s"
+      password: 0hHw5Sa8Ui
+      port: 1935
+      server: x6-canada-amazon-v2-bzsn4.devefun.org
+      type: trojan
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 56.80 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.127
+      tls: false
+      type: vless
+      udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
             Host: sk.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 66.11 MB/s"
+        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 54.75 MB/s"
       network: ws
       port: 8880
       server: 91.193.58.5
@@ -76,88 +55,124 @@ proxies:
         headers:
             Host: sk.laoyoutiao.link
         path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.66 MB/s"
+    - delay: 1414
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 53.21 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
+      server: 91.193.58.162
       tls: false
       type: vless
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cf.d3z.net
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.38 MB/s"
+            Host: sk.laoyoutiao.link
+        path: /Telegram
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 50.27 MB/s"
       network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
+      port: 8880
+      server: 91.193.58.100
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.37 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.41
       skip-cert-verify: false
       tls: false
       type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
+            Host: sk.laoyoutiao.link
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.22 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.248
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /TelegramU0001F1E8U0001F1F3?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 36.31 MB/s"
+      network: ws
+      port: 8880
+      server: 91.193.58.121
+      tls: false
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: sk.laoyoutiao.link
+        path: /Telegram @MxlShare @WangCai2 /
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.35 MB/s"
+      password: 0xC6Mws4Dg
+      port: 1935
+      server: x2-japan-amazon-v2.devefun.org
+      sni: x2-japan-amazon-v2.devefun.org
+      type: trojan
     - alpn:
-        - http/1.1
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.77 MB/s"
+        - http%2F1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.11 MB/s"
       network: ws
-      password: 0f7070cd-c91d-4532-a51f-56da4f0e94be
+      password: cf8c791e-9d0b-4e90-aaf6-41ac62468416
       port: 443
-      server: iiiiop0.444752.xyz
-      skip-cert-verify: false
-      sni: iiiiop0.444752.xyz
+      server: 172.67.135.37
+      skip-cert-verify: true
+      sni: EeEeeD.459.pp.uA
       type: trojan
       udp: true
       ws-opts:
         headers:
-            Host: iiiiop0.444752.xyz
-        path: /ctHoQlqeZn8pbEUSLppj7jCmY
-    - auth: L9ckbqdTsZflCHixBWRV3pm6PWM
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.15 MB/s"
-      password: L9ckbqdTsZflCHixBWRV3pm6PWM
-      port: 3317
-      server: 43.199.76.128
+            Host: EeEeeD.459.pp.uA
+        path: /XkJmZCwVxJO8180gomOew3d
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.91 MB/s"
+      password: 7ZkPnMNGly
+      port: 1935
+      server: x1-japan-linode-v2-pwlzp.devefun.org
+      type: trojan
+    - alterId: 2
+      cipher: auto
+      country: ' CN'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.25 MB/s"
+      network: ws
+      port: 30807
+      server: v7.heduian.link
+      servername: ocbc.com
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - auth: 2FS7C9xVijQO192Thw3VKvT8A
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.22 MB/s"
-      password: 2FS7C9xVijQO192Thw3VKvT8A
-      port: 24070
-      server: 43.203.248.119
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: ocbc.com
+        path: /oooo
+    - alterId: 2
+      cipher: auto
+      country: CN
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.94 MB/s"
+      network: ws
+      port: 30807
+      server: v7.heduian.link
+      servername: ocbc.com
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-      udp: true
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.11 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.158.218.2
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-      up: 100 Mbps
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      delay: 1043
-      down: 100
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.41 MB/s"
-      port: 14241
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: ocbc.com
+        path: /oooo
