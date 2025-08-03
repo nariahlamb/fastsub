@@ -1,45 +1,33 @@
 proxy-providers: {}
 proxies:
-    - delay: 671
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 39.26 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.147
+    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      delay: 1952
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.97 MB/s"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 35.60 MB/s"
+      port: 443
+      reality-opts:
+        public-key: u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc
+        short-id: 462c73aef9f448
+      server: itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+      servername: itgetsbetter.org
+      skip-cert-verify: false
+      tls: true
       type: vless
       udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /Telegram%F0%9F%87%A8%F0%9F%87%B3%20@MxlShare%20@WangCai2%20/
-      xudp: true
-    - country: US
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 36.39 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.179.45.126
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - delay: 671
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 35.16 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.178
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
-        path: /
-      xudp: true
+      uuid: 1ae544de-4b19-4bd0-a7d6-e47e2e19a057
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 34.69 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.11 MB/s"
       port: 45846
       reality-opts:
         public-key: 17q39_glGtdUgFWkKwjxnBG0PxYkJbgt9bfkotaj7yg
@@ -51,24 +39,31 @@ proxies:
       type: vless
       udp: true
       uuid: 534c8834-d096-462c-8c16-37571a798ef3
-    - http-opts:
-        headers:
-            Host:
-                - telewebion.com
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 34.46 MB/s"
-      network: http
-      port: 8440
-      server: 5.75.206.90
-      servername: telewebion.com
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.04 MB/s"
+      network: ws
+      port: 8880
+      server: 66.81.247.251
       skip-cert-verify: false
       tls: false
       type: vless
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.47 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      tls: false
+      type: vless
       udp: true
-      uuid: b42fc0c6-beff-43ee-9bf7-0f9a4688120b
-    - name: "\U0001F1EB\U0001F1EE FI | ⬇️ 29.55 MB/s"
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
+    - name: "\U0001F1EB\U0001F1EE FI | ⬇️ 29.11 MB/s"
       network: ws
       port: 12925
       server: 65.109.242.205
@@ -77,86 +72,8 @@ proxies:
       type: vless
       udp: true
       uuid: 8dd851a9-39e4-4baf-a443-17c688aa6dfc
-    - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 29.31 MB/s"
-      password: kboUVXU6_Hdu1IBisa9KvQ
-      port: 1080
-      server: 45.134.14.12
-      type: ss
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.44 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.127
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: "/Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /"
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.09 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.196
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.63 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.248
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      delay: 1952
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.25 MB/s"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.62 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.41
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
-    - delay: 2919
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.34 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.176
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
-      xudp: true
     - delay: 902
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.00 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.16 MB/s"
       network: ws
       port: 8880
       server: 192.0.54.251
@@ -169,81 +86,20 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560
       xudp: true
-    - delay: 1470
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 13.06 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.34
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
+    - http-opts:
         headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 12.96 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.133
+            Host:
+                - telewebion.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.57 MB/s"
+      network: http
+      port: 8440
+      server: 5.75.206.90
+      servername: telewebion.com
+      skip-cert-verify: false
       tls: false
       type: vless
       udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /
-    - delay: 641
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 12.69 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.2
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
-      xudp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 12.49 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.121
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-        path: /Telegram @MxlShare @WangCai2 /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.38 MB/s"
-      network: ws
-      port: 8880
-      server: 209.94.90.251
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /
-    - delay: 930
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 10.37 MB/s"
-      network: ws
-      port: 8880
-      server: 91.193.58.1
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: sk.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
-        path: /Telegram
-      xudp: true
+      uuid: b42fc0c6-beff-43ee-9bf7-0f9a4688120b
