@@ -1,22 +1,33 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.18 MB/s"
-      packet-encoding: xudp
-      port: 20558
-      reality-opts:
-        public-key: VZ4lK5AZMihPtshVNW2nJtWxD4JO80hhCK2EwY4KqRs
-        short-id: 03e60665
-      server: zeusolympus.fonixapp.org
-      servername: canva.com
-      skip-cert-verify: false
-      tls: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.38 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      tls: false
       type: vless
       udp: true
-      uuid: 11cb3fc7-f30d-4b42-9ebc-d015f3753403
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 73.74 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      servername: cf.d3z.net
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
     - delay: 902
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.69 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.27 MB/s"
       network: ws
       port: 8880
       server: 192.0.54.251
@@ -29,23 +40,22 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560
       xudp: true
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-service-name: '@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--@ZedBaz_vpn--'
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.83 MB/s"
-      network: grpc
-      port: 24070
-      reality-opts:
-        public-key: Wkuh9iexXuhWaaFt1saCWk8iGS0h1mEiMtDsmoJSgAk
-        short-id: "93"
-      server: 91.107.189.227
-      servername: yahoo.com
-      skip-cert-verify: false
-      tls: true
+    - delay: 1050
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.42 MB/s"
+      network: ws
+      port: 8880
+      server: 141.193.27.251
       type: vless
-      uuid: 57177393-a38e-4593-8a01-5409f3707ff0
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560fp=chrome
+      xudp: true
     - delay: 1671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.80 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.64 MB/s"
       network: ws
       port: 8880
       server: 63.141.128.251
@@ -58,3 +68,20 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
+    - alterId: 2
+      cipher: auto
+      country: CN
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.44 MB/s"
+      network: ws
+      port: 30807
+      server: v7.heduian.link
+      servername: ocbc.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: ocbc.com
+        path: /oooo
