@@ -1,136 +1,80 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 205.01 MB/s"
-      port: 32158
-      server: 152.53.165.218
-      servername: 152.53.165.218
-      skip-cert-verify: true
-      type: vmess
-      uuid: b44ecf62-d313-4f32-8e77-62c0d8dd18ce
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.54 MB/s"
+    - delay: 1856
+      name: "\U0001F3F3️ CW | ⬇️ 56.19 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
-      tls: false
+      server: 62.72.166.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-        path: /
-    - delay: 1271
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 38.68 MB/s"
-      network: ws
-      port: 8880
-      server: 212.183.88.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36
+        path: /Telegram@WangCai2/?ed=2560
       xudp: true
-    - country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 37.82 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 15.188.167.73
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.57 MB/s"
-      port: 45846
-      reality-opts:
-        public-key: 17q39_glGtdUgFWkKwjxnBG0PxYkJbgt9bfkotaj7yg
-        short-id: ac
-      server: graygoat.fonixapp.org
-      servername: stackoverflow.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 534c8834-d096-462c-8c16-37571a798ef3
-    - client-fingerprint: chrome
-      delay: 1161
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.12 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.04 MB/s"
       network: ws
       port: 443
-      server: zula.ir
-      servername: rayan-supra.parisa.dpdns.org
+      server: 162.159.1.33
+      servername: rayan-fg-1.narges.filegear-sg.me
+      skip-cert-verify: false
       tls: true
       type: vless
-      udp: true
-      uuid: 172ed5fd-83a6-469e-863c-50e251a6c17d
-      ws-opts:
-        headers:
-            Host: rayan-supra.parisa.dpdns.org
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
-        path: /?ed=#TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI=?ed=2560
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      country: RU
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 17.25 MB/s"
-      password: trErto8XzLALaQEslTp_jw
-      port: 2222
-      server: ytreserved.opengate.wiki
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.90 MB/s"
-      password: xMUVeKCBmgwJOjGtsbQ2JF
-      port: 52042
-      server: 68.183.226.95
-      type: ss
-    - delay: 589
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.46 MB/s"
-      network: ws
-      port: 8880
-      server: 109.176.239.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.36 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
-    - name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 10.72 MB/s"
-      network: ws
-      port: 8880
-      server: 88.216.69.251
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: d643b9ca-57b7-4cd5-84b8-a77f26b6346e
       ws-opts:
         early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: cf.d3z.net
+            Host: rayan-fg-1.narges.filegear-sg.me
         max-early-data: 2560
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+        path: /Telegram@V2ray_Alpha/
+    - alpn:
+        - http/1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.33 MB/s"
+      network: ws
+      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+      port: 443
+      server: 172.67.135.37
+      skip-cert-verify: false
+      sni: rrrRrRRrT.459.pp.ua
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: rrrRrRRrT.459.pp.ua
+        path: /znQImc22ijDwVOkZfoq
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      delay: 2110
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.43 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.35.171
+      servername: MaIncrafT.dPdnS.OrG
+      tls: true
+      type: vless
+      udp: true
+      uuid: 252df5e8-0428-4345-b236-a6dae7b3457d
+      ws-opts:
+        headers:
+            Host: MaIncrafT.dPdnS.OrG
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+        path: /
+      xudp: true
+    - delay: 1050
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.12 MB/s"
+      network: ws
+      port: 8880
+      server: 141.193.27.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560fp=chrome
+      xudp: true
