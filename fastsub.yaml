@@ -1,40 +1,82 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.47 MB/s"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      skip-cert-verify: false
-      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      type: hysteria2
-    - client-fingerprint: chrome
-      delay: 1076
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.82 MB/s"
+    - delay: 751
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.00 MB/s"
       network: ws
-      port: 443
-      server: 172.66.40.99
-      servername: pages.dev
-      tls: true
+      port: 8880
+      server: 130.250.137.251
       type: vless
       udp: true
-      uuid: 5879d109-8c92-448a-801b-3f3989019934
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: hrtfwe.pages.dev
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
       xudp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.31 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 53.13 MB/s"
       network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
+      port: 8880
+      server: 185.16.110.251
       skip-cert-verify: false
       tls: false
       type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    - delay: 1271
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 50.19 MB/s"
+      network: ws
+      port: 8880
+      server: 212.183.88.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - delay: 902
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.54 MB/s"
+      network: ws
+      port: 8880
+      server: 192.0.54.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.90 MB/s"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.64 MB/s"
+      password: 0xC6Mws4Dg
+      port: 1935
+      server: x2-japan-amazon-v2.devefun.org
+      sni: x2-japan-amazon-v2.devefun.org
+      type: trojan
+    - auth: dongtaiwang.com
+      delay: 1096
+      down: 100 Mbps
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.17 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.158.218.2
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
