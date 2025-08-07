@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 177.97 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 64.78 MB/s"
       network: ws
       port: 20086
       server: 199.168.139.196
@@ -14,7 +14,31 @@ proxies:
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 106.12 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.42 MB/s"
+      network: ws
+      port: 20086
+      server: 104.243.29.93
+      tls: false
+      type: vmess
+      uuid: f5da6be9-7100-4e28-88b9-d9206812f7be
+      ws-opts:
+        headers: {}
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.95 MB/s"
+      network: ws
+      port: 20086
+      server: 38.58.60.127
+      tls: false
+      type: vmess
+      uuid: 66d508ed-1ee6-412d-97a8-eedf849bad57
+      ws-opts:
+        headers: {}
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.33 MB/s"
       network: ws
       port: 20086
       server: 050910.xyz
@@ -27,31 +51,7 @@ proxies:
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 104.50 MB/s"
-      network: ws
-      port: 20086
-      server: 104.243.29.93
-      tls: false
-      type: vmess
-      uuid: f5da6be9-7100-4e28-88b9-d9206812f7be
-      ws-opts:
-        headers: {}
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.69 MB/s"
-      network: ws
-      port: 20086
-      server: 38.58.60.127
-      tls: false
-      type: vmess
-      uuid: 66d508ed-1ee6-412d-97a8-eedf849bad57
-      ws-opts:
-        headers: {}
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 67.66 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.56 MB/s"
       network: ws
       port: 20086
       server: 185.194.148.224
@@ -61,35 +61,41 @@ proxies:
       ws-opts:
         headers: {}
         path: /
-    - delay: 751
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.02 MB/s"
-      network: ws
-      port: 8880
-      server: 130.250.137.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 33.25 MB/s"
-      network: ws
-      port: 8880
-      server: 185.16.110.251
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.26 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 31.39 MB/s"
+      network: ws
+      port: 20086
+      server: 166.88.54.69
+      tls: false
+      type: vmess
+      uuid: 9a5252b0-5135-4fc9-a7a8-3771ea030432
+      ws-opts:
+        headers: {}
+        path: /
+    - delay: 610
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 30.80 MB/s"
+      network: tcp
+      port: 2020
+      server: 49.13.72.33
+      type: vless
+      udp: true
+      uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: ' RO'
+      name: "\U0001F1F7\U0001F1F4 RO | ⬇️ 27.46 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 990
+      server: 185.126.237.38
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.78 MB/s"
       network: ws
       port: 20086
       server: 70.39.196.85
@@ -101,7 +107,7 @@ proxies:
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.34 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.64 MB/s"
       network: ws
       port: 20086
       server: 70.39.196.253
@@ -111,42 +117,9 @@ proxies:
       ws-opts:
         headers: {}
         path: /
-    - delay: 610
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.78 MB/s"
-      network: tcp
-      port: 2020
-      server: 49.13.72.33
-      type: vless
-      udp: true
-      uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      country: ZZ
-      delay: 1639
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.75 MB/s"
-      password: trErto8XzLALaQEslTp_jw
-      port: 2222
-      server: universal.opengate.wiki
-      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.49 MB/s"
-      network: ws
-      port: 20086
-      server: 166.88.54.69
-      tls: false
-      type: vmess
-      uuid: 9a5252b0-5135-4fc9-a7a8-3771ea030432
-      ws-opts:
-        headers: {}
-        path: /
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.22 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 25.45 MB/s"
       network: ws
       port: 20086
       server: 103.179.143.72
@@ -156,16 +129,9 @@ proxies:
       ws-opts:
         headers: {}
         path: /
-    - cipher: chacha20-ietf-poly1305
-      country: ' RO'
-      name: "\U0001F1F7\U0001F1F4 RO | ⬇️ 20.01 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 185.126.237.38
-      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 18.99 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 25.41 MB/s"
       network: ws
       port: 20086
       server: 216.173.66.32
@@ -175,59 +141,21 @@ proxies:
       ws-opts:
         headers: {}
         path: /
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.90 MB/s"
-      network: tcp
-      port: 40745
-      reality-opts:
-        public-key: KIJ-Gb61R1Ng1kMvD01v51SwtrrYh3npN5cSkxb-MH0
-        short-id: 3b
-      server: 94.237.24.169
-      servername: deepl.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: f418440b-a023-4ba4-8f40-1dab600fb48d
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.02 MB/s"
-      network: ws
-      port: 2096
-      server: 92.118.233.241
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      uuid: a5e0c391-accd-45a7-8bb9-99ffb9b09b16
-      ws-opts:
-        path: /
-    - delay: 1671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.04 MB/s"
-      network: ws
-      port: 8880
-      server: 63.141.128.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560fp=chrome
-      xudp: true
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.91 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.48 MB/s"
       network: ws
       port: 20086
-      server: 64.81.39.212
+      server: 51.254.21.193
       tls: false
       type: vmess
-      uuid: a3efc510-c175-4b74-bc04-fe1d110a62bc
+      uuid: 9bcecb26-920a-4e68-b296-88526310bff6
       ws-opts:
         headers: {}
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.77 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.46 MB/s"
       network: ws
       port: 20086
       server: 64.81.39.252
@@ -239,7 +167,19 @@ proxies:
         path: /
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.75 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.40 MB/s"
+      network: ws
+      port: 20086
+      server: 64.81.39.212
+      tls: false
+      type: vmess
+      uuid: a3efc510-c175-4b74-bc04-fe1d110a62bc
+      ws-opts:
+        headers: {}
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.29 MB/s"
       network: ws
       port: 20086
       server: 64.81.30.24
