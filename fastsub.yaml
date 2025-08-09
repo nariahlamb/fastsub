@@ -1,20 +1,20 @@
 proxy-providers: {}
 proxies:
-    - delay: 1671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.94 MB/s"
+    - delay: 1709
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.47 MB/s"
       network: ws
       port: 8880
-      server: 63.141.128.251
+      server: 104.254.140.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560fp=chrome
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: /TelegramU0001F1E8U0001F1F3
       xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.37 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.72 MB/s"
       network: ws
       port: 8880
       server: 209.94.90.251
@@ -26,22 +26,50 @@ proxies:
         headers:
             Host: cf.d3z.net
         path: /
-    - delay: 589
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 13.46 MB/s"
+    - delay: 2301
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.88 MB/s"
       network: ws
       port: 8880
-      server: 109.176.239.251
+      server: 193.9.49.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.31 MB/s"
+      network: ws
+      port: 8880
+      server: 185.16.110.251
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
+    - alterId: 2
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.99 MB/s"
+      network: ws
+      port: 80
+      server: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
     - delay: 1271
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 11.75 MB/s"
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 13.12 MB/s"
       network: ws
       port: 8880
       server: 212.183.88.251
