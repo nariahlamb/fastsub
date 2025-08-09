@@ -1,33 +1,7 @@
 proxy-providers: {}
 proxies:
-    - delay: 589
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.19 MB/s"
-      network: ws
-      port: 8880
-      server: 109.176.239.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.47 MB/s"
-      network: ws
-      port: 8880
-      server: 209.94.90.251
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /
     - delay: 1671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.53 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.94 MB/s"
       network: ws
       port: 8880
       server: 63.141.128.251
@@ -40,8 +14,34 @@ proxies:
             User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.37 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /
+    - delay: 589
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 13.46 MB/s"
+      network: ws
+      port: 8880
+      server: 109.176.239.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
     - delay: 1271
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 11.40 MB/s"
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 11.75 MB/s"
       network: ws
       port: 8880
       server: 212.183.88.251
