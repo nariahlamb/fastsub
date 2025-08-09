@@ -1,46 +1,34 @@
 proxy-providers: {}
 proxies:
-    - delay: 1709
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.47 MB/s"
+    - delay: 1671
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 60.94 MB/s"
       network: ws
       port: 8880
-      server: 104.254.140.251
+      server: 63.141.128.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.72 MB/s"
-      network: ws
-      port: 8880
-      server: 209.94.90.251
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /
-    - delay: 2301
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.88 MB/s"
-      network: ws
-      port: 8880
-      server: 193.9.49.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.31 MB/s"
+    - delay: 1050
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.86 MB/s"
+      network: ws
+      port: 8880
+      server: 141.193.27.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560fp=chrome
+      xudp: true
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 27.96 MB/s"
       network: ws
       port: 8880
       server: 185.16.110.251
@@ -52,33 +40,34 @@ proxies:
         headers:
             Host: cf.d3z.net
         path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560fp=chrome"
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.99 MB/s"
-      network: ws
-      port: 80
-      server: 07d2e2cb-sv0xs0-svv72o-1e0ty.hk3.p5pv.com
-      servername: broadcastlv.chat.bilibili.com
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.48 MB/s"
+      password: xnChC7dKZ8
+      port: 443
+      server: android.yas-nowin.ir
+      skip-cert-verify: false
+      sni: android.yas-nowin.ir
+      type: hysteria2
+    - auth: dongtaiwang.com
+      delay: 1096
+      down: 100 Mbps
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.99 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.158.218.2
       skip-cert-verify: true
-      type: vmess
-      uuid: ccd9704a-f980-11eb-a0fc-f23c913c8d2b
-      ws-headers:
-        HOST: broadcastlv.chat.bilibili.com
-      ws-path: /
-    - delay: 1271
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 13.12 MB/s"
-      network: ws
-      port: 8880
-      server: 212.183.88.251
-      type: vless
+      sni: www.bing.com
+      type: hysteria2
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
+      up: 100 Mbps
+    - auth: dongtaiwang.com
+      delay: 1561
+      down: 100 Mbps
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.92 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
