@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 38.63 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.97 MB/s"
       network: ws
       port: 443
       server: 104.26.7.214
@@ -16,47 +16,8 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /?ed=2560
       xudp: true
-    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 32.86 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.1
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
-    - delay: 436
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.08 MB/s"
-      network: ws
-      port: 8880
-      server: 205.233.181.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.37 MB/s"
-      network: ws
-      port: 8880
-      server: 209.94.90.251
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /
     - delay: 891
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 18.82 MB/s"
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 15.47 MB/s"
       network: ws
       port: 8880
       server: 185.251.82.251
@@ -69,22 +30,22 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
         path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
-    - delay: 1671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.26 MB/s"
+    - delay: 1514
+      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 15.21 MB/s"
       network: ws
       port: 8880
-      server: 63.141.128.251
+      server: 89.116.250.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560fp=chrome
+            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+        path: /
       xudp: true
     - delay: 2567
-      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 13.89 MB/s"
+      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 13.16 MB/s"
       network: ws
       port: 8880
       server: 176.124.223.251
@@ -97,23 +58,34 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
         path: /
       xudp: true
-    - delay: 1325
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 13.80 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.26 MB/s"
       network: ws
       port: 8880
-      server: 188.164.248.251
+      server: 209.94.90.251
+      tls: false
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
         path: /
+    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 11.18 MB/s"
+      network: ws
+      port: 8880
+      server: 46.254.92.1
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
+        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
       xudp: true
     - auth: dongtaiwang.com
       down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.03 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.94 MB/s"
       password: dongtaiwang.com
       port: 5355
       server: 51.159.111.32
@@ -125,7 +97,7 @@ proxies:
     - auth: dongtaiwang.com
       delay: 1506
       down: 100 Mbps
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.01 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.85 MB/s"
       password: dongtaiwang.com
       port: 50066
       server: 51.158.218.2
