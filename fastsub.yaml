@@ -1,23 +1,24 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 28.89 MB/s"
-      port: 443
-      reality-opts:
-        public-key: u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc
-      server: itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-      servername: itgetsbetter.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1ae544de-4b19-4bd0-a7d6-e47e2e19a057
-    - delay: 847
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.85 MB/s"
+    - delay: 1649
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.21 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
+      server: 66.81.247.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /
+      xudp: true
+    - delay: 615
+      name: "\U0001F1F5\U0001F1ED PH | ⬇️ 33.04 MB/s"
+      network: ws
+      port: 8880
+      server: 154.83.2.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
@@ -25,76 +26,101 @@ proxies:
         headers:
             Host: cf.d3z.net
             User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - delay: 768
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 28.84 MB/s"
+      network: ws
+      port: 8880
+      server: 185.16.110.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
         path: /
       xudp: true
-    - client-fingerprint: chrome
-      delay: 1015
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.24 MB/s"
+    - delay: 728
+      name: "\U0001F1E7\U0001F1EC BG | ⬇️ 27.25 MB/s"
       network: ws
-      port: 443
-      server: 104.18.205.33
-      servername: rayan-fg-2.hasan-kachal.filegear-sg.me
+      port: 8880
+      server: 45.142.120.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
+        path: /Telegram
+      xudp: true
+    - delay: 667
+      name: "\U0001F3F3️ AM | ⬇️ 24.15 MB/s"
+      network: ws
+      port: 8880
+      server: 5.10.214.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+        path: /Telegram
+      xudp: true
+    - client-fingerprint: chrome
+      delay: 1546
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.31 MB/s"
+      network: ws
+      port: 2096
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638901790535254177.brussels-prx-dnraaal.info
       tls: true
       type: vless
       udp: true
-      uuid: a1650c69-531c-441f-bc6a-bd43565000a4
+      uuid: 3056458b-913a-4193-b428-cdf22675b3b5
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: rayan-fg-2.hasan-kachal.filegear-sg.me
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        max-early-data: 2560
-        path: /
+            Host: 638901790535254177.brussels-prx-dnraaal.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /ydgmopws
       xudp: true
-    - client-fingerprint: chrome
-      delay: 997
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.35 MB/s"
+    - delay: 1811
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.35 MB/s"
       network: ws
-      password: bpb-trojan
-      port: 443
-      server: 162.159.153.2
-      skip-cert-verify: false
-      sni: zamim340.ggff.net
-      type: trojan
+      port: 8880
+      server: 185.238.228.251
+      type: vless
       udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-        path: /tr?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.34 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /Telegram
+      xudp: true
+    - http-opts:
+        headers:
+            Host:
+                - skyroom.online
+        method: GET
+        path:
+            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.68 MB/s"
+      network: http
+      port: 443
+      server: 104.248.142.176
+      servername: skyroom.online
       skip-cert-verify: false
       tls: false
       type: vless
       udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      delay: 2125
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.54 MB/s"
-      network: ws
-      port: 443
-      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-      servername: 638890561652283195.esfahan-prx-dnraaao.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4bae5fe4-16a9-4c52-9056-3442b0f1b430
-      ws-opts:
-        headers:
-            Host: 638890561652283195.esfahan-prx-dnraaao.info
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-        path: /qurfvfws
-      xudp: true
+      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
     - client-fingerprint: chrome
       delay: 2868
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 11.56 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.81 MB/s"
       network: ws
       port: 443
       server: ipw.gfdv54cvghhgfhgj-njhgj64.info
@@ -109,27 +135,99 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
         path: /jzkedews
       xudp: true
-    - auth: dongtaiwang.com
-      delay: 1506
-      down: 100 Mbps
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.91 MB/s"
-      password: dongtaiwang.com
-      port: 50066
-      server: 51.158.218.2
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+    - http-opts:
+        headers:
+            Host:
+                - skyroom.online
+        method: GET
+        path:
+            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.57 MB/s"
+      network: http
+      port: 443
+      server: 104.248.142.176
+      servername: skyroom.online
+      skip-cert-verify: false
+      tls: false
+      type: vless
       udp: true
-      up: 100 Mbps
-    - auth: dongtaiwang.com
-      delay: 894
-      down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.77 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 51.159.111.32
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
+      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
+    - delay: 677
+      name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 16.59 MB/s"
+      network: ws
+      port: 8880
+      server: 46.254.92.2
+      type: vless
       udp: true
-      up: 100 Mbps
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - http-opts:
+        headers:
+            Host:
+                - skyroom.online
+        method: GET
+        path:
+            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.08 MB/s"
+      network: http
+      port: 443
+      server: 104.248.142.176
+      servername: skyroom.online
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
+    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 12.35 MB/s"
+      network: ws
+      port: 8880
+      server: 46.254.92.11
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
+      xudp: true
+    - delay: 474
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.22 MB/s"
+      network: ws
+      port: 8880
+      server: 192.0.54.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.52 MB/s"
+      password: <password>
+      port: 443
+      server: acc485af-sx6ps0-t1bnjq-1krtb.hkt2.cdnhuawei.com
+      tls: true
+      type: socks5
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.91 MB/s"
+      network: tcp
+      port: 6666
+      reality-opts:
+        public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
+        short-id: b525ecd2fc
+      server: 188.68.53.100
+      servername: Tgju.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+      xudp: true
