@@ -1,126 +1,30 @@
 proxy-providers: {}
 proxies:
-    - delay: 1649
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.21 MB/s"
+    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 42.26 MB/s"
       network: ws
       port: 8880
-      server: 66.81.247.251
+      server: 46.254.92.11
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
       xudp: true
-    - delay: 615
-      name: "\U0001F1F5\U0001F1ED PH | ⬇️ 33.04 MB/s"
-      network: ws
-      port: 8880
-      server: 154.83.2.251
-      type: vless
+    - country: US
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.70 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 51.44.118.76
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - delay: 768
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 28.84 MB/s"
-      network: ws
-      port: 8880
-      server: 185.16.110.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
-        path: /
-      xudp: true
-    - delay: 728
-      name: "\U0001F1E7\U0001F1EC BG | ⬇️ 27.25 MB/s"
-      network: ws
-      port: 8880
-      server: 45.142.120.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-        path: /Telegram
-      xudp: true
-    - delay: 667
-      name: "\U0001F3F3️ AM | ⬇️ 24.15 MB/s"
-      network: ws
-      port: 8880
-      server: 5.10.214.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: /Telegram
-      xudp: true
-    - client-fingerprint: chrome
-      delay: 1546
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.31 MB/s"
-      network: ws
-      port: 2096
-      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
-      servername: 638901790535254177.brussels-prx-dnraaal.info
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3056458b-913a-4193-b428-cdf22675b3b5
-      ws-opts:
-        headers:
-            Host: 638901790535254177.brussels-prx-dnraaal.info
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
-        path: /ydgmopws
-      xudp: true
-    - delay: 1811
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.35 MB/s"
-      network: ws
-      port: 8880
-      server: 185.238.228.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
-        path: /Telegram
-      xudp: true
-    - http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.68 MB/s"
-      network: http
-      port: 443
-      server: 104.248.142.176
-      servername: skyroom.online
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
     - client-fingerprint: chrome
       delay: 2868
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.81 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 38.73 MB/s"
       network: ws
       port: 443
       server: ipw.gfdv54cvghhgfhgj-njhgj64.info
@@ -135,99 +39,205 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
         path: /jzkedews
       xudp: true
-    - http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.57 MB/s"
-      network: http
-      port: 443
-      server: 104.248.142.176
-      servername: skyroom.online
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
-    - delay: 677
-      name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 16.59 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.2
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.08 MB/s"
-      network: http
-      port: 443
-      server: 104.248.142.176
-      servername: skyroom.online
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
-    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 12.35 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.11
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
-    - delay: 474
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.22 MB/s"
-      network: ws
-      port: 8880
-      server: 192.0.54.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.52 MB/s"
-      password: <password>
-      port: 443
-      server: acc485af-sx6ps0-t1bnjq-1krtb.hkt2.cdnhuawei.com
-      tls: true
-      type: socks5
-      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
     - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.91 MB/s"
-      network: tcp
-      port: 6666
-      reality-opts:
-        public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
-        short-id: b525ecd2fc
-      server: 188.68.53.100
-      servername: Tgju.org
+      delay: 2571
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 38.08 MB/s"
+      network: ws
+      port: 443
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638892846452851844.hamedan-prx-dnraaao.info
       tls: true
       type: vless
       udp: true
-      uuid: 0abf9050-c7be-464d-80af-24094c2b97de
+      uuid: 16e87c27-a97c-4338-9ff2-12f98eaf6067
+      ws-opts:
+        headers:
+            Host: 638892846452851844.hamedan-prx-dnraaao.info
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: /edaixvws
       xudp: true
+    - client-fingerprint: chrome
+      delay: 1546
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 35.53 MB/s"
+      network: ws
+      port: 2096
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638901790535254177.brussels-prx-dnraaal.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3056458b-913a-4193-b428-cdf22675b3b5
+      ws-opts:
+        headers:
+            Host: 638901790535254177.brussels-prx-dnraaal.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /ydgmopws
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 34.68 MB/s"
+      port: 443
+      reality-opts:
+        public-key: u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc
+        short-id: 462c73aef9f448
+      server: itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+      servername: itgetsbetter.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1ae544de-4b19-4bd0-a7d6-e47e2e19a057
+    - client-fingerprint: chrome
+      delay: 1546
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 32.24 MB/s"
+      network: ws
+      port: 2096
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638901790535254177.brussels-prx-dnraaal.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3056458b-913a-4193-b428-cdf22675b3b5
+      ws-opts:
+        headers:
+            Host: 638901790535254177.brussels-prx-dnraaal.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36
+        path: /ydgmopws
+      xudp: true
+    - delay: 847
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.94 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /
+      xudp: true
+    - delay: 408
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.87 MB/s"
+      network: ws
+      port: 8880
+      server: 92.53.189.251
+      servername: cf.d3z.net
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+        path: /Telegram @WangCai2 /?ed=2560
+    - delay: 712
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.18 MB/s"
+      network: ws
+      port: 8880
+      server: 188.42.88.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+      xudp: true
+    - delay: 1649
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.42 MB/s"
+      network: ws
+      port: 8880
+      server: 66.81.247.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /
+      xudp: true
+    - client-fingerprint: chrome
+      delay: 2125
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.44 MB/s"
+      network: ws
+      port: 443
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638890561652283195.esfahan-prx-dnraaao.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4bae5fe4-16a9-4c52-9056-3442b0f1b430
+      ws-opts:
+        headers:
+            Host: 638890561652283195.esfahan-prx-dnraaao.info
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+        path: /qurfvfws
+      xudp: true
+    - delay: 1811
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.08 MB/s"
+      network: ws
+      port: 8880
+      server: 185.238.228.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /Telegram
+      xudp: true
+    - client-fingerprint: chrome
+      delay: 2519
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.58 MB/s"
+      network: ws
+      port: 443
+      server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+      servername: 638901446244340634.dezful-prx-dnraabg.info
+      tls: true
+      type: vless
+      udp: true
+      uuid: eb577431-3b16-4a8f-953b-7bcfb573b025
+      ws-opts:
+        headers:
+            Host: 638901446244340634.dezful-prx-dnraabg.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+        path: /kskoxmws
+      xudp: true
+    - delay: 1830
+      name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 16.65 MB/s"
+      network: ws
+      port: 8880
+      server: 89.116.250.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /
+      xudp: true
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 12.40 MB/s"
+      port: 443
+      reality-opts:
+        public-key: u13aSU1om7Mc67RxQHmVQx7iALWAUCn_j38zQ5LpYXc
+        short-id: 462c73aef9f448
+      server: itmi-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+      servername: itgetsbetter.org
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1ae544de-4b19-4bd0-a7d6-e47e2e19a057
