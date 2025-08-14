@@ -1,83 +1,75 @@
 proxy-providers: {}
 proxies:
-    - delay: 873
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.29 MB/s"
-      network: ws
-      port: 8880
-      server: 104.254.140.251
+    - delay: 662
+      http-opts:
+        headers:
+            Host:
+                - skyroom.online
+        method: GET
+        path:
+            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 30.09 MB/s"
+      network: http
+      port: 443
+      server: 104.248.142.176
+      servername: skyroom.online
+      skip-cert-verify: false
+      tls: false
       type: vless
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.35 MB/s"
-      network: tcp
+      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
+    - alterId: 0
+      cipher: auto
+      delay: 1362
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.48 MB/s"
+      network: ws
       port: 8443
-      reality-opts:
-        public-key: xokq1PlzXfunVbdUvWKkR7DpCMsZPr8mNMl74JZMxVg
-        short-id: 07204dd0
-      server: 47.79.37.171
-      servername: www.yahoo.com
+      server: fk3.620720.xyz
+      servername: fk3.620720.xyz
+      skip-cert-verify: false
       tls: true
-      type: vless
-      uuid: e5c89c14-3de9-4716-cbc3-6eae3ebed0a2
-    - cipher: chacha20-ietf-poly1305
-      country: SG
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.46 MB/s"
-      password: BSgJ7wLdKX4FYyF5fm4GSvDZ3yzHy8Gjro5K6WL/P+Q=
-      port: 17292
-      server: 167.71.195.230
-      type: ss
-    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 14.90 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.8
-      type: vless
+      type: vmess
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
       ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
-    - delay: 579
-      name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 14.89 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.1
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /Telegram @WangCai2 /?ed=2560
-      xudp: true
-    - delay: 1649
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.47 MB/s"
-      network: ws
-      port: 8880
-      server: 66.81.247.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+            Host: fk3.620720.xyz
+        max-early-data: 2560
         path: /
+    - alpn:
+        - http/1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.19 MB/s"
+      network: ws
+      password: 07a3df8f-2a2c-42f8-ad92-65889d90f3bf
+      port: 443
+      server: 172.67.135.37
+      skip-cert-verify: false
+      sni: rrrRrRRrT.459.pp.ua
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: rrrRrRRrT.459.pp.ua
+        path: /znQImc22ijDwVOkZfoq
+    - delay: 474
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.12 MB/s"
+      network: ws
+      port: 8880
+      server: 192.0.54.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
       xudp: true
     - alterId: 0
       cipher: auto
       delay: 576
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 14.36 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.89 MB/s"
       network: ws
       port: 16632
       server: planb.mojcn.com
@@ -88,17 +80,34 @@ proxies:
         headers:
             Host: b37048544d083a503188d38c53d6e4f2.mobgslb.tbcache.com
         path: /
-    - delay: 667
-      name: "\U0001F3F3️ AM | ⬇️ 12.87 MB/s"
+    - delay: 1442
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.88 MB/s"
       network: ws
       port: 8880
-      server: 5.10.214.251
+      server: 185.148.106.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
-        path: /Telegram
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560fp=chrome
       xudp: true
+    - http-opts:
+        headers:
+            Host:
+                - filimo.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F3F3️ IR | ⬇️ 10.50 MB/s"
+      network: http
+      port: 2083
+      server: germany1.premiumiran.top
+      servername: filimo.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 59290e80-153b-4d2c-8a5b-8a1922608832
