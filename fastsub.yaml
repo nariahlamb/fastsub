@@ -1,47 +1,6 @@
 proxy-providers: {}
 proxies:
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 34.56 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 18.153.87.172
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - delay: 597
-      http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 34.46 MB/s"
-      network: http
-      port: 443
-      server: 104.248.142.176
-      servername: skyroom.online
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
-    - delay: 1272
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.79 MB/s"
-      network: ws
-      port: 8880
-      server: 209.94.90.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /
-      xudp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.51 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.06 MB/s"
       network: ws
       port: 80
       server: 104.18.26.90
@@ -55,17 +14,42 @@ proxies:
         headers:
             Host: blaze-can-118.blazecanada.site
         path: /?ed=2560
-    - delay: 800
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.57 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.207
+    - delay: 597
+      http-opts:
+        headers:
+            Host:
+                - skyroom.online
+        method: GET
+        path:
+            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 37.16 MB/s"
+      network: http
+      port: 443
+      server: 104.248.142.176
+      servername: skyroom.online
+      skip-cert-verify: false
       tls: false
       type: vless
+      udp: true
+      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
+    - cipher: aes-256-cfb
+      name: "\U0001F3F3️ MD | ⬇️ 14.11 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.153.197.5
+      type: ss
+      udp: true
+    - delay: 1863
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.15 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.90
+      type: vless
+      udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
             Host: yd.laoyoutiao.link
-        max-early-data: 2560
-        path: /Telegram @MxlShare @WangCai2 /
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
+        path: /TelegramU0001F1E8U0001F1F3
+      xudp: true
