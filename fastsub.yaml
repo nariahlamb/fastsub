@@ -1,55 +1,69 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.06 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 59.41 MB/s"
+      password: 10193f1d-9a4d-457a-b668-bdeb240e092c
+      port: 34444
+      server: netcupus.alisaku.com
+      skip-cert-verify: true
+      sni: apps.apple.com
       tls: false
+      type: hysteria2
+    - delay: 569
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.06 MB/s"
+      network: tcp
+      port: 2053
+      server: 188.166.144.24
       type: vless
       udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        headers:
-            Host: blaze-can-118.blazecanada.site
-        path: /?ed=2560
-    - delay: 597
-      http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop@num1_shop
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 37.16 MB/s"
-      network: http
-      port: 443
-      server: 104.248.142.176
-      servername: skyroom.online
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: e77fbe65-01fe-48d0-8069-f6fa8f7a6d81
-    - cipher: aes-256-cfb
-      name: "\U0001F3F3️ MD | ⬇️ 14.11 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 185.153.197.5
-      type: ss
-      udp: true
-    - delay: 1863
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.15 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.90
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3
+      uuid: e207a4a0-0237-46f5-acd5-2410f1452de5
       xudp: true
+    - auth: ""
+      delay: 893
+      fast-open: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.48 MB/s"
+      password: 3C8h8X6kimbOX68joVe3kTERw
+      port: 7197
+      server: 206.189.20.193
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - client-fingerprint: chrome
+      delay: 1844
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.04 MB/s"
+      network: ws
+      port: 443
+      server: 104.17.4.197
+      servername: F1.paRsa.fiLegEar-Sg.Me
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 8df60790-c903-4661-b85d-64c0009378e5
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: f1.parsa.filegear-sg.me
+        max-early-data: 2560
+        path: /
+    - auth: JWLQunPJgg2xi8Edm304q9Vqw
+      delay: 911
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 20.23 MB/s"
+      password: JWLQunPJgg2xi8Edm304q9Vqw
+      port: 2050
+      server: 161.35.157.233
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.22 MB/s"
+      port: 43722
+      server: 172.104.98.192
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 71dc43f8-dc50-4bb6-93e2-95dd5149d7fd
