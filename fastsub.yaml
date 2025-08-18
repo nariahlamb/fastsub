@@ -1,18 +1,30 @@
 proxy-providers: {}
 proxies:
-    - delay: 1060
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 11.32 MB/s"
+    - delay: 1243
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.31 MB/s"
       network: ws
       port: 8880
-      server: 212.183.88.251
+      server: 66.81.247.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-        max-early-data: 2560
-        path: /Telegram @WangCai2 /
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
+        path: /
+      xudp: true
+    - delay: 1272
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.35 MB/s"
+      network: ws
+      port: 8880
+      server: 209.94.90.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /
       xudp: true
