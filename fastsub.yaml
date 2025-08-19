@@ -1,7 +1,34 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 101.96 MB/s"
+      network: ws
+      port: 80
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      ws-opts:
+        headers:
+            Host: blaze-can-118.blazecanada.site
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 65.19 MB/s"
+      network: tcp
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 172.233.201.93
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
     - delay: 1243
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.31 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.58 MB/s"
       network: ws
       port: 8880
       server: 66.81.247.251
@@ -14,17 +41,224 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36
         path: /
       xudp: true
-    - delay: 1272
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.35 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.94 MB/s"
+      password: 10193f1d-9a4d-457a-b668-bdeb240e092c
+      port: 34444
+      server: netcupus.alisaku.com
+      skip-cert-verify: true
+      sni: apps.apple.com
+      tls: false
+      type: hysteria2
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 46.15 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
+      server: 185.148.106.251
+      servername: cf.d3z.net
+      skip-cert-verify: false
+      tls: false
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /Telegram @WangCai2 /?ed=2560
+    - delay: 1457
+      name: "\U0001F1E8\U0001F1F7 CR | ⬇️ 43.48 MB/s"
+      network: ws
+      port: 8880
+      server: 190.93.245.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /Telegram
+      xudp: true
+    - name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 38.80 MB/s"
+      network: ws
+      port: 8880
+      server: 88.216.69.251
+      tls: false
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: cf.d3z.net
+        max-early-data: 2560
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+    - delay: 649
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 32.72 MB/s"
+      network: ws
+      port: 8880
+      server: 103.169.142.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+        max-early-data: 2560
+        path: /Telegram @WangCai2 /
+      xudp: true
+    - auth: ""
+      delay: 893
+      fast-open: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.75 MB/s"
+      password: 3C8h8X6kimbOX68joVe3kTERw
+      port: 7197
+      server: 206.189.20.193
+      servername: bing.com
+      skip-cert-verify: true
+      sni: bing.com
+      tfo: false
+      type: hysteria2
+    - auth: JWLQunPJgg2xi8Edm304q9Vqw
+      delay: 911
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 27.60 MB/s"
+      password: JWLQunPJgg2xi8Edm304q9Vqw
+      port: 2050
+      server: 161.35.157.233
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      delay: 2348
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.33 MB/s"
+      network: ws
+      port: 2053
+      server: 172.67.175.148
+      servername: InviNcIbLe.FAFA20.sHOp
+      tls: true
+      type: vless
+      udp: true
+      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
+      ws-opts:
+        headers:
+            Host: InviNcIbLe.FAFA20.sHOp
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
         path: /
+      xudp: true
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 24.33 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.158.218.2
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - delay: 843
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.91 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: wxiTacqUnFMT6QPG1xHX578Omo
+      port: 7444
+      server: 138.197.185.116
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      up: ""
+    - delay: 1747
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 23.58 MB/s"
+      network: ws
+      port: 8880
+      server: 185.251.81.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /Telegram
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.36 MB/s"
+      password: b08fee86-8d51-4a82-bcdc-0a27fe64c2b7
+      port: 22159
+      server: hsadly.huasuan666.top
+      skip-cert-verify: true
+      sni: hsadly.huasuan666.top
+      tfo: false
+      type: hysteria2
+    - client-fingerprint: chrome
+      delay: 2227
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.57 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.9.55
+      servername: rayan-fg-4.sahel.filegear-sg.me
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee06e485-f3d1-46c0-97f4-e98040b828ed
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: rayan-fg-4.sahel.filegear-sg.me
+            User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
+        max-early-data: 2560
+        path: /Telegram-V2ray_Alpha/
+      xudp: true
+    - alterId: 2
+      cipher: auto
+      country: HK
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.61 MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - delay: 2919
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.35 MB/s"
+      network: ws
+      port: 8880
+      server: 45.149.12.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        max-early-data: 2560
+        path: /Telegram@WangCai2/
+      xudp: true
+    - auth: t10uaklYsxNEBV8743URwa2y8k
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.27 MB/s"
+      password: t10uaklYsxNEBV8743URwa2y8k
+      port: 24169
+      server: 52.195.224.117
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 10.04 MB/s"
+      network: ws
+      port: 8880
+      server: 46.254.92.8
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
       xudp: true
