@@ -1,53 +1,14 @@
 proxy-providers: {}
 proxies:
-    - delay: 2498
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 81.74 MB/s"
-      network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      type: vless
-      udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: blaze-can-118.blazecanada.site
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
-        max-early-data: 2560
-        path: /
-      xudp: true
-    - delay: 2061
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 66.16 MB/s"
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: hyleet.fitness
-      skip-cert-verify: false
-      sni: hyleet.fitness
+    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.92 MB/s"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
       type: hysteria2
-    - delay: 2080
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.77 MB/s"
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: us.hyleet.news
-      skip-cert-verify: false
-      sni: us.hyleet.news
-      type: hysteria2
-    - delay: 1273
-      name: "\U0001F1ED\U0001F1FA HU | ⬇️ 34.65 MB/s"
-      network: ws
-      port: 8880
-      server: 141.11.203.251
-      type: vless
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
-        path: /Telegram
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.27 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.32 MB/s"
       password: 10193f1d-9a4d-457a-b668-bdeb240e092c
       port: 34444
       server: netcupus.alisaku.com
@@ -58,7 +19,7 @@ proxies:
     - auth: ""
       delay: 893
       fast-open: false
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.48 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.53 MB/s"
       password: 3C8h8X6kimbOX68joVe3kTERw
       port: 7197
       server: 206.189.20.193
@@ -67,108 +28,40 @@ proxies:
       sni: bing.com
       tfo: false
       type: hysteria2
-    - name: "\U0001F1F1\U0001F1F9 LT | ⬇️ 23.29 MB/s"
-      network: ws
-      port: 8880
-      server: 88.216.69.251
-      servername: cf.d3z.net
-      skip-cert-verify: false
-      tls: false
-      type: vless
+    - auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.47 MB/s"
+      password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+      port: 41951
+      server: sub-us-2.yangxiansheng.online
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560
-    - delay: 965
-      name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 20.00 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.251
-      type: vless
+    - auth: JWLQunPJgg2xi8Edm304q9Vqw
+      delay: 911
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.33 MB/s"
+      password: JWLQunPJgg2xi8Edm304q9Vqw
+      port: 2050
+      server: 161.35.157.233
+      skip-cert-verify: true
+      sni: bing.com
+      type: hysteria2
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        max-early-data: 2560
-        path: /Telegram @WangCai2 /
-      xudp: true
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.33 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52437
-      ports: 50000-53000
-      server: 5.180.78.153
+    - delay: 843
+      down: ""
+      fingerprint: ""
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.15 MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: wxiTacqUnFMT6QPG1xHX578Omo
+      port: 7444
+      server: 138.197.185.116
       skip-cert-verify: true
-      sni: api.push.apple.com
+      sni: bing.com
       type: hysteria2
-      up: 200
+      up: ""
     - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.27 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52541
-      ports: 50000-53000
-      server: 45.89.109.129
-      skip-cert-verify: true
-      sni: music.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.12 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 50077
-      ports: 50000-53000
-      server: 45.89.109.129
-      skip-cert-verify: true
-      sni: music.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.09 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52409
-      ports: 50000-53000
-      server: 194.156.99.107
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.06 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52209
-      ports: 50000-53000
-      server: 5.180.78.153
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.01 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 50865
-      ports: 50000-53000
-      server: 5.180.78.153
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.98 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52068
-      ports: 50000-53000
-      server: 5.180.78.153
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      up: 200
-    - down: 1000
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.93 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.09 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 50780
       ports: 50000-53000
@@ -178,7 +71,87 @@ proxies:
       type: hysteria2
       up: 200
     - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.93 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 50719
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.86 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52068
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.80 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52316
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.79 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 51560
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
       name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.76 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52209
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.59 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52138
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.56 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 50297
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.40 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52437
+      ports: 50000-53000
+      server: 5.180.78.153
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - down: 1000
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.97 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 51059
       ports: 50000-53000
@@ -188,61 +161,17 @@ proxies:
       type: hysteria2
       up: 200
     - down: 1000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.12 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.54 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 50739
+      port: 50865
       ports: 50000-53000
-      server: 45.89.109.129
-      skip-cert-verify: true
-      sni: music.apple.com
-      type: hysteria2
-      up: 200
-    - delay: 526
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.31 MB/s"
-      network: ws
-      port: 8880
-      server: 199.181.197.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        max-early-data: 2560
-        path: /Telegram @WangCai2 /
-      xudp: true
-    - down: 1000
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.93 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 51673
-      ports: 50000-53000
-      server: 5.180.30.16
-      skip-cert-verify: true
-      sni: api.push.apple.com
-      type: hysteria2
-      up: 200
-    - cipher: aes-128-gcm
-      delay: 1108
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.04 MB/s"
-      password: b2ac851a-5a24-479e-a500-e36163425312
-      port: 10878
-      server: hkt.huohuo-cloud.icu
-      type: ss
-      udp: true
-    - down: 1000
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.43 MB/s"
-      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
-      port: 52801
-      ports: 50000-53000
-      server: 5.180.30.16
+      server: 5.180.78.153
       skip-cert-verify: true
       sni: api.push.apple.com
       type: hysteria2
       up: 200
     - down: 1000
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.22 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.25 MB/s"
       password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
       port: 51802
       ports: 50000-53000
@@ -251,41 +180,82 @@ proxies:
       sni: api.push.apple.com
       type: hysteria2
       up: 200
-    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 13.91 MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - auth: ""
-      delay: 1029
-      fast-open: false
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 12.23 MB/s"
-      password: ok6aX0A7QX9SkYo6R0GBBJDUsK4
-      port: 8460
-      server: 143.244.140.87
-      servername: bing.com
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.47 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 50129
+      ports: 50000-53000
+      server: 5.180.30.16
       skip-cert-verify: true
-      sni: bing.com
-      tfo: false
+      sni: api.push.apple.com
       type: hysteria2
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.80 MB/s"
+      up: 200
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.91 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.158.218.2
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 12.86 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52634
+      ports: 50000-53000
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - delay: 729
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.72 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.150
-      tls: false
+      server: 156.238.18.17
       type: vless
+      udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
             Host: yd.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+            User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+        path: /Telegram@V2ray_Alpha
+      xudp: true
+    - delay: 1182
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.65 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.170
+      type: vless
+      udp: true
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: yd.laoyoutiao.link
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /
+      xudp: true
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 12.32 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 52801
+      ports: 50000-53000
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - cipher: aes-128-gcm
+      delay: 1108
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.71 MB/s"
+      password: b2ac851a-5a24-479e-a500-e36163425312
+      port: 10878
+      server: hkt.huohuo-cloud.icu
+      type: ss
+      udp: true
     - auth: RzQrEkAmnGs86IhmSVUk9Q5cn9M
       delay: 1015
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.48 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.50 MB/s"
       password: RzQrEkAmnGs86IhmSVUk9Q5cn9M
       port: 30308
       server: 47.236.104.81
@@ -293,17 +263,27 @@ proxies:
       sni: bing.com
       type: hysteria2
       udp: true
-    - delay: 1708
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.33 MB/s"
+    - down: 1000
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 11.40 MB/s"
+      password: 2ddd5b7c-06ca-4f16-ab61-c8a5348efe1a
+      port: 51649
+      ports: 50000-53000
+      server: 5.180.30.16
+      skip-cert-verify: true
+      sni: api.push.apple.com
+      type: hysteria2
+      up: 200
+    - delay: 590
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.82 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.77
+      server: 156.238.18.80
       type: vless
       udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
             Host: yd.laoyoutiao.link
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
-        path: /Telegram @MxlShare @WangCai2 /?ed
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        path: /
       xudp: true
