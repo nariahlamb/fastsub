@@ -1,23 +1,23 @@
 proxy-providers: {}
 proxies:
-    - delay: 2080
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.93 MB/s"
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: us.hyleet.news
-      skip-cert-verify: false
-      sni: us.hyleet.news
-      type: hysteria2
     - delay: 2061
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.18 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 60.00 MB/s"
       password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
       port: 27015
       server: hyleet.fitness
       skip-cert-verify: false
       sni: hyleet.fitness
       type: hysteria2
+    - delay: 2080
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.09 MB/s"
+      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      port: 27015
+      server: us.hyleet.news
+      skip-cert-verify: false
+      sni: us.hyleet.news
+      type: hysteria2
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.92 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 34.69 MB/s"
       port: 34045
       reality-opts:
         public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -29,20 +29,11 @@ proxies:
       type: vless
       udp: true
       uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 20.79 MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      sni: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
     - alpn:
         - ""
       alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.26 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.96 MB/s"
       network: ws
       port: 443
       server: npmjs.com
@@ -57,7 +48,7 @@ proxies:
             Host: Q4.19kAlA.co
         path: /
       xudp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.58 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 24.65 MB/s"
       password: 3C8h8X6kimbOX68joVe3kTERw
       port: 7197
       server: 206.189.20.193
@@ -65,56 +56,8 @@ proxies:
       sni: bing.com
       type: hysteria2
     - client-fingerprint: chrome
-      delay: 892
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.82 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.74.214
-      servername: rayan-fg-1.nastaran-joon.filegear-sg.me
-      tls: true
-      type: vless
-      udp: true
-      uuid: c1da8253-1987-4501-9805-69fbb043742a
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: rayan-fg-1.nastaran-joon.filegear-sg.me
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.65 Safari/537.36
-        max-early-data: 2560
-        path: /
-      xudp: true
-    - delay: 817
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.62 MB/s"
-      network: ws
-      port: 8880
-      server: 109.176.239.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
-        max-early-data: 2560
-        path: /Telegram @WangCai2 /
-      xudp: true
-    - name: "\U0001F1EE\U0001F1E9 ID | ⬇️ 13.04 MB/s"
-      network: ws
-      port: 8880
-      server: 46.254.92.4
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: "Telegram\U0001F1E8\U0001F1F3 @WangCai2 /?ed=2560"
-      xudp: true
-    - client-fingerprint: chrome
       delay: 810
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.87 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.87 MB/s"
       network: ws
       port: 443
       server: 162.159.9.55
@@ -130,18 +73,4 @@ proxies:
             User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Slackware/Chrome/12.0.742.100 Safari/534.30
         max-early-data: 2560
         path: /Telegram-V2ray_Alpha/
-      xudp: true
-    - delay: 1038
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 12.49 MB/s"
-      network: ws
-      port: 8880
-      server: 185.16.110.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /
       xudp: true
