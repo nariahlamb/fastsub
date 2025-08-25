@@ -1,25 +1,27 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 85.86 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.19 MB/s"
       network: ws
-      port: 80
-      server: 104.18.26.90
-      servername: blaze-can-118.blazecanada.site
-      skip-cert-verify: false
-      tls: false
+      port: 443
+      server: 162.159.9.55
+      servername: rayan-fg-4.sahel.filegear-sg.me
+      tls: true
       type: vless
       udp: true
-      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      uuid: ee06e485-f3d1-46c0-97f4-e98040b828ed
       ws-opts:
         headers:
-            Host: blaze-can-118.blazecanada.site
+            Host: rayan-fg-4.sahel.filegear-sg.me
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /?ed=2560
+      xudp: true
     - alterId: 2
       cipher: auto
       country: ' HK'
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.48 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.01 MB/s"
       network: ws
       port: 80
       server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -30,55 +32,24 @@ proxies:
       ws-headers:
         HOST: broadcastlv.chat.bilibili.com
       ws-path: /
-    - delay: 1768
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.58 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.13
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-        path: /Telegram @MxlShare @WangCai2 /
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.75 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.143
-      servername: yd.laoyoutiao.link
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-        path: /TelegramU0001F1E8U0001F1F3
-    - delay: 1352
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.22 MB/s"
-      network: ws
-      port: 8880
-      server: 192.200.160.251
-      type: vless
-      udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-      ws-opts:
-        headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2
-      xudp: true
-    - auth: dongtaiwang.com
-      down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.01 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 51.159.111.32
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.74 MB/s"
+      password: 10193f1d-9a4d-457a-b668-bdeb240e092c
+      port: 34444
+      server: netcupus.alisaku.com
       skip-cert-verify: true
-      sni: www.bing.com
+      sni: apps.apple.com
+      tls: false
       type: hysteria2
+    - delay: 2723
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.95 MB/s"
+      network: ws
+      port: 8880
+      server: 156.238.18.17
+      tls: false
+      type: vless
       udp: true
-      up: 100 Mbps
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+      ws-opts:
+        headers:
+            Host: yd.laoyoutiao.link
+        path: /Telegram@V2ray_Alpha
