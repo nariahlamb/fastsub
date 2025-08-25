@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 60.90 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 85.86 MB/s"
       network: ws
       port: 80
       server: 104.18.26.90
@@ -14,44 +14,36 @@ proxies:
         headers:
             Host: blaze-can-118.blazecanada.site
         path: /?ed=2560
-    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.29 MB/s"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      delay: 1539
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.06 MB/s"
+    - alterId: 2
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.48 MB/s"
       network: ws
-      port: 443
-      server: 172.67.137.129
-      servername: INviNCIBle.fAfa20.shOP
-      tls: true
-      type: vless
-      udp: true
-      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
-      ws-opts:
-        headers:
-            Host: INviNCIBle.fAfa20.shOP
-        path: /
-    - delay: 995
-      name: "\U0001F3F3️ CW | ⬇️ 19.74 MB/s"
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
+    - delay: 1768
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.58 MB/s"
       network: ws
       port: 8880
-      server: 5.10.245.251
+      server: 156.238.18.13
+      tls: false
       type: vless
       udp: true
-      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
-            Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /Telegram
-      xudp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.92 MB/s"
+            Host: yd.laoyoutiao.link
+        path: /Telegram @MxlShare @WangCai2 /
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.75 MB/s"
       network: ws
       port: 8880
       server: 156.238.18.143
@@ -65,9 +57,23 @@ proxies:
         headers:
             Host: yd.laoyoutiao.link
         path: /TelegramU0001F1E8U0001F1F3
+    - delay: 1352
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.22 MB/s"
+      network: ws
+      port: 8880
+      server: 192.200.160.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+      xudp: true
     - auth: dongtaiwang.com
       down: 100 Mbps
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.03 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.01 MB/s"
       password: dongtaiwang.com
       port: 5355
       server: 51.159.111.32
