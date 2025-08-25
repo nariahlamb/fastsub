@@ -1,7 +1,126 @@
 proxy-providers: {}
 proxies:
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 153.17 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 143.198.139.35
+      skip-cert-verify: true
+      sni: us8.naichachong.top
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 151.17 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: us0.6315687.xyz
+      skip-cert-verify: true
+      sni: us0.6315687.xyz
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 126.82 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 165.227.22.219
+      skip-cert-verify: true
+      sni: us10.naichachong.top
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 122.88 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 164.92.117.83
+      skip-cert-verify: true
+      sni: us12.naichachong.top
+      type: hysteria2
+      udp: true
+    - cipher: rc4-md5
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.83 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 23.251.121.242
+      type: ss
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.39 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 167.99.105.130
+      skip-cert-verify: true
+      sni: us1.6315687.xyz
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.64 MB/s"
+      password: 10193f1d-9a4d-457a-b668-bdeb240e092c
+      port: 34444
+      server: netcupus.alisaku.com
+      skip-cert-verify: true
+      sni: apps.apple.com
+      tls: false
+      type: hysteria2
+    - http-opts:
+        headers:
+            Host:
+                - canva.com
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.00 MB/s"
+      network: http
+      port: 21184
+      server: germosh.babakphotographi.ir
+      servername: canva.com
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: adb21e18-c07c-4c3f-a1c0-dff5667bd69c
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.40 MB/s"
+      network: tcp
+      port: 80
+      server: 91.98.21.125
+      skip-cert-verify: true
+      tls: false
+      type: vless
+      udp: true
+      uuid: Free_HTTPCustom
+    - country: GB
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.38 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: de.6315687.xyz
+      skip-cert-verify: true
+      sni: de.6315687.xyz
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.49 MB/s"
+      network: ws
+      port: 80
+      server: 63.141.128.1
+      servername: c.jOin.zEdMoDeOn.oNl.
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 7d22d6f7-bd15-4ae3-a41c-707427f51753
+      ws-opts:
+        headers:
+            Host: c.jOin.zEdMoDeOn.oNl.
+        path: /Join-ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    - auth: dongtaiwang.com
+      down: 100 Mbps
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.86 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.19 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.29 MB/s"
       network: ws
       port: 443
       server: 162.159.9.55
@@ -16,40 +135,3 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
         path: /?ed=2560
       xudp: true
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.01 MB/s"
-      network: ws
-      port: 80
-      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      servername: broadcastlv.chat.bilibili.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-headers:
-        HOST: broadcastlv.chat.bilibili.com
-      ws-path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.74 MB/s"
-      password: 10193f1d-9a4d-457a-b668-bdeb240e092c
-      port: 34444
-      server: netcupus.alisaku.com
-      skip-cert-verify: true
-      sni: apps.apple.com
-      tls: false
-      type: hysteria2
-    - delay: 2723
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.95 MB/s"
-      network: ws
-      port: 8880
-      server: 156.238.18.17
-      tls: false
-      type: vless
-      udp: true
-      uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-      ws-opts:
-        headers:
-            Host: yd.laoyoutiao.link
-        path: /Telegram@V2ray_Alpha
