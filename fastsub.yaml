@@ -1,35 +1,78 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 60.90 MB/s"
+      network: ws
+      port: 80
+      server: 104.18.26.90
+      servername: blaze-can-118.blazecanada.site
+      skip-cert-verify: false
+      tls: false
+      type: vless
+      udp: true
+      uuid: 3ac2de34-47c5-4dd5-afc0-8fb4b05d4077
+      ws-opts:
+        headers:
+            Host: blaze-can-118.blazecanada.site
+        path: /?ed=2560
     - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.35 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.29 MB/s"
       password: a16d62f6-048d-11f0-af5a-f23c93136cb3
       port: 1743
       server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
       sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
       type: hysteria2
       udp: true
-    - delay: 1289
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.65 MB/s"
+    - client-fingerprint: chrome
+      delay: 1539
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.06 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.137.129
+      servername: INviNCIBle.fAfa20.shOP
+      tls: true
+      type: vless
+      udp: true
+      uuid: 376734bc-4db8-4317-b451-af0262cb01c7
+      ws-opts:
+        headers:
+            Host: INviNCIBle.fAfa20.shOP
+        path: /
+    - delay: 995
+      name: "\U0001F3F3️ CW | ⬇️ 19.74 MB/s"
       network: ws
       port: 8880
-      server: 209.94.90.251
+      server: 5.10.245.251
       type: vless
       udp: true
       uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
       ws-opts:
         headers:
             Host: cf.d3z.net
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-        path: /
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /Telegram
       xudp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.97 MB/s"
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.92 MB/s"
       network: ws
       port: 8880
-      server: 156.238.18.207
+      server: 156.238.18.143
+      servername: yd.laoyoutiao.link
+      skip-cert-verify: false
       tls: false
       type: vless
+      udp: true
       uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
       ws-opts:
         headers:
             Host: yd.laoyoutiao.link
-        path: "Telegram\U0001F1E8\U0001F1F3 @MxlShare @WangCai2 /?ed=2560"
+        path: /TelegramU0001F1E8U0001F1F3
+    - auth: dongtaiwang.com
+      down: 100 Mbps
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.03 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 51.159.111.32
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+      up: 100 Mbps
