@@ -1,10 +1,37 @@
 proxy-providers: {}
 proxies:
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.95 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 143.198.139.35
+      skip-cert-verify: true
+      sni: us8.naichachong.top
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.45 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: 164.92.117.83
+      skip-cert-verify: true
+      sni: us12.naichachong.top
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.54 MB/s"
+      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
+      port: 30000
+      server: us0.6315687.xyz
+      skip-cert-verify: true
+      sni: us0.6315687.xyz
+      type: hysteria2
+      udp: true
     - alterId: 0
       cipher: auto
       grpc-opts:
         grpc-service-name: GunSffffervice
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.80 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.56 MB/s"
       network: grpc
       port: 40169
       server: 107.172.235.9
@@ -14,35 +41,8 @@ proxies:
       type: vless
       udp: true
       uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.56 MB/s"
-      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
-      port: 30000
-      server: 164.92.117.83
-      skip-cert-verify: true
-      sni: us12.naichachong.top
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.70 MB/s"
-      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
-      port: 30000
-      server: us0.6315687.xyz
-      skip-cert-verify: true
-      sni: us0.6315687.xyz
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.63 MB/s"
-      password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
-      port: 30000
-      server: 143.198.139.35
-      skip-cert-verify: true
-      sni: us8.naichachong.top
-      type: hysteria2
-      udp: true
     - country: GB
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.66 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.77 MB/s"
       password: dead1bb8-e95a-4517-8ed2-e0694de80ba6
       port: 30000
       server: de.6315687.xyz
@@ -50,8 +50,22 @@ proxies:
       sni: de.6315687.xyz
       type: hysteria2
       udp: true
+    - delay: 1352
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.76 MB/s"
+      network: ws
+      port: 8880
+      server: 192.200.160.251
+      type: vless
+      udp: true
+      uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+      ws-opts:
+        headers:
+            Host: cf.d3z.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.08 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.95 MB/s"
       network: ws
       port: 443
       server: 162.159.9.55
