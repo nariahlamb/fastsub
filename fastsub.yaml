@@ -1,16 +1,2 @@
 proxy-providers: {}
-proxies:
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.01 MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-opts:
-        headers:
-            Host: hkt.gotochinatown.net
-        path: /
+proxies: []
