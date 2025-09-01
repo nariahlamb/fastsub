@@ -1,12 +1,26 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.86 MB/s"
-      password: A9w6UCD
-      port: 26474
-      server: 64.81.33.109
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.22 MB/s"
+      password: e3d3UL
+      port: 47762
+      server: 64.81.24.59
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.31 MB/s"
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.63 MB/s"
+      network: tcp
+      port: 56702
+      reality-opts:
+        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+        short-id: 792147b8
+      server: us3do.interld123456789.com
+      servername: addons.mozilla.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 00c2e56d-e305-48f1-92ac-9d152ff60f2d
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.18 MB/s"
       password: yu
       port: 11968
       server: 154.219.126.134
