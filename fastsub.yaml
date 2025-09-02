@@ -1,28 +1,40 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.22 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.68 MB/s"
       password: e3d3UL
       port: 47762
       server: 64.81.24.59
       type: http
       username: kZXMC3Z1
-    - client-fingerprint: firefox
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.12 MB/s"
+      password: 62c85uoR4J
+      port: 10040
+      server: 47.238.199.39
+      type: http
+      username: HxRaZQkUYG
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.93 MB/s"
+      password: CbJchw366V
+      port: 10060
+      server: 47.238.199.39
+      type: http
+      username: DeUkubfAVO
+    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.63 MB/s"
-      network: tcp
-      port: 56702
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.18 MB/s"
+      port: 443
       reality-opts:
-        public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
-        short-id: 792147b8
-      server: us3do.interld123456789.com
-      servername: addons.mozilla.org
+        public-key: -P9ZxYZP76-s_0mXFUDZeXxgUllKI1zkxSCqQca3NBM
+        short-id: 8f36094fbbe8e92e
+      server: james2.evovpn.ru
+      servername: speedtest.net
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 00c2e56d-e305-48f1-92ac-9d152ff60f2d
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.18 MB/s"
-      password: yu
-      port: 11968
-      server: 154.219.126.134
+      uuid: d7b157a3-c463-4bd6-909b-64bfbaa379bb
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.96 MB/s"
+      password: TRvZEFw
+      port: 26099
+      server: 47.243.176.43
       type: http
-      username: yu
+      username: kZXMC3Z1
