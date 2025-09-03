@@ -1,14 +1,32 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.32 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.71 MB/s"
       password: WmKjrc
       port: 32642
       server: 216.167.64.80
       type: http
       username: kZXMC3Z1
+    - country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.86 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 18.193.181.139
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.17 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 3.122.89.11
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.11 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.83 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -19,9 +37,10 @@ proxies:
       tls: true
       type: vless
       uuid: 0cd07402-0edb-4890-808d-cd6f0e2625ee
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.36 MB/s"
-      password: yu
-      port: 11968
-      server: 154.219.126.134
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.92 MB/s"
+      password: <password>
+      port: 8443
+      server: 9497cfdb-sx4v40-t1bnjq-1krtb.hkt.cdnhuawei.com
+      tls: true
       type: http
-      username: yu
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
