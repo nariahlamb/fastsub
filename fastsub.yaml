@@ -1,8 +1,27 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.05 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.32 MB/s"
       password: WmKjrc
       port: 32642
       server: 216.167.64.80
       type: http
       username: kZXMC3Z1
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.11 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 0n_NS2q2bvgpgQt0-gNmGNXTH-B0aqaJdE1A40sjsyE
+      server: 64.81.117.172
+      servername: ts2.tc.mm.bing.net
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 0cd07402-0edb-4890-808d-cd6f0e2625ee
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.36 MB/s"
+      password: yu
+      port: 11968
+      server: 154.219.126.134
+      type: http
+      username: yu
