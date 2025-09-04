@@ -1,16 +1,15 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
+    - client-fingerprint: edge
       flow: xtls-rprx-vision
-      name: "\U0001F3F3️ IQ | ⬇️ 17.24 MB/s"
-      port: 443
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.36 MB/s"
+      network: tcp
+      port: 10001
       reality-opts:
-        public-key: GyivnLvG6JEO7xV9PI12Z0XTLZJGClBHOcpHwSfrsj4
-        short-id: e3015cd4
-      server: 178.17.58.126
-      servername: outlook.office.com
-      skip-cert-verify: false
+        public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
+      server: 1002.952326.xyz
+      servername: www.python.org
       tls: true
       type: vless
       udp: true
-      uuid: 6035325d-399a-5148-9126-29cedfd5966a
+      uuid: 207feb19-65a5-431c-8c35-a0374fb5466c
