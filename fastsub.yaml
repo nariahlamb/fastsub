@@ -1,15 +1,49 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: edge
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.65 MB/s"
-      network: tcp
-      port: 10001
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.60 MB/s"
+      port: 34045
       reality-opts:
-        public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-      server: 1002.952326.xyz
-      servername: www.python.org
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 172.233.140.201
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 9ccd5d9c-6c15-4d2a-b276-c6b6a009d091
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.74 MB/s"
+      port: 443
+      reality-opts:
+        public-key: fjPySr9gszKltxP8Smt0iu8ktqezOGptg2YVmWvxlUI
+      server: 194.156.65.28
+      servername: cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 21792da3-074f-4d55-8a6b-4d84c5c0f682
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F3F3️ IQ | ⬇️ 18.94 MB/s"
+      port: 443
+      reality-opts:
+        public-key: GyivnLvG6JEO7xV9PI12Z0XTLZJGClBHOcpHwSfrsj4
+        short-id: e3015cd4
+      server: 178.17.58.126
+      servername: outlook.office.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6035325d-399a-5148-9126-29cedfd5966a
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.16 MB/s"
+      password: <password>
+      port: 8443
+      server: dd902adc-sxc9s0-t1bnjq-1krtb.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      udp: true
+      username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
