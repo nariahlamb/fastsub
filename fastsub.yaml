@@ -1,2 +1,30 @@
 proxy-providers: {}
-proxies: []
+proxies:
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.51 MB/s"
+      password: xwR9Y4
+      port: 49183
+      server: 38.34.28.188
+      type: http
+      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.08 MB/s"
+      network: ws
+      port: 40982
+      server: 107.149.134.165
+      tls: false
+      type: vmess
+      uuid: b9474847-8724-491a-a042-cfc245d36024
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.86 MB/s"
+      network: ws
+      port: 5855
+      server: 107.149.134.165
+      tls: false
+      type: vmess
+      uuid: 707ce7a6-4489-4ef0-ab73-9b3a28405c08
+      ws-opts:
+        path: /arki?ed=2048
