@@ -1,15 +1,20 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.43 MB/s"
-      network: tcp
-      port: 29090
-      reality-opts:
-        public-key: cBrf4kTogp3DtMVYS0co5kxvP1IcmcDAAOBP_c_nyCk
-      server: 64.81.30.8
-      servername: updates.cdn-apple.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 1a753432-2403-4934-849d-96bbc5ab21b2
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.79 MB/s"
+      password: xwR9Y4
+      port: 49183
+      server: 38.34.28.188
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.08 MB/s"
+      password: hMAEPF
+      port: 34099
+      server: 38.34.22.220
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.79 MB/s"
+      password: gA30l1F
+      port: 27207
+      server: 38.107.175.141
+      type: http
+      username: kZXMC3Z1
