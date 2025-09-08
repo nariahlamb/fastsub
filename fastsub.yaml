@@ -1,61 +1,35 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 60.05 MB/s"
-      password: hMAEPF
-      port: 34099
-      server: 38.34.22.220
-      type: http
-      username: kZXMC3Z1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.28 MB/s"
-      network: tcp
-      port: 30266
-      reality-opts:
-        public-key: anUJbYIfqa5r9UGvyTcDElOyn8qOgP-Gljr-sr9iE1A
-        short-id: 921b511b
-      server: 172.245.22.42
-      servername: www.yahoo.com
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.81 MB/s"
+      network: ws
+      port: 80
+      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
       skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 55978e4e-e177-4d37-81a6-956d5f19b808
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.17 MB/s"
-      network: tcp
-      port: 32068
-      reality-opts:
-        _spider-x: /
-        public-key: QNcdT48fsgPz6WLCLTUmfb2pGG_DYAYeYSVJ2Q4Erwc
-        short-id: 684de91a
-      server: ccc.588235.xyz
-      servername: yahoo.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: bd7444d1-5f08-43bd-a332-f9058ad15010
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.34 MB/s"
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.40 MB/s"
       password: gA30l1F
       port: 27207
       server: 38.107.175.141
       type: http
       username: kZXMC3Z1
     - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.85 MB/s"
-      network: ws
-      port: 17069
-      server: sgw.20170301.xyz
-      servername: sgw.20170301.xyz
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.61 MB/s"
+      network: tcp
+      port: 29090
+      reality-opts:
+        public-key: cBrf4kTogp3DtMVYS0co5kxvP1IcmcDAAOBP_c_nyCk
+      server: 64.81.30.8
+      servername: updates.cdn-apple.com
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 163ffa2c-bafc-4052-82e2-9e44d8e82240
-      ws-opts:
-        path: /fbw
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.11 MB/s"
-      password: ee4a8f20-5467-4f12-bd87-ff21b7ba817c
-      port: 16187
-      server: 95.181.212.141
-      skip-cert-verify: true
-      tfo: false
-      type: hysteria2
+      uuid: 1a753432-2403-4934-849d-96bbc5ab21b2
