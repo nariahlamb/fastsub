@@ -1,2 +1,84 @@
 proxy-providers: {}
-proxies: []
+proxies:
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.98 MB/s"
+      password: hMAEPF
+      port: 34099
+      server: 38.34.22.220
+      type: http
+      username: kZXMC3Z1
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.29 MB/s"
+      network: tcp
+      port: 32068
+      reality-opts:
+        _spider-x: /
+        public-key: QNcdT48fsgPz6WLCLTUmfb2pGG_DYAYeYSVJ2Q4Erwc
+        short-id: 684de91a
+      server: ccc.588235.xyz
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: bd7444d1-5f08-43bd-a332-f9058ad15010
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.04 MB/s"
+      password: gA30l1F
+      port: 27207
+      server: 38.107.175.141
+      type: http
+      username: kZXMC3Z1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.29 MB/s"
+      network: tcp
+      port: 30266
+      reality-opts:
+        public-key: anUJbYIfqa5r9UGvyTcDElOyn8qOgP-Gljr-sr9iE1A
+        short-id: 921b511b
+      server: 172.245.22.42
+      servername: www.yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 55978e4e-e177-4d37-81a6-956d5f19b808
+    - auth: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.33 MB/s"
+      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
+      port: 27015
+      server: hyleet.fitness
+      skip-cert-verify: false
+      sni: hyleet.fitness
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.81 MB/s"
+      network: ws
+      port: 17069
+      server: sgw.20170301.xyz
+      servername: sgw.20170301.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 163ffa2c-bafc-4052-82e2-9e44d8e82240
+      ws-opts:
+        path: /fbw
+    - alpn:
+        - h3
+      auth_str: dongtaiwang.com
+      down: 100
+      fast-open: true
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.67 MB/s"
+      port: 37519
+      ports: 10000-20000
+      protocol: udp
+      server: 109.104.153.91
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 80
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 10.16 MB/s"
+      password: ee4a8f20-5467-4f12-bd87-ff21b7ba817c
+      port: 16187
+      server: 95.181.212.141
+      skip-cert-verify: true
+      tfo: false
+      type: hysteria2
