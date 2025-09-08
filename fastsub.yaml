@@ -1,35 +1,20 @@
 proxy-providers: {}
 proxies:
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.81 MB/s"
-      network: ws
-      port: 80
-      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-opts:
-        headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.40 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.99 MB/s"
       password: gA30l1F
       port: 27207
       server: 38.107.175.141
       type: http
       username: kZXMC3Z1
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.61 MB/s"
-      network: tcp
-      port: 29090
-      reality-opts:
-        public-key: cBrf4kTogp3DtMVYS0co5kxvP1IcmcDAAOBP_c_nyCk
-      server: 64.81.30.8
-      servername: updates.cdn-apple.com
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.06 MB/s"
+      network: ws
+      port: 17069
+      server: sgw.20170301.xyz
+      servername: sgw.20170301.xyz
       skip-cert-verify: false
       tls: true
       type: vless
-      uuid: 1a753432-2403-4934-849d-96bbc5ab21b2
+      uuid: 163ffa2c-bafc-4052-82e2-9e44d8e82240
+      ws-opts:
+        path: /fbw
