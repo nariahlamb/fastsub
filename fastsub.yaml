@@ -1,20 +1,143 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.99 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 95.60 MB/s"
+      password: hMAEPF
+      port: 34099
+      server: 38.34.22.220
+      type: http
+      username: kZXMC3Z1
+    - cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 84.03 MB/s"
+      network: none
+      port: 17226
+      server: 82.29.71.43
+      servername: ""
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      uuid: efd0a410-30a0-4a4a-ca9f-10e1dcf00e30
+    - alterId: 0
+      cipher: auto
+      country: ' US'
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 82.34 MB/s"
+      network: http
+      port: 32301
+      server: 104.168.94.41
+      type: vmess
+      uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 65.02 MB/s"
+      password: crxoUg
+      port: 12148
+      server: 35.212.244.23
+      type: http
+      username: uUXOhM
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 28.46 MB/s"
+      password: Etlmz84L
+      port: 24233
+      server: 192.243.123.93
+      type: http
+      username: kZXMC3Z1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.58 MB/s"
+      network: tcp
+      port: 10101
+      reality-opts:
+        public-key: DmNIGodEBkvnmve-MMr4VGLs_fcxTuB4rJCu0HRduFI
+        short-id: 796f2c44
+      server: 185.82.200.208
+      servername: walmart.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5d2aa46f-91aa-4ff4-9cd6-6362b555b996
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.25 MB/s"
+      password: zSXzAd0PgV
+      port: 10060
+      server: 47.238.199.39
+      type: http
+      username: cyFtIAq92n
+    - cipher: chacha20-ietf-poly1305
+      country: RU
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 19.84 MB/s"
+      password: RFveh7fTGTsBDdj49ttIxG
+      port: 19057
+      server: ams.telegavpn.org
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.99 MB/s"
       password: gA30l1F
       port: 27207
       server: 38.107.175.141
       type: http
       username: kZXMC3Z1
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.06 MB/s"
+    - alterId: 0
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.31 MB/s"
       network: ws
-      port: 17069
-      server: sgw.20170301.xyz
-      servername: sgw.20170301.xyz
+      port: 80
+      server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.19 MB/s"
+      network: ws
+      port: 80
+      server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
       skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.29 MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      servername: ""
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: hkt.gotochinatown.net
+        path: /
+    - name: "\U0001F3F3️ QA | ⬇️ 11.05 MB/s"
+      password: Jml2LX4oi8
+      port: 10210
+      server: 156.244.46.198
+      type: http
+      username: xZlNYo8JzE
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.57 MB/s"
+      network: tcp
+      port: 12443
+      reality-opts:
+        public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
+      server: tk-X07.xiaoxiaobujidao.xyz
+      servername: dash.cloudflare.com
+      skip-cert-verify: true
+      tfo: false
       tls: true
       type: vless
-      uuid: 163ffa2c-bafc-4052-82e2-9e44d8e82240
-      ws-opts:
-        path: /fbw
+      udp: true
+      uuid: 3bb2fc28-0714-4661-8d77-a3e45835d6b1
