@@ -1,6 +1,54 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.31 MB/s"
+    - auth: e39dde3e-746c-4cde-95fe-bf565423b926
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.88 MB/s"
+      password: e39dde3e-746c-4cde-95fe-bf565423b926
+      port: 33657
+      server: 1.daka778.top
+      skip-cert-verify: true
+      sni: 1.daka778.top
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.26 MB/s"
+      network: ws
+      port: 80
+      server: 50.62.175.255
+      skip-cert-verify: false
+      type: vless
+      uuid: 89b2eb61-c9c8-4990-9205-7f5eec0501fc
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: myvps.nilphreakz.me
+        max-early-data: 2560
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.87 MB/s"
+      network: ws
+      port: 80
+      server: 50.62.90.255
+      skip-cert-verify: false
+      type: vless
+      uuid: 77ece81f-a99a-4bd9-be0f-3c562c4dab8d
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: myvps.nilphreakz.me
+        max-early-data: 2560
+        path: "/Telegram\U0001F1E8\U0001F1F3 @WangCai2 /"
+    - client-fingerprint: safari
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.19 MB/s"
+      network: tcp
+      port: 10001
+      reality-opts:
+        public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
+      server: 1002.952326.xyz
+      servername: www.python.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: e79910ef-316f-4412-b39f-5de4d007c27a
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.05 MB/s"
       password: zSXzAd0PgV
       port: 10060
       server: 47.238.199.39
