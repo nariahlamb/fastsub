@@ -1,94 +1,9 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.02 MB/s"
-      password: crxoUg
-      port: 12148
-      server: 35.212.244.23
-      type: http
-      username: uUXOhM
-    - country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 26.32 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 15.237.91.209
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.70 MB/s"
-      network: ws
-      port: 443
-      server: 148.113.176.192
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            Host: fapeng.org
-        path: linkvws
-    - alterId: 0
-      cipher: auto
-      country: ' SG'
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /baidu
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.29 MB/s"
-      network: http
-      port: 53798
-      server: 139.180.155.29
-      type: vmess
-      uuid: 1531a9f1-6e81-4eed-bf9a-6a3383c98238
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.23 MB/s"
-      network: tcp
-      port: 8880
-      reality-opts:
-        public-key: zQw1fAQByQ8nSFvliZS4NsIWdhfzMnRMnK_xCFRwFQQ
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.21 MB/s"
+      password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+      port: 30001
       server: 155.117.19.221
-      servername: aws.amazon.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: f2f00a89-cc9d-450f-b8bb-0d5b2d4c5a65
-    - alterId: 0
-      cipher: auto
-      country: CA
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.62 MB/s"
-      network: ws
-      port: 443
-      server: 148.113.176.192
-      servername: fapeng.org
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        headers:
-            HOST: fapeng.org
-        path: linkvws
-    - alterId: 0
-      cipher: auto
-      country: ' ZZ'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 13.28 MB/s"
-      network: ws
-      port: 20521
-      server: 140.235.38.89
-      type: vmess
-      uuid: c65ef645-2172-44d1-909f-cb30a40bca1c
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 10.97 MB/s"
-      password: auh2qWZuNd
-      port: 6770
-      server: 8.216.33.14
-      type: http
-      username: TcIVARdTgR
+      tfo: false
+      type: hysteria2
