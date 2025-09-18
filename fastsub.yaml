@@ -1,13 +1,26 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.31 MB/s"
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.06 MB/s"
+      port: 10001
+      reality-opts:
+        public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
+        short-id: 1a24af87
+      server: 172.233.153.209
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.45 MB/s"
       password: hUap75t
       port: 37324
       server: 38.93.204.236
       type: http
       username: kZXMC3Z1
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.90 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.32 MB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -19,7 +32,7 @@ proxies:
       type: vless
       udp: true
       uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.09 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.82 MB/s"
       network: ws
       port: 443
       server: backus1.dh03.shop
@@ -33,21 +46,26 @@ proxies:
         headers:
             host: backus1.dh03.shop
         path: /higate
-    - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.09 MB/s"
-      port: 10001
-      reality-opts:
-        public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
-        short-id: 1a24af87
-      server: 172.233.153.209
-      servername: yahoo.com
+    - alpn:
+        - h2
+        - http/1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.33 MB/s"
+      network: ws
+      port: 2053
+      server: 104.16.53.11
+      servername: frAgeU2.cpI2HIdd.eu.ORG
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
+      uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+      ws-opts:
+        headers:
+            Host: frAgeU2.cpI2HIdd.eu.ORG
+        path: /?ed=2048
     - encryption: none
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.91 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.45 MB/s"
       network: ws
       port: 443
       server: backus1.dh03.shop
