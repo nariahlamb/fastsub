@@ -1,69 +1,33 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.26 MB/s"
-      network: tcp
-      port: 10389
-      reality-opts:
-        _spider-x: /
-        public-key: NLDGUokHsqoKy4Hji8WWA4Hw8RoWy-bKRByObDJ7rg4
-        short-id: "146044"
-      server: 808787.xyz
-      servername: tesla.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: b8a3f96a-1878-4d22-83fa-485f38146084
     - auth: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
-      name: "\U0001F1F2\U0001F1FD MX | ⬇️ 46.12 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 53.35 MB/s"
       password: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
       port: 50000
       ports: 50000-53000
-      server: 140.84.178.54
+      server: 144.24.54.157
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.45 MB/s"
+      password: Etlmz84L
+      port: 24233
+      server: 192.243.123.93
+      type: http
+      username: kZXMC3Z1
+    - auth: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.06 MB/s"
+      password: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
+      port: 50000
+      ports: 50000-53000
+      server: 131.186.42.162
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
       udp: true
-    - alterId: 0
-      cipher: auto
-      country: BE
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 32.83 MB/s"
-      network: ws
-      port: 443
-      server: 57.128.189.240
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        path: /linkvws
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 30.49 MB/s"
-      network: ws
-      port: 443
-      server: 51.77.220.179
-      servername: BlaZE-FR-179.BlAzeSeRvERs1.Site
-      tls: true
-      type: vmess
-      uuid: 47b781a1-d02f-473e-a51d-8436ae73f265
-      ws-opts:
-        headers:
-            Host: BlaZE-FR-179.BlAzeSeRvERs1.Site
-        path: /linkws
-    - cipher: chacha20-ietf-poly1305
-      country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.67 MB/s"
-      password: fe166c5b3465540f
-      port: 57456
-      server: desrv.ssvpnapp.win
-      type: ss
     - auth: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.90 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.63 MB/s"
       password: a7d80261-d1a8-423b-8e5c-7f9b8ae6e7b0
       port: 1
       server: 152.70.176.68
@@ -71,9 +35,3 @@ proxies:
       sni: www.bing.com
       type: hysteria2
       udp: true
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.97 MB/s"
-      password: Etlmz84L
-      port: 24233
-      server: 192.243.123.93
-      type: http
-      username: kZXMC3Z1
