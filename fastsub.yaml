@@ -1,18 +1,66 @@
 proxy-providers: {}
 proxies:
-    - alterId: 2
+    - alterId: 0
       cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.13 MB/s"
+      country: BE
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.24 MB/s"
       network: ws
-      port: 80
-      server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+      port: 443
+      server: 57.128.189.240
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        path: /linkvws
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8 US"
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 34.47 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.69 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.71.83
+      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
       skip-cert-verify: false
       tfo: false
-      tls: false
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      tls: true
+      type: vless
+      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
       ws-opts:
         headers:
-            Host: broadcastlv.chat.bilibili.com
-        path: /
+            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+    - cipher: aes-256-cfb
+      country: "\U0001F1EE\U0001F1F9 IT"
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 31.32 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.213.23.226
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.72 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 104.192.226.106
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.79 MB/s"
+      password: ZYxVNDT9pS
+      port: 6770
+      server: 47.254.121.69
+      type: http
+      username: HlZHOwkdIL
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.38 MB/s"
+      password: auh2qWZuNd
+      port: 6770
+      server: 8.216.33.14
+      type: http
+      username: TcIVARdTgR
