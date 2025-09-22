@@ -1,18 +1,31 @@
 proxy-providers: {}
 proxies:
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.80 MB/s"
+      port: 10001
+      reality-opts:
+        public-key: 1ltSdo2K6D9EEwebaDQPCb5ypbURcXyO9HsX4RUbbUo
+        short-id: 1a24af87
+      server: 172.233.153.209
+      servername: yahoo.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: e4412006-94f2-4f3c-b568-22a3e31dc264
     - cipher: aes-256-cfb
       country: ' US'
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 27.91 MB/s"
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 33.31 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 156.146.40.194
       type: ss
-    - country: IR
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.74 MB/s"
-      password: 0452ad6a-de4b-4424-99ee-8d6be510099a
-      port: 14568
-      server: pepslgy2.pepsl.top
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.61 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      sni: pepslgy2.pepsl.top
-      type: hysteria2
+      tls: true
+      type: http
       udp: true
+      username: test
