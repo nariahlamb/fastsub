@@ -1,16 +1,54 @@
 proxy-providers: {}
 proxies:
-    - alterId: 2
+    - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.23 MB/s"
+      country: BE
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 33.50 MB/s"
       network: ws
-      port: 80
-      server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
-      skip-cert-verify: false
-      tls: false
+      port: 443
+      server: 57.128.189.240
+      skip-cert-verify: true
+      tls: true
       type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
-        headers:
-            Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
-        path: /
+        path: /linkvws
+    - cipher: aes-256-cfb
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 30.08 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 185.213.23.226
+      type: ss
+    - cipher: aes-256-cfb
+      country: ' GB'
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 30.02 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.15.17.169
+      type: ss
+    - cipher: aes-256-cfb
+      country: SK
+      delay: 623
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 15.47 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - country: IR
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.44 MB/s"
+      password: 0452ad6a-de4b-4424-99ee-8d6be510099a
+      port: 14568
+      server: pepslgy2.pepsl.top
+      skip-cert-verify: true
+      sni: pepslgy2.pepsl.top
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: DE
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 11.39 MB/s"
+      password: fe166c5b3465540f
+      port: 57456
+      server: desrv.ssvpnapp.win
+      type: ss
