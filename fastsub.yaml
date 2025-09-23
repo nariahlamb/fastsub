@@ -1,2 +1,30 @@
 proxy-providers: {}
-proxies: []
+proxies:
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.90 MB/s"
+      network: ws
+      port: 443
+      server: xn--ktff-jt6hr36l.tencentapp.cn
+      servername: 1758413499362.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            host: 1758413499362.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua
+        path: /snippets/ip=tw.tp81.netlib.re:81?ed=2560
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.65 MB/s"
+      network: ws
+      port: 80
+      server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+        path: /
