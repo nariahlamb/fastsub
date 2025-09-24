@@ -1,10 +1,16 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.51 MB/s"
+      password: 9yedrr
+      port: 61885
+      server: 38.246.240.208
+      type: http
+      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.51 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.80 MB/s"
       network: ws
       port: 443
       server: 51.75.161.102
@@ -17,25 +23,10 @@ proxies:
         path: /linkvkwss
     - alterId: 0
       cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.43 MB/s"
-      network: ws
-      port: 443
-      server: 51.75.160.237
-      tls: true
-      type: vmess
-      uuid: 3adba462-318f-4a6c-ad7a-2923bc74f207
-      ws-opts:
-        headers:
-            Host: blazE-Uk-237.BLaZEsERVERs1.sItE
-        path: /linkvkwss
-    - alterId: 0
-      cipher: auto
       country: BE
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.70 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.63 MB/s"
       network: ws
       port: 443
       server: 57.128.189.240
@@ -45,83 +36,14 @@ proxies:
       uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
         path: /linkvws
-    - cipher: aes-256-cfb
-      country: SK
-      delay: 623
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 28.32 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 28.28 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 51.15.17.169
-      type: ss
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.33 MB/s"
-      network: tcp123
-      port: 443
-      reality-opts:
-        _spider-x: /ufMsqbRRCQJoKnX
-        public-key: _5ngG8UIgCSB3JaCrHYxDypOHiT_jvmT2MMc2nK7RnE
-        short-id: 95fbfb92b5
-      server: 45.157.232.28
-      servername: www.vk.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: id1255643060
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.32 MB/s"
-      password: 9yedrr
-      port: 61885
-      server: 38.246.240.208
-      type: http
-      username: kZXMC3Z1
-    - client-fingerprint: random
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.52 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        _spider-x: /zzJsU3OCeeVFZnD
-        public-key: A-U_DOnPUG78d0XFfSnj-P8vfvAxyn5cbE5PgN4zxBg
-        short-id: defc
-      server: 84.54.31.41
-      servername: vk.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: id1255643060
     - cipher: chacha20-ietf-poly1305
       country: RU
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.86 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.00 MB/s"
       password: AIlKLws5WOwElkhke1F1yc
       port: 1235
       server: sakura.outlinekeys.net
       type: ss
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.29 MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      skip-cert-verify: true
-      type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-      ws-path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.25 MB/s"
-      password: ZYxVNDT9pS
-      port: 6770
-      server: 47.254.121.69
-      type: http
-      username: HlZHOwkdIL
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.23 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.99 MB/s"
       network: ws
       port: 8080
       server: cafearz.com
@@ -135,3 +57,33 @@ proxies:
             Host: shad.ir.de.test.digicyber.click.
         max-early-data: 1024
         path: /olem/ws
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.86 MB/s"
+      network: ws
+      port: 443
+      server: 51.75.160.237
+      tls: true
+      type: vmess
+      uuid: 3adba462-318f-4a6c-ad7a-2923bc74f207
+      ws-opts:
+        headers:
+            Host: blazE-Uk-237.BLaZEsERVERs1.sItE
+        path: /linkvkwss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.93 MB/s"
+      password: ZYxVNDT9pS
+      port: 6770
+      server: 47.254.121.69
+      type: http
+      username: HlZHOwkdIL
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.42 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
