@@ -1,89 +1,81 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.51 MB/s"
-      password: 9yedrr
-      port: 61885
-      server: 38.246.240.208
-      type: http
-      username: kZXMC3Z1
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.80 MB/s"
-      network: ws
-      port: 443
-      server: 51.75.161.102
-      tls: true
-      type: vmess
-      uuid: 1805c3ae-ed84-4e7e-8ca2-fe9acd0897b0
-      ws-opts:
-        headers:
-            Host: bLAZe-UK-102.bLaZESErvErS1.Site
-        path: /linkvkwss
-    - alterId: 0
-      cipher: auto
-      country: BE
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.63 MB/s"
-      network: ws
-      port: 443
-      server: 57.128.189.240
+    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      name: "\U0001F1F2\U0001F1FD MX | ⬇️ 50.08 MB/s"
+      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      port: 50000
+      ports: 50000-53000
+      server: 140.84.178.54
       skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        path: /linkvws
-    - cipher: chacha20-ietf-poly1305
-      country: RU
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.00 MB/s"
-      password: AIlKLws5WOwElkhke1F1yc
-      port: 1235
-      server: sakura.outlinekeys.net
-      type: ss
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.99 MB/s"
-      network: ws
-      port: 8080
-      server: cafearz.com
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: 4182c59d-3b09-4bc9-ef7a-71e5628749e8
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: shad.ir.de.test.digicyber.click.
-        max-early-data: 1024
-        path: /olem/ws
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.86 MB/s"
-      network: ws
-      port: 443
-      server: 51.75.160.237
-      tls: true
-      type: vmess
-      uuid: 3adba462-318f-4a6c-ad7a-2923bc74f207
-      ws-opts:
-        headers:
-            Host: blazE-Uk-237.BLaZEsERVERs1.sItE
-        path: /linkvkwss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.93 MB/s"
-      password: ZYxVNDT9pS
-      port: 6770
-      server: 47.254.121.69
-      type: http
-      username: HlZHOwkdIL
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.42 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
+      sni: www.microsoft.com
+      type: hysteria2
       udp: true
-      username: test
+    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.88 MB/s"
+      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      port: 50000
+      ports: 50000-53000
+      server: 131.186.42.162
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.09 MB/s"
+      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      port: 1
+      server: 152.70.176.68
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
+    - auth: e04a407d-66f1-46b7-9f23-6500606c737f
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.75 MB/s"
+      password: e04a407d-66f1-46b7-9f23-6500606c737f
+      port: 50000
+      ports: 50000-53000
+      server: 89.168.32.96
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - auth: e04a407d-66f1-46b7-9f23-6500606c737f
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 17.75 MB/s"
+      password: e04a407d-66f1-46b7-9f23-6500606c737f
+      port: 50000
+      ports: 50000-53000
+      server: 168.138.109.21
+      skip-cert-verify: true
+      sni: fastcdn.hoyoverse.com
+      type: hysteria2
+      udp: true
+    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 17.46 MB/s"
+      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      port: 50000
+      ports: 50000-53000
+      server: 129.151.193.163
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - auth: e04a407d-66f1-46b7-9f23-6500606c737f
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.79 MB/s"
+      password: e04a407d-66f1-46b7-9f23-6500606c737f
+      port: 50000
+      ports: 50000-53000
+      server: 140.245.46.14
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 15.42 MB/s"
+      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
+      port: 50000
+      ports: 50000-53000
+      server: 159.13.38.138
+      skip-cert-verify: true
+      sni: www.hoyoverse.com
+      type: hysteria2
+      udp: true
