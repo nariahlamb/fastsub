@@ -1,78 +1,11 @@
 proxy-providers: {}
 proxies:
-    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      name: "\U0001F1F2\U0001F1FD MX | ⬇️ 41.33 MB/s"
-      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      port: 50000
-      ports: 50000-53000
-      server: 140.84.178.54
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.41 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
+      tls: true
+      type: http
       udp: true
-    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 28.23 MB/s"
-      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      port: 1
-      server: 152.70.176.68
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 25.72 MB/s"
-      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      port: 50000
-      ports: 50000-53000
-      server: 129.151.193.163
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      country: RU
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 24.58 MB/s"
-      password: X2ocJWZohXrE
-      port: 443
-      server: 77.83.245.169
-      type: ss
-    - grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 19.54 MB/s"
-      network: grpc
-      port: 12393
-      server: 141.227.134.24
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: b6977b89-c21a-46b3-ac1c-6e6dac52939a
-    - grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.59 MB/s"
-      network: grpc
-      port: 24292
-      server: 51.210.77.32
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      uuid: bb5be5c2-bf5e-4050-8193-eb18f1faa42e
-    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.92 MB/s"
-      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      port: 50000
-      ports: 50000-53000
-      server: 131.186.42.162
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - auth: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 11.43 MB/s"
-      password: 1d69ee7e-d89e-4773-8514-4e8a2564a98b
-      port: 50000
-      ports: 50000-53000
-      server: 159.13.38.138
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
+      username: test
