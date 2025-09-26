@@ -4,7 +4,7 @@ proxies:
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 59.94 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 98.69 MB/s"
       network: ws
       port: 443
       server: 148.113.209.118
@@ -15,63 +15,106 @@ proxies:
         headers:
             Host: blazE-CAn-118.BlAZecANAda.Site
         path: /linkvkwsss
+    - alterId: 0
+      cipher: auto
+      country: CA
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 92.14 MB/s"
+      network: ws
+      port: 443
+      server: 148.113.209.118
+      servername: blazE-CAn-118.BlAZecANAda.Site
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 08745918-d560-4f07-8f37-a103a4799bac
+      ws-opts:
+        headers:
+            HOST: blazE-CAn-118.BlAZecANAda.Site
+        path: /linkvkwsss
     - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 27.61 MB/s"
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 30.13 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 156.146.40.194
       type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.92 MB/s"
-      password: 9ixjDF
-      port: 53855
-      server: 47.79.151.130
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.17 MB/s"
-      password: Ny0I3R6r
-      port: 30861
-      server: 47.79.149.70
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.77 MB/s"
-      password: gk2HOfA
-      port: 40262
-      server: 47.79.41.4
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.84 MB/s"
-      password: vt34oi
-      port: 56817
-      server: 47.79.150.196
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.06 MB/s"
+    - cipher: chacha20-ietf-poly1305
+      country: RU
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 26.61 MB/s"
+      password: POaiVNMig8KH
+      port: 443
+      server: 185.138.88.36
+      type: ss
+    - alpn:
+        - http%2F1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.62 MB/s"
+      network: ws
+      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+      port: 443
+      server: 172.67.157.220
+      skip-cert-verify: true
+      sni: 6666YHjU.777159.xYz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: 6666YHjU.777159.xYz
+        path: /dilyfCPEmLvYr5hYXD
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.14 MB/s"
       password: ka1roO
       port: 48453
       server: 47.79.151.191
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.35 MB/s"
-      password: 6bRDEuy
-      port: 37469
-      server: 47.79.94.28
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.03 MB/s"
-      password: DIp64gZ6
-      port: 56977
-      server: 47.79.148.189
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.64 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.07 MB/s"
       password: hMzd6764
       port: 21897
       server: 47.79.91.19
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.79 MB/s"
-      password: auh2qWZuNd
-      port: 6770
-      server: 8.216.33.14
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.94 MB/s"
+      password: 6bRDEuy
+      port: 37469
+      server: 47.79.94.28
       type: http
-      username: TcIVARdTgR
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.74 MB/s"
+      password: Ny0I3R6r
+      port: 30861
+      server: 47.79.149.70
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.70 MB/s"
+      password: 9ixjDF
+      port: 53855
+      server: 47.79.151.130
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.80 MB/s"
+      password: vt34oi
+      port: 56817
+      server: 47.79.150.196
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.56 MB/s"
+      password: DIp64gZ6
+      port: 56977
+      server: 47.79.148.189
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.21 MB/s"
+      password: gk2HOfA
+      port: 40262
+      server: 47.79.41.4
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.97 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
