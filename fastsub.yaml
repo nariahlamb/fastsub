@@ -3,7 +3,7 @@ proxies:
     - alpn:
         - http%2F1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 57.45 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 67.84 MB/s"
       network: ws
       port: 443
       server: 104.21.71.83
@@ -18,22 +18,33 @@ proxies:
             Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
         path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
     - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 33.37 MB/s"
-      password: evwfGYf8FeLjkjdOh3lIGU
-      port: 28119
-      server: 45.142.164.46
-      type: ss
-    - cipher: chacha20-ietf-poly1305
       country: RU
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 21.04 MB/s"
+      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 22.43 MB/s"
       password: axLTXFMhgIzH
       port: 443
       server: 77.83.245.195
       type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.66 MB/s"
+      password: hMzd6764
+      port: 21897
+      server: 47.79.91.19
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.09 MB/s"
+      password: gk2HOfA
+      port: 40262
+      server: 47.79.41.4
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.36 MB/s"
+      password: ka1roO
+      port: 48453
+      server: 47.79.151.191
+      type: http
+      username: kZXMC3Z1
     - alterId: 2
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.64 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.29 MB/s"
       network: ws
       port: 80
       server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -50,7 +61,7 @@ proxies:
       country: "\U0001F1ED\U0001F1F0 HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.49 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.25 MB/s"
       network: ws
       port: 80
       server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
@@ -61,33 +72,15 @@ proxies:
       ws-headers:
         HOST: broadcastlv.chat.bilibili.com
       ws-path: /
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.93 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.77 MB/s"
       password: DIp64gZ6
       port: 56977
       server: 47.79.148.189
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.46 MB/s"
-      password: hMzd6764
-      port: 21897
-      server: 47.79.91.19
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.92 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.67 MB/s"
       password: 6bRDEuy
       port: 37469
       server: 47.79.94.28
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.11 MB/s"
-      password: gk2HOfA
-      port: 40262
-      server: 47.79.41.4
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.45 MB/s"
-      password: ka1roO
-      port: 48453
-      server: 47.79.151.191
       type: http
       username: kZXMC3Z1
