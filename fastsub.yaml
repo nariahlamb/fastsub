@@ -1,70 +1,196 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 67.36 MB/s"
-      network: ws
-      port: 443
-      server: 104.21.71.83
-      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
-      ws-opts:
-        headers:
-            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-    - cipher: chacha20-ietf-poly1305
-      country: RU
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 23.74 MB/s"
-      password: axLTXFMhgIzH
-      port: 443
-      server: 77.83.245.195
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.01 MB/s"
-      password: hMzd6764
-      port: 21897
-      server: 47.79.91.19
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.64 MB/s"
-      password: DIp64gZ6
-      port: 56977
-      server: 47.79.148.189
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.59 MB/s"
-      password: gk2HOfA
-      port: 40262
-      server: 47.79.41.4
-      type: http
-      username: kZXMC3Z1
-    - alterId: 2
+    - alterId: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.66 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 59.68 MB/s"
       network: ws
-      port: 80
-      server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-      skip-cert-verify: false
+      port: 45979
+      server: 38.34.28.233
       tls: false
       type: vmess
-      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+      ws-opts:
+        path: /test
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.35 MB/s"
+      password: TDBLtJz
+      port: 46415
+      server: 38.34.24.232
+      type: http
+      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.49 MB/s"
+      network: ws
+      port: 45979
+      server: 216.167.34.199
+      tls: false
+      type: vmess
+      uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+      ws-opts:
+        path: /test
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 56.30 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
-            Host: broadcastlv.chat.bilibili.com
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.55 MB/s"
+      network: ws
+      port: 45979
+      server: 216.167.34.227
+      tls: false
+      type: vmess
+      uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+      ws-opts:
+        path: /test
+    - cipher: chacha20-ietf-poly1305
+      country: ES
+      name: "\U0001F1EA\U0001F1EA EE | ⬇️ 29.09 MB/s"
+      password: n6nYkBOErnYdvE2txmuIkv
+      port: 8443
+      server: 45.151.72.28
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.69 MB/s"
+      network: ws
+      port: 443
+      server: 157.254.231.31
+      servername: yjcm003.dtkj0328.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 56380b67-e2fe-49d1-a9dd-6c3a422b8e8c
+      ws-opts:
+        path: yjcm1234
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.48 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.25 MB/s"
+      network: ws
+      port: 12604
+      server: 23.27.169.228
+      tls: false
+      type: vmess
+      uuid: 0c5e927e-926f-490d-a803-cbe4140eaab4
+      ws-opts:
+        path: /arki?ed=2048
+    - cipher: chacha20-ietf-poly1305
+      country: GE
+      name: "\U0001F3F3️ GE | ⬇️ 22.17 MB/s"
+      password: ZwwBbQ62rjGPHyrD1z6rSm
+      port: 8443
+      server: 185.143.179.164
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.53 MB/s"
+      network: ws
+      port: 45979
+      server: xsj023-0.facai2024.com
+      tls: false
+      type: vmess
+      uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+      ws-opts:
+        path: /test
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.61 MB/s"
+      password: XJDVy6FJ
+      port: 24677
+      server: 38.209.120.60
+      type: http
+      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.70 MB/s"
+      network: ws
+      port: 38533
+      server: 154.64.243.19
+      tls: false
+      type: vmess
+      uuid: 9bc23ccf-4769-4e9a-b278-2dfa8d9ef425
+      ws-opts:
         path: /
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.33 MB/s"
-      password: 6bRDEuy
-      port: 37469
-      server: 47.79.94.28
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.06 MB/s"
-      password: ka1roO
-      port: 48453
-      server: 47.79.151.191
-      type: http
-      username: kZXMC3Z1
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 16.53 MB/s"
+      network: ws
+      port: 10704
+      server: 47.250.134.82
+      tls: false
+      type: vmess
+      uuid: 218839b5-a009-44ed-bc02-4124ecf7838c
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 16.50 MB/s"
+      network: ws
+      port: 25313
+      server: 47.250.95.53
+      tls: false
+      type: vmess
+      uuid: 9e76443a-5db1-4a98-8ac9-0b8e69c84faf
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 16.35 MB/s"
+      network: ws
+      port: 65311
+      server: 47.250.134.82
+      tls: false
+      type: vmess
+      uuid: 52726251-70b3-40b1-ae99-e3b8db6a1537
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 14.53 MB/s"
+      network: ws
+      port: 49096
+      server: 47.250.95.53
+      tls: false
+      type: vmess
+      uuid: 2709990b-6eaf-4a81-a130-ae30bc579dc4
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.12 MB/s"
+      network: ws
+      port: 17034
+      server: 216.167.20.110
+      tls: false
+      type: vmess
+      uuid: 4c3a066a-33fe-44d4-8683-f31fd2d5cd34
+      ws-opts:
+        path: /arki?ed=2048
