@@ -1,76 +1,35 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.77 MB/s"
-      password: TDBLtJz
-      port: 46415
-      server: 38.34.24.232
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.82 MB/s"
-      password: vfLxfHB3B0
-      port: 54714
-      server: 216.167.44.228
-      type: http
-      username: 3PHyzadah4
-    - cipher: aes-256-cfb
-      country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.81 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 104.192.226.106
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.93 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 29.37 MB/s"
       password: MyH37ZD
       port: 52771
       server: 123.108.70.211
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.76 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.15 MB/s"
       password: XJDVy6FJ
       port: 24677
       server: 38.209.120.60
       type: http
       username: kZXMC3Z1
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.67 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 18.43 MB/s"
-      password: 0apXB6
-      port: 23018
-      server: 176.32.38.83
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.78 MB/s"
+      password: 3Wpj66
+      port: 64363
+      server: 216.151.168.188
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.10 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
     - alterId: 0
       cipher: auto
-      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 12.22 MB/s"
-      network: ws
-      port: 34146
-      server: 47.250.177.194
-      tls: false
+      country: HK
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 18.62 MB/s"
+      network: http
+      port: 32026
+      server: 103.224.80.45
+      skip-cert-verify: true
       type: vmess
-      uuid: 10ea07f2-f94a-4ea1-b715-daf29b06ae5b
-      ws-opts:
-        path: /arki?ed=2048
+      uuid: 1193769d-bea4-4f0e-bab7-70640e1a0b2e
