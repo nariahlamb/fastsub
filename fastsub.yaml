@@ -1,65 +1,23 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 94.85 MB/s"
-      password: TDBLtJz
-      port: 46415
-      server: 38.34.24.232
-      type: http
-      username: kZXMC3Z1
-    - alterId: 0
-      cipher: auto
-      country: ' US'
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 81.39 MB/s"
-      network: http
-      port: 32301
-      server: 104.168.94.41
-      type: vmess
-      uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 60.40 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.51 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.74 MB/s"
       password: XJDVy6FJ
       port: 24677
       server: 38.209.120.60
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.75 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.25 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.73 MB/s"
       password: MyH37ZD
       port: 52771
       server: 123.108.70.211
       type: http
       username: kZXMC3Z1
+    - auth: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.90 MB/s"
+      password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+      port: 47974
+      server: 75.127.13.83
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
