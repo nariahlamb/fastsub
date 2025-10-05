@@ -1,46 +1,8 @@
 proxy-providers: {}
 proxies:
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.03 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 132.226.30.123
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.82 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 65535
-      server: 40.233.77.86
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.52 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 129.153.71.226
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.21 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 144.24.54.157
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.24 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.41 MB/s"
       network: tcp
       port: 30227
       reality-opts:
@@ -51,102 +13,29 @@ proxies:
       tls: true
       type: vless
       uuid: 9a54bad8-538d-4744-b7bc-640629840490
-    - client-fingerprint: ios
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.55 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
-        short-id: aac4df9d05a5ba8f
-      server: 132.145.62.88
-      servername: iosapps.itunes.apple.com
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.83 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.29 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: eac161c3-a955-4c3f-b94a-c457417ba6ea
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.71 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 65535
-      server: 132.145.28.17
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.34 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 131.186.42.162
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 19.89 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 129.151.193.163
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.24 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 1
-      server: 138.2.179.192
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.95 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 146.56.180.104
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 16.71 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 159.13.38.138
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.57 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 152.70.246.135
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 13.59 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 50000
-      ports: 50000-53000
-      server: 139.185.32.100
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FF\U0001F1E6 ZA | ⬇️ 10.03 MB/s"
-      password: eac161c3-a955-4c3f-b94a-c457417ba6ea
-      port: 65535
-      server: 129.151.169.64
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
