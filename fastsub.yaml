@@ -1,142 +1,83 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 94.03 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.00 MB/s"
-      network: tcp
-      port: 30227
-      reality-opts:
-        public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
-      server: 216.133.149.235
-      servername: aws.amazon.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: 9a54bad8-538d-4744-b7bc-640629840490
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.10 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.78 MB/s"
       network: ws
       port: 443
-      server: ssssssssssssfffffffgh.2032.pp.ua
+      server: 104.16.246.85
+      servername: juzi.634676.xyz
+      skip-cert-verify: true
+      tfo: true
       tls: true
-      type: vmess
-      uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+      type: vless
+      udp: true
+      uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
       ws-opts:
         headers:
-            Host: ssssssssssssfffffffgh.2032.pp.ua
-        path: /6We3U9Df1WGxgFnoFPw1
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.84 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
+            Host: juzi.634676.xyz
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /?ed=2560
+    - delay: 462
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 22.78 MB/s"
+      network: grpc
+      port: 11716
+      server: 141.227.136.11
+      type: vless
       udp: true
-      username: test
+      uuid: 98b988ba-fe55-402e-824a-6f7bb3436f22
+      xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 21.92 MB/s"
-      port: 8080
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 22.05 MB/s"
+      port: 443
       reality-opts:
-        public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-        short-id: 27cfa05000c23cc4
-      server: 5.44.42.60
-      servername: yandex.com
+        public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
+        short-id: 2d46a79deebf50fd
+      server: 94.198.218.41
+      servername: deepl.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.27 MB/s"
+      uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
+    - country: JP
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.97 MB/s"
+      password: fb083058-14d6-41c5-b00c-f4935361c442
+      port: 20201
+      server: jpjingdu.4444443.xyz
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - delay: 2187
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.12 MB/s"
       password: 3Wpj66
       port: 64363
       server: 216.151.168.188
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.73 MB/s"
-      password: gk2HOfA
-      port: 40262
-      server: 47.79.41.4
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.52 MB/s"
-      password: 6bRDEuy
-      port: 37469
-      server: 47.79.94.28
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.56 MB/s"
-      password: vt34oi
-      port: 56817
-      server: 47.79.150.196
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.86 MB/s"
-      password: DIp64gZ6
-      port: 56977
-      server: 47.79.148.189
-      type: http
-      username: kZXMC3Z1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.64 MB/s"
-      network: ws
-      port: 443
-      server: HhHjJMki.457.pP.uA
-      tls: true
-      type: vmess
-      uuid: da7e8bcf-b195-4d69-a667-24f9a7673a11
-      ws-opts:
-        headers:
-            Host: HhHjJMki.457.pP.uA
-        path: /hepNwpzuxszIxZMQZRJ
     - country: HK
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.20 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.21 MB/s"
       password: fb083058-14d6-41c5-b00c-f4935361c442
       port: 20201
       server: hk03.4444443.xyz
       skip-cert-verify: true
       type: hysteria2
       udp: true
-    - country: KR
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.98 MB/s"
-      password: fb083058-14d6-41c5-b00c-f4935361c442
-      port: 10250
-      server: krlg.4444443.xyz
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.60 MB/s"
-      password: installshield
-      port: 8443
-      server: 38.180.249.177
-      skip-cert-verify: true
-      sni: 38.180.249.177
-      type: trojan
-      udp: true
     - country: HK
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.68 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.23 MB/s"
       password: fb083058-14d6-41c5-b00c-f4935361c442
       port: 20201
       server: hk01.4444443.xyz
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: KR
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.07 MB/s"
+      password: fb083058-14d6-41c5-b00c-f4935361c442
+      port: 10250
+      server: krlg.4444443.xyz
       skip-cert-verify: true
       type: hysteria2
       udp: true
