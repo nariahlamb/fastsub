@@ -1,7 +1,32 @@
 proxy-providers: {}
 proxies:
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 63.59 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.71.83
+      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+      ws-opts:
+        headers:
+            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 48.44 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 173.208.195.27
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.78 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.90 MB/s"
       network: ws
       port: 443
       server: 104.16.246.85
@@ -17,67 +42,249 @@ proxies:
             Host: juzi.634676.xyz
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
         path: /?ed=2560
-    - delay: 462
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.04 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 142.54.189.91
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.62 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 199.168.96.179
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.98 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 192.151.146.155
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.65 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 63.141.226.123
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.94 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 107.150.55.131
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.38 MB/s"
+      network: ws
+      port: 443
+      server: cf.877774.xyz
+      servername: enlargement-decreased-directors-consensus.trycloudflare.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+      ws-opts:
+        headers:
+            Host: enlargement-decreased-directors-consensus.trycloudflare.com
+        path: /vmess-argo?ed=2560
+    - country: GB
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.39 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 85.159.92.97
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.77 MB/s"
+      network: tcp
+      port: 30227
+      reality-opts:
+        public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
+      server: 216.133.149.235
+      servername: aws.amazon.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 9a54bad8-538d-4744-b7bc-640629840490
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.93 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 63.141.239.67
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - delay: 673
       grpc-opts:
         grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 22.78 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 26.10 MB/s"
       network: grpc
-      port: 11716
-      server: 141.227.136.11
+      port: 42817
+      server: 141.227.132.199
       type: vless
       udp: true
-      uuid: 98b988ba-fe55-402e-824a-6f7bb3436f22
+      uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.93 MB/s"
+      password: miaoge110
+      port: 40112
+      server: 45.58.38.153
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - delay: 970
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 24.58 MB/s"
+      network: grpc
+      port: 13905
+      server: 141.227.134.241
+      type: vless
+      udp: true
+      uuid: 9eecee32-1abb-42db-b296-af0168c17412
       xudp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 22.05 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 24.28 MB/s"
+      port: 443
+      reality-opts:
+        public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
+        short-id: 16895459a2c7768d
+      server: 66.90.90.10
+      servername: wa.sfasti.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.77 MB/s"
       port: 443
       reality-opts:
         public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
         short-id: 2d46a79deebf50fd
-      server: 94.198.218.41
+      server: yt.connect-iskra.ru
       servername: deepl.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
       uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
+    - alterId: 0
+      cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.24 MB/s"
+      network: ws
+      port: 443
+      server: xsj045-0.facai2024.com
+      servername: xsj045-0.facai2024.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: fbfb01d7-1e10-4c6f-bfbf-9a9adecf9248
+      ws-opts:
+        path: /fbfb01d7
+    - country: US
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 21.31 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 129.148.39.249
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
     - country: JP
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.97 MB/s"
-      password: fb083058-14d6-41c5-b00c-f4935361c442
-      port: 20201
-      server: jpjingdu.4444443.xyz
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.12 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 203.10.98.187
       skip-cert-verify: true
       type: hysteria2
       udp: true
-    - delay: 2187
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.12 MB/s"
-      password: 3Wpj66
-      port: 64363
-      server: 216.151.168.188
-      type: http
-      username: kZXMC3Z1
-    - country: HK
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.21 MB/s"
-      password: fb083058-14d6-41c5-b00c-f4935361c442
-      port: 20201
-      server: hk03.4444443.xyz
+    - country: US
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.60 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 138.2.2.120
       skip-cert-verify: true
       type: hysteria2
       udp: true
-    - country: HK
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.23 MB/s"
-      password: fb083058-14d6-41c5-b00c-f4935361c442
-      port: 20201
-      server: hk01.4444443.xyz
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.49 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            host: fei.634676.xyz
+        path: /?ed=2560
+    - country: GB
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.33 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 158.179.164.122
       skip-cert-verify: true
       type: hysteria2
       udp: true
     - country: KR
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.07 MB/s"
-      password: fb083058-14d6-41c5-b00c-f4935361c442
-      port: 10250
-      server: krlg.4444443.xyz
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.11 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 193.122.106.44
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: KR
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.86 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 132.226.235.134
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: US
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 13.61 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 192.9.176.249
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: KR
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.40 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 152.70.234.101
+      skip-cert-verify: true
+      type: hysteria2
+      udp: true
+    - country: SG
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.08 MB/s"
+      password: f3117f61-c531-4ba5-95e4-15fab97d2afd
+      port: 20000
+      server: 168.138.184.187
       skip-cert-verify: true
       type: hysteria2
       udp: true
