@@ -1,44 +1,23 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 63.54 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.65 MB/s"
       network: ws
       port: 443
-      server: 104.21.71.83
-      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vless
-      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
-      ws-opts:
-        headers:
-            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
-        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 53.51 MB/s"
-      network: ws
-      port: 443
-      server: cf.877774.xyz
-      servername: enlargement-decreased-directors-consensus.trycloudflare.com
+      server: cfip.1323123.xyz
+      servername: 01.91md.fun
       skip-cert-verify: true
       tls: true
-      type: vmess
+      type: vless
       udp: true
-      uuid: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
+      uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
       ws-opts:
         headers:
-            Host: enlargement-decreased-directors-consensus.trycloudflare.com
-        path: /vmess-argo?ed=2560
+            host: 01.91md.fun
+        path: /?ed=2048
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.19 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.53 MB/s"
       network: ws
       port: 2083
       server: 162.159.142.252
@@ -52,170 +31,17 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 30.12 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 10.26 MB/s"
       network: ws
-      port: 43910
-      server: 5.231.56.98
-      type: vmess
-      uuid: 39b4da5c-dd63-4bb0-abae-2cbc9d208d0d
-      ws-opts:
-        path: /arki?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.48 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.246.85
-      servername: juzi.634676.xyz
+      port: 31687
+      server: 185.245.83.41
+      servername: 01.91md.fun
       skip-cert-verify: true
-      tfo: true
       tls: true
       type: vless
       udp: true
-      uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
+      uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
       ws-opts:
         headers:
-            Host: juzi.634676.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 22.74 MB/s"
-      port: 443
-      reality-opts:
-        public-key: J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8
-        short-id: 16895459a2c7768d
-      server: 66.90.90.10
-      servername: wa.sfasti.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d4e4c02a-d969-47a6-ba0f-3d433fdac206
-    - delay: 673
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.71 MB/s"
-      network: grpc
-      port: 42817
-      server: 141.227.132.199
-      type: vless
-      udp: true
-      uuid: f7df6c83-e527-4bb2-bae1-ea743edaffcd
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.12 MB/s"
-      network: ws
-      port: 2784
-      server: 43.100.19.48
-      tls: false
-      type: vmess
-      uuid: acc3690e-56fb-4f7f-8dfc-ffe6201520f3
-      ws-opts:
-        path: /arki?ed=2048
-    - delay: 970
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 18.96 MB/s"
-      network: grpc
-      port: 13905
-      server: 141.227.134.241
-      type: vless
-      udp: true
-      uuid: 9eecee32-1abb-42db-b296-af0168c17412
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.96 MB/s"
-      network: ws
-      port: 49993
-      server: 43.100.19.48
-      tls: false
-      type: vmess
-      uuid: de46159c-e61e-446c-82a0-04dec74cc63a
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.84 MB/s"
-      network: ws
-      port: 12058
-      server: 43.100.19.48
-      tls: false
-      type: vmess
-      uuid: 49a9f6bc-136c-4d93-80f6-4cdf38494532
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 15.88 MB/s"
-      network: ws
-      port: 8613
-      server: 47.250.45.234
-      tls: false
-      type: vmess
-      uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-      ws-opts:
-        path: /arki?ed=2048
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.76 MB/s"
-      network: ws
-      port: 443
-      server: xsj045-0.facai2024.com
-      servername: xsj045-0.facai2024.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: fbfb01d7-1e10-4c6f-bfbf-9a9adecf9248
-      ws-opts:
-        path: /fbfb01d7
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F2\U0001F1FE MY | ⬇️ 15.29 MB/s"
-      network: ws
-      port: 43063
-      server: 47.250.45.234
-      type: vmess
-      uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
-      ws-opts:
-        path: /arki?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.65 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.43.92
-      servername: juzi.634676.xyz
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-      ws-opts:
-        headers:
-            Host: juzi.634676.xyz
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.89 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            host: fei.634676.xyz
-        path: /?ed=2560
+            host: 01.91md.fun
+        path: /?ed=2048
