@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.13 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 28.11 MB/s"
       network: ws
       port: 31687
       server: 185.245.83.41
@@ -14,34 +14,16 @@ proxies:
         headers:
             host: 01.91md.fun
         path: /?ed=2048
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.05 MB/s"
-      network: ws
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 17.04 MB/s"
       port: 443
-      server: cfip.1323123.xyz
-      servername: 01.91md.fun
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: f64bdc57-0f54-4705-bf75-cfd646d98c06
-      ws-opts:
-        headers:
-            host: 01.91md.fun
-        path: /?ed=2048
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.31 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
+      reality-opts:
+        public-key: flIlSQ8NWZl0ofim794-EaQhz2OnH1hN7imrQAPheRY
+        short-id: 53ba1e37
+      server: 213.176.94.129
+      servername: www.amazon.com
       skip-cert-verify: false
       tls: true
       type: vless
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
+      uuid: 81e9e522-2efd-4709-996d-74e46f4edaf8
