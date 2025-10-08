@@ -1,36 +1,56 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.77 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.36 MB/s"
+      port: 443
+      reality-opts:
+        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+      server: 146.19.90.10
+      servername: speed.cloudflare.com
+      skip-cert-verify: false
       tls: true
-      type: http
+      type: vless
       udp: true
-      username: test
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.42 MB/s"
+      uuid: a0de1607-5b63-fab8-a759-9f98706b6125
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.23 MB/s"
       network: ws
       port: 8443
-      server: ebc.zoom.us
-      servername: node4.rtxconfigz.com
+      server: 104.26.6.89
+      servername: S5eW9e55Sx.SoLeNtRaA.iNfO
       skip-cert-verify: true
+      tfo: true
       tls: true
-      type: vmess
-      uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+      type: vless
+      udp: true
+      uuid: e999db7a-1b17-4da6-bc37-c9fa24af2e93
       ws-opts:
         headers:
-            HOST: node4.rtxconfigz.com
-        path: /@Malinda6104
+            Host: S5eW9e55Sx.SoLeNtRaA.iNfO
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.05 MB/s"
+      network: ws
+      port: 443
+      server: w3.org
+      servername: hdfynpv2c1.farvaharforever.com
+      skip-cert-verify: true
+      tfo: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8
+      ws-opts:
+        headers:
+            Host: hdfynpv2c1.farvaharforever.com
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /Iyq035lnud9R8ruNNrqGxZZ2
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.07 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.04 MB/s"
       network: ws
       port: 2083
       server: 162.159.142.252
