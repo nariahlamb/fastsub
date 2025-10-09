@@ -1,6 +1,161 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.35 MB/s"
+    - cipher: chacha20-ietf-poly1305
+      country: AZ
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 66.53 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 45.154.204.7
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: BG
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.74 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 94.156.250.122
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: DK
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 36.54 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 121.127.45.165
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: CH
+      name: "\U0001F1E8\U0001F1ED CH | ⬇️ 36.22 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 37.143.131.118
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: PA
+      name: "\U0001F1F5\U0001F1E6 PA | ⬇️ 35.82 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 138.186.142.80
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: GB
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 34.54 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.195.67.178
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: US
+      name: "\U0001F1ED\U0001F1F7 HR | ⬇️ 32.90 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 169.150.242.77
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: US
+      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 32.81 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 38.165.231.25
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: HU
+      name: "\U0001F1ED\U0001F1FA HU | ⬇️ 31.87 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.163.204.94
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: CA
+      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 31.54 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.213.23.63
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 28.09 MB/s"
+      port: 8080
+      reality-opts:
+        public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
+        short-id: 27cfa05000c23cc4
+      server: 5.44.42.60
+      servername: yandex.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+    - delay: 1201
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 26.49 MB/s"
+      network: grpc
+      port: 47765
+      server: 141.227.174.234
+      type: vless
+      udp: true
+      uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: BZ
+      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 24.47 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 46.183.217.204
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.81 MB/s"
+      password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+      port: 41951
+      server: 192.3.60.176
+      skip-cert-verify: true
+      sni: www.bing.com
+      tfo: false
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      country: US
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.37 MB/s"
+      network: ws
+      port: 8443
+      server: 3h-unitedstates3.09vpn.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
+      ws-opts:
+        path: /vmess/
+    - cipher: chacha20-ietf-poly1305
+      country: MD
+      name: "\U0001F1E7\U0001F1F4 BO | ⬇️ 21.36 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.93.173.154
+      type: ss
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.48 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      country: DZ
+      name: "\U0001F3F3️ DZ | ⬇️ 19.34 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 197.140.29.76
+      type: ss
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.12 MB/s"
       password: 571ec94e-613c-430a-93de-397d3d237475
       port: 22156
       server: 83.147.17.147
@@ -8,11 +163,60 @@ proxies:
       sni: hsyg.huasuan666.top
       tfo: false
       type: hysteria2
-    - auth: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.21 MB/s"
-      password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
-      port: 37771
-      server: xjp1.xiaohuolongjc.top
+    - cipher: chacha20-ietf-poly1305
+      country: LU
+      name: "\U0001F3F3️ KZ | ⬇️ 16.68 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 109.61.39.28
+      type: ss
+    - alpn:
+        - http/1.1
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.88 MB/s"
+      network: ws
+      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+      port: 443
+      server: 172.67.157.220
       skip-cert-verify: false
-      sni: xjp1.xiaohuolongjc.top
-      type: hysteria2
+      sni: 6666YHjU.777159.xYz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: 6666YHjU.777159.xYz
+        path: /dilyfCPEmLvYr5hYXD
+    - alterId: 0
+      cipher: auto
+      country: US
+      delay: 1877
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.07 MB/s"
+      network: ws
+      port: 8443
+      server: ebc.zoom.us
+      servername: node4.rtxconfigz.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+      ws-opts:
+        headers:
+            HOST: node4.rtxconfigz.com
+        path: /@Malinda6104
+    - encryption: none
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.69 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: fei.634676.xyz
+        max-early-data: 2560
+        path: /
