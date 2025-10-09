@@ -1,39 +1,18 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.78 MB/s"
-      port: 443
-      reality-opts:
-        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-      server: 146.19.90.10
-      servername: speed.cloudflare.com
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.35 MB/s"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22156
+      server: 83.147.17.147
+      skip-cert-verify: true
+      sni: hsyg.huasuan666.top
+      tfo: false
+      type: hysteria2
+    - auth: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.21 MB/s"
+      password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
+      port: 37771
+      server: xjp1.xiaohuolongjc.top
       skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: a0de1607-5b63-fab8-a759-9f98706b6125
-    - cipher: chacha20-ietf-poly1305
-      country: ' LT'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.84 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.177
-      type: ss
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.86 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
+      sni: xjp1.xiaohuolongjc.top
+      type: hysteria2
