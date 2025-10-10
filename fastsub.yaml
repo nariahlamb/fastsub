@@ -1,81 +1,29 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: US
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.46 MB/s"
-      network: ws
-      port: 8443
-      server: 3h-unitedstates3.09vpn.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b
-      ws-opts:
-        path: /vmess/
+    - cipher: chacha20-ietf-poly1305
+      country: AZ
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.24 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 45.154.204.7
+      type: ss
     - cipher: chacha20-ietf-poly1305
       country: PA
-      name: "\U0001F1F5\U0001F1E6 PA | ⬇️ 30.94 MB/s"
+      name: "\U0001F1F5\U0001F1E6 PA | ⬇️ 27.66 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 138.186.142.80
       type: ss
     - cipher: chacha20-ietf-poly1305
       country: BG
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.81 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 25.17 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 94.156.250.122
       type: ss
     - cipher: chacha20-ietf-poly1305
-      country: LU
-      name: "\U0001F1F1\U0001F1FA LU | ⬇️ 24.90 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 109.61.46.43
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: DK
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 24.54 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 121.127.45.165
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: GB
-      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 22.10 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.195.67.178
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: MD
-      name: "\U0001F1E7\U0001F1F4 BO | ⬇️ 20.84 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.93.173.154
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - cipher: chacha20-ietf-poly1305
-      country: BZ
-      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 18.82 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 46.183.217.204
-      type: ss
-    - cipher: chacha20-ietf-poly1305
       country: ' ZZ'
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.27 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.08 MB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
@@ -84,8 +32,22 @@ proxies:
       port: 2377
       server: 5.44.249.42
       type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: MD
+      name: "\U0001F1E7\U0001F1F4 BO | ⬇️ 19.50 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.93.173.154
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: LU
+      name: "\U0001F1F1\U0001F1FA LU | ⬇️ 18.86 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 109.61.46.43
+      type: ss
     - delay: 339
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.29 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.63 MB/s"
       password: 6bRDEuy
       port: 37469
       server: 47.79.94.28
@@ -93,24 +55,43 @@ proxies:
       username: kZXMC3Z1
     - cipher: chacha20-ietf-poly1305
       country: TH
-      name: "\U0001F1F9\U0001F1ED TH | ⬇️ 16.16 MB/s"
+      name: "\U0001F1F9\U0001F1ED TH | ⬇️ 17.87 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 119.59.127.129
       type: ss
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.15 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 3.70.102.146
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: BZ
+      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 17.20 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 46.183.217.204
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: DZ
+      name: "\U0001F3F3️ DZ | ⬇️ 14.27 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 197.140.29.76
+      type: ss
+    - encryption: none
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.90 MB/s"
+      network: ws
+      port: 443
+      server: 172.67.203.89
+      servername: backus1.dh03.shop
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: 71504eaf-29ac-4190-89d1-dd9ce2c9ee14
+      ws-opts:
+        headers:
+            Host: backus1.dh03.shop
+        path: /higate
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.85 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.61 MB/s"
       network: ws
       port: 2083
       server: 162.159.142.252
@@ -124,10 +105,11 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      country: DZ
-      name: "\U0001F3F3️ DZ | ⬇️ 14.44 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 197.140.29.76
-      type: ss
+    - country: SG
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.14 MB/s"
+      password: installshield
+      port: 8443
+      server: 38.180.106.124
+      skip-cert-verify: true
+      type: trojan
+      udp: true
