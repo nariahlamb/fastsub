@@ -1,126 +1,16 @@
 proxy-providers: {}
 proxies:
     - cipher: chacha20-ietf-poly1305
-      country: DK
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 33.33 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 121.127.45.165
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 31.93 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 38.165.231.25
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: GB
-      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 30.72 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.195.67.178
-      type: ss
-    - encryption: none
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.76 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: fei.634676.xyz
-        max-early-data: 2560
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      country: US
-      name: "\U0001F1ED\U0001F1F7 HR | ⬇️ 29.41 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 169.150.242.77
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: HU
-      name: "\U0001F1ED\U0001F1FA HU | ⬇️ 28.34 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.163.204.94
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: CA
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 26.68 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.213.23.63
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 26.32 MB/s"
-      port: 8080
-      reality-opts:
-        public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-        short-id: 27cfa05000c23cc4
-      server: 5.44.42.60
-      servername: yandex.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    - cipher: chacha20-ietf-poly1305
       country: BG
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 24.01 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.72 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 94.156.250.122
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: BZ
-      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 20.74 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 46.183.217.204
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: MD
-      name: "\U0001F1E7\U0001F1F4 BO | ⬇️ 20.23 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.93.173.154
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: LU
-      name: "\U0001F3F3️ KZ | ⬇️ 17.62 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 109.61.39.28
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: DZ
-      name: "\U0001F3F3️ DZ | ⬇️ 15.70 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 197.140.29.76
-      type: ss
-    - delay: 1201
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 13.55 MB/s"
-      network: grpc
-      port: 47765
-      server: 141.227.174.234
-      type: vless
-      udp: true
-      uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-      xudp: true
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.12 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.78 MB/s"
       network: ws
       port: 2083
       server: 162.159.142.252
@@ -134,3 +24,70 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      country: GB
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 34.68 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 185.195.67.178
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: DK
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 33.79 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 121.127.45.165
+      type: ss
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.45 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      country: BZ
+      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 24.45 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 46.183.217.204
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: LU
+      name: "\U0001F3F3️ KZ | ⬇️ 18.81 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 109.61.39.28
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.44 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      country: DZ
+      name: "\U0001F3F3️ DZ | ⬇️ 16.78 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 197.140.29.76
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 13.46 MB/s"
+      password: hMzd6764
+      port: 21897
+      server: 47.79.91.19
+      type: http
+      username: kZXMC3Z1
