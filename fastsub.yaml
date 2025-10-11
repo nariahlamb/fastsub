@@ -3,7 +3,7 @@ proxies:
     - cipher: chacha20-ietf-poly1305
       country: BG
       delay: 585
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 38.76 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 33.39 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 94.156.250.122
@@ -11,13 +11,13 @@ proxies:
     - cipher: chacha20-ietf-poly1305
       country: AF
       delay: 1740
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 37.82 MB/s"
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 32.37 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 121.127.45.165
       type: ss
     - delay: 1548
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.28 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.59 MB/s"
       obfs: salamander
       obfs-password: 7ORoCXVodF1kVmro
       password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
@@ -26,43 +26,10 @@ proxies:
       skip-cert-verify: false
       sni: us.hyleet.fitness
       type: hysteria2
-    - alpn:
-        - h3
-      client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.45 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - encryption: none
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.50 MB/s"
-      network: ws
-      port: 2083
-      server: 162.159.142.252
-      servername: fei.634676.xyz
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: fei.634676.xyz
-        max-early-data: 2560
-        path: /
     - cipher: chacha20-ietf-poly1305
       country: BZ
       delay: 535
-      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 21.21 MB/s"
+      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 21.84 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 46.183.217.204
