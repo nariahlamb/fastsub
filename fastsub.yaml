@@ -1,23 +1,7 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      country: BG
-      delay: 585
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 33.39 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 94.156.250.122
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: AF
-      delay: 1740
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 32.37 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 121.127.45.165
-      type: ss
     - delay: 1548
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.59 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.01 MB/s"
       obfs: salamander
       obfs-password: 7ORoCXVodF1kVmro
       password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
@@ -27,10 +11,81 @@ proxies:
       sni: us.hyleet.fitness
       type: hysteria2
     - cipher: chacha20-ietf-poly1305
+      country: BG
+      delay: 585
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.46 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 94.156.250.122
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: AF
+      delay: 1740
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 24.87 MB/s"
+      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+      port: 990
+      server: 121.127.45.165
+      type: ss
+    - country: ' AU'
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 21.87 MB/s"
+      password: installshield
+      port: 8443
+      server: 176.97.68.153
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
       country: BZ
       delay: 535
-      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 21.84 MB/s"
+      name: "\U0001F1F1\U0001F1FB LV | ⬇️ 16.60 MB/s"
       password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
       port: 990
       server: 46.183.217.204
       type: ss
+    - alterId: 2
+      cipher: auto
+      country: ' HK'
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.89 MB/s"
+      network: ws
+      port: 80
+      server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+      ws-headers:
+        HOST: broadcastlv.chat.bilibili.com
+      ws-path: /
+    - alterId: 2
+      cipher: auto
+      country: HK
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.13 MB/s"
+      network: ws
+      port: 80
+      server: 38721ce7-t3rr40-tdnzz0-1qtp7.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.96 MB/s"
+      network: ws
+      port: 80
+      server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+        path: /
