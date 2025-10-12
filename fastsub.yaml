@@ -1,10 +1,94 @@
 proxy-providers: {}
 proxies:
-    - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.83 MB/s"
-      password: c232f411-96b5-4b07-b2f7-66a434725ffb
-      port: 23891
-      server: 108.165.213.197
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.47 MB/s"
+      port: 30227
+      reality-opts:
+        public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
+      server: 216.133.149.235
+      servername: aws.amazon.com
       skip-cert-verify: false
-      sni: fus01.mistea.top
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9a54bad8-538d-4744-b7bc-640629840490
+    - cipher: chacha20-ietf-poly1305
+      country: LT
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.51 MB/s"
+      password: cvII85TrW6n0OGyfpHVS1u
+      port: 8080
+      server: 45.87.175.187
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.16 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 21.46 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: ZZ
+      delay: 2332
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.69 MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)4fa101a:48723
+        mode: tls
+      port: 2377
+      server: 5.44.249.42
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      delay: 773
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.31 MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)32cf132:178330
+        mode: tls
+      port: 2377
+      server: 5.44.249.43
+      type: ss
+    - delay: 837
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.78 MB/s"
+      network: grpc
+      port: 47583
+      server: 135.125.89.80
+      type: vless
+      udp: true
+      uuid: 60c1dd76-f09f-4c9b-a22a-1672f6959f36
+      xudp: true
+    - auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.96 MB/s"
+      password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+      port: 63979
+      server: 113.192.61.19
+      skip-cert-verify: true
+      sni: www.bing.com
       type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 10.64 MB/s"
+      port: 443
+      reality-opts:
+        public-key: RDAZYkEO3l0_jrv5O5edQ6zsMYrxKLp1GPV339ZTDSk
+        short-id: ec7212a8
+      server: 38.180.26.205
+      servername: nspk.ru
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
