@@ -1,93 +1,10 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 33.20 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      delay: 946
-      name: "\U0001F1F5\U0001F1E6 PA | ⬇️ 29.80 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 138.186.142.80
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 27.56 MB/s"
-      password: 4a2rfixophdjffa8KVA4Aa
-      port: 8080
-      server: 151.242.251.144
-      type: ss
-    - delay: 728
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 25.60 MB/s"
-      network: grpc
-      port: 59995
-      server: 141.227.162.18
-      type: vless
-      udp: true
-      uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-      xudp: true
-    - delay: 837
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 25.18 MB/s"
-      network: grpc
-      port: 47583
-      server: 135.125.89.80
-      type: vless
-      udp: true
-      uuid: 60c1dd76-f09f-4c9b-a22a-1672f6959f36
-      xudp: true
-    - delay: 447
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.58 MB/s"
-      network: grpc
-      port: 23279
-      server: 141.94.210.231
-      type: vless
-      udp: true
-      uuid: 30198cba-c828-4b34-8165-25942bad201e
-      xudp: true
-    - delay: 835
-      grpc-opts:
-        grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1ED CH | ⬇️ 22.73 MB/s"
-      network: grpc
-      port: 18541
-      server: 141.227.138.82
-      type: vless
-      udp: true
-      uuid: 49ffd741-9736-40fb-9217-76a8fcfb3ffd
-      xudp: true
-    - delay: 789
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.79 MB/s"
-      obfs: salamander
-      obfs-password: LNAnPYDfFyesRAVn
-      password: bc4f280b-1fea-414c-b73c-6770c6f20ef9
-      port: 23414
-      ports: 21000-26000
-      server: uuk3.tok8888.com
-      skip-cert-verify: true
-      sni: uuk3.tok8888.com
-      type: hysteria2
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.81 MB/s"
-      password: 9ixjDF
-      port: 53855
-      server: 47.79.151.130
-      type: http
-      username: kZXMC3Z1
-    - delay: 1548
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.43 MB/s"
-      obfs: salamander
-      obfs-password: 7ORoCXVodF1kVmro
-      password: 1c90ba9c-05ec-4fc1-9d2c-3d5459bef2af
-      port: 27015
-      server: us.hyleet.fitness
+    - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.83 MB/s"
+      password: c232f411-96b5-4b07-b2f7-66a434725ffb
+      port: 23891
+      server: 108.165.213.197
       skip-cert-verify: false
-      sni: us.hyleet.fitness
+      sni: fus01.mistea.top
       type: hysteria2
