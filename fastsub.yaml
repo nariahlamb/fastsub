@@ -1,62 +1,58 @@
 proxy-providers: {}
 proxies:
+    - encryption: none
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.88 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        early-data-header-name: Sec-WebSocket-Protocol
+        headers:
+            Host: fei.634676.xyz
+        max-early-data: 2560
+        path: /
+    - cipher: aes-256-cfb
+      country: IE
+      delay: 795
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 25.37 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.216.80.211
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.84 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
     - cipher: chacha20-ietf-poly1305
       country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.09 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 24.56 MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 151.242.251.152
       type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      delay: 940
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 33.71 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.38.44.116
-      type: ss
     - cipher: chacha20-ietf-poly1305
       country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.41 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 20.35 MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
-      server: 151.242.251.142
+      server: 151.242.251.133
       type: ss
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 28.58 MB/s"
-      network: ws
-      port: 443
-      server: 134.209.196.115
-      servername: zula.ir
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: bed9958c-82a5-4c30-8616-723f7269c0b6
-      ws-opts:
-        headers:
-            host: zula.ir
-        path: /ws
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.41 MB/s"
-      network: ws
-      port: 443
-      server: net2026.zanddynastyofpersia.org
-      servername: net2026.zanddynastyofpersia.org
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-      ws-opts:
-        headers:
-            Host: net2026.zanddynastyofpersia.org
-        path: /eJsVXFVZ6iavNx1EFxOyH861WH
     - alterId: 0
       cipher: auto
       country: DE
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.73 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.58 MB/s"
       network: ws
       port: 80
       server: 161.35.207.27
@@ -67,8 +63,50 @@ proxies:
         path: /cdn-cgi/trace
     - cipher: chacha20-ietf-poly1305
       country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 20.04 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 18.19 MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
-      server: 151.242.251.133
+      server: 151.242.251.142
       type: ss
+    - cipher: aes-256-cfb
+      country: FR
+      delay: 940
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.62 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 13.38.44.116
+      type: ss
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.28 MB/s"
+      password: installshield
+      port: 8443
+      server: 38.180.106.124
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.05 MB/s"
+      password: 253bc477d4e43c209f2d427272968280
+      port: 443
+      server: 58.152.53.162
+      skip-cert-verify: true
+      sni: fe2.update.microsoft.com
+      tls: true
+      type: trojan
+      udp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.93 MB/s"
+      network: ws
+      port: 2083
+      server: 162.159.142.252
+      servername: fei.634676.xyz
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
