@@ -3,7 +3,7 @@ proxies:
     - alpn:
         - http/1.1
       client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.28 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 64.75 MB/s"
       network: ws
       port: 443
       server: subv.iori3.pp.ua
@@ -20,15 +20,7 @@ proxies:
         max-early-data: 2560
         path: /
     - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.04 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25411
-      server: us-nb-03.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.97 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.87 MB/s"
       password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
       port: 25438
       server: us-nb-05.linlujs.pw
@@ -36,33 +28,22 @@ proxies:
       type: hysteria2
       udp: true
     - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.79 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.12 MB/s"
       password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25419
-      server: us-nb-04.linlujs.pw
+      port: 25411
+      server: us-nb-03.linlujs.pw
       skip-cert-verify: false
       type: hysteria2
       udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.81 MB/s"
-      network: ws
-      port: 39291
-      server: 216.167.51.187
-      tls: false
-      type: vmess
-      uuid: 899c6711-18ff-409f-9b41-904b66f02a44
-      ws-opts:
-        path: /arki?ed=2048
     - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.09 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.18 MB/s"
       password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
       port: 25733
       server: us-nb-02.linlujs.pw
       skip-cert-verify: false
       type: hysteria2
       udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.77 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.80 MB/s"
       password: c232f411-96b5-4b07-b2f7-66a434725ffb
       port: 23891
       server: 108.165.213.197
@@ -70,64 +51,23 @@ proxies:
       sni: fus01.mistea.top
       tls: false
       type: hysteria2
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.52 MB/s"
+      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
+      port: 25419
+      server: us-nb-04.linlujs.pw
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
     - cipher: aes-256-cfb
       country: ' SK'
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 26.68 MB/s"
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 30.21 MB/s"
       password: f8f7aCzcPKbsF8p3
       port: 989
       server: 156.146.40.194
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.65 MB/s"
-      network: ws
-      port: 443
-      server: w3.org
-      servername: hdfynpv2c1.farvaharforever.com
-      skip-cert-verify: true
-      tfo: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4e1f0fc6-a7f8-4642-bd35-6a3aa0bb2fc8
-      ws-opts:
-        headers:
-            Host: hdfynpv2c1.farvaharforever.com
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-        path: /Iyq035lnud9R8ruNNrqGxZZ2
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 15.56 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30099
-      server: tw-me-04.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 15.50 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30011
-      server: tw-me-02.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 15.32 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30009
-      server: tw-me-01.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 15.17 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30044
-      server: tw-me-03.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
     - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.99 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.32 MB/s"
       password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
       port: 24785
       server: sg-nb-02.linlujs.pw
@@ -135,51 +75,42 @@ proxies:
       type: hysteria2
       udp: true
     - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.92 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30001
-      server: sg-nb-01.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.55 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.26 MB/s"
       password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
       port: 29744
       server: sg-nb-04.linlujs.pw
       skip-cert-verify: false
       type: hysteria2
       udp: true
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.98 MB/s"
-      network: ws
-      port: 443
-      server: www.visa.com.hk
-      servername: do-sfo3.258526.xyz
-      skip-cert-verify: true
-      tls: true
-      type: vless
+    - country: US
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.83 MB/s"
+      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
+      port: 30001
+      server: sg-nb-01.linlujs.pw
+      skip-cert-verify: false
+      type: hysteria2
       udp: true
-      uuid: 80063447-f4e6-4fbd-9d93-e6a113924a6b
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: do-sfo3.258526.xyz
-        max-early-data: 2048
-        path: /freev2.net
-    - delay: 860
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.16 MB/s"
-      network: ws
-      port: 8443
-      server: 91.107.230.41
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
+    - country: TW
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 11.25 MB/s"
+      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
+      port: 30044
+      server: tw-me-03.linlujs.pw
+      skip-cert-verify: false
+      type: hysteria2
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: fei.634676.xyz
-        max-early-data: 2560
-        path: /
+    - country: TW
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 11.21 MB/s"
+      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
+      port: 30011
+      server: tw-me-02.linlujs.pw
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
+    - country: TW
+      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 10.51 MB/s"
+      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
+      port: 30009
+      server: tw-me-01.linlujs.pw
+      skip-cert-verify: false
+      type: hysteria2
+      udp: true
