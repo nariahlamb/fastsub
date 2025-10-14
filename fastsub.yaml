@@ -1,116 +1,111 @@
 proxy-providers: {}
 proxies:
-    - alpn:
-        - http/1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 64.75 MB/s"
+    - cipher: aes-256-cfb
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 147.52 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.209.249.254
+      type: ss
+    - cipher: aes-256-cfb
+      country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 88.86 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.84.99.165
+      type: ss
+    - cipher: aes-256-cfb
+      country: FR
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.73 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 15.237.118.240
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: IR
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 39.71 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 151.242.251.152
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      country: IR
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.93 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 151.242.251.142
+      type: ss
+    - cipher: aes-256-cfb
+      country: FR
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 36.01 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.180.193.77
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.70 MB/s"
       network: ws
       port: 443
-      server: subv.iori3.pp.ua
-      servername: sni.111000.dynv6.net
+      server: codepen.io
+      servername: rAyAn-cOnFiG-nl-1.pArSa.dPdNs.oRg
       skip-cert-verify: true
       tls: true
       type: vless
       udp: true
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      uuid: f59e2420-b706-4bee-bcdd-1c2162e5372a
       ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
         headers:
-            Host: sni.111000.dynv6.net
-        max-early-data: 2560
-        path: /
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.87 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25438
-      server: us-nb-05.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.12 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25411
-      server: us-nb-03.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.18 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25733
-      server: us-nb-02.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.80 MB/s"
-      password: c232f411-96b5-4b07-b2f7-66a434725ffb
-      port: 23891
-      server: 108.165.213.197
-      skip-cert-verify: true
-      sni: fus01.mistea.top
-      tls: false
-      type: hysteria2
-    - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.52 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 25419
-      server: us-nb-04.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
+            Host: rAyAn-cOnFiG-nl-1.pArSa.dPdNs.oRg
+        path: /ws
     - cipher: aes-256-cfb
-      country: ' SK'
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 30.21 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
+      country: ' AU'
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 17.80 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.25.225.79
       type: ss
-    - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.32 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 24785
-      server: sg-nb-02.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
+    - cipher: chacha20-ietf-poly1305
+      country: ' SG'
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.08 MB/s"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)26af988:57468
+        mode: tls
+        tls: false
+      port: 2377
+      server: 5.44.249.42
+      type: ss
       udp: true
-    - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.26 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 29744
-      server: sg-nb-04.linlujs.pw
+    - name: "\U0001F3F3️ IR | ⬇️ 13.01 MB/s"
+      network: ws
+      port: 8443
+      server: medrd.vtpmng.top
+      servername: medrd.vtpmng.top
       skip-cert-verify: false
-      type: hysteria2
+      tfo: false
+      tls: true
+      type: vless
       udp: true
-    - country: US
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.83 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30001
-      server: sg-nb-01.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
+      uuid: 8339a5e8-6141-41f1-9abc-bbf1a06ac5ae
+      ws-opts:
+        headers:
+            Host: medrd.vtpmng.top
+        path: /
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.05 MB/s"
+      network: ws
+      port: 443
+      server: e8c46690-90d1-8c68-db2c-35ca7bda3680.925.qzz.io
+      servername: e8c46690-90d1-8c68-db2c-35ca7bda3680.925.qzz.io
+      skip-cert-verify: true
+      tls: true
+      type: vmess
       udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 11.25 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30044
-      server: tw-me-03.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 11.21 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30011
-      server: tw-me-02.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
-    - country: TW
-      name: "\U0001F1F9\U0001F1FC TW | ⬇️ 10.51 MB/s"
-      password: 03dd63d1-9ec8-4f0e-b75a-6b81bfb6ddca
-      port: 30009
-      server: tw-me-01.linlujs.pw
-      skip-cert-verify: false
-      type: hysteria2
-      udp: true
+      uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
+      version: "2"
+      ws-opts:
+        headers:
+            Host: e8c46690-90d1-8c68-db2c-35ca7bda3680.925.qzz.io
+        path: /e7JS5ETJeA85VyjPCYXwETL
