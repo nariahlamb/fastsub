@@ -1,81 +1,16 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.99 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.84.99.165
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.30 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.209.249.254
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 41.27 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 151.242.251.152
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.98 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.180.193.77
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.83 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 15.237.118.240
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.52 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 151.242.251.142
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: IR
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 33.02 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 151.242.251.133
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: ' SG'
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.14 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-        tls: false
-      port: 2377
-      server: 5.44.249.42
-      type: ss
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.34 MB/s"
+    - delay: 1655
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 30.13 MB/s"
       network: ws
-      port: 443
-      server: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-      servername: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-      skip-cert-verify: true
+      packet-encoding: ""
+      port: 2096
+      server: 188.42.145.253
+      servername: gaosir.unfeeling.sbs
       tls: true
-      type: vmess
-      udp: true
-      uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-      version: "2"
+      type: vless
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
       ws-opts:
         headers:
-            Host: ef7c2383-03bb-fec2-327b-34f6b2ace7cb.freevpnatm2025.dpdns.org
-        path: /e7JS5ETJeA85VyjPCYXwETL
+            Host: gaosir.unfeeling.sbs
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
