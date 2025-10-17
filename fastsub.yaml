@@ -1,136 +1,16 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-gcm
-      country: US
-      delay: 671
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 181.43 MB/s"
-      password: dada0801
-      port: 80
-      server: 54.90.226.121
-      type: ss
-    - cipher: aes-256-cfb
-      country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 141.53 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.84.99.165
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      delay: 861
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 136.34 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.222.159.183
-      type: ss
-    - cipher: aes-256-gcm
-      country: US
-      delay: 679
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 133.66 MB/s"
-      password: dada0801
-      port: 80
-      server: 34.235.122.208
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      delay: 709
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 131.95 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 184.72.209.232
-      type: ss
-    - cipher: aes-256-cfb
-      country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 129.05 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 52.87.250.198
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      delay: 895
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 116.98 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.93.56.69
-      type: ss
-    - cipher: aes-256-cfb
-      country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 116.50 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.209.249.254
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 86.94 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.90.199.180
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      delay: 1215
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.53 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.36.170.248
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.51 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 15.237.208.55
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      delay: 1117
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.34 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 52.47.120.33
-      type: ss
-    - cipher: aes-256-cfb
-      country: ' FR'
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.04 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.38.71.74
-      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.66 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
     - cipher: chacha20-ietf-poly1305
-      country: ' LT'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.94 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 45.87.175.177
-      type: ss
-    - cipher: aes-256-cfb
-      country: FR
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 35.32 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 15.237.118.240
-      type: ss
-    - cipher: aes-256-cfb
-      country: AU
-      delay: 827
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 17.27 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.25.243.255
-      type: ss
-    - cipher: aes-256-cfb
-      country: AU
-      delay: 1330
-      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 16.53 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 13.238.185.109
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      country: ' SG'
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 10.82 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.37 MB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
