@@ -1,7 +1,16 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.86 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.12 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.47 MB/s"
       password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
       plugin: obfs
       plugin-opts:
