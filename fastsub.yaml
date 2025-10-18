@@ -1,23 +1,20 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.86 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+    - alterId: 2
+      cipher: auto
+      country: HK
+      delay: 2065
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.37 MB/s"
+      network: ws
+      port: 80
+      server: 09f05870-t35j40-tdnzz0-1qtp7.hk3.p5pv.com
+      servername: broadcastlv.chat.bilibili.com
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.47 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-        tls: false
-      port: 2377
-      server: 5.44.249.42
-      type: ss
-      udp: true
+      type: vmess
+      uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+      ws-opts:
+        headers:
+            HOST: broadcastlv.chat.bilibili.com
+        path: /
