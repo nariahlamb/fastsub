@@ -1,15 +1,15 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      country: ' SG'
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.53 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: (TG @WangCai2)26af988:57468
-        mode: tls
-        tls: false
-      port: 2377
-      server: 5.44.249.42
-      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.29 MB/s"
+      port: 443
+      reality-opts:
+        public-key: O53KcL6eOfBmpyfB5rM9qPDI-ZCe8hhHgYzdsZZ0b2Q
+      server: 54.219.42.163
+      servername: dash.cloudflare.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
       udp: true
+      uuid: da640c05-1831-4c6f-a2c8-ff8ff9c18b0c
