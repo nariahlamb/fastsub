@@ -1,15 +1,15 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.96 MB/s"
-      port: 443
-      reality-opts:
-        public-key: O53KcL6eOfBmpyfB5rM9qPDI-ZCe8hhHgYzdsZZ0b2Q
-      server: 54.219.42.163
-      servername: dash.cloudflare.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.46 MB/s"
+      network: ws
+      password: f2810e3b-f020-4df8-b13c-53eee1be94a9
+      port: 8443
+      server: tj.cpddx.club
+      skip-cert-verify: true
+      sni: tj.cpddx.club
+      type: trojan
       udp: true
-      uuid: da640c05-1831-4c6f-a2c8-ff8ff9c18b0c
+      ws-opts:
+        headers:
+            Host: tj.cpddx.club
+        path: /
