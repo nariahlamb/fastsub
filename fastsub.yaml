@@ -1,15 +1,2 @@
 proxy-providers: {}
-proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.46 MB/s"
-      network: ws
-      password: f2810e3b-f020-4df8-b13c-53eee1be94a9
-      port: 8443
-      server: tj.cpddx.club
-      skip-cert-verify: true
-      sni: tj.cpddx.club
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: tj.cpddx.club
-        path: /
+proxies: []
