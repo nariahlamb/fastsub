@@ -1,2 +1,19 @@
 proxy-providers: {}
-proxies: []
+proxies:
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.02 MB/s"
+      network: ws
+      port: 443
+      server: 104.21.71.83
+      servername: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 3c2f5010-bc17-46d7-a5d3-7489f3a8dded
+      ws-opts:
+        headers:
+            Host: a32e1893-496a-5d3e-d34f-a8674b22b993.777162.xyz
+        path: /GJuqYfsZSA3HxKLVmdalbjJm7kb1B
