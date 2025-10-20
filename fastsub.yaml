@@ -1,23 +1,11 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.49 MB/s"
-      password: dc28fd40-ad52-41fb-badd-90d34c6553eb
-      port: 33333
-      server: 208.84.102.87
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.89 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      tfo: false
-      type: hysteria2
-    - client-fingerprint: firefox
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.07 MB/s"
-      network: tcp
-      port: 12143
-      reality-opts:
-        public-key: Og22mCU3ox0A2huEnkFi35BLucYlkxeFLdt0IswxonY
-      server: 38.252.8.208
-      servername: updates.cdn-apple.com
-      skip-cert-verify: false
       tls: true
-      type: vless
-      uuid: 87023a88-d08f-419e-9100-bf4b99d29d54
+      type: http
+      udp: true
+      username: test
