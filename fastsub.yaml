@@ -1,16 +1,2 @@
 proxy-providers: {}
-proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.35 MB/s"
-      network: ws
-      port: 443
-      server: ktff.tencentapp.cn
-      servername: sp5.sutu.eu.org
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9c8b8aec-7a20-4271-8a4f-a87bb029dae9
-      ws-opts:
-        headers:
-            Host: sp5.sutu.eu.org
-        path: /
+proxies: []
