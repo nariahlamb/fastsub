@@ -1,15 +1,37 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.71 MB/s"
-      network: tcp
-      port: 10001
-      reality-opts:
-        public-key: T-5Ud3XMnRKHZ_iDiDh1DA-LcsMd_3j-fmD4OjUVgC4
-      server: 1002.952326.xyz
-      servername: www.python.org
+    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.40 MB/s"
+      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+      port: 1743
+      server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
+      skip-cert-verify: false
+      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.87 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: a49950bd-2b70-4a6b-82d5-4104675430da
+      username: test
+    - auth: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.70 MB/s"
+      password: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: e744481a-t4whs0-t6blpv-1ldl3.hk1.hyhuawei.com
+      sni: e744481a-t4whs0-t6blpv-1ldl3.hk1.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.43 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
