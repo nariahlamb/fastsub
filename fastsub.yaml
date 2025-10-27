@@ -1,136 +1,27 @@
 proxy-providers: {}
 proxies:
-    - mport: 50000-53000
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 149.17 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 144.24.54.157
-      skip-cert-verify: true
-      sni: www.bing.com
+    - auth: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.65 MB/s"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
       type: hysteria2
       udp: true
-    - client-fingerprint: safari
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 79.82 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.27 MB/s"
       network: ws
       port: 443
-      server: 63.141.128.180
-      servername: d2-us2.djwstlsweb.top
-      skip-cert-verify: false
+      server: net2026cd.zanddynastyofpersia.org
+      servername: net2026cd.zanddynastyofpersia.org
+      skip-cert-verify: true
+      tfo: true
       tls: true
       type: vless
       udp: true
-      uuid: e1616905-c131-4899-bc3c-cdccb71a15aa
+      uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
       ws-opts:
         headers:
-            Host: d2-us2.djwstlsweb.top
-        path: /djjc/us2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 29.96 MB/s"
-      network: tcp
-      port: 4433
-      reality-opts:
-        public-key: T3Ifjnw6r8C7cplTunu4u0PQvRPZKoZ_42t6RW_sVHw
-        short-id: f412
-      server: jp3.areuok.fun
-      servername: www.icloud.com
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: c923c048-d115-4bef-e372-b42c783aceb6
-    - mport: 50000-53000
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.53 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 131.186.42.162
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.47 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 65535
-      server: 132.145.28.17
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.82 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 146.56.180.104
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.75 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 65535
-      server: 132.145.52.10
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.38 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 1
-      server: 138.2.179.192
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.35 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 152.70.246.135
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.92 MB/s"
-      password: ysJpLBx46OMWWkkMCW0pywU6
-      port: 10012
-      server: 143.20.156.251
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: dad58782-ffd5-48bd-994c-7b82555c1384
-      version: 5
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.61 MB/s"
-      password: dad58782-ffd5-48bd-994c-7b82555c1384
-      port: 10013
-      server: 143.20.156.251
-      skip-cert-verify: true
-      sni: www.bing.com
-      tfo: false
-      type: hysteria2
-    - mport: 50000-53000
-      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 12.09 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 139.185.32.100
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
-    - mport: 50000-53000
-      name: "\U0001F1E6\U0001F1EA AE | ⬇️ 11.97 MB/s"
-      password: e1616905-c131-4899-bc3c-cdccb71a15aa
-      port: 50000
-      ports: 50000-53000
-      server: 139.185.34.29
-      skip-cert-verify: true
-      sni: www.hoyoverse.com
-      type: hysteria2
-      udp: true
+            Host: net2026cd.zanddynastyofpersia.org
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+        path: /eJsVXFVZ6iavNx1EFxOyH861WH
