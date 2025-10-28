@@ -1,20 +1,16 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - country: AM
-      delay: 1012
-      name: "\U0001F3F3️ AM | ⬇️ 14.43 MB/s"
-      network: tcp
-      port: 20155
-      server: 178.160.211.182
-      type: vless
-      udp: true
-      uuid: dc28e2d3-7c69-47c6-b5b0-f76914454294
+    - cipher: aes-256-cfb
+      country: ' SK'
+      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 21.75 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 156.146.40.194
+      type: ss
+    - cipher: aes-256-cfb
+      country: US
+      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 19.43 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 169.150.202.174
+      type: ss
