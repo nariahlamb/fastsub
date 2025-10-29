@@ -1,24 +1,11 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      country: ' SK'
-      name: "\U0001F1F8\U0001F1F0 SK | ⬇️ 29.22 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 156.146.40.194
-      type: ss
-    - cipher: aes-256-cfb
-      country: US
-      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 22.80 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 169.150.202.174
-      type: ss
-    - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.03 MB/s"
-      password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-      port: 1743
-      server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
-      skip-cert-verify: false
-      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.55 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
