@@ -1,17 +1,26 @@
 proxy-providers: {}
 proxies:
     - country: US
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.95 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.21 MB/s"
       password: YlfdAfTHoAuoRIbTPl
       port: 443
       server: us-3.regentgrandvalley.com
       skip-cert-verify: true
       type: trojan
       udp: true
+    - auth: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.57 MB/s"
+      password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
+      sni: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
+      type: hysteria2
+      udp: true
     - alpn:
         - ""
       client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.00 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.83 MB/s"
       network: ws
       port: 2053
       server: 199.34.230.114
@@ -25,16 +34,7 @@ proxies:
         headers:
             Host: om1.omidsuccess.uk
         path: /containers/de
-    - auth: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.02 MB/s"
-      password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
-      sni: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.81 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.57 MB/s"
       password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
       port: 41951
       server: 192.3.60.176
@@ -44,7 +44,7 @@ proxies:
       type: hysteria2
     - alpn:
         - ""
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.49 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.09 MB/s"
       network: ws
       port: 2053
       server: 199.34.230.114
