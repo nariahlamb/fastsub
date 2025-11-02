@@ -1,69 +1,60 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 104.25 MB/s"
-      network: ws
+    - country: US
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.95 MB/s"
+      password: YlfdAfTHoAuoRIbTPl
       port: 443
-      server: cg1c01.waimaojd.com
-      servername: cg1c01.waimaojd.com
-      tls: true
-      type: vmess
-      udp: true
-      uuid: be8e3136-b874-4085-bd23-ec3699300490
-      ws-opts:
-        headers:
-            Host: cg1c01.waimaojd.com
-        path: /api/v1/graphql
-    - cipher: aes-256-cfb
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 38.37 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 16.52.166.161
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.69 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+      server: us-3.regentgrandvalley.com
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.20 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 35.157.82.27
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - country: DE
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.39 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 3.78.19.159
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterId: 2
-      cipher: auto
-      country: ' HK'
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.44 MB/s"
+    - alpn:
+        - ""
+      client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.00 MB/s"
       network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      servername: broadcastlv.chat.bilibili.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: 25b46954-9a33-11ee-8b86-f23c91cfbbc9
+      port: 2053
+      server: 199.34.230.114
+      servername: om1.omidsuccess.uk
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: b27e35a7-51f4-468e-8921-56a4901dd923
       ws-opts:
         headers:
-            HOST: broadcastlv.chat.bilibili.com
-        path: /
+            Host: om1.omidsuccess.uk
+        path: /containers/de
+    - auth: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.02 MB/s"
+      password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
+      sni: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.81 MB/s"
+      password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+      port: 41951
+      server: 192.3.60.176
+      skip-cert-verify: true
+      sni: www.bing.com
+      tls: false
+      type: hysteria2
+    - alpn:
+        - ""
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.49 MB/s"
+      network: ws
+      port: 2053
+      server: 199.34.230.114
+      servername: om1.omidsuccess.uk
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+      ws-opts:
+        headers:
+            Host: om1.omidsuccess.uk
+        path: /containers/de
