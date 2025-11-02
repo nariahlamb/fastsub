@@ -4,7 +4,7 @@ proxies:
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.36 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 80.28 MB/s"
       network: ws
       port: 443
       server: cg1c01.waimaojd.com
@@ -17,32 +17,19 @@ proxies:
         headers:
             Host: cg1c01.waimaojd.com
         path: /api/v1/graphql
-    - alpn:
-        - ""
-      client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.02 MB/s"
-      network: ws
-      port: 2053
-      server: 199.34.230.114
-      servername: om1.omidsuccess.uk
-      skip-cert-verify: false
+    - cipher: aes-256-cfb
+      country: FR
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 29.11 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 15.237.208.55
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.75 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-      ws-opts:
-        headers:
-            Host: om1.omidsuccess.uk
-        path: /containers/de
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.53 MB/s"
-      network: ws
-      port: 2053
-      server: 199.34.230.114
-      servername: om1.omidsuccess.uk
-      tls: true
-      type: vless
-      uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-      ws-opts:
-        headers:
-            Host: om1.omidsuccess.uk
-        path: /containers/de
+      username: test
