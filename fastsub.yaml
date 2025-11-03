@@ -1,19 +1,2 @@
 proxy-providers: {}
-proxies:
-    - auth: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.08 MB/s"
-      password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
-      sni: 9fed4e25-t57ls0-tc0fos-8skf.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.03 MB/s"
-      password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-      port: 41951
-      server: 192.3.60.176
-      skip-cert-verify: true
-      sni: www.bing.com
-      tls: false
-      type: hysteria2
+proxies: []
