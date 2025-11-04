@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 90.71 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.26 MB/s"
       port: 443
       reality-opts:
         public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
@@ -14,21 +14,57 @@ proxies:
       type: vless
       udp: true
       uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.63 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.07 MB/s"
+      password: kHGhcI9rmL
+      port: 19846
+      server: 38.180.192.61
+      type: http
+      username: PAdt6DFTfi
+    - auth: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.31 MB/s"
+      password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: 9c536390-t55r40-t94bdb-mrtr.us.hyhuawei.com
+      sni: 9c536390-t55r40-t94bdb-mrtr.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.02 MB/s"
       password: S5wfXiPV4T
       port: 31148
       server: 74.48.204.238
       skip-cert-verify: true
       tfo: false
       type: hysteria2
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 26.36 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.68 MB/s"
+      password: NCrldD
+      port: 52559
+      server: 107.172.82.41
+      type: http
+      username: kZXMC3Z1
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 31.88 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.176.123.151
+      type: ss
+    - auth: 4e084535-bd62-458b-84a2-a0dc57c957aa
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.45 MB/s"
+      password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+      port: 13741
+      server: us2083.yydzx.xyz
+      skip-cert-verify: false
+      sni: us2083.yydzx.xyz
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.25 MB/s"
       password: JOh7tQHdp8
       port: 48361
       server: 191.96.11.107
       skip-cert-verify: true
       tfo: false
       type: hysteria2
-    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 10.88 MB/s"
+    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 12.56 MB/s"
       password: b443f03b-f189-4fa1-85b1-c21f3256c06d
       port: 30002
       server: hinet-tw-01-ddns.sakuraikaede.com
