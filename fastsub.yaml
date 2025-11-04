@@ -1,15 +1,8 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 78.44 MB/s"
-      password: S5wfXiPV4T
-      port: 31148
-      server: 74.48.204.238
-      skip-cert-verify: true
-      tfo: false
-      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.19 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 90.71 MB/s"
       port: 443
       reality-opts:
         public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
@@ -21,23 +14,21 @@ proxies:
       type: vless
       udp: true
       uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.49 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.63 MB/s"
+      password: S5wfXiPV4T
+      port: 31148
+      server: 74.48.204.238
       skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 16.56 MB/s"
+      tfo: false
+      type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 26.36 MB/s"
       password: JOh7tQHdp8
       port: 48361
       server: 191.96.11.107
       skip-cert-verify: true
       tfo: false
       type: hysteria2
-    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 15.27 MB/s"
+    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 10.88 MB/s"
       password: b443f03b-f189-4fa1-85b1-c21f3256c06d
       port: 30002
       server: hinet-tw-01-ddns.sakuraikaede.com
