@@ -1,38 +1,20 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.21 MB/s"
-      password: kHGhcI9rmL
-      port: 19846
-      server: 38.180.192.61
-      type: http
-      username: PAdt6DFTfi
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.91 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.71 MB/s"
       password: NCrldD
       port: 52559
       server: 107.172.82.41
       type: http
       username: kZXMC3Z1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.09 MB/s"
+    - country: ' HK'
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.62 MB/s"
+      password: BxceQaOe
       port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
-      skip-cert-verify: false
-      tls: true
-      type: vless
+      server: 58.152.53.3
+      skip-cert-verify: true
+      type: trojan
       udp: true
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.37 MB/s"
-      password: Mr5iRiLPtc
-      port: 58119
-      server: 82.152.64.40
-      type: http
-      username: GVWMEcXne6
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 19.06 MB/s"
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 16.11 MB/s"
       password: JOh7tQHdp8
       port: 48361
       server: 191.96.11.107
