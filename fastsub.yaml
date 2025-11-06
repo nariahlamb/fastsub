@@ -1,11 +1,25 @@
 proxy-providers: {}
 proxies:
-    - auth: ce481c6e-f4c8-11ef-bbb0-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.86 MB/s"
-      password: ce481c6e-f4c8-11ef-bbb0-f23c91cfbbc9
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.33 MB/s"
+      password: NCrldD
+      port: 52559
+      server: 107.172.82.41
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.04 MB/s"
+      password: kHGhcI9rmL
+      port: 19846
+      server: 38.180.192.61
+      type: http
+      username: PAdt6DFTfi
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.56 MB/s"
+      network: ws
+      password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
       port: 443
-      ports: 30000-60000
-      server: f30bacdf-t5d5s0-t6z0et-1t60o.hk1.hyhuawei.com
-      sni: f30bacdf-t5d5s0-t6z0et-1t60o.hk1.hyhuawei.com
-      type: hysteria2
+      server: 104.21.14.54
+      skip-cert-verify: true
+      sni: 6666YHjU.777159.xYz
+      type: trojan
       udp: true
+      ws-opts:
+        path: /dilyfCPEmLvYr5hYXD
