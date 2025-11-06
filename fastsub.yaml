@@ -1,23 +1,57 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.27 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 77.54 MB/s"
       password: NCrldD
       port: 52559
       server: 107.172.82.41
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.17 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.04 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - country: ' HK'
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.59 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.53.3
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      country: ZZ
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.75 MB/s"
+      network: ws
+      port: 443
+      server: wto.org
+      servername: floral-vol-lexington-liverpool.trycloudflare.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
+      ws-opts:
+        headers:
+            HOST: floral-vol-lexington-liverpool.trycloudflare.com
+        path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm?ed=2048
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 17.54 MB/s"
       password: JOh7tQHdp8
       port: 48361
       server: 191.96.11.107
       skip-cert-verify: true
       tfo: false
       type: hysteria2
-    - name: "\U0001F1F9\U0001F1FC TW | ⬇️ 14.89 MB/s"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      tls: true
-      type: http
-      udp: true
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.86 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
