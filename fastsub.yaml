@@ -1,21 +1,15 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.95 MB/s"
-      password: NCrldD
-      port: 52559
-      server: 107.172.82.41
-      type: http
-      username: kZXMC3Z1
     - cipher: aes-256-cfb
       country: ' US'
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.56 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 98.78 MB/s"
       password: amazonskr05
       port: 443
       server: 13.59.110.241
       type: ss
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.41 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 81.92 MB/s"
       port: 443
       reality-opts:
         public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
@@ -27,28 +21,17 @@ proxies:
       type: vless
       udp: true
       uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.21 MB/s"
+      password: NCrldD
+      port: 52559
+      server: 107.172.82.41
+      type: http
+      username: kZXMC3Z1
     - alterId: 0
       cipher: auto
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.54 MB/s"
-      network: ws
-      port: 2096
-      server: dv4.789900.xyz
-      servername: dv4.789900.xyz
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
-      ws-opts:
-        headers:
-            Host: dv4.789900.xyz
-        path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
-    - alterId: 0
-      cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.99 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.73 MB/s"
       network: ws
       port: 2087
       server: lv4.789900.xyz
@@ -63,10 +46,27 @@ proxies:
         path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
     - alterId: 0
       cipher: auto
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.69 MB/s"
+      network: ws
+      port: 2096
+      server: dv4.789900.xyz
+      servername: dv4.789900.xyz
+      tls: true
+      type: vmess
+      udp: true
+      uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+      ws-opts:
+        headers:
+            Host: dv4.789900.xyz
+        path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+    - alterId: 0
+      cipher: auto
       country: US
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.11 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 10.02 MB/s"
       network: ws
       port: 443
       server: wto.org
