@@ -1,9 +1,24 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      country: ' GB'
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.82 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 3.8.172.214
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 77.83 MB/s"
+      password: NCrldD
+      port: 52559
+      server: 107.172.82.41
+      type: http
+      username: kZXMC3Z1
+    - cipher: chacha20-ietf-poly1305
+      country: ' NL'
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.02 MB/s"
+      password: QCXDxuDlTTMD7jtgHUjIoj
+      port: 8080
+      server: 151.242.251.131
       type: ss
+    - auth: dongtaiwang.com
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 17.10 MB/s"
+      password: dongtaiwang.com
+      port: 50066
+      server: 51.158.218.2
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+      udp: true
