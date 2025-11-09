@@ -1,24 +1,18 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 77.83 MB/s"
-      password: NCrldD
-      port: 52559
-      server: 107.172.82.41
-      type: http
-      username: kZXMC3Z1
-    - cipher: chacha20-ietf-poly1305
-      country: ' NL'
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.02 MB/s"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 151.242.251.131
-      type: ss
-    - auth: dongtaiwang.com
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 17.10 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.19 MB/s"
       password: dongtaiwang.com
-      port: 50066
-      server: 51.158.218.2
+      port: 5355
+      server: 163.172.21.105
       skip-cert-verify: true
       sni: www.bing.com
       type: hysteria2
-      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.81 MB/s"
+      password: <password>
+      port: 8443
+      server: 17358c56-t5bb40-t6tn6w-jjv2.hkt.cdnhuawei.com
+      skip-cert-verify: true
+      sni: 17358c56-t5bb40-t6tn6w-jjv2.hkt.cdnhuawei.com
+      tls: true
+      type: http
+      username: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
