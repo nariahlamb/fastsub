@@ -1,7 +1,58 @@
 proxy-providers: {}
 proxies:
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.34 MB/s"
+      port: 10922
+      reality-opts:
+        public-key: BWGB4WcFMvsxbu7rfyGTqVSWVlxNUz0HbmotfvlXuxg
+        short-id: d2900d
+      server: magnataur.fonixapp.org
+      servername: ilovepdf.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 31d35cbe-92d1-44cd-9991-e58d00499fb2
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.94 MB/s"
+      network: ws
+      port: 11586
+      server: 158.178.247.237
+      servername: mot.luyuju.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: mot.luyuju.dpdns.org
+        path: /@Marisa_kristi
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.81 MB/s"
+      network: ws
+      port: 11586
+      server: 158.178.247.237
+      servername: mot.luyuju.dpdns.org
+      skip-cert-verify: true
+      tfo: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: mot.luyuju.dpdns.org
+        path: /@Marisa_kristi
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.93 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - fast-open: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.17 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.65 MB/s"
       password: 9ec830fd-79da-4706-a964-cb227d7198db
       port: 33333
       server: 135.148.82.248
