@@ -1,7 +1,25 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 44.37 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.130.251.29
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 44.04 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.130.251.29
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 43.00 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.130.251.29
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.45 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.30 MB/s"
       network: ws
       port: 443
       server: cf.090227.xyz
@@ -13,23 +31,8 @@ proxies:
         headers:
             Host: guang-page.asong.eu.org
         path: /?ed=2048
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.48 MB/s"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 13.39.172.220
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.92 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.10 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.08 MB/s"
       network: ws
       port: 443
       server: cf.0sm.com
@@ -41,11 +44,243 @@ proxies:
         headers:
             Host: guang-page.asong.eu.org
         path: /?ed=2048
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.28 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.82 MB/s"
+      network: ws
+      port: 443
+      server: cf.090227.xyz
+      servername: guang-page.asong.eu.org
       tls: true
-      type: http
-      username: test
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.63 MB/s"
+      network: ws
+      port: 443
+      server: guang-page.asong.eu.org
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.52 MB/s"
+      network: ws
+      port: 443
+      server: cf.090227.xyz
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.04 MB/s"
+      network: ws
+      port: 443
+      server: cfip.1323123.xyz
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 35.90 MB/s"
+      network: ws
+      port: 443
+      server: cf.0sm.com
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.87 MB/s"
+      network: ws
+      port: 443
+      server: cfip.1323123.xyz
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.30 MB/s"
+      network: ws
+      port: 443
+      server: cf.0sm.com
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.06 MB/s"
+      network: ws
+      port: 443
+      server: cfip.1323123.xyz
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 26.50 MB/s"
+      port: 5228
+      server: dir.lightnright.com
+      tls: false
+      type: vmess
+      uuid: 6202ab997f570a6a180ae980b41f5789
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.18 MB/s"
+      network: ws
+      port: 443
+      server: ger.americanexpressbanks.com
+      servername: ger.americanexpressbanks.com
+      tls: true
+      type: vless
+      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
+      ws-opts:
+        headers:
+            Host: ger.americanexpressbanks.com
+        path: /xYzAbc123
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.51 MB/s"
+      network: tcp
+      port: 443
+      server: vp8.myphotomoments.ir
+      tls: false
+      type: vless
+      uuid: Warpi-Free-Vpn-In-GooglePlay
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.10 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 23.58 MB/s"
+      port: 5228
+      server: dir.lightnright.com
+      tls: false
+      type: vmess
+      uuid: 6202ab997f570a6a180ae980b41f5789
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.06 MB/s"
+      network: ws
+      port: 443
+      server: guang-page.asong.eu.org
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - auth: 6202ab997f570a6a180ae980b41f5789
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 20.62 MB/s"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+      password: 6202ab997f570a6a180ae980b41f5789
+      port: 989
+      server: dd.openaccessnode.com
+      skip-cert-verify: false
+      sni: dd.ircybersec.org
+      type: hysteria2
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.87 MB/s"
+      network: ws
+      port: 443
+      server: ger.americanexpressbanks.com
+      servername: ger.americanexpressbanks.com
+      tls: true
+      type: vless
+      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
+      ws-opts:
+        headers:
+            Host: ger.americanexpressbanks.com
+        path: /xYzAbc123
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.01 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+        short-id: 07e904766d29b958
+      server: 77.110.119.225
+      servername: st.ozone.ru
+      tls: true
+      type: vless
+      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.82 MB/s"
+      network: ws
+      port: 443
+      server: cf.090227.xyz
+      servername: guang-page.asong.eu.org
+      tls: true
+      type: vless
+      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      ws-opts:
+        headers:
+            Host: guang-page.asong.eu.org
+        path: /?ed=2048
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.68 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+        short-id: 07e904766d29b958
+      server: 77.110.119.225
+      servername: st.ozone.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.13 MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
+      ws-opts:
+        headers:
+            Host: hkt.gotochinatown.net
+        path: /
