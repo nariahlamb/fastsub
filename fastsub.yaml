@@ -1,89 +1,27 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.68 MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 65.40 MB/s"
       network: ws
-      port: 443
-      server: 104.18.46.50
-      servername: pq-jps.pqvip.top
-      tls: true
-      type: vless
-      udp: true
-      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
+      port: 36143
+      server: 54.184.195.96
+      tls: false
+      type: vmess
+      uuid: 95eaf622-f93e-4852-d805-e46b5120a0c6
       ws-opts:
-        headers:
-            Host: pq-jps.pqvip.top
-        path: /pq/jp1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.43 MB/s"
-      network: ws
-      port: 443
-      server: 104.18.46.50
-      servername: pq-jps.pqvip.top
-      tls: true
-      type: vless
-      udp: true
-      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
-      ws-opts:
-        headers:
-            Host: pq-jps.pqvip.top
-        path: /pq/jp1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.75 MB/s"
-      network: ws
-      port: 443
-      server: 104.18.46.50
-      servername: pq-jps.pqvip.top
-      tls: true
-      type: vless
-      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
-      ws-opts:
-        headers:
-            Host: pq-jps.pqvip.top
-        path: /pq/jp1
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.78 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+        path: /
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.69 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
       skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - auth: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.54 MB/s"
-      obfs: salamander
-      obfs-password: DAnBPK1GxOdklGbv
-      password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
-      port: 20000
-      server: mg4.mutoujs.top
-      skip-cert-verify: false
+      sni: du.wish.ml
       type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.15 MB/s"
-      network: tcp
-      port: 28924
-      reality-opts:
-        public-key: 4Qz4G28t9qnfp9i8prlehAmCaqI7w56OKuHgpfytXH8
-        short-id: 5ff1a443
-      server: beast-masters.fonixapp.org
-      servername: expedia.com
-      tls: true
-      type: vless
-      uuid: 2f79c61d-043b-421f-860e-4924246609e1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.14 MB/s"
-      network: tcp
-      port: 31502
-      reality-opts:
-        public-key: oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM
-        short-id: e1814a
-      server: silverzebra.fonixapp.org
-      servername: marmiton.org
-      tls: true
-      type: vless
-      uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.13 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.97 MB/s"
       network: tcp
       port: 38390
       reality-opts:
@@ -95,71 +33,135 @@ proxies:
       type: vless
       uuid: f36312ed-c887-48a5-a803-22ca16a153c5
     - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.72 MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.80 MB/s"
       network: tcp
-      port: 443
-      server: vp8.myphotomoments.ir
-      tls: false
-      type: vless
-      uuid: Warpi-Free-Vpn-In-GooglePlay
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.46 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 18.196.78.41
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 9MB/s"
-      network: tcp
-      port: 443
-      server: vp5.myphotomoments.ir
-      tls: false
-      type: vless
-      uuid: Warpi-Free-Vpn-In-GooglePlay
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.55 MB/s"
-      network: tcp
-      port: 443
-      server: vp10.myphotomoments.ir
-      tls: false
-      type: vless
-      uuid: Warpi-Free-Vpn-In-GooglePlay
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.02 MB/s"
-      network: ws
-      port: 443
-      server: ger.americanexpressbanks.com
-      servername: ger.americanexpressbanks.com
+      port: 31502
+      reality-opts:
+        public-key: oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM
+        short-id: e1814a
+      server: silverzebra.fonixapp.org
+      servername: marmiton.org
       tls: true
       type: vless
-      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
-      ws-opts:
-        headers:
-            Host: ger.americanexpressbanks.com
-        path: /xYzAbc123
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.56 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 18.196.78.41
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
       udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.94 MB/s"
-      network: tcp
-      port: 443
-      server: vp8.myphotomoments.ir
-      tls: false
-      type: vless
-      uuid: Warpi-Free-Vpn-In-GooglePlay
+      uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.74 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 15.79 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.32 MB/s"
+      network: tcp
+      port: 38390
+      reality-opts:
+        public-key: a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8
+        short-id: 2b
+      server: tuskar.fonixapp.org
+      servername: smallpdf.com
+      tls: true
+      type: vless
+      uuid: f36312ed-c887-48a5-a803-22ca16a153c5
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.76 MB/s"
+      network: tcp
+      port: 31502
+      reality-opts:
+        public-key: oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM
+        short-id: e1814a
+      server: silverzebra.fonixapp.org
+      servername: marmiton.org
+      tls: true
+      type: vless
+      uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.75 MB/s"
+      password: nvBDKXi8RA
+      port: 17834
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: yesbBMXM0W
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.72 MB/s"
+      password: hlnFD6n2nD
+      port: 10562
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: HErh4cnSDc
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.67 MB/s"
+      password: ZDLaEnmGtj
+      port: 47041
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: BHhU6Phzqe
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.65 MB/s"
+      password: Jpc00Nqr4E
+      port: 13651
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: H1FxNPkQk3
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.54 MB/s"
+      password: B0rVqwHLzf
+      port: 27398
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: uaDm9OUgEt
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.76 MB/s"
+      password: 2AnVA70aBf
+      port: 59494
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: eB1m7UWlDq
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.57 MB/s"
+      password: aKhHcCnpnz
+      port: 10177
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: 0GfdwOTvGp
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.53 MB/s"
+      network: ws
+      port: 20255
+      server: 166.88.95.249
+      tls: false
+      type: vmess
+      uuid: ace9cb6f-282c-4379-98be-5c9429aeaff7
+      ws-opts:
+        path: /arki?ed=2048
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.37 MB/s"
+      network: ws
+      port: 45212
+      server: 166.88.95.249
+      tls: false
+      type: vmess
+      uuid: 25407661-5308-4389-87be-768a29a2b628
+      ws-opts:
+        path: /arki?ed=2048
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.09 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 18.21 MB/s"
       network: tcp
       port: 122
       reality-opts:
@@ -170,45 +172,32 @@ proxies:
       tls: true
       type: vless
       uuid: 21071ee3-ad74-f168-9db7-8fd716c44fa6
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.75 MB/s"
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.08 MB/s"
       network: ws
-      port: 443
-      server: ger.americanexpressbanks.com
-      servername: ger.americanexpressbanks.com
-      tls: true
-      type: vless
-      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
+      port: 3721
+      server: 8.210.134.183
+      tls: false
+      type: vmess
+      uuid: e72f5c6b-220f-40b3-a115-2d81473458cf
       ws-opts:
-        headers:
-            Host: ger.americanexpressbanks.com
-        path: /xYzAbc123
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 14.62 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
-      skip-cert-verify: true
-      type: hysteria2
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.59 MB/s"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.196.78.41
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.75 MB/s"
+        path: /
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.52 MB/s"
+      password: gJldbLOZw6
+      port: 53048
+      server: 15.168.8.205
+      tls: false
+      type: http
+      username: EUSqFJg103
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.70 MB/s"
       network: ws
-      port: 42841
-      server: 43.165.190.11
-      servername: mot.saghv.filegear-sg.me
-      tls: true
-      type: vless
-      uuid: 00000000-0000-4000-8000-000000000000
+      port: 8080
+      server: 8.218.199.111
+      tls: false
+      type: vmess
+      uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
       ws-opts:
-        headers:
-            Host: mot.saghv.filegear-sg.me
-        path: /@Marisa_kristi
+        path: /
