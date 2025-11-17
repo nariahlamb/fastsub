@@ -1,358 +1,165 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 65.09 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 64.37 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 62.45 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE
-        short-id: 097de35e52ec5256
-      server: 77.110.127.105
-      servername: st.ozone.ru
-      tls: true
-      type: vless
-      uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 58.93 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.84 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 52.94 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 50.88 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 49.13 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.16 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.13 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.84 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 140.238.137.165
-      skip-cert-verify: true
-      sni: du.wish.ml
-      type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.15 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.84 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.68 MB/s"
       network: ws
       port: 443
-      server: cf.0sm.com
-      servername: guang-page.asong.eu.org
-      tls: true
-      type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-      ws-opts:
-        headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 36.79 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.78 MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.57 MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 36.31 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 36.28 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.11 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.06 MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.06 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 35.87 MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 35.79 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 35.57 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 35.56 MB/s"
-      password: o5osZg269v5zHpYjr1xY9s
-      port: 8080
-      server: 151.242.251.137
-      type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.71 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
+      server: 104.18.46.50
+      servername: pq-jps.pqvip.top
       tls: true
       type: vless
       udp: true
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
+      ws-opts:
+        headers:
+            Host: pq-jps.pqvip.top
+        path: /pq/jp1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.43 MB/s"
+      network: ws
+      port: 443
+      server: 104.18.46.50
+      servername: pq-jps.pqvip.top
+      tls: true
+      type: vless
+      udp: true
+      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
+      ws-opts:
+        headers:
+            Host: pq-jps.pqvip.top
+        path: /pq/jp1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.75 MB/s"
+      network: ws
+      port: 443
+      server: 104.18.46.50
+      servername: pq-jps.pqvip.top
+      tls: true
+      type: vless
+      uuid: ec52eb59-a9d6-4693-bed4-490f2b244195
+      ws-opts:
+        headers:
+            Host: pq-jps.pqvip.top
+        path: /pq/jp1
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.78 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - auth: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.54 MB/s"
+      obfs: salamander
+      obfs-password: DAnBPK1GxOdklGbv
+      password: 7ae1a8a7-b025-4bac-8949-9b1e45926a9a
+      port: 20000
+      server: mg4.mutoujs.top
+      skip-cert-verify: false
+      type: hysteria2
     - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.19 MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.15 MB/s"
+      network: tcp
+      port: 28924
+      reality-opts:
+        public-key: 4Qz4G28t9qnfp9i8prlehAmCaqI7w56OKuHgpfytXH8
+        short-id: 5ff1a443
+      server: beast-masters.fonixapp.org
+      servername: expedia.com
+      tls: true
+      type: vless
+      uuid: 2f79c61d-043b-421f-860e-4924246609e1
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.14 MB/s"
+      network: tcp
+      port: 31502
+      reality-opts:
+        public-key: oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM
+        short-id: e1814a
+      server: silverzebra.fonixapp.org
+      servername: marmiton.org
+      tls: true
+      type: vless
+      uuid: b20c12e7-f071-4829-94e7-17dc4e43a37a
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.13 MB/s"
+      network: tcp
+      port: 38390
+      reality-opts:
+        public-key: a3usSjtSaH2XGzG5oi3oqPYKlhsJOmmJYI4nitX1rn8
+        short-id: 2b
+      server: tuskar.fonixapp.org
+      servername: smallpdf.com
+      tls: true
+      type: vless
+      uuid: f36312ed-c887-48a5-a803-22ca16a153c5
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.72 MB/s"
       network: tcp
       port: 443
       server: vp8.myphotomoments.ir
       tls: false
       type: vless
       uuid: Warpi-Free-Vpn-In-GooglePlay
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 30.10 MB/s"
-      port: 5228
-      server: dir.lightnright.com
-      tls: false
-      type: vmess
-      uuid: 6202ab997f570a6a180ae980b41f5789
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.46 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 18.196.78.41
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.85 MB/s"
-      network: ws
-      port: 443
-      server: cfip.1323123.xyz
-      servername: guang-page.asong.eu.org
-      tls: true
-      type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-      ws-opts:
-        headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 28.46 MB/s"
-      port: 5228
-      server: dd.openaccessnode.com
-      tls: false
-      type: vmess
-      uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.44 MB/s"
-      network: ws
-      port: 443
-      server: ger.americanexpressbanks.com
-      servername: ger.americanexpressbanks.com
-      tls: true
-      type: vless
-      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
-      ws-opts:
-        headers:
-            Host: ger.americanexpressbanks.com
-        path: /xYzAbc123
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.61 MB/s"
-      network: ws
-      port: 443
-      server: cf.090227.xyz
-      servername: guang-page.asong.eu.org
-      tls: true
-      type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-      ws-opts:
-        headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - alpn:
-        - h3%2Ch2%2Chttp%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.13 MB/s"
-      network: ws
-      port: 443
-      server: ger.americanexpressbanks.com
-      servername: ger.americanexpressbanks.com
-      tls: true
-      type: vless
-      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
-      ws-opts:
-        headers:
-            Host: ger.americanexpressbanks.com
-        path: /xYzAbc123
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.81 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 9MB/s"
       network: tcp
       port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
-      tls: true
+      server: vp5.myphotomoments.ir
+      tls: false
       type: vless
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+      uuid: Warpi-Free-Vpn-In-GooglePlay
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.75 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.55 MB/s"
+      network: tcp
+      port: 443
+      server: vp10.myphotomoments.ir
+      tls: false
+      type: vless
+      uuid: Warpi-Free-Vpn-In-GooglePlay
+    - alpn:
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.02 MB/s"
       network: ws
       port: 443
-      server: cf.0sm.com
-      servername: guang-page.asong.eu.org
+      server: ger.americanexpressbanks.com
+      servername: ger.americanexpressbanks.com
       tls: true
       type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
       ws-opts:
         headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.00 MB/s"
-      network: ws
-      port: 443
-      server: cf.090227.xyz
-      servername: guang-page.asong.eu.org
-      tls: true
-      type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-      ws-opts:
-        headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.97 MB/s"
-      network: ws
-      port: 443
-      server: cfip.1323123.xyz
-      servername: guang-page.asong.eu.org
-      tls: true
-      type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
-      ws-opts:
-        headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 19.84 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
+            Host: ger.americanexpressbanks.com
+        path: /xYzAbc123
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.56 MB/s"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 18.196.78.41
       skip-cert-verify: true
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 19.80 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
-      skip-cert-verify: true
-      type: hysteria2
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.94 MB/s"
+      network: tcp
+      port: 443
+      server: vp8.myphotomoments.ir
+      tls: false
+      type: vless
+      uuid: Warpi-Free-Vpn-In-GooglePlay
     - client-fingerprint: firefox
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 19.59 MB/s"
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 15.79 MB/s"
       network: tcp
       port: 122
       reality-opts:
@@ -363,103 +170,45 @@ proxies:
       tls: true
       type: vless
       uuid: 21071ee3-ad74-f168-9db7-8fd716c44fa6
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 19.51 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
-      skip-cert-verify: true
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 19.46 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
-      skip-cert-verify: true
-      type: hysteria2
-    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 18.91 MB/s"
-      password: 338ce171-d764-4610-8fd5-6688b0d321f0
-      port: 30102
-      server: 132.226.162.10
-      skip-cert-verify: true
-      type: hysteria2
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.81 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.51 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - auth: 6202ab997f570a6a180ae980b41f5789
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 16.29 MB/s"
-      obfs: salamander
-      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-      password: 6202ab997f570a6a180ae980b41f5789
-      port: 989
-      server: dd.openaccessnode.com
-      skip-cert-verify: false
-      sni: dd.ircybersec.org
-      type: hysteria2
     - alpn:
-        - h3
-      auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.08 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.54 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
-      tls: true
-      type: vless
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.35 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.34 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.37 MB/s"
+        - h3%2Ch2%2Chttp%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.75 MB/s"
       network: ws
       port: 443
-      server: cf.090227.xyz
-      servername: guang-page.asong.eu.org
+      server: ger.americanexpressbanks.com
+      servername: ger.americanexpressbanks.com
       tls: true
       type: vless
-      uuid: e9c198e7-ccec-49a8-b558-8688aa8ec515
+      uuid: 6405f134-503f-40b3-aea9-cc92fa77b5ac
       ws-opts:
         headers:
-            Host: guang-page.asong.eu.org
-        path: /?ed=2048
+            Host: ger.americanexpressbanks.com
+        path: /xYzAbc123
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 14.62 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 132.226.162.10
+      skip-cert-verify: true
+      type: hysteria2
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.59 MB/s"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.196.78.41
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 12.75 MB/s"
+      network: ws
+      port: 42841
+      server: 43.165.190.11
+      servername: mot.saghv.filegear-sg.me
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: mot.saghv.filegear-sg.me
+        path: /@Marisa_kristi
