@@ -1,217 +1,211 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 26.26 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.247.223.103
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 89.34 MB/s"
+      password: dada0801
+      port: 80
+      server: 44.242.193.226
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 25.13 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.77.192.158
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.04 MB/s"
+      password: dada0801
+      port: 80
+      server: 44.242.193.226
       type: ss
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.07 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: jp3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.96 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: jp3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.69 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.69 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: jp5.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.42 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: jp4.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.14 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.80 MB/s"
-      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      port: 17712
-      server: jp9.dexlos.com
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.62 MB/s"
-      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      port: 7940
-      server: jp4.dexlos.com
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - http-opts:
-        headers:
-            Host:
-                - varzesh3.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.10 MB/s"
-      network: http
-      port: 33801
-      server: m41a.vip784.com
-      tls: false
-      type: vless
-      uuid: 423a02e9-2e50-4609-9ea7-572b64226afe
-    - http-opts:
-        headers:
-            Host:
-                - varzesh3.ir
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.59 MB/s"
-      network: http
-      port: 33801
-      server: m41a.vip784.com
-      tls: false
-      type: vless
-      uuid: 423a02e9-2e50-4609-9ea7-572b64226afe
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.17 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 18.197.20.26
-      type: ss
-    - auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 22.02 MB/s"
-      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      port: 11591
-      server: jp6.dexlos.com
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 19.57 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 54.217.49.39
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.36 MB/s"
+      password: dada0801
+      port: 80
+      server: 44.242.193.226
       type: ss
     - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.50 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.32 MB/s"
       password: 338ce171-d764-4610-8fd5-6688b0d321f0
       port: 30102
       server: 140.238.137.165
       skip-cert-verify: true
       sni: du.wish.ml
       type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 18.94 MB/s"
-      network: tcp
-      port: 31203
-      reality-opts:
-        public-key: tN1ZYDEnM0t_V59FGQSpiq56sOpDo8JZ25Epgg-Z9kg
-        short-id: ab12cd34
-      server: 45.134.12.47
-      servername: vt-1.ozone.ru
-      tls: true
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.76 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.45 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 33.40 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.65 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.33 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.88 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.53 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 28.59 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.77.192.158
+      type: ss
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.46 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 140.238.137.165
+      skip-cert-verify: true
+      sni: du.wish.ml
+      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 28.46 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.247.223.103
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 27.92 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.247.223.103
+      type: ss
+    - http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.18 MB/s"
+      network: http
+      port: 33801
+      server: m41a.vip784.com
+      tls: false
       type: vless
-      uuid: 87d1f4b2-83e7-4125-8d62-5d376871fd41
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.59 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: de1.oomz.ru
+      uuid: 423a02e9-2e50-4609-9ea7-572b64226afe
+    - http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.12 MB/s"
+      network: http
+      port: 33801
+      server: m41a.vip784.com
+      tls: false
+      type: vless
+      uuid: 423a02e9-2e50-4609-9ea7-572b64226afe
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.67 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.197.20.26
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.72 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.197.20.26
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 23.12 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 54.247.223.103
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.03 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.40 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: de1.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.05 MB/s"
-      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      port: 11591
-      server: jp6.dexlos.com
-      skip-cert-verify: true
-      type: hysteria2
-      udp: true
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.67 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: sg3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.36 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: jp6.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
-    - auth: e7965e64-e001-4e8c-8273-39c61ff4a094
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.26 MB/s"
-      password: e7965e64-e001-4e8c-8273-39c61ff4a094
-      port: 30000
-      server: sg3.oomz.ru
-      skip-cert-verify: true
-      sni: bing.com
-      type: hysteria2
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.25 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 63.180.174.194
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.63 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.197.20.26
+      type: ss
     - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 13.05 MB/s"
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 16.87 MB/s"
       password: 338ce171-d764-4610-8fd5-6688b0d321f0
       port: 30102
       server: 132.226.162.10
       skip-cert-verify: true
       type: hysteria2
     - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 12.57 MB/s"
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 16.84 MB/s"
       password: 338ce171-d764-4610-8fd5-6688b0d321f0
       port: 30102
       server: 132.226.162.10
       skip-cert-verify: true
       type: hysteria2
-    - auth: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.58 MB/s"
-      password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-      port: 15481
-      server: jp8.dexlos.com
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 16.58 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 132.226.162.10
       skip-cert-verify: true
       type: hysteria2
-      udp: true
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 16.47 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 132.226.162.10
+      skip-cert-verify: true
+      type: hysteria2
+    - auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 16.38 MB/s"
+      password: 338ce171-d764-4610-8fd5-6688b0d321f0
+      port: 30102
+      server: 132.226.162.10
+      skip-cert-verify: true
+      type: hysteria2
