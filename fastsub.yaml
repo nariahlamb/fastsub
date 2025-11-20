@@ -1,26 +1,558 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.33 MB/s"
-      network: tcp
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 109.96 MB/s"
+      password: dada0801
+      port: 80
+      server: 35.166.231.123
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 65.44 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11278
+      server: us6.dexlos.com
+      skip-cert-verify: false
+      sni: us6.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E6\U0001F1FA AU | ⬇️ 44.50 MB/s"
+      password: AA51kVovHrYCEFntBjOFfP
+      port: 8443
+      server: 185.234.145.250
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.07 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9211
+      server: us5.dexlos.com
+      skip-cert-verify: false
+      sni: us5.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 25.43 MB/s"
+      password: dada0801
+      port: 80
+      server: 54.180.234.116
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 25.09 MB/s"
+      password: amazonskr05
       port: 443
-      reality-opts:
-        public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
-        short-id: 07e904766d29b958
-      server: 77.110.119.225
-      servername: st.ozone.ru
-      tls: true
-      type: vless
-      uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-    - alpn:
-        - h3
-      auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.19 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
+      server: 3.254.86.168
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.68 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13735
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.62 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9001
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.58 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11466
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.56 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9148
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.54 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15908
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.15 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7794
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.13 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7835
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.12 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15888
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.10 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11426
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.09 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7834
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.02 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7254
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.96 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9949
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.95 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9529
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.94 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7181
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.94 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9585
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.94 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13174
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.85 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7643
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.82 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7977
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.80 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9838
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.79 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11885
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.69 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15639
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.68 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9069
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.66 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7384
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.65 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      sni: www.bing.com
+      tls: true
+      type: http
+      username: test
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.62 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13781
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.57 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9933
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.57 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 7715
+      server: jp4.dexlos.com
+      skip-cert-verify: false
+      sni: jp4.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.56 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15879
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.55 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15242
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 23.55 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 3.252.162.214
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.55 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15133
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.53 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9048
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.50 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15128
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.50 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11067
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.46 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11137
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.44 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15498
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.43 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13420
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 23.41 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 34.245.193.205
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.40 MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13225
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 251 | ⬇️ 19MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11263
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE 023 | ⬇️ 10MB/s"
+      network: tcp
+      port: 3002
+      server: lovetea1.dastur-amuzesh.ir
+      tls: false
+      type: vless
+      uuid: 323e66b8-9214-487f-9499-8b5bcc68c3f4
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 230 | ⬇️ 15MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15317
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 218 | ⬇️ 14MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15912
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 234 | ⬇️ 27MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11389
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 250 | ⬇️ 21MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13165
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 254 | ⬇️ 16MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13577
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F3\U0001F1F1 NL 171 | ⬇️ 6MB/s"
+      password: yprgZbB7xDL4PSvE4wJU4m
+      port: 53672
+      server: 81.90.29.126
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 260 | ⬇️ 20MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13375
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE 017 | ⬇️ 8MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.203.127.31
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 233 | ⬇️ 20MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13604
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 241 | ⬇️ 12MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 13699
+      server: jp7.dexlos.com
+      skip-cert-verify: false
+      sni: jp7.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 225 | ⬇️ 22MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11233
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 220 | ⬇️ 19MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9767
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 215 | ⬇️ 28MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15493
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 219 | ⬇️ 24MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 9318
+      server: jp5.dexlos.com
+      skip-cert-verify: false
+      sni: jp5.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 216 | ⬇️ 19MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15360
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1EE\U0001F1EA IE 031 | ⬇️ 3MB/s"
+      password: amazonskr05
+      port: 443
+      server: 18.203.127.31
+      type: ss
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 248 | ⬇️ 16MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 15875
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+    - auth: D844AF30-5BCD-419E-94D5-3417C648366A
+      name: "\U0001F1EF\U0001F1F5 JP 266 | ⬇️ 23MB/s"
+      password: D844AF30-5BCD-419E-94D5-3417C648366A
+      port: 11981
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
       type: hysteria2
       udp: true
