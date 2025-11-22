@@ -1,85 +1,7 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 144.09 MB/s"
-      network: ws
-      port: 443
-      server: 104.19.40.48
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 111.32 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.153.91
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 101.61 MB/s"
-      network: ws
-      port: 443
-      server: 172.64.229.160
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 99.63 MB/s"
-      network: ws
-      port: 443
-      server: 104.194.86.235
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 96.44 MB/s"
-      network: ws
-      port: 443
-      server: 198.41.209.186
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
-    - client-fingerprint: random
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 34.71 MB/s"
-      network: ws
-      port: 443
-      server: 172.67.64.197
-      servername: 0857fd70.ba73fe85.netlib.re
-      tls: true
-      type: vless
-      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-      ws-opts:
-        headers:
-            Host: 0857fd70.ba73fe85.netlib.re
-        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.92 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.15 MB/s"
       network: ws
       port: 443
       server: support.zoom.us
@@ -91,3 +13,51 @@ proxies:
         headers:
             Host: eoo-hug.asong.eu.org
         path: /59d846f0
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.71 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.51 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.51 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.13 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.13 MB/s"
+      network: ws
+      port: 443
+      server: 77.221.157.32
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
