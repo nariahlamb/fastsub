@@ -1,7 +1,19 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.95 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.96 MB/s"
+      network: tcp
+      port: 34045
+      reality-opts:
+        public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
+        short-id: e8ab71d0
+      server: 172.236.109.230
+      servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
+      tls: true
+      type: vless
+      uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.44 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -14,7 +26,7 @@ proxies:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.47 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.02 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -26,18 +38,119 @@ proxies:
         headers:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.47 MB/s"
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 63.177.199.101
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.65 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      down: 500 Mbps
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 39.79 MB/s"
+      password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      port: 3790
+      ports: 3000-4000
+      server: jp2.dexlos.com
+      skip-cert-verify: false
+      sni: jp2.dexlos.com
+      type: hysteria2
+      udp: true
+      up: 40 Mbps
+    - client-fingerprint: random
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.75 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.153.91
+      servername: 0857fd70.ba73fe85.netlib.re
       tls: true
-      type: http
-      username: test
+      type: vless
+      uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+      ws-opts:
+        headers:
+            Host: 0857fd70.ba73fe85.netlib.re
+        path: /
+    - auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      down: 500 Mbps
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 39.65 MB/s"
+      password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      port: 11753
+      ports: 11000-12000
+      server: jp6.dexlos.com
+      skip-cert-verify: false
+      sni: jp6.dexlos.com
+      type: hysteria2
+      udp: true
+      up: 40 Mbps
+    - http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 38.59 MB/s"
+      network: http
+      port: 33801
+      server: m75a.vip784.com
+      tls: false
+      type: vless
+      uuid: 45b3b7e0-7847-4c35-affa-f776cf4759b9
+    - http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
+        method: GET
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 30.36 MB/s"
+      network: http
+      port: 33801
+      server: m86a.vip784.com
+      tls: false
+      type: vless
+      uuid: 346a072d-36d8-427f-912c-8756c1c53e1b
+    - http-opts:
+        headers:
+            Host:
+                - speedtest.net
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.91 MB/s"
+      network: http
+      port: 43300
+      server: mrperfect.site
+      tls: false
+      type: vless
+      udp: true
+      uuid: 969d2803-5d6f-4f86-b158-458ca38f4929
+    - auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      down: 500 Mbps
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.46 MB/s"
+      password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+      port: 15213
+      ports: 15000-16000
+      server: jp8.dexlos.com
+      skip-cert-verify: false
+      sni: jp8.dexlos.com
+      type: hysteria2
+      udp: true
+      up: 40 Mbps
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.72 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.30 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
