@@ -1,21 +1,33 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 60.02 MB/s"
-      network: tcp
-      port: 60552
-      reality-opts:
-        public-key: QLOalXjMmrryGjcV7-jMDyWD2E7I23r9A95nqaP0Pho
-        short-id: e62fec30f1a0167e
-      server: 81.19.140.202
-      servername: yandex.ru
-      tls: true
-      type: vless
-      uuid: ad6b2d75-1973-4c0d-8a5f-739f22628ffd
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.29 MB/s"
-      network: ws
+    - auth: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 73.20 MB/s"
+      password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
       port: 443
-      server: 193.124.18.13
+      ports: 30000-60000
+      server: 07781217-t6ngg0-tdps9l-155d9.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: 398e0d38-8649-11ef-959c-f23c9164ca5d
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.47 MB/s"
+      password: 398e0d38-8649-11ef-959c-f23c9164ca5d
+      port: 443
+      ports: 30000-60000
+      server: be8507c3-t6ngg0-t7k911-1gxvd.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.73 MB/s"
+      password: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: 7a7236a3-t6ngg0-tc2sod-1tizo.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.36 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -24,10 +36,26 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.86 MB/s"
-      network: ws
+    - auth: f860f2da-5035-11ed-bb74-f23c9164ca5d
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.06 MB/s"
+      password: f860f2da-5035-11ed-bb74-f23c9164ca5d
       port: 443
-      server: 193.124.18.13
+      ports: 30000-60000
+      server: 5fe40f6b-t6ngg0-tnt75r-1k8ga.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: 8da5616c-8566-11ee-9a21-f23c9164ca5d
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.69 MB/s"
+      password: 8da5616c-8566-11ee-9a21-f23c9164ca5d
+      port: 443
+      ports: 30000-60000
+      server: f429449d-t6ngg0-t7r6w5-1ppvf.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.67 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -36,19 +64,7 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.78 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.34 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.42 MB/s"
       network: ws
       port: 443
       server: 193.124.18.13
@@ -61,9 +77,94 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.95 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.15 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.02 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.68 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.77 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.71 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.37 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
     - client-fingerprint: edge
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 34.74 MB/s"
+      name: "\U0001F1E6\U0001F1F9 AT | ⬇️ 24.39 MB/s"
       network: tcp
       port: 22231
       reality-opts:
@@ -73,51 +174,53 @@ proxies:
       tls: true
       type: vless
       uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 33.61 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE
-        short-id: 67b44a5918dcd53a
-      server: 72.56.74.98
-      servername: sun6-22.userapi.com
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.14 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
+      servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
-      uuid: b148ea58-3fc7-4f27-8d8b-2b8e007e59fc
-    - name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 31.92 MB/s"
-      network: tcp
-      port: 8080
-      server: 144.31.1.122
-      tls: false
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.69 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
       type: vless
-      uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-    - name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 31.85 MB/s"
-      network: tcp
-      port: 8080
-      server: 144.31.1.122
-      servername: /---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET
-      tls: false
-      type: vless
-      udp: true
-      uuid: 9036dc47-d0ec-4837-bf55-86f497937cff
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.82 MB/s"
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.50 MB/s"
       network: ws
       port: 443
       server: 193.124.18.13
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
-      udp: true
       uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
       ws-opts:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.50 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 31.36 MB/s"
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 22.49 MB/s"
       network: tcp
       port: 18092
       reality-opts:
@@ -128,10 +231,26 @@ proxies:
       tls: true
       type: vless
       uuid: fea633c3-cacf-41d7-951a-a04b578b0dcf
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.15 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.39 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.64 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.13 MB/s"
       network: ws
-      port: 443
-      server: 193.124.18.13
+      port: 2096
+      server: 108.162.198.24
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -140,28 +259,32 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.66 MB/s"
-      password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.09 MB/s"
+      password: BxceQaOe
       port: 443
-      server: 146.19.49.251
-      type: ss
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - auth: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.06 MB/s"
+      password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
+      port: 443
+      ports: 30000-60000
+      server: 5c68b899-t6ngg0-tbe46y-1la7v.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: c1785de0-212f-11ef-92aa-f23c9164ca5d
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.87 MB/s"
+      password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+      port: 443
+      server: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
+      sni: 7c57e159-t6ccg0-tfpsin-1q3dm.us.hyhuawei.com
+      type: hysteria2
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 25.42 MB/s"
-      network: tcp
-      port: 25059
-      reality-opts:
-        public-key: f8rRV7gssAlL-e8teb5xR9q1vRwRJ3pvORgscKSgPAM
-        short-id: 1ec404fc
-      server: istanbul.fonixapp.org
-      servername: yelp.com
-      tls: true
-      type: vless
-      uuid: 88ba0958-d6e8-4c7b-9a80-e5180c520989
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 25.25 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 19.80 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -174,7 +297,7 @@ proxies:
       uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 24.35 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 19.32 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -185,46 +308,10 @@ proxies:
       tls: true
       type: vless
       uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.59 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.86 MB/s"
       network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.74 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.33 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-      server: de-cdn.ultima.foundation
-      servername: web.max.ru
-      tls: true
-      type: vless
-      uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.03 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
+      port: 2096
+      server: 108.162.198.11
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -234,10 +321,10 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.49 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.70 MB/s"
       network: ws
-      port: 443
-      server: 193.124.18.13
+      port: 2096
+      server: 108.162.198.24
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -246,35 +333,20 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.74 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-      server: de-cdn.ultima.foundation
-      servername: web.max.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.03 MB/s"
-      network: ws
-      port: 2052
-      server: www.visa.com.sg
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 18.13 MB/s"
+      network: grpc
+      port: 56089
+      server: 141.227.172.96
       tls: false
       type: vless
-      uuid: 0e11d8b3-ac1d-4ddd-8cbb-6a53c2110fc9
-      ws-opts:
-        headers:
-            Host: e7dysoxcjonk-a0wbdag5-v3.e7dysoxcjonk.workers.dev
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.90 MB/s"
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.79 MB/s"
       network: ws
-      port: 443
-      server: 193.124.18.13
+      port: 2096
+      server: 108.162.198.24
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -283,10 +355,38 @@ proxies:
         headers:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.65 MB/s"
-      network: ws
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.98 MB/s"
+      network: grpc
+      port: 14408
+      server: 141.227.134.128
+      tls: false
+      type: vless
+      udp: true
+      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.72 MB/s"
+      password: BxceQaOe
       port: 443
-      server: 193.124.18.13
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.56 MB/s"
+      network: grpc
+      port: 14408
+      server: 141.227.134.128
+      tls: false
+      type: vless
+      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.41 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
       servername: kuangbao.xiejiang.dpdns.org
       tls: true
       type: vless
@@ -296,240 +396,181 @@ proxies:
             Host: kuangbao.xiejiang.dpdns.org
         path: /?ed=2560
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.46 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-      server: de-cdn.ultima.foundation
-      servername: web.max.ru
-      tls: true
-      type: vless
-      uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.23 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.20 MB/s"
       network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 17.92 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-        short-id: a9725715bf4c62ff
-      server: ru-cdn-cloud-2.ultima.foundation
-      servername: sun6-21.userapi.com
-      tls: true
-      type: vless
-      uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.76 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.65 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 17.11 MB/s"
-      network: ws
-      port: 8443
-      server: 51.195.102.180
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 16.43 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
-      server: de-cdn.ultima.foundation
-      servername: web.max.ru
-      tls: true
-      type: vless
-      uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.35 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.16 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.44 MB/s"
-      network: tcp
-      port: 28351
-      reality-opts:
-        public-key: GyvksSpuOucs7XsCfiq2yRn3cxVN_Y8b3Zippb_mYCM
-        short-id: 50bcccfb
-      server: greenwolf.fonixapp.org
-      servername: indeed.com
-      tls: true
-      type: vless
-      uuid: 90def0cf-d5c6-4c15-8ed0-405e6ba56c1b
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.68 MB/s"
-      network: ws
-      port: 443
-      server: 77.221.157.32
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.04 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 12.77 MB/s"
-      network: ws
-      port: 443
-      server: 77.221.157.32
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 12.76 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 11.73 MB/s"
-      network: ws
-      port: 443
-      server: 77.221.157.32
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.72 MB/s"
-      network: ws
-      port: 443
-      server: 193.124.18.13
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 11.68 MB/s"
-      network: ws
-      port: 443
-      server: 77.221.157.32
-      servername: kuangbao.xiejiang.dpdns.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.dpdns.org
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 11.29 MB/s"
-      network: ws
-      port: 4443
-      server: 62.60.248.113
-      servername: zybs.worker.ddns-ip.net
+      port: 42841
+      server: 43.165.190.11
+      servername: mot.morisi.ggff.net
       tls: true
       type: vless
       uuid: 00000000-0000-4000-8000-000000000000
       ws-opts:
         headers:
-            Host: zybs.worker.ddns-ip.net
+            Host: mot.morisi.ggff.net
         path: /@Marisa_kristi
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.26 MB/s"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.15 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - auth: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.72 MB/s"
+      password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+      port: 443
+      ports: 30000-60000
+      server: f44e6c2e-t66sg0-t7luxf-tng5.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.33 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 15.31 MB/s"
+      network: grpc
+      port: 56089
+      server: 141.227.172.96
+      tls: false
+      type: vless
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.98 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.82 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - auth: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 14.36 MB/s"
+      password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+      port: 443
+      ports: 30000-60000
+      server: 4a14b44d-t6ngg0-tcop2n-tl32.us.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: 3e3201b3-8d9a-4007-a7db-fcf00833e947
+      name: "\U0001F1F8\U0001F1EC SG 187 | ⬇️ 21MB/s"
+      password: 3e3201b3-8d9a-4007-a7db-fcf00833e947
+      port: 55518
+      server: sg.518181.xyz
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 100
+      sni: ovo.1234567890spcloud.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.97 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.90 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.24
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.78 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 11.39 MB/s"
+      network: ws
+      port: 443
+      server: 193.124.18.13
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.56 MB/s"
+      network: ws
+      port: 2096
+      server: 108.162.198.11
+      servername: kuangbao.xiejiang.dpdns.org
+      tls: true
+      type: vless
+      uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.dpdns.org
+        path: /?ed=2560
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.23 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - client-fingerprint: randomized
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 10.02 MB/s"
+      network: ws
+      port: 443
+      server: 57.129.137.75
+      servername: joss.gpj4.web.id
+      tls: true
+      type: vless
+      uuid: f81d8d7e-3941-460e-8e01-42bf70847fbf
+      ws-opts:
+        headers:
+            Host: joss.gpj4.web.id
+        path: /Free-VPN-CF-Geo-Project/57.129.137.75=443
