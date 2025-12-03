@@ -1,197 +1,15 @@
 proxy-providers: {}
 proxies:
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 111.79 MB/s"
-      port: 180
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - grpc-opts:
-        grpc-service-name: db
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 76.28 MB/s"
-      network: grpc
-      password: 3c4e10af98c30972
-      port: 443
-      server: 23.247.137.64
-      skip-cert-verify: false
-      sni: n2.gladns.com
-      type: trojan
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 47.08 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 100.25.219.192
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.05 MB/s"
-      port: 180
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.36 MB/s"
-      port: 180
-      server: 82.198.246.97
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.65 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.65 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.64 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.61 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.45 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.43 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.43 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.42 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.01 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 22.93 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 25.22 MB/s"
       password: amazonskr05
       port: 443
       server: 35.181.172.34
       type: ss
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 22.03 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.95 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.93 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.91 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.90 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.83 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.61 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 112.118.116.66
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.58 MB/s"
-      port: 180
-      server: 82.198.246.97
-      servername: trojan.burgerip.co.uk
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.98 MB/s"
+    - alpn:
+        - h2%2Chttp%2F1.1
+      client-fingerprint: firefox
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.12 MB/s"
       network: tcp
       port: 23200
       reality-opts:
@@ -202,42 +20,46 @@ proxies:
       tls: true
       type: vless
       uuid: 260b60aa-1f98-44b2-ab95-1824f012d98f
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.47 MB/s"
-      port: 180
-      server: 82.198.246.97
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - alterId: 0
-      cipher: auto
-      http-opts:
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.61 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.181.172.34
+      type: ss
+    - http-opts:
+        headers:
+            Host:
+                - varzesh3.ir
         method: GET
         path:
             - /
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.34 MB/s"
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 22.95 MB/s"
       network: http
-      port: 53784
-      server: 18.143.248.157
+      port: 33801
+      server: m58a.vip784.com
+      servername: varzesh3.ir
       tls: false
-      type: vmess
-      uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.92 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
+      type: vless
+      udp: true
+      uuid: d69b7f2d-b1e1-4303-a8da-47f7e38c404c
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.23 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      sni: t.me%252Fripaojiedian
-      type: trojan
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 19.68 MB/s"
-      password: 4lUEC91c1d8oeClzDbYpXA
-      port: 8618
-      server: 45.93.95.187
-      type: ss
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.19 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.26 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.12 MB/s"
       network: ws
       port: 18888
       server: 104.160.47.72
@@ -249,89 +71,11 @@ proxies:
         headers:
             Host: ennyfe.zipgd3vx91o.ddns-ip.net
         path: /@Marisa_kristi
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.14 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.62 MB/s"
-      port: 180
-      server: 82.198.246.97
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.39 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.02 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.98 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.93 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.66 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.65 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.55 MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.175
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - grpc-opts:
+    - client-fingerprint: chrome
+      grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 16.27 MB/s"
-      network: grpc
-      port: 56089
-      server: 141.227.172.96
-      tls: false
-      type: vless
-      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 16.19 MB/s"
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 17.70 MB/s"
       network: grpc
       port: 56089
       server: 141.227.172.96
@@ -341,36 +85,8 @@ proxies:
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 16.05 MB/s"
-      network: grpc
-      port: 56089
-      server: 141.227.172.96
-      tls: false
-      type: vless
-      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.75 MB/s"
-      port: 180
-      server: 82.198.246.97
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.37 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - grpc-opts:
-        grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 15.24 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 17.13 MB/s"
       network: grpc
       port: 33918
       server: 141.227.162.151
@@ -379,28 +95,24 @@ proxies:
       uuid: c6d0b921-0d7f-4c38-986c-7ce06fa50fc5
     - grpc-opts:
         grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ 198 | ⬇️ 5MB/s"
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 17.08 MB/s"
       network: grpc
-      port: 14408
-      server: 141.227.134.128
+      port: 33918
+      server: 141.227.162.151
       tls: false
       type: vless
-      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+      uuid: c6d0b921-0d7f-4c38-986c-7ce06fa50fc5
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.84 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.181.172.34
+      type: ss
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ 067 | ⬇️ 7MB/s"
-      network: grpc
-      port: 14408
-      server: 141.227.134.128
-      tls: false
-      type: vless
-      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ 019 | ⬇️ 3MB/s"
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.39 MB/s"
       network: grpc
       port: 14408
       server: 141.227.134.128
@@ -411,7 +123,7 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ 071 | ⬇️ 10MB/s"
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.39 MB/s"
       network: grpc
       port: 14408
       server: 141.227.134.128
@@ -421,63 +133,160 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E8\U0001F1FF CZ 237 | ⬇️ 9MB/s"
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.21 MB/s"
       network: grpc
       port: 14408
       server: 141.227.134.128
       tls: false
       type: vless
       uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR 235 | ⬇️ 4MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR 045 | ⬇️ 6MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US 261 | ⬇️ 1MB/s"
-      port: 180
-      server: 82.198.246.97
-      servername: trojan.burgerip.co.uk
-      skip-cert-verify: true
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 16.20 MB/s"
+      network: grpc
+      port: 56089
+      server: 141.227.172.96
       tls: false
-      type: vmess
-      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    - auth: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0 HK 029 | ⬇️ 5MB/s"
-      password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-      port: 443
-      server: ab41cc25-t6r5s0-tdahby-1tnab.hk2.hyhuawei.com
-      sni: ab41cc25-t6r5s0-tdahby-1tnab.hk2.hyhuawei.com
-      type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP 259 | ⬇️ 9MB/s"
+      type: vless
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 16.20 MB/s"
+      network: grpc
+      port: 14408
+      server: 141.227.134.128
+      tls: false
+      type: vless
+      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.89 MB/s"
       network: ws
-      port: 16617
-      server: m.cnmjin.net
-      tls: false
-      type: vmess
-      uuid: 77439561-dcef-4e45-803a-743cfa7d20c2
+      port: 42841
+      server: 43.165.190.11
+      servername: mot.saghv.filegear-sg.me
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
       ws-opts:
         headers:
-            Host: 9e97d6c9e2e0ad3444cbf96d3709366d.mobgslb.tbcache.com
-        path: /
-    - name: "\U0001F1ED\U0001F1F0 HK 247 | ⬇️ 1MB/s"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.18.95
-      skip-cert-verify: true
-      type: trojan
+            Host: mot.saghv.filegear-sg.me
+        path: /@Marisa_kristi
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 15.76 MB/s"
+      network: grpc
+      port: 23989
+      server: 141.227.140.217
+      tls: false
+      type: vless
+      uuid: d99650a4-31fd-4d1a-b642-f9323732ce93
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 15.64 MB/s"
+      network: grpc
+      port: 56089
+      server: 141.227.172.96
+      tls: false
+      type: vless
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 15.60 MB/s"
+      network: grpc
+      port: 14408
+      server: 141.227.134.128
+      tls: false
+      type: vless
+      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 15.29 MB/s"
+      network: grpc
+      port: 56089
+      server: 141.227.172.96
+      tls: false
+      type: vless
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 15.27 MB/s"
+      network: grpc
+      port: 41291
+      server: 141.227.128.24
+      tls: false
+      type: vless
+      uuid: 6fc624eb-0ddb-4f96-891e-1cd96222e665
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 15.21 MB/s"
+      network: grpc
+      port: 41291
+      server: 141.227.128.24
+      tls: false
+      type: vless
+      uuid: 6fc624eb-0ddb-4f96-891e-1cd96222e665
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E8\U0001F1FF CZ | ⬇️ 14.97 MB/s"
+      network: grpc
+      port: 14408
+      server: 141.227.134.128
+      tls: false
+      type: vless
+      uuid: 9683cde1-1ec4-422b-9c43-00c33df3e239
+    - auth: 77238c49bd20e407f05e0c073ad08fdb
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 13.79 MB/s"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+      password: 77238c49bd20e407f05e0c073ad08fdb
+      port: 989
+      server: dd.openaccessnode.com
+      sni: dd.ircybersec.org
+      type: hysteria2
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 12.98 MB/s"
+      network: grpc
+      port: 33918
+      server: 141.227.162.151
+      tls: false
+      type: vless
+      uuid: c6d0b921-0d7f-4c38-986c-7ce06fa50fc5
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.42 MB/s"
+      network: http
+      port: 53784
+      server: 18.143.248.157
+      tls: false
+      type: vmess
+      uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.32 MB/s"
+      network: ws
+      port: 80
+      server: hkt.gotochinatown.net
+      tls: false
+      type: vmess
       udp: true
+      uuid: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
+      ws-opts:
+        headers:
+            Host: broadcastlv.chat.bilibili.com
+        path: /
