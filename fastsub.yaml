@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - auth: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.44 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 76.22 MB/s"
       password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
       port: 35000
       server: 134.195.101.191
@@ -9,64 +9,119 @@ proxies:
       sni: www.apple.com
       type: hysteria2
     - auth: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.84 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 58.44 MB/s"
       password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
       port: 35000
       server: 134.195.101.191
       skip-cert-verify: true
       sni: www.apple.com
       type: hysteria2
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.68 MB/s"
+    - grpc-opts:
+        grpc-service-name: db
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.03 MB/s"
+      network: grpc
+      password: 3c4e10af98c30972
+      port: 443
+      server: 23.247.137.64
+      skip-cert-verify: false
+      sni: n2.gladns.com
+      type: trojan
+    - grpc-opts:
+        grpc-service-name: db
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.59 MB/s"
+      network: grpc
+      password: 3c4e10af98c30972
+      port: 443
+      server: 23.247.137.64
+      skip-cert-verify: false
+      sni: n2.gladns.com
+      type: trojan
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.22 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.82 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.70 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.38 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.29 MB/s"
       network: ws
-      port: 80
-      server: awsus1.iamlazy.vip
-      tls: false
-      type: vmess
-      uuid: f1d9d662-7fc9-4995-b047-05c98ad05286
+      port: 18888
+      server: 104.160.47.72
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
       ws-opts:
         headers:
-            Host: awsus1.iamlazy.vip
-        path: /?ed=2048
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.27 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 112.118.116.66
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.76 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.33 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 13.87 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - auth: dongtaiwang.com
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 13.56 MB/s"
+      password: dongtaiwang.com
+      port: 5355
+      server: 163.172.21.105
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E9\U0001F1F0 DK | ⬇️ 22.53 MB/s"
-      network: grpc
-      port: 56089
-      server: 141.227.172.96
-      tls: false
-      type: vless
-      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.08 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.62 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.20 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 17.77 MB/s"
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 12.76 MB/s"
       network: grpc
       port: 41291
       server: 141.227.128.24
@@ -74,18 +129,10 @@ proxies:
       type: vless
       udp: true
       uuid: 6fc624eb-0ddb-4f96-891e-1cd96222e665
-    - auth: dongtaiwang.com
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.69 MB/s"
-      password: dongtaiwang.com
-      port: 5355
-      server: 163.172.21.105
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 17.61 MB/s"
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 10.95 MB/s"
       network: grpc
       port: 41291
       server: 141.227.128.24
