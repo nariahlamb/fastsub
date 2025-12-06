@@ -1,7 +1,40 @@
 proxy-providers: {}
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 271.61 MB/s"
+      port: 180
+      server: 82.198.246.97
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.35 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.69 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
+      tls: true
+      type: vless
+      uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.86 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.30 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -14,35 +47,111 @@ proxies:
         headers:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.41 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.38 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.33 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.31 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.31 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.26 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.13 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.95 MB/s"
       network: ws
       port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+      server: 104.21.30.206
+      servername: www.x-aniu-h-k.netlib.re
       tls: true
       type: vless
-      udp: true
-      uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.29 MB/s"
+            Host: www.x-aniu-h-k.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.39 MB/s"
       network: ws
       port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+      server: 104.21.31.17
+      servername: www.x-aniu-h-k.netlib.re
       tls: true
       type: vless
-      uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+      uuid: e258977b-e413-4718-a3af-02d75492c349
       ws-opts:
         headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
+            Host: www.x-aniu-h-k.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.71 MB/s"
+      network: ws
+      port: 443
+      server: 104.18.191.57
+      servername: www.x-aniu-h-k.netlib.re
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu-h-k.netlib.re
+        path: /?ed=2560
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.21 MB/s"
+      port: 180
+      server: 82.198.246.97
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 22.35 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 16.93 MB/s"
       network: grpc
       port: 33919
       server: 141.227.162.151
@@ -52,7 +161,7 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 22.29 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 16.85 MB/s"
       network: grpc
       port: 33919
       server: 141.227.162.151
@@ -62,7 +171,7 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 22.02 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 16.65 MB/s"
       network: grpc
       port: 33919
       server: 141.227.162.151
@@ -72,37 +181,7 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 21.81 MB/s"
-      network: grpc
-      port: 33919
-      server: 141.227.162.151
-      tls: false
-      type: vless
-      uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 21.63 MB/s"
-      network: grpc
-      port: 33919
-      server: 141.227.162.151
-      tls: false
-      type: vless
-      uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 21.40 MB/s"
-      network: grpc
-      port: 33919
-      server: 141.227.162.151
-      tls: false
-      type: vless
-      uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 20.50 MB/s"
+      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 16.24 MB/s"
       network: grpc
       port: 25687
       server: 141.227.136.51
@@ -112,7 +191,7 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 20.46 MB/s"
+      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 16.21 MB/s"
       network: grpc
       port: 25687
       server: 141.227.136.51
@@ -122,27 +201,50 @@ proxies:
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1E7\U0001F1EA BE | ⬇️ 20.11 MB/s"
+      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 15.99 MB/s"
       network: grpc
-      port: 25687
-      server: 141.227.136.51
+      port: 33919
+      server: 141.227.162.151
       tls: false
       type: vless
-      uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+      uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.23 MB/s"
+      network: ws
+      port: 443
+      server: 104.18.63.16
+      servername: www.x-aniu-h-k.netlib.re
+      tls: true
+      type: vless
+      uuid: e258977b-e413-4718-a3af-02d75492c349
+      ws-opts:
+        headers:
+            Host: www.x-aniu-h-k.netlib.re
+        path: /?ed=2560
     - grpc-opts:
         grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 18.82 MB/s"
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 14.49 MB/s"
       network: grpc
       port: 23990
       server: 141.227.140.217
       tls: false
       type: vless
       uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
-    - name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 12.22 MB/s"
-      password: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
-      port: 32233
-      server: a9964e2f-t5gv40-te0r6o-1r7vv.id.oshuawei.com
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 11.79 MB/s"
+      network: grpc
+      port: 23990
+      server: 141.227.140.217
+      tls: false
+      type: vless
+      uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.52 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
       type: http
-      username: e515ce48-fdfa-11ee-9970-f23c91cfbbc9
+      username: test
