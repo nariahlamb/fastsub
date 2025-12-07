@@ -2,7 +2,20 @@ proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.34 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 128.08 MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: Yxj9S7VH0OV7B6gT68Hsglo5_ctsn5Z89bhqjBps-0Y
+        short-id: 9593b1c3cf54836c
+      server: us.connect-opengate.ru
+      servername: deepl.com
+      tls: true
+      type: vless
+      uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 124.46 MB/s"
       network: tcp
       port: 8443
       reality-opts:
@@ -16,7 +29,7 @@ proxies:
       uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 48.58 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 123.20 MB/s"
       network: tcp
       port: 8443
       reality-opts:
@@ -29,47 +42,20 @@ proxies:
       udp: true
       uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 46.90 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 104.12 MB/s"
       network: tcp
-      port: 8443
+      port: 10001
       reality-opts:
-        public-key: Yxj9S7VH0OV7B6gT68Hsglo5_ctsn5Z89bhqjBps-0Y
-        short-id: 9593b1c3cf54836c
-      server: us.connect-opengate.ru
-      servername: deepl.com
+        public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+        short-id: 1a24af87
+      server: 172.234.130.82
+      servername: yahoo.com
       tls: true
       type: vless
-      uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
+      uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.45 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc
-        short-id: 173c58
-      server: lifestealer.fonixapp.org
-      servername: configuration.apple.com
-      tls: true
-      type: vless
-      uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.40 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: MrCEmqtF6MdAfyvwu7VWipCvi_8P0RjI8TF571XT6l0
-        short-id: 209f
-      server: greenwolf.fonixapp.org
-      servername: fonts.gstatic.com
-      tls: true
-      type: vless
-      uuid: 9fe667f5-ffea-4272-a0b6-3abd73941c52
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.16 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 32.00 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -82,7 +68,33 @@ proxies:
       uuid: f81d5b9b-c5b7-46cb-8710-0cf41ab33570
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 19.18 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.23 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: MrCEmqtF6MdAfyvwu7VWipCvi_8P0RjI8TF571XT6l0
+        short-id: 209f
+      server: greenwolf.fonixapp.org
+      servername: fonts.gstatic.com
+      tls: true
+      type: vless
+      uuid: 9fe667f5-ffea-4272-a0b6-3abd73941c52
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.21 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: DJ1l1bgvwpj-SoHuC6eLVfzd3rp1zQmCV76fdVazMgc
+        short-id: 173c58
+      server: lifestealer.fonixapp.org
+      servername: configuration.apple.com
+      tls: true
+      type: vless
+      uuid: e3af49ba-6a41-4fa1-8f21-f40d1f154c68
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 26.38 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -95,14 +107,27 @@ proxies:
       uuid: 7392bb3b-7b2c-4eba-b399-b5e9534c12b0
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.07 MB/s"
+      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 23.32 MB/s"
       network: tcp
       port: 443
       reality-opts:
-        public-key: bzcnjzOZCB5YwZnRVwYxaixLwFe_ENWZZeXSXckazg8
-        short-id: 2cd1
-      server: tidehunter.fonixapp.org
-      servername: update.googleapis.com
+        public-key: eS0NqJCAo6Jn4PuU3nU4A5D7RyNbn3WyhipXViddnzI
+        short-id: 5457
+      server: istanbul.fonixapp.org
+      servername: fonts.gstatic.com
       tls: true
       type: vless
-      uuid: bbb7f486-84f9-477e-a6ae-80bff136e59d
+      uuid: cb7188cf-2c3a-43a5-af90-d893922e4917
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 19.02 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: eS0NqJCAo6Jn4PuU3nU4A5D7RyNbn3WyhipXViddnzI
+        short-id: 5457
+      server: istanbul.fonixapp.org
+      servername: fonts.gstatic.com
+      tls: true
+      type: vless
+      uuid: cb7188cf-2c3a-43a5-af90-d893922e4917
