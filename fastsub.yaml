@@ -1,37 +1,7 @@
 proxy-providers: {}
 proxies:
-    - cipher: aes-128-gcm
-      name: "\U0001F1EE\U0001F1EA IE | ⬇️ 46.27 MB/s"
-      password: u8gp148iz90ddoo6ms37
-      port: 17454
-      server: 146.70.90.196
-      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.71 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.62 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.55 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.66 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -44,7 +14,43 @@ proxies:
       udp: true
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.40 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.60 MB/s"
+      network: tcp
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
+      tls: true
+      type: vless
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.59 MB/s"
+      network: tcp
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
+      tls: true
+      type: vless
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.34 MB/s"
+      network: tcp
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
+      tls: true
+      type: vless
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.21 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -56,23 +62,25 @@ proxies:
       type: vless
       udp: true
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.38 MB/s"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 18.184.185.204
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1E8\U0001F1ED CH | ⬇️ 34.08 MB/s"
-      password: vvt8ur2bjjzb2n8ze53l
-      port: 13263
-      server: 86.106.84.196
-      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.13 MB/s"
+      network: tcp
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
+      tls: true
+      type: vless
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 34.29 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.30 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.99 MB/s"
       network: tcp
       port: 7443
       reality-opts:
@@ -83,80 +91,42 @@ proxies:
       tls: true
       type: vless
       uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.59 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.75 MB/s"
       password: vZ9gnU
       port: 38736
       server: 103.134.35.75
       tls: false
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.61 MB/s"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.70 MB/s"
       password: vZ9gnU
       port: 38736
       server: 103.134.35.75
       tls: false
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 18.59 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.30 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: uJqfENqH6w2k1sM4qJo2m_nJMmOo91DCNmsxUhgjpQc
+        short-id: 7b4a5e44
+      server: 128.140.94.109
+      servername: www.ea.com
+      tls: true
+      type: vless
+      uuid: 80683c47-3706-406b-83b8-1d3695fb1bfb
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.13 MB/s"
       password: vZ9gnU
       port: 38736
       server: 103.134.35.75
       tls: false
       type: http
       username: kZXMC3Z1
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.82 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.36 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.92 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.40 MB/s"
-      port: 30829
-      server: v29.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.65 MB/s"
-      port: 30829
-      server: v29.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.12 MB/s"
-      port: 30829
-      server: v29.hdacd.com
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 11.09 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 16.78 MB/s"
       network: tcp
       port: 2443
       reality-opts:
@@ -167,3 +137,27 @@ proxies:
       tls: true
       type: vless
       uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.61 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.01 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
