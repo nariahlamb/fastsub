@@ -1,80 +1,41 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.84 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.77 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.48 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
       tls: true
       type: vless
       udp: true
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+      uuid: 1347acec-0c12-46c0-9436-19603093d9ab
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.48 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.35 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
       tls: true
       type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.43 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.13 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      udp: true
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.12 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.02 MB/s"
-      port: 1080
-      server: 161.35.82.57
+      uuid: 1347acec-0c12-46c0-9436-19603093d9ab
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.90 MB/s"
+      port: 30829
+      server: v29.hdacd.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.90 MB/s"
+      port: 1090
+      server: 121.169.46.116
       type: socks5
