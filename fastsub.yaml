@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.71 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.29 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -13,34 +13,20 @@ proxies:
         headers:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.51 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.89 MB/s"
+      network: tcp
+      port: 24170
+      reality-opts:
+        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+        short-id: 2fb2106a629b
+      server: 185.136.132.171
+      servername: speedtest.net
       tls: true
       type: vless
-      udp: true
-      uuid: 1347acec-0c12-46c0-9436-19603093d9ab
-      ws-opts:
-        headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
+      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.62 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      tls: true
-      type: vless
-      udp: true
-      uuid: 1347acec-0c12-46c0-9436-19603093d9ab
-      ws-opts:
-        headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 39.01 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.31 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -53,7 +39,7 @@ proxies:
       udp: true
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 38.29 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.25 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -66,7 +52,7 @@ proxies:
       udp: true
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.99 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.44 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -78,7 +64,7 @@ proxies:
       type: vless
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 37.33 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.19 MB/s"
       network: tcp
       port: 24170
       reality-opts:
@@ -91,36 +77,7 @@ proxies:
       uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.69 MB/s"
-      network: tcp
-      port: 7443
-      reality-opts:
-        public-key: IgaNLuUg1JOIoUdX4CegMU_XBU35B5RAYRL_-KZfpSY
-        short-id: c84a28bb05989ff4
-      server: ni-b.vasilej.org
-      servername: swcdn.apple.com
-      tls: true
-      type: vless
-      uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 36.34 MB/s"
-      port: 1080
-      server: 161.35.82.57
-      type: socks5
-    - client-fingerprint: chrome
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 35.66 MB/s"
-      network: tcp
-      port: 24170
-      reality-opts:
-        public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-        short-id: 2fb2106a629b
-      server: 185.136.132.171
-      servername: speedtest.net
-      tls: true
-      type: vless
-      uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.68 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.98 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -133,255 +90,135 @@ proxies:
       uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 31.52 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 33.58 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: i3AAHIiAZOk2-3BFfQlPN5eRBfBpLt53M3p0JKuE0Cw
+        short-id: 0d680ba281cb229b
+      server: 85.192.24.131
+      servername: web.max.ru
+      tls: true
+      type: vless
+      uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 32.67 MB/s"
       network: tcp
       port: 7443
       reality-opts:
         public-key: IgaNLuUg1JOIoUdX4CegMU_XBU35B5RAYRL_-KZfpSY
         short-id: c84a28bb05989ff4
-      server: 64.188.91.189
+      server: 77.246.98.152
       servername: swcdn.apple.com
       tls: true
       type: vless
       uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 30.46 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 31.04 MB/s"
       network: tcp
       port: 7443
       reality-opts:
         public-key: IgaNLuUg1JOIoUdX4CegMU_XBU35B5RAYRL_-KZfpSY
         short-id: c84a28bb05989ff4
-      server: 64.188.91.189
+      server: 77.246.98.152
       servername: swcdn.apple.com
       tls: true
       type: vless
       uuid: 62b0e46b-d2a5-423d-8457-95bde707fc19
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.94 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: lJscl0GgEiVZtTVrMVI6O0-zSJTgmug9Cs-KJqpxWw0
+        short-id: f6fb0261a102c0c8
+      server: 89.23.101.203
+      servername: www.vk.com
+      tls: true
+      type: vless
+      uuid: d5f7970e-121f-4e6f-9acf-250effc0715b
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.92 MB/s"
+      network: tcp
+      port: 2443
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      server: 178.239.126.118
+      servername: pizzastrada.jp
+      tls: true
+      type: vless
+      uuid: d6b62381-8d75-4a0c-9946-bf8f40772afe
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice-twixservice
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.59 MB/s"
+      network: grpc
+      port: 443
+      reality-opts:
+        public-key: kgkW6Cn4c4ZBLpyUf400I_Hmdnrnq94Sr57O5TAEOnk
+        short-id: adf4bd56e5
+      server: prime.dissertationhelpspecialist.com
+      servername: tgju.org
+      tls: true
+      type: vless
+      uuid: 518f2e8b-9743-4358-b1f2-1c5687db9857
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.31 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1347acec-0c12-46c0-9436-19603093d9ab
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 19.22 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 17.63 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
     - auth: thunder_speed
-      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 22.91 MB/s"
+      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 14.41 MB/s"
       password: thunder_speed
       port: 25657
       server: 2.229.212.183
       skip-cert-verify: true
       type: hysteria2
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 19.49 MB/s"
-      network: tcp
-      port: 1488
-      reality-opts:
-        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-        short-id: 6ba85179e30d4fc2
-      server: 51.250.25.11
-      servername: ads.x5.ru
-      tls: true
-      type: vless
-      uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.42 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.28 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 15.24 MB/s"
-      network: http
-      port: 19751
-      server: 43.165.7.71
-      tls: false
-      type: vmess
-      uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 14.97 MB/s"
-      network: http
-      port: 19751
-      server: 43.165.7.71
-      tls: false
-      type: vmess
-      uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 13.85 MB/s"
-      network: http
-      port: 19751
-      server: 43.165.7.71
-      tls: false
-      type: vmess
-      uuid: 6cfa6103-5d06-40cb-f452-b563db578288
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.92 MB/s"
-      port: 30829
-      server: v29.hdacd.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - auth: b02327ac-a49a-11ef-a673-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.99 MB/s"
-      password: b02327ac-a49a-11ef-a673-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: cb745964-t744g0-t7udc0-1pqhp.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.65 MB/s"
-      password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 5783744d-t744g0-t8hh31-amya.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.41 MB/s"
-      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: d86e96da-t729s0-t85e8f-141tv.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.05 MB/s"
-      password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      server: 4d1b003a-t6pb40-t7enwo-1f1f1.hk2.hyhuawei.com
-      sni: 4d1b003a-t6pb40-t7enwo-1f1f1.hk2.hyhuawei.com
-      type: hysteria2
-    - auth: 25b46954-9a33-11ee-8b86-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.98 MB/s"
-      password: 25b46954-9a33-11ee-8b86-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 88516992-t744g0-t7hu58-1q1la.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.82 MB/s"
-      password: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.14 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
     - auth: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.74 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.75 MB/s"
       password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
       port: 443
       server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
       sni: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
       type: hysteria2
-    - auth: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.59 MB/s"
-      password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+    - auth: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.73 MB/s"
+      password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
       port: 443
       ports: 30000-60000
-      server: b0640528-t75z40-t8hh31-amya.hk2.hyhuawei.com
+      server: 06a6f7b3-t75z40-tcmken-19les.hk2.hyhuawei.com
       type: hysteria2
       udp: true
-    - auth: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.56 MB/s"
-      password: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
+    - auth: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.38 MB/s"
+      password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
       port: 443
       ports: 30000-60000
-      server: 2988b076-t729s0-teivih-1rz31.hk2.hyhuawei.com
+      server: 7e7159a5-t744g0-t8be2y-1ryup.hk2.hyhuawei.com
       type: hysteria2
       udp: true
-    - auth: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.46 MB/s"
-      password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      port: 443
-      ports: 30000-60000
-      server: b8b37ee9-t729s0-t9uin7-19ord.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.45 MB/s"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 100
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.41 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - auth: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.24 MB/s"
-      password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-      port: 443
-      server: 258aa23b-t6pb40-t7uinf-i8ie.hk2.hyhuawei.com
-      sni: 258aa23b-t6pb40-t7uinf-i8ie.hk2.hyhuawei.com
-      type: hysteria2
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.18 MB/s"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      up: 100
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      down: 100
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.17 MB/s"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 100
-    - auth: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.10 MB/s"
-      password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      port: 443
-      server: d1da8624-t6r5s0-t9uin7-19ord.hk2.hyhuawei.com
-      sni: d1da8624-t6r5s0-t9uin7-19ord.hk2.hyhuawei.com
-      type: hysteria2
