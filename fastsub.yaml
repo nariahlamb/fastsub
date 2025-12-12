@@ -1,49 +1,10 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 23.25 MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: rAn7sOzdu2NA6d-ddqWLZr8i3MGn9JGXe22NsehwWVQ
-        short-id: 9f9be3d69031a138
-      server: 151.241.226.160
-      servername: www.microsoft.com
-      tls: true
-      type: vless
-      uuid: 01cc2a19-7e26-4698-8d10-0b61bc125938
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 22.83 MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: rAn7sOzdu2NA6d-ddqWLZr8i3MGn9JGXe22NsehwWVQ
-        short-id: 9f9be3d69031a138
-      server: 151.241.226.160
-      servername: www.microsoft.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 01cc2a19-7e26-4698-8d10-0b61bc125938
-    - client-fingerprint: safari
-      flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 22.41 MB/s"
-      network: tcp
-      port: 8443
-      reality-opts:
-        public-key: rAn7sOzdu2NA6d-ddqWLZr8i3MGn9JGXe22NsehwWVQ
-        short-id: 9f9be3d69031a138
-      server: 151.241.226.160
-      servername: www.microsoft.com
-      tls: true
-      type: vless
-      uuid: 01cc2a19-7e26-4698-8d10-0b61bc125938
-    - auth: thunder_speed
-      name: "\U0001F1EE\U0001F1F9 IT | ⬇️ 12.06 MB/s"
-      password: thunder_speed
-      port: 25657
-      server: 2.229.212.183
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.95 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
       skip-cert-verify: true
-      type: hysteria2
+      tls: true
+      type: http
+      username: test
