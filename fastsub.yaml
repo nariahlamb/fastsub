@@ -1,10 +1,45 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.95 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.74 MB/s"
+      network: tcp
+      port: 10001
+      reality-opts:
+        public-key: ip65cPljcoLAJwWfjL3SbikfdRHI2bhVpODh8mxbMmw
+        short-id: 1a24af87
+      server: 172.233.171.226
+      servername: yahoo.com
       tls: true
+      type: vless
+      udp: true
+      uuid: 0f1b978a-e1ea-4bcd-84fa-16d77cdc5b6a
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.49 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
       type: http
-      username: test
+      username: kZXMC3Z1
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.92 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.78.209.224
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.96 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.53.174
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.03 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.78.209.224
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
