@@ -1,33 +1,32 @@
 proxy-providers: {}
 proxies:
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 124.75 MB/s"
-      password: d2fkgzsdu5sturjs8f19
-      port: 17277
-      server: 205.209.109.194
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 329.48 MB/s"
+      password: 3px0wmx0e81145g568ga
+      port: 10880
+      server: 69.164.240.86
       type: ss
     - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 119.80 MB/s"
-      password: t6d26id0pjzdo3x5wtlf
-      port: 10878
-      server: 69.164.240.83
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 297.82 MB/s"
+      password: 3px0wmx0e81145g568ga
+      port: 10880
+      server: 69.164.240.86
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 288.94 MB/s"
+      password: 3px0wmx0e81145g568ga
+      port: 10880
+      server: 69.164.240.86
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 267.73 MB/s"
+      password: 3px0wmx0e81145g568ga
+      port: 10880
+      server: 69.164.240.86
       type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.67 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.205.125
-      servername: guang-page-2zv.pages.dev
-      tls: true
-      type: vless
-      uuid: 52d95f3d-8eac-470c-a3a0-f7a9ac5299ab
-      ws-opts:
-        headers:
-            Host: guang-page-2zv.pages.dev
-        path: /?ed=2048
-    - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.74 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.06 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -38,13 +37,89 @@ proxies:
       tls: true
       type: vless
       uuid: 9ceadcf2-47f0-4675-ae66-f7894289228a
-    - grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.67 MB/s"
-      network: grpc
-      port: 21250
-      server: 209.38.168.122
-      tls: false
+    - cipher: aes-128-gcm
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 32.53 MB/s"
+      password: nju2uypzyenv551bpud4
+      port: 12797
+      server: 193.148.19.213
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 32.51 MB/s"
+      password: nju2uypzyenv551bpud4
+      port: 12797
+      server: 193.148.19.213
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 26.76 MB/s"
+      network: tcp
+      port: 43377
+      reality-opts:
+        public-key: b3M57rmYSkFI-a-qjGN_3_b3gMX4ZEeUAaTDlVAJrBc
+        short-id: 049dad2d39200b
+      server: 185.243.99.104
+      servername: stackoverflow.com
+      tls: true
       type: vless
-      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
+      uuid: 8f9c484c-6bf0-490f-bc3e-cb1a66cd4594
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.56 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.75 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.54 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.09 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.90 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.65 MB/s"
+      port: 10808
+      server: 213.35.126.34
+      type: socks5
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.38 MB/s"
+      network: ws
+      port: 8082
+      server: 213.176.67.27
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.23 MB/s"
+      network: ws
+      port: 8082
+      server: 194.33.35.152
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
