@@ -1,170 +1,50 @@
 proxy-providers: {}
 proxies:
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 124.75 MB/s"
+      password: d2fkgzsdu5sturjs8f19
+      port: 17277
+      server: 205.209.109.194
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 119.80 MB/s"
+      password: t6d26id0pjzdo3x5wtlf
+      port: 10878
+      server: 69.164.240.83
+      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.82 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.67 MB/s"
       network: ws
       port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
+      server: 104.16.205.125
+      servername: guang-page-2zv.pages.dev
       tls: true
       type: vless
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
+      uuid: 52d95f3d-8eac-470c-a3a0-f7a9ac5299ab
       ws-opts:
         headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 26.07 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
+            Host: guang-page-2zv.pages.dev
+        path: /?ed=2048
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.83 MB/s"
-      network: ws
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.74 MB/s"
+      network: tcp
       port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
+      reality-opts:
+        public-key: 6P4admqWX-DD6_T5NFsB2osOSvGpMOUpOi7wPF20yQ0
+        short-id: 06c2bb0de4e52af8
+      server: freeconfig.nimroo.org
+      servername: tgju.org
       tls: true
       type: vless
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.81 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
-      tls: true
+      uuid: 9ceadcf2-47f0-4675-ae66-f7894289228a
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.67 MB/s"
+      network: grpc
+      port: 21250
+      server: 209.38.168.122
+      tls: false
       type: vless
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.58 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.92 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: jp1-jp1.aiopen.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4dbde8d-b194-4a64-afe0-093ffd258e8e
-      ws-opts:
-        headers:
-            Host: jp1-jp1.aiopen.sbs
-        path: /kbjc/jp1
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.99 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.92 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.90 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.87 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.84 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.81 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.66 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.52 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.49 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.19 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.43 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
+      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
