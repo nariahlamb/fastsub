@@ -1,76 +1,17 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.02 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 72.58 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.37 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 70.30 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.73 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.25 MB/s"
-      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-      plugin: obfs
-      plugin-opts:
-        host: feb7fa9:154948
-        mode: tls
-      port: 2377
-      server: 88.210.36.107
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EA\U0001F1F8 ES | ⬇️ 34.32 MB/s"
-      password: smSMfR9jqLgMkHuQtxSIWh
-      port: 25512
-      server: 145.249.109.121
-      type: ss
-      udp: true
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.53 MB/s"
+      network: grpc
+      port: 21250
+      server: 209.38.168.122
+      tls: false
+      type: vless
+      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 22.69 MB/s"
+      name: "\U0001F1FA\U0001F1E6 UA | ⬇️ 23.50 MB/s"
       network: tcp
       port: 43377
       reality-opts:
@@ -84,23 +25,166 @@ proxies:
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.44 MB/s"
+      network: grpc
+      port: 21250
+      server: 209.38.168.122
+      tls: false
+      type: vless
+      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.69 MB/s"
+      network: grpc
+      port: 53479
+      server: 134.122.94.36
+      tls: false
+      type: vless
+      uuid: 0ae40bf3-d28b-4d2e-a01a-f1a01cabcb96
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.54 MB/s"
+      network: grpc
+      port: 21250
+      server: 209.38.168.122
+      tls: false
+      type: vless
+      uuid: 69239696-f17e-4eb2-a337-7ce07d65d23d
+    - grpc-opts:
+        grpc-mode: gun
         grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.19 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.46 MB/s"
       network: grpc
       port: 40187
       server: 143.244.197.90
       tls: false
       type: vless
       uuid: f22d79bb-4eaf-45ee-b406-81ad3745dff1
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.20 MB/s"
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.41 MB/s"
+      network: grpc
+      port: 40187
+      server: 143.244.197.90
+      tls: false
+      type: vless
+      uuid: f22d79bb-4eaf-45ee-b406-81ad3745dff1
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.35 MB/s"
+      network: grpc
+      port: 40187
+      server: 143.244.197.90
+      tls: false
+      type: vless
+      uuid: f22d79bb-4eaf-45ee-b406-81ad3745dff1
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 22.32 MB/s"
+      network: grpc
+      port: 40187
+      server: 143.244.197.90
+      tls: false
+      type: vless
+      uuid: f22d79bb-4eaf-45ee-b406-81ad3745dff1
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.86 MB/s"
+      network: grpc
+      port: 40187
+      server: 143.244.197.90
+      tls: false
+      type: vless
+      udp: true
+      uuid: f22d79bb-4eaf-45ee-b406-81ad3745dff1
+    - grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 21.60 MB/s"
+      network: grpc
+      port: 53479
+      server: 134.122.94.36
+      tls: false
+      type: vless
+      uuid: 0ae40bf3-d28b-4d2e-a01a-f1a01cabcb96
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.32 MB/s"
       port: 10808
       server: 213.35.126.34
       type: socks5
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 12.12 MB/s"
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.32 MB/s"
       port: 10808
       server: 213.35.126.34
       type: socks5
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.81 MB/s"
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.20 MB/s"
       port: 10808
       server: 213.35.126.34
       type: socks5
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.20 MB/s"
+      port: 10808
+      server: 213.35.126.34
+      type: socks5
+    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.52 MB/s"
+      port: 10808
+      server: 213.35.126.34
+      type: socks5
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.16 MB/s"
+      network: ws
+      port: 80
+      server: 89d85c51-t7h340-t8xdfw-1m0fq.hkt.gotochinatown.net
+      tls: false
+      type: vmess
+      uuid: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+      ws-opts:
+        headers:
+            Host: 89d85c51-t7h340-t8xdfw-1m0fq.hkt.gotochinatown.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 11.04 MB/s"
+      network: ws
+      port: 8082
+      server: 213.176.67.27
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.96 MB/s"
+      network: ws
+      port: 8082
+      server: 62.60.156.158
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
+    - client-fingerprint: chrome
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 10.02 MB/s"
+      network: ws
+      port: 8082
+      server: 194.33.35.152
+      servername: ennyfe.zipgd3vx91o.ddns-ip.net
+      tls: true
+      type: vless
+      uuid: 00000000-0000-4000-8000-000000000000
+      ws-opts:
+        headers:
+            Host: ennyfe.zipgd3vx91o.ddns-ip.net
+        path: /@Marisa_kristi
