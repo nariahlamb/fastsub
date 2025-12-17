@@ -1,56 +1,7 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 30.34 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 30.19 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 29.82 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 29.20 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 28.62 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 28.58 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 28.16 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.79 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.97 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -62,24 +13,75 @@ proxies:
         headers:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
-    - client-fingerprint: chrome
-      http-opts:
-        headers:
-            Host:
-                - skyroom.online
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.92 MB/s"
-      network: http
-      port: 12559
-      server: sv1.avaaal.ir
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 26.11 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
       tls: false
-      type: vless
-      uuid: f1ea701d-e33b-4606-955b-3d788b8b8860
-    - cipher: rc4-md5
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.29 MB/s"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 138.199.42.68
-      type: ss
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 26.01 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.82 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.39 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.21 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.94 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 23.57 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.61 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.79.214.159
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.58 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.79.214.159
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 20.56 MB/s"
+      password: BxceQaOe
+      port: 443
+      server: 219.79.214.159
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
