@@ -1,44 +1,72 @@
 proxy-providers: {}
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.42 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.10 MB/s"
+      port: 14102
+      server: 172.233.229.91
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.91 MB/s"
+      port: 14102
+      server: 172.233.229.91
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.37 MB/s"
+      port: 14102
+      server: 172.233.229.91
+      tls: false
+      type: vmess
+      uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
+    - cipher: rc4-md5
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 28.21 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 45.87.175.185
+      server: 172.105.199.111
       type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 26.17 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.37 MB/s"
-      password: QCXDxuDlTTMD7jtgHUjIoj
-      port: 8080
-      server: 45.87.175.175
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 44.20 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 25.32 MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
       server: 151.242.251.152
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.96 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 24.92 MB/s"
       password: k1dBOmOB4oqi7Ump37a1bQ
       port: 8080
-      server: 45.87.175.185
+      server: 151.242.251.152
       type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.31 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.28 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.33 MB/s"
-      network: ws
-      port: 443
-      server: 69.84.182.13
-      servername: fr-1-fr-1.aiopen.sbs
-      tls: true
-      type: vless
-      uuid: 80ba7ae2-2809-47c9-af3f-db5f32698295
-      ws-opts:
-        headers:
-            Host: fr-1-fr-1.aiopen.sbs
-        path: /kbjc/fr1
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.06 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.83 MB/s"
       network: ws
       port: 443
       server: 69.84.182.13
@@ -51,43 +79,78 @@ proxies:
             Host: fr-1-fr-1.aiopen.sbs
         path: /kbjc/fr1
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.70 MB/s"
-      password: cvII85TrW6n0OGyfpHVS1u
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 23.74 MB/s"
+      password: Y52dYtnOWIKtbVTMcmhACO
+      port: 7048
+      server: h110vpnde.outlinekeys.net
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.74 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.64 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.13 MB/s"
+      network: ws
+      port: 443
+      server: 69.84.182.13
+      servername: fr-1-fr-1.aiopen.sbs
+      tls: true
+      type: vless
+      uuid: 80ba7ae2-2809-47c9-af3f-db5f32698295
+      ws-opts:
+        headers:
+            Host: fr-1-fr-1.aiopen.sbs
+        path: /kbjc/fr1
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.74 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.77 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.159.106.175
+      type: ss
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 20.73 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 45.87.175.185
+      server: 68.183.227.236
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 35.93 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 89.163.140.136
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 33.95 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 121.127.46.147
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 32.35 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 38.165.231.25
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 31.77 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 38.165.231.25
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EA\U0001F1E8 EC | ⬇️ 31.68 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 38.165.231.25
-      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.40 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 31.56 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.71 MB/s"
       network: ws
       port: 443
       server: 108.162.194.176
@@ -99,156 +162,73 @@ proxies:
         headers:
             Host: terazhedi.info
         path: /sghiyws
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.44 MB/s"
-      network: ws
-      port: 443
-      server: www.speedtest.net
-      servername: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
-      tls: true
-      type: vless
-      uuid: 73856b73-19d2-47e6-b991-5eaa421161ea
-      ws-opts:
-        headers:
-            Host: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
-        path: /admin?ed=1024
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.40 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.33 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.16 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.01 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.90 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.88 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.62 MB/s"
-      password: vZ9gnU
-      port: 38736
-      server: 103.134.35.75
-      tls: false
-      type: http
-      username: kZXMC3Z1
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.95 MB/s"
-      port: 55919
-      server: xray.kk37005.tk
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.38 MB/s"
-      port: 55919
-      server: xray.kk37005.tk
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.98 MB/s"
-      port: 55919
-      server: xray.kk37005.tk
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 2e7548bb-7c5b-4d97-d64d-1b2fe4050089
     - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.26 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.56 MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 68.183.227.4
+      server: 128.199.172.224
       type: ss
     - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.63 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.17 MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
-      server: 68.183.227.45
+      server: 128.199.172.224
       type: ss
     - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.20 MB/s"
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 19.12 MB/s"
       password: 14fFPrbezE3HDZzsMOr6
       port: 8080
       server: 68.183.227.236
       type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.52 MB/s"
-      port: 10808
-      server: 213.35.126.34
-      type: socks5
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 14.44 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.213.23.63
-      type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.12 MB/s"
-      port: 10808
-      server: 213.35.126.34
-      type: socks5
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F5\U0001F1F9 PT | ⬇️ 13.98 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.113.143.186
-      type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 13.83 MB/s"
-      port: 10808
-      server: 213.35.126.34
-      type: socks5
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F4 NO | ⬇️ 13.26 MB/s"
-      password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-      port: 990
-      server: 185.213.23.63
-      type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 11.45 MB/s"
-      port: 10808
-      server: 213.35.126.34
-      type: socks5
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.73 MB/s"
-      network: tcp
-      port: 3002
-      server: lovetea1.dastur-amuzesh.ir
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.10 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
       tls: false
-      type: vless
-      uuid: d950eb8f-422f-46d5-9ede-4cfbf4db2bab
+      type: http
+      username: kZXMC3Z1
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 18.23 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.236
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.86 MB/s"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.159.106.175
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.80 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.57 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 128.199.172.224
+      type: ss
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.42 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 128.199.172.224
+      type: ss
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.69 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 11.12 MB/s"
+      password: vZ9gnU
+      port: 38736
+      server: 103.134.35.75
+      tls: false
+      type: http
+      username: kZXMC3Z1
