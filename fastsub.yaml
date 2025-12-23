@@ -1,19 +1,7 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 147.59 MB/s"
-      network: tcp
-      port: 993
-      reality-opts:
-        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-      server: 146.19.90.10
-      servername: speed.cloudflare.com
-      tls: true
-      type: vless
-      uuid: a48ac360-6114-a334-d678-6c267114e106
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.89 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.38 MB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -25,7 +13,26 @@ proxies:
       type: vless
       uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.70 MB/s"
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.64 MB/s"
+      network: tcp
+      port: 993
+      reality-opts:
+        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
+      server: 146.19.90.10
+      servername: speed.cloudflare.com
+      tls: true
+      type: vless
+      uuid: a48ac360-6114-a334-d678-6c267114e106
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.38 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.179
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.66 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.33
@@ -38,18 +45,12 @@ proxies:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 22.93 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.47 MB/s"
+      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
       port: 443
-      server: 194.246.114.101
+      server: 193.203.203.66
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.45 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-      port: 443
-      server: 194.246.114.101
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 16.30 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.29 MB/s"
       password: nX51bl545I
       port: 38003
       server: 64.81.34.56
@@ -58,7 +59,7 @@ proxies:
       username: UgpWOagagJ
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 14.53 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 19.60 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -69,3 +70,44 @@ proxies:
       tls: true
       type: vless
       uuid: a888c6da-33b0-480c-a40a-0e94f4eb9c48
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.26 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.11 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.94 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.47 MB/s"
+      port: 443
+      server: 5.129.233.127
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 44932f63-70b6-4cd8-a77b-8fbf623ec19a
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.28 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.74 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.14 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
