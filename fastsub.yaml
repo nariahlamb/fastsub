@@ -1,19 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.15 MB/s"
-      network: tcp
-      port: 993
-      reality-opts:
-        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-      server: 146.19.90.10
-      servername: speed.cloudflare.com
-      tls: true
-      type: vless
-      uuid: a48ac360-6114-a334-d678-6c267114e106
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.48 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.69 MB/s"
       network: ws
       port: 2053
       server: notion.site
@@ -27,13 +15,25 @@ proxies:
             Host: saas.netlib.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
     - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.93 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 40.50 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.180.247.200
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.30 MB/s"
+      password: amazonskr05
+      port: 443
+      server: 35.180.247.200
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 39.20 MB/s"
       password: amazonskr05
       port: 443
       server: 35.180.247.200
       type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.18 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.36 MB/s"
       network: ws
       port: 2053
       server: notion.site
@@ -45,14 +45,8 @@ proxies:
         headers:
             Host: saas.netlib.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 28.62 MB/s"
-      password: amazonskr05
-      port: 443
-      server: 35.180.247.200
-      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 28.27 MB/s"
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 28.24 MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -64,7 +58,7 @@ proxies:
       type: vless
       uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
     - client-fingerprint: chrome
-      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 28.01 MB/s"
+      name: "\U0001F1E7\U0001F1F7 BR | ⬇️ 28.13 MB/s"
       network: tcp
       port: 34045
       reality-opts:
@@ -75,23 +69,123 @@ proxies:
       tls: true
       type: vless
       uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-    - auth: 9631096d-3032-4942-9446-bdf12665682b
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.62 MB/s"
-      password: 9631096d-3032-4942-9446-bdf12665682b
+    - auth: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.55 MB/s"
+      password: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
       port: 49187
       server: 5.83.150.108
       sni: imafake.locker
       type: hysteria2
     - auth: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.27 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 25.99 MB/s"
       password: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
       port: 49187
       server: 5.83.150.108
       sni: imafake.locker
       type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 24.94 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
+    - auth: 27104fae-f047-4993-902a-9368d8a3e9bc
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.79 MB/s"
+      password: 27104fae-f047-4993-902a-9368d8a3e9bc
+      port: 49187
+      server: 5.83.150.108
+      sni: imafake.locker
+      type: hysteria2
+    - auth: 9631096d-3032-4942-9446-bdf12665682b
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.77 MB/s"
+      password: 9631096d-3032-4942-9446-bdf12665682b
+      port: 49187
+      server: 5.83.150.108
+      sni: imafake.locker
+      type: hysteria2
+    - auth: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.08 MB/s"
+      password: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+      port: 49187
+      server: 5.83.150.108
+      sni: imafake.locker
+      type: hysteria2
+    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 23.89 MB/s"
+      port: 1080
+      server: 161.35.82.57
+      type: socks5
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.79 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.65 MB/s"
+      network: ws
+      port: 44053
+      server: 138.124.14.37
+      tls: false
+      type: vless
+      uuid: f437b574-5f4a-4298-84bb-e5f4db213ea2
+      ws-opts:
+        path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.64 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.32 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.12 MB/s"
+      network: ws
+      port: 44053
+      server: 138.124.14.37
+      tls: false
+      type: vless
+      uuid: f437b574-5f4a-4298-84bb-e5f4db213ea2
+      ws-opts:
+        path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 22.44 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
     - alterId: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.45 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.15 MB/s"
       network: ws
       port: 443
       server: xcf017-2.facai2024.com
@@ -105,29 +199,7 @@ proxies:
             Host: xcf017-2.facai2024.com
         path: /db5208f7
     - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 21.30 MB/s"
-      network: ws
-      port: 44053
-      server: 138.124.14.37
-      tls: false
-      type: vless
-      uuid: f437b574-5f4a-4298-84bb-e5f4db213ea2
-      ws-opts:
-        path: /@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group@mrconfig_group
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.57 MB/s"
-      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
-      port: 443
-      server: 193.203.203.66
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.36 MB/s"
-      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
-      port: 443
-      server: 193.203.203.66
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.89 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.45 MB/s"
       network: ws
       port: 2053
       server: notion.site
@@ -141,76 +213,73 @@ proxies:
             Host: saas.netlib.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.17 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.89 MB/s"
+      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
       port: 443
-      server: 194.246.114.101
+      server: 193.203.203.66
       type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.73 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.71 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.28 MB/s"
+      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
       port: 443
-      server: 194.246.114.101
+      server: 193.203.203.66
       type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 17.88 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
       tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.25 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.24 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.23 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.17 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.93 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.03 MB/s"
       password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
       port: 443
       server: 194.246.114.101
       type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.71 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.67 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: ads.x5.ru
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 14.69 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 16.35 MB/s"
+      network: grpc
+      port: 446
+      reality-opts:
+        public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+        short-id: 0512567389abcdef
+      server: all.adr-cloud.ru
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: c495cf08-e046-4311-aa4b-82cc16576992
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ads.x5.ru
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 16.08 MB/s"
       network: grpc
       port: 446
       reality-opts:
@@ -221,39 +290,89 @@ proxies:
       tls: true
       type: vless
       uuid: c495cf08-e046-4311-aa4b-82cc16576992
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1ED TH | ⬇️ 13.95 MB/s"
-      password: f8f7aCzcPKbsF8p3
-      port: 990
-      server: 119.59.98.58
-      type: ss
-    - name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 13.14 MB/s"
-      port: 1080
-      server: 161.35.82.57
-      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.00 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
         grpc-service-name: ads.x5.ru
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 12.78 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 15.85 MB/s"
       network: grpc
       port: 446
       reality-opts:
         public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
         short-id: 0512567389abcdef
-      server: 51.250.66.217
+      server: 51.250.88.6
       servername: ads.x5.ru
       tls: true
       type: vless
       uuid: c495cf08-e046-4311-aa4b-82cc16576992
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.61 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.51 MB/s"
-      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.74 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
       port: 443
-      server: 193.203.203.66
+      server: 194.246.114.101
       type: ss
-      udp: true
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ads.x5.ru
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 15.24 MB/s"
+      network: grpc
+      port: 446
+      reality-opts:
+        public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+        short-id: 0512567389abcdef
+      server: 51.250.88.6
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: c495cf08-e046-4311-aa4b-82cc16576992
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.15 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ads.x5.ru
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 15.14 MB/s"
+      network: grpc
+      port: 446
+      reality-opts:
+        public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+        short-id: 0512567389abcdef
+      server: 51.250.88.6
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: c495cf08-e046-4311-aa4b-82cc16576992
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ads.x5.ru
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 14.50 MB/s"
+      network: grpc
+      port: 446
+      reality-opts:
+        public-key: mMaSUsOC5i3ErLDcaWW9UOOjG0fcKPCwVjzGS1wXQx8
+        short-id: 0512567389abcdef
+      server: 51.250.88.6
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: c495cf08-e046-4311-aa4b-82cc16576992
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F1 IL | ⬇️ 14.12 MB/s"
+      password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
+      port: 443
+      server: 89.221.225.15
+      type: ss
