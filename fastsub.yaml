@@ -1,18 +1,31 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 73.20 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 305.52 MB/s"
+      network: tcp
+      port: 33873
+      reality-opts:
+        public-key: RV6FhlbDmMyc_qCuuTbUZt3QMUsKZU7EjyjGkYxHS34
+        short-id: de550428
+      server: 139.144.199.41
+      servername: www.nokia.com
       tls: true
       type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.32 MB/s"
+      uuid: ffb5a850-edbc-4831-ad0b-e29483949ea8
+    - client-fingerprint: firefox
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 138.29 MB/s"
+      network: tcp
+      port: 10001
+      reality-opts:
+        public-key: kKX1o7FhJLyDaVE6sqXUcYpUIuFUgij_ueRYc_E4JhM
+        short-id: 1a24af87
+      server: 172.234.130.82
+      servername: yahoo.com
+      tls: true
+      type: vless
+      uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 90.16 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.33
@@ -25,7 +38,58 @@ proxies:
             Host: sni.111000.dynv6.net
         path: /
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.64 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.12 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.32
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 80.15 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.68 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.33 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.32
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 69.40 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.33
@@ -37,7 +101,7 @@ proxies:
         headers:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.00 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 66.78 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.33
@@ -50,7 +114,192 @@ proxies:
             Host: sni.111000.dynv6.net
         path: /
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.21 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 60.22 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.70 MB/s"
+      network: ws
+      port: 2053
+      server: convera.com
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.41 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.83 MB/s"
+      network: ws
+      port: 2053
+      server: 104.16.241.241
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.51 MB/s"
+      network: ws
+      port: 2053
+      server: pages.cloudflare.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 44.82 MB/s"
+      network: ws
+      port: 2053
+      server: notability.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 44.68 MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.76 MB/s"
+      network: ws
+      port: 2053
+      server: notion.site
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 40.46 MB/s"
+      network: ws
+      port: 2053
+      server: cfxr.eu.org
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.82 MB/s"
+      network: ws
+      port: 2053
+      server: www.aapanel.com
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.12 MB/s"
+      network: ws
+      port: 2053
+      server: quick-edit.devprod.cloudflare.dev
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.90 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
+      server: ru2.tunnely.ru
+      servername: vk.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c42e4667-ca09-4769-b544-89a8da730daf
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 21.64 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 21.57 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE
+        short-id: ed3eb3256dee971f
+      server: 158.160.191.241
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.02 MB/s"
       network: ws
       port: 2053
       server: 104.16.241.241
@@ -64,51 +313,43 @@ proxies:
             Host: stall.saass.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.63 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.57 MB/s"
       network: ws
       port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
       tls: true
       type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
       ws-opts:
         headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.79 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
-        short-id: 2e40144ddc07e8e1
-      server: de5.tunnely.ru
-      servername: de5.tunnely.ru
-      tls: true
-      type: vless
-      uuid: c42e4667-ca09-4769-b544-89a8da730daf
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.09 MB/s"
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.36 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.37 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.14 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.07 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.09 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.84 MB/s"
       password: nX51bl545I
       port: 38003
       server: 64.81.34.56
       tls: false
       type: http
       username: UgpWOagagJ
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.35 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.26 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.09 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.84 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
