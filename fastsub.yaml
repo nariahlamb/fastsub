@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: firefox
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.38 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 120.56 MB/s"
       network: tcp
       port: 10001
       reality-opts:
@@ -12,27 +12,42 @@ proxies:
       tls: true
       type: vless
       uuid: 53cd8178-2ee6-43d9-a2a7-881f287fd408
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.64 MB/s"
-      network: tcp
-      port: 993
-      reality-opts:
-        public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-      server: 146.19.90.10
-      servername: speed.cloudflare.com
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 87.00 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
       tls: true
       type: vless
-      uuid: a48ac360-6114-a334-d678-6c267114e106
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.38 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.179
-      type: ss
-      udp: true
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 75.29 MB/s"
+      network: ws
+      port: 80
+      server: 104.26.6.89
+      tls: false
+      type: vless
+      uuid: c5b129d7-f133-4b34-a9c6-68c9a8f70248
+      ws-opts:
+        headers:
+            Host: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
+        path: /?ed
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 71.79 MB/s"
+      network: ws
+      port: 80
+      server: 104.26.6.89
+      tls: false
+      type: vless
+      uuid: c5b129d7-f133-4b34-a9c6-68c9a8f70248
+      ws-opts:
+        headers:
+            Host: EMotioNaL-peRMIsSiONf1bs65u5f4.EcOTOuRISs.Co.uK
+        path: /?ed
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.66 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 63.86 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.33
@@ -44,13 +59,98 @@ proxies:
         headers:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.47 MB/s"
-      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1F7 CR | ⬇️ 59.38 MB/s"
+      network: ws
       port: 443
-      server: 193.203.203.66
+      server: delilah.ns.cloudflare.com
+      servername: 639018301854287215.camry-amsjk.info
+      tls: true
+      type: vless
+      uuid: 39a192ed-7e78-42f4-b956-2f0ea17f677f
+      ws-opts:
+        headers:
+            Host: 639018301854287215.camry-amsjk.info
+        path: /rbjisuws
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.96 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 48.29 MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 45.10 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.84 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 40.74 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.179
       type: ss
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.29 MB/s"
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 31.43 MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.24 MB/s"
+      password: nX51bl545I
+      port: 38003
+      server: 64.81.34.56
+      tls: false
+      type: http
+      username: UgpWOagagJ
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.96 MB/s"
       password: nX51bl545I
       port: 38003
       server: 64.81.34.56
@@ -59,55 +159,82 @@ proxies:
       username: UgpWOagagJ
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 19.60 MB/s"
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.54 MB/s"
       network: tcp
       port: 443
       reality-opts:
-        public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-        short-id: 93ae75024604f796
-      server: 5.129.193.147
-      servername: eh.vk.com
+        public-key: MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE
+        short-id: ed3eb3256dee971f
+      server: 158.160.191.241
+      servername: ya.ru
       tls: true
       type: vless
-      uuid: a888c6da-33b0-480c-a40a-0e94f4eb9c48
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 23.49 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE
+        short-id: ed3eb3256dee971f
+      server: 158.160.191.241
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
+    - client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 21.16 MB/s"
+      network: tcp
+      port: 47944
+      reality-opts:
+        public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
+        short-id: ffffffffff
+      server: 89.23.113.137
+      servername: www.ietf.org
+      tls: true
+      type: vless
+      uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 17.88 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
+        short-id: b9ceed646f470d2d
+      server: 158.160.197.118
+      servername: ya.ru
+      tls: true
+      type: vless
+      uuid: 4d7a559b-6379-41a7-9e51-41ef759846aa
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.26 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.59 MB/s"
       password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
       port: 443
       server: 194.246.114.101
       type: ss
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.11 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 17.23 MB/s"
       password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
       port: 443
       server: 194.246.114.101
       type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.94 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
-      port: 443
-      server: 194.246.114.101
-      type: ss
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 12.47 MB/s"
-      port: 443
-      server: 5.129.233.127
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 44932f63-70b6-4cd8-a77b-8fbf623ec19a
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.28 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.66 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.74 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.46 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.14 MB/s"
-      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.69 MB/s"
+      password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm
       port: 443
-      server: 194.246.114.101
+      server: 193.203.203.66
       type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.59 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
