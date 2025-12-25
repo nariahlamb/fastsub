@@ -1,7 +1,32 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 96.81 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 101.92 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 83.21 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 79.84 MB/s"
       network: ws
       port: 2053
       server: www.aapanel.com
@@ -14,45 +39,7 @@ proxies:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 98.23 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 84.57 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 82.37 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.32
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 79.55 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 76.42 MB/s"
       network: ws
       port: 443
       server: 162.159.153.2
@@ -64,45 +51,8 @@ proxies:
         headers:
             Host: ziyong.boringdad.netlib.re
         path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 77.99 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 75.77 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 74.17 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.11 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 71.29 MB/s"
       network: ws
       port: 2053
       server: convera.com
@@ -114,164 +64,36 @@ proxies:
         headers:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.33 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 67.79 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.152.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 66.33 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.152.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 55.96 MB/s"
-      network: ws
-      port: 2053
-      server: www.aapanel.com
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 55.93 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.153.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 55.77 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.153.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 54.24 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.152.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.96 MB/s"
-      network: ws
-      port: 2053
-      server: 208.103.161.33
-      servername: sni.111000.dynv6.net
-      tls: true
-      type: vless
-      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-      ws-opts:
-        headers:
-            Host: sni.111000.dynv6.net
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 49.96 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.153.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 48.40 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.153.2
-      servername: ziyong.boringdad.netlib.re
-      tls: true
-      type: vless
-      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-      ws-opts:
-        headers:
-            Host: ziyong.boringdad.netlib.re
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 42.32 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 45.87.175.185
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.17 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 68.00 MB/s"
       network: ws
       port: 2053
       server: 208.103.161.32
       servername: sni.111000.dynv6.net
       tls: true
       type: vless
-      udp: true
       uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
       ws-opts:
         headers:
             Host: sni.111000.dynv6.net
         path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 40.75 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.184
-      type: ss
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.72 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 64.66 MB/s"
       network: ws
       port: 443
-      server: visa.com
+      server: 162.159.152.2
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 62.22 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.153.2
       servername: ziyong.boringdad.netlib.re
       tls: true
       type: vless
@@ -281,61 +103,69 @@ proxies:
             Host: ziyong.boringdad.netlib.re
         path: /
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.13 MB/s"
-      network: tcp
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 59.56 MB/s"
+      network: ws
       port: 443
-      reality-opts:
-        public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
-      server: ru2.tunnely.ru
-      servername: vk.com
+      server: 162.159.152.2
+      servername: ziyong.boringdad.netlib.re
       tls: true
       type: vless
-      udp: true
-      uuid: c42e4667-ca09-4769-b544-89a8da730daf
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.94 MB/s"
-      password: nX51bl545I
-      port: 38003
-      server: 64.81.34.56
-      tls: false
-      type: http
-      username: UgpWOagagJ
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.72 MB/s"
-      password: nX51bl545I
-      port: 38003
-      server: 64.81.34.56
-      tls: false
-      type: http
-      username: UgpWOagagJ
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.24 MB/s"
-      network: ws
-      port: 2053
-      server: notability.com
-      servername: stall.saass.ccwu.cc
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
       ws-opts:
         headers:
-            Host: stall.saass.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.94 MB/s"
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.26 MB/s"
       network: ws
       port: 2053
-      server: 104.16.241.241
-      servername: stall.saass.ccwu.cc
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
       tls: true
       type: vless
-      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
       ws-opts:
         headers:
-            Host: stall.saass.ccwu.cc
-        path: /proxyip=sjc.o00o.ooo
+            Host: sni.111000.dynv6.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.82 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 51.62 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.03 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.36 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.153.2
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.30 MB/s"
       network: ws
       port: 2053
       server: pages.cloudflare.com
@@ -349,7 +179,241 @@ proxies:
             Host: stall.saass.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.72 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.98 MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 50.41 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 49.17 MB/s"
+      network: ws
+      port: 2053
+      server: notion.site
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.60 MB/s"
+      network: ws
+      port: 443
+      server: visa.com
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.26 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 45.87.175.185
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.88 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.152.2
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.62 MB/s"
+      network: ws
+      port: 2053
+      server: quick-edit.devprod.cloudflare.dev
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.22 MB/s"
+      network: ws
+      port: 2053
+      server: www.aapanel.com
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.05 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.153.2
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US 168 | ⬇️ 6MB/s"
+      network: ws
+      port: 2053
+      server: cfxr.eu.org
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.08 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.33
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.68 MB/s"
+      network: ws
+      port: 443
+      server: 162.159.153.2
+      servername: ziyong.boringdad.netlib.re
+      tls: true
+      type: vless
+      uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+      ws-opts:
+        headers:
+            Host: ziyong.boringdad.netlib.re
+        path: /
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.01 MB/s"
+      network: ws
+      port: 2053
+      server: oralb.com
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.20 MB/s"
+      network: ws
+      port: 2053
+      server: 208.103.161.32
+      servername: sni.111000.dynv6.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.45 MB/s"
+      network: ws
+      port: 2053
+      server: 104.16.241.241
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 24.96 MB/s"
+      password: nX51bl545I
+      port: 38003
+      server: 64.81.34.56
+      tls: false
+      type: http
+      username: UgpWOagagJ
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.24 MB/s"
+      password: nX51bl545I
+      port: 38003
+      server: 64.81.34.56
+      tls: false
+      type: http
+      username: UgpWOagagJ
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.91 MB/s"
+      network: ws
+      port: 2053
+      server: 104.16.241.241
+      servername: stall.saass.ccwu.cc
+      tls: true
+      type: vless
+      uuid: 6949ea89-4825-1b47-3b03-113cede87254
+      ws-opts:
+        headers:
+            Host: stall.saass.ccwu.cc
+        path: /proxyip=sjc.o00o.ooo
+    - alpn:
+        - http%2F1.1
+      client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.42 MB/s"
+      network: ws
+      port: 2096
+      server: www.speedtest.net
+      servername: DiGIkALaA.dpdns.ORG
+      tls: true
+      type: vless
+      uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
+      ws-opts:
+        headers:
+            Host: DiGIkALaA.dpdns.ORG
+        path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.70 MB/s"
       network: ws
       port: 2053
       server: 104.16.241.241
@@ -363,91 +427,7 @@ proxies:
             Host: stall.saass.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 17.56 MB/s"
-      network: ws
-      port: 8443
-      server: www.udacity.com
-      servername: ww1.x-aniu----sg.netlib.re
-      tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: ww1.x-aniu----sg.netlib.re
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 17.17 MB/s"
-      network: tcp
-      port: 47944
-      reality-opts:
-        public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-        short-id: ffffffffff
-      server: 89.23.113.137
-      servername: www.ietf.org
-      tls: true
-      type: vless
-      uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.74 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.60 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.54 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - alpn:
-        - http%2F1.1
-      client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.42 MB/s"
-      network: ws
-      port: 2096
-      server: www.speedtest.net
-      servername: DiGIkALaA.dpdns.ORG
-      tls: true
-      type: vless
-      uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
-      ws-opts:
-        headers:
-            Host: DiGIkALaA.dpdns.ORG
-        path: /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.08 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.72 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.67 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.66 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.45 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.80 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.56 MB/s"
       network: ws
       port: 2053
       server: 104.16.241.241
@@ -459,11 +439,100 @@ proxies:
         headers:
             Host: stall.saass.ccwu.cc
         path: /proxyip=sjc.o00o.ooo
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.77 MB/s"
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 17.65 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: 51TT1F2DugIjuNuGgaeEoW_BWhEKg3mNyNkjNGd_2RM
+      server: ru2.tunnely.ru
+      servername: vk.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c42e4667-ca09-4769-b544-89a8da730daf
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.19 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.17 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.07 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.78 MB/s"
+      password: HaNqw9pIE4jcx98sg7UQgHeGNTM4R2pk
+      port: 443
+      server: 194.246.114.101
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.46 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.06 MB/s"
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.64 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.45
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.52 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.26 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 080 | ⬇️ 8MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 071 | ⬇️ 1MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 084 | ⬇️ 9MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 077 | ⬇️ 9MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 064 | ⬇️ 6MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 079 | ⬇️ 7MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR 081 | ⬇️ 18MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
