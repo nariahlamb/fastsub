@@ -1,74 +1,203 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.78 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 32.16 MB/s"
+      network: tcp
+      port: 8443
+      reality-opts:
+        public-key: GacPaW0DxNTA8vpoEv7CpGBAu_atzYMBaryAuwcw70M
+        short-id: 6698
+      server: ll2.takovpn.ru
+      servername: sun6-20.userapi.com
+      tls: true
+      type: vless
+      uuid: 493d5565-9c06-4d2f-a252-cbd9d2be3516
+    - client-fingerprint: chrome
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 25.48 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+        short-id: 4d4421a0bac569
+      server: 51.250.4.181
+      servername: eh.vk.com
+      tls: true
+      type: vless
+      uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.03 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: DFW5c3lWy8KwUb5JJqLPW5EmnkS2CB6QzNzGijmFJk0
+      server: 139.162.79.208
+      servername: www.blizzard.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0ab02f6d-3304-44f1-915b-7ed8fc5751fa
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.52 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.49 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.49 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.37 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.37 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.32 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.31 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.25 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.24 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - auth: e20cc63dc06088fba56bf786860aadaf
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 16.05 MB/s"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+      password: e20cc63dc06088fba56bf786860aadaf
+      port: 989
+      server: dd.openaccessnode.com
+      skip-cert-verify: true
+      sni: dd.ircybersec.org
+      type: hysteria2
+    - auth: e20cc63dc06088fba56bf786860aadaf
+      name: "\U0001F1F8\U0001F1EA SE | ⬇️ 15.74 MB/s"
+      obfs: salamander
+      obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+      password: e20cc63dc06088fba56bf786860aadaf
+      port: 989
+      server: dd.openaccessnode.com
+      skip-cert-verify: true
+      sni: dd.ircybersec.org
+      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.43 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.06 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.79 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.68 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.24 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.95 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.97 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.80 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.91 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.71 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.70 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.19 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.39 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.87 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.29 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.28 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.93 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.85 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.38 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.33 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.25 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.25 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.46 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.76 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.11 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.55 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
