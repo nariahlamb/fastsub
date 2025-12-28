@@ -1,46 +1,20 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 18.32 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-        short-id: 4d4421a0bac569
-      server: 51.250.4.181
-      servername: eh.vk.com
-      tls: true
-      type: vless
-      uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.56 MB/s"
+    - cipher: rc4-md5
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.82 MB/s"
+      password: 14fFPrbezE3HDZzsMOr6
+      port: 8080
+      server: 68.183.227.4
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.74 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.03 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.47 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.94 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.54 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.10 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.96 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.41 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.75 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.43 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
