@@ -1,56 +1,146 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.29 MB/s"
-      port: 1090
-      server: 121.169.46.116
-      type: socks5
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 18.07 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: aCIjONksX6QbTfFBxN1eFqf5caspiR7QyttJ3kDH9yY
-      server: vkru.outlinekeys.net
-      servername: vkru.outlinekeys.net
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.09 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.48 MB/s"
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.86 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.67 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.62 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.59 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.31 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.63 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.43 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.76 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - cipher: rc4-md5
-      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.47 MB/s"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 68.183.227.4
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.07 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.90 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.94 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.38 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.47 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.13 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.68 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.52 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.44 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.55 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.55 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.81 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.32 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.41 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.64 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.28 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.22 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.03 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.76 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.75 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.63 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.45 MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.66 MB/s"
       port: 1090
       server: 121.169.46.116
       type: socks5
