@@ -4,7 +4,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 38.39 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 52.57 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 59422
       reduce-rtt: false
@@ -15,19 +15,55 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 18.78 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: aCIjONksX6QbTfFBxN1eFqf5caspiR7QyttJ3kDH9yY
-      server: vkru.outlinekeys.net
-      servername: vkru.outlinekeys.net
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.78 MB/s"
+      network: ws
+      port: 8443
+      server: 45.142.166.146
+      servername: sni.111000.cc.cd
       tls: true
       type: vless
-      uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.63 MB/s"
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.cc.cd
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.37 MB/s"
+      network: ws
+      port: 4196
+      server: 185.184.223.138
+      servername: sni.111000.cc.cd
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.cc.cd
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.15 MB/s"
+      network: ws
+      port: 51078
+      server: 45.142.166.105
+      servername: sni.111000.cc.cd
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.cc.cd
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 17.64 MB/s"
+      network: ws
+      port: 10949
+      server: 45.66.129.38
+      servername: sni.111000.cc.cd
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.cc.cd
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.17 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -35,7 +71,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.49 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.03 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -43,31 +79,7 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.52 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.03 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -79,7 +91,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.86 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.94 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 52706
       reduce-rtt: false
@@ -90,11 +102,31 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 14.55 MB/s"
+      network: ws
+      port: 47248
+      server: 43.239.249.177
+      servername: sni.111000.cc.cd
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.cc.cd
+        path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.54 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.74 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.01 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64413
       reduce-rtt: false
@@ -105,27 +137,3 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.22 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.06 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.00 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
