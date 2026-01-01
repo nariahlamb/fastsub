@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 66.07 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 57.62 MB/s"
       network: ws
       port: 2053
       server: cloudflare.seeck.cn
@@ -18,7 +18,65 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 35.17 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 43.43 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54759
+      reduce-rtt: false
+      request-timeout: 0
+      server: 144.24.2.103
+      sni: phoenix-1.nezhasu.cn
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 41.61 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54759
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 144.24.2.103
+      skip-cert-verify: false
+      sni: phoenix-1.nezhasu.cn
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.37 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 51409
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 132.226.29.29
+      sni: phoenix-4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.36 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 51409
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 132.226.29.29
+      skip-cert-verify: false
+      sni: phoenix-4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.07 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64015
       reduce-rtt: false
@@ -33,80 +91,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 34.49 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62103
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 129.153.204.12
-      skip-cert-verify: false
-      sni: phoenix-3.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.84 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 51409
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 132.226.29.29
-      skip-cert-verify: false
-      sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.66 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54759
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 144.24.2.103
-      skip-cert-verify: false
-      sni: phoenix-1.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.44 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 51409
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 132.226.29.29
-      sni: phoenix-4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.11 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54759
-      reduce-rtt: false
-      request-timeout: 0
-      server: 144.24.2.103
-      sni: phoenix-1.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 27.06 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.40 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 55024
       reduce-rtt: false
@@ -117,43 +102,11 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.15 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.14 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.12 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.02 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 15.65 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.20 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 57277
       reduce-rtt: false
@@ -168,72 +121,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.26 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52706
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 130.162.157.157
-      skip-cert-verify: false
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.84 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.61 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52706
-      reduce-rtt: false
-      request-timeout: 0
-      server: 130.162.157.157
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.55 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.46 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.40 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.11 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64413
       reduce-rtt: false
@@ -247,7 +135,49 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.19 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.80 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.45 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52706
+      reduce-rtt: false
+      request-timeout: 0
+      server: 130.162.157.157
+      sni: shouer.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.37 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64413
       reduce-rtt: false
@@ -255,6 +185,21 @@ proxies:
       server: 158.180.79.168
       skip-cert-verify: false
       sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52706
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 130.162.157.157
+      skip-cert-verify: false
+      sni: shouer.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
