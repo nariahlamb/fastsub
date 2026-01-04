@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.97 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 51.83 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -12,7 +12,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 35.14 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 36.18 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -24,137 +24,8 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 33.10 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59484
-      reduce-rtt: false
-      request-timeout: 0
-      server: phoenix-3.nezhasu.com
-      skip-cert-verify: false
-      sni: phoenix-3.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 25.44 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.84 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.81 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50736
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 24.67 MB/s"
-      network: tcp
-      port: 7242
-      reality-opts:
-        public-key: jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM
-        short-id: 8c01e365
-      server: 151.115.96.243
-      servername: modily.net
-      tls: true
-      type: vless
-      uuid: 859b7d71-a9fc-4234-8e03-42eb876a170a
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.56 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65138
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.47 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - client-fingerprint: firefox
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 24.43 MB/s"
-      network: tcp
-      port: 7242
-      reality-opts:
-        public-key: jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM
-        short-id: 8c01e365
-      server: 151.115.96.243
-      servername: modily.net
-      tls: true
-      type: vless
-      uuid: 859b7d71-a9fc-4234-8e03-42eb876a170a
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.60 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.58 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 29.34 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -170,137 +41,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.42 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.43 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.25 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.09 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.08 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.01 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.93 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.89 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.70 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.43 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.35 MB/s"
-      password: qwerREWQ@@
-      port: 8901
-      server: 125.141.26.15
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.01 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.89 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.61 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.60 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.35 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.95 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.23 MB/s"
-      password: qwerREWQ@@
-      port: 22376
-      server: 125.141.31.75
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.33 MB/s"
-      password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.93 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 29.21 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64015
       reduce-rtt: false
@@ -315,9 +56,173 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 13.78 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.80 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60185
+      port: 64015
+      reduce-rtt: false
+      request-timeout: 0
+      server: 132.226.99.211
+      sni: phoenix-2.nezhasu.cn
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 27.13 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 26.09 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50736
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.64 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65138
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 24.42 MB/s"
+      network: tcp
+      port: 7242
+      reality-opts:
+        public-key: jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM
+        short-id: 8c01e365
+      server: 151.115.96.243
+      servername: modily.net
+      tls: true
+      type: vless
+      uuid: 859b7d71-a9fc-4234-8e03-42eb876a170a
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.23 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.11 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 24.08 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 23.02 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59484
+      reduce-rtt: false
+      request-timeout: 0
+      server: phoenix-3.nezhasu.com
+      skip-cert-verify: false
+      sni: phoenix-3.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 22.74 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - client-fingerprint: firefox
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 20.95 MB/s"
+      network: tcp
+      port: 7242
+      reality-opts:
+        public-key: jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM
+        short-id: 8c01e365
+      server: 151.115.96.243
+      servername: modily.net
+      tls: true
+      type: vless
+      uuid: 859b7d71-a9fc-4234-8e03-42eb876a170a
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.29 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+      udp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 18.20 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63099
       reduce-rtt: false
       request-timeout: 0
       server: phoenix-2.nezhasu.cn
@@ -327,28 +232,149 @@ proxies:
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.61 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.02 MB/s"
+      password: qwerREWQ@@
+      port: 8901
+      server: 125.141.26.15
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.78 MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.66 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.59 MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.57 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.46 MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.43 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.42 MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.36 MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.20 MB/s"
       password: qwerREWQ@@
       port: 50411
       server: 210.217.18.69
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.98 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.13 MB/s"
       password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
+      port: 35452
+      server: 221.150.109.22
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.41 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.21 MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.04 MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.54 MB/s"
+      password: qwerREWQ@@
+      port: 1952
+      server: 210.217.18.68
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.32 MB/s"
       password: qwerREWQ@@
       port: 50411
       server: 210.217.18.69
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.21 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.89 MB/s"
       password: qwerREWQ@@
-      port: 61417
-      server: 121.170.203.147
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.80 MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.53 MB/s"
+      password: qwerREWQ@@
+      port: 1952
+      server: 210.217.18.68
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.20 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.90 MB/s"
+      password: qwerREWQ@@
+      port: 22376
+      server: 125.141.31.75
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.44 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.33 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.73 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
       type: ss
       udp: true
