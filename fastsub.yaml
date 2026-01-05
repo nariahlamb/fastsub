@@ -1,19 +1,19 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 59.95 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 114.26 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 63.71 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.77 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -29,297 +29,49 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 28.10 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 40.46 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64015
+      port: 60185
       reduce-rtt: false
       request-timeout: 0
-      server: 132.226.99.211
-      sni: phoenix-2.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 25.85 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64015
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 132.226.99.211
+      server: phoenix-2.nezhasu.cn
       skip-cert-verify: false
       sni: phoenix-2.nezhasu.cn
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.11 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.09 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.08 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.04 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.98 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.93 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.86 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.82 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.82 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.73 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.66 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.40 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.26 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.17 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.06 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.06 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.70 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.64 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.61 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.43 MB/s"
-      password: qwerREWQ@@
-      port: 8901
-      server: 125.141.26.15
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.40 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.31 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.23 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.22 MB/s"
-      password: qwerREWQ@@
-      port: 8901
-      server: 125.141.26.15
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.11 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.05 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.99 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.99 MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.93 MB/s"
-      password: qwerREWQ@@
-      port: 8901
-      server: 125.141.26.15
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.91 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.83 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.75 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.70 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.63 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.56 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 20.41 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 37.43 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59484
+      port: 63099
       reduce-rtt: false
       request-timeout: 0
-      server: phoenix-3.nezhasu.com
+      server: phoenix-2.nezhasu.cn
       skip-cert-verify: false
-      sni: phoenix-3.nezhasu.com
+      sni: phoenix-2.nezhasu.cn
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.33 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 33.62 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.99 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.40 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 60062
       reduce-rtt: false
@@ -329,122 +81,11 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.98 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.87 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52706
-      reduce-rtt: false
-      request-timeout: 0
-      server: 130.162.157.157
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.78 MB/s"
-      password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 891 | ⬇️ 2MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR 012 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62544
-      reduce-rtt: false
-      request-timeout: 15000
-      server: chuncheon-1.nezhasu.com
-      sni: chuncheon-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1E9\U0001F1EA DE 1140 | ⬇️ 3MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58659
-      server: falankefu1.nezhasu.com
-      skip-cert-verify: true
-      sni: falankefu1.nezhasu.com
-      type: hysteria2
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 005 | ⬇️ 14MB/s"
-      password: qwerREWQ@@
-      port: 35452
-      server: 221.150.109.22
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 944 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 896 | ⬇️ 14MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 924 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 960 | ⬇️ 10MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.65 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 50736
       reduce-rtt: false
@@ -455,17 +96,24 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.09 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 027 | ⬇️ 8MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 21.03 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52006
+      port: 61386
       reduce-rtt: false
-      request-timeout: 15000
-      server: lundun2.nezhasu.com
-      sni: lundun2.nezhasu.com
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -473,7 +121,61 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 914 | ⬇️ 13MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.95 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.95 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.90 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65193
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.85 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.84 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.76 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 52050
       reduce-rtt: false
@@ -485,44 +187,48 @@ proxies:
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 862 | ⬇️ 14MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.70 MB/s"
       password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
+      port: 56359
+      server: 203.234.238.140
       type: ss
-      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 910 | ⬇️ 2MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.62 MB/s"
       password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
+      port: 43231
+      server: 221.150.109.89
       type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR 010 | ⬇️ 10MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.61 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
+      port: 52006
       reduce-rtt: false
       request-timeout: 15000
-      server: 158.180.79.168
-      skip-cert-verify: false
-      sni: chuncheon-2.nezhasu.com
+      server: lundun2.nezhasu.com
+      sni: lundun2.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 867 | ⬇️ 7MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.59 MB/s"
       password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.45 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
       type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 895 | ⬇️ 11MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.33 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 61386
       reduce-rtt: false
@@ -533,18 +239,43 @@ proxies:
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 877 | ⬇️ 4MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.20 MB/s"
       password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.19 MB/s"
+      password: qwerREWQ@@
+      port: 8901
+      server: 125.141.26.15
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.17 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.15 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.14 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
       type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 904 | ⬇️ 10MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.10 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65193
+      port: 55826
       reduce-rtt: false
       request-timeout: 15000
       server: marseille-1.nezhasu.com
@@ -556,7 +287,22 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 952 | ⬇️ 8MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.07 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 20.04 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 65138
       reduce-rtt: false
@@ -571,7 +317,172 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR 039 | ⬇️ 13MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.99 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.99 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.94 MB/s"
+      password: qwerREWQ@@
+      port: 35452
+      server: 221.150.109.22
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.91 MB/s"
+      password: qwerREWQ@@
+      port: 8901
+      server: 125.141.26.15
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.83 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.78 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.73 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58659
+      server: falankefu1.nezhasu.com
+      skip-cert-verify: true
+      sni: falankefu1.nezhasu.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.72 MB/s"
+      password: qwerREWQ@@
+      port: 8901
+      server: 125.141.26.15
+      type: ss
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.65 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.59 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.57 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.40 MB/s"
+      password: qwerREWQ@@
+      port: 21215
+      server: 221.150.109.92
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.36 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.83 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.52 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.28 MB/s"
+      password: qwerREWQ@@
+      port: 1952
+      server: 210.217.18.68
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.08 MB/s"
+      password: qwerREWQ@@
+      port: 50411
+      server: 210.217.18.69
+      type: ss
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.08 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52706
+      reduce-rtt: false
+      request-timeout: 0
+      server: 130.162.157.157
+      sni: shouer.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.59 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 0
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.55 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62544
+      reduce-rtt: false
+      request-timeout: 15000
+      server: chuncheon-1.nezhasu.com
+      sni: chuncheon-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.47 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64413
       reduce-rtt: false
@@ -585,214 +496,25 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 903 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 968 | ⬇️ 9MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 892 | ⬇️ 11MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55826
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR 050 | ⬇️ 12MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.25 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 64413
       reduce-rtt: false
-      request-timeout: 0
+      request-timeout: 15000
       server: 158.180.79.168
+      skip-cert-verify: false
       sni: chuncheon-2.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 882 | ⬇️ 3MB/s"
-      password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
-      type: ss
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 926 | ⬇️ 13MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US 1096 | ⬇️ 5MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60185
-      reduce-rtt: false
-      request-timeout: 0
-      server: phoenix-2.nezhasu.cn
-      skip-cert-verify: false
-      sni: phoenix-2.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 870 | ⬇️ 2MB/s"
-      password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 878 | ⬇️ 5MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 863 | ⬇️ 8MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.58 MB/s"
       password: qwerREWQ@@
       port: 1952
       server: 210.217.18.68
       type: ss
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 113 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53021
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 037 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58539
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 074 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59082
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 045 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65535
-      server: mumbai-1.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-1.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 018 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65503
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 114 | ⬇️ 9MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59259
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 119 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56792
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 060 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54586
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 177 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60559
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 014 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65050
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 030 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55042
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 083 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.91 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 60468
       server: mumbai-4.nezhasu.com
@@ -801,33 +523,130 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 053 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.89 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56540
+      port: 56796
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 026 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.86 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52961
+      port: 59449
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.86 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64812
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1F3 CN | ⬇️ 11.79 MB/s"
+      password: "123"
+      port: 6100
+      server: 14.18.106.88
+      type: ss
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.78 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52335
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.77 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 57239
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.71 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59082
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
       type: hysteria2
+      udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 056 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.70 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50064
+      port: 50379
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 028 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.69 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64812
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.69 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 51073
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.68 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65535
+      server: mumbai-1.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-1.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.67 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55574
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.66 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55042
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.65 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53634
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.62 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 51933
       server: mumbai-4.nezhasu.com
@@ -836,12 +655,89 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 042 | ⬇️ 5MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.62 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58539
+      port: 59259
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.61 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56540
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.61 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58068
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.60 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64880
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.59 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58017
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.59 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55493
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 886 | ⬇️ 15MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 605 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53507
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 035 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58717
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 104 | ⬇️ 2MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59332
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -854,7 +750,43 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 103 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.55 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59642
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.53 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65433
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 056 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50064
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 113 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53021
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.48 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 65535
       server: mumbai-1.nezhasu.com
@@ -863,77 +795,45 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 110 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 029 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57518
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 022 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56254
+      port: 58283
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 019 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 153 | ⬇️ 9MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52335
+      port: 63796
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 037 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58539
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 106 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.44 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58858
+      port: 50448
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 040 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 018 | ⬇️ 6MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64880
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 885 | ⬇️ 5MB/s"
-      password: qwerREWQ@@
-      port: 50411
-      server: 210.217.18.69
-      type: ss
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 191 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57657
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 269 | ⬇️ 9MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58068
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 029 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58283
+      port: 65503
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
@@ -949,30 +849,48 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 024 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.41 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56796
+      port: 61509
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 042 | ⬇️ 5MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58539
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 052 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 066 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55574
+      port: 57467
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 015 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 191 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59449
+      port: 57657
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.36 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63461
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -985,78 +903,133 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 120 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.33 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64812
-      server: mumbai-4.nezhasu.com
+      port: 62744
+      server: mumbai-3.nezhasu.com
       skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 036 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 238 | ⬇️ 1MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 51073
-      server: mumbai-4.nezhasu.com
+      port: 51674
+      server: mumbai-3.nezhasu.com
       skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 063 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.30 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50448
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 041 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50379
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 033 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64812
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 035 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58717
+      port: 65050
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
       type: hysteria2
       udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US 853 | ⬇️ 6MB/s"
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 177 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 63099
-      reduce-rtt: false
-      request-timeout: 0
-      server: phoenix-2.nezhasu.cn
-      skip-cert-verify: false
-      sni: phoenix-2.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60559
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 394 | ⬇️ 2MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR 870 | ⬇️ 2MB/s"
       password: qwerREWQ@@
-      port: 61417
-      server: 121.170.203.147
+      port: 1952
+      server: 210.217.18.68
       type: ss
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.25 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63461
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.24 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56254
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 060 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54586
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.19 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56599
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 215 | ⬇️ 2MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63796
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.05 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58643
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.02 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58858
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 026 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52961
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 119 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56792
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 10.86 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 57518
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
       udp: true
