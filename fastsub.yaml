@@ -1,34 +1,10 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 100.99 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 52.12 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.04 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 55.05 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 63099
       reduce-rtt: false
@@ -39,484 +15,233 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.58 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.54 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.53 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.53 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.48 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.45 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.45 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.44 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.44 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.32 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.06 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.86 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.14 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.08 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.08 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - alterId: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 22.41 MB/s"
-      network: http
-      port: 80
-      server: 45.196.235.171
-      tls: false
-      type: vmess
-      uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 22.36 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59484
-      reduce-rtt: false
-      request-timeout: 0
-      server: phoenix-3.nezhasu.com
-      skip-cert-verify: false
-      sni: phoenix-3.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 21.31 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60185
-      reduce-rtt: false
-      request-timeout: 0
-      server: phoenix-2.nezhasu.cn
-      skip-cert-verify: false
-      sni: phoenix-2.nezhasu.cn
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.09 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.46 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.79 MB/s"
       network: ws
-      password: 5a2c16f9
       port: 443
-      server: 777.ai7777777.xyz
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
-        path: //
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.43 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53416
-      reduce-rtt: false
-      request-timeout: 15000
-      server: shouer.nezhasu.com
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.16 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64172
-      reduce-rtt: false
-      request-timeout: 0
-      server: chuncheon-2.nezhasu.com
-      skip-cert-verify: true
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.11 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62544
-      reduce-rtt: false
-      request-timeout: 0
-      server: chuncheon-1.nezhasu.com
-      skip-cert-verify: true
-      sni: chuncheon-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.10 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62544
-      reduce-rtt: false
-      request-timeout: 15000
-      server: chuncheon-1.nezhasu.com
-      sni: chuncheon-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.09 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52706
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 130.162.157.157
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.82 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.80 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52706
-      reduce-rtt: false
-      request-timeout: 0
-      server: 130.162.157.157
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.72 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53416
-      reduce-rtt: false
-      request-timeout: 0
-      server: shouer.nezhasu.com
-      skip-cert-verify: true
-      sni: shouer.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.66 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62544
-      reduce-rtt: false
-      request-timeout: 15000
-      server: chuncheon-1.nezhasu.com
-      sni: chuncheon-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.65 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64172
-      reduce-rtt: false
-      request-timeout: 15000
-      server: chuncheon-2.nezhasu.com
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.60 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 0
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.50 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 158.180.79.168
-      skip-cert-verify: false
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.50 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 15000
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.46 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64413
-      reduce-rtt: false
-      request-timeout: 0
-      server: 158.180.79.168
-      sni: chuncheon-2.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.71 MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-      udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.57 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.40 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.35 MB/s"
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.96 MB/s"
       network: ws
-      password: 5a2c16f9
       port: 443
-      server: 104.16.245.77
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 18.32 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50910
-      reduce-rtt: false
-      request-timeout: 15000
-      server: lundun4.nezhasu.com
-      sni: lundun4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.27 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.15
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.59 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.20 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 18.20 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.20 MB/s"
       password: e5c3f903e81d5d4e
       port: 10013
       server: 57.128.190.194
       type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.09 MB/s"
-      network: ws
-      port: 443
-      server: cdn.204910.best
-      servername: snippets.kkii.eu.org
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.18 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.12 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.11 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.11 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.08 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.00 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.99 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.95 MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.94 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.86 MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.85 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.75 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.61 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.40 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.22 MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.18 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 22.13 MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.88 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.33 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.19 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.40 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 20.38 MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.95 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 994 | ⬇️ 9MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.69 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 55423
       reduce-rtt: false
@@ -528,7 +253,7 @@ proxies:
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1E9\U0001F1EA DE 1154 | ⬇️ 3MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.68 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 58659
       server: falankefu1.nezhasu.com
@@ -540,7 +265,7 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 054 | ⬇️ 10MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.61 MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 50736
       reduce-rtt: false
@@ -555,7 +280,193 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 037 | ⬇️ 8MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.60 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52706
+      reduce-rtt: false
+      request-timeout: 0
+      server: 130.162.157.157
+      sni: shouer.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.53 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60062
+      reduce-rtt: false
+      request-timeout: 15000
+      server: lundun3.nezhasu.com
+      sni: lundun3.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.41 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.31 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.21 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53416
+      reduce-rtt: false
+      request-timeout: 15000
+      server: shouer.nezhasu.com
+      sni: shouer.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 19.12 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50910
+      reduce-rtt: false
+      request-timeout: 0
+      server: lundun4.nezhasu.com
+      skip-cert-verify: true
+      sni: lundun4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.08 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 19.06 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.93 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58810
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.91 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54929
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: true
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 18.91 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50910
+      reduce-rtt: false
+      request-timeout: 15000
+      server: lundun4.nezhasu.com
+      sni: lundun4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 18.87 MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50910
+      reduce-rtt: false
+      request-timeout: 15000
+      server: lundun4.nezhasu.com
+      sni: lundun4.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 795 | ⬇️ 11MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 047 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 65138
       reduce-rtt: false
@@ -563,6 +474,135 @@ proxies:
       server: marseille-1.nezhasu.com
       skip-cert-verify: false
       sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 452 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53416
+      reduce-rtt: false
+      request-timeout: 0
+      server: shouer.nezhasu.com
+      skip-cert-verify: true
+      sni: shouer.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 079 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 096 | ⬇️ 13MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52050
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 015 | ⬇️ 15MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50736
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 784 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 0
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 997 | ⬇️ 5MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62544
+      reduce-rtt: false
+      request-timeout: 15000
+      server: chuncheon-1.nezhasu.com
+      sni: chuncheon-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EC\U0001F1E7 GB 032 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52006
+      reduce-rtt: false
+      request-timeout: 15000
+      server: lundun2.nezhasu.com
+      sni: lundun2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 040 | ⬇️ 19MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64172
+      reduce-rtt: false
+      request-timeout: 0
+      server: chuncheon-2.nezhasu.com
+      skip-cert-verify: true
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 034 | ⬇️ 4MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62544
+      reduce-rtt: false
+      request-timeout: 15000
+      server: chuncheon-1.nezhasu.com
+      sni: chuncheon-1.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -585,13 +625,33 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 755 | ⬇️ 12MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR 048 | ⬇️ 10MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60062
+      port: 55826
       reduce-rtt: false
       request-timeout: 15000
-      server: lundun3.nezhasu.com
-      sni: lundun3.nezhasu.com
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB 016 | ⬇️ 12MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 699 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52706
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 130.162.157.157
+      sni: shouer.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -599,142 +659,27 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 047 | ⬇️ 8MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR 1004 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 037 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 65138
       reduce-rtt: false
       request-timeout: 0
       server: marseille-1.nezhasu.com
       skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F9\U0001F1FC TW 327 | ⬇️ 13MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 162.159.128.253
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 030 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54929
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: true
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 098 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65193
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 049 | ⬇️ 12MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 086 | ⬇️ 13MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 050 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 029 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55826
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 078 | ⬇️ 14MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58810
-      reduce-rtt: false
-      request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 075 | ⬇️ 14MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
       sni: marseille-1.nezhasu.com
       type: tuic
       udp-relay-mode: native
@@ -757,48 +702,6 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 079 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 039 | ⬇️ 11MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50910
-      reduce-rtt: false
-      request-timeout: 15000
-      server: lundun4.nezhasu.com
-      sni: lundun4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 015 | ⬇️ 15MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50736
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
       name: "\U0001F1EB\U0001F1F7 FR 064 | ⬇️ 12MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 61386
@@ -813,24 +716,9 @@ proxies:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 024 | ⬇️ 12MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR 063 | ⬇️ 10MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50910
-      reduce-rtt: false
-      request-timeout: 0
-      server: lundun4.nezhasu.com
-      skip-cert-verify: true
-      sni: lundun4.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 048 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55826
+      port: 52050
       reduce-rtt: false
       request-timeout: 15000
       server: marseille-1.nezhasu.com
@@ -838,64 +726,106 @@ proxies:
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F0\U0001F1F7 KR 589 | ⬇️ 6MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F9\U0001F1FC TW 145 | ⬇️ 9MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.3
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 1068 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: '%2F'
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 032 | ⬇️ 8MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR 105 | ⬇️ 16MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52006
+      port: 64413
       reduce-rtt: false
-      request-timeout: 15000
-      server: lundun2.nezhasu.com
-      sni: lundun2.nezhasu.com
+      request-timeout: 0
+      server: 158.180.79.168
+      sni: chuncheon-2.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F9\U0001F1FC TW 772 | ⬇️ 5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.131
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 049 | ⬇️ 12MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 098 | ⬇️ 10MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65193
+      reduce-rtt: false
+      request-timeout: 15000
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 082 | ⬇️ 25MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64172
+      reduce-rtt: false
+      request-timeout: 15000
+      server: chuncheon-2.nezhasu.com
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F0\U0001F1F7 KR 1000 | ⬇️ 11MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64413
+      reduce-rtt: false
+      request-timeout: 15000
+      server: 158.180.79.168
+      skip-cert-verify: false
+      sni: chuncheon-2.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 086 | ⬇️ 13MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 61386
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      skip-cert-verify: false
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EB\U0001F1F7 FR 029 | ⬇️ 10MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55826
+      reduce-rtt: false
+      request-timeout: 0
+      server: marseille-1.nezhasu.com
+      sni: marseille-1.nezhasu.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
     - client-fingerprint: chrome
       grpc-opts:
         grpc-mode: gun
@@ -907,174 +837,22 @@ proxies:
       tls: false
       type: vless
       uuid: 45c0281d-085c-4ef6-9f36-2563d322d27f
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB 987 | ⬇️ 11MB/s"
-      password: e5c3f903e81d5d4e
-      port: 10013
-      server: 57.128.190.194
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 4MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 124 | ⬇️ 3MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: one.cf.cdn.hyli.xyz
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
     - alpn:
         - h3
       congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 096 | ⬇️ 13MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR 031 | ⬇️ 25MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52050
+      port: 62544
       reduce-rtt: false
       request-timeout: 0
-      server: marseille-1.nezhasu.com
-      skip-cert-verify: false
-      sni: marseille-1.nezhasu.com
+      server: chuncheon-1.nezhasu.com
+      skip-cert-verify: true
+      sni: chuncheon-1.nezhasu.com
       type: tuic
       udp-relay-mode: native
       uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EC\U0001F1E7 GB 023 | ⬇️ 10MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60062
-      reduce-rtt: false
-      request-timeout: 0
-      server: lundun3.nezhasu.com
-      skip-cert-verify: true
-      sni: lundun3.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EB\U0001F1F7 FR 080 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61386
-      reduce-rtt: false
-      request-timeout: 15000
-      server: marseille-1.nezhasu.com
-      sni: marseille-1.nezhasu.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    - name: "\U0001F1F9\U0001F1FC TW 1123 | ⬇️ 4MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: one.cf.cdn.hyli.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 834 | ⬇️ 19MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.21
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 007 | ⬇️ 23MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 20.247.137.183
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2'
-    - name: "\U0001F1F9\U0001F1FC TW 1012 | ⬇️ 4MB/s"
-      network: ws
-      password: 554f139b-f31f-41c4-99f9-73d60647db26
-      port: 443
-      server: v2.dabache.top
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 020 | ⬇️ 2MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 618 | ⬇️ 4MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 614 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB 009 | ⬇️ 6MB/s"
-      password: e5c3f903e81d5d4e
-      port: 10013
-      server: 57.128.190.194
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 560 | ⬇️ 6MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.65
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 634 | ⬇️ 4MB/s"
+    - name: "\U0001F1F9\U0001F1FC TW 457 | ⬇️ 2MB/s"
       network: ws
       password: 5a2c16f9
       port: 443
@@ -1085,316 +863,88 @@ proxies:
         headers:
             Host: snippets.kkii.eu.org
         path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FC TW 995 | ⬇️ 5MB/s"
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK 028 | ⬇️ 4MB/s"
+      network: http
+      port: 80
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
+    - name: "\U0001F1F9\U0001F1FC TW 534 | ⬇️ 14MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: cf.130519.xyz
+      sni: snippets.kkii.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: //
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB 022 | ⬇️ 1MB/s"
+      password: e5c3f903e81d5d4e
+      port: 10013
+      server: 57.128.190.194
+      type: ss
+    - name: "\U0001F1F9\U0001F1FC TW 1102 | ⬇️ 34MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.7
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "\U0001F1F9\U0001F1FC TW 236 | ⬇️ 1MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 777.ai7777777.xyz
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1FA\U0001F1F8 US 980 | ⬇️ 5MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60185
+      reduce-rtt: false
+      request-timeout: 0
+      server: phoenix-2.nezhasu.cn
+      skip-cert-verify: false
+      sni: phoenix-2.nezhasu.cn
+      type: tuic
+      udp-relay-mode: native
+      uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+    - name: "\U0001F1FA\U0001F1F8 US 117 | ⬇️ 9MB/s"
       network: ws
       port: 443
-      server: vip1.kaixincloud.top
-      servername: snippets.kkii.eu.org
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
       tls: true
       type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F0\U0001F1F7 KR 395 | ⬇️ 13MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 370 | ⬇️ 6MB/s"
-      password: qwerREWQ@@
-      port: 39502
-      server: 218.38.103.150
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 575 | ⬇️ 3MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.43
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 839 | ⬇️ 8MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.2
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 830 | ⬇️ 10MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.73
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 284 | ⬇️ 3MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.21
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 301 | ⬇️ 10MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.16.246.188
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 378 | ⬇️ 9MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.162.3
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 537 | ⬇️ 4MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.47
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 374 | ⬇️ 6MB/s"
-      network: ws
-      password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-      port: 2096
-      server: v2.dabache.top
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-    - name: "\U0001F1F9\U0001F1FC TW 1024 | ⬇️ 5MB/s"
-      network: ws
-      password: 554f139b-f31f-41c4-99f9-73d60647db26
-      port: 443
-      server: v3.dabache.top
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 391 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 211 | ⬇️ 12MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 2096
-      server: 135.84.73.238
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /TelegramðŸ‡¨ðŸ‡³WangCai2
-    - name: "\U0001F1F9\U0001F1FC TW 524 | ⬇️ 1MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.33
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 258 | ⬇️ 18MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.131
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 972 | ⬇️ 1MB/s"
-      password: qwerREWQ@@
-      port: 39502
-      server: 218.38.103.150
-      type: ss
-    - name: "\U0001F1F9\U0001F1FC TW 657 | ⬇️ 11MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.135
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 947 | ⬇️ 5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.177
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 325 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.162.3
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 157 | ⬇️ 11MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 1047 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.47
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 164 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55042
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 074 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58261
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 152 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 55574
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 859 | ⬇️ 5MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.103
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 538 | ⬇️ 8MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.64
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
       name: "\U0001F1EE\U0001F1F3 IN 238 | ⬇️ 6MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -1402,136 +952,6 @@ proxies:
       server: mumbai-1.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-1.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 085 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60559
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 635 | ⬇️ 4MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 150 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61601
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 696 | ⬇️ 16MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.33
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 043 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59082
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 106 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 51107
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 220 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58812
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 213 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64880
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: false
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 347 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65050
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 664 | ⬇️ 30MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.19.55.205
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 969 | ⬇️ 6MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.162.3
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 072 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65535
-      server: mumbai-1.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-1.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 128 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54199
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -1544,35 +964,120 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 182 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 768 | ⬇️ 1MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50064
+      port: 51674
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 195 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60468
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 832 | ⬇️ 7MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.2
+      skip-cert-verify: true
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 057 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 137 | ⬇️ 6MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54646
+      port: 56254
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 043 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59082
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 138 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64812
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 132 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64880
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR 020 | ⬇️ 2MB/s"
+      password: qwerREWQ@@
+      port: 60940
+      server: 218.50.149.114
+      type: ss
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
       name: "\U0001F1EE\U0001F1F3 IN 070 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 50379
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 147 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59722
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 052 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63287
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 059 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56796
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 1083 | ⬇️ 14MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 104.17.162.3
+      sni: snippets.kkii.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 056 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 57657
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
@@ -1588,96 +1093,34 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 066 | ⬇️ 6MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 074 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 65503
+      port: 58261
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 121 | ⬇️ 9MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 150 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59259
+      port: 61601
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 111 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60136
       server: mumbai-2.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-2.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 366 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59449
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 058 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64812
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 155 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 53021
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 787 | ⬇️ 16MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.15
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FC TW 658 | ⬇️ 10MB/s"
-      network: ws
-      port: 443
-      server: 172.64.229.205
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 127 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64117
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 289 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57467
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 089 | ⬇️ 5MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 084 | ⬇️ 6MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
       port: 58539
       server: mumbai-4.nezhasu.com
@@ -1685,18 +1128,86 @@ proxies:
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 738 | ⬇️ 14MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.131
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 122 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52961
+      server: mumbai-2.nezhasu.com
       skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 435 | ⬇️ 1MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56599
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 692 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63461
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 072 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65535
+      server: mumbai-1.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-1.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 095 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58858
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 710 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 62744
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 347 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65050
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 053 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50871
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 119 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54586
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
       name: "\U0001F1EE\U0001F1F3 IN 065 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -1716,9 +1227,202 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 095 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 866 | ⬇️ 3MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58858
+      port: 53634
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 300 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50940
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 085 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 60559
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 292 | ⬇️ 17MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.82
+      skip-cert-verify: true
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 057 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 54646
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 106 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 51107
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 038 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58283
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 155 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53021
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 858 | ⬇️ 1MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 53143
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 862 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 51073
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 171 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 57518
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 643 | ⬇️ 3MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 57239
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 172 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56661
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 619 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65433
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 173 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56821
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 1142 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63461
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 164 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 55042
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 127 | ⬇️ 7MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64117
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 121 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 59259
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 058 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 64812
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 066 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 65503
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 282 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56792
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
@@ -1734,39 +1438,121 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 173 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 213 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56821
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
+      port: 64880
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: false
+      sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 038 | ⬇️ 7MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 136 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58283
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 300 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50940
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 119 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 54586
+      port: 61684
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 220 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58812
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 181 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58717
+      server: mumbai-2.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-2.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 089 | ⬇️ 5MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58539
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 270 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 56540
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 546 | ⬇️ 3MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.135
+      skip-cert-verify: true
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - name: "\U0001F1F9\U0001F1FC TW 1007 | ⬇️ 10MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.83
+      sni: snippets.kkii.eu.org
+      type: trojan
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 224 | ⬇️ 8MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 52335
+      server: mumbai-4.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-4.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 585 | ⬇️ 1MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 58425
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F9\U0001F1FC TW 355 | ⬇️ 14MB/s"
+      network: ws
+      password: 5a2c16f9
+      port: 443
+      server: 172.64.229.6
+      skip-cert-verify: false
+      sni: snippets.kkii.eu.org
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: snippets.kkii.eu.org
+        path: /
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 638 | ⬇️ 9MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 63796
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -1779,35 +1565,14 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 282 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 396 | ⬇️ 1MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56792
-      server: mumbai-4.nezhasu.com
+      port: 59642
+      server: mumbai-3.nezhasu.com
       skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
+      sni: mumbai-3.nezhasu.com
       type: hysteria2
       udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 862 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 51073
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 783 | ⬇️ 7MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.3
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
       name: "\U0001F1EE\U0001F1F3 IN 055 | ⬇️ 8MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
@@ -1818,639 +1583,29 @@ proxies:
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 053 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 612 | ⬇️ 3MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50871
+      port: 53507
+      server: mumbai-3.nezhasu.com
+      skip-cert-verify: true
+      sni: mumbai-3.nezhasu.com
+      type: hysteria2
+      udp: true
+    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
+      name: "\U0001F1EE\U0001F1F3 IN 182 | ⬇️ 6MB/s"
+      password: d9812081-7f61-456d-9340-a1fb8dfd603b
+      port: 50064
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
     - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 056 | ⬇️ 8MB/s"
+      name: "\U0001F1EE\U0001F1F3 IN 152 | ⬇️ 7MB/s"
       password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57657
+      port: 55574
       server: mumbai-4.nezhasu.com
       skip-cert-verify: true
       sni: mumbai-4.nezhasu.com
       type: hysteria2
       udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 147 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59722
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 195 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 60468
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 602 | ⬇️ 7MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.32
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 181 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58717
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 122 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52961
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-    - name: "\U0001F1F9\U0001F1FC TW 1104 | ⬇️ 31MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.55
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 136 | ⬇️ 7MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 61684
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FC TW 735 | ⬇️ 1MB/s"
-      network: ws
-      port: 2096
-      server: wp.qwq2022.top
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 270 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56540
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 084 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 58539
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 171 | ⬇️ 8MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 57518
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1F9\U0001F1FC TW 1061 | ⬇️ 4MB/s"
-      network: ws
-      port: 443
-      server: 172.64.229.205
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1F9\U0001F1FC TW 818 | ⬇️ 3MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 060 | ⬇️ 9MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1F9\U0001F1FC TW 931 | ⬇️ 15MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.9
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 137 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56254
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 342 | ⬇️ 2MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 059 | ⬇️ 6MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56796
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 788 | ⬇️ 9MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.167.134
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 102 | ⬇️ 9MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 62229
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1F9\U0001F1FC TW 438 | ⬇️ 18MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.43
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 925 | ⬇️ 2MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN 172 | ⬇️ 9MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 56661
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.41 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.86
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.40 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.6
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.32 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 50379
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 11.29 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 59487
-      server: mumbai-2.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-2.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.16 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: freeyx.cloudflare88.eu.org
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.10 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.43
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.08 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: one.cf.cdn.hyli.xyz
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.08 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.167.134
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.05 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.177
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.05 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.2
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.04 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 104.17.167.134
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.04 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.9
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.97 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.65
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.96 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.32
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.96 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.69
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.90 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 777.ai7777777.xyz
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.85 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.2
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 10.83 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 52335
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.79 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.5
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.71 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 2096
-      server: 135.84.73.238
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.69 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.127
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.50 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.73
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.48 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: cf.130519.xyz
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.47 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.177
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.38 MB/s"
-      network: ws
-      port: 443
-      server: 104.19.39.97
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - auth: d9812081-7f61-456d-9340-a1fb8dfd603b
-      name: "\U0001F1EE\U0001F1F3 IN | ⬇️ 10.26 MB/s"
-      password: d9812081-7f61-456d-9340-a1fb8dfd603b
-      port: 64812
-      server: mumbai-4.nezhasu.com
-      skip-cert-verify: true
-      sni: mumbai-4.nezhasu.com
-      type: hysteria2
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 10.24 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 162.159.128.253
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: '%2F'
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.22 MB/s"
-      network: ws
-      password: 554f139b-f31f-41c4-99f9-73d60647db26
-      port: 2083
-      server: v1.dabache.top
-      skip-cert-verify: true
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.20 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.205
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.15 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.33
-      skip-cert-verify: false
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.06 MB/s"
-      network: ws
-      password: 5a2c16f9
-      port: 443
-      server: 172.64.229.6
-      sni: snippets.kkii.eu.org
-      type: trojan
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.02 MB/s"
-      network: ws
-      port: 443
-      server: 172.64.53.226
-      servername: snippets.kkii.eu.org
-      tls: true
-      type: vless
-      uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-      ws-opts:
-        headers:
-            Host: snippets.kkii.eu.org
-        path: /
