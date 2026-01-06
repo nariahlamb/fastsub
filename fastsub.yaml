@@ -1,7 +1,6 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 57.69 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 96.30 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -13,7 +12,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 44.26 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.66 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -25,43 +24,71 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.59 MB/s"
-      network: grpc
-      port: 56700
-      server: 51.89.228.63
-      tls: false
-      type: vless
-      uuid: 45c0281d-085c-4ef6-9f36-2563d322d27f
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.42 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.32 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.55 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-      udp: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.05 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.45 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.44 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - alterId: 0
       cipher: auto
       http-opts:
         method: GET
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 18.10 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 22.07 MB/s"
+      network: http
+      port: 80
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.92 MB/s"
+      network: http
+      port: 80
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 21.86 MB/s"
       network: http
       port: 80
       server: 45.196.235.171
@@ -69,70 +96,63 @@ proxies:
       type: vmess
       uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.85 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.75 MB/s"
       password: qwerREWQ@@
       port: 56359
       server: 203.234.238.140
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.70 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.33 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.60 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.86 MB/s"
+      password: qwerREWQ@@
+      port: 56359
+      server: 203.234.238.140
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.61 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.20 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.76 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.85 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.71 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.34 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.13 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.12 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.12 MB/s"
-      password: qwerREWQ@@
-      port: 56359
-      server: 203.234.238.140
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.07 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.05 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.04 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.08 MB/s"
       password: qwerREWQ@@
       port: 43231
       server: 221.150.109.89
@@ -143,67 +163,73 @@ proxies:
         method: GET
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 16.01 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.91 MB/s"
       network: http
-      port: 80
+      port: 443
       server: 45.196.235.171
       tls: false
       type: vmess
-      uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.30 MB/s"
-      password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.02 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.01 MB/s"
-      password: qwerREWQ@@
-      port: 21215
-      server: 221.150.109.92
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.17 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.47 MB/s"
-      password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
-      type: ss
+      uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.69 MB/s"
+      network: grpc
+      port: 56700
+      server: 51.89.228.63
+      tls: false
+      type: vless
+      uuid: 45c0281d-085c-4ef6-9f36-2563d322d27f
     - alterId: 0
       cipher: auto
       http-opts:
         method: GET
         path:
             - /
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.97 MB/s"
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.56 MB/s"
+      network: http
+      port: 443
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 13.10 MB/s"
+      network: http
+      port: 443
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 11.43 MB/s"
       network: http
       port: 80
       server: 45.196.235.171
       tls: false
       type: vmess
       uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.86 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.77 MB/s"
-      password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
-      type: ss
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 10.86 MB/s"
+      network: http
+      port: 443
+      server: 45.196.235.171
+      tls: false
+      type: vmess
+      uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
