@@ -1,6 +1,7 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 31.17 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 42.16 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -12,9 +13,22 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
+    - auth: 1365fded-4e60-4057-b408-0e8fa083108e
+      down: 1000
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 41.82 MB/s"
+      obfs: salamander
+      obfs-password: rVYx28ncsHBinunc
+      password: 1365fded-4e60-4057-b408-0e8fa083108e
+      port: 41012
+      server: kr2.miyazono-kaori.com
+      skip-cert-verify: false
+      sni: kr2.miyazono-kaori.com
+      type: hysteria2
+      udp: true
+      up: 1000
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 27.94 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.44 MB/s"
       network: ws
       port: 8080
       server: zula.ir
@@ -25,49 +39,7 @@ proxies:
         headers:
             Host: nasnet-511952424.mcitel.co
         path: /nasnet/cdn?ed=2560
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 21.29 MB/s"
-      network: grpc
-      port: 56700
-      server: 51.89.228.63
-      tls: false
-      type: vless
-      uuid: 45c0281d-085c-4ef6-9f36-2563d322d27f
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.04 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.92 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.84 MB/s"
-      password: 76de82292c035b46
-      port: 45924
-      server: 57.128.110.71
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.76 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.71 MB/s"
-      password: 76de82292c035b46
-      port: 45924
-      server: 57.128.110.71
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.66 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 35.53 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -79,109 +51,230 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 29.82 MB/s"
+      network: tcp
+      port: 4443
+      reality-opts:
+        public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+        short-id: aa7e96542880027a
+      server: 45.87.153.176
+      servername: github.com
+      tls: true
+      type: vless
+      uuid: ff03e357-b531-4f30-9f47-ba9b57dd384f
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 18.52 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 26.72 MB/s"
+      password: 76de82292c035b46
+      port: 45924
+      server: 57.128.110.71
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1F7 TR | ⬇️ 26.62 MB/s"
       password: bed61f51dfec961a
       port: 11201
       server: 93.114.98.102
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.07 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.99 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.68 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.38 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.57 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 15.39 MB/s"
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 23.85 MB/s"
+      password: 76de82292c035b46
+      port: 45924
+      server: 57.128.110.71
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 23.53 MB/s"
       password: 7a0c8cfe8540fdbe
       port: 11201
       server: 51.89.216.184
       type: ss
       udp: true
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.44 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.64 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.55 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.87 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.05 MB/s"
       password: qwerREWQ@@
       port: 19307
       server: 211.201.169.70
       type: ss
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 14.27 MB/s"
-      network: ws
-      port: 443
-      server: 34.143.159.175
-      servername: x-hk.xaniusnippets.qzz.io
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.03 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
-      uuid: e258977b-e413-4718-a3af-02d75492c349
-      ws-opts:
-        headers:
-            Host: x-hk.xaniusnippets.qzz.io
-        path: /?ed=2560
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.86 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.76 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.22 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.20 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.06 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.06 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.03 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.95 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.80 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.79 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.67 MB/s"
       password: qwerREWQ@@
       port: 18590
       server: 125.141.31.100
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.62 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.58 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.47 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.46 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.29 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.14 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.90 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.46 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.43 MB/s"
+      password: qwerREWQ@@
+      port: 60940
+      server: 218.50.149.114
+      type: ss
+    - auth: 1365fded-4e60-4057-b408-0e8fa083108e
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.33 MB/s"
+      obfs: salamander
+      obfs-password: MKsqfibVxwhZ3pCf
+      password: 1365fded-4e60-4057-b408-0e8fa083108e
+      port: 42556
+      server: kr1.miyazono-kaori.com
+      sni: kr1.miyazono-kaori.com
+      type: hysteria2
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.02 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.52 MB/s"
       password: qwerREWQ@@
       port: 60940
       server: 218.50.149.114
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.04 MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.15 MB/s"
-      password: qwerREWQ@@
-      port: 39502
-      server: 218.38.103.150
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.00 MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.55 MB/s"
-      password: qwerREWQ@@
-      port: 60940
-      server: 218.50.149.114
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 10.06 MB/s"
+      password: 75782921a8e70802
+      port: 18550
+      server: 195.7.6.160
       type: ss
