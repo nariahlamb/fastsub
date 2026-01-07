@@ -1,8 +1,33 @@
 proxy-providers: {}
 proxies:
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 55.85 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.11 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.81 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.65 MB/s"
       network: ws
       port: 8080
       server: zula.ir
@@ -13,270 +38,110 @@ proxies:
         headers:
             Host: nasnet-511952424.mcitel.co
         path: /nasnet/cdn?ed=2560
-    - auth: 1365fded-4e60-4057-b408-0e8fa083108e
-      down: 1000
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 36.85 MB/s"
-      obfs: salamander
-      obfs-password: rVYx28ncsHBinunc
-      password: 1365fded-4e60-4057-b408-0e8fa083108e
-      port: 41012
-      server: kr2.miyazono-kaori.com
-      skip-cert-verify: false
-      sni: kr2.miyazono-kaori.com
-      type: hysteria2
-      udp: true
-      up: 1000
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 32.89 MB/s"
-      password: X36TIi4C3NH6Oln3TdGyjg
-      port: 9443
-      server: fl3.cowjuice.me
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.16 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.01 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.98 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.94 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.59 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.55 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.47 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.08 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.61 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.39 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.36 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.35 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.19 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.98 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.96 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.95 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.93 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.90 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.67 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.47 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.46 MB/s"
-      password: qwerREWQ@@
-      port: 43231
-      server: 221.150.109.89
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.45 MB/s"
-      password: qwerREWQ@@
-      port: 19307
-      server: 211.201.169.70
-      type: ss
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 14.43 MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      servername: hkt.gotochinatown.net
-      skip-cert-verify: true
+    - name: "\U0001F1EB\U0001F1EE FI | ⬇️ 26.99 MB/s"
+      network: tcp
+      port: 32323
+      server: 37.27.89.117
       tls: false
-      type: vmess
-      uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+      type: vless
+      uuid: 015e6f7b-c6df-470a-a22d-62b8b9947a4d
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.43 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
-            Host: hkt.gotochinatown.net
-        path: /
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.42 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.38 MB/s"
       password: qwerREWQ@@
       port: 43231
       server: 221.150.109.89
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.24 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.19 MB/s"
       password: qwerREWQ@@
       port: 43231
       server: 221.150.109.89
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.95 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.11 MB/s"
       password: qwerREWQ@@
       port: 43231
       server: 221.150.109.89
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.88 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.72 MB/s"
       password: qwerREWQ@@
       port: 18590
       server: 125.141.31.100
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.00 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.33 MB/s"
       password: qwerREWQ@@
       port: 19307
       server: 211.201.169.70
       type: ss
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 12.58 MB/s"
-      network: ws
-      port: 80
-      server: hkt.gotochinatown.net
-      servername: hkt.gotochinatown.net
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-      ws-opts:
-        headers:
-            Host: hkt.gotochinatown.net
-        path: /
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.13 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.98 MB/s"
       password: qwerREWQ@@
-      port: 1952
-      server: 210.217.18.68
+      port: 43231
+      server: 221.150.109.89
       type: ss
-    - auth: 1365fded-4e60-4057-b408-0e8fa083108e
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.96 MB/s"
-      obfs: salamander
-      obfs-password: MKsqfibVxwhZ3pCf
-      password: 1365fded-4e60-4057-b408-0e8fa083108e
-      port: 42556
-      server: kr1.miyazono-kaori.com
-      skip-cert-verify: false
-      sni: kr1.miyazono-kaori.com
-      type: hysteria2
       udp: true
-    - auth: 1365fded-4e60-4057-b408-0e8fa083108e
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.86 MB/s"
-      obfs: salamander
-      obfs-password: MKsqfibVxwhZ3pCf
-      password: 1365fded-4e60-4057-b408-0e8fa083108e
-      port: 42556
-      server: kr1.miyazono-kaori.com
-      sni: kr1.miyazono-kaori.com
-      type: hysteria2
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.11 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.98 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.96 MB/s"
       password: qwerREWQ@@
       port: 18590
       server: 125.141.31.100
       type: ss
       udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.74 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.59 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 15.15 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.44 MB/s"
+      password: qwerREWQ@@
+      port: 43231
+      server: 221.150.109.89
+      type: ss
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.03 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.55 MB/s"
+      password: qwerREWQ@@
+      port: 19307
+      server: 211.201.169.70
+      type: ss
