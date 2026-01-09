@@ -1,19 +1,7 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 57.09 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 47.95 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 52.17 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -25,19 +13,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.20 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 47.19 MB/s"
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 49.25 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -50,7 +26,50 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.49 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 47.52 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.50 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.83 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.214
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.81 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.214
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.47 MB/s"
+      password: k1dBOmOB4oqi7Ump37a1bQ
+      port: 8080
+      server: 82.38.31.214
+      type: ss
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 40.47 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -63,7 +82,7 @@ proxies:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 46.16 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 39.68 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -75,25 +94,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 42.72 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.214
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 42.43 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.214
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 41.86 MB/s"
-      password: k1dBOmOB4oqi7Ump37a1bQ
-      port: 8080
-      server: 82.38.31.214
-      type: ss
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.65 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 39.47 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -106,34 +107,21 @@ proxies:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 39.52 MB/s"
-      network: ws
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 37.11 MB/s"
+      network: tcp
       port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
+      reality-opts:
+        public-key: UgCLC1JdwUh-hgpvSfndN1tuH98620gziTq2UB0gOjI
+        short-id: a369bfe440aba1a2
+      server: 83.147.18.219
+      servername: allison.kosmolet.xyz
       tls: true
       type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 37.07 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+      uuid: 613725ab-ca86-4d54-852e-a0bf45e812de
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.60 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.86 MB/s"
       network: ws
       port: 8080
       server: zula.ir
@@ -145,7 +133,7 @@ proxies:
             Host: nasnet-511952424.mcitel.co
         path: /nasnet/cdn?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 32.71 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.40 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -157,7 +145,7 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 30.51 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 35.55 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -170,45 +158,28 @@ proxies:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.38 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 32.13 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1EB\U0001F1EE FI | ⬇️ 29.28 MB/s"
       network: tcp
       port: 443
-      reality-opts:
-        public-key: UgCLC1JdwUh-hgpvSfndN1tuH98620gziTq2UB0gOjI
-        short-id: a369bfe440aba1a2
-      server: 83.147.18.219
-      servername: allison.kosmolet.xyz
+      server: ficdn16.suio.me
+      servername: ficdn16.suio.me
       tls: true
       type: vless
-      uuid: 613725ab-ca86-4d54-852e-a0bf45e812de
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 27.45 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 26.88 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+      uuid: 21f8d9aa-8ec7-4340-aa0a-7ce19f244adc
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.41 MB/s"
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 29.26 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -220,209 +191,220 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.16 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.97 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      udp: true
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.56 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.41 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.27 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      udp: true
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.39 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 19.30 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.59 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.10 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.09 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 29.26 MB/s"
+      password: X36TIi4C3NH6Oln3TdGyjg
+      port: 9443
+      server: fl3.cowjuice.me
       type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.07 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.14 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
       tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.07 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.90 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
       tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 17.06 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.67 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
       tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.99 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+      type: vless
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.62 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
       tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.98 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.95 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.84 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.78 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.52 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
+      type: vless
       udp: true
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.61 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
+      tls: true
+      type: vless
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.59 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
+      tls: true
+      type: vless
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 21.01 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
+      tls: true
+      type: vless
+      udp: true
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: qq
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 20.99 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
+      tls: true
+      type: vless
+      udp: true
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.28 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.42 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 19.35 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 17.26 MB/s"
+      password: X36TIi4C3NH6Oln3TdGyjg
+      port: 9443
+      server: fl3.cowjuice.me
+      type: ss
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 17.20 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.42 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.35 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.34 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.31 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.48 MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.31 MB/s"
       password: qwerREWQ@@
       port: 3733
       server: 27.255.82.135
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.47 MB/s"
-      password: qwerREWQ@@
-      port: 48012
-      server: 221.150.109.90
-      type: ss
       udp: true
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.36 MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.31 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -430,25 +412,27 @@ proxies:
       tls: true
       type: http
       username: test
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.30 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.23 MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.16 MB/s"
-      password: qwerREWQ@@
-      port: 52713
-      server: 125.141.26.12
-      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 16.29 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+        short-id: 1ed136481e0ede74
+      server: japan.geodema.network
+      servername: japan.geodema.network
+      tls: true
+      type: vless
+      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.23 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 16.10 MB/s"
       password: test.+
       port: 30446
@@ -458,52 +442,12 @@ proxies:
       type: http
       username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 145 | ⬇️ 16MB/s"
-      password: qwerREWQ@@
-      port: 41563
-      server: 125.141.31.76
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 130 | ⬇️ 5MB/s"
-      password: qwerREWQ@@
-      port: 48012
-      server: 221.150.109.90
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 8MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.97 MB/s"
       password: qwerREWQ@@
       port: 18590
       server: 125.141.31.100
       type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 011 | ⬇️ 12MB/s"
-      password: qwerREWQ@@
-      port: 3733
-      server: 27.255.82.135
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 125 | ⬇️ 16MB/s"
-      password: qwerREWQ@@
-      port: 3733
-      server: 27.255.82.135
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 013 | ⬇️ 13MB/s"
-      password: qwerREWQ@@
-      port: 48012
-      server: 221.150.109.90
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 127 | ⬇️ 15MB/s"
-      password: qwerREWQ@@
-      port: 52713
-      server: 125.141.26.12
-      type: ss
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7 KR 055 | ⬇️ 7MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.76 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -512,118 +456,51 @@ proxies:
       type: http
       username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 147 | ⬇️ 16MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.66 MB/s"
+      password: qwerREWQ@@
+      port: 3733
+      server: 27.255.82.135
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.31 MB/s"
+      password: qwerREWQ@@
+      port: 29731
+      server: 203.234.238.140
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.13 MB/s"
       password: qwerREWQ@@
       port: 52713
       server: 125.141.26.12
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 148 | ⬇️ 14MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.08 MB/s"
       password: qwerREWQ@@
       port: 42013
       server: 221.150.109.20
       type: ss
       udp: true
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 146 | ⬇️ 17MB/s"
-      password: qwerREWQ@@
-      port: 3733
-      server: 27.255.82.135
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 149 | ⬇️ 10MB/s"
-      password: qwerREWQ@@
-      port: 30633
-      server: 221.150.109.22
-      type: ss
-    - client-fingerprint: qq
-      flow: xtls-rprx-vision
-      name: "\U0001F1EF\U0001F1F5 JP 153 | ⬇️ 1MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-        short-id: 1ed136481e0ede74
-      server: japan.geodema.network
-      servername: japan.geodema.network
-      tls: true
-      type: vless
-      udp: true
-      uuid: a11ab9c5-4155-430b-9efc-7a7122531382
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 004 | ⬇️ 11MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 010 | ⬇️ 11MB/s"
-      password: qwerREWQ@@
-      port: 42013
-      server: 221.150.109.20
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 131 | ⬇️ 14MB/s"
-      password: qwerREWQ@@
-      port: 30633
-      server: 221.150.109.22
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 015 | ⬇️ 11MB/s"
-      password: qwerREWQ@@
-      port: 42013
-      server: 221.150.109.20
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 133 | ⬇️ 11MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.88 MB/s"
       password: qwerREWQ@@
       port: 48012
       server: 221.150.109.90
       type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 006 | ⬇️ 6MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.68 MB/s"
+      password: qwerREWQ@@
+      port: 48012
+      server: 221.150.109.90
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 13.50 MB/s"
       password: qwerREWQ@@
       port: 18590
       server: 125.141.31.100
       type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 022 | ⬇️ 11MB/s"
-      password: qwerREWQ@@
-      port: 18590
-      server: 125.141.31.100
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 005 | ⬇️ 7MB/s"
-      password: qwerREWQ@@
-      port: 61060
-      server: 210.217.18.70
-      type: ss
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EB\U0001F1EE FI 065 | ⬇️ 1MB/s"
-      password: X36TIi4C3NH6Oln3TdGyjg
-      port: 9443
-      server: fl3.cowjuice.me
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8 US 040 | ⬇️ 8MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR 039 | ⬇️ 8MB/s"
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 12.69 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -632,18 +509,13 @@ proxies:
       type: http
       username: test
     - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 132 | ⬇️ 11MB/s"
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 11.33 MB/s"
       password: qwerREWQ@@
-      port: 3733
-      server: 27.255.82.135
+      port: 48012
+      server: 221.150.109.90
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 KR 126 | ⬇️ 15MB/s"
-      password: qwerREWQ@@
-      port: 30633
-      server: 221.150.109.22
-      type: ss
-    - name: "\U0001F1F0\U0001F1F7 KR 043 | ⬇️ 6MB/s"
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.82 MB/s"
       password: test.+
       port: 30446
       server: testkr3.ssv.vc
@@ -651,15 +523,10 @@ proxies:
       tls: true
       type: http
       username: test
-    - name: "\U0001F1FA\U0001F1F8 US 034 | ⬇️ 12MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 10.08 MB/s"
+      password: qwerREWQ@@
+      port: 18590
+      server: 125.141.31.100
+      type: ss
+      udp: true
