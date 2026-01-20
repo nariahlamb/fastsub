@@ -1,20 +1,6 @@
 proxy-providers: {}
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 43.38 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 38.70 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 30.68 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -27,66 +13,7 @@ proxies:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 36.05 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 30.74 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.58 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.87 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 24.12 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.11 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.43 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -98,25 +25,10 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.53 MB/s"
+    - name: "\U0001F1FA\U0001F1F8 US | ⬇️ 27.38 MB/s"
       network: ws
       port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 23.04 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
+      server: 162.159.45.232
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
@@ -128,7 +40,7 @@ proxies:
         path: /?ed=2560
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 22.71 MB/s"
+      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.33 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -140,7 +52,7 @@ proxies:
       type: vless
       uuid: 0d93b787-b66b-4696-a036-a0f549764f69
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.71 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 26.12 MB/s"
       network: ws
       port: 80
       server: 172.66.0.102
@@ -151,16 +63,8 @@ proxies:
         headers:
             Host: visvuev-272526281716252527717252.poshakhowdy.ir.
         path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.59 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.55 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 25.51 MB/s"
       network: ws
       port: 80
       server: 172.66.0.102
@@ -171,7 +75,179 @@ proxies:
         headers:
             Host: visvuev-272526281716252527717252.poshakhowdy.ir.
         path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.28 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.90 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.92 MB/s"
+      network: ws
+      port: 80
+      server: 172.66.0.102
+      tls: false
+      type: vless
+      uuid: "\U0001F449\U0001F449BanV2ray\U0001F448\U0001F448"
+      ws-opts:
+        headers:
+            Host: visvuev-272526281716252527717252.poshakhowdy.ir.
+        path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.69 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 21.19 MB/s"
+      network: tcp
+      port: 51191
+      reality-opts:
+        public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+        short-id: d8c6b58bcbb0c323
+      server: 51.250.43.188
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.54 MB/s"
+      network: tcp
+      port: 51191
+      reality-opts:
+        public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+        short-id: d8c6b58bcbb0c323
+      server: 51.250.43.188
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 20.53 MB/s"
+      network: tcp
+      port: 51191
+      reality-opts:
+        public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+        short-id: d8c6b58bcbb0c323
+      server: 51.250.43.188
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.61 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /x-aniu/?ed=2560
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: UpdateService
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 18.26 MB/s"
+      network: grpc
+      port: 2083
+      reality-opts:
+        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+        short-id: 6da16b1335651b38
+      server: 213.176.73.206
+      servername: apple.com
+      tls: true
+      type: vless
+      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: UpdateService
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 17.08 MB/s"
+      network: grpc
+      port: 2083
+      reality-opts:
+        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+        short-id: 6da16b1335651b38
+      server: 213.176.73.206
+      servername: apple.com
+      tls: true
+      type: vless
+      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    - client-fingerprint: chrome
+      grpc-opts:
+        grpc-mode: gun
+        grpc-service-name: UpdateService
+      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 16.94 MB/s"
+      network: grpc
+      port: 2083
+      reality-opts:
+        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+        short-id: 6da16b1335651b38
+      server: 213.176.73.206
+      servername: apple.com
+      tls: true
+      type: vless
+      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.80 MB/s"
+      network: ws
+      port: 443
+      server: 104.17.25.173
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.65 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FA RU | ⬇️ 15.53 MB/s"
+      network: tcp
+      port: 51191
+      reality-opts:
+        public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+        short-id: d8c6b58bcbb0c323
+      server: 51.250.43.188
+      servername: ads.x5.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 62770d79-dc4d-07d0-b01c-ea30399725aa
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.50 MB/s"
       network: ws
       port: 443
       server: cloudflare.182682.xyz
@@ -184,26 +260,7 @@ proxies:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
     - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 21.75 MB/s"
-      network: ws
-      port: 80
-      server: 172.66.0.102
-      tls: false
-      type: vless
-      uuid: "\U0001F449\U0001F449BanV2ray\U0001F448\U0001F448"
-      ws-opts:
-        headers:
-            Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-        path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
-    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.70 MB/s"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      username: test
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 19.74 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.40 MB/s"
       network: ws
       port: 443
       server: 104.17.25.173
@@ -215,7 +272,33 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.71 MB/s"
+    - name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.29 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 14.00 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.60 MB/s"
       network: ws
       port: 443
       server: 104.16.250.22
@@ -227,7 +310,124 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 18.18 MB/s"
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.75 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 12.64 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.03 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.91 MB/s"
+      network: ws
+      port: 443
+      server: 104.17.25.173
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.01 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.92 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.66 MB/s"
+      network: ws
+      port: 443
+      server: 104.17.25.173
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.61 MB/s"
+      network: ws
+      port: 443
+      server: 104.16.250.22
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /?ed=2560
+    - name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 10.46 MB/s"
+      network: ws
+      port: 443
+      server: cloudflare.182682.xyz
+      servername: l.ayovo.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+      ws-opts:
+        headers:
+            Host: l.ayovo.netlib.re
+        path: /x-aniu/?ed=2560
+    - client-fingerprint: chrome
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.40 MB/s"
       network: ws
       port: 443
       server: 162.159.16.63
@@ -239,242 +439,13 @@ proxies:
         headers:
             Host: l.ayovo.netlib.re
         path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 16.53 MB/s"
+    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.35 MB/s"
       network: ws
       port: 443
       server: 104.17.25.173
       servername: l.ayovo.netlib.re
       tls: true
       type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.80 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.65 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: UpdateService
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.60 MB/s"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-        short-id: 6da16b1335651b38
-      server: 213.176.73.206
-      servername: apple.com
-      tls: true
-      type: vless
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.55 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: UpdateService
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 15.43 MB/s"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-        short-id: 6da16b1335651b38
-      server: 213.176.73.206
-      servername: apple.com
-      tls: true
-      type: vless
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 15.13 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      grpc-opts:
-        grpc-mode: gun
-        grpc-service-name: UpdateService
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 14.95 MB/s"
-      network: grpc
-      port: 2083
-      reality-opts:
-        public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-        short-id: 6da16b1335651b38
-      server: 213.176.73.206
-      servername: apple.com
-      tls: true
-      type: vless
-      uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 14.84 MB/s"
-      network: ws
-      port: 443
-      server: 162.159.16.63
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.88 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 13.13 MB/s"
-      network: ws
-      port: 443
-      server: 104.17.25.173
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1EB\U0001F1F7 FR | ⬇️ 12.11 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 12.10 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.29 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 11.21 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.95 MB/s"
-      network: ws
-      port: 443
-      server: cloudflare.182682.xyz
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.62 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-      ws-opts:
-        headers:
-            Host: l.ayovo.netlib.re
-        path: /?ed=2560
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.04 MB/s"
-      network: ws
-      port: 443
-      server: 104.16.250.22
-      servername: l.ayovo.netlib.re
-      tls: true
-      type: vless
-      udp: true
       uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
       ws-opts:
         headers:
