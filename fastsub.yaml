@@ -1,19 +1,8 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 70.84 MB/s"
-      network: ws
-      port: 80
-      server: nodejs.org
-      tls: false
-      type: vless
-      uuid: 3775d133-dc3a-4a02-8095-5c70c328ae9f
-      ws-opts:
-        headers:
-            Host: HUge-ActOR48bf36fHJV.ecOTouriSS.co.uK.
-        path: /?ed
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 61.93 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 161.74 MB/s"
       network: tcp
       port: 42356
       reality-opts:
@@ -24,7 +13,7 @@ proxies:
       type: vless
       uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
     - auth: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 59.68 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 114.75 MB/s"
       password: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
       port: 443
       server: 134.195.101.191
@@ -34,20 +23,7 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 59.19 MB/s"
-      network: tcp
-      port: 42356
-      reality-opts:
-        public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
-      server: 159.223.205.136
-      servername: dash.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 56.87 MB/s"
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 54.76 MB/s"
       network: tcp
       port: 42356
       reality-opts:
@@ -60,33 +36,204 @@ proxies:
       uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 29.16 MB/s"
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.84 MB/s"
+      port: 8080
+      server: 47.245.10.166
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 66857714-5456-462f-bc9e-2ff21877ddcb
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.55 MB/s"
+      port: 8080
+      server: 8.211.148.15
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 757e6443-e4ec-48e1-a721-47c49a1e302b
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.21 MB/s"
+      port: 8080
+      server: 47.91.19.154
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 60d4f767-fd8e-4513-bfce-1ea985515fbf
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 25.17 MB/s"
+      port: 8080
+      server: 8.209.218.56
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 737c6a40-9054-4a33-a735-77eb6d743491
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.98 MB/s"
+      port: 8080
+      server: 47.245.35.34
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 800c4b55-6f78-4fd7-9478-cc30547a91fd
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.96 MB/s"
+      port: 8080
+      server: 47.74.59.11
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 65779acb-3868-48e0-bc00-3c0f72fe923f
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5 JP | ⬇️ 24.10 MB/s"
+      port: 8080
+      server: 47.245.3.185
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 5f70cfea-e4f0-40a8-b57f-6bdd762c7a4b
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 24.04 MB/s"
       network: ws
       port: 8080
-      server: digitalocean.com
+      server: tgju.org
       tls: false
       type: vmess
       uuid: nasnet
       ws-opts:
         headers:
-            Host: nasnet-571299667.rahavard365.co
-        path: /NASNET/cdn?ed=2560
+            Host: nasnet-571296497.iranpress.co
+        path: /nasnet/cdn?ed=2560
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.95 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.88 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.78 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.66 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.46 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.40 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.27 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.01 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 23.00 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 22.97 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 22.75 MB/s"
+      network: ws
+      port: 8080
+      server: tgju.org
+      tls: false
+      type: vmess
+      uuid: nasnet
+      ws-opts:
+        headers:
+            Host: nasnet-571296497.iranpress.co
+        path: /nasnet/cdn?ed=2560
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 28.98 MB/s"
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 22.50 MB/s"
       network: tcp
       port: 443
       reality-opts:
-        public-key: PEMF0zJRT97z18eQUFk5jT5sBk1bYZ-Q2PxeFkfEKTQ
-        short-id: ffffffffff
-      server: 185.214.74.184
-      servername: apple.com
+        public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
+        short-id: 31
+      server: pol-0001-xr.packet-drop-society.net
+      servername: hls-svod.itunes.apple.com
       tls: true
       type: vless
-      uuid: 2275661d-a9b7-522d-99e6-a4d42cb04fa0
+      uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
+    - name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 21.54 MB/s"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      username: test
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 28.70 MB/s"
+      name: "\U0001F1F3\U0001F1F1 NL | ⬇️ 21.22 MB/s"
       network: tcp
       port: 443
       reality-opts:
@@ -99,104 +246,31 @@ proxies:
       uuid: 8db9aae9-1d66-4a34-8f35-42a7a34f269b
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 28.59 MB/s"
+      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 20.97 MB/s"
       network: ws
       port: 8080
-      server: tgju.org
+      server: digitalocean.com
       tls: false
       type: vmess
       uuid: nasnet
       ws-opts:
         headers:
-            Host: nasnet-571296497.iranpress.co
-        path: /nasnet/cdn?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 27.70 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-        short-id: feedbacc
-      server: pol.fasti.win
-      servername: pl.fasti.win
-      tls: true
-      type: vless
-      uuid: 2b76609f-2132-42ac-a8fd-89635f73c85a
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 27.05 MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.80 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.65 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 26.15 MB/s"
-      password: '@193.233.254.8:'
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: Og@193.233.254.8
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.92 MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODo%3D
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.79 MB/s"
-      port: 1080
-      server: 193.233.254.8
-      type: socks5
-      username: T2dAMTkzLjIzMy4yNTQuODpAMTkzLjIzMy4yNTQuODo%3D
-    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 24.12 MB/s"
-      port: 1080
-      server: 193.233.254.9
-      type: socks5
-      username: Og@193.233.254.9
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 23.91 MB/s"
-      network: tcp
-      port: 2053
-      reality-opts:
-        public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
-      server: 157.180.79.18
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      uuid: 24497ec6-9244-4781-869d-3b48dbb13361
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 23.89 MB/s"
-      network: tcp
-      port: 2053
-      reality-opts:
-        public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
-      server: 157.180.79.18
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      uuid: 24497ec6-9244-4781-869d-3b48dbb13361
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 23.81 MB/s"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-        short-id: feedbacc
-      server: pol.fasti.win
-      servername: pl.fasti.win
-      tls: true
-      type: vless
+            Host: nasnet-571299667.rahavard365.co
+        path: /NASNET/cdn?ed=2560
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 20.51 MB/s"
+      password: qwerREWQ@@
+      port: 56375
+      server: 125.141.31.75
+      type: ss
       udp: true
-      uuid: 2b76609f-2132-42ac-a8fd-89635f73c85a
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.28 MB/s"
+      port: 1080
+      server: 193.233.254.8
+      type: socks5
     - client-fingerprint: chrome
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 23.59 MB/s"
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 20.19 MB/s"
       network: tcp
       port: 2053
       reality-opts:
@@ -205,46 +279,180 @@ proxies:
       servername: www.cloudflare.com
       tls: true
       type: vless
-      udp: true
       uuid: 24497ec6-9244-4781-869d-3b48dbb13361
-    - http-opts:
-        headers:
-            Host:
-                - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 20.87 MB/s"
-      network: http
-      port: 10468
-      server: 185.113.10.198
-      tls: false
-      type: vless
-      uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
-    - http-opts:
-        headers:
-            Host:
-                - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
-        method: GET
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EA DE | ⬇️ 18.92 MB/s"
-      network: http
-      port: 10468
-      server: 185.113.10.198
-      tls: false
-      type: vless
-      uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.90 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
     - alterId: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6 CA | ⬇️ 10.81 MB/s"
-      network: ws
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 19.79 MB/s"
       port: 8080
-      server: tgju.org
+      server: 47.242.243.249
+      skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: nasnet
-      ws-opts:
+      udp: true
+      uuid: 66e3de38-ba88-4018-95e0-6e8d512f11d0
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 19.69 MB/s"
+      network: tcp
+      port: 2053
+      reality-opts:
+        public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
+      server: 157.180.79.18
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 24497ec6-9244-4781-869d-3b48dbb13361
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EE FI | ⬇️ 19.67 MB/s"
+      network: tcp
+      port: 2053
+      reality-opts:
+        public-key: XhVQYDFxZdYohty3YEqn7fuvJMJmq4e79477s81vWHc
+      server: 157.180.79.18
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      uuid: 24497ec6-9244-4781-869d-3b48dbb13361
+    - name: "\U0001F1E9\U0001F1EA DE | ⬇️ 19.32 MB/s"
+      port: 1080
+      server: 193.233.254.9
+      type: socks5
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 19.21 MB/s"
+      password: qwerREWQ@@
+      port: 39794
+      server: 125.141.26.14
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 18.96 MB/s"
+      password: qwerREWQ@@
+      port: 54387
+      server: 221.150.109.90
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 17.77 MB/s"
+      port: 8080
+      server: 47.237.0.177
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 671848a3-e0da-4d47-a17e-6326cf3131e0
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 16.73 MB/s"
+      port: 8080
+      server: 47.237.149.35
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 7b320dd4-04af-4f0e-a10d-324140182e58
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F5\U0001F1F1 PL | ⬇️ 16.56 MB/s"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+        short-id: feedbacc
+      server: pol.fasti.win
+      servername: pl.fasti.win
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2b76609f-2132-42ac-a8fd-89635f73c85a
+    - http-opts:
         headers:
-            Host: nasnet-571296497.iranpress.co
-        path: /nasnet/cdn?ed=2560
+            Host:
+                - bmw.co%F0%9F%9F%AA
+        method: GET
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7 GB | ⬇️ 16.52 MB/s"
+      network: http
+      port: 443
+      server: 23.81.34.138
+      tls: false
+      type: vless
+      uuid: 85571fb3-6d15-49b0-e1d6-cf8b6dbd623e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1F8\U0001F1EC SG | ⬇️ 15.82 MB/s"
+      port: 8080
+      server: 47.237.147.12
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 6c0400dc-487b-42d7-baa3-3985b80c9f4e
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK | ⬇️ 15.69 MB/s"
+      port: 8080
+      server: 47.243.109.243
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 88c3a642-dc05-426a-8633-e3e0a6a1d32a
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8 US | ⬇️ 15.34 MB/s"
+      network: tcp
+      port: 42356
+      reality-opts:
+        public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+      server: 159.223.205.136
+      servername: dash.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.93 MB/s"
+      password: qwerREWQ@@
+      port: 36264
+      server: 203.234.238.147
+      type: ss
+      udp: true
+    - cipher: aes-256-cfb
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 14.53 MB/s"
+      password: qwerREWQ@@
+      port: 23865
+      server: 125.141.31.76
+      type: ss
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 HK 011 | ⬇️ 2MB/s"
+      port: 8080
+      server: 47.239.233.39
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: e7a15252-a98b-43cb-b051-212e5ba055d4
+    - http-opts:
+        headers:
+            Host:
+                - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+        method: GET
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EA DE 072 | ⬇️ 1MB/s"
+      network: http
+      port: 10468
+      server: 185.113.10.198
+      tls: false
+      type: vless
+      uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
