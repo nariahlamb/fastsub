@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   speedtest:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
@@ -26,7 +26,7 @@ jobs:
 
       - name: Run clash-speedtest
         run: |
-          ./clash-speedtest -rename -stash-compatible -min-download-speed 10 -min-upload-speed 4 -c upstream.yaml -output fastsub.yaml
+          ./clash-speedtest -rename -max-packet-loss 0 -min-download-speed 0 -min-upload-speed 5 -c upstream.yaml -output fastsub.yaml
 
       - name: Commit and push changes
         run: |
