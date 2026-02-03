@@ -1,4 +1,14 @@
 proxy-providers:
+  fastsub:
+    type: http
+    url: https://raw.githubusercontent.com/faceair/fastsub/refs/heads/main/fastsub.yaml
+    interval: 3600
+    path: ./proxies/fastsub.yaml
+    health-check:
+      enable: true
+      timeout: 800
+      interval: 300
+      url: https://www.google.com/generate_204
   bastsub:
     type: http
     url: https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/speed.yaml
