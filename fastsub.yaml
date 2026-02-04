@@ -1,18 +1,16 @@
 proxy-providers: {}
 proxies:
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 0.00 MB/s"
-      password: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
+    - client-fingerprint: safari
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1F7 KR | ⬇️ 0.00 MB/s"
+      network: tcp
       port: 443
-      server: df40e69e-t9zts0-t9zvpd-f1v1.sg.oshuawei.com
-      sni: df40e69e-t9zts0-t9zvpd-f1v1.sg.oshuawei.com
+      reality-opts:
+        public-key: 9rr6yA8sLejb_9JIjScFzbBaXvEKaqKHwsUggtlVw1w
+      server: 2.kr.2.cdn-bilibili.cn
+      servername: www.icloud.com
+      skip-cert-verify: false
       tls: true
-      type: http
-      username: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
-    - name: "\U0001F1F8\U0001F1EC SG | ⬇️ 0.00 MB/s-01"
-      password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-      port: 443
-      server: 2bae4ec0-t9zts0-tcmken-19les.sg.oshuawei.com
-      sni: 2bae4ec0-t9zts0-tcmken-19les.sg.oshuawei.com
-      tls: true
-      type: http
-      username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+      type: vless
+      uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
