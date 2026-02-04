@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 44.69MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 52.29MB/s"
   network: ws
   port: 443
   server: mobile.twitter.now.cc
@@ -17,33 +17,119 @@ proxies:
       Host: 5465765525.ccfly.tech
     max-early-data: 2048
     path: /
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 35.39MB/s"
-  network: ws
-  port: 443
-  server: mobile.twitter.now.cc
-  servername: 5465765525.ccfly.tech
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 50.30MB/s"
+  network: tcp
+  port: 58472
+  reality-opts:
+    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
+    short-id: 44ef9a66271b4e
+  server: a.cdn-bilibili.cn
+  servername: www.discoverasr.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 4c642cae-1a6d-4e51-a1c3-fa5892437aa3
+  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
+- {}
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 39.07MB/s"
+  network: ws
+  port: 2053
+  server: www.aapanel.com
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 36.12MB/s"
+  network: ws
+  port: 2053
+  server: cfxr.eu.org
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: 5465765525.ccfly.tech
-    max-early-data: 2048
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 23.19MB/s"
-  password: qwerREWQ@@
-  port: 48041
-  server: 125.141.26.15
-  skip-cert-verify: false
-  type: ss
-  udp: false
+      Host: snippet.danfeng21.ndjp.net
+    max-early-data: 2560
+    path: /danfeng
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 22.05MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 35.29MB/s"
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfengfp
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 34.14MB/s"
+  network: ws
+  port: 2053
+  server: www.gov.se
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F9\U0001F1FC TW 001 | ⬇️ 33.19MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
+  server: 2.tw.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 32.39MB/s"
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 17235
+  server: 6ee7a54a-t9zts0-tcmken-19les.cm4.oshuawei.com
+  sni: 6ee7a54a-t9zts0-tcmken-19les.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- {}
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F9\U0001F1FC TW 002 | ⬇️ 30.94MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
+  server: 2.tw.2.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 30.90MB/s"
   network: ws
   port: 2053
   server: 104.18.11.192
@@ -60,40 +146,24 @@ proxies:
       Host: snippet.danfeng21.ndjp.net
     max-early-data: 2560
     path: /danfeng
+- name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 28.13MB/s"
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 17235
+  server: b0b88458-t9zts0-taz53d-1j0y6.cm4.oshuawei.com
+  sni: b0b88458-t9zts0-taz53d-1j0y6.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 17.71MB/s"
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 21.98MB/s"
   password: qwerREWQ@@
   port: 48041
   server: 125.141.26.15
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 KR 003 | ⬇️ 17.12MB/s"
-  password: qwerREWQ@@
-  port: 48041
-  server: 125.141.26.15
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 15.56MB/s"
-  password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
-  port: 443
-  server: 4e9fbfea-t9zts0-tbnucr-1thfv.de.oshuawei.com
-  sni: 4e9fbfea-t9zts0-tbnucr-1thfv.de.oshuawei.com
-  tls: true
-  type: http
-  username: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
-- name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 15.56MB/s"
-  password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
-  port: 443
-  server: 4e9fbfea-t9zts0-tbnucr-1thfv.de.oshuawei.com
-  sni: 4e9fbfea-t9zts0-tbnucr-1thfv.de.oshuawei.com
-  tls: true
-  type: http
-  username: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 15.29MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 21.86MB/s"
   network: ws
   port: 2053
   server: 1357900.xyz
@@ -108,63 +178,18 @@ proxies:
       Host: snippet.danfeng.gleeze.com
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 13.58MB/s"
-  network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
+- {}
+- name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 17.49MB/s"
+  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+  port: 31433
+  server: ee0e24a6-t9zts0-tb6oza-1mmbp.kr.oshuawei.com
+  sni: ee0e24a6-t9zts0-tb6oza-1mmbp.kr.oshuawei.com
   tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    max-early-data: 2560
-    path: /danfeng
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 12.97MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 217.154.254.198
-  servername: azure.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 278cdc8a-1c0c-4710-bc48-b8c6e5f36c24
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 11.30MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 217.154.254.198
-  servername: azure.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 278cdc8a-1c0c-4710-bc48-b8c6e5f36c24
-  xudp: true
+  type: http
+  username: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 7.09MB/s"
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 17.16MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -177,3 +202,79 @@ proxies:
   type: vless
   udp: true
   uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+- cipher: aes-256-cfb
+  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 17.09MB/s"
+  password: amazonskr05
+  port: 443
+  server: 13.38.75.96
+  type: ss
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 13.13MB/s"
+  password: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  port: 27233
+  server: 2aec32d3-t9zts0-tnfe2z-1s4hc.cm4.oshuawei.com
+  sni: 2aec32d3-t9zts0-tnfe2z-1s4hc.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+- name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 13.09MB/s"
+  password: 0114339c-488d-11ee-8792-f23c9164ca5d
+  port: 443
+  server: dfad48e3-t9zts0-tbpkla-1otc2.uk.oshuawei.com
+  sni: dfad48e3-t9zts0-tbpkla-1otc2.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 0114339c-488d-11ee-8792-f23c9164ca5d
+- cipher: chacha20-ietf-poly1305
+  country: "\U0001F1EB\U0001F1F7FR"
+  name: "\U0001F1EB\U0001F1F7 FR 003 | ⬇️ 12.67MB/s"
+  password: hnITSVgdQOQF6aCT4YIizv
+  port: 5223
+  server: 51.254.142.162
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 11.22MB/s"
+  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  port: 17235
+  server: 32eef67d-t9zts0-te0v28-1mh67.cm4.oshuawei.com
+  sni: 32eef67d-t9zts0-te0v28-1mh67.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+- name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 10.01MB/s"
+  password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 36516238-t9zts0-tb4whp-zn8y.uk.oshuawei.com
+  sni: 36516238-t9zts0-tb4whp-zn8y.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 8.33MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4UNVt1KHmBuPaZprNHXpnDZlBD9YORKIOjhvvTJyJg0
+  server: 2.kr.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 7.48MB/s"
+  password: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+  port: 443
+  server: 00b66982-t9zts0-tb6oza-1mmbp.uk.oshuawei.com
+  sni: 00b66982-t9zts0-tb6oza-1mmbp.uk.oshuawei.com
+  tls: true
+  type: http
+  username: 607d365e-7ea1-11ee-95e9-f23c913c8d2b
+- name: "\U0001F1E8\U0001F1F3 CN 006 | ⬇️ 6.30MB/s"
+  password: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  port: 31433
+  server: be382121-t9zts0-te0v28-1mh67.kr.oshuawei.com
+  sni: be382121-t9zts0-te0v28-1mh67.kr.oshuawei.com
+  tls: true
+  type: http
+  username: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
