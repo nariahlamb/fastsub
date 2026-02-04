@@ -26,7 +26,7 @@ jobs:
 
       - name: Run clash-speedtest
         run: |
-          ./clash-speedtest -rename -max-packet-loss 0 -min-download-speed 0 -min-upload-speed 5 -c upstream.yaml -output fastsub.yaml
+          ./clash-speedtest -c upstream.yaml -output fastsub.yaml
 
       - name: Commit and push changes
         run: |
