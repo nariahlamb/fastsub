@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 49.88MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 36.56MB/s"
   network: ws
   port: 443
   server: mobile.twitter.now.cc
@@ -18,26 +18,38 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 15.95MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 36.04MB/s"
+  network: ws
+  port: 2053
+  server: 1357900.xyz
+  servername: snippet.danfeng.gleeze.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.gleeze.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 34.80MB/s"
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: snippet.danfeng21.ndjp.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-  xudp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 15.74MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 26.93MB/s"
   network: ws
   port: 2053
   server: 104.18.11.192
@@ -54,100 +66,8 @@ proxies:
       Host: snippet.danfeng21.ndjp.net
     max-early-data: 2560
     path: /danfeng
-- cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 15.66MB/s"
-  password: amazonskr05
-  port: 443
-  server: 13.38.75.96
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 14.56MB/s"
-  password: qwerREWQ@@
-  port: 48041
-  server: 125.141.26.15
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 13.22MB/s"
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfengfp
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 13.12MB/s"
-  network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 12.41MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1nTKBKNuCc5B1iMqbNBodE9W9lQJovw--jF6yhE8DM
-    short-id: 9d21bea37f7da010
-  server: de-01.anotherboring.top
-  servername: mail.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 045ae46c-40c0-4191-b5d0-b2811d55c827
-  xudp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 11.79MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.1.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 11.62MB/s"
-  network: ws
-  port: 2053
-  server: www.gov.se
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 10.68MB/s"
+  name: "\U0001F1F8\U0001F1EC SG 038 | ⬇️ 9MB/s"
   network: ws
   port: 2053
   server: cfxr.eu.org
@@ -163,7 +83,7 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 10.55MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 25.00MB/s"
   network: ws
   port: 2053
   server: www.aapanel.com
@@ -176,84 +96,96 @@ proxies:
     headers:
       Host: snippet.danfeng21.ndjp.net
     path: /danfeng
-- client-fingerprint: firefox
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 7.73MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
-    short-id: 740d6f2e
-  server: 0ru84.tcpdoor.net
-  servername: 0ru84.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EB\U0001F1F7 FR 003 | ⬇️ 7.31MB/s"
-  password: hnITSVgdQOQF6aCT4YIizv
-  port: 5223
-  server: 51.254.142.162
-  type: ss
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 6.73MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4UNVt1KHmBuPaZprNHXpnDZlBD9YORKIOjhvvTJyJg0
-  server: 2.kr.1.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F0\U0001F1F7 KR 003 | ⬇️ 6.67MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9rr6yA8sLejb_9JIjScFzbBaXvEKaqKHwsUggtlVw1w
-  server: 2.kr.2.cdn-bilibili.cn
-  servername: www.icloud.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 5.94MB/s"
-  network: tcp
-  port: 50
-  server: dd.openaccessnode.com
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 23.86MB/s"
+  network: ws
+  port: 2096
+  server: 45.12.30.138
+  servername: sni.111000.indevs.in
   skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 20.89MB/s"
+  network: ws
+  port: 2053
+  server: www.gov.se
+  servername: snippet.danfeng21.ndjp.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+  ws-opts:
+    headers:
+      Host: snippet.danfeng21.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 16.74MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: 94.228.215.12
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: "\U0001F1EB\U0001F1F7 FR 004 | ⬇️ 5.67MB/s"
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 16.63MB/s"
   network: tcp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  server: 138.124.79.9
-  servername: sun6-21.userapi.com
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: nl02-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: d6b1327d-2bec-4366-a3a1-9b1284f95841
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
   xudp: true
+- client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+    path:
+    - /
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 13.31MB/s"
+  network: http
+  port: 10468
+  server: 185.113.10.198
+  servername: Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 007 | ⬇️ 11.14MB/s"
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
+  ws-opts:
+    headers:
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+    path: /?ed
