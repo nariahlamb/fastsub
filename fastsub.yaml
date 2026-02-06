@@ -1,81 +1,23 @@
 proxy-providers: {}
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 49.12MB/s"
+  network: tcp
+  port: 58472
+  reality-opts:
+    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
+    short-id: 44ef9a66271b4e
+  server: a.cdn-bilibili.cn
+  servername: www.discoverasr.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 39.12MB/s"
-  network: ws
-  port: 2096
-  server: 45.12.30.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 37.29MB/s"
-  network: ws
-  port: 2053
-  server: 1357900.xyz
-  servername: snippet.danfeng.gleeze.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.gleeze.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 36.93MB/s"
-  network: ws
-  port: 2053
-  server: www.aapanel.com
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 34.49MB/s"
-  network: ws
-  port: 2053
-  server: 104.26.12.27
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfengfp
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 27.82MB/s"
-  network: ws
-  port: 2053
-  server: www.gov.se
-  servername: snippet.danfeng21.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 22.27MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 44.56MB/s"
   network: ws
   port: 443
   server: mobile.twitter.now.cc
@@ -91,34 +33,68 @@ proxies:
     max-early-data: 2048
     path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 16.89MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  tls: true
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 28.40MB/s"
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  skip-cert-verify: false
+  tls: false
   type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-  xudp: true
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      Host: en.tawana.cf.panbehpanel.ir
+    path: /
 - cipher: aes-256-cfb
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 15.92MB/s"
+  country: "\U0001F1EB\U0001F1F7FR"
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 17.37MB/s"
   password: amazonskr05
   port: 443
   server: 13.38.75.96
   type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 16.28MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ
+    short-id: ""
+  server: 77.239.124.88
+  servername: mskhost.outlinekeys.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca911bd2-e08f-42d8-aefb-3117494d3367
+  xudp: true
+- client-fingerprint: chrome
+  fingerprint: ""
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 14.26MB/s"
+  network: ws
+  port: 443
+  server: 104.26.3.88
+  servername: germany.pahlevancompani.com
+  tls: true
+  type: vless
+  udp: false
+  uuid: e7a9fe3b-c10f-4a67-8f7b-e22c9c246d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: germany.pahlevancompani.com
+    max-early-data: 443
+    path: /
+- cipher: aes-256-cfb
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.79MB/s"
+  password: amazonskr05
+  port: 443
+  server: 13.217.198.211
+  type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 15.82MB/s"
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 11.70MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -132,27 +108,41 @@ proxies:
   udp: true
   uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 15.24MB/s"
-  network: ws
-  port: 2053
-  server: 104.18.11.192
-  servername: snippet.danfeng21.ndjp.net
-  skip-cert-verify: true
-  tfo: true
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 11.58MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: nl02-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng21.ndjp.net
-    max-early-data: 2560
-    path: /danfeng
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+  xudp: true
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 9.33MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+    short-id: 2da72ce6
+  server: 154.31.114.125
+  servername: navi.bankrate.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22184d8f-0af2-4213-949f-c96a23dc07ba
 - client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 6.46MB/s"
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 5.71MB/s"
   network: tcp
   port: 443
   reality-opts:
