@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 27.78MB/s"
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 38.31MB/s"
   network: ws
   port: 443
   server: 168.138.189.91
@@ -15,8 +15,23 @@ proxies:
       Host: sni.jpmj.dev
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 10.69MB/s"
+  network: tcp
+  port: 42356
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+- client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 14.79MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 7.12MB/s"
   network: ws
   port: 2053
   server: 45.144.233.205
@@ -30,58 +45,8 @@ proxies:
       Host: sni.111000.indevs.in
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 9.80MB/s"
-  network: ws
-  port: 8443
-  server: 185.170.153.186
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 8.77MB/s"
-  network: ws
-  port: 2053
-  server: 188.241.241.33
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 8.13MB/s"
-  network: ws
-  port: 8443
-  server: 80.66.85.115
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 8.13MB/s"
-  password: '@193.233.254.9:'
-  port: 1080
-  server: 193.233.254.9
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: Og@193.233.254.9
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 7.47MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 5.94MB/s"
   network: ws
   port: 2053
   server: 89.19.44.24
