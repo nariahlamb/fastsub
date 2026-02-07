@@ -1,19 +1,7 @@
 proxy-providers: {}
 proxies:
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 47.09MB/s"
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 36.46MB/s"
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 32.88MB/s"
   network: ws
   port: 443
   server: 168.138.189.91
@@ -27,172 +15,8 @@ proxies:
       Host: sni.jpmj.dev
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 32.32MB/s"
-  network: ws
-  port: 443
-  server: 164.52.2.99
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 16.97MB/s"
-  network: ws
-  port: 443
-  server: 45.153.230.220
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 16.94MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: 94.228.215.12
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 16.37MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 8453e5fd9af927
-  server: nl02-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 15.75MB/s"
-  network: ws
-  port: 443
-  server: 45.128.99.24
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.52MB/s"
-  network: ws
-  port: 443
-  server: 129.153.74.179
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 15.05MB/s"
-  network: ws
-  port: 2053
-  server: 217.60.36.183
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 13.52MB/s"
-  network: ws
-  port: 8443
-  server: 45.132.1.208
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 13.44MB/s"
-  network: ws
-  port: 8443
-  server: 185.170.153.186
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 13.44MB/s"
-  network: ws
-  port: 8443
-  server: 5.39.249.10
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 12.76MB/s"
-  network: ws
-  port: 2053
-  server: 89.19.44.24
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 12.54MB/s"
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 30.41MB/s"
   network: ws
   port: 2096
   server: 25.26.27.238
@@ -207,10 +31,10 @@ proxies:
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 12.28MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 18.40MB/s"
   network: ws
   port: 8443
-  server: 95.164.18.202
+  server: 5.39.249.10
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
@@ -219,38 +43,95 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1FA HU 001 | ⬇️ 12.23MB/s"
-  network: ws
-  port: 2096
-  server: 141.11.203.238
-  servername: sni.jpmj.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 10.74MB/s"
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 17.52MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 8453e5fd9af927
+  server: nl02-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 15.21MB/s"
   network: ws
-  port: 2096
-  server: 92.53.191.238
-  servername: sni.jpmj.dev
+  port: 2053
+  server: 45.144.233.205
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 13.21MB/s"
+  password: '@193.233.254.9:'
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  username: Og@193.233.254.9
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 11.74MB/s"
+  network: ws
+  port: 443
+  server: 45.153.230.220
+  servername: sni.111000.indevs.in
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.jpmj.dev
+      Host: sni.111000.indevs.in
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.75MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 11.15MB/s"
+  network: ws
+  port: 8443
+  server: 80.66.85.115
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 10.99MB/s"
+  network: ws
+  port: 8443
+  server: 185.170.153.186
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 10.67MB/s"
   network: ws
   port: 443
   server: 5.253.188.238
@@ -264,59 +145,7 @@ proxies:
       Host: sni.111000.indevs.in
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 9.66MB/s"
-  network: ws
-  port: 2053
-  server: 45.144.233.205
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 8.96MB/s"
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
-  ws-opts:
-    headers:
-      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
-    path: /?ed
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 8.40MB/s"
-  network: ws
-  port: 8443
-  server: 82.117.245.9
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 6.64MB/s"
-  password: '@193.233.254.9:'
-  port: 1080
-  server: 193.233.254.9
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  username: Og@193.233.254.9
-- client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 5.84MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 10.21MB/s"
   network: ws
   port: 2053
   server: 188.241.241.33
@@ -330,10 +159,10 @@ proxies:
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 010 | ⬇️ 5.44MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 6.42MB/s"
   network: ws
   port: 2053
-  server: 89.19.44.239
+  server: 89.19.44.24
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
@@ -345,10 +174,10 @@ proxies:
     path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 011 | ⬇️ 5.06MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 5.85MB/s"
   network: ws
   port: 8443
-  server: 80.66.85.115
+  server: 45.132.1.208
   servername: sni.111000.indevs.in
   skip-cert-verify: false
   tls: true
