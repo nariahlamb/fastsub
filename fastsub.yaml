@@ -1,13 +1,35 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 20.58MB/s"
-  password: 437bd464-b524-3812-ac02-85483bcf7407
-  port: 19999
-  server: 139.162.122.21
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  disable-sni: true
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 31.78MB/s"
+  network: ws
+  port: 443
+  server: 18.141.183.136
+  servername: ""
   skip-cert-verify: true
-  tfo: true
-  type: anytls
-- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 15.70MB/s"
+  tls: true
+  type: vmess
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
+  ws-opts:
+    path: /khantri
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 31.47MB/s"
+  network: ws
+  port: 443
+  server: me.khantry.net
+  servername: me.khantry.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 050c83fa-fcec-4d34-d984-3bba9bd5b6f9
+  ws-opts:
+    path: /khantri
+- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 29.92MB/s"
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -16,14 +38,7 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 13.36MB/s"
-  password: 437bd464-b524-3812-ac02-85483bcf7407
-  port: 19999
-  server: 159.65.144.172
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 12.77MB/s"
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.26MB/s"
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -31,21 +46,87 @@ proxies:
   sni: testkr3.ssv.vc
   tls: true
   type: http
-  udp: true
   username: test
+- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 24.62MB/s"
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 19999
+  server: 139.162.122.21
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 18.63MB/s"
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 19999
+  server: 159.65.144.172
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.07MB/s"
+  network: tcp
+  port: 42356
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 5.93MB/s"
+  country: "\U0001F1EC\U0001F1E7 GB"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1F2\U0001F1FE MY 001 | ⬇️ 14.65MB/s"
   network: ws
-  port: 8080
-  server: tgju.org
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.44MB/s"
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 19999
+  server: 165.22.142.169
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 9.67MB/s"
+  network: none
+  port: 19259
+  server: 64.81.34.62
   tls: false
   type: vmess
-  uuid: nasnet
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-571296497.iranpress.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+  uuid: ca92bede-c78f-44f8-b1fd-53ee19f26000
+- name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 9.12MB/s"
+  password: 437bd464-b524-3812-ac02-85483bcf7407
+  port: 9999
+  server: 116.80.47.197
+  skip-cert-verify: true
+  tfo: true
+  type: anytls
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: "\U0001F1FA\U0001F1F8US"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 6.07MB/s"
+  network: tcp
+  port: 17254
+  server: 64.81.34.62
+  skip-cert-verify: true
+  type: vmess
+  uuid: efd4d2af-484a-4b9d-ef30-d12f7add9a61
