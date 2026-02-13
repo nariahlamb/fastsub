@@ -1,8 +1,411 @@
 proxy-providers: {}
 proxies:
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 25.21MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  username: test
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 23.60MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
+  server: 2.tw.2.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- auth: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 15.30MB/s"
+  password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
+  port: 8443
+  server: twneko.jjxcloud.xyz
+  skip-cert-verify: false
+  sni: twneko.jjxcloud.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 13.54MB/s"
+  network: ws
+  port: 8080
+  server: tgju.org
+  tls: false
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.89MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.09MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.23
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.78MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.124
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 12.60MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.191
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 12.41MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.89
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1F8\U0001F1EC SG 189 | ⬇️ 13MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.198
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1F8\U0001F1EC SG 089 | ⬇️ 12MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.227
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 12.26MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.224
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 12.19MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.213
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 12.02MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.161
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 11.93MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.80
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 11.86MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.85
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 11.81MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.45
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 11.63MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.186
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 11.59MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.118
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 11.42MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.110
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 014 | ⬇️ 11.29MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.36
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 101 | ⬇️ 4MB/s"
+  network: none
+  port: 38888
+  server: 74.48.204.178
+  tls: false
+  type: vmess
+  uuid: bfb4985f-cbc6-4f7a-a15b-a5eddbe1290e
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 11.09MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.62
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 016 | ⬇️ 11.09MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.73
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 017 | ⬇️ 11.01MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.130
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 10.89MB/s"
+  network: ws
+  port: 2052
+  server: vip2.kaixincloud.top
+  tls: false
+  type: vless
+  udp: true
+  uuid: 25b7069d-a1e0-4053-8469-a54ec1ce8f56
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: rOugh-preseNCEUROCy1N6YY.sEOtOOLsfOryou.cO.UK
+    max-early-data: 2048
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 018 | ⬇️ 10.83MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.54
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 019 | ⬇️ 10.76MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.19
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 020 | ⬇️ 10.39MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.87
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 021 | ⬇️ 10.25MB/s"
   network: ws
   port: 2096
   server: 208.103.161.206
@@ -15,12 +418,199 @@ proxies:
     headers:
       Host: WangCai.443888.xyz
     path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8 US 022 | ⬇️ 10.23MB/s"
+  network: http
+  port: 13485
+  server: 66.103.210.150
+  tls: false
+  type: vmess
+  uuid: 10f0133c-39c5-4224-f53d-ec4491114a59
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 6.28MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 023 | ⬇️ 10.02MB/s"
   network: ws
   port: 2096
-  server: 208.103.161.118
+  server: 208.103.161.239
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 024 | ⬇️ 9.95MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.160
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 025 | ⬇️ 9.90MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.102
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 026 | ⬇️ 9.53MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.228
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 027 | ⬇️ 9.53MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.168
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 8.99MB/s"
+  network: ws
+  port: 443
+  server: 185.16.110.1
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 028 | ⬇️ 8.91MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.113
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 029 | ⬇️ 8.79MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.215
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 030 | ⬇️ 8.56MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.94
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 031 | ⬇️ 7.65MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.151
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1E6\U0001F1FA AU 001 | ⬇️ 7.29MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Anr46KtqOMc-YF76WafAAMT-0JBv85RtgSTHRvHxwUg
+  server: xiangtianwennetddd.shop
+  servername: www.xbox.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e4598260-fb5e-4d0a-f0c2-64259f5c38e7
+- auth: e4543370-0591-45c5-ba43-14f53fd58b4c
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 6.83MB/s"
+  password: e4543370-0591-45c5-ba43-14f53fd58b4c
+  port: 8443
+  server: xjphkg.jjxcloud.xyz
+  skip-cert-verify: false
+  sni: xjphkg.jjxcloud.xyz
+  type: hysteria2
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 032 | ⬇️ 6.77MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.237
   servername: WangCai.443888.xyz
   skip-cert-verify: false
   tls: true
