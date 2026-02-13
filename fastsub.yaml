@@ -1,2 +1,32 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.89MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.206
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 6.28MB/s"
+  network: ws
+  port: 2096
+  server: 208.103.161.118
+  servername: WangCai.443888.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: WangCai.443888.xyz
+    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
