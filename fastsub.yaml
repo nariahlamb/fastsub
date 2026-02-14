@@ -1,87 +1,16 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 46MB/s"
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 28.01MB/s"
   network: tcp
-  port: 58472
+  port: 443
   reality-opts:
-    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
-    short-id: 44ef9a66271b4e
-  server: a.cdn-bilibili.cn
-  servername: www.discoverasr.com
+    public-key: ev0T0oHwKzoTLJJ-enihK36_fOhb6Wdt5XMMj9QtCh0
+  server: 2.tw.2.cdn-bilibili.cn
+  servername: www.icloud.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EB\U0001F1F7 FR 082 | ⬇️ 2MB/s"
-  network: ws
-  port: 8080
-  server: tgju.org
-  tls: false
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-162191099.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EC SG 069 | ⬇️ 8MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Anr46KtqOMc-YF76WafAAMT-0JBv85RtgSTHRvHxwUg
-  server: xiangtianwennetddd.shop
-  servername: www.xbox.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e4598260-fb5e-4d0a-f0c2-64259f5c38e7
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 7.79MB/s"
-  network: ws
-  port: 2052
-  server: vip2.kaixincloud.top
-  tls: false
-  type: vless
-  udp: true
-  uuid: 25b7069d-a1e0-4053-8469-a54ec1ce8f56
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: rOugh-preseNCEUROCy1N6YY.sEOtOOLsfOryou.cO.UK
-    max-early-data: 2048
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 6.87MB/s"
-  network: tcp
-  port: 443
-  server: deu542.globalunlock.org
-  servername: deu542.globalunlock.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee750cca-f549-4e78-8648-a6b762953e70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 5.08MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
-    short-id: 5a2d4f49
-  server: 104.167.197.27
-  servername: azure.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
