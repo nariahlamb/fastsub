@@ -1,61 +1,30 @@
 proxy-providers: {}
 proxies:
+- name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 16.23MB/s"
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb3.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb3.mangshe.xyz
+  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.67MB/s"
-  network: ws
-  port: 2096
-  server: 208.103.161.87
-  servername: WangCai.443888.xyz
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.14MB/s"
+  network: tcp
+  port: 42356
+  reality-opts:
+    public-key: nY642oPT9bs-EddohAqLcif8a7qaxAUwxeDD85eXNjw
+  server: 159.223.205.136
+  servername: dash.cloudflare.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: WangCai.443888.xyz
-    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.24MB/s"
-  network: ws
-  port: 2096
-  server: 208.103.161.179
-  servername: WangCai.443888.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: WangCai.443888.xyz
-    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.03MB/s"
-  network: ws
-  port: 2096
-  server: 208.103.161.161
-  servername: WangCai.443888.xyz
-  tls: true
-  type: vless
+  uuid: 3c28c3cf-85ef-4a8a-a475-3a8585d563fe
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 8.99MB/s"
+  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+  port: 12053
+  server: us1.anliangjifei.top
+  skip-cert-verify: true
+  sni: us1.anliangjifei.top
+  type: anytls
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: WangCai.443888.xyz
-    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 16.02MB/s"
-  network: ws
-  port: 2096
-  server: 208.103.161.235
-  servername: WangCai.443888.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: WangCai.443888.xyz
-    path: "/danfeng?ed=2560&Telegram\U0001F1E8\U0001F1F3@WangCai2"
