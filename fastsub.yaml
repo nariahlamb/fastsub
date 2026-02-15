@@ -1,2 +1,77 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 8.28MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  username: test
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 7.46MB/s"
+  network: ws
+  port: 8080
+  server: tgju.org
+  tls: false
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 6.78MB/s"
+  network: ws
+  port: 8080
+  server: digitalocean.com
+  tls: false
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    max-early-data: 2560
+    path: /NASNET/cdn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: "\U0001F1FA\U0001F1F8US"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 5.94MB/s"
+  network: ws
+  port: 8080
+  server: 104.26.14.85
+  servername: nasnet-162191099.sharghdaily.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      HOST: nasnet-162191099.sharghdaily.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 5.83MB/s"
+  network: http
+  port: 13485
+  server: 66.103.210.150
+  tls: false
+  type: vmess
+  uuid: 10f0133c-39c5-4224-f53d-ec4491114a59
