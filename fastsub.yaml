@@ -1,2 +1,166 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 55.12MB/s"
+  network: tcp
+  port: 58472
+  reality-opts:
+    public-key: f6jIBpzHwC1lDAwvJojvEIPlwZqyEkL0gVsJxmeRLCI
+    short-id: 44ef9a66271b4e
+  server: a.cdn-bilibili.cn
+  servername: www.discoverasr.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cb6724d6-4900-4188-ae20-5d89b626394d
+- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 28.28MB/s"
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 20.92MB/s"
+  port: 1080
+  server: 139.59.24.173
+  type: socks5
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 14.34MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
+    short-id: 3bdec72a5a0ffd84
+  server: fr.cdn.stun.su
+  servername: fr.cdn.stun.su
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: "\U0001F1FA\U0001F1F8US"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 14.21MB/s"
+  network: ws
+  port: 8080
+  server: tgju.org
+  servername: nasnet-571296497.iranpress.co
+  skip-cert-verify: true
+  type: vmess
+  uuid: nasnet
+  ws-opts:
+    headers:
+      HOST: nasnet-571296497.iranpress.co
+      Host: tgju.org
+    path: /nasnet/cdn
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 14.05MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 144.31.3.30
+  servername: poland.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 13.19MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  username: test
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 13.01MB/s"
+  network: tcp
+  port: 443
+  server: deu542.globalunlock.org
+  servername: deu542.globalunlock.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee750cca-f549-4e78-8648-a6b762953e70
+  xudp: true
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 12.64MB/s"
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 114.33.57.170
+  skip-cert-verify: true
+  sni: 5c.hhhhh.eu.org
+  tfo: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 5c.hhhhh.eu.org
+    path: /%2F114.33.57.170%3A443
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F3F3️ AL 001 | ⬇️ 11.56MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BxD77zyPkOaShiNfOkRbbJvpmSzFHIKx4xhhLR4PSQU
+    short-id: 9c2378562188c3cb
+  server: 78.159.131.16
+  servername: alb.denditop.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b39aca97-e9f2-4a94-b87f-8748299846cd
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 9.54MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 144.31.3.35
+  servername: poland.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- allowInsecure: "1"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 8.54MB/s"
+  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+  port: 12053
+  server: us1.anliangjifei.top
+  skip-cert-verify: true
+  sni: us1.anliangjifei.top
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  country: "\U0001F3C1ZZ"
+  name: "\U0001F1FB\U0001F1F3 VN 001 | ⬇️ 6.07MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.130
+  type: ss
