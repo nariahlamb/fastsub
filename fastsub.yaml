@@ -1,9 +1,21 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-cfb
-  country: "\U0001F3C1ZZ"
-  name: "\U0001F1FB\U0001F1F3 VN 001 | ⬇️ 6.49MB/s"
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.49
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 20.24MB/s"
+  network: none
+  port: 50397
+  server: 45.221.114.77
+  tls: false
+  type: vmess
+  uuid: 0082763f-0c91-4b5d-f88d-e127c6f7392f
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 7.28MB/s"
+  network: tcp
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 1281
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
