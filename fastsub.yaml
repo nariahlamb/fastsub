@@ -1,23 +1,52 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 14.45MB/s"
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 114.33.57.170
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 11.39MB/s"
+  network: http
+  port: 53232
+  server: 45.207.157.52
+  tls: false
+  type: vmess
+  uuid: ce947b4f-1c69-4abe-bcea-44133dbfe38f
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  country: "\U0001F1E8\U0001F1F3CN"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 11.34MB/s"
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  servername: v45.hdacd.com
   skip-cert-verify: true
-  sni: 5c.hhhhh.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 5c.hhhhh.eu.org
-    path: /114.33.57.170:443
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  country: "\U0001F1EC\U0001F1E7GB"
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 6.45MB/s"
+  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
+  port: 8443
+  server: 51.195.203.247
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 6.04MB/s"
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 14.16MB/s"
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 5.34MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -32,7 +61,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 13.27MB/s"
+  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 5.08MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -43,16 +72,3 @@ proxies:
   tls: true
   type: vless
   uuid: 3bf002f8-b951-4dd5-b372-8d46ccd5f24b
-- client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 6.90MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 154.31.114.125
-  servername: navi.bankrate.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 976c3c7c-0a09-4a07-92c5-9dcb162b3f04
