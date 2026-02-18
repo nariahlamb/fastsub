@@ -1,74 +1,17 @@
 proxy-providers: {}
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 11.39MB/s"
-  network: http
-  port: 53232
-  server: 45.207.157.52
-  tls: false
-  type: vmess
-  uuid: ce947b4f-1c69-4abe-bcea-44133dbfe38f
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: "\U0001F1E8\U0001F1F3CN"
-  h2-opts: {}
-  http-opts: {}
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 11.34MB/s"
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  country: "\U0001F1EC\U0001F1E7GB"
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 6.45MB/s"
-  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
-  port: 8443
-  server: 51.195.203.247
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 6.04MB/s"
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 5.34MB/s"
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 5.11MB/s"
   network: tcp
   port: 443
   reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: 144.31.3.35
-  servername: poland.scroogethebest.com
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: 9c2378562188c3cb
+  server: 152.53.46.3
+  servername: au1.scroogethebest.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 5.08MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rpczbNzhaYC127W18DsTNJgVHeaKwdFAsmpzZhc31AM
-  server: pl-modx.webedg.net
-  servername: pl-modx.webedg.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3bf002f8-b951-4dd5-b372-8d46ccd5f24b
