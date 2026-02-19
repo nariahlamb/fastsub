@@ -1,18 +1,38 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  country: "\U0001F1EC\U0001F1E7GB"
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 14.20MB/s"
-  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
-  port: 8443
-  server: 51.195.203.247
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 13.56MB/s"
-  password: kaQH3hGdcP80XEDI
+- client-fingerprint: chrome
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 16.42MB/s"
+  network: tcp
   port: 443
-  server: 131.145.23.4
-  skip-cert-verify: true
+  server: 144.31.4.36
+  servername: plcdn13.suio.me
   tls: true
-  type: ss
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- client-fingerprint: chrome
+  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 11.72MB/s"
+  network: tcp
+  port: 443
+  server: 144.31.4.67
+  servername: plcdn14.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F5\U0001F1F1 PL 003 | ⬇️ 7.34MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 144.31.3.35
+  servername: poland.scroogethebest.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  xudp: true
