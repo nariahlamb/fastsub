@@ -1,17 +1,18 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 5.11MB/s"
-  network: tcp
+- cipher: aes-256-gcm
+  country: "\U0001F1EC\U0001F1E7GB"
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 14.20MB/s"
+  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
+  port: 8443
+  server: 51.195.203.247
+  type: ss
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 13.56MB/s"
+  password: kaQH3hGdcP80XEDI
   port: 443
-  reality-opts:
-    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
-    short-id: 9c2378562188c3cb
-  server: 152.53.46.3
-  servername: au1.scroogethebest.com
-  skip-cert-verify: false
+  server: 131.145.23.4
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  type: ss
