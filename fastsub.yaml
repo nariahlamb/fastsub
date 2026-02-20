@@ -1,55 +1,12 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 32.03MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
-    short-id: b0fbe0f0
-  server: pq.vmjp2.yydjc.top
-  servername: cdn-dynmedia-1.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c41313a3-68f9-4569-982e-4a2306665f71
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 26.30MB/s"
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  username: test
-- name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 21.85MB/s"
-  port: 1080
-  server: 139.59.24.173
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 15.83MB/s"
-  network: tcp
-  port: 443
-  server: 144.31.2.20
-  servername: plcdn18.suio.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 15.56MB/s"
-  network: tcp
-  port: 443
-  server: 144.31.2.126
-  servername: plcdn19.suio.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- cipher: chacha20-ietf-poly1305
+  country: "\U0001F1EE\U0001F1F7IR"
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 16.95MB/s"
+  password: 13df5feb-756e-4627-bcee-497f3c81bab4
+  port: 33220
+  server: xgrr.sdnlv0.cn
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -57,7 +14,7 @@ proxies:
     method: GET
     path:
     - /
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 12.94MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 12.24MB/s"
   network: http
   port: 53232
   server: 45.207.157.52
@@ -67,127 +24,36 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 11.56MB/s"
-  network: ws
-  port: 8443
-  server: dll.avaaaal.ir
-  servername: dll.avaaaal.ir
-  tls: true
-  type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      Host: cdge.avaaaal.ir
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: "\U0001F1EE\U0001F1F7IR"
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 10.85MB/s"
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 33220
-  server: xgrr.sdnlv0.cn
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 8.83MB/s"
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 15783
-  server: f.sdnlv0.cn
-  type: ss
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 8.68MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA==
-  port: 12981
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 7.18MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:MGY0MDExNDQtODJlMS00OA==
-  port: 44014
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 6.99MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: fran.scroogethebest.com
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 6.99MB/s"
-  network: http
-  port: 2085
-  server: 82.152.98.198
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.80MB/s"
+  network: none
+  port: 38888
+  server: 74.48.204.178
   tls: false
   type: vmess
-  uuid: 052ceb67-79c7-45da-ba4b-42e659bb81fa
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  country: "\U0001F1EE\U0001F1F7IR"
-  h2-opts: {}
-  http-opts: {}
-  name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 6.72MB/s"
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: safari
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 6.03MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
-  server: 2.hk.1.cdn-bilibili.cn
-  servername: www.icloud.com
+  uuid: bfb4985f-cbc6-4f7a-a15b-a5eddbe1290e
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 7.59MB/s"
+  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+  port: 34411
+  server: ldu.izenny.com
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
-- cipher: chacha20-ietf-poly1305
-  country: "\U0001F1EE\U0001F1F7IR"
-  name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 5.81MB/s"
-  password: 13df5feb-756e-4627-bcee-497f3c81bab4
-  port: 48973
-  server: xgrr.sdnlv0.cn
   type: ss
+  udp: false
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 5.41MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 5.85MB/s"
   password: 13df5feb-756e-4627-bcee-497f3c81bab4
   port: 14941
   server: xgrr.sdnlv0.cn
   type: ss
   udp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E6\U0001F1EA AE 001 | ⬇️ 5.39MB/s"
+  encryption: none
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 5.48MB/s"
   network: tcp
   port: 443
-  reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: 41a0b29e95aaea87
-  server: ae.cdn.stun.su
-  servername: ae.cdn.stun.su
+  server: 144.31.2.126
+  servername: plcdn19.suio.me
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
