@@ -1,2 +1,12 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 6.84MB/s"
+  network: tcp
+  port: 443
+  server: 144.31.4.67
+  servername: plcdn14.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
