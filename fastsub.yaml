@@ -1,12 +1,210 @@
 proxy-providers: {}
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 37.49MB/s"
+  network: ws
+  port: 443
+  server: sg.ok12345.ggff.net
+  servername: sgdaobk.1buigujj.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0332fe0c-c33e-4d00-b30f-a18b4ff303f3
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 35.74MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: asLJREsp9L0JbURQPIhFxc6bZIgpunEOjOJeHv3YcEs
+    short-id: b0fbe0f0
+  server: pq.vmjp2.yydjc.top
+  servername: cdn-dynmedia-1.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c41313a3-68f9-4569-982e-4a2306665f71
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 35.19MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 40023
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 23.36MB/s"
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 18.96MB/s"
+  network: tcp
+  port: 41457
+  server: 46.224.13.54
+  tls: false
+  type: vless
+  udp: true
+  uuid: b370ee6c-986b-4a59-b4ef-7974c6c20f6f
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 18.19MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: fran.scroogethebest.com
+  servername: fran.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- client-fingerprint: chrome
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 16.90MB/s"
+  network: tcp
+  port: 443
+  server: 144.31.2.20
+  servername: plcdn18.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 16.73MB/s"
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 029db4ea-tax5s0-tcdmjc-1gevg.jp.oshuawei.com
+  sni: 029db4ea-tax5s0-tcdmjc-1gevg.jp.oshuawei.com
+  tls: true
+  type: http
+  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 15.41MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 40010
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 14.70MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 40019
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 14.29MB/s"
+  network: tcp
+  password: 2ad3cc70-850b-4fb4-b5ee-87e72820927a
+  port: 21115
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 14.08MB/s"
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  skip-cert-verify: true
+  sni: admin.c2.havij.co
+  tls: true
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 13.56MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 185.171.202.55
+  servername: fran.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 13.26MB/s"
+  network: ws
+  port: 2087
+  server: www.tgju.org
+  servername: rahgozar.italiantourism.net.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d1b421cc-ebaf-48cf-bf12-e7947af11c53
+  ws-opts:
+    headers:
+      Host: rahgozar.italiantourism.net
+    path: /httpupgrade26070
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 13.14MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NWY5ZDA2ZDYtZmM5MS00Y2Y5LTg0NzQtYmRiZDY0N2U=
+  port: 40020
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 12.46MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 29527
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1EE\U0001F1F8 IS 001 | ⬇️ 11.47MB/s"
+  network: tcp
+  port: 443
+  server: 144.31.128.69
+  servername: nlcdn14.suio.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 006 | ⬇️ 11.34MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 39986
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 007 | ⬇️ 10.96MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 40013
+  server: 36.141.116.62
+  tfo: true
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   http-opts:
     headers: {}
     path:
     - /
-  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 9.53MB/s"
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 10.89MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -21,16 +219,82 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
+  name: "\U0001F1EE\U0001F1F8 IS 002 | ⬇️ 8.34MB/s"
+  network: tcp
+  port: 443
+  server: 144.31.128.67
+  servername: nlcdn12.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+- allowInsecure: "1"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.87MB/s"
+  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+  port: 12053
+  server: us1.anliangjifei.top
+  skip-cert-verify: true
+  sni: us1.anliangjifei.top
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: "\U0001F1E6\U0001F1EA AE 001 | ⬇️ 8.51MB/s"
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: "\U0001F1E6\U0001F1F9 AT 002 | ⬇️ 7.81MB/s"
   network: tcp
   port: 443
   reality-opts:
-    public-key: xJIswEHrphk8LCn-DyJxw4uypPkouxPgNsfiyjRU-3w
-    short-id: 41a0b29e95aaea87
-  server: 144.31.128.129
-  servername: ae.cdn.stun.su
-  skip-cert-verify: false
+    public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+    short-id: 9c2378562188c3cb
+  server: 152.53.46.3
+  servername: au1.scroogethebest.com
   tls: true
   type: vless
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+  udp: true
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  xudp: true
+- cipher: aes-256-cfb
+  country: "\U0001F3C1ZZ"
+  name: "\U0001F1FB\U0001F1F3 VN 001 | ⬇️ 6.87MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.41
+  type: ss
+- cipher: aes-256-cfb
+  country: "\U0001F3C1ZZ"
+  name: "\U0001F1FB\U0001F1F3 VN 002 | ⬇️ 6.84MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.24MB/s"
+  network: http
+  port: 53232
+  server: 45.207.157.52
+  tls: false
+  type: vmess
+  uuid: ce947b4f-1c69-4abe-bcea-44133dbfe38f
+- cipher: aes-256-cfb
+  country: "\U0001F3C1ZZ"
+  name: "\U0001F1FB\U0001F1F3 VN 003 | ⬇️ 5.78MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.115
+  type: ss
+- cipher: aes-256-cfb
+  country: "\U0001F3C1ZZ"
+  name: "\U0001F1FB\U0001F1F3 VN 004 | ⬇️ 5.25MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.33
+  type: ss
