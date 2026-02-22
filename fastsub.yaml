@@ -1,110 +1,20 @@
 proxy-providers: {}
 proxies:
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 31.09MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 40010
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 23.24MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 29527
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 11.95MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: fran.scroogethebest.com
-  servername: fran.scroogethebest.com
+- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 16.58MB/s"
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
-  type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 11.31MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 40019
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- cipher: 2022-blake3-aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 10.66MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NWY5ZDA2ZDYtZmM5MS00Y2Y5LTg0NzQtYmRiZDY0N2U=
-  port: 40020
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 9.64MB/s"
-  network: ws
-  port: 2087
-  server: www.tgju.org
-  servername: rahgozar.italiantourism.net.
-  skip-cert-verify: false
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 13.27MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
   tls: true
-  type: vless
-  uuid: d1b421cc-ebaf-48cf-bf12-e7947af11c53
-  ws-opts:
-    headers:
-      Host: rahgozar.italiantourism.net
-    path: /httpupgrade26070
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 9.10MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 40023
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 006 | ⬇️ 8.47MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 40013
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.63MB/s"
-  network: ws
-  port: 443
-  server: c8f7b1ab85189cf5.first.sapienza-mahan.ir
-  servername: harro-likeh1.sdcards1.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c4baefee-fc4c-42ed-b19c-5d5f7dad36ba
-  ws-opts:
-    headers:
-      Host: harro-likeh1.sdcards1.ir
-    path: /
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 007 | ⬇️ 6.56MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 39986
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 5.40MB/s"
-  network: tcp
-  port: 443
-  server: decdn17.suio.me
-  servername: decdn17.suio.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+  type: http
+  username: test
