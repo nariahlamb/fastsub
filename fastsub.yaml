@@ -1,126 +1,74 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 35.76MB/s"
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 31233
-  server: d60b1101-taz0g0-tcf8l3-yjq0.my.oshuawei.com
-  sni: d60b1101-taz0g0-tcf8l3-yjq0.my.oshuawei.com
-  tls: true
-  type: http
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 32.55MB/s"
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 32233
-  server: e667d23a-taz0g0-tcfva5-duku.id.oshuawei.com
-  sni: e667d23a-taz0g0-tcfva5-duku.id.oshuawei.com
-  tls: true
-  type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
+- cipher: auto
   client-fingerprint: chrome
-  country: "\U0001F3C1ZZ"
-  h2-opts: {}
-  http-opts: {}
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 31.45MB/s"
-  network: ws
-  port: 443
-  server: sg.ok12345.ggff.net
-  servername: jp001.japansb3.ggff.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c9b9fc25-49b6-4a3f-bd20-ed7a3bcab08e
-  ws-opts:
-    headers:
-      HOST: jp001.japansb3.ggff.net
-    path: /
-- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 30.06MB/s"
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 27.35MB/s"
-  password: 0b869f32-657e-11ee-a90c-f23c9313b177
-  port: 3252
-  server: 1c0cee98-taz0g0-tfmj6h-24c4.twdc1.cdnbytescm.com
-  sni: 1c0cee98-taz0g0-tfmj6h-24c4.twdc1.cdnbytescm.com
-  tls: true
-  type: http
-  username: 0b869f32-657e-11ee-a90c-f23c9313b177
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 26.48MB/s"
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  username: test
-- name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 20.06MB/s"
-  password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  port: 31233
-  server: 05850860-taz0g0-tkex6b-1tdqt.my.oshuawei.com
-  sni: 05850860-taz0g0-tkex6b-1tdqt.my.oshuawei.com
-  tls: true
-  type: http
-  username: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 17.17MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: fran.scroogethebest.com
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
+  name: "\U0001F1ED\U0001F1F0 HK 007 | ⬇️ 31MB/s"
+  network: none
+  port: 52341
+  server: 45.221.115.78
+  tls: false
   type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 16.85MB/s"
-  network: tcp
-  port: 443
-  server: 144.31.2.20
-  servername: plcdn18.suio.me
-  skip-cert-verify: false
-  tls: true
+  uuid: 07eabcba-300e-49bd-cc5a-3918863f28cd
+- cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 30MB/s"
+  network: none
+  port: 36344
+  server: 45.221.115.78
+  tls: false
   type: vless
-  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+  uuid: 3b972000-d3d8-4125-e1b2-96607fbd0d3b
+- name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.33MB/s"
+  password: <password>
+  port: 8443
+  server: 4aa2575a-t9zts0-tqgocx-1plv4.hkt.cdnhuawei.com
+  sni: 4aa2575a-t9zts0-tqgocx-1plv4.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 28213b50-7ed5-11ee-add6-f23c91369f2d
 - cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 15.55MB/s"
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 9.64MB/s"
   password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
   port: 40019
   server: 36.141.116.62
   tfo: true
   type: ss
 - cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 006 | ⬇️ 14.27MB/s"
+  name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 9.30MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 39986
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 8.30MB/s"
   password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
   port: 40013
   server: 36.141.116.62
   tfo: true
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 14.25MB/s"
-  password: kaQH3hGdcP80XEDI
-  port: 443
-  server: admin.c2.havij.co
-  skip-cert-verify: false
+- cipher: 2022-blake3-aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 6.91MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NWY5ZDA2ZDYtZmM5MS00Y2Y5LTg0NzQtYmRiZDY0N2U=
+  port: 40020
+  server: 36.141.116.62
+  tfo: true
   type: ss
-  udp: false
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 9MB/s"
+  network: none
+  port: 15337
+  server: 192.204.60.111
+  tls: false
+  type: vmess
+  uuid: f7b6a8ae-eeef-4eeb-d0fe-eeccb486ff79
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 13.63MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 6.09MB/s"
   network: ws
   port: 2087
   server: www.tgju.org
@@ -135,78 +83,13 @@ proxies:
     path: /httpupgrade26070
     v2ray-http-upgrade: true
     v2ray-http-upgrade-fast-open: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 12.43MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: 185.171.202.55
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 11.69MB/s"
-  network: tcp
-  port: 25451
-  reality-opts:
-    public-key: JlMOb8hVg1VOrRlMLdXpv8IADp-R4I-cIT856hz_Cg0
-    short-id: f686d19cd7b8b3df
-  server: 93.94.51.13
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a90f4742-2f30-47b5-9f17-b6ab04cc98e8
-- client-fingerprint: chrome
-  country: "\U0001F1EE\U0001F1F7IR"
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 11.44MB/s"
-  network: tcp
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43074
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.jpz2.cat.bilibili.com
-  type: trojan
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 007 | ⬇️ 11.36MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
-  port: 39986
-  server: 36.141.116.62
-  tfo: true
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 9.36MB/s"
-  network: tcp
-  port: 443
-  server: decdn17.suio.me
-  servername: decdn17.suio.me
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
-- cipher: 2022-blake3-aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 008 | ⬇️ 8.52MB/s"
-  password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NWY5ZDA2ZDYtZmM5MS00Y2Y5LTg0NzQtYmRiZDY0N2U=
-  port: 40020
-  server: 36.141.116.62
-  tfo: true
-  type: ss
 - alpn:
   - h3
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 7.48MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 5.01MB/s"
   network: ws
   port: 2053
   server: ip-pydar.pydri.ir
@@ -221,32 +104,3 @@ proxies:
       Host: fr-turbopydar.photopydar.ir
     max-early-data: 2560
     path: /ws
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 6.46MB/s"
-  password: ENX7SUeUQwVOzSHvl7dXiX
-  port: 443
-  server: 185.100.159.79
-  type: ss
-  udp: true
-- alterId: "0"
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 5.92MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 5.18MB/s"
-  network: none
-  port: 12639
-  server: 209.17.118.131
-  tls: false
-  type: vless
-  uuid: 82e457f4-43ff-4f83-9345-407da3da57f4
