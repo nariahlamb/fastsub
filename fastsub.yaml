@@ -1,18 +1,16 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 18.01MB/s"
-  network: tcp
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 6.83MB/s"
+  network: ws
   port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-    short-id: 4fa44664f6a566d3
-  server: fran.scroogethebest.com
-  servername: fran.scroogethebest.com
-  skip-cert-verify: false
+  server: 135.84.73.9
+  servername: sni.111000.v6.navy
   tls: true
   type: vless
-  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
