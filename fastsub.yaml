@@ -1,11 +1,18 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 26.32MB/s"
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 18.01MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: fran.scroogethebest.com
+  servername: fran.scroogethebest.com
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: test
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
