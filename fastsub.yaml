@@ -1,24 +1,6 @@
 proxy-providers: {}
 proxies:
-- cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 46.55MB/s"
-  network: none
-  port: 36344
-  server: 45.221.115.78
-  tls: false
-  type: vless
-  uuid: 3b972000-d3d8-4125-e1b2-96607fbd0d3b
-- cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 26.94MB/s"
-  network: none
-  port: 52341
-  server: 45.221.115.78
-  tls: false
-  type: vless
-  uuid: 07eabcba-300e-49bd-cc5a-3918863f28cd
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 12.62MB/s"
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.86MB/s"
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -27,3 +9,34 @@ proxies:
   tls: true
   type: http
   username: test
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.24MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 7.64MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: fran.scroogethebest.com
+  servername: fran.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
