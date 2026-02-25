@@ -2,14 +2,23 @@ proxy-providers: {}
 proxies:
 - cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 23MB/s"
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 46.55MB/s"
+  network: none
+  port: 36344
+  server: 45.221.115.78
+  tls: false
+  type: vless
+  uuid: 3b972000-d3d8-4125-e1b2-96607fbd0d3b
+- cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 26.94MB/s"
   network: none
   port: 52341
   server: 45.221.115.78
   tls: false
   type: vless
   uuid: 07eabcba-300e-49bd-cc5a-3918863f28cd
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.72MB/s"
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 12.62MB/s"
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -18,41 +27,3 @@ proxies:
   tls: true
   type: http
   username: test
-- cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 26.78MB/s"
-  network: none
-  port: 36344
-  server: 45.221.115.78
-  tls: false
-  type: vless
-  uuid: 3b972000-d3d8-4125-e1b2-96607fbd0d3b
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 11.14MB/s"
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 5.97MB/s"
-  network: tcp
-  port: 433
-  reality-opts:
-    public-key: J6v3yhXsfUyoPDmw3Beq9YSxqlW2Ir_5PpULj1xQX2E
-    short-id: 8d4981fb6742b104
-  server: xboxgame-dl.com
-  servername: xboxgame-dl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: af338e79-8259-4662-a0ff-db6df2414501
