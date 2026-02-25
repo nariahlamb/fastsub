@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
 - cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 38.20MB/s"
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 40.35MB/s"
   network: none
   port: 36344
   server: 45.221.115.78
@@ -11,16 +11,190 @@ proxies:
   uuid: 3b972000-d3d8-4125-e1b2-96607fbd0d3b
 - cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 36.58MB/s"
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 39.86MB/s"
   network: none
   port: 52341
   server: 45.221.115.78
   tls: false
   type: vless
   uuid: 07eabcba-300e-49bd-cc5a-3918863f28cd
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.43MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 19.30MB/s"
+  network: ws
+  port: 443
+  server: 135.84.73.9
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 19.27MB/s"
+  network: ws
+  port: 443
+  server: 217.163.76.46
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 19.20MB/s"
+  network: ws
+  port: 443
+  server: 199.34.230.66
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 6.18MB/s"
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 18.69MB/s"
+  network: ws
+  port: 443
+  server: 43.156.116.194
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 17.95MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: fran.scroogethebest.com
+  servername: fran.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 17.11MB/s"
+  network: ws
+  port: 443
+  server: 135.84.67.72
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.v6.navy
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 17.07MB/s"
+  network: ws
+  port: 443
+  server: 135.84.73.34
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 16.14MB/s"
+  network: ws
+  port: 443
+  server: 135.84.74.43
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 16.12MB/s"
+  network: ws
+  port: 2053
+  server: 188.241.241.28
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 15.97MB/s"
+  network: ws
+  port: 443
+  server: 135.84.73.130
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 15.21MB/s"
+  network: ws
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 14.90MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
@@ -33,3 +207,47 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 14.32MB/s"
+  network: ws
+  port: 2053
+  server: 194.76.173.6
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- cipher: chacha20-ietf-poly1305
+  delay: 1190
+  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 14.31MB/s"
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 7.92MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNjE5OWQyNDYxZjM1MjA0OTg=:NWY5ZDA2ZDYtZmM5MS00Y2Y5LTg0NzQtYmRiZDY0N2U=
+  port: 40020
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 6.38MB/s"
+  network: ws
+  port: 443
+  server: 57.129.137.233
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
