@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.86MB/s"
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 28.17MB/s"
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -8,26 +8,12 @@ proxies:
   sni: testkr3.ssv.vc
   tls: true
   type: http
+  udp: true
   username: test
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.24MB/s"
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 7.64MB/s"
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 16.96MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -40,3 +26,35 @@ proxies:
   tls: true
   type: vless
   uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.74MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 13.59MB/s"
+  password: MDhhMTdjZDI0MjI2ZWRlNg==:NWY5ZDA2ZDYtZmM5MS00Yw==
+  port: 40019
+  server: 36.141.116.62
+  tfo: true
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 8.14MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
