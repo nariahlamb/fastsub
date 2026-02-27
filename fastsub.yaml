@@ -1,6 +1,6 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 14.19MB/s"
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.69MB/s"
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -8,35 +8,97 @@ proxies:
   sni: testkr3.ssv.vc
   tls: true
   type: http
+  udp: true
   username: test
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.52MB/s"
-  password: vl226mEi997fUFo1
-  port: 36626
-  server: 108.165.122.36
-  skip-cert-verify: true
-  sni: ml.apple.com
-  type: hysteria2
-- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 6.56MB/s"
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.29MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+    path: /love
+- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 11.75MB/s"
   password: 6sNaVYuGqdpB7YIA
   port: 37081
   server: 152.42.237.96
   skip-cert-verify: true
   sni: ads.apple.com
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.44MB/s"
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46614
-  server: hd117-xjp-jd.huidu51.com
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 5.57MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 11.32MB/s"
   network: tcp
-  password: 984c7793-1447-4af5-9200-d514ad6fe329
-  port: 40393
-  server: us02.jsyjiedian8.com
+  port: 443
+  reality-opts:
+    public-key: 1xMt7stxzh55Xy31H180TZNMvRYNkhEE86StqE4CtDs
+    short-id: 2f2a
+  server: 66.179.82.126
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1267991-59ff-4b67-b141-97e3ced4e7c8
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 10.75MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 10.40MB/s"
+  password: vl226mEi997fUFo1
+  port: 36626
+  server: 108.165.122.36
   skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  tfo: false
-  type: trojan
+  sni: ml.apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 9.64MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 86e999a2cdc2
+  server: nl02-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 42a7df85-0739-4760-a248-32a491abfa2a
+- name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 6.28MB/s"
+  password: ae74dd32-c336-4be4-9c15-f6108292b3e5
+  port: 12053
+  server: us1.anliangjifei.top
+  skip-cert-verify: true
+  sni: us1.anliangjifei.top
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 6.16MB/s"
+  password: a5498b5c-b90d-410a-861c-95fcc88de101
+  port: 18443
+  server: us-sje.baipiao0721-dns78655.eu
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
