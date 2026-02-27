@@ -1,16 +1,8 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 21.55MB/s"
-  password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  port: 5228
-  server: c17c5e4c-tb6f40-ttyyk7-1h0r9.cm4.oshuawei.com
-  sni: c17c5e4c-tb6f40-ttyyk7-1h0r9.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
 - client-fingerprint: random
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 19.66MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 19.78MB/s"
   network: ws
   port: 2096
   server: 192.243.113.150
@@ -24,101 +16,9 @@ proxies:
       Host: cyuxj212pnq.chinat.indevs.in
     max-early-data: 2560
     path: /danfeng
-- name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 18.62MB/s"
-  password: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-  port: 17235
-  server: c17c5e4c-tb6f40-ttyyk7-1h0r9.cm4.oshuawei.com
-  sni: c17c5e4c-tb6f40-ttyyk7-1h0r9.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 18.17MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: frPuqu8Q35SuYtSezY0zkkMlMqnL9ZElfnWZS1UzP1s
-  server: 38.60.89.98
-  servername: downloadmirror.intel.com
-  tls: true
-  type: vless
-  uuid: f204c673-c224-44a7-f86b-528f0ad67682
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 16.89MB/s"
-  network: ws
-  port: 80
-  server: 104.21.80.5
-  tls: false
-  type: vless
-  udp: true
-  uuid: 14e1775b-d92c-455b-8db3-e6c6d61909e0
-  ws-opts:
-    headers:
-      Host: vpnpro.eshghiabolfazl2009.workers.dev
-    path: /
-- cipher: aes-256-cfb
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 16.50MB/s"
-  password: amazonskr05
-  port: 443
-  server: 18.130.142.92
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.85MB/s"
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
 - client-fingerprint: random
   encryption: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 15.15MB/s"
-  network: ws
-  port: 2020
-  server: 152.53.225.203
-  servername: cyuxj212pnq.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cyuxj212pnq.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- cipher: aes-256-gcm
-  country: "\U0001F1EC\U0001F1E7GB"
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 15.02MB/s"
-  password: 0grLqKvDT37qyj54d9QxRo1SKIQNazCpxpECt7sHIq4=
-  port: 8443
-  server: 51.195.203.247
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 14.94MB/s"
-  network: tcp
-  port: 20443
-  reality-opts:
-    public-key: wIlDoplsuyFT7hzmd7y-gnRAlYTys99OU11k4v_Co0s
-    short-id: abcd1234
-  server: 8.216.21.75
-  servername: www.microsoft.com
-  spx: /
-  tls: true
-  type: vless
-  uuid: 6ec42587-d79b-479e-984a-a2533eb457b2
-- client-fingerprint: random
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 14.89MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.12MB/s"
   network: ws
   port: 17750
   server: 173.249.210.53
@@ -134,8 +34,36 @@ proxies:
     path: /danfeng
 - client-fingerprint: chrome
   encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 10.41MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 14.84MB/s"
+  name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 7.86MB/s"
+  network: tcp
+  port: 24725
+  reality-opts:
+    public-key: PAAYOscWvc6-DIWjJ8cHWpgX-xkMUVmu8Nz24itmo34
+  server: 139.59.3.70
+  servername: dash.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 48ddd7e3-5d31-46ab-9153-16c0e4d92adc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 7.57MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -147,19 +75,26 @@ proxies:
   tls: true
   type: vless
   uuid: 42a7df85-0739-4760-a248-32a491abfa2a
-- name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 14.81MB/s"
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 32233
-  server: c8d81050-tb6f40-ttxkqc-e06r.id.oshuawei.com
-  sni: c8d81050-tb6f40-ttxkqc-e06r.id.oshuawei.com
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 6.45MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  skip-cert-verify: false
   tls: true
-  type: http
-  username: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+    path: /love
 - alpn:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 13.72MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 6.45MB/s"
   network: ws
   port: 2096
   server: webmail.eclass.lk
@@ -172,191 +107,20 @@ proxies:
     headers:
       Host: free-lk-server.techsonic.ggff.net
     path: /TECH-SONIC-LK-FREE-V2RAY
-- client-fingerprint: random
-  encryption: none
-  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 13.61MB/s"
-  network: ws
-  port: 2087
-  server: 51.89.166.116
-  servername: cyuxj212pnq.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cyuxj212pnq.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: random
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 11.87MB/s"
-  network: ws
-  port: 2096
-  server: 96.45.184.9
-  servername: cyuxj212pnq.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cyuxj212pnq.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: random
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 11.30MB/s"
-  network: ws
-  port: 443
-  server: 104.20.53.79
-  servername: cyuxj212pnq.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: cyuxj212pnq.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 10.35MB/s"
-  network: tcp
-  port: 23335
-  reality-opts:
-    public-key: 7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik
-    short-id: 67b1e94e4dd1ef90
-  server: 7.cdnconn.com
-  servername: icloud.com
-  tls: true
-  type: vless
-  uuid: e384913f-8863-47b4-8858-a84b68abb4a6
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.83MB/s"
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46622
-  server: hd117-mg-jd.huidu51.com
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EE\U0001F1F9 IT 001 | ⬇️ 8.81MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: "31"
-  server: ita01-vlr02.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 5.27MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 8.34MB/s"
-  network: tcp
-  port: 24725
-  reality-opts:
-    public-key: PAAYOscWvc6-DIWjJ8cHWpgX-xkMUVmu8Nz24itmo34
-  server: 139.59.3.70
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 48ddd7e3-5d31-46ab-9153-16c0e4d92adc
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 8.06MB/s"
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46602
-  server: hd117-xg-jd.huidu51.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 7.52MB/s"
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46623
-  server: hd117-mg-jd.huidu51.com
-  tfo: false
-  type: ss
-- client-fingerprint: random
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 7.36MB/s"
-  network: ws
-  port: 443
-  server: 104.20.56.186
-  servername: cyuxj212pnq.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: cyuxj212pnq.chinat.indevs.in
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
     max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 6.71MB/s"
-  network: tcp
-  port: 55915
-  reality-opts:
-    public-key: ljmF8D-CwtSKUNaE1OydLwKl0jlN2GwNWX3uziNc43Y
-    short-id: 56c711ca
-  server: 152.53.85.136
-  servername: ads.apple.com
-  tls: true
-  type: vless
-  uuid: 416f1146-a219-4cf6-96b8-5df5c4be4021
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 5.67MB/s"
-  password: b4b78f5d-f4ec-4eae-8f83-9e4ed9e16326
-  port: 46614
-  server: hd117-xjp-jd.huidu51.com
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 5.61MB/s"
-  network: ws
-  port: 43
-  server: 220.128.110.108
-  servername: 63.hhhhh.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e974f9e-f568-4c2a-a4db-e9b666b4ea9e
-  ws-opts:
-    headers:
-      Host: 63.hhhhh.eu.org
-    path: /220.128.110.108:43
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 5.58MB/s"
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 5.47MB/s"
-  network: tcp
-  port: 50479
-  reality-opts:
-    public-key: D-lry9h3VhRF45oObwCdfDZlMmHYDMELb5y1RE56lFM
-    short-id: e5596900
-  server: 152.42.237.96
-  servername: www.bing.com
-  tls: true
-  type: vless
-  uuid: b62840b9-08d5-4039-beac-d52631204f4f
+    path: /tro8sFW1S91B6sZrM1
