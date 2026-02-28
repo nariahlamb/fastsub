@@ -1,52 +1,17 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.72MB/s"
-  password: d720a490-d56b-11ef-a1cb-f23c9313b177
-  port: 3443
-  server: a07c1630-tb71c0-tb5ob4-64gc.tky05.east.189ti.com
-  sni: a07c1630-tb71c0-tb5ob4-64gc.tky05.east.189ti.com
-  tls: true
-  type: http
-  username: d720a490-d56b-11ef-a1cb-f23c9313b177
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.91MB/s"
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  username: test
 - client-fingerprint: chrome
-  country: "\U0001F1ED\U0001F1F0HK"
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 7.26MB/s"
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.81MB/s"
   network: tcp
-  password: 984c7793-1447-4af5-9200-d514ad6fe329
-  port: 30204
-  server: jp04.jsyjiedian8.com
-  skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpchongkong3
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 5.77MB/s"
-  network: grpc
-  password: 9f99213c-bb56-425f-8e19-cce66ffe86da
-  port: 11021
-  server: 14.215.39.204
+  port: 443
+  reality-opts:
+    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
+    short-id: bffe9292
+  server: 132.226.147.10
+  servername: musicstatus.tv.apple.com
   skip-cert-verify: false
-  sni: node4.1000ws.top
-  type: trojan
-  udp: true
-- auth: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  name: "\U0001F1EA\U0001F1F8 ES 001 | ⬇️ 5.06MB/s"
-  password: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
-  port: 35000
-  ports: 35000-39000
-  server: 143.47.56.230
-  skip-cert-verify: true
-  sni: www.lamer.com.hk
-  type: hysteria2
-  udp: true
+  tls: true
+  type: vless
+  uuid: b527363c-efb8-4a3f-9209-cdeb18349afd
