@@ -1,17 +1,207 @@
 proxy-providers: {}
 proxies:
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 27.63MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 27.60MB/s"
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 27233
+  server: f564bd2a-tb4kg0-tckmuy-11p9g.cm4.oshuawei.com
+  sni: f564bd2a-tb4kg0-tckmuy-11p9g.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 19.01MB/s"
+  password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
+  sni: 95a1ee29-tb4kg0-tcjfxp-1p1b.de.oshuawei.com
+  tls: true
+  type: http
+  username: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 18.84MB/s"
+  password: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+  port: 443
+  server: ff0354a0-tb4kg0-tckmuy-11p9g.de.oshuawei.com
+  sni: ff0354a0-tb4kg0-tckmuy-11p9g.de.oshuawei.com
+  tls: true
+  type: http
+  username: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
+- name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 18.75MB/s"
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 15.67MB/s"
+  network: ws
+  port: 443
+  server: utflnkixhztk.ap-northeast-1.clawcloudrun.com
+  servername: utflnkixhztk.ap-northeast-1.clawcloudrun.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cabb4e3b-8de9-437a-84e7-63f90c71363c
+  ws-opts:
+    headers:
+      Host: utflnkixhztk.ap-northeast-1.clawcloudrun.com
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.16MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 14.97MB/s"
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 31233
+  server: 00a7a1a4-tb4kg0-ttx5yr-1j0y6.my.oshuawei.com
+  sni: 00a7a1a4-tb4kg0-ttx5yr-1j0y6.my.oshuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 13.02MB/s"
+  password: d720a490-d56b-11ef-a1cb-f23c9313b177
+  port: 3443
+  server: 098c3389-tb71c0-tb5ob4-64gc.losjan20.west.wctype.com
+  sni: 098c3389-tb71c0-tb5ob4-64gc.losjan20.west.wctype.com
+  tls: true
+  type: http
+  username: d720a490-d56b-11ef-a1cb-f23c9313b177
+- name: "\U0001F1E8\U0001F1F3 CN 003 | ⬇️ 12.73MB/s"
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 15229
+  server: 2987f84c-tb4kg0-tcjl4y-1qzi1.cu.oshuawei.com
+  sni: 2987f84c-tb4kg0-tcjl4y-1qzi1.cu.oshuawei.com
+  tls: true
+  type: http
+  username: 8f99107c-f091-11ee-9935-f23c9164ca5d
+- name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 12.50MB/s"
+  password: <password>
+  port: 8443
+  server: 9c0c4d1c-t9zts0-tbfs5p-1bonh.hkt.cdnhuawei.com
+  sni: 9c0c4d1c-t9zts0-tbfs5p-1bonh.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
+- name: "\U0001F1E8\U0001F1F3 CN 004 | ⬇️ 10.65MB/s"
+  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  port: 17235
+  server: b41a7517-tb4kg0-ttx5yr-1j0y6.cm4.oshuawei.com
+  sni: b41a7517-tb4kg0-ttx5yr-1j0y6.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 1cce7df2-251c-11ee-9409-f23c9164ca5d
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.81MB/s"
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 10.05MB/s"
   network: tcp
-  port: 443
+  port: 61809
   reality-opts:
-    public-key: OEZ3C-1OCSYBikqcWudtPP3PpQq2RAI7rFPxWoTCDSc
-    short-id: bffe9292
-  server: 132.226.147.10
-  servername: musicstatus.tv.apple.com
+    public-key: 0Orr9QAz2hKT1K6aKa64azrlgdh4DMkwvTRg1FacNAI
+    short-id: 741a96cc25132fe3
+  server: 195.133.88.238
+  servername: yandex.ru
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b527363c-efb8-4a3f-9209-cdeb18349afd
+  uuid: 899251ca-be66-4d21-84d8-bd7fbf10150b
+- alterId: "0"
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 9.26MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: "\U0001F1E8\U0001F1F3 CN 005 | ⬇️ 8.89MB/s"
+  password: 21a74582-f139-11ed-ab21-f23c913c8d2b
+  port: 17235
+  server: f86ad752-tb4kg0-td81f9-146qr.cm4.oshuawei.com
+  sni: f86ad752-tb4kg0-td81f9-146qr.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 21a74582-f139-11ed-ab21-f23c913c8d2b
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 8.20MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+    path: /love
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 8.07MB/s"
+  network: ws
+  port: 443
+  server: 104.20.49.212
+  servername: vz.anjue39.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3dfd98df-0b86-4dad-985f-5fed51084bd5
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vz.anjue39.qzz.io
+    max-early-data: 2048
+    path: /
+- allowInsecure: "1"
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 7.44MB/s"
+  password: d1a8458f-5569-40cd-8520-256cae1dae31
+  port: 18444
+  server: us.xn--99-c72c.top
+  skip-cert-verify: true
+  sni: gw.alicdn.com
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EE\U0001F1F9 IT 001 | ⬇️ 5.11MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    _spider-x: /
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: "31"
+  server: ita01-vlr02.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 1c4aceb6-bff7-4737-8c5d-43afb3dc350b
