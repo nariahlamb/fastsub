@@ -1,6 +1,14 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 21.28MB/s"
+- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 18.43MB/s"
+  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+  port: 443
+  server: cb205392-tbdts0-tnkuks-wujn.jp.oshuawei.com
+  sni: cb205392-tbdts0-tnkuks-wujn.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 16.69MB/s"
   password: 520b9126-9870-11ef-81b0-f23c9164ca5d
   port: 443
   server: 0ab9f10e-tbdts0-tipjoa-1slop.jp.oshuawei.com
@@ -8,14 +16,22 @@ proxies:
   tls: true
   type: http
   username: 520b9126-9870-11ef-81b0-f23c9164ca5d
+- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 15.41MB/s"
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  sni: testkr3.ssv.vc
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.31MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.83MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
   servername: tar.alabama-tigr.info
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
@@ -23,3 +39,19 @@ proxies:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
+- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 7.23MB/s"
+  password: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+  port: 31233
+  server: fb55b6e9-tbdts0-tc4rkx-1t926.my.oshuawei.com
+  sni: fb55b6e9-tbdts0-tc4rkx-1t926.my.oshuawei.com
+  tls: true
+  type: http
+  username: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+- name: "\U0001F1E8\U0001F1F3 CN 002 | ⬇️ 5.45MB/s"
+  password: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
+  port: 27233
+  server: 9c48705d-tbbz40-tsjk4v-1atkp.cm4.oshuawei.com
+  sni: 9c48705d-tbbz40-tsjk4v-1atkp.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 1ec223c0-1ed9-11ec-a8bf-f23c91cfbbc9
