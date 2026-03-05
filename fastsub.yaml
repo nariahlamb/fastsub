@@ -1,7 +1,8 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.13MB/s"
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.51MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
@@ -9,17 +10,8 @@ proxies:
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
-- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 6.21MB/s"
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 32233
-  server: a6e1c807-tbbz40-tpftcp-13x18.id.oshuawei.com
-  sni: a6e1c807-tbbz40-tpftcp-13x18.id.oshuawei.com
-  tls: true
-  type: http
-  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
