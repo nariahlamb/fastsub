@@ -1,35 +1,25 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 25.13MB/s"
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 20.72MB/s"
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: cb205392-tbdts0-tnkuks-wujn.jp.oshuawei.com
-  sni: cb205392-tbdts0-tnkuks-wujn.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.41MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.13MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
   servername: tar.alabama-tigr.info
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
       Host: tar.alabama-tigr.info
     path: /love
+- name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 6.21MB/s"
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 32233
+  server: a6e1c807-tbbz40-tpftcp-13x18.id.oshuawei.com
+  sni: a6e1c807-tbbz40-tpftcp-13x18.id.oshuawei.com
+  tls: true
+  type: http
+  username: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
