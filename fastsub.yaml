@@ -1,13 +1,352 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: random
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 6.60MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 36.57MB/s"
+  network: ws
+  port: 443
+  server: 172.64.229.213
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 34.90MB/s"
+  network: ws
+  port: 2053
+  server: cf5.danfeng.eu.org
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 34.81MB/s"
+  network: ws
+  port: 8443
+  server: cf2.danfeng.eu.org
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2152
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 28.13MB/s"
+  network: ws
+  password: trojan
+  port: 587
+  server: 217.142.250.195
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 27.28MB/s"
+  network: ws
+  port: 10003
+  server: 13.112.14.92
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 24.74MB/s"
+  port: 1080
+  server: 159.223.53.194
+  skip-cert-verify: true
+  type: socks5
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 24.33MB/s"
+  network: ws
+  port: 8010
+  server: 54.46.72.234
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EF\U0001F1F5 JP 003 | ⬇️ 20.95MB/s"
+  network: ws
+  port: 10243
+  server: 150.230.204.21
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 20.48MB/s"
+  network: ws
+  port: 443
+  server: 162.211.230.135
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 19.11MB/s"
+  network: ws
+  port: 2096
+  server: 162.159.153.249
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EF\U0001F1F5 JP 004 | ⬇️ 18.45MB/s"
+  network: ws
+  port: 2052
+  server: 154.19.187.81
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.36MB/s"
+  network: ws
+  port: 443
+  server: 154.17.24.183
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 16.20MB/s"
+  network: ws
+  port: 443
+  server: 8.209.105.99
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 16.07MB/s"
+  network: ws
+  port: 443
+  server: 47.245.134.84
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1996
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 15.54MB/s"
+  network: ws
+  password: trojan
+  port: 443
+  server: 154.194.0.101
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 15.49MB/s"
+  network: ws
+  port: 443
+  server: 45.196.239.238
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 2546
+  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 15.31MB/s"
+  network: ws
+  password: trojan
+  port: 8080
+  server: 51.83.45.173
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 15.28MB/s"
+  network: ws
+  port: 10561
+  server: 91.107.163.206
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EB\U0001F1F7 FR 002 | ⬇️ 15.22MB/s"
+  network: ws
+  port: 8443
+  server: 31.59.120.124
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1081
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 14.88MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 216.40.87.100
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1360
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 14.79MB/s"
+  network: ws
+  password: trojan
+  port: 7070
+  server: 91.107.173.219
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 14.72MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: nll.scroogethebest.com
+  servername: nll.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
+- alterId: 0
+  cipher: ""
+  flow: ""
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 14.16MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
   servername: tar.alabama-tigr.info
-  skip-cert-verify: false
+  skip-cert-verify: true
+  sni: tar.alabama-tigr.info
   tls: true
   type: vless
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
@@ -16,35 +355,2190 @@ proxies:
       Host: tar.alabama-tigr.info
     path: /love
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 5.34MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 14.15MB/s"
   network: ws
-  port: 443
-  server: 198.62.62.124
-  servername: war.connecticut-haloo.info
-  skip-cert-verify: true
+  port: 2014
+  server: 185.254.96.191
+  servername: tn1rr.qzz.io
   tls: true
   type: vless
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
   ws-opts:
     headers:
-      Host: war.connecticut-haloo.info
-    path: /love
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 2289
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 13.77MB/s"
+  network: ws
+  password: trojan
+  port: 28080
+  server: 166.0.198.81
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EB\U0001F1F7 FR 003 | ⬇️ 13.73MB/s"
+  network: ws
+  port: 2053
+  server: 31.59.121.150
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 5.17MB/s"
+  flow: xtls-rprx-vision
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 13.70MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 5.254.85.151
+  servername: germany.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+- client-fingerprint: chrome
+  delay: 1755
+  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 13.66MB/s"
+  network: ws
+  password: trojan
+  port: 2525
+  server: 46.62.132.84
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 13.63MB/s"
+  network: ws
+  port: 2083
+  server: 104.16.160.225
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 13.47MB/s"
+  network: ws
+  port: 21182
+  server: 142.171.156.141
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 13.34MB/s"
   network: ws
   port: 443
-  server: 198.62.62.235
-  servername: bank.alaska-tigr.info
+  server: 91.84.99.43
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 13.33MB/s"
+  network: tcp
+  port: 52006
+  reality-opts:
+    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+    short-id: d8c6b58bcbb0c323
+  server: 146.185.241.48
+  servername: max.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b3da836c-d6d8-03e8-ba4a-0a7a54491924
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 13.26MB/s"
+  network: ws
+  port: 2087
+  server: 104.16.50.41
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 13.12MB/s"
+  network: ws
+  port: 443
+  server: 166.88.132.65
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 13.10MB/s"
+  network: ws
+  port: 8443
+  server: 142.171.135.170
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 13.07MB/s"
+  network: ws
+  port: 28017
+  server: 38.83.41.89
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 13.05MB/s"
+  network: ws
+  port: 2053
+  server: 77.90.6.193
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- allowInsecure: "1"
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  fp: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 003 | ⬇️ 13.04MB/s"
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+- client-fingerprint: chrome
+  delay: 1456
+  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 13.04MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 91.107.250.73
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 007 | ⬇️ 12.80MB/s"
+  network: ws
+  port: 2083
+  server: 104.24.64.21
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2706
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 12.76MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 45.144.48.48
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 010 | ⬇️ 12.71MB/s"
+  network: ws
+  port: 444
+  server: 91.132.160.61
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2392
+  name: "\U0001F1E9\U0001F1EA DE 011 | ⬇️ 12.56MB/s"
+  network: ws
+  password: trojan
+  port: 888
+  server: 91.107.151.136
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 012 | ⬇️ 12.44MB/s"
+  network: ws
+  port: 443
+  server: 87.120.166.7
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1949
+  name: "\U0001F1F3\U0001F1F1 NL 005 | ⬇️ 12.40MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 130.185.122.236
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1566
+  name: "\U0001F1F3\U0001F1F1 NL 006 | ⬇️ 12.38MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 130.185.122.34
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2452
+  name: "\U0001F1EE\U0001F1F9 IT 001 | ⬇️ 12.29MB/s"
+  network: ws
+  password: trojan
+  port: 2525
+  server: 57.131.20.243
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 007 | ⬇️ 12.22MB/s"
+  network: ws
+  port: 8443
+  server: 91.242.229.228
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 008 | ⬇️ 12.19MB/s"
+  network: ws
+  port: 443
+  server: 149.248.56.22
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 12.18MB/s"
+  network: ws
+  port: 31687
+  server: 185.245.83.41
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1491
+  name: "\U0001F1E9\U0001F1EA DE 013 | ⬇️ 12.09MB/s"
+  network: ws
+  password: trojan
+  port: 6780
+  server: 91.107.249.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 009 | ⬇️ 12.05MB/s"
+  network: ws
+  port: 443
+  server: 40.233.77.216
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 008 | ⬇️ 11.96MB/s"
+  network: ws
+  port: 443
+  server: 95.179.140.212
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 014 | ⬇️ 11.83MB/s"
+  network: ws
+  port: 443
+  server: 5.252.22.46
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 009 | ⬇️ 11.80MB/s"
+  network: ws
+  port: 3443
+  server: 51.15.47.222
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2896
+  name: "\U0001F1F3\U0001F1F1 NL 010 | ⬇️ 11.79MB/s"
+  network: ws
+  password: trojan
+  port: 7788
+  server: 5.255.121.66
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 010 | ⬇️ 11.77MB/s"
+  network: ws
+  port: 443
+  server: 140.238.144.211
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 011 | ⬇️ 11.70MB/s"
+  network: ws
+  port: 8443
+  server: 185.14.30.166
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 015 | ⬇️ 11.65MB/s"
+  network: ws
+  port: 8443
+  server: 185.235.241.209
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 011 | ⬇️ 11.41MB/s"
+  network: ws
+  port: 443
+  server: 96.9.226.188
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 012 | ⬇️ 11.36MB/s"
+  network: ws
+  port: 443
+  server: 155.138.156.4
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 11.24MB/s"
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E8\U0001F1ED CH 001 | ⬇️ 11.08MB/s"
+  network: ws
+  port: 81
+  server: 45.90.58.58
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 11.01MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.231
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 013 | ⬇️ 11.01MB/s"
+  network: ws
+  port: 8443
+  server: 35.183.216.163
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 10.97MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.184
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 10.96MB/s"
+  network: ws
+  port: 2053
+  server: 83.138.55.120
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 004 | ⬇️ 10.95MB/s"
+  network: ws
+  port: 443
+  server: 85.237.207.19
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 004 | ⬇️ 10.95MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.43
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2789
+  name: "\U0001F1F3\U0001F1F1 NL 012 | ⬇️ 10.91MB/s"
+  network: ws
+  password: trojan
+  port: 2003
+  server: 45.154.98.133
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1EC\U0001F1E7 GB 005 | ⬇️ 10.89MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 143.20.236.51
+  servername: yahoo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 10.88MB/s"
+  network: ws
+  port: 443
+  server: 77.110.120.225
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 006 | ⬇️ 10.82MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.39
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
-      Host: bank.alaska-tigr.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /love
-  xudp: true
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 013 | ⬇️ 10.82MB/s"
+  network: ws
+  port: 443
+  server: 38.180.70.111
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 014 | ⬇️ 10.82MB/s"
+  network: ws
+  port: 8443
+  server: 192.99.55.53
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6CA_32"
+  network: ws
+  port: 2053
+  server: 35.183.216.163
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F8\U0001F1ECSG_168 | ⬇️ 3.5MB/s"
+  network: ws
+  port: 8443
+  server: 188.130.207.30
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F8\U0001F1ECSG_256 | ⬇️ 3.8MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.136
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F5\U0001F1F1 PL 002 | ⬇️ 10.75MB/s"
+  network: ws
+  port: 443
+  server: 64.176.68.73
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 10.74MB/s"
+  network: ws
+  port: 2053
+  server: 31.58.87.242
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2230
+  name: "\U0001F1E8\U0001F1FF CZ 001 | ⬇️ 10.74MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 10.67MB/s"
+  network: ws
+  port: 462
+  server: 143.20.41.30
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 007 | ⬇️ 10.66MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.248
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2362
+  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 10.65MB/s"
+  network: ws
+  password: trojan
+  port: 28080
+  server: 38.83.41.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2508
+  name: "\U0001F1E9\U0001F1EA DE 016 | ⬇️ 10.65MB/s"
+  network: ws
+  password: trojan
+  port: 81
+  server: 91.107.248.253
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1F7 FR 004 | ⬇️ 10.62MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1LHMePKT5PP9F9WQ1HhZUWZlrK2p9AW_sUwKNfO4ZC0
+    short-id: dd8ca121bb77dad9
+  server: 185.248.33.27
+  servername: finance.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0a0d8e6f-8747-4ff6-afe0-e70aa97e7de8
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 015 | ⬇️ 10.62MB/s"
+  network: ws
+  port: 443
+  server: 40.233.71.238
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 1344
+  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 10.62MB/s"
+  network: ws
+  password: trojan
+  port: 28006
+  server: 38.83.41.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EB\U0001F1F7 FR 005 | ⬇️ 10.58MB/s"
+  network: ws
+  port: 8443
+  server: 147.45.42.55
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 008 | ⬇️ 10.43MB/s"
+  network: ws
+  port: 8443
+  server: 143.20.213.206
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 10.43MB/s"
+  network: ws
+  port: 39738
+  server: 38.244.5.40
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 016 | ⬇️ 10.34MB/s"
+  network: ws
+  port: 443
+  server: 40.233.99.248
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 10.33MB/s"
+  network: ws
+  port: 30488
+  server: 129.159.37.19
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2009
+  name: "\U0001F1EB\U0001F1EE FI 002 | ⬇️ 10.29MB/s"
+  network: ws
+  password: trojan
+  port: 9864
+  server: 185.188.30.107
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1620
+  name: "\U0001F1F9\U0001F1F7 TR 001 | ⬇️ 10.27MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 130.185.120.119
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EC\U0001F1E7 GB 009 | ⬇️ 10.15MB/s"
+  network: ws
+  port: 8080
+  server: 130.185.249.22
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1421
+  name: "\U0001F1F3\U0001F1F1 NL 014 | ⬇️ 10.09MB/s"
+  network: ws
+  password: trojan
+  port: 443
+  server: 104.249.40.144
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F9\U0001F1F7 TR 002 | ⬇️ 10.07MB/s"
+  network: ws
+  port: 443
+  server: 103.231.75.115
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 017 | ⬇️ 10.05MB/s"
+  network: ws
+  port: 443
+  server: 51.79.49.152
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 9.98MB/s"
+  network: ws
+  port: 39738
+  server: 38.22.237.79
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2450
+  name: "\U0001F1E8\U0001F1E6 CA 018 | ⬇️ 9.89MB/s"
+  network: ws
+  password: trojan
+  port: 8989
+  server: 158.69.192.34
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 019 | ⬇️ 9.87MB/s"
+  network: ws
+  port: 443
+  server: 138.197.161.103
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 020 | ⬇️ 9.87MB/s"
+  network: ws
+  port: 443
+  server: 155.138.128.135
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 2321
+  name: "\U0001F1F3\U0001F1F1 NL 015 | ⬇️ 9.86MB/s"
+  network: ws
+  password: trojan
+  port: 82
+  server: 136.244.105.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 017 | ⬇️ 9.80MB/s"
+  network: ws
+  port: 8443
+  server: 193.37.70.98
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 021 | ⬇️ 9.79MB/s"
+  network: ws
+  port: 443
+  server: 165.227.42.240
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 2096
+  name: "\U0001F1E9\U0001F1EA DE 018 | ⬇️ 9.57MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.169
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 014 | ⬇️ 9.54MB/s"
+  network: ws
+  port: 443
+  server: 82.29.128.235
+  servername: zxt.overwall.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a2150686-c68e-4949-ef53-7f6c741bcdab
+  ws-opts:
+    path: /overwall
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 022 | ⬇️ 9.45MB/s"
+  network: ws
+  port: 443
+  server: 149.56.130.35
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EE\U0001F1EA IE 001 | ⬇️ 9.34MB/s"
+  network: ws
+  port: 443
+  server: 107.172.145.153
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1009
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 8.93MB/s"
+  network: ws
+  password: trojan
+  port: 32400
+  server: 221.165.212.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 023 | ⬇️ 8.84MB/s"
+  network: ws
+  port: 443
+  server: 40.233.87.120
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 016 | ⬇️ 8.79MB/s"
+  network: ws
+  port: 443
+  server: 164.92.151.224
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 8.74MB/s"
+  network: ws
+  port: 12619
+  server: 120.50.87.7
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1772
+  name: "\U0001F1F0\U0001F1F7 KR 003 | ⬇️ 8.73MB/s"
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 024 | ⬇️ 8.68MB/s"
+  network: ws
+  port: 443
+  server: 40.233.103.212
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 017 | ⬇️ 8.56MB/s"
+  network: ws
+  port: 443
+  server: 163.5.207.124
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 025 | ⬇️ 8.55MB/s"
+  network: ws
+  port: 443
+  server: 159.203.35.153
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F5\U0001F1F1 PL 003 | ⬇️ 8.53MB/s"
+  network: ws
+  port: 2053
+  server: 31.133.0.143
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 026 | ⬇️ 8.51MB/s"
+  network: ws
+  port: 443
+  server: 40.233.110.251
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 004 | ⬇️ 8.39MB/s"
+  network: ws
+  port: 12999
+  server: 218.157.10.158
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 8.21MB/s"
+  network: ws
+  port: 39738
+  server: 38.244.5.99
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EA\U0001F1F8 ES 001 | ⬇️ 8.21MB/s"
+  network: ws
+  port: 20205
+  server: 172.233.121.202
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 005 | ⬇️ 8.19MB/s"
+  network: ws
+  port: 12913
+  server: 120.50.87.7
+  servername: snippet.gfw.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 027 | ⬇️ 8.11MB/s"
+  network: ws
+  port: 443
+  server: 68.183.207.130
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 028 | ⬇️ 7.98MB/s"
+  network: ws
+  port: 443
+  server: 51.161.32.195
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 029 | ⬇️ 7.97MB/s"
+  network: ws
+  port: 2053
+  server: 38.180.13.8
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 018 | ⬇️ 7.80MB/s"
+  network: ws
+  port: 443
+  server: 80.74.28.213
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 006 | ⬇️ 7.76MB/s"
+  network: ws
+  port: 20005
+  server: 121.143.196.49
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 007 | ⬇️ 7.72MB/s"
+  network: ws
+  port: 20000
+  server: 121.181.192.19
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EB\U0001F1F7 FR 006 | ⬇️ 7.68MB/s"
+  network: ws
+  port: 443
+  server: 138.124.81.204
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 030 | ⬇️ 7.60MB/s"
+  network: ws
+  port: 443
+  server: 172.98.207.58
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 031 | ⬇️ 7.58MB/s"
+  network: ws
+  port: 443
+  server: 192.99.169.176
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 008 | ⬇️ 7.49MB/s"
+  network: ws
+  port: 18888
+  server: 218.38.36.6
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 009 | ⬇️ 7.36MB/s"
+  network: ws
+  port: 17000
+  server: 110.12.52.95
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 032 | ⬇️ 7.33MB/s"
+  network: ws
+  port: 8443
+  server: 38.180.13.8
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- client-fingerprint: chrome
+  delay: 2904
+  name: "\U0001F1F3\U0001F1F1 NL 019 | ⬇️ 7.31MB/s"
+  network: ws
+  password: trojan
+  port: 7777
+  server: 46.17.101.136
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2764
+  name: "\U0001F1E9\U0001F1EA DE 019 | ⬇️ 7.23MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.83
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2494
+  name: "\U0001F1EB\U0001F1EE FI 003 | ⬇️ 7.21MB/s"
+  network: ws
+  password: trojan
+  port: 8989
+  server: 65.109.188.82
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 010 | ⬇️ 7.20MB/s"
+  network: ws
+  port: 36641
+  server: 120.50.87.7
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 KR 011 | ⬇️ 7.08MB/s"
+  network: ws
+  port: 12493
+  server: 220.125.207.242
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 012 | ⬇️ 6.98MB/s"
+  network: ws
+  port: 14265
+  server: 121.155.79.99
+  servername: snippet.sheilabelinda.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sheilabelinda.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 033 | ⬇️ 6.86MB/s"
+  network: ws
+  port: 443
+  server: 69.28.82.253
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 020 | ⬇️ 6.84MB/s"
+  network: ws
+  port: 8443
+  server: 94.159.105.138
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2891
+  name: "\U0001F1F5\U0001F1F1 PL 004 | ⬇️ 6.82MB/s"
+  network: ws
+  password: trojan
+  port: 16000
+  server: 155.133.30.9
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 013 | ⬇️ 6.72MB/s"
+  network: ws
+  port: 14147
+  server: 180.66.110.234
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1EB\U0001F1EE FI 004 | ⬇️ 6.67MB/s"
+  network: ws
+  port: 8443
+  server: 45.138.73.136
+  servername: snippet.sh21.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.sh21.eu.org
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2780
+  name: "\U0001F1E9\U0001F1EA DE 021 | ⬇️ 6.52MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.216
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 022 | ⬇️ 6.35MB/s"
+  network: ws
+  port: 8443
+  server: 193.23.210.225
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 JP 005 | ⬇️ 6.31MB/s"
+  network: ws
+  port: 14772
+  server: 125.192.35.51
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  delay: 1756
+  name: 荷兰 - 阿姆斯特丹 - 18
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.54
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1546
+  name: 荷兰 - 阿姆斯特丹 - 20
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.29
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2219
+  name: 荷兰 - 阿姆斯特丹 - 4
+  network: ws
+  password: trojan
+  port: 587
+  server: 85.203.26.26
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1E9\U0001F1EA DE 023 | ⬇️ 6.11MB/s"
+  network: ws
+  port: 2053
+  server: 77.83.86.169
+  servername: snippet.fgfw.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ndjp.net
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1480
+  name: "\U0001F1F3\U0001F1F1 NL 020 | ⬇️ 6.04MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.104.142
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 021 | ⬇️ 6.02MB/s"
+  network: ws
+  port: 81
+  server: 185.186.244.184
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1591
+  name: "\U0001F1EB\U0001F1EE FI 005 | ⬇️ 5.97MB/s"
+  network: ws
+  password: trojan
+  port: 8989
+  server: 65.109.203.242
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 022 | ⬇️ 5.96MB/s"
+  network: ws
+  port: 81
+  server: 185.186.244.62
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 1726
+  name: "\U0001F1E9\U0001F1EA DE 024 | ⬇️ 5.95MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.232
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 023 | ⬇️ 5.86MB/s"
+  network: ws
+  port: 443
+  server: 45.142.203.189
+  servername: snippet.fgfw.ye.gs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 KR 014 | ⬇️ 5.80MB/s"
+  network: ws
+  port: 12000
+  server: 183.109.80.50
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- client-fingerprint: chrome
+  delay: 1997
+  name: "\U0001F1F3\U0001F1F1 NL 024 | ⬇️ 5.63MB/s"
+  network: ws
+  password: trojan
+  port: 55443
+  server: 46.17.97.105
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 KR 015 | ⬇️ 5.61MB/s"
+  network: ws
+  port: 11265
+  server: 211.48.77.114
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- cipher: aes-256-cfb
+  name: "\U0001F1FB\U0001F1F3 VN 001 | ⬇️ 5.48MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.189
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  delay: 1528
+  name: "\U0001F1E8\U0001F1ED CH 002 | ⬇️ 5.40MB/s"
+  network: ws
+  password: trojan
+  port: 8004
+  server: 91.245.225.69
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 016 | ⬇️ 5.10MB/s"
+  network: ws
+  port: 50006
+  server: 118.216.105.51
+  servername: snippet.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA DE 025 | ⬇️ 5.08MB/s"
+  network: ws
+  port: 13286
+  server: 194.164.52.22
+  servername: tn1rr.qzz.io
+  tls: true
+  type: vless
+  uuid: "Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+  ws-opts:
+    headers:
+      Host: tn1rr.qzz.io
+    path: /sg-lnd
