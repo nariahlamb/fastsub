@@ -1,15 +1,63 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.77MB/s"
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.06MB/s"
   network: ws
   port: 443
   server: 198.62.62.248
   servername: tar.alabama-tigr.info
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
   ws-opts:
     headers:
       Host: tar.alabama-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 11.68MB/s"
+  network: ws
+  port: 2053
+  server: one.dash.cloudflare.com
+  servername: wqdo76ww8ndc.chinat.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: wqdo76ww8ndc.chinat.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 11.11MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+    path: /love
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 9.00MB/s"
+  network: ws
+  port: 443
+  server: 198.62.62.124
+  servername: war.connecticut-haloo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: war.connecticut-haloo.info
     path: /love
