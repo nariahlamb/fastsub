@@ -1,17 +1,40 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 9.19MB/s"
-  network: ws
+  name: "\U0001F1F3\U0001F1F1 NL 023 | ⬇️ 13MB/s"
+  network: tcp
+  password: uThbm8eGmXZ7GKqnWy
   port: 443
-  server: 68.64.179.250
-  servername: ylnhh.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  ws-opts:
-    headers:
-      Host: ylnhh.cc.cd
-    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+  server: nl-4.tr202507.com
+  skip-cert-verify: true
+  sni: nl-4.tr202507.com
+  type: trojan
+  udp: true
+- cipher: none
+  name: "\U0001F1EF\U0001F1F5 JP 005 | ⬇️ 2MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: sub.danfeng.eu.org
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1EF\U0001F1F5 JP 050 | ⬇️ 30MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.877774.xyz
+  type: ss
+  udp: true
