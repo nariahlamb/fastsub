@@ -1,12 +1,328 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  delay: 1066
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.82MB/s"
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 28.71MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: R0M4F0Di9oppNbz_LRIkF08whSeXbBHMNkAKVq5l-U8
+    short-id: ea80ef
+  server: 23.148.20.55
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5130eee-cf44-405e-ce04-25817f961399
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 17.28MB/s"
+  network: ws
+  port: 443
+  server: 192.0.54.131
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 16.95MB/s"
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 14.47MB/s"
+  network: ws
+  port: 443
+  server: 192.0.63.230
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2362
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 13.88MB/s"
   network: ws
   password: trojan
-  port: 7071
-  server: 154.17.234.78
+  port: 28080
+  server: 38.83.41.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2508
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 13.33MB/s"
+  network: ws
+  password: trojan
+  port: 81
+  server: 91.107.248.253
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1456
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 13.14MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 91.107.250.73
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1491
+  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 12.78MB/s"
+  network: ws
+  password: trojan
+  port: 6780
+  server: 91.107.249.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 12.43MB/s"
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+- client-fingerprint: chrome
+  delay: 1903
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 12.27MB/s"
+  network: ws
+  password: trojan
+  port: 2223
+  server: 62.133.60.159
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 11.86MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t5K7Ki14k_3usYeaV38jwpJkezNwerWYJnCSd1z7hhk
+    short-id: "0451"
+  server: testno226.2568954.xyz
+  servername: www.apple.com
+  sni: www.apple.com
+  tls: true
+  type: vless
+  uuid: 2f0a3a26-8384-4bbf-f91a-e41e252b30c5
+- client-fingerprint: chrome
+  delay: 2450
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 11.26MB/s"
+  network: ws
+  password: trojan
+  port: 8989
+  server: 158.69.192.34
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 10.81MB/s"
+  network: ws
+  port: 443
+  server: 192.0.54.188
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  delay: 2321
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 10.79MB/s"
+  network: ws
+  password: trojan
+  port: 82
+  server: 136.244.105.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2698
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 9.63MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.23
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1546
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.13MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.29
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 8.83MB/s"
+  network: ws
+  port: 443
+  server: 192.0.63.56
+  servername: snippet.danfeng.kozow.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snippet.danfeng.kozow.com
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.74MB/s"
+  network: ws
+  port: 15284
+  server: 221.146.116.77
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 7.66MB/s"
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+- client-fingerprint: chrome
+  delay: 1726
+  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 6.36MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.232
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1467
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 5.62MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.105.238
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1925
+  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 5.59MB/s"
+  network: ws
+  password: trojan
+  port: 587
+  server: 5.253.189.205
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
