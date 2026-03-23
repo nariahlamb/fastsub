@@ -1,128 +1,10 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 44.51MB/s"
-  network: ws
-  port: 443
-  server: 172.64.229.165
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 43.36MB/s"
-  network: ws
-  port: 443
-  server: 104.19.58.74
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 41.29MB/s"
-  network: ws
-  port: 443
-  server: 104.18.40.56
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 41.22MB/s"
-  network: ws
-  port: 443
-  server: blog.811520.xyz
-  servername: snip.zrfs.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfs.pp.ua
-    max-early-data: 2560
-    path: /zrf
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 41.20MB/s"
-  network: ws
-  port: 443
-  server: 104.19.54.187
-  servername: snip.zrfs.nn.kg
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfs.nn.kg
-    max-early-data: 2560
-    path: /zrf
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 41.02MB/s"
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 007 | ⬇️ 41.00MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: cf.877774.xyz
-  type: ss
-  udp: true
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 008 | ⬇️ 40.79MB/s"
+- name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 43.18MB/s"
   network: ws
   port: 443
   server: 104.19.62.246
   servername: snip.gm.94v.net
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
@@ -132,89 +14,12 @@ proxies:
       Host: snip.gm.94v.net
     max-early-data: 2560
     path: /zrf
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 009 | ⬇️ 40.52MB/s"
-  network: ws
-  password: 36639485-60a0-4853-856c-40ac05f4b00d
-  port: 443
-  server: 104.18.185.26
-  sni: null.us1234567891.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: null.us1234567891.xyz
-    path: /music
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 010 | ⬇️ 40.03MB/s"
-  network: ws
-  port: 443
-  server: 172.64.156.0
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- cipher: none
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 39.74MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: cf.090227.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 011 | ⬇️ 39.66MB/s"
-  network: ws
-  port: 443
-  server: 172.64.229.85
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 012 | ⬇️ 39.45MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: sub.danfeng.eu.org
-  type: ss
-  udp: true
 - encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 013 | ⬇️ 39.29MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 40.84MB/s"
   network: ws
   port: 443
-  server: 104.19.62.157
-  servername: snip.cfv.pp.ua
+  server: 104.19.60.97
+  servername: snip.durl.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
@@ -222,25 +27,45 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snip.cfv.pp.ua
+      Host: snip.durl.dpdns.org
     max-early-data: 2560
     path: /zrf
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 014 | ⬇️ 38.44MB/s"
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-    tls: true
+- name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 40.31MB/s"
+  network: ws
   port: 443
-  server: store.ubi.com
-  type: ss
+  server: registry.cyou
+  servername: snip.zrfs.bbroot.com
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.bbroot.com
+    max-early-data: 2560
+    path: /zrf
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 40.26MB/s"
+  network: ws
+  port: 443
+  server: 172.64.156.0
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
   udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 015 | ⬇️ 38.05MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 40.20MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -253,8 +78,40 @@ proxies:
   server: cf.008500.xyz
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  country: "\U0001F1EB\U0001F1F7FR"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 38.04MB/s"
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  servername: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4907a8e9-79c6-4690-a68b-2dfb971861f4
+  ws-opts:
+    headers:
+      HOST: 90a15d418d18111ebdc80196ca0cd72d.mobgslb.tbcache.com
+      Host: m.cnmjin.net
+    path: /
+- name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 35.08MB/s"
+  network: ws
+  port: 443
+  server: cf.877774.xyz
+  servername: snip.vurl.dpdns.org
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.vurl.dpdns.org
+    max-early-data: 2560
+    path: /zrf
 - encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 016 | ⬇️ 37.39MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 34.30MB/s"
   network: ws
   port: 443
   server: 104.18.92.83
@@ -269,54 +126,36 @@ proxies:
       Host: snip.zrf.gv.uy
     max-early-data: 2560
     path: /zrf
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 017 | ⬇️ 35.03MB/s"
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-    tls: true
-  port: 443
-  server: cf.130519.xyz
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 018 | ⬇️ 33.32MB/s"
+- name: "\U0001F1E8\U0001F1E6 CA 007 | ⬇️ 31.79MB/s"
   network: ws
   port: 443
-  server: vip2.kaixincloud.top
-  servername: r.icy.de5.net
-  skip-cert-verify: false
+  server: 198.41.208.231
+  servername: snip.zrf.ndjp.net
   tls: true
   type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: r.icy.de5.net
+      Host: snip.zrf.ndjp.net
     max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2152
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 30.65MB/s"
+    path: /zrf
+- name: "\U0001F1E8\U0001F1E6 CA 008 | ⬇️ 30.13MB/s"
   network: ws
-  password: trojan
-  port: 587
-  server: 217.142.250.195
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: blog.811520.xyz
+  servername: snip.zrfs.pp.ua
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
+      Host: snip.zrfs.pp.ua
     max-early-data: 2560
-    path: /
+    path: /zrf
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 019 | ⬇️ 29.67MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 009 | ⬇️ 29.66MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -330,8 +169,117 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
+  delay: 2152
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 29.53MB/s"
+  network: ws
+  password: trojan
+  port: 587
+  server: 217.142.250.195
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  fingerprint: ""
+  name: "\U0001F1E8\U0001F1E6 CA 010 | ⬇️ 26.20MB/s"
+  network: ws
+  port: 443
+  server: vip1.kaixincloud.top
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: false
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 011 | ⬇️ 22.77MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 012 | ⬇️ 22.23MB/s"
+  network: ws
+  port: 443
+  server: 162.159.48.142
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 013 | ⬇️ 22.18MB/s"
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: cf.130519.xyz
+  type: ss
+  udp: true
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 014 | ⬇️ 20.35MB/s"
+  network: ws
+  port: 443
+  server: 104.17.187.150
+  servername: snip.addd.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.addd.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 18.72MB/s"
+  network: ws
+  port: 443
+  server: 162.159.44.99
+  servername: snip.zrfme.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfme.cc.cd
+    max-early-data: 2560
+    path: /zrf
+- client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 020 | ⬇️ 21.90MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 015 | ⬇️ 18.71MB/s"
   network: ws
   port: 443
   server: 108.162.195.58
@@ -349,70 +297,11 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: "\U0001F1E8\U0001F1E6 CA 021 | ⬇️ 18.80MB/s"
-  network: ws
-  port: 443
-  server: 104.18.240.4
-  servername: snip.zrfme.xyz
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfme.xyz
-    max-early-data: 2560
-    path: /zrf
 - client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 022 | ⬇️ 18.68MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 016 | ⬇️ 18.69MB/s"
   network: ws
   port: 443
-  server: 162.159.48.142
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.66MB/s"
-  network: ws
-  port: 443
-  server: 162.159.44.99
-  servername: snip.zrfme.cc.cd
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfme.cc.cd
-    max-early-data: 2560
-    path: /zrf
-- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 18.58MB/s"
-  network: ws
-  port: 443
-  server: 162.159.39.239
-  servername: snip1.zrfme.site
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip1.zrfme.site
-    max-early-data: 2560
-    path: /zrf
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 023 | ⬇️ 18.57MB/s"
-  network: ws
-  port: 443
-  server: 162.159.7.2
+  server: 104.17.28.89
   servername: r.icy.de5.net
   tls: true
   type: vless
@@ -422,155 +311,13 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 18.39MB/s"
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 18.38MB/s"
-  network: ws
-  port: 443
-  server: 162.159.45.220
-  servername: snip.cfn.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.cfn.indevs.in
-    max-early-data: 2560
-    path: /zrf
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 18.37MB/s"
-  network: ws
-  port: 443
-  server: 8.35.211.69
-  servername: snip.ere.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.ere.de5.net
-    max-early-data: 2560
-    path: /zrf
-- name: "\U0001F1E8\U0001F1E6 CA 024 | ⬇️ 18.30MB/s"
-  network: ws
-  port: 443
-  server: 172.64.52.210
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- name: "\U0001F1E8\U0001F1E6 CA 025 | ⬇️ 18.20MB/s"
-  network: ws
-  port: 443
-  server: 162.159.24.111
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- encryption: none
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 18.07MB/s"
-  network: ws
-  port: 443
-  server: 193.9.49.65
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 18.04MB/s"
-  network: ws
-  port: 443
-  server: 162.159.38.78
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.143 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     max-early-data: 2560
     path: /
   xudp: true
 - encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 026 | ⬇️ 18.04MB/s"
-  network: ws
-  port: 443
-  server: 172.67.77.155
-  servername: snip.zrfs.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfs.indevs.in
-    max-early-data: 2560
-    path: /zrf
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 17.98MB/s"
-  network: ws
-  port: 443
-  server: 162.159.38.81
-  servername: snip.wes.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.wes.pp.ua
-    max-early-data: 2560
-    path: /zrf
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 027 | ⬇️ 17.94MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 017 | ⬇️ 18.44MB/s"
   network: ws
   port: 443
   server: 172.64.53.155
@@ -585,40 +332,12 @@ proxies:
       Host: snip.wrr.pp.ua
     max-early-data: 2560
     path: /zrf
-- name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 17.91MB/s"
-  network: ws
-  port: 443
-  server: 154.211.8.18
-  servername: snip.111.hidns.vip
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.111.hidns.vip
-    max-early-data: 2560
-    path: /zrf
-- name: "\U0001F1E8\U0001F1E6 CA 028 | ⬇️ 17.83MB/s"
-  network: ws
-  port: 443
-  server: 104.19.85.38
-  servername: r.icy.de5.net
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
 - encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 17.65MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 018 | ⬇️ 18.42MB/s"
   network: ws
   port: 443
-  server: 162.159.38.154
-  servername: snip.qqq.hidns.vip
+  server: 198.41.223.179
+  servername: snip.zrfme.site
   skip-cert-verify: false
   tls: true
   type: vless
@@ -626,41 +345,11 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snip.qqq.hidns.vip
-    max-early-data: 2560
-    path: /zrf
-- name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 17.52MB/s"
-  network: ws
-  port: 443
-  server: 27.50.48.8
-  servername: snip.zrfme.pp.ua
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.zrfme.pp.ua
-    max-early-data: 2560
-    path: /zrf
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 029 | ⬇️ 17.48MB/s"
-  network: ws
-  port: 443
-  server: time.is
-  servername: snip.asss.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snip.asss.pp.ua
+      Host: snip.zrfme.site
     max-early-data: 2560
     path: /zrf
 - client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 17.45MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 18.38MB/s"
   network: ws
   port: 443
   server: 162.159.45.232
@@ -678,11 +367,26 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 030 | ⬇️ 16.72MB/s"
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 18.34MB/s"
   network: ws
   port: 443
-  server: www.visa.cn
+  server: 8.35.211.69
+  servername: snip.ere.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ere.de5.net
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 18.28MB/s"
+  network: ws
+  port: 443
+  server: 162.159.44.142
   servername: r.icy.de5.net
   tls: true
   type: vless
@@ -692,14 +396,354 @@ proxies:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: r.icy.de5.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
     max-early-data: 2560
     path: /
-  xudp: true
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 019 | ⬇️ 18.27MB/s"
+  network: ws
+  port: 443
+  server: 198.41.223.193
+  servername: snip.zrr.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrr.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 18.25MB/s"
+  network: ws
+  port: 443
+  server: 27.50.48.8
+  servername: snip.zrfme.dedyn.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfme.dedyn.io
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 18.20MB/s"
+  network: ws
+  port: 443
+  server: 162.159.39.239
+  servername: snip1.zrfme.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip1.zrfme.site
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 18.18MB/s"
+  network: ws
+  port: 443
+  server: 162.159.45.220
+  servername: snip.cfn.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.cfn.indevs.in
+    max-early-data: 2560
+    path: /zrf
+- cipher: aes-256-cfb
+  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 18.15MB/s"
+  password: amazonskr05
+  port: 443
+  server: 16.171.110.163
+  type: ss
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 18.06MB/s"
+  network: ws
+  port: 443
+  server: 162.159.38.154
+  servername: snip.qqq.hidns.vip
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.qqq.hidns.vip
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1E8\U0001F1E6 CA 020 | ⬇️ 18.05MB/s"
+  network: ws
+  port: 443
+  server: 162.159.49.27
+  servername: zrfs.sylu.net
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: zrfs.sylu.net
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1E8\U0001F1E6 CA 021 | ⬇️ 18.03MB/s"
+  network: ws
+  port: 443
+  server: 104.18.240.4
+  servername: snip.zrfme.xyz
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfme.xyz
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 18.03MB/s"
+  network: ws
+  port: 443
+  server: 162.159.38.81
+  servername: snip.wes.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.wes.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1E8\U0001F1E6 CA 022 | ⬇️ 17.99MB/s"
+  network: ws
+  port: 443
+  server: 104.18.41.43
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 17.98MB/s"
+  network: ws
+  port: 443
+  server: 162.159.44.193
+  servername: snip2.zrfme.site
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip2.zrfme.site
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 17.94MB/s"
+  network: ws
+  port: 443
+  server: 154.211.8.18
+  servername: snip.txsb.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.txsb.de5.net
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 023 | ⬇️ 17.84MB/s"
+  network: ws
+  port: 443
+  server: 104.26.11.130
+  servername: snip.ees.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.ees.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 024 | ⬇️ 17.84MB/s"
+  network: ws
+  port: 443
+  server: 172.64.52.81
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 025 | ⬇️ 17.80MB/s"
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 026 | ⬇️ 17.76MB/s"
+  network: ws
+  port: 443
+  server: 172.67.77.155
+  servername: snip.zrfs.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.indevs.in
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 17.65MB/s"
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: "\U0001F1E8\U0001F1E6 CA 027 | ⬇️ 17.52MB/s"
+  network: ws
+  port: 443
+  server: time.is
+  servername: snip.asss.pp.ua
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.asss.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- name: "\U0001F1E8\U0001F1E6 CA 028 | ⬇️ 17.37MB/s"
+  network: ws
+  port: 443
+  server: 172.64.52.210
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 029 | ⬇️ 17.37MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 030 | ⬇️ 17.31MB/s"
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: "\U0001F1E8\U0001F1E6 CA 031 | ⬇️ 17.04MB/s"
+  network: ws
+  port: 443
+  server: 104.19.85.38
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- name: "\U0001F1E8\U0001F1E6 CA 032 | ⬇️ 16.84MB/s"
+  network: ws
+  port: 443
+  server: alist.sm.uy
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 031 | ⬇️ 16.69MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 033 | ⬇️ 16.19MB/s"
   network: ws
   port: 443
   server: vip3.kaixincloud.top
@@ -714,208 +758,27 @@ proxies:
       Host: r.icy.de5.net
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 1996
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 15.20MB/s"
+- alterId: 0
+  cipher: auto
+  country: "\U0001F1EC\U0001F1E7 GB"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1F2\U0001F1FE MY 001 | ⬇️ 15.48MB/s"
   network: ws
-  password: trojan
-  port: 443
-  server: 154.194.0.101
+  port: 12888
+  server: gtm1.ktmwan.net
+  servername: gtm1.ktmwan.net
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  type: vmess
+  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2339
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 14.37MB/s"
-  network: ws
-  password: trojan
-  port: 8444
-  server: 212.23.200.10
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 14.32MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
-  server: 85.209.159.22
-  servername: 5post-gate.x5.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 90c9c25c-df6c-4438-83d3-ef97166a9184
-- client-fingerprint: chrome
-  delay: 1456
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 13.89MB/s"
-  network: ws
-  password: trojan
-  port: 2052
-  server: 91.107.250.73
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 13.68MB/s"
-  network: tcp
-  port: 18959
-  reality-opts:
-    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
-    short-id: d557c6895d014075
-  server: 157.254.223.44
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
-- client-fingerprint: chrome
-  delay: 1480
-  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 13.67MB/s"
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.104.142
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2392
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 13.48MB/s"
-  network: ws
-  password: trojan
-  port: 888
-  server: 91.107.151.136
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1491
-  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 13.45MB/s"
-  network: ws
-  password: trojan
-  port: 6780
-  server: 91.107.249.251
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 13.43MB/s"
-  password: dongtaiwang.com
-  port: 33990
-  server: 157.254.223.48
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  delay: 2896
-  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 13.26MB/s"
-  network: ws
-  password: trojan
-  port: 7788
-  server: 5.255.121.66
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 12.11MB/s"
-  port: 1080
-  server: 159.223.53.194
-  skip-cert-verify: true
-  type: socks5
-- encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 032 | ⬇️ 11.63MB/s"
-  network: ws
-  port: 443
-  server: alist.sm.uy
-  servername: r.icy.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: r.icy.de5.net
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1148
-  name: "\U0001F1FA\U0001F1F8 US 014 | ⬇️ 11.48MB/s"
-  network: ws
-  password: trojan
-  port: 54321
-  server: 154.12.53.125
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2321
-  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 10.70MB/s"
-  network: ws
-  password: trojan
-  port: 82
-  server: 136.244.105.89
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
+      HOST: gtm1.ktmwan.net
+      Host: gtm1.ktmwan.net
     path: /
 - client-fingerprint: chrome
   delay: 2508
-  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 10.04MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 13.90MB/s"
   network: ws
   password: trojan
   port: 81
@@ -930,12 +793,12 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1755
-  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 9.54MB/s"
+  delay: 1728
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 13.75MB/s"
   network: ws
   password: trojan
-  port: 2525
-  server: 46.62.132.84
+  port: 12000
+  server: 91.84.102.94
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -946,12 +809,100 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1903
-  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.47MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 034 | ⬇️ 13.73MB/s"
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EA SE 002 | ⬇️ 13.60MB/s"
+  network: tcp
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: 9c2a7d4e5f18b6a3
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- alterId: 0
+  cipher: auto
+  country: "\U0001F1EC\U0001F1E7 GB"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1F2\U0001F1FE MY 002 | ⬇️ 13.57MB/s"
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 91fea313-f8f9-46ae-b9ea-eeb599962e2b
+  ws-opts:
+    headers:
+      HOST: baidu.com
+      Host: gtm1.ktmwan.net
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 035 | ⬇️ 12.15MB/s"
+  network: ws
+  port: 443
+  server: 104.19.50.148
+  servername: snip1.aizrf.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip1.aizrf.de5.net
+    max-early-data: 2560
+    path: /zrf
+- country: "\U0001F1ED\U0001F1F0HK"
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 12.01MB/s"
+  network: tcp
+  password: 73ce6392-d417-3997-8c82-08346080cf4ecmynw
+  port: 443
+  server: kaizen-hk-4.gocmydns.com
+  skip-cert-verify: true
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
+  udp: true
+- country: "\U0001F1ED\U0001F1F0HK"
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 11.79MB/s"
+  network: tcp
+  password: 73ce6392-d417-3997-8c82-08346080cf4ecmynw
+  port: 443
+  server: kaizen-hk-6.gocmydns.com
+  skip-cert-verify: true
+  sni: www.zueuqnpjvcllc.co
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 1996
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 11.73MB/s"
   network: ws
   password: trojan
-  port: 2223
-  server: 62.133.60.159
+  port: 443
+  server: 154.194.0.101
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -963,7 +914,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   delay: 2450
-  name: "\U0001F1E8\U0001F1E6 CA 033 | ⬇️ 8.95MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 036 | ⬇️ 11.23MB/s"
   network: ws
   password: trojan
   port: 8989
@@ -978,106 +929,25 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 924
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 8.76MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 037 | ⬇️ 11.17MB/s"
   network: ws
-  password: trojan
-  port: 29999
-  server: 59.20.121.139
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 8.69MB/s"
-  network: tcp
+  password: 36639485-60a0-4853-856c-40ac05f4b00d
   port: 443
-  reality-opts:
-    public-key: m9aGI7MnEeZC6YlnsHql2D-qRprzAd4lCH0wG2AEnQ8
-    short-id: 1c287f551757
-  server: 185.235.137.51
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c220f447-badb-4120-aa3c-8c10f0a6dcb0
-- client-fingerprint: chrome
-  delay: 1997
-  name: "\U0001F1F3\U0001F1F1 NL 005 | ⬇️ 8.55MB/s"
-  network: ws
-  password: trojan
-  port: 55443
-  server: 46.17.97.105
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
+  server: 104.18.185.26
+  sni: null.us1234567891.xyz
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      Host: null.us1234567891.xyz
+    path: /music
 - client-fingerprint: chrome
-  delay: 2904
-  name: "\U0001F1F3\U0001F1F1 NL 006 | ⬇️ 8.27MB/s"
-  network: ws
-  password: trojan
-  port: 7777
-  server: 46.17.101.136
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 7.99MB/s"
-  network: ws
-  port: 443
-  server: 192.200.160.20
-  servername: 639073677243557970.camry-perma.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: 639073677243557970.camry-perma.info
-    max-early-data: 2560
-    path: /yaeungws
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1F3\U0001F1F1 NL 007 | ⬇️ 7.89MB/s"
-  network: tcp
-  port: 2012
-  reality-opts:
-    public-key: SAAA12X48mYw2aoV_l8ep_vFpYxJZCKz5c-ps7xd7lU
-    short-id: 938015b35f161374
-  server: 188.253.24.201
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a1f1933f-6152-4bf4-8cb1-742cade818c8
-- client-fingerprint: chrome
-  delay: 2698
-  name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 7.47MB/s"
+  delay: 2339
+  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 10.27MB/s"
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.200.23
+  server: 212.23.200.10
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -1087,89 +957,37 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 2891
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 7.39MB/s"
-  network: ws
-  password: trojan
-  port: 16000
-  server: 155.133.30.9
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 2219
-  name: "\U0001F1F3\U0001F1F1 NL 008 | ⬇️ 7.31MB/s"
-  network: ws
-  password: trojan
-  port: 587
-  server: 85.203.26.26
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1421
-  name: "\U0001F1F3\U0001F1F1 NL 009 | ⬇️ 6.58MB/s"
-  network: ws
-  password: trojan
+- cipher: none
+  name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 9.96MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+    tls: true
   port: 443
-  server: 104.249.40.144
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1836
-  name: "\U0001F1F3\U0001F1F1 NL 010 | ⬇️ 6.47MB/s"
+  server: 50.62.90.16
+  type: ss
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 038 | ⬇️ 9.94MB/s"
   network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.60.198
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  port: 443
+  server: www.visa.cn
+  servername: r.icy.de5.net
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1528
-  name: "\U0001F1E8\U0001F1ED CH 001 | ⬇️ 6.27MB/s"
-  network: ws
-  password: trojan
-  port: 8004
-  server: 91.245.225.69
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
+      Host: r.icy.de5.net
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
   delay: 2911
-  name: 奥地利 - 萊塔河畔布魯克 - 1
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 9.80MB/s"
   network: ws
   password: trojan
   port: 8888
@@ -1184,12 +1002,26 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1546
-  name: 荷兰 - 阿姆斯特丹 - 20
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 9.71MB/s"
+  network: tcp
+  port: 2012
+  reality-opts:
+    public-key: SAAA12X48mYw2aoV_l8ep_vFpYxJZCKz5c-ps7xd7lU
+    short-id: 938015b35f161374
+  server: 188.253.24.201
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a1f1933f-6152-4bf4-8cb1-742cade818c8
+- client-fingerprint: chrome
+  delay: 1844
+  name: "\U0001F1F1\U0001F1FB LV 001 | ⬇️ 9.54MB/s"
   network: ws
   password: trojan
-  port: 8444
-  server: 152.53.200.29
+  port: 442
+  server: 216.173.69.146
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -1200,12 +1032,12 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1634
-  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 5.63MB/s"
+  delay: 1344
+  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 9.35MB/s"
   network: ws
   password: trojan
-  port: 27017
-  server: 159.100.6.21
+  port: 8444
+  server: 152.53.107.76
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -1216,12 +1048,204 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 2081
-  name: "\U0001F1E9\U0001F1EA DE 010 | ⬇️ 5.33MB/s"
+  delay: 2891
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 9.20MB/s"
+  network: ws
+  password: trojan
+  port: 16000
+  server: 155.133.30.9
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2321
+  name: "\U0001F1F3\U0001F1F1 NL 005 | ⬇️ 8.90MB/s"
+  network: ws
+  password: trojan
+  port: 82
+  server: 136.244.105.89
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 039 | ⬇️ 7.38MB/s"
+  network: ws
+  port: 443
+  server: 104.19.62.157
+  servername: snip.cfv.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.cfv.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 7.28MB/s"
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243249982.camry-perma.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3b034275-27f8-437d-9ac0-5982708ae143
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 639073677243249982.camry-perma.info
+    max-early-data: 2560
+    path: /ferhbiws
+- client-fingerprint: chrome
+  delay: 1925
+  name: "\U0001F1F3\U0001F1F1 NL 006 | ⬇️ 6.55MB/s"
+  network: ws
+  password: trojan
+  port: 587
+  server: 5.253.189.205
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1491
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 6.37MB/s"
+  network: ws
+  password: trojan
+  port: 6780
+  server: 91.107.249.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1756
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 6.22MB/s"
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.200.185
+  server: 152.53.200.54
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers:
+      Host:
+      - soft98.ir
+    path:
+    - /
+  name: "\U0001F1EC\U0001F1E7 GB 142 | ⬇️ 10MB/s"
+  network: http
+  port: 4040
+  server: uk2.sanzone.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b738db04-c73c-4551-b6f2-9041e93914d4
+- client-fingerprint: chrome
+  delay: 2219
+  name: "\U0001F1F3\U0001F1F1 NL 007 | ⬇️ 6.13MB/s"
+  network: ws
+  password: trojan
+  port: 587
+  server: 85.203.26.26
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1755
+  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 5.99MB/s"
+  network: ws
+  password: trojan
+  port: 2525
+  server: 46.62.132.84
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1528
+  name: "\U0001F1E8\U0001F1ED CH 001 | ⬇️ 5.95MB/s"
+  network: ws
+  password: trojan
+  port: 8004
+  server: 91.245.225.69
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 040 | ⬇️ 5.94MB/s"
+  network: ws
+  port: 443
+  server: 104.19.58.74
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: r.icy.de5.net
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 2392
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 5.87MB/s"
+  network: ws
+  password: trojan
+  port: 888
+  server: 91.107.151.136
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -1232,16 +1256,64 @@ proxies:
     max-early-data: 2560
     path: /
 - cipher: none
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 5.02MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  name: "\U0001F1E8\U0001F1E6 CA 041 | ⬇️ 5.72MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
-    host: ylnhh.us.ci
+    host: mfvpn.fuchen.indevs.in
     mode: websocket
     mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     tls: true
   port: 443
-  server: 140.238.50.134
+  server: sub.danfeng.eu.org
   type: ss
   udp: true
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 042 | ⬇️ 5.51MB/s"
+  network: ws
+  port: 443
+  server: 104.19.57.153
+  servername: snip.zrfme.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfme.pp.ua
+    max-early-data: 2560
+    path: /zrf
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 043 | ⬇️ 5.30MB/s"
+  network: ws
+  port: 443
+  server: 104.19.54.187
+  servername: snip.zrfs.nn.kg
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d6fa520-b8c1-4811-93f6-a91fd6f87b59
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.zrfs.nn.kg
+    max-early-data: 2560
+    path: /zrf
+- client-fingerprint: chrome
+  delay: 2071
+  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 5.28MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
