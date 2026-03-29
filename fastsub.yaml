@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
 - delay: 1066
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.67MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.42MB/s"
   network: ws
   password: trojan
   port: 7071
@@ -15,8 +15,65 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 10.64MB/s"
+  password: 79960b0b-7d31-4263-8915-6511b0e137a8
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
+    tls: true
+  port: 443
+  server: cf.130519.xyz
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 9.48MB/s"
+  network: ws
+  port: 28983
+  server: 146.235.19.79
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+- cipher: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 7.55MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: 199.181.197.38
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 7.26MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.008500.xyz
+  type: ss
+  udp: true
 - delay: 2152
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 13.78MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 6.74MB/s"
   network: ws
   password: trojan
   port: 587
@@ -30,3 +87,45 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 6.27MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.090227.xyz
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 5.77MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.zhetengsha.eu.org
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 5.68MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+  udp: true
