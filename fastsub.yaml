@@ -1,7 +1,36 @@
 proxy-providers: {}
 proxies:
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 39.98MB/s"
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 34.77MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cf.zhetengsha.eu.org
+  type: ss
+  udp: true
+- delay: 1066
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.60MB/s"
+  network: ws
+  password: trojan
+  port: 7071
+  server: 154.17.234.78
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 16.55MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -15,7 +44,7 @@ proxies:
   type: ss
   udp: true
 - delay: 2152
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 30.71MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 16.39MB/s"
   network: ws
   password: trojan
   port: 587
@@ -30,122 +59,8 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 26.19MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
-    short-id: 96e03e0f184639ef
-  server: 220.130.75.218
-  servername: peer.pan.baidu.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 45838e8e58c44a21b229c2e43347934a
-- client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 18.68MB/s"
-  network: ws
-  port: 2096
-  server: 185.176.24.138
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 17.39MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: cf.zhetengsha.eu.org
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 16.10MB/s"
-  network: ws
-  port: 443
-  server: testingcf.jsdelivr.net
-  servername: okbhq9o4867.gfw.hidns.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: okbhq9o4867.gfw.hidns.co
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 15.53MB/s"
-  network: ws
-  port: 443
-  server: 217.163.76.46
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3+@WangCai2"
-- delay: 2392
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 14.74MB/s"
-  network: ws
-  password: trojan
-  port: 888
-  server: 91.107.151.136
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1844
-  name: "\U0001F1F1\U0001F1FB LV 001 | ⬇️ 13.55MB/s"
-  network: ws
-  password: trojan
-  port: 442
-  server: 216.173.69.146
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.27MB/s"
-  network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2="
-- client-fingerprint: chrome
   delay: 2508
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 12.55MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 15.59MB/s"
   network: ws
   password: trojan
   port: 81
@@ -159,24 +74,9 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 1756
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 12.50MB/s"
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.54
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
 - client-fingerprint: chrome
   delay: 1456
-  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 12.16MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 14.89MB/s"
   network: ws
   password: trojan
   port: 2052
@@ -190,22 +90,9 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.00MB/s"
-  network: ws
-  port: 443
-  server: 135.84.74.43
-  servername: sni.111000.v6.navy
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: /
 - client-fingerprint: chrome
   delay: 1491
-  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 11.95MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 13.81MB/s"
   network: ws
   password: trojan
   port: 6780
@@ -219,223 +106,12 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 11.71MB/s"
-  network: tcp
-  port: 52006
-  reality-opts:
-    public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
-    short-id: d8c6b58bcbb0c323
-  server: 5.42.116.74
-  servername: max.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1f0a8364-ae34-07d0-b999-34a723111ebd
-- delay: 2450
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 11.25MB/s"
-  network: ws
-  password: trojan
-  port: 8989
-  server: 158.69.192.34
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1755
-  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 10.90MB/s"
-  network: ws
-  password: trojan
-  port: 2525
-  server: 46.62.132.84
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 548
-  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 9.80MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 003 | ⬇️ 9.63MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001257bhv.cybervena.com
-  type: ss
-  udp: true
-- delay: 2096
-  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.49MB/s"
+- delay: 2339
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 13.35MB/s"
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.200.169
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 004 | ⬇️ 9.17MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007153btm.cybervena.com
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 8.75MB/s"
-  network: tcp
-  port: 10965
-  reality-opts:
-    public-key: lHxeD2nYtDb1V7JseV-sUTEuqH6_jie7U_iOARX7cT0
-    short-id: 9f3a7c6d2e8b41af
-  server: it1.axinode.sbs
-  servername: deepl.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- delay: 2230
-  name: "\U0001F1E8\U0001F1FF CZ 001 | ⬇️ 8.04MB/s"
-  network: ws
-  password: trojan
-  port: 8444
-  server: 38.180.48.182
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  country: "\U0001F1F9\U0001F1FCTW"
-  delay: 1346
-  name: "\U0001F1E8\U0001F1F3 TW 005 | ⬇️ 7.96MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001121x36.cybervena.com
-  type: ss
-- delay: 2904
-  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 7.70MB/s"
-  network: ws
-  password: trojan
-  port: 7777
-  server: 46.17.101.136
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  delay: 1997
-  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 7.54MB/s"
-  network: ws
-  password: trojan
-  port: 55443
-  server: 46.17.97.105
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- cipher: chacha20-ietf-poly1305
-  delay: 283
-  name: "\U0001F1E8\U0001F1F3 TW 006 | ⬇️ 7.13MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001233myh.cybervena.com
-  type: ss
-  udp: true
-- delay: 2891
-  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 6.65MB/s"
-  network: ws
-  password: trojan
-  port: 16000
-  server: 155.133.30.9
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2780
-  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 6.55MB/s"
-  network: ws
-  password: trojan
-  port: 8444
-  server: 152.53.200.216
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EA SE 002 | ⬇️ 6.54MB/s"
-  network: tcp
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: 9c2a7d4e5f18b6a3
-  server: 150.241.83.152
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 007 | ⬇️ 6.48MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: n8mrcg0060292s3.cybervena.com
-  type: ss
-- delay: 1772
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 6.32MB/s"
-  network: ws
-  password: trojan
-  port: 11434
-  server: 114.207.99.233
+  server: 212.23.200.10
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -446,7 +122,7 @@ proxies:
     max-early-data: 2560
     path: /
 - delay: 2764
-  name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 6.15MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 13.16MB/s"
   network: ws
   password: trojan
   port: 8444
@@ -460,12 +136,12 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 1634
-  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 5.75MB/s"
+- delay: 1755
+  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 13.13MB/s"
   network: ws
   password: trojan
-  port: 27017
-  server: 159.100.6.21
+  port: 2525
+  server: 46.62.132.84
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -475,20 +151,175 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- alpn:
-  - h2
-  encryption: none
-  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 5.72MB/s"
-  network: tcp
+- delay: 1844
+  name: "\U0001F1F1\U0001F1FB LV 001 | ⬇️ 12.50MB/s"
+  network: ws
+  password: trojan
+  port: 442
+  server: 216.173.69.146
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 11.95MB/s"
+  network: ws
   port: 8443
-  server: 195.181.173.199
-  servername: ams1.fromblancwithlove.com
+  server: 162.159.45.202
+  servername: ccnew.jakesolo.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d39ddd0b-8d20-4d13-df63-752ad78c69c5
+  ws-opts:
+    headers:
+      Host: ccnew.jakesolo.eu.org
+    path: /ws
+- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 11.69MB/s"
+  network: ws
+  port: 443
+  server: 135.84.74.43
+  servername: sni.111000.v6.navy
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 11.33MB/s"
+  network: ws
+  password: KB09sLgezt
+  port: 39126
+  server: ccnew.jakesolo.eu.org
+  skip-cert-verify: true
+  sni: ccnew.jakesolo.eu.org
+  tfo: false
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ccnew.jakesolo.eu.org
+    path: /tro
+- delay: 2911
+  name: "\U0001F1E6\U0001F1F9 AT 001 | ⬇️ 10.94MB/s"
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 10.23MB/s"
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: n8mrcg0059595fa.cybervena.com
+  type: ss
+  udp: true
+- delay: 2891
+  name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 10.12MB/s"
+  network: ws
+  password: trojan
+  port: 16000
+  server: 155.133.30.9
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 10.12MB/s"
+  network: tcp
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: 9c2a7d4e5f18b6a3
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- delay: 2392
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.95MB/s"
+  network: ws
+  password: trojan
+  port: 888
+  server: 91.107.151.136
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2450
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 9.77MB/s"
+  network: ws
+  password: trojan
+  port: 8989
+  server: 158.69.192.34
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2230
+  name: "\U0001F1E8\U0001F1FF CZ 001 | ⬇️ 7.57MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 38.180.48.182
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 2904
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 7.18MB/s"
+  network: ws
+  password: trojan
+  port: 7777
+  server: 46.17.101.136
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - delay: 1528
-  name: "\U0001F1E8\U0001F1ED CH 001 | ⬇️ 5.57MB/s"
+  name: "\U0001F1E8\U0001F1ED CH 001 | ⬇️ 7.14MB/s"
   network: ws
   password: trojan
   port: 8004
@@ -502,3 +333,73 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- delay: 1772
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.13MB/s"
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 6.64MB/s"
+  network: ws
+  port: 443
+  server: 135.84.74.155
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2="
+- name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 6.52MB/s"
+  network: ws
+  port: 2086
+  server: 188.114.98.0
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73829173-bb56-442b-a8d4-ec732c020945
+  ws-opts:
+    headers:
+      Host: a3ssa.vaslbsh.com
+    path: /
+    v2ray-http-upgrade: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 6.32MB/s"
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001257bhv.cybervena.com
+  type: ss
+  udp: true
+- delay: 1728
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 5.21MB/s"
+  network: ws
+  password: trojan
+  port: 12000
+  server: 91.84.102.94
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- allowInsecure: "1"
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 5.03MB/s"
+  password: 09ec436b-930a-42b1-8d2c-6addbafc8832
+  port: 38354
+  server: 157.254.27.41
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
