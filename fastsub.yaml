@@ -1,35 +1,7 @@
 proxy-providers: {}
 proxies:
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 40.58MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: sub.danfeng.eu.org
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 38.08MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: cdns.doon.eu.org
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 36.44MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 39.16MB/s"
   password: 79960b0b-7d31-4263-8915-6511b0e137a8
   plugin: v2ray-plugin
   plugin-opts:
@@ -43,7 +15,7 @@ proxies:
   type: ss
   udp: true
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 34.36MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 35.81MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -53,11 +25,25 @@ proxies:
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     tls: true
   port: 443
-  server: cf.090227.xyz
+  server: sub.danfeng.eu.org
   type: ss
   udp: true
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 30.98MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 33.22MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 25.15MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -71,7 +57,7 @@ proxies:
   type: ss
   udp: true
 - delay: 2152
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 29.14MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 21.38MB/s"
   network: ws
   password: trojan
   port: 587
@@ -86,7 +72,7 @@ proxies:
     max-early-data: 2560
     path: /
 - cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.84MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.44MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -100,7 +86,7 @@ proxies:
   type: ss
   udp: true
 - cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 17.23MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 17.00MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -113,10 +99,20 @@ proxies:
   server: 199.181.197.38
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.39MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 14.75MB/s"
+  name: "\U0001F1F8\U0001F1EA SE 001 | ⬇️ 14.86MB/s"
   network: tcp
   port: 10121
   reality-opts:
@@ -128,9 +124,60 @@ proxies:
   tls: true
   type: vless
   uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- delay: 1845
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 13.81MB/s"
+  network: tcp
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- delay: 1728
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 13.02MB/s"
+  network: ws
+  password: trojan
+  port: 12000
+  server: 91.84.102.94
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 12.36MB/s"
+  network: tcp
+  port: 443
+  server: 185.93.105.107
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+- client-fingerprint: chrome
+  delay: 1456
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 12.27MB/s"
+  network: ws
+  password: trojan
+  port: 2052
+  server: 91.107.250.73
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
 - client-fingerprint: chrome
   delay: 1491
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 14.48MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 12.27MB/s"
   network: ws
   password: trojan
   port: 6780
@@ -144,8 +191,71 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
+- client-fingerprint: chrome
+  delay: 2508
+  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 12.16MB/s"
+  network: ws
+  password: trojan
+  port: 81
+  server: 91.107.248.253
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1844
+  name: "\U0001F1F1\U0001F1FB LV 001 | ⬇️ 11.76MB/s"
+  network: ws
+  password: trojan
+  port: 442
+  server: 216.173.69.146
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.84MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.10
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.10:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 10.79MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.33
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.33:7443
 - delay: 2392
-  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 13.47MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 10.78MB/s"
   network: ws
   password: trojan
   port: 888
@@ -160,23 +270,243 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 2508
-  name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 13.46MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 10.73MB/s"
   network: ws
-  password: trojan
-  port: 81
-  server: 91.107.248.253
+  port: 7443
+  server: 222.167.202.31
+  servername: 2026.hhhhh.eu.org
   skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.31:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 10.72MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.35
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.35:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 10.67MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.70
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.70:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 10.67MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.47
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.47:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 007 | ⬇️ 10.65MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.2
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.2:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 008 | ⬇️ 10.63MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.22
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.22:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 009 | ⬇️ 10.62MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.14
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.14:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 010 | ⬇️ 10.62MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.3
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.3:7443
+- alpn:
+  - h2
+  encryption: none
+  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 10.58MB/s"
+  network: tcp
+  port: 8443
+  server: 195.181.173.199
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 011 | ⬇️ 10.56MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.16
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.16:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 012 | ⬇️ 10.53MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.60
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.60:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 013 | ⬇️ 10.50MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.6
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.6:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 014 | ⬇️ 10.48MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.15
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.15:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 015 | ⬇️ 10.38MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.52:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 016 | ⬇️ 10.38MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.45
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.45:7443
 - delay: 2339
-  name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 12.97MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 10.32MB/s"
   network: ws
   password: trojan
   port: 8444
@@ -191,12 +521,63 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  delay: 1456
-  name: "\U0001F1E9\U0001F1EA DE 005 | ⬇️ 12.70MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 017 | ⬇️ 9.97MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.36
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.36:7443
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  flow: ""
+  name: "\U0001F1ED\U0001F1F0 HK 018 | ⬇️ 9.74MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.26
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  sni: 2026.hhhhh.eu.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.26:7443
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 019 | ⬇️ 9.55MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.23
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.23:7443
+- delay: 2780
+  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.20MB/s"
   network: ws
   password: trojan
-  port: 2052
-  server: 91.107.250.73
+  port: 8444
+  server: 152.53.200.216
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
@@ -206,23 +587,38 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- delay: 1844
-  name: "\U0001F1F1\U0001F1FB LV 001 | ⬇️ 11.97MB/s"
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 020 | ⬇️ 8.77MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.32
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.32:7443
+- delay: 1563
+  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 8.11MB/s"
   network: ws
   password: trojan
-  port: 442
-  server: 216.173.69.146
+  port: 8444
+  server: 152.53.200.98
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
+  udp: true
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
+    path: /%2F
 - delay: 2081
-  name: "\U0001F1E9\U0001F1EA DE 006 | ⬇️ 9.33MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 008 | ⬇️ 6.75MB/s"
   network: ws
   password: trojan
   port: 8444
@@ -236,70 +632,50 @@ proxies:
       Host: jflsjlaf.pages.dev
     max-early-data: 2560
     path: /
-- client-fingerprint: chrome
-  delay: 1997
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 8.71MB/s"
-  network: ws
-  password: trojan
-  port: 55443
-  server: 46.17.97.105
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 2904
-  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 8.66MB/s"
-  network: ws
-  password: trojan
-  port: 7777
-  server: 46.17.101.136
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- delay: 1728
-  name: "\U0001F1F3\U0001F1F1 NL 003 | ⬇️ 8.28MB/s"
-  network: ws
-  password: trojan
-  port: 12000
-  server: 91.84.102.94
-  skip-cert-verify: true
-  sni: jflsjlaf.pages.dev
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jflsjlaf.pages.dev
-    max-early-data: 2560
-    path: /
-- alpn:
-  - h2
-  encryption: none
-  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 6.85MB/s"
-  network: tcp
-  port: 8443
-  server: 195.181.173.199
-  servername: ams1.fromblancwithlove.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- delay: 2780
-  name: "\U0001F1E9\U0001F1EA DE 007 | ⬇️ 6.30MB/s"
+- delay: 2698
+  name: "\U0001F1E9\U0001F1EA DE 009 | ⬇️ 6.26MB/s"
   network: ws
   password: trojan
   port: 8444
-  server: 152.53.200.216
+  server: 152.53.200.23
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- cipher: aes-256-cfb
+  delay: 762
+  name: "\U0001F1FB\U0001F1F3 VN 001 | ⬇️ 5.95MB/s"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.34
+  type: ss
+  udp: true
+- delay: 2096
+  name: "\U0001F1E9\U0001F1EA DE 010 | ⬇️ 5.89MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.169
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: jflsjlaf.pages.dev
+    max-early-data: 2560
+    path: /
+- delay: 1480
+  name: "\U0001F1F3\U0001F1F1 NL 004 | ⬇️ 5.82MB/s"
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.104.142
   skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
