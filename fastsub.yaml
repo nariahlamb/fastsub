@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 18.07MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 8.76MB/s"
   password: 79960b0b-7d31-4263-8915-6511b0e137a8
   plugin: v2ray-plugin
   plugin-opts:
@@ -15,24 +15,7 @@ proxies:
   server: mfa.gov.ua
   tfo: false
   type: ss
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 11.71MB/s"
-  password: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-  port: 443
-  server: d147a2c4-tcz8g0-teei0c-1ryup.jp.oshuawei.com
-  sni: d147a2c4-tcz8g0-teei0c-1ryup.jp.oshuawei.com
-  tls: true
-  type: http
-  username: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 8.18MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 7.31MB/s"
+- name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 7.15MB/s"
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
   server: 93143b04-tcxds0-tdm5u7-1pr35.de.oshuawei.com
@@ -40,15 +23,7 @@ proxies:
   tls: true
   type: http
   username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 7.27MB/s"
-  password: dcccacba-fa44-11ef-8400-f23c9164ca5d
-  port: 443
-  server: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
-  sni: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
-  tls: true
-  type: http
-  username: dcccacba-fa44-11ef-8400-f23c9164ca5d
-- name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 7.09MB/s"
+- name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 7.15MB/s"
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 443
   server: 93efe1b4-tcxds0-tds6bp-1hzyr.de.oshuawei.com
@@ -56,25 +31,11 @@ proxies:
   tls: true
   type: http
   username: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 5.85MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
+- name: "\U0001F1E9\U0001F1EA DE 003 | ⬇️ 6.80MB/s"
+  password: dcccacba-fa44-11ef-8400-f23c9164ca5d
   port: 443
-  server: 199.181.197.38
-  type: ss
-  udp: true
-- name: "\U0001F1E9\U0001F1EA DE 004 | ⬇️ 5.56MB/s"
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  port: 443
-  server: 97c61eb9-tcxds0-tr9h64-1f1f1.de.oshuawei.com
-  sni: 97c61eb9-tcxds0-tr9h64-1f1f1.de.oshuawei.com
+  server: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
+  sni: f0b8b06c-tcxds0-td23wa-1j6h0.de.oshuawei.com
   tls: true
   type: http
-  username: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  username: dcccacba-fa44-11ef-8400-f23c9164ca5d
