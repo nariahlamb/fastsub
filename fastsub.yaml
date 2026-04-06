@@ -1,35 +1,23 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 43.13MB/s"
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60001
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 23.78MB/s"
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 8.36MB/s"
   network: ws
-  port: 51198
-  server: 103.69.129.71
+  port: 443
+  server: 192.0.54.216
   servername: snippet.fgfw.ndjp.net
   tls: true
   type: vless
-  udp: true
   uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
   ws-opts:
     headers:
       Host: snippet.fgfw.ndjp.net
     path: /danfeng
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.79MB/s"
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 7.70MB/s"
   network: ws
   port: 443
-  server: 192.0.63.76
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
+  server: 192.0.63.181
+  servername: snippet.danfeng.loc.cc
   tls: true
   type: vless
   udp: true
@@ -37,28 +25,28 @@ proxies:
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.88MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.181
-  servername: snippet.danfeng.loc.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
       Host: snippet.danfeng.loc.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
     max-early-data: 2560
     path: /danfeng
+  xudp: true
+- cipher: none
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 7.22MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 443
+  server: 154.194.0.16
+  type: ss
+  udp: true
 - encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.22MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 6.13MB/s"
   network: ws
   port: 443
   server: 192.0.54.29
@@ -73,301 +61,8 @@ proxies:
       Host: snippet.danfeng.loc.cc
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 14.83MB/s"
-  network: ws
-  port: 443
-  server: 192.0.54.225
-  servername: snippet.danfeng.kozow.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.kozow.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 14.65MB/s"
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-    tls: true
-  port: 443
-  server: cf.090227.xyz
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 13.88MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 198.12.144.16
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 12.75MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 45.40.147.16
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 12.38MB/s"
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-    tls: true
-  port: 443
-  server: cf.877774.xyz
-  type: ss
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 11.63MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.49
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 11.48MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.18
-  servername: snippet.danfeng.loc.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-    max-early-data: 2560
-    path: /danfeng
-- name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 11.28MB/s"
-  network: ws
-  port: 443
-  server: 192.0.54.131
-  servername: snippet.danfeng.kozow.com
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.kozow.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 11.26MB/s"
-  network: ws
-  port: 443
-  server: 192.0.54.49
-  servername: snippet.danfeng.loc.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-    max-early-data: 2560
-    path: /danfeng
-- cipher: none
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 10.93MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 154.194.0.16
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 10.87MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.23:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 10.84MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.6
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.6:7443
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 US 011 | ⬇️ 10.78MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.115
-  servername: snippet.danfeng.theworkpc.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    max-early-data: 2560
-    path: /danfeng
-  xudp: true
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 012 | ⬇️ 10.77MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 50.62.90.16
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 10.75MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.47
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.47:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 004 | ⬇️ 10.69MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.35
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.35:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 005 | ⬇️ 10.64MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.52
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.52:7443
-- name: "\U0001F1FA\U0001F1F8 US 013 | ⬇️ 10.59MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.230
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.kozow.com
-    max-early-data: 2560
-    path: /danfeng
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 014 | ⬇️ 10.48MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 104.238.70.16
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 10.41MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 5.35MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -377,153 +72,11 @@ proxies:
     path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
     tls: true
   port: 443
-  server: cdns.doon.eu.org
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 006 | ⬇️ 10.25MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.36
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.36:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 007 | ⬇️ 9.68MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.50
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.50:7443
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 015 | ⬇️ 9.41MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.216
-  servername: snippet.danfeng.theworkpc.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.theworkpc.com
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 008 | ⬇️ 9.38MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.3
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.3:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 009 | ⬇️ 9.37MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.10
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.10:7443
-- name: "\U0001F1FA\U0001F1F8 US 016 | ⬇️ 9.16MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.134
-  servername: snippet.danfeng.kozow.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.kozow.com
-    max-early-data: 2560
-    path: /danfeng
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.77MB/s"
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60002
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 010 | ⬇️ 8.68MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.60
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.60:7443
-- name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 7.93MB/s"
-  password: 9594f8cc-da22-4504-9bcb-b8f219fe28ec
-  port: 60006
-  server: hkaws.ccwink.photos
-  skip-cert-verify: true
-  sni: hkaws.ccwink.photos
-  type: anytls
-  udp: true
-- cipher: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 7.35MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 192.46.237.206
+  server: store.ubi.com
   type: ss
   udp: true
 - cipher: none
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.28MB/s"
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 5.20MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -537,7 +90,7 @@ proxies:
   type: ss
   udp: true
 - cipher: none
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 7.03MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 5.07MB/s"
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -547,90 +100,6 @@ proxies:
     path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
     tls: true
   port: 443
-  server: 153.121.45.101
-  type: ss
-  udp: true
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 017 | ⬇️ 7.03MB/s"
-  network: raw
-  port: 26946
-  server: 77.110.122.205
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 99f06929-4311-489c-91cc-ef1c582e5dfa
-- cipher: none
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 6.83MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 124.156.202.172
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 6.64MB/s"
-  network: ws
-  port: 23791
-  server: 106.246.54.30
-  servername: snippet.danfeng.loc.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: snippet.danfeng.loc.cc
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 011 | ⬇️ 5.76MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.31
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.31:7443
-- name: "\U0001F1FA\U0001F1F8 US 018 | ⬇️ 5.16MB/s"
-  network: ws
-  port: 443
-  server: 192.0.63.227
-  servername: snippet.fgfw.ndjp.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.ndjp.net
-    path: /danfeng
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 5.05MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: store.ubi.com
+  server: 50.62.90.16
   type: ss
   udp: true
