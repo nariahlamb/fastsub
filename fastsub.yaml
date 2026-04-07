@@ -1,21 +1,7 @@
 proxy-providers: {}
 proxies:
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 43.44MB/s"
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
-    tls: true
-  port: 443
-  server: cf.090227.xyz
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 40.30MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 35.80MB/s"
   password: 79960b0b-7d31-4263-8915-6511b0e137a8
   plugin: v2ray-plugin
   plugin-opts:
@@ -28,36 +14,40 @@ proxies:
   server: mfa.gov.ua
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 20.57MB/s"
+  network: http
+  port: 52323
+  server: 34.143.213.97
+  tls: false
+  type: vmess
+  uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 18.86MB/s"
+  network: none
+  port: 29025
+  server: 103.100.158.18
+  tls: false
+  type: vmess
+  uuid: c45ab62e-5d25-486a-f91e-807fe4b9c23f
+- cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 18.65MB/s"
+  network: ws
+  port: 36690
+  server: 129.226.144.204
+  tls: false
+  type: vless
+  uuid: 3047ba53-6f5d-4807-8bd1-135c9d031327
+  ws-opts:
+    path: /3047ba53
 - cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 37.95MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: store.ubi.com
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 31.46MB/s"
-  password: 3e96ef7d-8637-42c2-ac73-75182196e755
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: mfvpn.fuchen.indevs.in
-    mode: websocket
-    mux: false
-    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
-    tls: true
-  port: 443
-  server: cdns.doon.eu.org
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 21.10MB/s"
+  name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 17.72MB/s"
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -76,75 +66,20 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 19.72MB/s"
-  network: http
-  port: 52323
-  server: 34.143.213.97
-  tls: false
-  type: vmess
-  uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
-- cipher: none
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 18.13MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 45.77.178.100
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.00MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 45.40.147.16
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.90MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.33MB/s"
   network: http
   port: 50662
   server: 216.167.37.53
   tls: false
   type: vmess
   uuid: b1bbc8ef-8a52-42a7-a903-7dbf9d08cb77
-- cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.80MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 50.62.90.16
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /ABCDE
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 15.35MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 17.19MB/s"
   network: http
   port: 56896
   server: 216.167.37.53
@@ -157,22 +92,69 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 14.81MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 17.06MB/s"
   network: http
-  port: 58622
+  port: 56533
+  server: 216.167.35.172
+  tls: false
+  type: vmess
+  uuid: bd714c55-2251-4e4c-ac99-86d179a323bd
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 16.84MB/s"
+  network: http
+  port: 55004
   server: 216.167.37.53
   tls: false
   type: vmess
-  uuid: 1d05fd3d-43f4-4c61-98ef-0b5b982989f8
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 14.43MB/s"
-  password: amazonskr05
+  uuid: cd881ef5-2677-4799-9fd1-9969f9071121
+- cipher: none
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 15.96MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
   port: 443
-  server: 50.19.33.104
+  server: 50.62.90.16
   type: ss
   udp: true
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 14.07MB/s"
+- cipher: none
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 15.51MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 443
+  server: 192.46.237.206
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 15.21MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 443
+  server: 104.238.70.16
+  type: ss
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 007 | ⬇️ 15.17MB/s"
   network: ws
   port: 443
   server: 135.84.74.43
@@ -186,21 +168,7 @@ proxies:
       Host: sni.111000.v6.navy
     path: /
 - cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 13.94MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 104.238.70.16
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 13.88MB/s"
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 14.91MB/s"
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -213,8 +181,45 @@ proxies:
   server: 154.194.0.16
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 008 | ⬇️ 14.52MB/s"
+  network: none
+  port: 22379
+  server: 98.159.108.13
+  tls: false
+  type: vmess
+  uuid: 0f15e38d-3bdf-4dc0-aeb4-01085838d7b3
 - cipher: none
-  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 13.71MB/s"
+  name: "\U0001F1E9\U0001F1EA DE 002 | ⬇️ 14.21MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 2053
+  server: 188.241.241.3
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 14.18MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: cdns.doon.eu.org
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1F8\U0001F1EC SG 003 | ⬇️ 13.16MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -227,20 +232,417 @@ proxies:
   server: 149.28.158.108
   type: ss
   udp: true
-- encryption: none
-  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 11.14MB/s"
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 12.77MB/s"
   network: tcp
-  port: 26946
-  server: 77.110.122.205
+  port: 443
+  server: 185.93.105.113
+  servername: sub.sbrf-cdn342.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1ED\U0001F1FA HU 001 | ⬇️ 12.48MB/s"
+  network: ws
+  port: 443
+  server: 162.159.44.217
+  servername: snip.syt.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 5ca37755-ee04-431b-8b9a-9740d396b29b
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: snip.syt.pp.ua
+    max-early-data: 2560
+    path: /Telegram@lsmoo&
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 11.71MB/s"
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
+    short-id: a1b2c3d4e5f6
+  server: 45.143.167.170
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4b056394-2f40-11f1-bffe-46c4782ac1a7
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 11.05MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.60
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.60:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 10.90MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.52:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 10.81MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.16
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.16:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 004 | ⬇️ 10.81MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.15
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.15:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 005 | ⬇️ 10.78MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.35
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.35:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 006 | ⬇️ 10.76MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.45
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.45:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 007 | ⬇️ 10.76MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.23
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.23:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 008 | ⬇️ 10.75MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.21
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.21:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 009 | ⬇️ 10.75MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.14
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.14:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 010 | ⬇️ 10.70MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.32
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.32:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 011 | ⬇️ 10.69MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.50
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.50:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 012 | ⬇️ 10.69MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.22
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.22:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 013 | ⬇️ 10.66MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.3
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.3:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 014 | ⬇️ 10.59MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.6
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.6:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 015 | ⬇️ 10.56MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.36
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.36:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 016 | ⬇️ 10.56MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.4
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.4:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 017 | ⬇️ 10.55MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.2
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.2:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 018 | ⬇️ 10.54MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.70
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.70:7443
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 019 | ⬇️ 10.53MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.10
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.10:7443
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    path:
+    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 10.50MB/s"
+  network: http
+  port: 22
+  server: 172.65.111.43
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 99f06929-4311-489c-91cc-ef1c582e5dfa
+  uuid: monacoVPN
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 020 | ⬇️ 10.47MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.33
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.33:7443
+- cipher: none
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 10.22MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 2053
+  server: 125.227.233.197
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 GB 021 | ⬇️ 10.15MB/s"
+  network: ws
+  port: 7443
+  server: 222.167.202.47
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      host: 2026.hhhhh.eu.org
+    path: /222.167.202.47:7443
 - alterId: 0
   cipher: ""
   client-fingerprint: chrome
   flow: ""
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 11.08MB/s"
+  name: "\U0001F1EC\U0001F1E7 GB 022 | ⬇️ 9.60MB/s"
   network: ws
   port: 7443
   server: 222.167.202.26
@@ -257,229 +659,7 @@ proxies:
       host: 2026.hhhhh.eu.org
     path: /222.167.202.26:7443
 - client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 10.94MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.21
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.21:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 003 | ⬇️ 10.91MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.14
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.14:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 004 | ⬇️ 10.90MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.16
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.16:7443
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1EB\U0001F1EE FI 001 | ⬇️ 10.86MB/s"
-  network: tcp
-  port: 443
-  server: 185.93.105.113
-  servername: sub.sbrf-cdn342.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 005 | ⬇️ 10.84MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.6
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.6:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 006 | ⬇️ 10.84MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.3
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.3:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 007 | ⬇️ 10.78MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.45
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.45:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 008 | ⬇️ 10.75MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.47
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.47:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 009 | ⬇️ 10.72MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.60
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.60:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 010 | ⬇️ 10.64MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.10
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.10:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 011 | ⬇️ 10.60MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.22
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.22:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 012 | ⬇️ 10.53MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.4
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.4:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 013 | ⬇️ 10.52MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.15
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.15:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 014 | ⬇️ 10.50MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.23:7443
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 015 | ⬇️ 10.48MB/s"
+  name: "\U0001F1EC\U0001F1E7 GB 023 | ⬇️ 9.11MB/s"
   network: ws
   port: 7443
   server: 222.167.202.31
@@ -494,51 +674,17 @@ proxies:
     headers:
       host: 2026.hhhhh.eu.org
     path: /222.167.202.31:7443
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.00MB/s"
-  network: ws
-  port: 80
-  server: b40b1edb-t6r5s0-tm3dx0-1r9dt.hkt.gotochinatown.net
+  name: "\U0001F1FA\U0001F1F8 US 009 | ⬇️ 8.64MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.250
   tls: false
   type: vmess
-  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: b40b1edb-t6r5s0-tm3dx0-1r9dt.hkt.gotochinatown.net
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: none
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 9.55MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 153.121.45.101
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 016 | ⬇️ 9.44MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.2
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.2:7443
-- cipher: none
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 8.42MB/s"
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.87MB/s"
   password: 3e96ef7d-8637-42c2-ac73-75182196e755
   plugin: v2ray-plugin
   plugin-opts:
@@ -551,72 +697,39 @@ proxies:
   server: 220.72.161.178
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 017 | ⬇️ 8.34MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.35
-  servername: 2026.hhhhh.eu.org
+- name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.74MB/s"
+  password: fd5473ae-4119-4e68-acf5-f0df386c1758
+  port: 18443
+  server: hkt-ddns.baipiao0721-dns78655.eu
   skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.35:7443
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 6.78MB/s"
-  network: ws
-  port: 80
-  server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-  type: vmess
-  uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-    path: /
-- client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 GB 018 | ⬇️ 5.94MB/s"
-  network: ws
-  port: 7443
-  server: 222.167.202.32
-  servername: 2026.hhhhh.eu.org
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      host: 2026.hhhhh.eu.org
-    path: /222.167.202.32:7443
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1FA\U0001F1F8 US 010 | ⬇️ 5.30MB/s"
-  password: dongtaiwang.com
-  port: 33990
-  server: 157.254.223.48
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 5.16MB/s"
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
+  sni: hkt-ddns.baipiao0721-dns78655.eu
+  type: anytls
+  udp: true
+- cipher: none
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 5.81MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: /3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 443
+  server: store.ubi.com
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 5.24MB/s"
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
+    tls: true
+  port: 443
+  server: 153.121.45.101
+  type: ss
+  udp: true
