@@ -2,41 +2,36 @@ proxy-providers: {}
 proxies:
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 16.05MB/s"
-  network: http
-  port: 52323
-  server: 34.143.213.97
-  tls: false
+  country: "\U0001F1EC\U0001F1E7 GB"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.38MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
   type: vmess
-  uuid: 5f47fc3c-5d65-4908-86ce-a57ca8cf9329
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 6.58MB/s"
-  network: http
-  port: 56533
-  server: 216.167.35.172
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.11MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.46
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: bd714c55-2251-4e4c-ac99-86d179a323bd
-- cipher: none
-  name: "\U0001F1EE\U0001F1F3 IN 001 | ⬇️ 5.97MB/s"
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ylnhh.us.ci
-    mode: websocket
-    mux: false
-    path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
-    tls: true
-  port: 443
-  server: 103.181.177.88
-  type: ss
   udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: "0"
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 14.74MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
