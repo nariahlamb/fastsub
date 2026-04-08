@@ -1,37 +1,163 @@
 proxy-providers: {}
 proxies:
 - alterId: 0
-  cipher: auto
-  country: "\U0001F1EC\U0001F1E7 GB"
-  h2-opts: {}
-  http-opts: {}
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 18.38MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.97
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 42.25MB/s"
+  network: ws
+  port: 443
+  server: mfa.gov.ua
+  servername: tg.wag13.ggff.net
   skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
 - alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.11MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.46
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 23.69MB/s"
+  network: ws
+  port: 443
+  server: cf.zhetengsha.eu.org
+  servername: tg.wag13.ggff.net
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: "0"
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 14.74MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 22.38MB/s"
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: tg.wag13.ggff.net
+  skip-cert-verify: true
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 17.37MB/s"
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: tg.wag13.ggff.net
+  skip-cert-verify: true
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.21MB/s"
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: tg.wag13.ggff.net
+  skip-cert-verify: true
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 16.91MB/s"
+  network: ws
+  port: 443
+  server: cdns.doon.eu.org
+  servername: tg.wag13.ggff.net
+  skip-cert-verify: true
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  encryption: none
+  flow: ""
+  name: "\U0001F1E8\U0001F1E6 CA 006 | ⬇️ 7.42MB/s"
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: tg.wag13.ggff.net
+  skip-cert-verify: true
+  sni: tg.wag13.ggff.net
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 997ed137-ffaf-47cf-89d2-67827da758fb
+  ws-opts:
+    headers:
+      Host: tg.wag13.ggff.net
+    path: /?ed=2560
+- allowInsecure: "1"
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  disable-sni: "true"
+  fp: chrome
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 6.30MB/s"
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  sni: ""
+  type: anytls
+  udp: true
