@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
 - cipher: none
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.37MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 17.64MB/s"
   password: 79960b0b-7d31-4263-8915-6511b0e137a8
   plugin: v2ray-plugin
   plugin-opts:
@@ -10,12 +10,59 @@ proxies:
     mux: false
     path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed=2560
     tls: true
-  port: 51042
-  server: 173.242.123.189
+  port: 31556
+  server: 74.48.145.83
   type: ss
   udp: true
+- auth: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.74MB/s"
+  obfs: salamander
+  obfs-password: OrT7yQQIMqcvKdet
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  port: 443
+  server: usa-hy2.onetaplink.app
+  skip-cert-verify: false
+  sni: hy2-usa.onetaplink.app
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: ""
+  client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 11.19MB/s"
+  port: 443
+  reality-opts:
+    public-key: qkP2pqQ3NHNBkyzqsC2W9wChp3OfeXdVjOhUv8vQW0o
+    short-id: aac4df9d05a5ba8f
+  server: 129.153.71.226
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: null
+  sni: iosapps.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+- alterId: 0
+  cipher: ""
+  client-fingerprint: safari
+  flow: ""
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 10.74MB/s"
+  network: ws
+  port: 443
+  server: 63.141.128.188
+  servername: d2-jp2.djwstlsweb.top
+  skip-cert-verify: null
+  sni: d2-jp2.djwstlsweb.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: d46056cf-da4e-4426-a3e4-39fcbfefa112
+  ws-opts:
+    headers:
+      Host: d2-jp2.djwstlsweb.top
+    path: /djjc/jp2
 - cipher: none
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 9.56MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.52MB/s"
   password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
   plugin: v2ray-plugin
   plugin-opts:
@@ -24,24 +71,7 @@ proxies:
     mux: false
     path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed=2560
     tls: true
-  port: 8443
-  server: 140.83.34.214
+  port: 443
+  server: 140.238.51.35
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.68MB/s"
-  network: tcp
-  port: 7754
-  server: efan.dnsefan04881.com
-  tls: false
-  type: vmess
-  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 5.91MB/s"
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
