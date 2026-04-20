@@ -1,65 +1,14 @@
 proxy-providers: {}
 proxies:
-- cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.31MB/s"
-  network: none
-  port: 10685
-  server: 38.49.45.33
-  tls: false
-  type: vless
-  uuid: 0163dc9d-9665-49f0-fc26-927d30a035cb
-- alterId: 0
+- alterId: "0"
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.24MB/s"
-  network: none
-  port: 29433
-  server: 38.49.45.33
-  tls: false
-  type: vmess
-  uuid: 6503aa00-a9d0-4605-de91-d87386265d6c
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 12.29MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.57MB/s"
   network: tcp
-  port: 443
-  server: s1.hdslb.com.e791.com
-  servername: cdn.download.7602.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: f10367b9-5b67-40fa-a4aa-675eee3e0530
-  xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 11.88MB/s"
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 9.71MB/s"
-  network: ws
-  port: 56047
-  security: tls
-  server: 188.209.141.114
-  servername: snippet.gfw.qzz.io
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.gfw.qzz.io
-    path: /danfeng
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.05MB/s"
-  network: none
-  port: 32221
-  server: 153.121.73.175
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
