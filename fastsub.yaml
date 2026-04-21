@@ -1,2 +1,27 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  delay: 480
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.79MB/s"
+  network: none
+  port: 54242
+  server: 38.75.220.13
+  type: vmess
+  uuid: 159de044-e00b-4b48-f644-d70197da73d4
+- alterId: 0
+  cipher: auto
+  country: "\U0001F1EC\U0001F1E7 GB"
+  delay: 1788
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 9.84MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-path: /
