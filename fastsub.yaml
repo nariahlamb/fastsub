@@ -2,9 +2,18 @@ proxy-providers: {}
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.56MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.50MB/s"
+  network: tcp
   port: 180
   server: 82.198.246.9
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.61MB/s"
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -12,63 +21,24 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ""
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.40MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 10.47MB/s"
   port: 180
   server: 82.198.246.250
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.32MB/s"
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 14.61MB/s"
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: ""
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 13.22MB/s"
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: 2344766a270a6298
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: chrome
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.23MB/s"
-  network: ws
-  port: 11300
-  server: 222.97.221.28
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng?ed=2560
+- cipher: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 9.85MB/s"
+  password: 3e96ef7d-8637-42c2-ac73-75182196e755
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: mfvpn.fuchen.indevs.in
+    mode: websocket
+    mux: false
+    path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed=2560
+    tls: true
+  port: 8443
+  server: 31.58.226.196
+  type: ss
+  udp: true
