@@ -1,2 +1,66 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.59MB/s"
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.45MB/s"
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.37MB/s"
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 16.08MB/s"
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  flow: ""
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 14.16MB/s"
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: ""
+  client-fingerprint: chrome
+  flow: ""
+  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 11.17MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+    short-id: "11e2"
+  server: 216.57.105.74
+  servername: yahoo.com
+  skip-cert-verify: true
+  sni: yahoo.com
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
