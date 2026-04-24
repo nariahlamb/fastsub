@@ -2,93 +2,45 @@ proxy-providers: {}
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.18MB/s"
+  country: "\U0001F1EC\U0001F1E7GB"
+  h2-opts: {}
+  http-opts: {}
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.24MB/s"
+  network: tcp
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: "0"
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.55MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
 - alterId: 0
   cipher: auto
   country: "\U0001F1EC\U0001F1E7GB"
   h2-opts: {}
   http-opts: {}
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.16MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.10MB/s"
   network: tcp
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.15MB/s"
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: ""
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 12.55MB/s"
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: 2344766a270a6298
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 10.22MB/s"
   port: 180
   server: 82.198.246.214
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: chrome
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 7.19MB/s"
-  network: ws
-  port: 11300
-  server: 222.97.221.28
-  servername: snzeys.edge-node-a1.fgfw.qzz.io
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snzeys.edge-node-a1.fgfw.qzz.io
-    path: /danfeng?ed=2560
-- alterId: 0
-  cipher: ""
-  client-fingerprint: chrome
-  flow: ""
-  name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 6.20MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-    short-id: "11e2"
-  server: 216.57.105.74
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 12.85MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
