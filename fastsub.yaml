@@ -2,36 +2,18 @@ proxy-providers: {}
 proxies:
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.04MB/s"
-  network: tcp
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 7.10MB/s"
   port: 180
   server: 82.198.246.233
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 15.48MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.40MB/s"
-  network: tcp
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 7.09MB/s"
   port: 180
   server: 82.198.246.37
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 12.16MB/s"
-  port: 180
-  server: 82.198.246.9
   skip-cert-verify: true
   tls: false
   type: vmess
