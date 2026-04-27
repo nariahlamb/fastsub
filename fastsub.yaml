@@ -1,2 +1,18 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 7.42MB/s"
+  password: 931d70c1-8644-433a-9e8a-e09e10f5e7f5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: aoe.o.eoa.ccwu.cc
+    mode: websocket
+    mux: 0
+    path: /?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 43.168.16.112
+  skip-cert-verify: false
+  type: ss
+  udp: false
