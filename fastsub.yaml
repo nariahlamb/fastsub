@@ -1,57 +1,22 @@
 proxy-providers: {}
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 24.24MB/s"
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 403880e.default.microsoft.io:164892
+    mode: tls
+  port: 2377
+  server: 403880e.j6.gladns.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.52MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.31MB/s"
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.32MB/s"
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  flow: ""
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 16.27MB/s"
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 16.21MB/s"
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: ""
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 8.37MB/s"
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
-    short-id: 2344766a270a6298
-  server: 159.195.82.187
-  servername: yahoo.com
-  skip-cert-verify: true
-  sni: yahoo.com
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
