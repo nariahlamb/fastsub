@@ -1,2 +1,300 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 35.60MB/s"
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 35.55MB/s"
+  network: ws
+  port: 443
+  server: 199.107.164.217
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- name: "\U0001F3F3️ CW 001 | ⬇️ 33.81MB/s"
+  network: ws
+  port: 443
+  server: 5.10.244.231
+  servername: babayaga-6i7.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: babayaga-6i7.pages.dev
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 33.33MB/s"
+  network: ws
+  port: 443
+  server: 45.40.144.49
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2"
+  xudp: true
+- name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 32.63MB/s"
+  network: ws
+  port: 443
+  server: 185.148.106.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+  xudp: true
+- name: "\U0001F3F3️ CW 002 | ⬇️ 32.63MB/s"
+  network: ws
+  port: 443
+  server: 5.10.247.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+  xudp: true
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 32.28MB/s"
+  network: ws
+  port: 443
+  server: 184.174.80.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: randomized
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 31.60MB/s"
+  network: ws
+  port: 443
+  server: 172.66.47.122
+  servername: xiZI-Bo8.PAGeS.dEV
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: xizI-BO8.PaGEs.dEv
+    path: /%2F
+- encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 31.39MB/s"
+  network: ws
+  port: 80
+  server: 162.159.36.5
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: /
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 30.94MB/s"
+  network: ws
+  port: 443
+  server: 72.167.242.43
+  servername: sni.111000.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.cc.cd
+    path: /
+  xudp: true
+- name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 30.34MB/s"
+  network: ws
+  port: 443
+  server: 104.26.15.166
+  servername: edt2-lgy.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8007e155-622e-4c9d-8a6e-67f49b4678f4
+  ws-opts:
+    headers:
+      Host: edt2-lgy.pages.dev
+    path: /
+  xudp: true
+- name: "\U0001F1E8\U0001F1E6 CA 004 | ⬇️ 30.09MB/s"
+  network: ws
+  port: 443
+  server: 104.26.11.54
+  servername: edt2-lgy.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8007e155-622e-4c9d-8a6e-67f49b4678f4
+  ws-opts:
+    headers:
+      Host: edt2-lgy.pages.dev
+    path: /
+- encryption: none
+  name: "\U0001F1E8\U0001F1FE CY 001 | ⬇️ 29.95MB/s"
+  network: ws
+  port: 443
+  server: 77.75.199.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.indevs.in
+    max-early-data: 2560
+    path: /
+  xudp: true
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 29.92MB/s"
+  network: ws
+  port: 443
+  server: 160.153.1.151
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: "/?Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+- allowInsecure: "0"
+  client-fingerprint: chrome
+  encryption: none
+  fp: chrome
+  insecure: "0"
+  name: "\U0001F1E8\U0001F1E6 CA 005 | ⬇️ 28.72MB/s"
+  network: ws
+  port: 443
+  server: 172.67.74.136
+  servername: pagescm.freen17.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen17.cc.cd
+    path: /directory
+- name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 28.07MB/s"
+  network: ws
+  port: 443
+  server: 64.176.54.102
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /64.176.54.102%3A443
+  xudp: true
+- cipher: none
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 26.62MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: 0
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    tls: true
+  port: 443
+  server: 219.76.13.166
+  type: ss
+  udp: true
+- encryption: none
+  name: "\U0001F1FA\U0001F1F8 US 006 | ⬇️ 20.32MB/s"
+  network: ws
+  port: 443
+  server: 64.23.252.20
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.111000.dynv6.net
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 10.98MB/s"
+  network: ws
+  port: 443
+  server: 206.189.155.153
+  servername: babayaga-6i7.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: babayaga-6i7.pages.dev
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2"
+- name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 7.58MB/s"
+  network: ws
+  port: 443
+  server: 206.189.147.193
+  servername: babayaga-6i7.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 981fca81-5be1-41f8-ac9b-d138e8109943
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: babayaga-6i7.pages.dev
+    max-early-data: 2560
+    path: "/?Telegram\U0001F1E8\U0001F1F3@WangCai2"
