@@ -1,14 +1,43 @@
 proxy-providers: {}
 proxies:
+- name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 34.25MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 22.24MB/s"
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 20.65MB/s"
   password: "123"
   port: 1001
   server: 61.171.92.202
   skip-cert-verify: false
   type: ss
   udp: false
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.63MB/s"
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.60MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 15.42MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.47MB/s"
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -19,3 +48,28 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+- name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 11.71MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 91.199.32.99
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+- client-fingerprint: ios
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 11.60MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 60004
+  server: 220.118.83.101
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
