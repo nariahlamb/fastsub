@@ -1,2 +1,278 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 41.82MB/s"
+  password: "666"
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: edcloudwasm.nellewizaijn.workers.dev
+    mode: websocket
+    mux: false
+    skip-cert-verify: false
+  port: 80
+  server: youxuan.cf.090227.xyz
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 36.26MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.147.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- name: "\U0001F1E8\U0001F1E6 CA 003 | ⬇️ 31.36MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2096
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /tr
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 29.45MB/s"
+  network: tcp
+  port: 21796
+  reality-opts:
+    _spider-x: /
+    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
+    short-id: 804d6574da9180
+  server: 43.203.252.196
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F0\U0001F1F7 KR 002 | ⬇️ 27.87MB/s"
+  network: tcp
+  port: 39295
+  reality-opts:
+    _spider-x: /
+    public-key: CKyy_gy40xRlKa3sBbCg759CMC7vDMjZKqsiuC5BtWU
+    short-id: 88a32a0e9853b9
+  server: 43.203.249.214
+  servername: www.icloud.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06a1719f-417e-46f0-8a7d-e2b13ecf893a
+  xudp: true
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.69MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 154.17.8.126
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1E6\U0001F1FA AU 001 | ⬇️ 16.67MB/s"
+  network: tcp
+  port: 23951
+  reality-opts:
+    _spider-x: /
+    public-key: FGnWfD70nPQhiMZUQETB_mKaR-J_2DonpOpy9eqQ_F0
+    short-id: 8c4907b7884b31
+  server: 54.253.37.164
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e62a6f1-f8cb-40eb-9c33-fc4ed39a080e
+  xudp: true
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.48MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 166.62.110.253
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+- cipher: none
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 16.16MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    tls: true
+  port: 443
+  server: 172.104.186.30
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1F2\U0001F1FE MY 001 | ⬇️ 16.14MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    tls: true
+  port: 443
+  server: 185.128.227.27
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 15.95MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: none
+  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 15.60MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 104.152.49.249
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: none
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 15.21MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    tls: true
+  port: 443
+  server: 219.76.13.183
+  type: ss
+  udp: true
+- cipher: none
+  name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 14.81MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    tls: true
+  port: 443
+  server: 159.223.93.80
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 14.52MB/s"
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 13.49MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 104.128.72.119
+  type: ss
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 11.59MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: none
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 9.93MB/s"
+  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: woshinidie-et3.pages.dev
+    mode: websocket
+    mux: false
+    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
+    skip-cert-verify: false
+    tls: true
+  port: 10563
+  server: 88.214.22.165
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: "\U0001F1F3\U0001F1F1 NL 001 | ⬇️ 9.30MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 192.81.223.48
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+- name: "\U0001F1F5\U0001F1F1 PL 001 | ⬇️ 6.45MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.144.51.140
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3+@WangCai2"
+- name: "\U0001F1F3\U0001F1F1 NL 002 | ⬇️ 5.62MB/s"
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.74.52
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
