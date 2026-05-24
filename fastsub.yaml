@@ -1,48 +1,20 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 20.40MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 12.33MB/s"
-  password: "666"
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: edcloudwasm.nellewizaijn.workers.dev
-    mode: websocket
-    mux: false
-    skip-cert-verify: false
-  port: 80
-  server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- name: "\U0001F1E7\U0001F1EA BE 001 | ⬇️ 9.00MB/s"
+  obfs: salamander
+  obfs-password: cry_me_a_r1ver_2026
+  password: strong-secret-pass-777
+  port: 444
+  server: 45.120.179.89
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tfo: false
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 9.91MB/s"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegram\U0001F1E8\U0001F1F3 @WangCai2)7eb777f:123571"
-    mode: tls
-  port: 2377
-  server: 59.125.62.188
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 7.78MB/s"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegram\U0001F1E8\U0001F1F3 @WangCai2)7eb777f:123571"
-    mode: tls
-  port: 2377
-  server: 3.0.19.206
+  name: "\U0001F3F3️ OM 001 | ⬇️ 8.56MB/s"
+  password: 93069d226f003fab
+  port: 11201
+  server: 154.205.147.166
   skip-cert-verify: false
   type: ss
   udp: false
