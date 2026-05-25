@@ -1,7 +1,7 @@
 proxy-providers: {}
 proxies:
 - cipher: aes-128-gcm
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 27.10MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 8.16MB/s"
   password: "666"
   plugin: v2ray-plugin
   plugin-opts:
@@ -11,95 +11,6 @@ proxies:
     skip-cert-verify: false
   port: 80
   server: youxuan.cf.090227.xyz
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 18.01MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.31MB/s"
-  network: tcp
-  port: 50513
-  reality-opts:
-    public-key: BL4bEP5My8N4j8hOkg-lI-JVrFou4eC7nSzD6Gk19DU
-    short-id: 79394c306dd3
-  server: 38.207.190.137
-  servername: ts3.tc.mm.bing.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6245c3d6-348f-44a4-f18b-9d13168a3425
-  xudp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 8.92MB/s"
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 104.128.72.119
-  type: ss
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 8.22MB/s"
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 23.80.80.22
-  type: ss
-  udp: true
-- cipher: none
-  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 6.58MB/s"
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-    tls: true
-  port: 443
-  server: 188.239.9.91
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 6.56MB/s"
-  password: amazonskr05
-  port: 443
-  server: 34.224.93.221
-  type: ss
-- cipher: none
-  name: "\U0001F1E9\U0001F1EA DE 001 | ⬇️ 5.44MB/s"
-  password: 59fc5f8c-5697-4eb8-acf2-8ae363f203a2
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: woshinidie-et3.pages.dev
-    mode: websocket
-    mux: false
-    path: /59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed=2560
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 104.152.49.249
   skip-cert-verify: false
   type: ss
   udp: false
