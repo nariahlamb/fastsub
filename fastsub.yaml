@@ -1,2 +1,38 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 37.45MB/s"
+  password: "666"
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: edcloudwasm.nellewizaijn.workers.dev
+    mode: websocket
+    mux: false
+    skip-cert-verify: false
+  port: 80
+  server: youxuan.cf.090227.xyz
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 10.52MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 8.70MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 23.80.80.22
+  type: ss
+  udp: true
