@@ -1,67 +1,56 @@
 proxy-providers: {}
 proxies:
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 14.87MB/s"
+  password: "123"
+  port: 1001
+  server: 61.171.92.202
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 9.62MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 23.80.80.22
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.90MB/s"
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 8300
+  server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  skip-cert-verify: true
+  sni: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
+  type: anytls
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 5.99MB/s"
+  password: cGbaGhD88Tz89Bd2UjzWBC
+  port: 443
+  server: 92.118.112.125
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.95MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 5.60MB/s"
   password: amazonskr05
   port: 443
   server: 13.218.172.80
   type: ss
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 13.27MB/s"
-  network: tcp
-  port: 22231
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 11.80MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg007117fb8.cybervena.com
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: "\U0001F1EB\U0001F1F7 FR 001 | ⬇️ 10.82MB/s"
-  network: tcp
-  port: 54809
-  reality-opts:
-    public-key: 06rvKjC9dE_Ndd-dw6B-0zAyEpn-jUs7mcNFAPQ_1G8
-    short-id: b4b3
-  server: 5.196.51.152
-  servername: dash.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87e60810-bb71-41ea-a2a6-f05c8ab903ef
-  xudp: true
 - alterId: 0
   cipher: auto
-  flow: ""
-  metadata:
-    cleanName: DE 02
-    flag: "\U0001F1E9\U0001F1EA"
-    multiplier: 1
-    originalName: DE 02
-    region: 德国
-    tags: []
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 10.48MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 5.19MB/s"
+  network: tcp
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.46
   type: vmess
-  udp: false
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1E8\U0001F1F3 TW 002 | ⬇️ 8.64MB/s"
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
