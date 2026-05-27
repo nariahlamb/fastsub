@@ -1,56 +1,24 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 14.87MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 9.62MB/s"
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 23.80.80.22
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.90MB/s"
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 1f99c2a2-t9l0g0-t9ijp5-4550.hkt.east.wctype.com
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 5.99MB/s"
-  password: cGbaGhD88Tz89Bd2UjzWBC
-  port: 443
-  server: 92.118.112.125
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 5.60MB/s"
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.48MB/s"
   password: amazonskr05
   port: 443
   server: 13.218.172.80
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 5.19MB/s"
-  network: tcp
-  port: 180
-  server: 82.198.246.46
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.27MB/s"
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 10.08MB/s"
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 111.248.73.29
+  skip-cert-verify: false
+  type: ss
+  udp: false
