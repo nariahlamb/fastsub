@@ -1,24 +1,2 @@
 proxy-providers: {}
-proxies:
-- cipher: aes-256-cfb
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 12.48MB/s"
-  password: amazonskr05
-  port: 443
-  server: 13.218.172.80
-  type: ss
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.27MB/s"
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 10.08MB/s"
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.248.73.29
-  skip-cert-verify: false
-  type: ss
-  udp: false
+proxies: []
