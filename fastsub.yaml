@@ -1,24 +1,12 @@
 proxy-providers: {}
 proxies:
-- cipher: 2022-blake3-aes-128-gcm
-  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 8.62MB/s"
-  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
-  plugin: gost-plugin
-  plugin-opts:
-    host: one.local
-    mode: websocket
-    mux: true
-    path: /ws
-    tls: false
-  port: 80
-  server: 104.128.72.119
-  type: ss
-  udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 5.32MB/s"
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.25MB/s"
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
