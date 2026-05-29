@@ -1,2 +1,82 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 15.05MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 20091
+  server: 172.96.161.152
+  type: ss
+  udp: true
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 13.36MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 104.128.72.119
+  type: ss
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 12.95MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: 2022-blake3-aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 10.97MB/s"
+  password: YTE1ZWU4ZTEyZjc3YmEzZA==:Y2JhZTU3ODYtZjg3MC00NA==
+  plugin: gost-plugin
+  plugin-opts:
+    host: one.local
+    mode: websocket
+    mux: true
+    path: /ws
+    tls: false
+  port: 80
+  server: 23.80.80.22
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: ""
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: "\U0001F1F9\U0001F1F7 TR 001 | ⬇️ 10.19MB/s"
+  network: http
+  port: 2087
+  server: 62.3.12.140
+  tls: false
+  type: vmess
+  uuid: 90a7a201-de71-4696-be44-f2c04aa36348
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 9.95MB/s"
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- cipher: aes-256-cfb
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 7.78MB/s"
+  password: amazonskr05
+  port: 443
+  server: 15.157.68.13
+  skip-cert-verify: false
+  type: ss
+  udp: false
