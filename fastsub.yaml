@@ -1,2 +1,52 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 14.89MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 13.49MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 12.99MB/s"
+  network: tcp
+  port: 21796
+  reality-opts:
+    _spider-x: /
+    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
+    short-id: 804d6574da9180
+  server: 43.203.252.196
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
+  xudp: true
+- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 12.72MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- multiplexing: MULTIPLEXING_LOW
+  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 5.90MB/s"
+  password: dongtaiwang.com
+  port: 28866
+  server: 45.221.98.11
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
