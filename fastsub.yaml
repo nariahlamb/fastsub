@@ -1,32 +1,6 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 31.40MB/s"
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 30.20MB/s"
-  network: tcp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: 804d6574da9180
-  server: 43.203.252.196
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
-  xudp: true
-- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 29.05MB/s"
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 29.76MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
@@ -34,7 +8,7 @@ proxies:
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   type: trojan
-- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 28.40MB/s"
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 25.56MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 46424
@@ -42,7 +16,7 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 28.16MB/s"
+- name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 25.03MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
@@ -50,53 +24,3 @@ proxies:
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  flow: ""
-  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 20.02MB/s"
-  network: tcp
-  port: 20001
-  server: vpnicp.xyc.hk.cn
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 18.27MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 14.26MB/s"
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: "\U0001F1F7\U0001F1FA RU 001 | ⬇️ 13.00MB/s"
-  network: tcp
-  port: 443
-  server: 85.234.114.53
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  sni: r1.mizulina.top
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- multiplexing: MULTIPLEXING_LOW
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 12.26MB/s"
-  password: dongtaiwang.com
-  port: 28866
-  server: 45.221.98.11
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
