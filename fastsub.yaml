@@ -1,6 +1,23 @@
 proxy-providers: {}
 proxies:
-- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 13.06MB/s"
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 33.21MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 31.76.91.8
+  servername: jp.s3-cloud.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 27.21MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
@@ -8,15 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
-- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 12.61MB/s"
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 12.54MB/s"
+- name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 26.91MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
@@ -24,7 +33,32 @@ proxies:
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   type: trojan
-- name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 11.74MB/s"
+- name: "\U0001F1FA\U0001F1F8 US 003 | ⬇️ 26.32MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 25.46MB/s"
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 53018
+  server: 18.181.199.223
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 004 | ⬇️ 15.66MB/s"
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 12.33MB/s"
   network: tcp
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 46424
@@ -32,41 +66,13 @@ proxies:
   skip-cert-verify: true
   sni: de.01.naiun.bilibili.com
   type: trojan
-- name: "\U0001F1FA\U0001F1F8 US 005 | ⬇️ 11.59MB/s"
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
+- allowInsecure: "1"
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.77MB/s"
+  packet-encoding: xudp
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 8300
+  server: 56518553-te8ao0-tfnl0i-au6.hkt.east.wctype.com
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1EC\U0001F1E7 GB 001 | ⬇️ 9.38MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 31.76.91.36
-  servername: jp.s3-cloud.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: 56518553-te8ao0-tfnl0i-au6.hkt.east.wctype.com
+  type: anytls
   udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1EC\U0001F1E7 GB 002 | ⬇️ 8.19MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 31.76.91.16
-  servername: jp.s3-cloud.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
