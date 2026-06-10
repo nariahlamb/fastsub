@@ -1,10 +1,91 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 19.75MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
+- client-fingerprint: chrome
+  encryption: none
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 27.60MB/s"
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: www.ox.ac.uk
+  servername: cf.hulume.ccwu.cc
   skip-cert-verify: false
-  type: ss
-  udp: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c135158e-5869-4397-8116-6695ca18cd48
+  ws-opts:
+    headers:
+      Host: cf.hulume.ccwu.cc
+    path: /
+- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 11.81MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.98
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 11.51MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 003 | ⬇️ 11.39MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.92
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 004 | ⬇️ 11.39MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 005 | ⬇️ 11.21MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 006 | ⬇️ 9.93MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 007 | ⬇️ 9.65MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 008 | ⬇️ 9.59MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 009 | ⬇️ 8.54MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
