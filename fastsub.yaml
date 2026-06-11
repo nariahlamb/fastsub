@@ -1,27 +1,2 @@
 proxy-providers: {}
-proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 40.56MB/s"
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: www.ox.ac.uk
-  servername: cf.hulume.ccwu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c135158e-5869-4397-8116-6695ca18cd48
-  ws-opts:
-    headers:
-      Host: cf.hulume.ccwu.cc
-    path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 21.83MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
+proxies: []
