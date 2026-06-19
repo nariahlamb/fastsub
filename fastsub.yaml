@@ -1,102 +1,14 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 29.96MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 13.74MB/s"
   network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 172.237.13.221
-  servername: s5.868001.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 29.32MB/s"
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 172.104.80.248
   sni: hhcm.hhxaf.cc.cd
   type: trojan
   ws-opts:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 21.11MB/s"
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.1.194
-  skip-cert-verify: true
-  sni: global.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn-s2.global.ssl.fastly.net
-    path: /ed=mitivpn
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1E8\U0001F1F3 TW 001 | ⬇️ 15.46MB/s"
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 213.210.4.19
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
-- client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 JP 003 | ⬇️ 15.08MB/s"
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 188.253.118.174
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 JP 004 | ⬇️ 9.51MB/s"
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 23.176.40.103
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1EF\U0001F1F5 JP 005 | ⬇️ 7.02MB/s"
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 153.121.76.150
-  servername: s5.868001.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23cb9aa7-9756-459f-aa84-3a27bdf6ad64
-  ws-opts:
-    headers:
-      Host: s5.868001.xyz
-    path: /proxyip=ProxyIP.CMLiussss.net
