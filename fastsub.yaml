@@ -1,2 +1,18 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 24.32MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
+    short-id: 0f4dacf88202e05f
+  server: 142.91.108.139
+  servername: jp.api-yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
