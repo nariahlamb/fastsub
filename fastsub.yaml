@@ -1,2 +1,44 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 001 | ⬇️ 16.97MB/s"
+  network: ws
+  port: 62051
+  server: 154.12.50.89
+  tls: false
+  type: vmess
+  uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd
+  ws-opts:
+    headers: {}
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 002 | ⬇️ 16.07MB/s"
+  network: ws
+  port: 37215
+  server: 154.12.50.89
+  tls: false
+  type: vmess
+  uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd
+  ws-opts:
+    headers: {}
+    path: /
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 5.95MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 29746
+  reality-opts:
+    _spider-x: /
+    public-key: s1u_Iy1x_b1Ph9Tp3a7xdekHcbcqGy7VA4BpQtJ-mE0
+    short-id: 86c4bf418676a6e2
+  server: 54.169.248.107
+  servername: www.intel.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fd28704-112e-4451-8c5f-d6657f8ecf44
