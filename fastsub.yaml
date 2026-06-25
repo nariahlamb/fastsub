@@ -1,40 +1,8 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: edge
-  encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 10.47MB/s"
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 31.76.91.31
-  servername: jp.s3-cloud.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 8.46MB/s"
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 31.76.91.25
-  servername: jp.s3-cloud.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 003 | ⬇️ 5.87MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 31.17MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -47,3 +15,48 @@ proxies:
   type: vless
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 30.66MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 31.76.91.25
+  servername: jp.s3-cloud.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 29.30MB/s"
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.193.242
+  skip-cert-verify: false
+  sni: f6r.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: f6r.ir
+    path: /usa=mitivpn
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 29.14MB/s"
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.1.242
+  skip-cert-verify: false
+  sni: www.f6r.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.f6r.ir
+    path: /de=mitivpn
