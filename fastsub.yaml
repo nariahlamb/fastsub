@@ -1,17 +1,9 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 26.21MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 14.30MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 10.47MB/s"
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -27,13 +19,28 @@ proxies:
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 12.41MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 8.46MB/s"
   network: tcp
   port: 443
   reality-opts:
     public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
     short-id: 7a3f9e2b1c8d4f6a
   server: 31.76.91.25
+  servername: jp.s3-cloud.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: "\U0001F1EF\U0001F1F5 JP 003 | ⬇️ 5.87MB/s"
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 31.76.91.29
   servername: jp.s3-cloud.org
   skip-cert-verify: true
   tls: true
