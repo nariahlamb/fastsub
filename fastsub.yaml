@@ -2,7 +2,7 @@ proxy-providers: {}
 proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 31.17MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 36.55MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -17,7 +17,7 @@ proxies:
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 30.66MB/s"
+  name: "\U0001F1EF\U0001F1F5 JP 002 | ⬇️ 30.16MB/s"
   network: tcp
   port: 443
   reality-opts:
@@ -30,33 +30,3 @@ proxies:
   type: vless
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 29.30MB/s"
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.193.242
-  skip-cert-verify: false
-  sni: f6r.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: f6r.ir
-    path: /usa=mitivpn
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 002 | ⬇️ 29.14MB/s"
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 151.101.1.242
-  skip-cert-verify: false
-  sni: www.f6r.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.f6r.ir
-    path: /de=mitivpn
