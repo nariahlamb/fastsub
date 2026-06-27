@@ -1,10 +1,25 @@
 proxy-providers: {}
 proxies:
-- cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 18.97MB/s"
-  password: "123"
-  port: 1001
-  server: 61.171.92.202
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 26.28MB/s"
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
   skip-cert-verify: false
-  type: ss
-  udp: false
+  sni: cdn.gamingdll.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn.gamingdll.ir
+    path: /de=mitivpn
+- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.32MB/s"
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: 56168
+  server: d1.catcat321.com
+  skip-cert-verify: true
+  sni: d.usj1.cat.bilibili.com
+  type: trojan
