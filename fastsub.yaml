@@ -1,2 +1,10 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 001 | ⬇️ 18.97MB/s"
+  password: "123"
+  port: 1001
+  server: 61.171.92.202
+  skip-cert-verify: false
+  type: ss
+  udp: false
