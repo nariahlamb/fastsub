@@ -3,7 +3,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 26.28MB/s"
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 28.61MB/s"
   network: ws
   password: Mitivpn
   port: 443
@@ -15,11 +15,35 @@ proxies:
     headers:
       Host: cdn.gamingdll.ir
     path: /de=mitivpn
-- name: "\U0001F1EF\U0001F1F5 JP 001 | ⬇️ 8.32MB/s"
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.72MB/s"
   network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 56168
-  server: d1.catcat321.com
-  skip-cert-verify: true
-  sni: d.usj1.cat.bilibili.com
-  type: trojan
+  packet-encoding: xudp
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: 97a01dfaef
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 8.55MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14009
+  reality-opts:
+    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
+    short-id: 6a1a47
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
