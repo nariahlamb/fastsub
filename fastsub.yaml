@@ -1,45 +1,29 @@
 proxy-providers: {}
 proxies:
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 28.61MB/s"
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: cdn.gamingdll.ir
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cdn.gamingdll.ir
-    path: /de=mitivpn
-- client-fingerprint: safari
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 10.72MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 14.44MB/s"
   network: tcp
-  packet-encoding: xudp
-  port: 14005
+  port: 14003
   reality-opts:
-    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
-    short-id: 97a01dfaef
+    public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
+    short-id: "80963776"
   server: vip.bcjdvip.com
   servername: apple.com
-  skip-cert-verify: false
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-- client-fingerprint: safari
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 8.55MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 7.80MB/s"
   network: tcp
   packet-encoding: xudp
-  port: 14009
+  port: 14008
   reality-opts:
-    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
-    short-id: 6a1a47
+    public-key: WQP0QFc9RlOg7TDAI2i_VNQEtFwB_5kE5AKykeIipm0
+    short-id: 8e5d94464f
   server: vip.bcjdvip.com
   servername: apple.com
   skip-cert-verify: false
