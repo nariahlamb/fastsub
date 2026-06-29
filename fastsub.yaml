@@ -1,14 +1,46 @@
 proxy-providers: {}
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.20MB/s"
+  encryption: none
+  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 22.04MB/s"
   network: tcp
   packet-encoding: xudp
-  port: 14006
+  port: 40701
   reality-opts:
-    public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
-    short-id: ff5ebee2264c
+    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
+    short-id: 7ef3a8ab2886
+  server: 43.108.48.169
+  servername: amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.11MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14010
+  reality-opts:
+    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+    short-id: 1ebaa8ea57a71ffc
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 5.99MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14009
+  reality-opts:
+    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
+    short-id: 6a1a47
   server: vip.bcjdvip.com
   servername: apple.com
   skip-cert-verify: false
