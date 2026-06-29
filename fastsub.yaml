@@ -1,2 +1,18 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 6.20MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14006
+  reality-opts:
+    public-key: XPLe-686APp5RHaiFHZDTJsf1kMo-aMZuKjKeHmdyEM
+    short-id: ff5ebee2264c
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
