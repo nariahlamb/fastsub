@@ -1,24 +1,86 @@
 proxy-providers: {}
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: "\U0001F1F0\U0001F1F7 KR 001 | ⬇️ 22.04MB/s"
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 CA 001 | ⬇️ 23.30MB/s"
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: cdn.gamingdll.ir
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn.gamingdll.ir
+    path: /de=mitivpn
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 17.38MB/s"
   network: tcp
   packet-encoding: xudp
-  port: 40701
+  port: 14002
   reality-opts:
-    public-key: TWuVILeiSXfCSMZPsqNHtRquNALPRaW5Z51I63zdLEA
-    short-id: 7ef3a8ab2886
-  server: 43.108.48.169
-  servername: amazon.com
+    public-key: D4eZTpgaPV_2YQa7cbiDMGnZs6NBEU2JkfUroHpvoWs
+    short-id: 7cabb05b68f63b
+  server: vip.bcjdvip.com
+  servername: apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: cdb7d825-9892-4d6f-80b8-7add83159dac
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 16.02MB/s"
+  network: tcp
+  port: 14003
+  reality-opts:
+    public-key: bHHdXJs2NGgY4tDUBwmoLBaKM7y_5sd49geQcdbihz0
+    short-id: "80963776"
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 003 | ⬇️ 15.61MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14007
+  reality-opts:
+    public-key: wybFjQzLnkKIaaTEhwp_N9UXU8miqds9U__P971YHlU
+    short-id: 1d89ebb78c
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: "\U0001F1ED\U0001F1F0 HK 004 | ⬇️ 15.56MB/s"
+  network: tcp
+  packet-encoding: xudp
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: 97a01dfaef
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 001 | ⬇️ 8.11MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 005 | ⬇️ 10.20MB/s"
   network: tcp
   packet-encoding: xudp
   port: 14010
@@ -34,13 +96,13 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: "\U0001F1ED\U0001F1F0 HK 002 | ⬇️ 5.99MB/s"
+  name: "\U0001F1ED\U0001F1F0 HK 006 | ⬇️ 7.37MB/s"
   network: tcp
   packet-encoding: xudp
-  port: 14009
+  port: 14001
   reality-opts:
-    public-key: CAFHM6x5kO2ofkpEDelcOJlZ4i6Kw4ZlDNIfdV6ptUw
-    short-id: 6a1a47
+    public-key: Iy9qptuQLY7JphySdvf09hOBj6Ym76Sxj1rIwS4Qmnk
+    short-id: "16"
   server: vip.bcjdvip.com
   servername: apple.com
   skip-cert-verify: false
