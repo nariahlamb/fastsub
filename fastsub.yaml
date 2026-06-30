@@ -1,2 +1,18 @@
 proxy-providers: {}
-proxies: []
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG 001 | ⬇️ 9.72MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.95
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: "\U0001F1F8\U0001F1EC SG 002 | ⬇️ 7.18MB/s"
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.95
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
